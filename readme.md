@@ -79,7 +79,7 @@ To reproduce the analysis:
 
 ## Requirements
 
-(To be added: list of required Python packages and versions, Stata version)
+openai==1.59.8
 
 ## Citation
 
