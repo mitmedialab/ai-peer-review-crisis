@@ -1,0 +1,590 @@
+Monetary union effects on high inflation episodes
+
+Abstract
+This paper analyses whether monetary union membership reduces the duration of high inflation episodes (HIEs). The study uses survival models estimated on a sample of 190 countries over the period 1950M01 to 2022M12. The results show that despite the often-cited issue of the heterogeneity of member countries, monetary unions significantly reduce the duration of HIEs, but not deflation episodes. This result remains robust to a battery of tests and is valid for both developed and developing countries. Furthermore, the results show that giving up monetary sovereignty in favour of an independent common central bank is more effective in terms of price stability than adopting inflation targeting. However, for countries seeking to preserve their monetary sovereignty, inflation targeting remains the best option for reducing the duration of HIEs. This performance of monetary unions in terms of price stability appears to be linked to the greater de facto independence of their central banks, the adoption of supranational fiscal rules, and the incentives to preserve the durability of the currency area. However, estimates show that the capacity of a monetary union to limit HIEs among its members diminishes as it expands to include new countries.
+
+1 INTRODUCTION
+Inflation is one of the major economic phenomena widely documented in the economic literature. In recent years, the Covid-19 pandemic and the Russian–Ukrainian crisis have laid the foundations for a new spiral of inflation, food and energy crises, and a resurgence of geopolitical tensions. These crises have brought price stability issues back to the headlines. Concerns about rising inflation have once again become a priority on the agendas of political authorities and central banks in both developed and developing countries (Harding et al. 2023; Garriga and Rodriguez 2023; Bobeica and Hartwig 2023; Agur et al. 2022). They are still justified given the economic and social costs of high inflation. Indeed, high inflation is likely to weaken economic activity by blurring the transparency of relative prices (Woodford 2003; Fischer 1993). Even if temporary, continued price increases can disrupt the efficient allocation of resources and productivity growth (Aksoy et al. 2017). The uncertainty created by inflation undermines long-term decision-making and discourages saving (Greenwood et al. 1997), by redistributing income and thus reducing consumption (Feldstein 1999; Albanesi 2007). Rampant inflation also contributes to eroding financial stability (Wright 2011; Schwartz 1995). In addition, output and unemployment are also likely to be negatively affected by the policies needed to put an end to high inflation episodes (HIEs) (Blanchard and Gali 2007).
+
+Given the high costs of inflation, several monetary policy strategies have been implemented to achieve price stability in the past, ranging from exchange rate targeting, within the framework of the Bretton Woods fixed exchange rate system, to monetary targeting, which stipulates an increase in monetary aggregates compatible with the trend in economic activity. However, with the collapse of the Bretton Woods fixed exchange rate system (Gold Exchange Standard) and the questionable results of monetary targeting, several countries, following New Zealand, adopted inflation targeting (Fischer 2001; Masson et al. 1997; Guo and Lim 2024). According to Bernanke and Mishkin (1997), inflation targeting is a monetary policy framework whose main advantage is to increase the transparency and consistency of policy, by requiring the central bank to use all relevant information to determine the monetary policy measure most likely to achieve the inflation target. The adoption of inflation targeting has been credited with reducing inflation and its volatility in several countries (Corbo et al. 2001; Levin et al. 2004; Neumann and von Hagen 2002). However, for some developed countries, studies by Ball and Sheridan (2005), Bernanke et al. (2001) and Lin and Ye (2007) show that the move to inflation targeting in the 1990s was not always accompanied by a significant fall in inflation or its volatility. The adoption of a monetary regime characterized by inflation targeting is therefore not a panacea, and its effectiveness would depend on the characteristics of the country, in particular the fiscal situation and the experience acquired in its implementation (Mishkin 2008; Lin and Ye 2009).
+
+In addition to exchange rate targeting, monetary targeting and inflation targeting, the integration of a monetary union is seen as an effective therapy to deal with the calamity of high and persistent inflation. Indeed, a country's participation in a monetary union whose independent central bank aims for price stability eliminates the inflationary bias of its monetary policy (Alesina and Barro 2002). Other authors, such as Blinder et al. (2008) and Gros and Bini-Smaghi (2011), have argued that the accountability and transparency of a common central bank contribute to the predictability of monetary policy decisions, which in turn helps to anchor price expectations. Building on these advantages, Angeloni and Ehrmann (2003) and van der Cruijsen and Demertzis (2007) have shown for the case of the European Central Bank (ECB) that monetary policy effectiveness has improved with better transmission of monetary policy shocks. Furthermore, the theory of optimal currency areas also highlights the gains linked to the reduction in transaction costs and the development of trade (Obstfeld and Roggoff 1996; Frankel and Rose 1997). However, the main costs of monetary union integration are not negligible. On the one hand, the union member country loses its monetary sovereignty by giving up the possibility of using its monetary policy to respond to internal macroeconomic disturbances. On the other hand, it gives up the possibility of using inflation to reduce the real burden of public debt (Broz 2005). These costs become more relevant and significant as the member countries of the union are subject to asymmetric shocks and asynchronous economic cycles (Frankel and Rose 1997). The heterogeneity of the member countries of the union may reduce the expected gain in price stability, especially as the price stability objective of the monetary union is formulated for the union as a whole and not for individual countries. Moreover, according to the theory of optimal currency areas, the persistence of inflation rate differentials may call into question the sustainability of the monetary union (Corden 1972). It follows that the whole issue of this study boils down to these two questions. Does membership of a monetary union contribute to price stability in member countries? Is the integration of a monetary union more effective in terms of reducing inflation than other strategies, in particular the adoption of inflation targeting?
+
+The aim of this paper is to assess the effects of monetary unions on the price stability of member countries using an innovative approach: the survival analysis of HIEs. The study attempts to assess the effectiveness of monetary unions in terms of price stability compared with other monetary policies designed to curb inflation, more specifically inflation targeting. It investigates whether membership of a monetary union affects the average duration of HIEs. In fact, HIE refer to the fact that inflation rates remain high above a threshold for a certain period in an economy (Dornbusch and Fischer 1993; Fischer et al. 2002; Abderrezak 2006; Guo and Lim 2024). Survival analysis is a method used frequently in medicine, engineering and statistics to analyse the expected duration of an event. Hence this approach is particularly suitable for analysing the effect of monetary unions on HIEs, and for comparing the effectiveness of monetary union integration in terms of inflation control against other price stability strategies, in particular the adoption of inflation targeting.
+
+This paper adds to the literature on the effects of monetary unions on price stability. The focus has largely been on inflation persistence based on the case study of the euro area (Meller and Nautz 2009; Beechet and Osterholm 2009; O'Reilly and Whelan 2005; Angeloni et al. 2006; Caporale et al. 2012). According to Fuhrer (2010), inflation persistence means that the rate of change in the price level tends to remain constant in the absence of an economic force moving it away from its current level. Preliminary assessments of the effect of the eurozone on inflation persistence have shown no impact from the creation of this monetary union (Angeloni et al. 2006). These results are similar to those of Franks et al. (2018), who also show that before the adoption of the euro there was significant convergence in inflation rates, but since then they have not converged further. In particular, they find that the variation in price levels between member countries did not change significantly over the first 15 years of the eurozone. On the other hand, Aucremanne et al. (2009) find that the first ten years of the eurozone were characterized by a high degree of price stability and low persistence of inflation, and that inflation even declined. However, when it came to price convergence between eurozone countries, the results suggested that the monetary union had no impact. Along the same lines, panel estimates by Meller and Nautz (2009) confirm that the degree of persistence of long-term inflation has fallen because of the effectiveness of ECB monetary policy. Beechet and Osterholm (2009) and Caporale et al. (2012) reach similar conclusions.
+
+The paper fills the gap in this literature by exploring the effect of monetary unions on price stability using survival models rather than analysing inflation persistence. Admittedly, the analysis of inflation persistence has the advantage of assessing whether inflation is temporary or permanent. However, it assesses only the mean-reversion behaviour of inflation, which may itself (average inflation) be high or low depending on the country and the study period. Furthermore, accurately assessing the microeconomic and macroeconomic costs of inflation is a difficult task. However, it can be inferred that these costs are proportional to the level of inflation but also to the duration of the HIE. Yet most work on inflation focuses on the level of inflation, and little heed is paid to the costs associated with the duration of HIEs. Survival analysis of HIEs offers several advantages that can enrich the existing literature. First, it makes it possible to estimate the average time for the inflation rate to return below a defined threshold. Second, it also makes it possible to estimate the probability of ending an HIE conditional on monetary union participation. Third, this approach allows the comparison of the survival functions of HIEs under different price stability monetary policy regimes. This approach was used by Guo and Lim (2024) to analyse the effect of inflation targeting on price stability. Although our paper uses the same approach, it differs from that of Guo and Lim (2024) in that it focuses on monetary unions. Furthermore, our study goes further by comparing the adoption of inflation targeting and the integration of a monetary union in terms of price stability, using a larger sample.
+
+The study makes several contributions to the literature.
+
+First, using a sample of 190 countries, including 40 members of monetary unions, and high-frequency data from 1950M01 to 2022M12, the paper shows that participation in a monetary union triples the probability of exiting an HIE. This result is robust to a battery of tests and appears to be valid for both developing and developed economies.
+
+Second, the study deepens the analysis by exploring the role played by the type of exchange rate regime, the adoption of fiscal rules, the implementation of an inflation-targeting monetary policy, and the role of central bank independence in the duration of HIEs. It shows that of all the fiscal rules (tax revenue rules, government expenditure rules, budget balance rules and debt rules), debt rules are more effective in achieving price stability objectives by reducing HIE duration. Regarding exchange rate regimes, the results show that countries with a crawling peg regime and those with a managed float regime are more exposed to relatively long HIEs than those with flexible or fixed exchange rate regimes. In addition, the adoption of inflation targeting helps to reduce the likelihood of HIEs lasting. The de facto independence of central banks is a key factor in shortening the duration of HIEs.
+
+Third, the study compares the effects of adopting inflation targeting with those of participating in a monetary union. The analysis shows that monetary unions are more effective in achieving the objective of price stability than the adoption of inflation targeting. However, for countries seeking to preserve their monetary sovereignty, inflation targeting remains the best option for reducing the duration of HIEs. These results are robust to several sensitivity tests and remain valid for both the developed and developing country samples.
+
+Fourth, the paper explores the effects of some characteristics of monetary unions (homogeneity of member countries and the size of the union) on the duration of HIEs. The paper shows that the effectiveness of monetary unions in ensuring the price stability of member countries decreases as the number of member countries in the currency area increases.
+
+Finally, the paper extends the analysis to deflationary episodes and highlights that monetary unions are better at reducing HIEs than deflationary episodes. The high performance of monetary unions in terms of price stability appears to be linked to the greater de facto independence of their central banks, the adoption of supranational budgetary rules, and incentives to preserve the durability of the monetary zone.
+
+The rest of the paper is structured as follows. Section 2 defines the concept of an HIE before introducing the data and stylized facts. The empirical approach of the study is presented in Section 3. The results and their interpretations are presented in Section 4. Section 5 concludes.
+
+2 DEFINITIONS AND STYLIZED FACTS
+This section introduces the concept of an HIE and its characteristics before presenting the study sample, the data and some stylized facts.
+
+2.1 High inflation episodes
+The analysis of HIEs encounters several challenges: identifying on the one hand, the minimum threshold above which inflation can be considered high, and on the other, the maximum threshold beyond which the episode is considered a hyperinflationary phenomenon. In the literature, the minimum threshold that defines hyperinflation varies from 50% per month to 1000% annual inflation (Frankel 2010; Dornbusch et al. 1990; Sachs 1987). According to Cagan (1956), an episode of hyperinflation is defined as a period beginning with the month in which the inflation rate exceeds 50% (per month) and ending with the month in which it falls below the same monthly rate. Dornbusch and Fischer (1993) distinguish between HIEs starting from an annual rate of 40% and episodes of moderate inflation for rates between 15% and 30%. Easterly (1996) follows the minimum threshold of an annual rate of 40% proposed by Dornbusch and Fischer (1993) to identify HIEs. For Fischer et al. (2002), an episode of very high inflation is defined as a period during which the inflation rate over twelve months exceeds the lower limit of 100%.
+
+The arbitrary nature of the proposed thresholds has led some authors to propose an alternative definition of HIEs. Boschen and Weise (2003) and Bowdler and Nunziata (2006) use the Ball (1994) definition of trend inflation to define HIEs as follows. Trend inflation is first calculated as the nine-quarter centred moving average of quarterly inflation. Using this series, the second step is to identify the trough (peak) dates in inflation dynamics as the dates on which trend inflation is lower (higher) than in the four preceding and following quarters. An HIE is then defined as the period during which core inflation increases by at least 2% between the trough and the peak, and which is preceded by at least four quarters of stagnating or falling inflation. A simpler statistical approach has been proposed by Guo and Lim (2024) in their study of the effect of the adoption of inflation targeting on HIEs. The minimum threshold considered in this study is the sample average of the upper bounds of the inflation targets of the inflation-targeting countries.
+
+The approach proposed in the present study is similar to that of Guo and Lim (2024). First, it consists of isolating and removing from the sample episodes of hyperinflation over the study period, based on the minimum monthly inflation rate threshold of 50% proposed by Cagan (1956). The minimum threshold for identifying HIEs is then calculated by taking the median of the positive values (below 50%) of the inflation rate in the sample. The second element required to define HIEs is the minimum duration of the episode. While the Cagan (1956) definition does not explicitly define a minimum duration, Fischer et al. (2002) and Boschen and Weise (2003) suggest a minimum duration of one year. Guo and Lim (2024) derive a minimum duration of three quarters by taking the average of the estimated half-lives of the inflation rates in the sample. Given the absence of consensus noted in the literature, this paper adopts the approach of Cagan (1956) by avoiding imposing a constraint on the minimum duration of HIEs. This choice is justified by the need to have a sufficiently large number of observations for monetary unions in order to have an adequate degree of freedom for the estimates. Based on these methodological choices, an HIE is defined as a period beginning with the month in which the monthly inflation rate exceeds the sample median, and ending with the month in which it falls below the same threshold. Given the arbitrary nature of these thresholds (maximum and minimum), the study tests the robustness of the results by exploring alternative thresholds.
+
+Monthly inflation rate data are taken from the IMF's Consumer Price Index (CPI) database. The use of monthly data has the advantage of highlighting trends that cannot be captured by annual data. The study covers a sample period from 1950M01 to 2022M12. A total of 190 countries are included in the database, 138 of which are developing countries. In addition, the database covers 40 member countries of monetary unions: 19 countries of the eurozone, 8 countries of the West African Economic and Monetary Union (WAEMU), 6 countries of the Economic and Monetary Community of Central African States (CEMAC) and 7 countries of the Eastern Caribbean Currency Union (ECCU). It is important to note that the study does cover the period from 1950M01 to 2022M12. However, data are not available for this entire period for all countries. The longest coverage is for Canada, from 1950M01 to 2022M12, and the shortest is for Argentina, from 2017M01 to 2022M12. For some monetary unions in the sample, notably WAEMU, CEMAC and ECCU, monthly inflation data prior to the formation of the monetary union (1962, 1972 and 1965, respectively) are not available. However, for the eurozone (19 countries), data before and after the adoption of the single currency are available, making it easier to identify the effect of a monetary union. These disparities in data coverage can lead to censoring of the duration of some HIEs. However, the survival models effectively accommodate the various forms of censorship when estimating the parameters. A list of countries in the sample and their sampling periods is available in Table A1 of the Appendix.
+
+2.2 Stylized facts
+This subsection presents some stylized facts about inflation and HIEs based on some descriptive statistics and survival analysis. Figure 1 shows that the sample average of monthly inflation rates is always lower in monetary unions than in other countries, both in the overall sample and in the subgroups of countries. Moreover, these averages are lower in the monetary unions of developed economies (0.45%) than in those of developing countries (0.67%). This discrepancy in averages across groups of countries will have implications for the survival analysis of their HIEs.
+
+Details are in the caption following the image
+FIGURE 1
+Open in figure viewer
+PowerPoint
+Average monthly inflation rate by monetary union membership and level of development.
+Notes: Averages have been calculated on positive values and values below 50% of inflation rates.
+
+Source: Author based on IMF data.
+
+Survival analysis is a statistical technique used to model the time required for an event to occur, given a set of determining factors. It is based on the concepts of the survival function and the hazard function. In this study, survival is defined as the situation in which inflation rates remain above the hypothetical threshold (
+), that is, the median of positive values (below 50%) of inflation rates in the sample. Exit is defined as the situation in which inflation rates fall below this threshold.
+
+Let us assume that countries can enter HIEs over a given time interval. Let 
+ be the duration of an HIE, a random variable with density function 
+ and distribution function 
+. The survival function 
+ corresponds to the probability that the HIE will last beyond the period 
+. It is expressed as
+(1)
+The non-parametric approach to survival analysis is used to estimate and graph the survival function when no assumptions are made about the distribution of 
+. The estimator most commonly used in this context is that of Kaplan and Meier (1958), also known as the product-limit estimator. This estimator corresponds to the non-parametric maximum likelihood estimator of 
+. It incorporates information from all available observations, both censored and uncensored, since survival to any point in time is considered as a series of steps defined by the observed survival times and censored times. More precisely, the estimator is defined as
+ 
+ 
+(2)
+where 
+ represents the number of HIEs at each time 
+, that is, the total number of HIEs still in progress at that date. The variable 
+, on the other hand, represents the total number of HIEs that have ended at period 
+. In particular, the variable 
+ excludes episodes that are right-censored at time 
+. The estimate of the survival function 
+ is the multiplication of all conditional survival probabilities at each 
+ observed for 
+. At each time 
+, one or more HIEs may end.
+The unconditional survival function for HIEs based on the Kaplan-Meier (1958) estimator is presented in Figure 2. The hypothetical threshold (
+) is evaluated at 0.55%, that is, an annual inflation rate of 6.6%. Figure 2A shows for the full sample how the estimated probability 
+ of exiting an HIE decreases over time. What interests us most is whether membership of a monetary union has positive effects on reducing the duration of HIEs. To address this question, Figure 2B compares the survival functions of HIEs for countries in a monetary union with those for other countries. It shows the speeds at which countries exit from HIEs depending on whether they belong to a monetary union. The red and blue lines represent, respectively, the survival functions of countries that are members of a monetary union and those that do not have a common currency. Moreover, the blue line is above the red line at any given point in time, which means that the probability of staying in HIEs is higher for countries that are not members of a monetary union. In other words, the speed at which monetary unions restore the inflation rates of their members to an acceptable level is significantly higher than that of countries with monetary independence. These results imply that participation in a monetary union reduces the duration of HIEs. They remain valid when the analysis is carried out on the subsamples of developed countries, developing countries, OECD countries and low-income countries (Figures 3A, 3B, 3C and 3D).
+
+Details are in the caption following the image
+FIGURE 2
+Open in figure viewer
+PowerPoint
+Survival function of HIEs by monetary union membership.
+Notes: The hypothetical threshold (
+) is evaluated at 0.55%, i.e. an annual inflation rate of 6.6%.
+
+Source: Author based on IMF data.
+
+Details are in the caption following the image
+FIGURE 3
+Open in figure viewer
+PowerPoint
+Survival function of HIEs by country group.
+Notes: The hypothetical threshold (
+), i.e. the median of the positive values (less than 50%) of the monthly inflation rates in the sample, is evaluated at 0.55%, i.e. an annual inflation rate of 6.6%.
+
+Source: Author based on IMF data.
+
+In addition, information on the Kaplan–Meier survival functions is summarized numerically by the median and mean survival times. The median survival time is defined as
+(3)
+This indicates the number of months after which exactly 50% of HIEs are expected to still be ongoing. If we denote 
+ as the maximum observed survival time, then the mean survival time 
+ is defined as
+(4)
+Table 1 shows that the median and average duration of HIEs are lower in countries participating in a monetary union than in countries with an independent monetary policy. For example, the median duration of HIEs varies between 3 and 4 months in monetary unions compared to 50 and 204 months in other countries, depending on their income levels. HIEs last on average between 5 and 7 months, compared with 30 and 137 months for other countries.
+
+TABLE 1. Median and average duration of HIEs by country groups.
+Median	Mean	Observations
+Full sample			
+Monetary union	3.00	5.54	694
+Non monetary union	204.00	126.92	12,290
+High-income countries			
+Monetary union	3.00	5.04	282
+Non monetary union	105.00	65.46	3995
+Developing countries			
+Monetary union	3.00	5.52	412
+Non monetary union	204.00	133.27	8295
+OECD countries			
+Monetary union	3.00	5.18	243
+Non monetary union	204.00	136.27	5100
+Low-income countries			
+Monetary union	4.00	6.23	280
+Non monetary union	50.00	29.99	1192
+Notes: The hypothetical threshold (
+), i.e. the median of the positive values (below 50%) of the monthly inflation rates in the sample, is evaluated at 0.55%, or an annual inflation rate of 6.6%.
+Source: Author's calculations based on IMF data.
+The graphical comparison of survival functions can be reinforced by econometric tests. These tests can be used indirectly to compare the means and medians of HIEs depending on whether the country is a member of a monetary union. The present study makes use of the log-rank and Wilcoxon tests for this purpose. The difference between the two tests is that the log-rank test gives greater weight to the more distant time horizons, whereas the Wilcoxon test gives greater weight to the nearer time horizons. Table 2 presents the results of the log-rank and Wilcoxon tests. It shows that whatever the group of countries considered, the observed events are much higher than the expected events. This difference is sufficiently high to produce zero critical probabilities for the chi-squared tests. The hypothesis of equality between the survival functions of HIEs in member countries of monetary unions and those of other countries is rejected. In other words, the median and average duration as well as the probability of an HIE lasting are statistically lower in the monetary union countries than in the other countries.
+
+TABLE 2. Comparison tests of survival functions of HIEs by country group.
+Log-rank test	Wilcoxon test
+Observed events	Expected events	Chi-squared statistic	Probability	Chi-squared statistic	Probability
+Full sample						
+Monetary union	422.00	124.28	840.00	0.000	759.46	0.000
+Non monetary union	3266.00	3563.72				
+Total	3688.00	3688.00				
+High-income countries						
+Monetary union	179.00	63.61	259.36	0.000	238.99	0.000
+Non monetary union	1231.00	1346.39				
+Total	1410.00	1410.00				
+Developing countries						
+Monetary union	243.00	64.51	567.98	0.000	507.34	0.000
+Non monetary union	2035.00	2213.49				
+Total	2278.00	2278.00				
+OECD countries						
+Monetary union	155.00	39.90	386.46	0.000	368.40	0.000
+Non monetary union	1234.00	1349.10				
+Total	1389.00	1389.00				
+Low-income countries						
+Monetary union	151.00	59.56	186.41	0.000	171.46	0.000
+Non monetary union	318.00	409.44				
+Total	469.00	469.00				
+Notes: The hypothetical threshold (
+), i.e. the median of the positive values (below 50%) of the monthly inflation rates in the sample, is evaluated at 0.55%, or an annual inflation rate of 6.6%.
+Source: Author's calculations based on IMF data.
+Non-parametric survival analysis has the advantage of describing empirical survival functions and estimating mean and median durations of HIEs according to well-identifiable binary characteristics. However, when the explanatory variables can take on several values or change over time, it becomes necessary to use semi-parametric and parametric survival models.
+
+3 COX MODEL
+The aim of this paper is on the one hand, to analyse the effect of membership of a monetary union on the survival of HIEs, and on the other hand, to assess the effectiveness of monetary unions compared to alternative monetary policy strategies aimed at price stability. For this purpose, it is important to isolate the effects of other control variables. Semi-parametric survival analysis offers this possibility. It focuses on the concept of the hazard function or default rate 
+. This represents, in the case of this study, the instantaneous probability that an HIE will come to an end at time 
+, given that it has lasted for all the periods preceding 
+ conditional on a control variable vector 
+. Formally, the default rate can be written as
+ 
+ 
+ 
+(5)
+The Cox (1972) model assumes that the default rate 
+ is the product of two elements: the first is a so-called baseline hazard function, identical for all countries and depending only on time, while the second is a function of country characteristics and, more generally, of the explanatory variables used. The advantage of this model is that it makes no assumptions about the distribution of the duration of HIEs, which makes the estimates robust. It is specified as
+ 
+(6)
+where 
+ are unknown parameters that represent sensitivities to the variables of interest, and 
+ is the baseline hazard function common to all economies, which is not assumed to follow any distribution. The variables 
+ act multiplicatively on the default rate. An estimated value 
+ indicates that an increase in the variable 
+ leads to an increase in the probability of exiting an HIE and a decrease in the survival time. Specifically, a one-unit increase in the explanatory variable 
+ leads to a percentage increase in the default rate by about 
+ so that 
+ coefficients represent semi-elasticities of the default rate to a change in the variable 
+.
+The dependent variable is the time to exit an HIE, the length of time inflation has been above the sample median. The exit from an HIE is captured by a dummy variable that is equal to 1 during the month in which the exit from the episode occurred, and 0 otherwise. The variable of interest in the study is membership of a monetary union (
+), a dummy variable that takes the value 1 from the moment a country is a member of a monetary union, and 0 otherwise. It is also equal to 0 for countries that are not members of a monetary union. The decision to form a monetary union may be motivated by long HIEs, making the use of instrumental variable techniques necessary to solve endogeneity issues. However, this approach is relatively new to survival analysis. Moreover, identifying the appropriate instruments is particularly difficult as the monetary union variable is a dummy variable, and decisions to join or leave a monetary union are not frequent. Notwithstanding these points, the study considers that it is currency unions that influence HIEs, and not the other way round. Indeed, the duration of HIEs is not the main reason for the formation of a monetary union. The formation of a monetary union is more motivated by political, historical and cultural factors than by reducing the duration of HIEs (Rose 2000). This is the case, for example, for WAEMU, CEMAC and ECCU, which were created in the context of decolonization. Furthermore, for economic motivations, the development of trade, the elimination of exchange rate volatility and economic growth take precedence over the reduction in the duration of HIEs when it comes to the formation of a monetary union. In the case of the eurozone, it is difficult to argue that its formation was motivated primarily and solely by the reduction of HIEs. With regard to the analysis of stylized facts, a positive sign is expected for its coefficient (
+) following the idea that the integration of a monetary union increases the probability of shortening HIEs. As this variable is binary, it follows that the relative probability of exiting an HIE or the risk ratio between the two groups is given by
+ 
+(7)
+The other control variables are world inflation, the nominal exchange rate with the US dollar, and the country's real GDP growth rate (Guo and Lim 2024). A dummy variable is also included to distinguish developed from developing countries. The 
+ parameters of model (6) are estimated by maximizing the logarithmic form of the partial likelihood function. Standard errors are clustered at the country level since several HIEs can be recorded at the country level (Lin and Wei 1989; Cleves 2000).
+
+Monthly data on nominal exchange rates in US dollar come from the IMF's International Financial Statistics (2023). Macroeconomic data on the annual growth rate of real GDP and global inflation are taken from the World Bank's World Development Indicators (2023). A list of all the variables in the study and their sources is presented in Table A4 in the Appendix.
+
+4 RESULTS
+This section presents the results of the estimation of the Cox proportional hazard model and the robustness tests. Additional analyses are carried out to address the research questions.
+
+4.1 Baseline
+Baseline estimation results are presented in Table 3. The variables are included successively in the model. Column (6) shows the preferred model, including all control variables. The coefficients of the monetary union variable are statistically significant at 1% in all regressions, with an expected positive sign and in line with the non-parametric analysis in the previous section. The estimated coefficient is 1.0789, which means that the hazard ratio for countries participating in a monetary union to exit an HIE is equal to 2.9414 (
+). In other words, monetary unions on average triple the probability of ending an HIE relative to other countries. To illustrate, the average duration of HIEs was reduced from 6.10 months to 2.74 months before and after Greece joined the eurozone. In the case of Italy, this average declined from 23.99 months over the period 1955M01 to 1998M12, to 2.5 months after the adoption of the euro (1999M01 to 2022M12). Membership of a monetary union therefore helps to stabilize the inflation rate in a relatively shorter time frame, which helps to avoid the costs of high inflation for member countries. These results are similar to those of some studies that have examined the specific case of the European Monetary Union (EMU)–Aucremanne et al. (2009), Meller and Nautz (2009), Beechet and Osterholm (2009) and Caporale et al. (2012). Indeed, these authors show that the introduction of the euro increased price stability by reducing inflation persistence. They attribute these results to the effectiveness of ECB monetary policy.
+
+TABLE 3. Estimation results of the Cox proportional hazard model: monetary union effect on HIEs.
+Variables	(1)	(2)	(3)	(4)	(5)	(6)
+Monetary union	1.4941***	1.4647***	1.4785***	1.4867***	1.4669***	1.0789***
+(0.133)	(0.151)	(0.135)	(0.130)	(0.130)	(0.159)
+World inflation		−0.1427***				−0.2005***
+(0.026)				(0.026)
+Exchange rate			−0.0000			−0.0000
+(0.000)			(0.000)
+Growth rate				0.0351***		0.0350***
+(0.008)		(0.009)
+High-income country					0.3053*	1.1506***
+(0.163)	(0.160)
+Observations	12,984	10,641	12,556	11,478	12,984	9496
+Observations of monetary union	694	694	694	643	694	643
+Number of countries	186	186	183	170	186	170
+Monetary union	40	40	40	40	40	40
+Number of failures	3688	3032	3601	3299	3688	2767
+F-statistic	126.9	128	123.8	146.6	131.6	182.6
+Probability > F	0.000	0.000	0.000	0.000	0.000	0.000
+Notes: The high inflation threshold (
+) is the median of the positive values (and less than 50%) of the monthly inflation rates in the sample. It is evaluated at 0.55%, or an annual inflation rate of 6.6%. Robust standard errors are in parentheses. They have been clustered at the country level.
+*, **, *** denote statistical significance at 10%, 5%, 1%, respectively.
+Source: Author's estimates.
+The coefficient of global inflation is significantly negative at 1%. A one percentage point rise in global inflation reduces the probability of exiting an HIE by around 18.16% (
+). This result reflects the role of globalization, the interconnection of economies and imported inflation in the dynamics of the national price level. HIEs tend to become shorter when economies achieve high rates of economic growth. A 1% increase in the growth rate would translate into an average increase of 3.56% in the probability of exiting an HIE. Furthermore, column (6) of Table 3 shows that the risk of exiting an HIE is three times higher (
+) in developed countries than in developing countries. In fact, the coefficient of the dummy variable relating to this variable (1.1506) is positive and significant at 1%. This can be explained by the effectiveness of monetary policy in these countries, and the independence of their central banks compared with developing countries.
+
+4.2 Robustness tests
+Before going any further in the analysis, the baseline results are subjected to a number of robustness tests to ensure their reliability. The first concerns the minimum threshold for the high inflation rate. This threshold is determined by the median of the sample, evaluated at 0.55%. The study proposes an alternative measure, the mean, which is estimated at 1.09%, or an annual rate of 13.08%. Second, rather than using the month-on-month inflation rate, the inflation on a year-on-year basis is used. The minimum thresholds used for these models are the median and the average of the sample.
+
+We also test the robustness of the results to the inclusion of seasonal effects. Indeed, the dynamics of inflation in many countries can be characterized by the existence of seasonality in connection with the production cycles of some economic sectors (agriculture, for example). Taking into account these seasonal effects is indeed relevant, given the high frequency of the data. To this end, dummy variables for each month are included in the baseline model. The results are presented in Table 4. They show that the main variables are significant with the expected signs. The effect of membership of a monetary union was not altered using alternative thresholds and the inclusion of seasonality effects.
+
+TABLE 4. Estimation results of the Cox model using different inflation thresholds.
+Variables	Month over month sample mean	Year on year sample mean	Year on year sample median	Including seasonal effects
+HIE threshold	1.09%	9.83%	4.40%	0.55%
+Monetary union	1.3252***	1.9811***	2.1669***	1.0542***
+(0.197)	(0.373)	(0.192)	(0.158)
+World inflation	−0.1560***	−0.1525***	−0.2685***	−0.2011***
+(0.042)	(0.048)	(0.038)	(0.026)
+Exchange rate	−0.0000	−0.0000	−0.0000	−0.0000
+(0.000)	(0.000)	(0.000)	(0.000)
+Growth rate	0.0476***	0.0306***	−0.0076	0.0352***
+(0.013)	(0.008)	(0.012)	(0.009)
+High-income country	0.8811***	0.2617	0.6767***	1.1334***
+(0.275)	(0.375)	(0.248)	(0.159)
+Observations	4080	7155	18,144	9496
+Number of countries	149	132	167	170
+Monetary union	40	40	40	40
+Number of failures	1228	370	696	2767
+F-statistic	77.59	49.31	181.5	376.8
+Probability > F	0.000	0.000	0.000	0.000
+Notes: Robust standard errors are in parentheses. They have been clustered at the country level.
+*, **, *** denote statistical significance at 10%, 5%, 1%, respectively.
+Source: Author's estimates.
+The robustness of the results to other possible thresholds is also tested. In this respect, the baseline model is estimated initially by rolling over different thresholds within the interquartile range. The first and third quartiles (Q1 and Q3) of the sample are estimated by considering inflation rates that are positive and below 50%. They are respectively 0.27% (Q1) and 1.1% (Q3). Using an increment of 0.01% from 0.27% to 1.1%, the study ran 83 estimations with different minimum thresholds. The coefficients of the monetary union variable and the lower and upper bounds of its 5% confidence intervals are collected and plotted in Figure 4A. Then we test the sensitivity of the results to the definition of the maximum threshold for high inflation rates.
+
+Details are in the caption following the image
+FIGURE 4
+Open in figure viewer
+PowerPoint
+Marginal effects of a monetary union on HIEs using alternative minimum and maximum inflation thresholds.
+Notes: The minimum inflation thresholds tested cover the interquartile range with the first quartile (Q1) equal to 0.27% and the third quartile (Q3) equal to 1.1%, with increment 0.01%, totalling 83 estimates of the marginal effect of currency unions. The maximum thresholds tested range from 8% to 49%, with increment 1%, totalling 42 estimates.
+
+Source: Author's estimates.
+
+The study used initially the Cagan (1956) 50% inflation rate threshold to identify and exclude hyperinflation episodes. In order to assess the effect of this methodological choice on the results, the paper explores alternative maximum thresholds. In the literature, Fischer et al. (2002) propose a minimum threshold of 100% of the annual inflation rate to identify episodes of very high inflation, that is, a monthly rate of 8.33%. We consider this threshold as a reference for testing the robustness of the results. To this end, we test the sensitivity of the results by progressively reducing the maximum threshold from 50% to 8% using 1% increments. A total of 42 supplementary estimates were carried out, making it possible to analyse the sensitivity of the marginal effect of monetary unions to the various alternative maximum thresholds. The results are presented in Figure 4, and show that despite the variability of the marginal effect of a monetary union, it remains positive and significant at 5%. The marginal effect increases with the minimum threshold, from 1% and 1.30% (i.e. a hazard ratio ranging from 2.71 to 3.67) considering the minimum and maximum coefficients reported in Figures 4A and 4B.
+
+We also test the robustness of our results to the survival analysis approach. The estimates made so far are based on the Cox (1972) proportional hazard model using a semi-parametric approach. Are these conclusions of the econometric analysis valid when the parametric approach is used? To address this question, we revisit the estimates by assuming that the duration of HIEs follows a specific distribution. Three distributions are tested in this paper: the exponential, Weibull and Gompertz distributions. The results of the estimations using the parametric approach are presented in Table 5. They confirm those obtained with the semi-parametric model of Cox (1972). Indeed, all the estimates show that the marginal effects of monetary unions on HIEs are significantly positive at 1%.
+
+TABLE 5. Estimation results of parametric models using different distributions.
+Variables	Gompertz distribution	Weibull distribution	Exponential distribution
+Monetary union	1.2436***	0.9476***	1.0461***
+(0.239)	(0.146)	(0.179)
+World inflation	−0.2900***	−0.1931***	−0.2435***
+(0.051)	(0.029)	(0.041)
+Exchange rate	0.0000	−0.0000	−0.0000
+(0.000)	(0.000)	(0.000)
+Growth rate	0.0484***	0.0361***	0.0420***
+(0.010)	(0.009)	(0.009)
+High-income country	1.8419***	1.1152***	1.4810***
+(0.281)	(0.161)	(0.187)
+Constant	−2.8518***	−2.2311***	−2.3091***
+(0.307)	(0.156)	(0.200)
+Observations	9496	9496	9496
+Number of countries	170	170	170
+Monetary union	40	40	40
+Number of failures	2767	2767	2767
+F-statistic	147.3	168.5	224.5
+Probability > F	0.000	0.000	0.000
+Notes: The high inflation threshold (
+) is the median of the positive values (and less than 50%) of the monthly inflation rates in the sample. It is evaluated at 0.55%, or an annual inflation rate of 6.6%. Robust standard errors are in parentheses. They have been clustered at the country level.
+*, **, *** denote statistical significance at 10%, 5%, 1%, respectively.
+Source: Author's estimates.
+4.3 Heterogeneity analysis
+This subsection analyses the heterogeneity that could exist across countries and that could challenge the assumption of proportional risk of exit from HIEs. Indeed, it is quite possible that countries with the same values of the control variables nevertheless have relatively different inflation episodes due to the possible omission of certain variables that may be specific to a group of countries or to individual countries. Baseline estimates have accounted for the heterogeneity of the countries in the sample by introducing a dummy variable distinguishing between developed and developing countries. In addition, standard errors were clustered at country level following Lin and Wei (1989) and Cleves (2000). The paper explores three additional approaches to controlling for heterogeneity.
+
+First, the overall sample was subdivided into four subsamples: high-income countries, OECD countries, developing countries and low-income countries, following the World Bank classification. Table 6 summarizes the estimates. The positive and significant effect of monetary unions appears to be weaker in developed countries, with a coefficient of the interest variable ranging from 0.5740 for high-income countries to 0.5967 for OECD members, compared with 1.5775 for developing countries and 1.6603 for low-income countries. Indeed, the highest inflation rates in the sample are observed in developing countries and the subgroup of low-income countries (Figure 1).
+
+TABLE 6. Estimation results of monetary union effect on HIEs by income groups.
+Variables	High-income countries	OECD countries	Developing countries	Low-income countries
+HIE threshold	0.45%	0.51%	0.65%	0.77%
+Monetary union	0.5740***	0.5967**	1.5775***	1.6603***
+(0.186)	(0.245)	(0.170)	(0.246)
+World inflation	−0.2309***	−0.2815***	−0.1749***	−0.1544***
+(0.031)	(0.029)	(0.037)	(0.032)
+Exchange rate	−0.0002	0.0003*	−0.0000	0.0001**
+(0.000)	(0.000)	(0.000)	(0.000)
+Growth rate	−0.0146	−0.0161	0.0404***	0.0742***
+(0.014)	(0.017)	(0.010)	(0.025)
+High-income country		2.1951***		
+(0.246)		
+Observations	2606	2877	6481	1055
+Number of countries	52	36	118	28
+Monetary union	19	19	21	16
+Number of failures	1092	837	1725	388
+F-statistic	85.14	319.6	119.5	70.76
+Probability > F	0.000	0.000	0.000	0.000
+Notes: Robust standard errors are in parentheses. Minimum inflation thresholds are sample medians. They have been clustered at the country level.
+*, **, *** denote statistical significance at 10%, 5%, 1%, respectively.
+Source: Author's estimates.
+The second approach to modelling heterogeneity is to make the minimum inflation thresholds specific to each country by taking the mean and median of its observations. Based on these new thresholds, a given country enters an HIE when its inflation rate is higher than its historical average (median). The episode ends when the inflation rate falls below this average. The results are presented in columns (1) and (2) of Table 7. This specification reduces the marginal effect of monetary unions since the underlying basis of comparison is different. When using the mean, the marginal effect is estimated at 0.4725, whereas it is 0.4279 for the median. However, it is interesting to note that the effect of monetary unions is still positive and significant at 1%. The probability of a country's inflation rate falling below its average is higher in monetary unions than in other countries. The ratio of these probabilities ranges from 1.53 (
+) to 1.60 (
+), depending on whether the high inflation threshold is defined by the mean or the median.
+
+TABLE 7. Heterogeneity analysis based on the shared fragility model and country-specific thresholds.
+Variables	Country median	Country mean	Frailty model
+(1)	(2)	(3)
+Monetary union	0.4279***	0.4725***	0.4018***
+(0.119)	(0.109)	(0.107)
+World inflation	−0.1694***	−0.1974***	−0.2809***
+(0.021)	(0.020)	(0.010)
+Exchange rate	−0.0000	−0.0000	−0.0000***
+(0.000)	(0.000)	(0.000)
+Growth rate	0.0108	0.0224**	0.0346***
+(0.007)	(0.010)	(0.004)
+High-income country	0.7886***	0.6241***	1.0743***
+(0.116)	(0.112)	(0.184)
+Observations	16,875	5938	9496
+Number of countries	172	170	170
+Monetary union	40	40	40
+Number of failures	3706	2221	2767
+F-statistic	148.7	140	854.3
+Probability > F	0.000	0.000	0.000
+Notes: Robust standard errors are in parentheses. Minimum inflation thresholds are sample medians (mean). They have been clustered at the country level.
+*, **, *** denote statistical significance at 10%, 5%, 1%, respectively.
+Source: Author's estimates.
+The third approach to modelling heterogeneity focuses on an alternative specification of the Cox (1972) model by adding a third component (
+) to the baseline model. The addition of this factor makes it possible to relax the proportional risk hypothesis by identifying the different strata present in the sample. This is an unobserved random scaling factor that affects strata or groups (countries in our case) differently. This technique makes it possible to estimate different specific effects (
+) for each country that multiply the common baseline risk. This extension of the Cox (1972) model is called the shared frailty model, whose results are presented in column (3) of Table 7. They highlight the robustness of the positive marginal effect of monetary unions to the inclusion of country-specific effects. However, the effect is relatively small (0.4018) compared to baseline results.
+
+4.4 Fiscal rules, exchange rate and monetary frameworks
+In this subsection, the empirical analysis is extended by adding additional control variables. It explores the role played by the fiscal framework, the exchange rate regime, central bank independence and the adoption of inflation targeting in the persistence of HIEs.
+
+With regard to the fiscal framework, the literature has discussed the role that fiscal deficits and government debt levels can play in inflationary spirals. Indeed, in a situation of persistent fiscal deficits and excessive indebtedness, where the possibilities for private domestic and foreign borrowing by governments are limited or costly, central banks may be forced to finance fiscal deficits, thereby fuelling inflation. To avoid this dominance of monetary policy by fiscal policy, several countries have adopted fiscal rules. They are supposed to strengthen fiscal policy discipline and the credibility of monetary policy (Creel and Sterdyniak 2001; Guillaumont and Tapsoba 2011). In monetary unions, the adoption of fiscal rules facilitates the coordination of member countries' economic policies while avoiding, on the one hand, the spillover effects of a country's national fiscal policy (Buti and Giudice 2002), and on the other hand, conflicts of objectives such as increasing public deficits and price stability (Besancenot et al. 2003). Empirically, some papers have shown that higher budget deficits, higher money supply-to-GDP ratios and higher debt ratios are associated with higher inflation, particularly in countries where inflation is already high (Catao and Terrones 2005; Fischer et al. 2002; Kwon et al. 2009; Bleaney 1999).
+
+We contribute to this literature by analysing the effects of the adoption of fiscal rules on the duration of HIEs rather than their levels. Based on the IMF's 2023 fiscal rules database, the study distinguishes four rules: tax revenue rules, government expenditure rules, balanced budget rules and debt rules. Revenue rules set ceilings or floors for revenues, and aim to stimulate their collection and/or to avoid an excessive tax burden. Expenditure rules set limits on total, primary or current government spending. They are generally set in absolute terms or as a growth rate, and sometimes as a percentage of GDP, with a time horizon often ranging from three to five years. Budget balance rules limit the budget aggregate that primarily influences the debt ratio. They can be specified as limits on the overall fiscal balance, the primary fiscal balance or the structural or cyclically adjusted fiscal balance. Debt rules set an explicit limit or anchor point for public debt, often expressed as a percentage of GDP. The aim of this type of rule is to ensure convergence towards a sustainable debt target (Davoodi et al. 2022). Dummy variables relating to the adoption of each rule are introduced into the baseline model. They take the value 1 from the year when a country adopts the rule, and 0 otherwise.
+
+Table 8 shows the main results on monthly data ranging from 1985M01 to 2022M12. Fiscal rule variables are included progressively in the baseline model. First, the results show that the inclusion of these variables does not alter the significance of the positive effect of membership of a monetary union on the reduction in the duration of HIEs, even though the marginal effect has declined. Second, the results indicate that tax revenue and fiscal expenditure rules do not exert significant effects on HIEs. However, the estimations shown in columns (3) and (4) reveal that the adoption of fiscal deficit or debt rules has expected effects on HIEs. With the inclusion of all variables in the baseline model, only the debt rule is significant at the 1% level. The adoption of these rules reduces significantly the probability of persistence of HIEs, compared with countries that have not adopted such rules. In other words, countries that have not adopted the debt and fiscal deficit rules tend to have longer HIEs. The exit probability ratios are estimated at 1.95 (
+) and 1.73 (
+), respectively, for the debt rule and the fiscal deficit rule, in favour of countries that have adopted these rules. These results complement those in the literature that have highlighted the fiscal sources of inflation (Catao and Terrones 2005; Fischer et al. 2002; Kwon et al. 2009; Bleaney 1999). The adoption of these rules facilitates the conduct of price stability monetary policies. Admittedly, there could be gaps between the adoption and compliance with these fiscal rules, particularly in developing countries with weak institutions. However, their adoption can serve as an incentive to limit excessive fiscal deficits and indebtedness that are harmful to price stability.
+
+TABLE 8. Effect of fiscal rules adoption on the probability of exiting HIEs.
+Variables	(1)	(2)	(3)	(4)	(5)
+Monetary union	0.9681***	1.0853***	0.5610***	0.6972***	0.5148***
+(0.179)	(0.165)	(0.165)	(0.194)	(0.179)
+World inflation	−0.2008***	−0.2006***	−0.1913***	−0.1868***	−0.1872***
+(0.026)	(0.026)	(0.025)	(0.025)	(0.025)
+Exchange rate	−0.0000	−0.0000	−0.0000	−0.0000	−0.0000
+(0.000)	(0.000)	(0.000)	(0.000)	(0.000)
+Growth rate	0.0350***	0.0350***	0.0345***	0.0357***	0.0350***
+(0.009)	(0.008)	(0.008)	(0.009)	(0.008)
+High-income country	1.1881***	1.1534***	1.0675***	1.0863***	1.1025***
+(0.169)	(0.161)	(0.160)	(0.157)	(0.164)
+Revenue rules	0.3401				0.0946
+(0.209)				(0.229)
+Expenditure rules		−0.0190			−0.2402
+(0.203)			(0.193)
+Debt rules			0.6711***		0.4559**
+(0.123)		(0.220)
+Budget balance rules				0.5518***	0.3655
+(0.192)	(0.275)
+Observations	9496	9496	9496	9496	9496
+Number of countries	170	170	170	170	170
+Monetary union	40	40	40	40	40
+Number of failures	2767	2767	2767	2767	2767
+F-statistic	193	193.2	199.8	189.3	222.1
+Probability > F	0.000	0.000	0.000	0.000	0.000
+Notes: The high inflation threshold (
+) is the median of the positive values (and less than 50%) of the monthly inflation rates in the sample. It is evaluated at 0.55%, or an annual inflation rate of 6.6%. Robust standard errors are in parentheses. They have been clustered at the country level.
+*, **, *** denote statistical significance at 10%, 5%, 1%, respectively.
+Source: Author's estimates.
+The effects of exchange rate regimes on inflation and its persistence have been debated in the literature. However, there is no consensus at the empirical level. Some authors (Bernanke and Mishkin 1997; Fischer 2001; Mussa et al. 2000) try to show that fixed exchange rate regimes can guarantee low and stable inflation by on the one hand, signalling a commitment to monetary and fiscal policy discipline, and on the other, providing a nominal anchor for inflation expectations. Other authors believe that less flexible exchange rate regimes are associated with higher inflation (Bleaney and Fielding 2002; Edwards 1993; Ghosh et al. 2002). This subsection extends the baseline model to analyse the effect of exchange rate regimes on HIEs. The study uses the Levy-Yeyati and Sturzenegger (2001, 2005, 2023) de facto classification of exchange rate regimes for 203 countries over the period 1974 to 2022. The authors distinguish four exchange rate regimes: fixed exchange rate, floating exchange rate, crawling peg and dirty float. Based on this classification, the study constructs dummy variables that take value 1 from the year when a country effectively adopts an exchange rate regime, and 0 otherwise.
+
+Table 9 presents the results. The monetary union variable remains significant at 1% with the expected positive signs. Variables relating to exchange rate regimes are all significant at 1% when considered separately. The coefficients for crawling peg and dirty float are negative, while those for flexible and fixed exchange rates are positive and significant at 1%. Countries with a flexible or fixed exchange rate appear to have shorter HIEs than countries with a dirty float and a crawling float. In other words, the adoption of these exchange rate regimes reduces the probability of exiting HIEs compared to fixed and flexible exchange rate regimes. These results are similar to those of authors who have shown that fixed exchange rate regimes are associated with lower and more stable inflation than other exchange rate regimes (Ghosh et al. 1997; Moreno 2001). The particularity of intermediate exchange rate regimes (dirty float and crawling peg) is that the objective of exchange rate stability pursued by the central bank may prove to be against price stability. Indeed, as highlighted by Ghosh et al. (1997), intermediate exchange rate regimes would not provide sufficient autonomy to the central bank in the management of interest rates and the money supply, given that the latter is obliged to maintain the exchange rate within a desired range or band.
+
+TABLE 9. Exchange rate regimes effect on the probability of exiting HIEs.
+Variables	(1)	(2)	(3)	(4)
+Monetary union	1.0008***	1.0253***	1.0230***	1.0106***
+(0.154)	(0.142)	(0.175)	(0.159)
+World inflation	−0.2067***	−0.2008***	−0.2011***	−0.1982***
+(0.027)	(0.026)	(0.026)	(0.025)
+Exchange rate	−0.0000	−0.0000	−0.0000	−0.0000
+(0.000)	(0.000)	(0.000)	(0.000)
+Growth rate	0.0295***	0.0321***	0.0344***	0.0349***
+(0.008)	(0.009)	(0.008)	(0.009)
+High-income country	1.1061***	1.1838***	1.1186***	1.1689***
+(0.154)	(0.153)	(0.160)	(0.157)
+Dirty float regime	−0.5955***			
+(0.123)			
+Fixed exchange rate		0.3165***		
+(0.116)		
+Floating exchange rate			0.3002***	
+(0.110)	
+Crawling peg regime				−0.5876***
+(0.195)
+Observations	9496	9496	9496	9496
+Number of countries	170	170	170	170
+Monetary union	40	40	40	40
+Number of failures	2767	2767	2767	2767
+F-statistic	216.2	195.1	184.9	187.1
+Probability > F	0.000	0.000	0.000	0.000
+Notes: The high inflation threshold (
+) is the median of the positive values (and less than 50%) of the monthly inflation rates in the sample. It is evaluated at 0.55%, or an annual inflation rate of 6.6%. Robust standard errors are in parentheses. They have been clustered at the country level.
+*, **, *** denote statistical significance at 10%, 5%, 1%, respectively.
+Source: Author's estimates.
+After the analysis of the role of fiscal rules and the exchange rate regime in exiting HIEs, the study provides an insight on the monetary policy regime and central bank independence. We focus on inflation targeting. Following the failure of monetary or exchange rate targeting, several developed and developing countries have adopted inflation targeting as a monetary policy framework to ensure price stability. Under this policy, the central bank sets an inflation rate target at a certain point, with a tolerance margin or a target band. Thus when inflation rates deviate from the target, the central bank takes action to bring inflation rates back towards its defined target. The success of this monetary policy strategy requires that central banks have a degree of freedom or independence. This independence in turn implies central bank transparency and accountability. The debate on the effectiveness of inflation targeting in terms of inflation control remains open (Ball and Sheridan 2005; Bernanke et al. 2001; Lin and Ye 2007; Corbo et al. 2001; Levin et al. 2004; Neumann and von Hagen 2002). Guo and Lim (2024) recently used survival models to show in a sample of 30 inflation-targeting countries that HIEs were relatively shorter after the adoption of this monetary policy framework. This subsection extends this analysis to a global sample, using the same approach. It also examines the contribution of central bank independence to the exit from HIEs. A more independent central bank is in a more credible position to achieve monetary policy objectives (Ha et al. 2019).
+
+To explore the role of these two factors, we modify the baseline model by introducing a dummy variable indicating the official adoption of an inflation-targeting monetary policy. This variable takes the value 1 from the year when a country adopts inflation targeting, and 0 otherwise.1 On the other hand, we use the extended index of central bank independence (CBIE) proposed by Romelli (2022). This is an index of de jure central bank independence that accounts for 42 institutional features of the central banks. The index ranges from 0 to 1, and increases with the level of central bank independence. The choice of this index is justified by its relatively broad coverage of indicators considered, countries and the time dimension (155 countries, from 1972 to 2017) compared to other indices (Cukierman 1992; Cukierman et al. 2002; Polillo and Guillien 2005). Cukierman et al. (1992) noted that de jure independence indices may not reflect the independence of central banks in practice, especially in developing countries. To address this concern, two proxies are used to capture the de facto independence of central banks. The first is the turnover rate of central bank governors. The second is a dummy variable equal to 1 if the governor has been replaced before the end of his term. The higher these indicators are, the less independent the central bank is in practice. These data come from the Dreher et al. (2010) database and cover 161 countries observed from 1970 to 2018.
+
+The main results are included in Table 10. First, the effect of monetary union participation remains unchanged to the introduction of these new variables, with a positive and significant coefficient at 1% in all regressions. Second, the results of the estimations show that the adoption of inflation targeting contributes to a reduction in the duration of HIEs compared with other countries that have not adopted it, all other things being equal. For comparison, the ratio of exit probabilities from HIEs is estimated at 1.67 (
+) in favour of inflation-targeting countries. However, it is interesting to note that the coefficient of the monetary union variable is twice as high as that of the inflation targeting variable. These results are in line with those of Guo and Lim (2024), who found from a survival analysis that the adoption of inflation targeting reduced the probability of a prolonged HIE. They are also similar to the findings of some authors who have highlighted that inflation targeting is a favourable framework for achieving price stability objectives (Corbo et al. 2001; Levin et al. 2004; Neumann and von Hagen 2002). Third, column (2) of Table 10 shows that de jure independence does not affect HIEs. However, the coefficients of the de facto independence indicators are negative and significant at 1%. The loss of a central bank's autonomy and independence reduces its ability to bring inflation below a relatively low threshold. In other words, the more independent a central bank is, the greater its ability to put an end to HIEs. This finding confirms the results of existing empirical works showing that central bank transparency and independence can help in anchoring inflation expectations and inflation uncertainty (van der Cruijsen and Demertzis 2007; Weber 2016; Siklos 2003).
+
+TABLE 10. Inflation-targeting adoption and central bank independence effect on the probability of exiting HIEs.
+Variables	(1)	(2)	(3)	(4)
+Monetary union	1.1996***	1.4168***	1.0336***	0.9750***
+(0.171)	(0.211)	(0.211)	(0.212)
+Inflation targeting	0.5161***	0.6118***	0.4994***	0.4813***
+(0.146)	(0.191)	(0.167)	(0.168)
+World inflation	−0.1888***	−0.1842***	−0.2102***	−0.2115***
+(0.025)	(0.028)	(0.029)	(0.029)
+Exchange rate	−0.0000	0.0000	0.0000	0.0000
+(0.000)	(0.000)	(0.000)	(0.000)
+Growth rate	0.0360***	0.0340***	0.0365***	0.0363***
+(0.009)	(0.009)	(0.010)	(0.009)
+High-income country	1.0896***	1.2795***	1.2239***	1.2273***
+(0.165)	(0.188)	(0.208)	(0.205)
+De facto CBIE		−0.1333		
+(0.496)		
+Turnover rate			−0.4164***	
+(0.113)	
+Irregular turnover dummy				−0.5445***
+(0.162)
+Observations	9496	6555	6370	6688
+Number of countries	170	134	131	132
+Monetary union	40	40	40	40
+Number of failures	2767	1894	1843	1949
+F-statistic	190	147.9	177.3	170.5
+Probability > F	0.000	0.000	0.000	0.000
+Notes: The high inflation threshold (
+) is the median of the positive values (and less than 50%) of the monthly inflation rates in the sample. It is evaluated at 0.55%, or an annual inflation rate of 6.6%. Robust standard errors are in parentheses. They have been clustered at the country level. CBIE means the Central Bank Independence Extended index.
+*, **, *** denote statistical significance at 10%, 5%, 1%, respectively.
+Source: Author's estimates.
+4.5 Monetary union versus inflation targeting
+Previous analyses have shown that participating in a monetary union and adopting an inflation-targeting monetary policy with independent central banks contribute to price stability by reducing the duration of HIEs. Should a country wishing to credibly ensure price stability adopt inflation targeting, or join a monetary union with an independent central bank? Previous estimates have shown that the marginal effect of currency unions on the probability of exiting an HIE is twice that of adopting inflation targeting. This subsection extends this analysis by comparing HIEs in currency unions with those in countries that have adopted inflation targeting. Figure 5A shows that in a global sample, the survival function of HIEs in inflation-targeting countries is lower at all points than in non-inflation-targeting and non monetary union countries. However, the survival function for HIEs in monetary unions is also lower than in inflation-targeting countries. This conclusion remains valid if we focus the analysis on the sample of inflation-targeting and monetary union countries (Figure 5B). By distinguishing the developed and developing country samples, the result remains unchanged, even if the gap is more pronounced in the developing countries.
+
+Details are in the caption following the image
+FIGURE 5
+Open in figure viewer
+PowerPoint
+Comparison of survival functions of HIEs in currency unions and inflation-targeting countries.
+Source: Author's estimates.
+
+Based on these stylized facts, we estimate a new baseline model on a sample of inflation-targeting and monetary union countries. Thus the dummy variable capturing monetary union takes value 1 when the country is a member of a monetary union, and 0 if it has adopted inflation targeting.2 The minimum inflation threshold is the median of the restricted sample. Table A2 in the Appendix shows the composition of this subsample, the dates of entry into monetary unions, and the dates of adoption of inflation targeting. The sample is further subdivided into developed and developing countries. Standard errors have been clustered at the country level. The results of the estimations of the Cox (1972) model are presented in Table 11. They show that the coefficient of monetary union membership is always significant at 1%, whatever the sample considered. The effect is greater in developing countries, with probability ratio 3.95 versus 2.58 when the sample of developed countries is considered.
+
+TABLE 11. Comparing monetary union effect with inflation-targeting adoption on the probability of exiting HIEs.
+Variables	Full subsample	High-income countries	Developing countries
+Monetary union	1.1017***	0.9508***	1.3751***
+(0.165)	(0.308)	(0.190)
+World inflation	−0.1916***	−0.2176***	−0.1716***
+(0.024)	(0.044)	(0.026)
+Exchange rate	0.0001***	0.0006*	0.0001***
+(0.000)	(0.000)	(0.000)
+Growth rate	0.0250*	−0.0209	0.0400**
+(0.015)	(0.018)	(0.016)
+High-income country	0.7585***		
+(0.160)		
+Observations	2773	987	1786
+Number of countries	71	31	40
+Monetary union	40	19	21
+Number of failures	1133	507	626
+F-statistic	189.2	62.19	127.1
+Probability > F	0.000	0.000	0.000
+Notes: The high inflation threshold (
+) is the median of the positive values (and less than 50%) of the monthly inflation rates in the sample. It is evaluated at 0.41%, or an annual inflation rate of 4.92%. Robust standard errors are in parentheses. They have been clustered at the country level.
+*, **, *** denote statistical significance at 10%, 5%, 1%, respectively.
+Source: Author's estimates.
+A question remains on the robustness of the previous findings. To answer this, we explore alternative minimum inflation thresholds. Indeed, inflation targets and tolerance margins or target ranges may vary from one country to another, depending on whether it is a member of a monetary union or an inflation targeter. For this reason, we consider the minimum thresholds included in the interquartile range (Q3 to Q1) of this subsample. These quartiles are respectively evaluated at 0.20% (Q1) and 0.74% (Q3). Using an increment of 0.01% from 0.20% to 0.74%, 55 estimations were conducted. The marginal effects of currency unions and their confidence intervals were collected and plotted in Figure 6, which shows that the marginal effect of a monetary union on HIEs is significantly positive at 5%, whatever the minimum threshold considered. The effect fluctuates between 0.90 and 1.10. The dominance of monetary unions in terms of reducing the probability of a prolonged HIE, compared with inflation-targeting countries, is robust.
+
+Details are in the caption following the image
+FIGURE 6
+Open in figure viewer
+PowerPoint
+Comparing monetary union effect with inflation targeting adoption using alternative minimum inflation threshold.
+Source: Author's estimates.
+
+In the literature, the effect of monetary unions on price stability can be linked to the independence, accountability, transparency and effectiveness of the common central bank's monetary policy (Blinder et al. 2008; Gros and Bini-Smaghi 2011; Angeloni and Ehrmann 2003; van der Cruijsen and Demertzis 2007; Alesina and Barro 2002). However, these same advantages can also be found with inflation-targeting central banks. So a question arises: what is the explanation behind this fundamental difference in the performance of the two strategies? There is no clear-cut answer to this question. However, we can point to three main factors: the independence of central banks, the durability of monetary unions, and the adoption of supranational fiscal rules. Indeed, the results in Table 10 show that de facto central bank independence is a factor that shortens HIEs. Based on these econometric results, we compare the averages of de facto central bank independence indicators for inflation-targeting countries, monetary unions and other countries. The results are presented in Figure A1 in the Appendix. This graph shows that the central banks of monetary unions are more de facto independent than those of inflation-targeting countries, which are themselves more independent than the central banks of other countries. Table A3 in the Appendix shows that this difference in means is significant at the 1% level for the sample as a whole, as well as for developed and developing countries. This greater independence of central banks in monetary unions would explain their higher propensity to significantly reduce the duration of HIEs than central banks of inflation-targeting countries.
+
+The second reason for this performance is the durability of the monetary union. Indeed, central banks of monetary unions have more incentive to maintain price stability than those in inflation-targeting countries, in order to avoid a member country regaining its monetary sovereignty to meet its specific macroeconomic challenges. Optimal currency zone theory has pointed out that persistent and/or widening inflation rate differentials between member countries could threaten the existence of a monetary union (Corden 1972; Broz 2005). Thus to guarantee the durability of the monetary union, the common central bank has an obligation to be more credible in achieving their price stability objectives. The third reason why monetary unions may perform better than inflation targeters is the presence in monetary unions of supranational institutions that adopt and monitor the implementation of fiscal rules. These fiscal rules generally limit fiscal deficits and the debt levels of member countries. Of course, inflation-targeting countries also adopt fiscal rules. However, the supranational nature of fiscal rules in monetary unions makes them more binding, particularly with multilateral surveillance mechanisms. These fiscal rules would facilitate the conduct of price stability monetary policy by avoiding the risk of common monetary policy being dominated by national fiscal policies.
+
+4.6 Size and homogeneity effects of monetary unions
+The preceding subsections have established the effectiveness of monetary unions in reducing the duration of HIEs. These results provide a strong evidence-based argument for countries wishing to join a currency union to import the credibility of its central bank in containing inflation. However, one question that might arise is whether the enlargement of a monetary union affects its ability to guarantee price stability for all member countries. This subsection attempts to answer this question by analysing the effect of two characteristics of currency unions on the probability of exiting HIEs: the size of the union, and the homogeneity of member countries. To this end, we restrict the analysis to a sample of countries participating in a monetary union. The baseline model is modified to take account of the size of the monetary union and the homogeneity of the member countries. The size of the monetary union is measured by the number of member countries at a given time. The homogeneity of the union is approximated by the cross-sectional standard deviation of member countries' per capita incomes (in logs). Thus the monetary union tends to be more homogeneous as the standard deviation of per capita incomes decreases from year to year. While the size of the monetary unions of developing countries (WEAMU, CEMAC, ECCU) has remained constant over the years, the eurozone has seen its membership increase from 11 countries in 1999, to 19 countries in 2022. The enlargement of the eurozone has led to an increase in the standard deviation of per capita incomes (in logs), rising from 0.168 in 1999, to 0.228 in 2022. In 2022, the CEMAC zone is relatively the most heterogeneous monetary union, with standard deviation 0.511 compared with 0.228 in the eurozone, 0.217 in WAEMU and 0.177 in ECCU.
+
+Table 12 presents the estimation results. It shows that the coefficient of the variable relating to the homogeneity of the member countries of the monetary union is not significant. However, the size of the monetary union appears to have a negative impact on its performance in ending HIEs in its member countries. Indeed, the coefficient for the size of the monetary union is significantly negative at 5% (columns (2) and (4)). Considering the estimates in column (4), enlarging the monetary union by one additional member reduces the average probability of exiting an HIE by 9.008% (
+). These results suggest that the enlargement of a monetary union entails a cost for old members in terms of the length of time it takes to exit from HIEs, notwithstanding the degree of homogeneity of the member countries. For old members, acceptance of a new member should be subject to a cost–benefit analysis, given that gains in terms of price stability are likely to deteriorate. For the new member, these results imply that the analysis of gains in terms of price stability should not be based on the current situation of the union, given that it could deteriorate after joining the monetary area. For the common central bank, the results highlight that the enlargement of the monetary union is an additional challenge for maintaining price stability in the member countries.
+
+TABLE 12. Size and homogeneity effects of monetary unions on the probability of exiting HIEs.
+Variables	(1)	(2)	(3)	(4)
+World inflation	−0.2263***	−0.2203***	−0.2288***	−0.2232***
+(0.035)	(0.037)	(0.035)	(0.037)
+Exchange rate	−0.0018***	−0.0019***	−0.0017***	−0.0017***
+(0.000)	(0.000)	(0.000)	(0.000)
+Growth rate	0.0276	0.0312*	0.0240	0.0268
+(0.018)	(0.019)	(0.018)	(0.018)
+High-income country	−0.4888**	0.3183	−0.4942**	0.3417
+(0.202)	(0.423)	(0.201)	(0.431)
+Monetary union size		−0.0898**		−0.0944**
+(0.040)		(0.041)
+Monetary union homogeneity			−0.7556	−0.9866
+(0.746)	(0.696)
+Observations	1050	1050	1050	1050
+Number of countries	35	35	35	35
+Number of failures	572	572	572	572
+F-statistic	110.6	100.5	100.4	97.42
+Probability > F	0.000	0.000	0.000	0.000
+Notes: The high inflation threshold (
+) is the median of the positive values (and less than 50%) of the monthly inflation rates in the sample. It is evaluated at 0.38%, or an annual inflation rate of 4.56%. Robust standard errors are in parentheses. They have been clustered at the country level.
+*, **, *** denote statistical significance at 10%, 5%, 1%, respectively.
+Source: Author's estimates.
+4.7 Monetary unions and deflation episodes
+Previous subsections have demonstrated the ability of monetary unions to bring inflation below a high threshold. What about episodes of deflation? Like inflation, deflation disrupts the allocation of resources. When it persists, it can slow investment and reduce production and consumption (Fisher 1933; Friedman and Schwartz 1963). The literature has also highlighted its role in increasing the real cost of debt and debt servicing, and in reducing the value of collateral, which can weaken financial systems (End et al. 2015; Baig et al. 2003). Branch and Evans (2017) and Banerjee and Mehrotra (2018) argue that once deflation is anchored in expectations, it can be self-reinforcing. Moreover, by raising real interest rates, deflation tightens monetary conditions and further depresses activity (Bernanke et al. 2004). In view of these significant costs, the study questions the ability of monetary unions to reduce the duration of deflation episodes in the same way as for HIEs. This subsection therefore explores the effects of currency union membership on the duration of deflation episodes. An inflation episode is defined as the length of time for which the inflation rate is negative.
+
+We begin this analysis with a graphical representation of the Kaplan and Meier (1958) deflation survival function. Figure 7 shows that deflation survival functions are relatively similar in all countries, whether members of a monetary union, inflation targeters or not. Figure 7 calls for a second comment on the duration of deflation episodes. Indeed, deflation episodes appear short, with a maximum of 12 months, unlike HIEs, which can last for years (see Figures 2, 3 and 5). This asymmetry reflects the downward rigidity of prices in economies across the globe, and explains the modest costs of deflation estimated from empirical data by Borio et al. (2015). These stylized facts remain unchanged when the analysis is performed on the subsamples of high-income countries, OECD countries, developing countries and low-income countries (see Figure A2 in the Appendix).
+
+Details are in the caption following the image
+FIGURE 7
+Open in figure viewer
+PowerPoint
+Survival functions of deflation episodes.
+Source: Author's estimates.
+
+Table 13 presents the results of the econometric analysis based on the Cox (1972) model. It shows that membership of a monetary union does not affect the probability of exiting a deflationary episode. This result confirms the stylized facts of Figures 7 and A2, and remains the same across the different subsamples. The marginal effect of monetary unions on deflation episodes could mean that central banks are relatively inactive with regard to deflations, due to the short duration of their episodes and their modest costs (Borio et al. 2015). The adoption of inflation targeting appears to shorten deflation episodes, with a significant positive coefficient at 5%. However, the effect becomes insignificant when the analysis focuses on subsamples. Global inflation dynamics is the real determinant of deflation episodes, as well as HIEs. A rise in global inflation helps to put an end to deflationary episodes at national levels. The rate of economic growth seems to be a factor that reduces deflation episodes. However, the effect is significant only in the global sample and those from developed countries. The significant coefficient of the dummy variable for high-income countries also shows that deflations are shorter in duration in high-income countries than in developing countries.
+
+TABLE 13. Results of estimates of monetary unions effect on deflation episodes.
+Variables	All sample	High-income countries	OECD countries	Developing countries	Low-income countries
+(1)	(2)	(3)	(4)	(5)
+Monetary union	0.0436	0.1097	−0.0531	−0.0422	0.1877
+(0.108)	(0.160)	(0.187)	(0.142)	(0.230)
+Inflation targeting	0.2841**	0.1820	0.1029	0.2577	
+(0.125)	(0.144)	(0.165)	(0.223)	
+World inflation	0.0642***	0.0676***	0.0615**	0.0571**	0.1557***
+(0.019)	(0.024)	(0.027)	(0.028)	(0.049)
+Exchange rate	0.0000	0.0004***	0.0003***	0.0000	0.0001*
+(0.000)	(0.000)	(0.000)	(0.000)	(0.000)
+Growth rate	0.0140***	0.0286***	0.0344**	0.0073	−0.0154
+(0.005)	(0.010)	(0.014)	(0.005)	(0.019)
+High-income country	0.2620***		−0.0723		
+(0.099)		(0.250)		
+Observations	4076	1762	1323	2314	704
+Number of countries	162	54	36	108	26
+Monetary union	40	40	40	40	40
+Number of failures	2406	1115	861	1291	349
+F-statistic	43.80	68.08	51.06	9.963	11.82
+Probability > F	0.000	0.000	0.000	0.000	0.000
+Notes: Robust standard errors are in parentheses. They have been clustered at the country level.
+*, **, *** denote statistical significance at 10%, 5%, 1%, respectively.
+Source: Author's estimates.
+5 CONCLUSION
+Price stability is one of the main objectives of central banks. To achieve this objective, several monetary policy strategies have been implemented throughout history, such as exchange rates targeting, inflation targeting and monetary targeting. The success of these different inflation reduction strategies depends on a number of factors, such as the independence of the central bank, the exchange rate regime, and the implementation of fiscal policies compatible with the price stability objective of monetary policy. The difficulty of meeting these conditions in order to keep inflation under control has led some countries to consider joining a monetary union with fiscal monitoring mechanisms and an independent central bank in order to import the latter's credibility. However, beyond the costs associated with the loss of monetary policy independence, achieving the objective of price stability at the level of each country may come up against the heterogeneity of the economies and the asymmetry of the shocks that may affect them.
+
+The aim of this paper was to assess the effects of membership of monetary unions on the price stability of member countries. The study also compares the effectiveness of monetary unions and inflation-targeting countries in achieving price stability. Unlike previous studies, which focus on the level, persistence and volatility of inflation, this study takes an innovative approach. The paper uses non-parametric, semi-parametric and parametric survival analyses of HIEs. This approach provides a mean to assess the capacity of monetary unions to bring inflation below a high threshold. Using high-frequency data on a sample of 190 countries observed over the period 1950M01 to 2022M12, the paper revealed that despite the limits of heterogeneity of member countries and the asymmetries of the shocks to which they may be subject, monetary unions significantly reduce the duration of HIEs compared to countries with monetary independence. This result remains robust to the definition of the minimum and maximum inflation thresholds, to alternative specifications, and to the heterogeneity of the sample. The results remain valid for both developed and developing countries. However, in contrast to HIEs, central banks in monetary unions do not appear to be more effective in reducing the probability of exiting from episodes of deflation, which are relatively shorter. The analysis also showed that the adoption of debt-limiting fiscal rules, and fixed and flexible exchange rate regimes, are more effective in reducing the probability of exiting HIEs than other fiscal rules and exchange rate regimes. Furthermore, the de facto independence of the central bank has been shown to be an important determinant of the ability of economies to exit HIEs, as well as the adoption of inflation targeting.
+
+By comparing the monetary union integration strategy and the adoption of inflation targeting, the estimates highlighted that the giving up of monetary sovereignty in favour of a common central bank is more effective than the adoption of inflation targeting in terms of reducing the duration of HIEs. This conclusion is also robust to the definition of alternative minimum inflation thresholds, and remains valid for both developed and developing countries. This performance of monetary unions in terms of price stability would be linked to the greater de facto independence of their central banks, the adoption of supranational fiscal rules, and the incentives to preserve the sustainability of the monetary zone. However, the adoption of inflation targeting appears to be an effective strategy for ensuring price stability for countries wishing to preserve their monetary sovereignty. The adoption of fiscal rules limiting indebtedness in addition to inflation targeting with an independent central bank would make it easier to achieve price stability objectives. However, when a country is willing to give up its monetary sovereignty, the integration of a monetary union with an independent central bank would be a better solution than the adoption of inflation targeting. The adoption of inflation targeting during the transition phase will lead to a convergence of it inflation rate towards the standards of the monetary union.
+
+The results confirm that price stability is a major gain from participating in a monetary union with an independent and credible central bank. However, the analysis also reveals that the capacity of a monetary union to limit HIEs among its members diminishes as it expands to include new countries. The enlargement of a monetary union therefore entails a cost for the old members in terms of the gradual loss of control over HIEs. The acceptance of a new member should be subject to a cost–benefit analysis. This result raises the question of the optimal size of a monetary union. This question can be addressed in future research.

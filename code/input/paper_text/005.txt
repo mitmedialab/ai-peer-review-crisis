@@ -1,0 +1,529 @@
+Ambiguous Contracts
+
+Abstract
+We explore the deliberate infusion of ambiguity into the design of contracts. We show that when the agent is ambiguity-averse and hence chooses an action that maximizes their minimum utility, the principal can strictly gain from using an ambiguous contract, and this gain can be arbitrarily high. We characterize the structure of optimal ambiguous contracts, showing that ambiguity drives optimal contracts toward simplicity. We also provide a characterization of ambiguity-proof classes of contracts, where the principal cannot gain by infusing ambiguity. Finally, we show that when the agent can engage in mixed actions, the advantages of ambiguous contracts disappear.
+
+1 Introduction
+Contracts are often ambiguous. A construction contract may require that a builder use “superior materials,” a professional services contract may require that a provider exert “due diligence,” or “act as a fiduciary,” a labor contract may require that the parties “bargain in good faith,” and the promotion guidelines of a university may require that a candidate exhibit “research productivity and excellence.” In each case, the meaning of these phrases may be ambiguous.
+
+This ambiguity may reflect the impossibility of precise specification. In contrast, we explore the deliberate infusion of ambiguity as a tool that a principal may employ to increase her contracting power.
+
+1.1 The Model
+We examine a familiar, finite moral hazard problem, augmented to accommodate ambiguous contracts analogously to the treatment of mechanism design problems by Di Tillio, Kos, and Messner (2017). In the problem we consider, a principal (she) interacts with an agent (he). The agent can take one of n costly actions. Each action mathematical equation induces a probability distribution mathematical equation over m outcomes and imposes a non-negative cost mathematical equation on the agent. Each outcome mathematical equation comes with a reward mathematical equation for the principal. The principal cannot directly observe the agent's action, and seeks to influence the agent's choice of action by paying for the stochastic outcomes of the action taken by the agent. The principal and agent are both risk neutral, and a limited liability constraint forces payments to be non-negative.
+
+A classic contract for this setting includes a payment function mathematical equation, where mathematical equation specifies the non-negative payment from the principal to the agent when outcome mathematical equation is realized. Given a payment function t, the agent chooses an action mathematical equation that maximizes his expected payment minus cost. The principal, in turn, receives the expected reward of the implemented action, minus the expected payment to the agent under the chosen action.
+
+We are interested in ambiguous contracts. The source of the ambiguity can be given various interpretations. It may be that the contract has missing provisions, vaguely worded provisions, or provisions specified in prohibitively copious fine print,1 each case leaving the agent facing a set of possible realized contracts that he cannot refine. The resolution of the ambiguity may reflect a decision on the part of the principal, the action of a third party such as a court, or random events.
+
+To capture this ambiguity, we define an ambiguous contract to be a collection of payment functions mathematical equation. The agent evaluates each action mathematical equation by the minimum utility he could receive from a payment function mathematical equation, and chooses an action that maximizes this minimum utility. We say that the ambiguous contract implements the selected action. We impose the consistency condition that, for the implemented action, every payment function in the support of τ gives the principal the same payoff. We motivate this requirement as ensuring that the principal's “threat” that she may choose any payment function mathematical equation is credible, though we show that the requirement is without loss of generality.
+
+1.2 Our Contribution
+Section 2 sets up the model and examines the sets of implementable actions. We recall the familiar conditions (Hermalin and Katz (1991)) for an action to be implementable with a classic contract, and then characterize implementable actions under ambiguous contracts. In general, ambiguity expands the set of implementable actions.
+
+Section 3 examines optimal ambiguous contracts. We first show that the principal can use ambiguity to her advantage, either because ambiguity allows her to implement the optimal action under classic contracts at a reduced cost, or because she exploits the ambiguity to implement a different action. Indeed, a principal wielding ambiguous contracts may optimally induce an action that is impossible to implement under classic contracts.
+
+We then show that ambiguity drives optimal contracts toward simplicity. In general, optimal ambiguous contracts are composed of at most mathematical equation payment functions, each of which can be taken to attach a positive payment to precisely one outcome (i.e., is a single-outcome payment function). If we restrict attention to principal-agent problems satisfying the monotone likelihood ratio property (MLRP), then optimal ambiguous contracts contain at most two (single-outcome payment) contracts. If payment functions must be monotone—higher rewards engender higher payments—perhaps for reasons of fairness, regulation, or robustness, then analogous results hold, with payment functions now being step functions (with a single step) rather than paying for only a single outcome.
+
+Section 4 uses the concept of an ambiguity gap—the largest possible ratio of the principal's payoff under an optimal ambiguous contract to that of an optimal classic contract—to quantify how much the principal gains by exploiting ambiguity. In general, this ratio can be arbitrarily large. When all rewards are positive, the ambiguity gap is mathematical equation, and hence grows arbitrarily large when the number of actions grows large.
+
+Section 5 defines a class of contracts to be ambiguity-proof if it is impossible for the principal to implement an action at a lower expected payment with an ambiguous contract than with a classic contract. We show that a class of contracts is ambiguity-proof if and only if it is ordered, in the sense that for any two contracts in the class, one of them attaches a weakly higher payment to every outcome than does the other. An immediate implication of this result is that the class of linear contracts is ambiguity-proof, among others. In contrast, many other natural classes of contracts, such as the classes of all affine, polynomial, or monotone contracts, are not ambiguity-proof.
+
+Section 6 shows that the advantages of ambiguity disappear if the agent can mix over actions. The ability to mix provides the agent with more alternative actions, tightening the incentive constraints enough to dissipate any advantage the principal gains from ambiguous contracts. As explained by Raiffa (1961) in his assessment of the Ellsberg (1961) paradox, mixing allows the agent to transform a situation of ambiguity into one of risk, alleviating the force of ambiguity aversion.
+
+1.3 Implications
+We do not expect to see agents literally facing a bevy of payment functions, wondering which will actually be applied, but we do view our results as helpful in understanding three aspects of real-world contracts.
+
+First, we believe that contracts typically are ambiguous. Indeed, it is difficult to imagine a contract that specifies beyond any doubt the implications of every outcome. The literature has focused on feasibility constraints as the source of such imprecision—it may be prohibitively expensive or impossible to anticipate, describe, or verify the various outcomes.2 In contrast, we suggest that ambiguity may be deliberately embraced by the principal as an incentive device. As our ambiguity gap results show, the gains to the principal from doing so can be large.
+
+Second, a theme that emerges from our results is that optimal ambiguous contracts tend to be simple. We expect circumstances will often constrain contracts to be monotone. In this case, the optimal ambiguous contract features a collection of step functions, each with a single step. In practice, this would take the form of a single contract, specifying bonuses if various performance thresholds are reached, but written sufficiently imprecisely as to make the performance thresholds and bonuses ambiguous. If the technology satisfies the monotone likelihood ratio property, the number of such performance-dependent bonuses is small, namely two. We thus have a contract that requires at least adequate performance in order to elicit payment, with a bonus for superior performance, written so as to allow some ambiguity as to the precise performance thresholds and payments. We view actual contracts in many circumstances as fitting this description. For example, an assistant professor may believe that a reasonable research record engenders promotion to associate professor and a raise, with an exemplary record bringing promotion to full professor and a larger raise, with the thresholds and the amounts of the raises both ambiguous.
+
+Third, ambiguous contracts can be a burden for agents, either because they are more difficult to evaluate and enforce or because they are a weapon for extracting surplus from agents. Circumstances may accordingly restrict attention to ambiguity-proof classes of contracts. Our results show that insisting on ambiguity proofness also drives contracts toward (a different notion of) simplicity. Ordered contracts, with linear contracts as a leading example, are straightforward to process. We note that commission contracts are common, and in their simplest form are linear.3
+
+The literature has established other reasons why contracts may be imprecise or simple or linear. In each case, we cannot claim to have provided “the” explanation, but our work adds another factor to the list of considerations.
+
+1.4 Related Literature
+We work with a familiar hidden-action moral hazard problem, as in Holmström (1979), Grossman and Hart (1983), and Laffont and Martimort (2009, Chapter 4), with the friction arising out of limited liability (as in Innes (1990)) rather than risk aversion. In contrast to much of the moral hazard literature, our principal offers ambiguous contracts to an ambiguity-averse agent. We implement the agent's ambiguity aversion by modeling the agent as maximizing his max-min utility (Schmeidler (1989), Gilboa and Schmeidler (1993)).
+
+A flourishing literature examines design problems in the face of non-Bayesian uncertainty. One branch of this literature examines models in which the principal entertains non-Bayesian uncertainty about the agents. Bergemann and Schlag (2011) examined monopoly pricing on the part of a principal with ambiguous beliefs about buyers' valuations. Carrasco, Farinha Luz, Kos, Messner, Monteiro, and Moreira (2018) examined screening problems in which the principal is only partially informed of the distribution of agent preferences. Carroll (2015), Carroll and Walton (2022), and Kambhampati (2023) examined moral hazard problems in which the principal has ambiguous beliefs about the set of actions the agent can choose from. Dai and Toikka (2022) examined a principal who writes contracts to shape the actions of a team of agents, with the principal holding ambiguous beliefs about the actions available to the agents. Dütting, Roughgarden, and Talgam-Cohen (2019) examined moral hazard problems in which the principal has ambiguous beliefs about the distribution of outcomes induced by the agent's actions.
+
+A second branch of the literature examines settings in which the agent has ambiguous beliefs that the principal can potentially exploit. Beauchêne, Li, and Li (2019) and Cheng (2020) examined Bayesian persuasion problems in which the sender exploits the ambiguity aversion of the receiver. Bodoh-Creed (2012) and Di Tillio, Kos, and Messner (2017) examined screening problems with agents who have max-min preferences. Bose and Renou (2014) examined mechanism design problems in which agents have max-min preferences. Lopomo, Rigotti, and Shannon (2011) examined moral hazard problems with agents who have Bewley preferences. Bose, Ozdenoren, and Pape (2006) considered auctions in which the seller and bidders may both be ambiguity-averse. Our paper is distinguished from the two branches above by examining moral hazard problems in which the agent faces ambiguity concerning the payments attached to outcomes.
+
+The paper most closely related to our work is that of Di Tillio, Kos, and Messner (2017), who conducted a parallel exercise in the context of a screening model, with a seller allocating an object to an ambiguity-averse buyer. They found that the seller can gain from offering an ambiguous mechanism, consisting of a set of simple mechanisms, just as our principal can benefit from offering an ambiguous contract. In each case, the gain comes from using the agent's ambiguity aversion to relax incentive constraints. Di Tillio, Kos, and Messner (2017) showed that an optimal ambiguous mechanism contains at most mathematical equation mechanisms, where N is the number of agent types (as opposed to the number of actions, in our case), each of which takes a simple form reminiscent of our single-outcome payment functions. Finally, they showed that as the number of agent types grows arbitrarily large, the principal comes arbitrarily close to extracting all of the surplus.
+
+Di Tillio, Kos, and Messner (2017) imposed a consistency condition on ambiguous mechanisms, analogous to the consistency condition we impose on ambiguous contracts. In their case, this restriction is substantive rather than sacrificing no generality, reflecting the differing structure of the incentive constraints that arise in screening and moral hazard problems. Di Tillio, Kos, and Messner (2017) did not have counterparts of our findings that the number of payment functions in an optimal ambiguous contract is precisely two in the presence of the MLRP condition, though they maintained throughout the screening counterpart of this assumption, in the form of a single-crossing condition.
+
+An implication of our results is that in the context of moral hazard problems, ambiguity and max-min utility drive optimal designs toward simplicity. We thus join a literature, with Holmstrom and Milgrom (1987) as a key early entry, endeavoring to explain why actual contracts in moral hazard settings tend to be simple, in contrast to their theoretical counterparts. Carroll (2015), Carroll and Walton (2022), and Dai and Toikka (2022) showed that a principal who is uncertain of the actions available to an agent and who has max-min preferences will optimally choose a linear contract. Dütting, Roughgarden, and Talgam-Cohen (2019) showed that the same holds for a principal who is uncertain about the technology by which actions turn into outcomes and who has max-min preferences. These papers thus show that ambiguity aversion on the part of the principal can lead to linear contracts, whereas we find linear contracts may be attractive as a device for preventing the principal from exploiting the agent's ambiguity aversion. In our setting, exploiting the agent's ambiguity aversion leads the principal to an alternative class of simple contracts, consisting of single-outcome payment functions or step functions (when payment functions must be monotone), and including only two such functions when the MLRP condition holds.
+
+2 The Model
+Our starting point is the classic hidden-action principal-agent model of contract theory (e.g., Holmström (1979), Grossman and Hart (1983), and Laffont and Martimort (2009, Chapter 4)). A principal (she) induces an agent (he) to take a costly, unobservable action by writing a contract that attaches payments to the observable, stochastic outcomes of the chosen action. We augment the model by introducing the notion of an ambiguous contract and examining optimal ambiguous contracts.
+
+2.1 The Principal-Agent Model
+The basic ingredients of the principal-agent model apply to both classic and ambiguous contracts.
+
+
+Definition 1. (Instance)An instance mathematical equation of the principal-agent problem with n actions and m outcomes is specified by:
+
+
+For each action mathematical equation, a non-negative cost mathematical equation. We write mathematical equation for the vector of costs, and sort the actions so that mathematical equation.
+For each outcome mathematical equation, a reward mathematical equation. We write mathematical equation for the vector of rewards, and sort outcomes so that mathematical equation.
+For each action mathematical equation, a probability distribution mathematical equation. We use mathematical equation to denote the probability of outcome j under action i.
+We use mathematical equation to denote the expected reward of action i, and write mathematical equation for action i's expected welfare.
+
+The agent retains the option of not participating. To capture this, we assume throughout that action 1 is a zero-cost action, that leads with probability 1 to an outcome that we interpret as the status-quo outcome. As we explain in Sections 2.2–2.3, this does not limit the generality of the model, but leads to a unified treatment of the incentive compatibility and individual rationality constraints.
+
+The literature often focuses on instances that satisfy the monotone likelihood ratio property:
+
+
+Definition 2. (MLRP)An instance mathematical equation satisfies the MLRP (monotone likelihood ratio property) if, for any two actions i, mathematical equation such that mathematical equation, it holds for all mathematical equation that
+
+mathematical equation
+Intuitively, the MLRP condition requires that more costly actions are more likely to yield high outcomes.
+
+The specification mathematical equation is known to both the principal and the agent. The agent's action is known only by the agent, while realized outcomes are observed by both the principal and agent.
+
+A payment function mathematical equation identifies a payment made by the principal to the agent upon the realization of each outcome, with the payment mathematical equation made in response to outcome j typically denoted by mathematical equation. Payments are attached to outcomes rather than actions because the principal can observe only the former. We assume that payments are non-negative. This is a standard limited liability assumption.
+
+In many cases, considerations of fairness, regulation, or robustness may restrict attention to monotone payment functions.
+
+
+Definition 3.The payment function t is monotone if outcomes generating larger rewards engender (at least weakly) larger payments: mathematical equation for all mathematical equation.
+
+2.2 Classic Contracts
+We first describe the classic setting, in which a contract, denoted by mathematical equation, is a payment function t and a recommended action mathematical equation. The interpretation is that the principal posts a contract, the agent observes the contract and chooses an action and bears the attendant cost, an outcome is drawn from the distribution over outcomes induced by that action, and the principal makes the payment to the agent specified by the contract. The inclusion of a recommended action in the contract allows us to capture the common presumption that the agent “breaks ties in favor of the principal.”
+
+More precisely, an agent who chooses action mathematical equation when facing a contract mathematical equation garners expected utility
+mathematical equation
+given by the difference between the expected payment mathematical equation and the cost mathematical equation. The resulting principal utility is mathematical equation.
+
+Definition 4. (IC contract)A contract mathematical equation is incentive compatible (IC) if
+
+mathematical equation
+in which case we say that contract mathematical equation implements action i.
+Because payments are non-negative and action 1 has zero cost, incentive compatibility ensures that the agent secures an expected utility of at least zero, and hence implies individual rationality.
+
+We assume the agent follows the recommendation of an incentive compatible contract. If the principal posts the incentive compatible contract mathematical equation, the payoffs to the principal and agent are then
+mathematical equation
+It is without loss of generality to restrict the principal to incentive compatible contracts. The idea is that an agent facing contract mathematical equation will choose an action that maximizes her expected utility given t, and hence the principal might as well name such an action in the contract. The optimal classic contract implementing each action i can be identified by solving a linear programming problem, presented in Figure 8 in Supplemental Appendix A (Dútting, Feldman, Peretz, and Samuelson (2024)). The optimal (incentive compatible) classic contract will inevitably induce indifference on the part of the agent, as some incentive constraint will bind.
+
+2.3 Ambiguous Contracts
+An ambiguous contract mathematical equation is a set of payment functions and a recommended action. If mathematical equation, then we say that t is in the support of τ.
+
+The principal now posts an ambiguous contract, the agent observes the ambiguous contract and chooses an action and bears the attendant cost, a payment function is selected from the support of the ambiguous contract, an outcome is drawn from the distribution over outcomes induced by that action, and the principal makes the payment to the agent specified by the selected contract.
+
+The agent is a max-min expected utility maximizer (Schmeidler (1989), Gilboa and Schmeidler (1993)), and so evaluates each action i according to the payment function that minimizes the expected payment of the action.
+
+Formally, given an ambiguous contract mathematical equation, the agent's utility for action mathematical equation is
+mathematical equation
+
+Definition 5. (IC ambiguous contract)An ambiguous contract mathematical equation is incentive compatible (IC) if
+
+mathematical equation
+in which case we say that ambiguous contract mathematical equation implements action i.
+As in the case of a classic contract, the incentive compatibility constraint implies individual rationality. It is again without loss to restrict the principal to incentive compatible ambiguous contracts.
+If the principal's expected utility mathematical equation under payment scheme mathematical equation is strictly higher than mathematical equation for some mathematical equation, then the principal's “threat” that she may use any contract in τ may not be credible—an agent facing ambiguous contract mathematical equation may fear the principal will contrive to invariably select the payment function t rather than mathematical equation. As in Di Tillio, Kos, and Messner (2017), we accordingly restrict the principal to consistent ambiguous contracts.
+
+
+Definition 6. (Consistency)An ambiguous contract mathematical equation is consistent if, for any mathematical equation,
+
+mathematical equation
+(1)
+If the principal posts the consistent, incentive compatible ambiguous contract mathematical equation, then the induced payment mathematical equation can be defined as
+mathematical equation
+with the first directly implied by consistency and the second following from mathematical equation. The expected utilities mathematical equation and mathematical equation of the principal and agent are then given by, for any mathematical equation,
+mathematical equation
+It is without loss of generality to restrict the principal to consistent ambiguous contracts:
+
+
+Lemma 1.Suppose mathematical equation is incentive compatible. Then there exists a consistent, incentive compatible ambiguous contract mathematical equation from which the principal obtains expected payoff at least mathematical equation.
+
+
+Proof.Consider an incentive compatible ambiguous contract mathematical equation that is not consistent. Let the payment functions in τ be numbered so that
+
+mathematical equation
+Suppose
+mathematical equation
+Then it must be that
+mathematical equation
+Let mathematical equation satisfy
+mathematical equation
+and consider the ambiguous contract mathematical equation, constructed from mathematical equation by replacing payment function mathematical equation with mathematical equation. We have mathematical equation, and so the principal's payoff is at least as high under mathematical equation as under mathematical equation. In addition, we have
+mathematical equation
+which imply
+mathematical equation
+which establishes that mathematical equation is incentive compatible. Applying a similar argument to payment functions mathematical equation yields the result. Q.E.D.
+An implication of this result is that we can equivalently view the principal as selecting the contract to be implemented, or as having max-min preferences over the outcome of a selection by a third party.
+
+2.4 Implementability
+This section characterizes the actions that are implementable with classic and ambiguous contracts. The following result for classic contracts is standard (e.g., Hermalin and Katz (1991, Proposition 2)).
+
+
+Proposition 1.Action mathematical equation is implementable with a classic contract if and only if there does not exist a convex combination mathematical equation of the actions mathematical equation that yields the same distribution over rewards mathematical equation for all j but at a strictly lower cost mathematical equation.
+
+For completeness, we provide a proof in Supplemental Appendix A. In contrast, the conditions for implementing an action with ambiguous contracts are more permissive:
+
+
+Proposition 2.Action mathematical equation is implementable with an ambiguous contract if and only if there is no other action mathematical equation such that mathematical equation and mathematical equation.
+
+
+Proof.We first show that if there exists an action mathematical equation such that mathematical equation and mathematical equation, then it is impossible to implement action i with an ambiguous contract. For the sake of contradiction, suppose that ambiguous contract mathematical equation implements action i. In this case, since mathematical equation, we have mathematical equation for all mathematical equation. But then mathematical equation, contradicting the fact that mathematical equation is incentive compatible.
+
+Next, we show that if there is no action mathematical equation such that mathematical equation and mathematical equation, then action i can be implemented with an ambiguous contract. In this case, for each action mathematical equation, either (i) mathematical equation or (ii) mathematical equation and mathematical equation. Let A be the actions of type (i). If A is empty, then i must be a zero-cost action. A (consistent) ambiguous contract for implementing that action is mathematical equation with mathematical equation.
+
+Assume A is non-empty. We construct an ambiguous contract mathematical equation for implementing action i that has one contract mathematical equation for each action mathematical equation of type (i). For each action mathematical equation, let mathematical equation be an outcome j such that mathematical equation is maximal. Note that mathematical equation. Let
+
+mathematical equation
+For each mathematical equation, let mathematical equation and mathematical equation for mathematical equation.
+We conclude by verifying that mathematical equation is a (consistent) ambiguous contract that implements action i. It is easy to check consistency.
+
+To see that mathematical equation is incentive compatible, first consider actions mathematical equation of type (ii). For these actions, we have
+
+mathematical equation
+where we used that mathematical equation and mathematical equation.
+Next, consider actions mathematical equation of type (i). For these actions, there must be a mathematical equation with mathematical equation such that
+
+mathematical equation
+Since mathematical equation and mathematical equation, this implies
+mathematical equation
+where the first equality holds by consistency, the second equality holds by definition of mathematical equation, and the final equality holds by definition. Q.E.D.
+The following example presents an action that is implementable with an ambiguous contract but not a classic contract.
+
+
+Example 1. (Action implementable with ambiguous but not classic contract)Consider the instance in Figure 1. A half/half combination of actions 2 and 3 gives the same distribution over outcomes as action 4, but at a lower cost, and hence no classic contract can implement action 4. However, the ambiguous contract mathematical equation with mathematical equation and mathematical equation implements action 4 with the minimum possible expected payment of mathematical equation.
+
+Details are in the caption following the image
+Figure 1
+Open in figure viewer
+PowerPoint
+Instance (c,r,p) for Example 1.
+
+3 Optimal Ambiguous Contracts
+We first show, in Section 3.1, that the principal can benefit by employing ambiguous rather than classic contracts. This observation motivates us to study the structure of optimal ambiguous contracts. Section 3.2 establishes that optimal ambiguous contracts taking a particularly simple form always exist. Section 3.3 establishes the counterparts of these results for monotone contracts.
+
+3.1 The Advantage of Optimal Ambiguous Contracts
+In the following simple variation of Example 1, the principal gains from ambiguity by implementing the same action as in the best classic contract, though less expensively.
+
+
+Example 2. (Strict improvement)Consider the instance shown in Figure 2. The best classic contract is mathematical equation, yielding the principal an expected utility of 1. Indeed, the best classic contract implementing action 2 is mathematical equation, for a principal's utility of 3/4, and the same holds for action 3, with the contract mathematical equation.
+
+An optimal ambiguous contract is mathematical equation, with mathematical equation and mathematical equation. The worst payment function in τ for action 2 is mathematical equation, giving the agent an expected payment of 0. Similarly, the worst payment function for action 3 is mathematical equation, for an expected payment of 0. Thus, both actions 2 and 3 give the agent negative utilities. In contrast, the expected payment for action 4 is 3/4 under both mathematical equation and mathematical equation, giving the agent an expected utility of 0. The ambiguous contract mathematical equation thus implements action 4, with an expected payment of 3/4, and an expected utility for the principal of 5/4, strictly higher than her optimal utility under a classic contract.
+
+Details are in the caption following the image
+Figure 2
+Open in figure viewer
+PowerPoint
+Instance (c,r,p) for Example 2.
+
+We next show that the same phenomenon can occur in instances satisfying the MLRP condition. In this example, the optimal ambiguous contract implements a different action than the one implemented by the optimal classic contact.
+
+
+Example 3. (Strict improvement under MLRP)Consider the instance shown in Figure 3. In this instance, the principal can implement both action 2 and action 4 with a classic contract, with an expected payment equal to the agent's respective cost. Possible contracts that achieve this include mathematical equation and mathematical equation. The resulting principal utility is mathematical equation for action 2 and mathematical equation for action 4. The cheapest way to implement action 3 (e.g., by solving the LP in Figure 8 in Supplemental Appendix A) is via contract mathematical equation, yielding a utility of mathematical equation. The maximal utility the principal can achieve with a classic contract is thus 21.4. Contrast this with the optimal ambiguous contract mathematical equation, consisting of the two payment functions mathematical equation and mathematical equation. This ambiguous contract implements action 3 with an expected payment equal to the agent's cost, for a principal utility of mathematical equation.
+
+Details are in the caption following the image
+Figure 3
+Open in figure viewer
+PowerPoint
+Instance (c,r,p) for Example 3.
+
+In our next example, the principal gains from using an ambiguous contract to implement an action that cannot be implemented with a classic contract.
+
+
+Example 4. (Action optimal with ambiguous contract but not implementable with classic contract)Consider the instance shown in Figure 4. Action 6 cannot be implemented by a classic contract, with the half/half combination of actions 4 and 5 giving the same distribution over outcomes at a lower cost. Actions 2 and 3 have a negative expected welfare, and so will never be optimal for the principal. Actions 4 and 5 can both be implemented with a classic contract, and yield the same maximal utility for the principal. Optimal classic contracts for these actions include mathematical equation and mathematical equation, each giving the principal an expected utility of 1. In contrast, the optimal ambiguous contract mathematical equation implements action 6, for an expected utility of 10.
+
+Details are in the caption following the image
+Figure 4
+Open in figure viewer
+PowerPoint
+Instance (c,r,p) for Example 4.
+
+We conclude with an example showing that an ambiguous contract may benefit both the principal and the agent. Clearly, this can only happen when the optimal action under an ambiguous contract differs from the optimal action under classic contracts.
+
+
+Example 5. (Ambiguous contracts may benefit both principal and agent)Consider the instance shown in Figure 5. An optimal classic contract is mathematical equation, implementing action 2 with utilities 0 and 3 to the agent and principal. The ambiguous contract mathematical equation implements action 4 with utilities 0.2 and 4 to the agent and principal.
+
+Details are in the caption following the image
+Figure 5
+Open in figure viewer
+PowerPoint
+Instance (c,r,p) for Example 5.
+
+3.2 The Structure of Optimal Ambiguous Contracts
+We now investigate the structure of optimal ambiguous contracts. We first introduce the simplicity notion of a single-outcome payment contract.
+
+
+Definition 7. (SOP payment function)A payment function mathematical equation is a single-outcome payment function if there exists an outcome mathematical equation such that mathematical equation, and for any outcome mathematical equation, mathematical equation.
+
+An ambiguous contract is a single-outcome payment contract if all of its payment functions have this property. Proposition 2 used SOP contracts to establish the sufficiency of conditions for implementation under ambiguous contracts.
+
+The following theorem shows that it is without loss of generality to consider ambiguous SOP contracts, and that at most mathematical equation payment functions are needed. In Proposition 5 in Supplemental Appendix B, we show that this bound is tight.
+
+
+Theorem 1. (Optimal ambiguous contracts)For every IC ambiguous contract mathematical equation, there exists an IC ambiguous contract mathematical equation, containing at most mathematical equation payment functions, such that:
+
+
+1.mathematical equation (i.e., both contracts have the same expected payment and hence same expected payoff to the principal).
+2.For every mathematical equation, mathematical equation is an SOP payment function.
+
+Proof.Let the ambiguous contract τ implement action i. Let mathematical equation. For every mathematical equation, consider the SOP payment function with payment mathematical equation for outcome j. Let mathematical equation be the ambiguous contract consisting of these SOP payment functions. By construction, mathematical equation satisfies properties (1)–(2). We show that mathematical equation implements i. Consider an action mathematical equation. Because τ implements i, there exists mathematical equation with
+
+mathematical equation
+To show that mathematical equation implements i, it suffices to show
+mathematical equation
+Combining these, it suffices to show
+mathematical equation
+which is equivalent to the obvious statement that
+mathematical equation
+Notice that mathematical equation consists of at most m SOP payment functions (in fact, at most mathematical equation payment functions). If mathematical equation, one can eliminate from mathematical equation every payment function that does not minimize the expected payoff to one of the alternatives mathematical equation, leaving at most mathematical equation SOP payment functions. Q.E.D.
+An implication of this result is that if the agent has only two feasible actions, then there exists an optimal ambiguous contract with at most mathematical equation payment functions, which is a classic contract. Hence, with only two actions, ambiguous contracts cannot improve on classic contracts for the principal.
+
+With the help of Theorem 1, we can show that the contract mathematical equation that we constructed to establish the sufficiency of the conditions for implementation (in the proof of Proposition 2) is optimal.
+
+
+Proposition 3.Suppose action mathematical equation is implementable by an ambiguous contract. Let mathematical equation. If mathematical equation, then mathematical equation, and the IC contract mathematical equation is optimal for action i. Otherwise, for each mathematical equation, let mathematical equation be an outcome such that mathematical equation is maximal. Let
+
+mathematical equation
+For each mathematical equation, let mathematical equation and mathematical equation for mathematical equation. Then the IC contract mathematical equation is optimal for action i.
+The proof of Proposition 3 in Supplemental Appendix C relies on arguments similar to those used to establish that in classic contracts, with two actions, it is optimal to pay only for the maximum likelihood ratio outcome (e.g., Laffont and Martimort (2009, Chapter 4.5.1), Dütting, Roughgarden, and Talgam-Cohen (2019, Full version, Proposition 5)).
+
+We next show that optimal ambiguous contracts for instances satisfying the MLRP condition admit an even simpler structure, namely an ambiguous contract composed of only two SOP payment functions.
+
+
+Theorem 2. (Optimal ambiguous contracts under MLRP)Let mathematical equation be an instance that satisfies the MLRP condition. For every IC ambiguous contract mathematical equation, there exists an IC ambiguous contract mathematical equation, such that:
+
+
+1.mathematical equation (i.e., both contracts have the same expected payment and hence the same expected payoff to the principal).
+2.mathematical equation and mathematical equation are SOP payment functions, where mathematical equation for mathematical equation, and mathematical equation for mathematical equation.
+The proof of Theorem 2, which is deferred to Supplemental Appendix D, combines the structural properties established in Theorem 1 with the MLRP condition to argue that two SOP payment functions, introduced in the proof of Theorem 1, suffice. Payment function mathematical equation “defeats” all actions with smaller costs and payment function mathematical equation “defeats” all actions with higher costs.
+
+The ability to restrict attention to SOP contracts allows us to show that optimal ambiguous contracts are relatively easy to identify. Supplemental Appendix H shows that there exists an algorithm capable of computing the optimal ambiguous contract in time mathematical equation (and time mathematical equation under the MLRP condition). The key implication of these results is that computation time increases polynomially rather than exponentially in the size of the instance.
+
+3.3 Optimal Monotone Ambiguous Contracts
+In some scenarios, it is desired or even required, for reasons of fairness, robustness, or regulation, to restrict attention to monotone payment functions. A contract whose payment functions are monotone is a monotone contract. The monotonicity requirement rules out SOP contracts. The following is a natural alternative simplicity notion for monotone contracts.
+
+
+Definition 8. (Step payment function)A payment function mathematical equation is a step payment function if there exist an outcome mathematical equation and some mathematical equation, such that mathematical equation for every outcome mathematical equation, and mathematical equation for every outcome mathematical equation.
+
+A contract composed of step payment functions is a step contract.
+
+The following theorem shows that it is without loss of generality to consider ambiguous monotone contracts that are composed of step payment functions. In that sense, step contracts are the analogue of SOP contracts for monotone contracts.
+
+
+Theorem 3. (Optimal monotone ambiguous contracts)For every IC monotone ambiguous contract mathematical equation, there exists an IC monotone ambiguous contract mathematical equation consisting of at most mathematical equation contracts, such that:
+
+
+1.mathematical equation (i.e., both contracts have the same expected payment and hence the same payoff to the principal).
+2.Every payment function in mathematical equation is a step payment function.
+Clearly, the theorem holds if we replace “monotone ambiguous contract” with “step ambiguous contract.”
+
+
+Proof of Theorem 3.We construct mathematical equation as follows. For every action mathematical equation, there must be a monotone payment function mathematical equation, such that mathematical equation. By the same arguments as in the proof of Theorem 1, it is now sufficient to show that there is a step payment function mathematical equation to put into mathematical equation such that (i) mathematical equation and (ii) mathematical equation.
+
+For actions mathematical equation such that there exists an outcome mathematical equation for which mathematical equation and mathematical equation, set mathematical equation for all mathematical equation and mathematical equation for all mathematical equation. To see that Condition (i) is satisfied, observe that
+
+mathematical equation
+Condition (ii) is satisfied, because mathematical equation and mathematical equation for mathematical equation imply that mathematical equation, while mathematical equation by limited liability.
+Consider next actions mathematical equation such that, for all mathematical equation where mathematical equation, it holds that mathematical equation. Let
+
+mathematical equation
+Define mathematical equation as follows: Let mathematical equation for all mathematical equation, and mathematical equation for all mathematical equation. It is again easy to verify that Condition (i) holds. Condition (ii) follows from noting that
+mathematical equation
+where the inequality follows by observing that one possible choice for mathematical equation is the smallest index such that mathematical equation.
+We still have to show that mathematical equation. Clearly, mathematical equation by the construction of mathematical equation (we add one payment function for every mathematical equation). The fact that mathematical equation follows by the consistency of mathematical equation, combined with the fact that any payment function mathematical equation is a step payment function, that is, mathematical equation combined with the outcome in which the step of a payment function occurs, uniquely defines the payment function. Q.E.D.
+
+We next show that optimal monotone ambiguous contracts for instances satisfying the MLRP condition admit an even simpler structure. Namely, similarly to the unrestricted case where we did not impose monotonicity, the MLRP condition implies that an optimal ambiguous contract consists of only two payment functions.
+
+
+Theorem 4. (Optimal monotone ambiguous contracts under MLRP)Let mathematical equation be an instance that satisfies the MLRP condition. For every IC monotone ambiguous contract mathematical equation, there exists an IC monotone ambiguous contract mathematical equation such that:
+
+
+1.mathematical equation (i.e., both contracts have the same expected payment and hence the same payoff to the principal).
+2.mathematical equation and mathematical equation are step payment functions: mathematical equation for all mathematical equation, where mathematical equation, and mathematical equation for all mathematical equation, where mathematical equation.
+The proof of Theorem 4 appears in Supplemental Appendix E, and proceeds by verifying that the contract stated in the second bullet satisfies the condition in the first bullet and implements action i. As in the case of Theorem 2, mathematical equation protects against all actions with lower cost and mathematical equation protects against all actions with higher cost.
+
+
+Example 6. (Strict improvement under MLRP with monotone contracts)We return to the instance shown in Figure 3, but now require contracts to be monotone. The payment functions for the optimal classic monotone contracts implementing each of the various actions, and the attendant payoffs for the principal, are:
+
+mathematical equation
+An ambiguous contract allows us to improve on the cost of implementing (only) action 3. An optimal ambiguous contract implements action 3 with the two step payment functions
+mathematical equation
+for a payoff to the principal of 21.5.
+4 The Ambiguity Gap
+Section 3.1 confirmed that it can be advantageous for the principal to offer ambiguous contracts. To quantify the extent of the potential gains, we introduce the notion of the ambiguity gap, defined as the worst-case ratio between the principal's utility with and without ambiguity.
+
+We restrict attention throughout this section to instances for which the optimal classic contract induces a non-negative utility for the principal. Let mathematical equation and mathematical equation be the sets of incentive compatible classic contracts and incentive compatible ambiguous contracts, for an instance mathematical equation.
+
+
+Definition 9. (Ambiguity gap)The ambiguity gap mathematical equation of a given instance mathematical equation, and the ambiguity gap mathematical equation of a class of instances mathematical equation, are
+
+mathematical equation
+4.1 Unbounded Ambiguity Gap in General
+The following example shows that the ambiguity gap can be arbitrarily large.
+
+
+Example 7. (Unbounded gap with negative rewards)Consider the instance shown in Figure 6, where mathematical equation is a parameter we will allow to vary. Actions 2 and 3 generate negative welfare, and hence only action 4 is capable (depending on r) of producing positive welfare. Welfare is given by
+
+mathematical equation
+and is positive if and only if mathematical equation. An optimal classic contract implementing action 4 is mathematical equation, which gives
+mathematical equation
+which is positive if and only if mathematical equation. An optimal ambiguous contract implementing action 4 is mathematical equation, giving
+mathematical equation
+which is positive if and only if mathematical equation. Hence, for mathematical equation, the best classic contract generates a payoff of 0, while the best ambiguous contract generates a positive payoff, yielding an infinite ambiguity gap.
+Details are in the caption following the image
+Figure 6
+Open in figure viewer
+PowerPoint
+Instance (c,r,p) for Example 7.
+
+4.2 Tight Ambiguity Gap Under Non-Negative Rewards
+In contrast to the unbounded ambiguity gap in general instances, we next show that, for instances in which all rewards are non-negative, the ambiguity gap is at most mathematical equation and this is tight.
+
+
+Proposition 4.Fix mathematical equation. Let mathematical equation denote the class of all instances with n actions and non-negative rewards. The ambiguity gap of mathematical equation is
+
+mathematical equation
+The upper-bound direction of the argument makes use of the notion of a linear contract, which is used to state the following lemma.
+
+
+Definition 10. (Linear contract)Consider an instance mathematical equation. A (classic) contract mathematical equation is linear if mathematical equation for some mathematical equation.
+
+For an instance mathematical equation, denote by mathematical equation the set of all incentive compatible linear contracts. Let mathematical equation denote the maximum welfare.
+
+The following lemma shows that in instances in which the status-quo outcome has a reward of zero, the principal can achieve a mathematical equation fraction of the optimal welfare as utility with a linear contract.
+
+
+Lemma 2.Consider instance mathematical equation in which action 1 has a cost of mathematical equation and invariably leads to reward mathematical equation. Then there exists a subset of actions mathematical equation with mathematical equation and a scalar mathematical equation for each mathematical equation such that each linear contract mathematical equation with mathematical equation is IC and
+
+mathematical equation
+(2)
+The proof of Lemma 2 is similar to arguments in (Dütting, Roughgarden, and Talgam-Cohen (2019)). For completeness, we provide a proof of this lemma in Supplemental Appendix F. We are now ready to prove Proposition 4.
+
+
+Proof of Proposition 4.We first show the upper bound on the ambiguity gap. To this end, fix any mathematical equation and any instance mathematical equation. Clearly, the maximum utility the principal can achieve with an ambiguous contract satisfies mathematical equation. Thus, in order to prove the upper bound on the ambiguity gap, it suffices to show that the maximum utility the principal can achieve with a classic contract satisfies mathematical equation. Consider using a contract of the form mathematical equation with mathematical equation, and let mathematical equation be a modified instance in which mathematical equation for all mathematical equation. Note that, from the agent's perspective, applying contract mathematical equation in the original instance is equivalent to applying contract mathematical equation with mathematical equation in the modified instance.
+
+Let mathematical equation and mathematical equation for mathematical equation denote the expected reward and welfare of action i in the modified instance, and let mathematical equation. Note that mathematical equation and mathematical equation for all mathematical equation, and hence also mathematical equation. Applying Lemma 2 to the modified instance, we know that there exist a set mathematical equation and scalars mathematical equation for mathematical equation such that
+
+mathematical equation
+where in the last step we used that mathematical equation. This completes the proof of the upper bound on the ambiguity gap.
+We next show the lower bound on the ambiguity gap. To this end, we vary a lower-bound construction due to Dütting, Roughgarden, and Talgam-Cohen (2021). For mathematical equation, there is nothing to show, so fix any mathematical equation. Let mathematical equation and let mathematical equation. Consider the parameterized instance mathematical equation with n actions depicted in Figure 7. Lemma 3 in Supplemental Appendix G shows that the maximal utility the principal can achieve in this instance with a classic contract is at most 1. The argument proceeds by showing an upper bound of 1 for each action mathematical equation. For actions mathematical equation, the upper bound is immediate, as the welfare of these actions is mathematical equation. For actions mathematical equation, the upper bound can be shown by considering only a subset of the IC constraints.
+
+The proof is completed by observing that, with an ambiguous contract, the principal can implement action n, with an expected payment equal to mathematical equation. This is enough to show the claim, as the welfare from that action is mathematical equation, and mathematical equation as mathematical equation. The ambiguous contract that achieves this is mathematical equation with mathematical equation and mathematical equation. It is easy to verify that this contract is consistent, and entails an expected payment of mathematical equation for action n. It is IC, because for all actions mathematical equation, it gives a minimum payment of zero. Q.E.D.
+
+Details are in the caption following the image
+Figure 7
+Open in figure viewer
+PowerPoint
+Instance (c,r,p) used in the proof of Proposition 4.
+
+5 Ambiguity Proofness
+In this section, we explore which classes of contracts are amenable to improvements via ambiguous contracts. We phrase our results in terms of properties of payment functions.
+
+It simplifies the exposition to restrict attention to payment functions with the property that two outcomes that induce the same reward also induce the same payment. We can thus think of a payment function as mapping from mathematical equation into mathematical equation. Within this setting, a class of payment functions mathematical equation is a set (possibly of infinite size) of payment functions mathematical equation.
+
+We first give the definition of an ambiguity-proof class of payment functions. For a given instance mathematical equation, let mathematical equation denote the set of all incentive compatible classic contracts with payment functions from mathematical equation. Let mathematical equation be the analogous definition for ambiguous contracts.
+
+
+Definition 11. (Ambiguity-proof)A class of payment functions mathematical equation is ambiguity-proof if, for any instance mathematical equation and any action mathematical equation, it holds that
+
+mathematical equation
+that is, the principal cannot gain from implementing any action i with an ambiguous rather than a classic contract.
+For example, the principal-agent setting in Example 2 shows that the contract class of all contracts is not ambiguity-proof.
+
+Our condition for ambiguity-proofness will be the following:
+
+
+Definition 12. (Ordered class of payment functions)A class of payment functions mathematical equation is ordered if, for any two payment functions mathematical equation, it holds that
+
+mathematical equation
+
+Theorem 5. (Ambiguity-proofness characterization)A class of payment functions mathematical equation is ambiguity-proof if and only if it is ordered.
+
+
+Proof.We first show that an ordered class of payment functions is ambiguity-proof. Suppose mathematical equation is ordered. Consider a (consistent) incentive compatible ambiguous contract mathematical equation with mathematical equation. Since mathematical equation is ordered, there must exist a payment function in τ, say mathematical equation, with the property that mathematical equation for all mathematical equation and all mathematical equation. Hence, for every action mathematical equation, we have
+
+mathematical equation
+which implies that the classic contract mathematical equation is incentive compatible. Moreover, by consistency of mathematical equation, it also holds that
+mathematical equation
+Hence, the classic contract mathematical equation implements action i at the same cost as does mathematical equation, and so mathematical equation is ambiguity-proof.
+We next show that ambiguity-proofness implies ordering, by proving the contrapositive. Suppose mathematical equation violates ordering. Then there exist mathematical equation and mathematical equation such that mathematical equation and mathematical equation. Letting mathematical equation, mathematical equation, mathematical equation, and mathematical equation, we obtain values mathematical equation with mathematical equation satisfying
+
+mathematical equation
+(3)
+Let mathematical equation. Note that mathematical equation by limited liability. Now consider the following instance with two outcomes, with mathematical equation and mathematical equation, and three actions as follows:
+
+Action mathematical equation: mathematical equation and mathematical equation.
+Action 3: for mathematical equation, mathematical equation, and mathematical equation.
+Note that this construction ensures that mathematical equation for all mathematical equation, and that mathematical equation for some mathematical equation, which we can take to be the default action.
+
+We argue that action 3 can be implemented by an ambiguous contract and cannot be implemented by any classic contract. We first show that action 3 can be implemented with the ambiguous contract mathematical equation where mathematical equation, with an expected payment equal to mathematical equation. To see that mathematical equation is consistent, note that
+
+mathematical equation
+Since t and mathematical equation have the same expected payment for action 3, the agent's expected utility for taking action 3 under t and mathematical equation is the same, and equals
+mathematical equation
+It remains to show that for any action mathematical equation, the agent's utility under mathematical equation is at most κ. If mathematical equation, then mathematical equation, and the agent's expected utility for action i is mathematical equation. Similarly, if mathematical equation, then mathematical equation, and the agent's utility for action i is mathematical equation. So in either case, the agent's utility from the ambiguous contract is at most κ.
+We complete the argument by showing that action 3 cannot be implemented by any classic contract (even if we do not restrict the classic contract to come from class mathematical equation). We have
+
+mathematical equation
+The convex combination of actions 1, 2 via vector mathematical equation thus yields the same distribution over rewards as action 3, but at a strictly lower cost. By Proposition 1, this means that action 3 is not implementable by any classic contract. Q.E.D.
+As an immediate corollary of our characterization, we obtain that for any fixed mathematical equation and mathematical equation, the class of payment functions mathematical equation is ambiguity-proof. If all rewards are non-negative, then we can set mathematical equation to see that the class of linear contracts mathematical equation is ambiguity-proof. For general rewards, if mathematical equation, then mathematical equation describes an ambiguity-proof class of affine contracts. This is cast in the following corollary.
+
+
+Corollary 1.For any fixed mathematical equation, and mathematical equation, the class of payment functions mathematical equation is ambiguity-proof. In particular, when all rewards are positive, the class of linear payment functions (corresponding to mathematical equation) is ambiguity-proof.
+
+On the other hand, our characterization implies that many natural classes of contracts, such as the class of all affine contracts, all polynomial contracts, or the class of all monotone contracts, fail to be ambiguity-proof.
+
+6 Mixing Hedges Against Ambiguity
+In this section, we explore the power of ambiguity when the agent is allowed to select a mixed action and the principal is allowed to implement mixed actions. Our main result (Theorem 6) is that in this case, the principal cannot gain from using an ambiguous contract. Bade (2023) obtained a similarly spirited result in a mechanism design context, showing that if agents are dynamically consistent, meaning that they update their beliefs in response to information so as to make it optimal to continue with their ex ante optimal plan of action, then ambiguity does not expand the set of implementable social choice functions. In contrast, Kambhampati (2023) showed that a principal who entertains ambiguous beliefs about the actions available to an agent can typically improve her payoff by offering a random contract to the agent.
+
+6.1 Extension to Mixed Actions
+The definition of a payment function remains the same: mathematical equation defines a non-negative transfer mathematical equation for each outcome mathematical equation. A mixed action of the agent, denoted by mathematical equation, is a convex combination over actions mathematical equation, so that mathematical equation denotes the probability with which the agent chooses action i. A pure action is the special case of a mixed action in which mathematical equation for some i and mathematical equation for all other mathematical equation. The expected reward of mixed action ψ is mathematical equation. We write mathematical equation for the expected payment for mixed action ψ under payment function t.
+
+The agent's expected utility for mixed action mathematical equation under classic contract mathematical equation is mathematical equation. Classic contract mathematical equation is incentive compatible if, for any mixed action mathematical equation, it holds that mathematical equation. We use mathematical equation for the agent's utility under incentive compatible contract mathematical equation, and mathematical equation for the principal's utility.
+
+We define the agent's expected utility for mixed action mathematical equation under ambiguous contract mathematical equation to be the minimum utility under any payment function mathematical equation. That is, the agent's expected utility is mathematical equation.
+
+We say that ambiguous contract mathematical equation implements mixed action ψ if, for every mixed action mathematical equation, it holds that mathematical equation. An incentive compatible contract mathematical equation is consistent if, for any two contracts mathematical equation, it holds that mathematical equation and, thus, mathematical equation. For a (consistent) incentive compatible contract mathematical equation, we write mathematical equation for the agent's utility under ψ, and mathematical equation for the resulting expected payment. The principal's expected utility under (consistent) incentive compatible contract mathematical equation is mathematical equation.
+
+In what follows, without loss, we restrict attention to consistent incentive compatible contracts.
+
+6.2 Mixing Hedges Against Ambiguity
+When the agent can choose mixed actions, the principal cannot gain by employing an ambiguous contract. To prove this result, we make use of the min-max theorem applied to a suitably defined zero-sum game.
+
+
+Theorem 6.Consider an incentive compatible ambiguous contract mathematical equation, with payoffs mathematical equation and mathematical equation. Then there exists an incentive compatible classic contract mathematical equation with the same agent and principal payoffs.
+
+
+Proof.Let mathematical equation be an incentive compatible ambiguous contract with payoffs mathematical equation and mathematical equation.
+
+Consider a zero-sum game played by the agent and the principal. The agent's (convex and compact) strategy set is the set of mixed actions mathematical equation, while the principal's (also convex and compact) strategy set is the set of payment functions mathematical equation. This is the set of payment functions that preserve the principal's payoff mathematical equation when the agent plays action ψ. Note that mathematical equation is non-empty since every payment function mathematical equation has the same expected payment under ψ (namely mathematical equation). The agent's payoff in this game is mathematical equation, while the principal's payoff is the negative of this quantity. Note that this way, the agent's payoff in this game is precisely the agent's utility in the principal-agent setting, while the principal's payoff differs from that in the principal-agent setting.
+
+The min-max theorem implies
+
+mathematical equation
+(4)
+Note that mathematical equation is just a set of payment functions, so we can interpret it as a (potentially infinite-size) set that constitutes the payment functions within an ambiguous contract. Moreover, by the construction of mathematical equation, we have mathematical equation, since ψ ensures utility mathematical equation against every element of mathematical equation to the principal, thus utility mathematical equation against every element of mathematical equation to the agent.
+
+We next show that the value of the zero-sum game is also equal to this quantity. To this end, we show that
+
+mathematical equation
+To see this, observe that
+mathematical equation
+(5)
+mathematical equation
+(6)
+mathematical equation
+(7)
+The second equality in (5) holds by the fact that τ implements ψ, the first inequality in (6) follows from comparing feasible sets for the corresponding minimizations, and the following inequality holds because ψ is feasible in the maximization.
+Consider the payment function mathematical equation. From (4), there is no action in mathematical equation giving the agent a payoff against mathematical equation higher than mathematical equation. By construction, mixed action ψ gives this payoff when facing the payment function mathematical equation. Hence, mathematical equation is an incentive compatible classic contract with payoffs mathematical equation to the agent and mathematical equation to the principal. Q.E.D.
+
+The ability to mix provides the agent with more alternative actions, tightening the incentive constraints enough to dissipate any advantage the principal gains from ambiguous contracts. The following example illustrates this.
+
+
+Example 8.Return to Example 2. Suppose the agent is restricted to pure actions. As we have seen, the uniquely optimal ambiguous contract is mathematical equation, with mathematical equation. The agent's payoffs to actions 1, 2, 3, and 4 under τ are 0, mathematical equation, mathematical equation, and 0. Pure actions 2 and 3 are thus strictly inferior to action 4 for the agent.
+
+Now suppose the agent can choose a mixed action. If the payoffs to the pure actions had been generated by classic contracts, then no mixture over actions 2 and 3 could give a payoff higher than mathematical equation, and hence no such mixture could be superior to action 4. Under ambiguity, this familiar property of mixed actions breaks down. The mixture that places probability 1/2 on each of actions 2 and 3 gives an expected payoff of 1/8, strictly larger than the payoffs to any pure strategy in the support of the mixture, ensuring that the ambiguous contract mathematical equation no longer implements action 4. Indeed, given the agent's ability to choose this mixture, action 4 cannot be implemented at any expected payment less than 1, matching the payment under classic contracts.
+
+6.3 Relation to Ellsberg Paradox and Raiffa's Critique
+Ellsberg (1961) pioneered the argument that humans tend to prefer choices with quantifiable risks over those with unquantifiable, incalculable risks, giving rise to the ambiguity aversion literature. We have shown that the principal can take advantage of the agent's ambiguity aversion if, but only if, the agent is restricted to pure actions.
+
+A critique of Ellsberg's experiments, raised by Raiffa (1961), is that when faced with the Ellsberg urns, a player could mentally flip a coin and implement a mixed action that induces an objective probability distribution over outcomes. Doing so removes all of the ambiguity from the decision, and with it any need for ambiguity aversion. Raiffa's argument highlights the potential power an ambiguity-averse agent can derive from engaging in mixed actions. Indeed, Theorem 6 shows that engaging in mixed strategies completely eliminates the principal's power stemming from ambiguous contracts.
+
+Raiffa's argument has given rise to a discussion, centered around the question of whether such mental coin flips are indeed effective in banishing uncertainty (e.g., Ke and Zhang (2020), Saito (2015)). One way of formalizing this “critique of Raiffa's critique,” is Bade (2023)'s notion of dynamic semi-consistency. According to this behavioral assumption, agents should not update their beliefs in response to signals that are independent of the environment (such as an independent coin flip). This notion rules out the type of mixing required for Theorem 6, but aligns with our behavioral assumptions underlying the results in Sections 2–5.

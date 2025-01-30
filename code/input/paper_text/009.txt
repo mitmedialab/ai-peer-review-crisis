@@ -1,0 +1,747 @@
+Using Divide-and-Conquer to Improve Tax Collection
+
+Abstract
+Tax collection with limited enforcement capacity may be consistent with both high- and low-delinquency regimes: high delinquency reduces the effectiveness of threats, thereby reinforcing high delinquency. We explore the practical challenges of unraveling the high-delinquency equilibrium using a mechanism design insight known as divide-and-conquer. Our preferred mechanism takes the form of prioritized iterative enforcement (PIE). Taxpayers are ranked using the ratio of expected collection to capacity use. Collection threats are issued in small batches to ensure high credibility and induce high compliance. Following repayments, liberated capacity is used to issue the next round of threats. In collaboration with a district of Lima, we experimentally assess PIE in a sample of 13,432 property taxpayers. The data validate and refine our theoretical framework. A semi-structural model suggests that keeping collection actions fixed, PIE would increase tax revenue by roughly 10%.
+
+I. Introduction
+Tax collection with limited enforcement capacity may be consistent with both high- and low-delinquency regimes: if delinquency is low, limited coercive collection capacity is enough to discipline the majority of potential individual deviators; if delinquency is high, coercive collection capacity is spread more thinly, reducing the effectiveness of threats. Bassetto and Phelan (2008) refer to the latter possibility as a tax riot. In principle, divide-and-conquer, a theoretically important but untested principle from mechanism design, can be used to unravel the undesirable high-delinquency equilibrium. The main idea is to assign taxpayers a known priority in advance and collect from noncompliant taxpayers in strict order of priority. In theory, this should lead the highest priority taxpayer to comply, inducing the second highest to comply, and so on. This article seeks to figure out the engineering challenges of making such a mechanism work in practice.
+
+Our benchmark model adapts known insights about divide-and-conquer to tax collection, and expands on them to deal with issues of incomplete information and bounded rationality. Our preferred implementation, prioritized iterative enforcement (PIE), embeds divide-and-conquer in an extensive-form game in which small groups of taxpayers are iteratively threatened with fast-track collection if they fail to settle, that is, if they fail to make the payment required to be compliant within deadline. Upon repayment, enforcement capacity tied up by past threats is released and used to issue collection threats to a new group of taxpayers. An attractive property of PIE is that the threats it issues are systematically enforced.
+
+We partnered with a district of Lima (Peru) to experimentally evaluate the impact of PIE on the collection of property taxes from 13,432 delinquent taxpayers. Using a semi-structural model to simulate relevant counterfactuals, our preferred estimate is that implemented at scale, PIE  would increase tax revenue between 9% and 12%. The data highlights a novel trade-off ignored by the theory. Successful implementation of PIE requires carefully tuning the flow of threats: fewer but more potent threats expedite settlements but also narrow the pool of taxpayers likely to settle at any moment. We hope that our work facilitates the application of divide-and-conquer in other contexts, including debt collection, law enforcement, and organizational governance.
+
+I.A. The Model
+We consider a government entitled to collect an amount of taxes due Di from taxpayers labeled i ∈ {1, ⋅⋅⋅, N}. With prior probability qi, taxpayer i may not be able to settle (i.e., make a required payment to be treated as compliant), and their ability to settle is private information.1 The government is able to coercively collect the amount Di, but doing so is costly in terms of time and resources. The difficulty is that the government is able to perform at most αN coercive collections (i.e., collect directly from taxpayers who do not make voluntary payments), with α ∈ (0, 1). Instead of coercively collecting taxes, the government can offer agents to settle their taxes by paying a given price Pi < Di. Agents who settle are not collected on.
+
+In a random enforcement mechanism, the government coercively collects from αN taxpayers drawn uniformly from nonsettlers. This can result in multiple equilibria, exhibiting both high and low collection levels: if most taxpayers comply, minimal enforcement capacity is enough to deter unilateral deviators; if many taxpayers don’t comply, enforcement rates are low, and collection threats are less dissuasive. PIE guarantees that the government achieves the highest possible revenue provided taxpayers are minimally rational. Specifically, when the number of taxpayers is large, under any undominated strategy profile, PIE achieves the highest possible Bayes-Nash equilibrium revenue under any mechanism.
+
+Under PIE, taxpayers are ranked according to a scoring rule trading off expected collection (1 − qi)Di and expected capacity use qi. Taxpayers are then iteratively threatened with collection unless they settle at a price that increases with delay. At any point, the number of taxpayers being threatened is equal to the remaining collection capacity, so that settling is a dominant action whenever feasible. This causes the low-settlement equilibrium to unravel.2 Taxpayers that do not settle face coercive collection.
+
+I.B. Field Implementation
+From April 2021 to September 2021, we partnered with the municipality of Jesús María, a relatively affluent district of Lima, to evaluate the impact of PIE on the collection of property-related taxes from 13,432 taxpayers delinquent in their first-quarter (Q1) payment. The experiment ended with the municipality’s decision to adopt a simplified version of PIE.3
+
+Jesús María typically enjoys high ultimate collection rates but expends significant resources on tax collection. Roughly 30% of taxpayers are delinquent at some point of the annual collection process. Lenient enforcement in 2020 (due to COVID-19) also raised concerns of reduced tax compliance in 2021. Consultation with the city’s collection unit revealed a bottleneck in tax collection: a costly garnishment process requiring legal and bank involvement. The city estimated its capacity to issue garnishment orders to roughly 400 per month (this corresponds to the available coercive collection capacity in our model). Taxpayers need to be notified with a formal writ before garnishment can take place, but the city is capable of issuing several thousand such writs per month.
+
+At the end of Q1 2021, we randomly assigned delinquent taxpayers to two treatment arms. A control arm implemented the default collection policy used by the city. As Figure I illustrates, it proceeds in steps: (i) delinquent taxpayers are informed that they are delinquent all at once; (ii) writs are sent to the majority of taxpayers; (iii) if repayment does not occur over the next quarter, garnishment orders are issued, overweighting taxpayers that owe the most taxes. While the city tends to prioritize taxpayers with higher taxes due at the garnishment stage, there is no explicit priority shared with taxpayers. In fact, depending on subjective evaluations of expected returns from administrators, some taxpayers with moderate taxes due may be garnished before taxpayers with higher taxes due.
+
+Collection in the Gontrol Group
+Figure ICollection in the Gontrol Group
+This figure describes collection in the control group. Delinquent taxpayers are informed that they are delinquent all at once, and writs are sent to the majority (Threaten all). If repayment does not occur over the next quarter (Wait), then garnishment orders are issued, prioritizing those who owe the most (Take action against high ROI taxpayers).
+
+Open in new tabDownload slide
+Our treatment arm implements PIE: (i) at any one time, we issue a small number of targeted threats, with clear short-term deadlines designed to induce prompt repayment; (ii) notifications and writs are promptly sent to targeted taxpayers; (iii) whenever repayment occurs, freed-up threat capacity is applied to the next batch of taxpayers. Repayment propensities 1 − qi used to rank taxpayers were predicted using historical data. Each week, the 400 highest-ranked taxpayers who had not paid more than 50% of their taxes were in priority group G1, the next 400 were assigned to priority group G2, and the rest were assigned to priority group G3. Group membership was updated weekly based on repayments. Members of priority group G1 were given a clear deadline for repayment, set on average at six weeks, failing which garnishment would occur. Members of group G2 were promised that their income would be garnished within 12 weeks if taxes remained unpaid. In addition, they were informed that they could be moved to group G1 at any time. Members of group G3 did not receive collection promises. They were informed of the taxes they owed, of the penalty for late payment, and that they could be moved to group G2 at any time. Taxpayers assigned to the control group (C) received a similar notification of the taxes they owed.
+
+As Figure II illustrates, the core idea of PIE is to iteratively issue high-powered threats to a thin but moving slice of the tax base. The effectiveness of PIE hinges on whether the increase in settlement speed due to high-powered incentives allows us to recycle collection capacity enough to compensate for the reduced number of taxpayers targeted at any time. There is no trade-off under our benchmark theory because taxpayers settle immediately when it is dominant to do so. In practice, delays in best response make the trade-off less obvious: it may be optimal to threaten groups larger than the available collection capacity.
+
+Collection under Prioritized Iterative Enforcement
+Figure IICollection under Prioritized Iterative Enforcement
+This figure describes collection under prioritized iterative enforcement. A small number of targeted taxpayers receives an explicit collection promise with a short-term deadline (Threaten Targeted Group with Deadline), and are promptly issued notifications and writs. Whenever repayment occurs, freed-up threat capacity is applied to the next batch of taxpayers (Recycle collection capacity). If a taxpayer in the threatened group does not pay, a garnishment action must be taken against them (Take action (and burn capacity)).
+
+Open in new tabDownload slide
+Importantly, both arms were allocated the same budget of costly garnishment actions (up to 1,000 over five months), and realized garnishments are very close: 533 garnishment actions were taken in the treatment arm, and 531 were taken in the control arm. Differences in outcomes between treatment and control are driven by differences in the way enforcement capacity is used, rather than differences in allocated capacity.
+
+I.C. Empirical Findings
+We report raw findings and estimates from a semi-structural model that identifies the impact of different collection steps on behavior but does not seek to estimate a microfounded model of taxpayer choice. This model permits the evaluation of some counterfactual policies, but not all.
+
+Raw findings show that the key ingredients needed for prioritized enforcement to be effective were present: clear short-term promises significantly increased the repayment propensity of taxpayers, and repayment propensities were meaningfully predicted by our scoring rule. In addition, our specification of PIE (parameterized by the size of priority groups and the deadlines they are given) was effective in increasing the efficiency of collection. Over a five-month period, taxes collected in the treatment group were 9.2% higher than in the control group (a more robust estimate using our semi-structural model to correct for the effect of large payments suggests a treatment effect of 7.5%). In addition, the number of collection actions other than garnishment (notifications, and legal writs) taken for the treatment group was three times smaller than in the control group, saving significant labor costs.4
+
+We build a semi-structural model of taxpayers’ behavior as a function of collection actions taken. The model does not microfound choices made by taxpayers. As a result, we can only evaluate counterfactual mechanisms that keep the nature of threats the same, and we only change the process of issuing threats.5 Estimates confirm that G1 priorities considerably increase taxpayers’ repayment propensities. In contrast, G2 priorities and G3 priorities had small positive and negative effects, respectively, on repayment propensities. Regarding collection actions, receiving a legal writ had a large positive effect, similar to that of receiving priority G1, and receiving an initial notification had a negligible effect.
+
+Simulated treatment effects for the experiment as it was implemented suggest an expected increase in revenue of 7.5%, at the cost of 558 expected garnishments. Because issuing writs has a large effect on repayment, we evaluate a counterfactual in which the number of writs sent across treatment and control are equated. This variant of PIE would increase revenue over control by 10.8%, at the cost of 547 expected garnishments. Ranking taxpayers according to taxes due alone turns out to increase collected revenue to 12.3% but also increases the expected number of garnishments issued to 595. A simplified policy, corresponding to the one adopted by the municipality, maintains a broad use of writs but issues only two rounds of G1 priorities to 500 taxpayers, with a seven-week deadline. It yields a predicted increase in revenue of 11.3%, but induces 642 garnishments on average.
+
+I.D. Related Literature
+We believe that this article is the first experimental evaluation of divide-and-conquer mechanisms in the field.6 There is a rich and growing theoretical literature on the use of divide-and-conquer to implement desirable social outcomes under all rationalizable strategy profiles (Abreu and Matsushima 1992; Segal and Whinston 2000; Spiegler 2000; Segal 2003; Winter 2004; Dal Bó 2007; Eliaz and Spiegler 2015; Halac, Kremer, and Winter 2020; Halac, Lipnowski, and Rappoport 2021). We bridge the gap between the theoretical literature and practical implementation. The evidence is encouraging to the theory but highlights the importance of frictions such as bounded rationality and delay in best response. We hope this improved understanding stimulates other efforts to take divide-and-conquer to the field.
+
+The study contributes to the economic literature on tax compliance reviewed in Hallsworth (2014), Mascagni (2018), Alm (2019), and Slemrod (2019). It relates to letter-based experiments in which researchers have partnered with tax authorities to evaluate how deterrence in the form of audits and penalties affects tax compliance. Slemrod et al. (2001), Kleven et al. (2011), and more recently De Neve et al. (2021) evaluate the impact of auditing threats on taxpayers’ compliance, finding a meaningful effect of threats, especially on taxpayers for whom third-party information is not available. An important aspect of PIE is that it focuses on the optimal deployment of a fixed collection capacity. As a result, enforcement promises issued under PIE are always credible, even if PIE were to be implemented at scale. This would not necessarily be the case for experiments that significantly increase the use of costly deterrent steps. We show that even under strict credibility constraints, it is possible to increase revenue compared to a control collection process allowed to use weakly enforced threats.
+
+Our treatment is closely connected to communication interventions in which researchers remind taxpayers of the possible consequences of noncompliance. For instance, Bergolo et al. (2023) provide small- and medium-sized firms in Uruguay information about the costs of noncompliance. They find that reminders of existing policies have a large effect compared to variation in the likelihood of audits.7 Still, Alm (2019) cautions that the effect of information likely depends on taxpayers’ baseline expectations. If taxpayers overestimate the likelihood of enforcement, information may reduce compliance. This more qualified view is consistent with the differential impact of priority groups G1, G2, and G3 on settlement in our experiment.
+
+This article belongs to a body of work applying mechanism design insights to tax collection by capacity-constrained governments. One popular class of mechanisms uses cross validation to induce truthful reporting. Among others, Pomeranz (2015) and Pomeranz and Vila-Belda (2019) highlight the role that value-added taxes can play in obtaining third-party reports of firms’ income. Naritomi (2019) evaluates a cross-validation mechanism in which taxpayers are encouraged to submit sales receipts to the tax authority in exchange for various fiscal benefits. Balán et al. (2022) studies the value of using village chiefs as intermediaries for tax collection.
+
+Finally, an active literature has examined determinants of tax compliance other than deterrence. Following Alm, McClelland, and Schulze (1992)’s seminal observation that observed tax compliance levels are often inconsistent with narrow rational self-interest for credible degrees of risk aversion, an active literature has studied tax morale and the importance of intrinsic versus extrinsic incentives in achieving compliance (Luttmer and Singhal 2014; Del Carpio 2014; Dwenger et al. 2016). De Neve et al. (2021) study the value of simplifying communications between tax-collection agencies and taxpayers. Bergeron, Tourek, and Weigel (2021) show that tax rates may be above revenue-maximizing rates because high taxes dissuade compliance.
+
+I.E. Structure
+Section II sets up our benchmark model. Sections III and IV describe our experimental context and experimental design. Section V reports raw outcomes of interest and confirms that the key ingredients needed for PIE to be effective are present. Section VI estimates a model of taxpayer behavior and uses it to evaluate counterfactual policies of interest. An Online Appendix assembles proofs, experimental materials, and further empirical exploration, as well as findings from a pilot of PIE in a laboratory setting.
+
+II. Framework
+We clarify the point of divide and conquer in a stylized model. Then we turn to a more realistic framework allowing for heterogeneity, incomplete information, and bounded rationality.
+
+II.A. A Stylized Model
+N taxpayers indexed by i ∈ {1, ⋅⋅⋅, N} each owe the government a fixed amount D. The taxpayers and the government are all risk-neutral. If a taxpayer fails to repay on time, the government can coercively collect amount D—in our experimental setting, by garnishing bank accounts. The difficulty is that the government has limited capacity: it can coercively collect from only αN ≥ 1 taxpayers with α ∈ (0, 1). To induce taxpayers to pay voluntarily, the government can make settlement offers and commit to an enforcement rule according to the following extensive-form game:
+
+The government gives each taxpayer the possibility to settle by paying a fixed price P ∈ (αD, D). Taxpayers who settle are spared from coercive collection.
+
+Taxpayers simultaneously decide whether to settle and pay price P.
+
+The government coercively collects D from taxpayers who do not settle according to a known enforcement rule.
+
+We contrast two possible enforcement rules (the next section studies arbitrary mechanisms):
+
+Random enforcement: In period 3, up to αN taxpayers are drawn with uniform probability from the set of noncompliant taxpayers, and assigned to coercive collection.
+
+Prioritized static enforcement: Taxpayers are given a known priority rank in period 1. In period 3, up to αN noncompliant taxpayers are subjected to coercive collection in order of their preassigned rank. By convention, we rank taxpayers in descending order of their index i ∈ {1, ⋅⋅⋅, N}, so that taxpayer 1 has the highest priority.
+
+1. The Value of Prioritized Enforcement
+The following result clarifies the value of prioritized enforcement: it selects a high-collection equilibrium as the unique strategy profile surviving the iterated elimination of dominated strategies. In contrast, random enforcement induces multiple equilibria involving both high and low collection levels.
+
+ 
+Proposition 1.
+Fix a choice of P by the government in period 1.
+
+Under random enforcement, there exists a Nash equilibrium such that all taxpayers settle and a Nash equilibrium such that all taxpayers refuse to settle.
+
+Under prioritized static enforcement, a unique strategy profile survives iterated elimination of dominated strategies: all taxpayers settle.
+
+Under random enforcement, a small collection capacity can deter individual deviations, but only when overall compliance is high. If many taxpayers do not pay their taxes, then available capacity is thinly spread and fails to dissuade tax evasion. Prioritized enforcement unravels this last equilibrium by focusing capacity on a marginal set of taxpayers. It is dominant for the αN highest-ranked taxpayers to settle their taxes. Anticipating this, it is a best response for taxpayers with rank up to 2αN to settle, and so on.
+
+This model assumes away important frictions. First, taxpayers’ ability to repay is complete information. Second, taxpayers exhibit a common belief in rationality: many rounds of deletion of dominated strategies are needed to unravel the low-settlement equilibrium. Realistically, laboratory experiments suggest that people rarely engage in more than two or three rounds of strategic introspection.
+
+II.B. Modeling Realistic Frictions
+We first introduce incomplete information about ability to pay, heterogeneity across taxpayers, and provide bounds on collection under any mechanism in any Bayes-Nash equilibrium. We then propose an extensive-form mechanism, PIE, that attains this performance bound in large populations, even when players are boundedly rational.
+
+We allow taxes due Di to vary with taxpayer identity i. Collection costs are also heterogeneous: coercive collection against agent i consumes  
+ 
+ 
+ 
+ units from the principal’s enforcement capacity αN. With probability  
+ 
+⁠, taxpayer i is exogenously unable or unwilling to repay their taxes, say, because they are experiencing a liquidity shock. The ability to repay, denoted by ξi ∈ {0, 1}, is private information: a taxpayer knows whether they are able to repay, but the government does not.
+
+1. Bounds on Any Mechamism
+We establish bounds on any incentive-compatible collection by considering partial implementation in direct, truthful, and obedient mechanisms. Taxpayers send a message mi ∈ {0, 1} revealing whether they are capable of making payments; the government then sends price offers Pi ∈ [0, Di] and settlement recommendations 
+⁠; finally, the government implements an enforcement action ai ∈ {0, 1}, with ai = 1 denoting coercive collection. Note that settlement offers Pi, recommendations 
+⁠, and enforcement actions ai are correlated random variables across taxpayers. Realized coercive collection must satisfy the capacity constraint: 
+ The government seeks to maximizes tax revenue Π collected through either voluntary settlement or coercive collection,
+
+ 
+ 
+ 
+ 
+ 
+ 
+where si denotes i’s settlement decision, and ρ ∈ [0, 1] is the collection recovery rate.8
+
+ 
+Proposition 2 (Upper Bound on Equilibrium Revenue).
+Under any mechanism, in Bayes-Nash equilibrium, expected per capita tax revenue is bounded above by
+ 
+ 
+ 
+ 
+ 
+(1)
+Problem (1) is a linear optimization problem with a single constraint. Term δi is agent i’s probability of settling when they can. The marginal benefit of increasing δi is (1 − qi)Di, while the marginal shadow cost is μqiλi where μ is the Lagrangian multiplier associated with the capacity constraint. Hence it is optimal to set δi = 1 for all agents such that 
+ 
+ and δi = 0 for all agents such that 
+ 
+⁠.
+
+We show in Online Appendix OI that Proposition 2 extends nearly as is when taxes due Di are privately observed by agents but are uncertain to the principal. The government can achieve no better collection than bound (1), with nonpayment rates qi depending on take-it-or-leave-it settlement price offers Pi chosen by the principal.
+
+2. Prioritized Iterative Enforcement
+We now describe PIE, an extensive-form mechanism that attains the bound of Proposition 2 when the population N is large, even when taxpayers are boundedly rational. The underlying payoffs and types are unchanged. Settlement takes place over time t ∈ [0, 1], and taxpayers can choose to settle their taxes at any time.9 The government commits to the following settlement and collection process:
+
+Taxpayers i ∈ {1, ⋅⋅⋅, N} are ranked in decreasing order of score
+ 
+ 
+ 
+(2)
+In each period t where they haven’t settled, taxpayer i receives a settlement offer Pi,t = Di,t − ν(1 − t) with ν > 0.10
+
+In each period t, taxpayers are informed of their effective rank, taking into account the settlement behavior of others. Specifically, they receive signal xi,t = i − ∑j < isj,t.
+
+Taxpayers who have not settled face collection in decreasing order of rank at time t = 1.
+
+We model bounded rationality using Li (2017)’s notion of nonobviously dominated play. Let hi denote a private history of taxpayer i, and σi: hi↦si ∈ {0, 1} a feasible strategy. Denote by σ−i strategy profiles by players other than i, and by ω possible moves of nature. Let ui(σi, σ−i, ω|hi) denote the realized payoff of agent i given history hi, their own behavior σi, the behavior of others σ−i, and realized moves of nature ω (here agents’ ability to pay).
+
+ 
+Definition 1.
+A strategy σi obviously dominates a strategy 
+ if and only if, for every history hi potentially on the equilibrium path at which strategies σi and 
+ first differ,
+ 
+ 
+ 
+ 
+Strategy σi is nonobviously dominated if no strategy obviously dominates it. Laboratory evidence reported in Online Appendix OJ, as well as evidence from auctions (Kagel, Harstad, and Levin 1987; Kagel and Levin 2001) suggests that mechanisms achieving implementation under nonobviously dominated strategies behave closer to equilibrium predictions in practice.
+
+ 
+Proposition 3 (Revenue under PIE).
+Assume that taxes are collected using PIE. Fix η > 0. With probability approaching one as N gets large, for any profile of nonobviously dominated strategies,
+
+taxpayers with rank j such that 
+ 
+ do not settle;
+
+taxpayers with rank j such that 
+ 
+ settle;
+
+per capita tax revenue approaches
+ 
+ 
+ 
+ 
+ 
+(3)
+Since the slope of settlement offers ν > 0 can be made arbitrarily small, this implies that PIE approaches the bound of Proposition 2 under weak assumptions about rationality.
+
+II.C. Known Limits and Design Implications
+Section II.B suggests a benchmark design that performed well in the lab (see Online Appendix OJ). Nonetheless it exhibits known limits that our field design tries to address.
+
+1. Commitment
+ Sections II.A and II.B assume that the government has commitment power: it keeps feasible collection promises, and taxpayers believe that it will. In practice, taxpayers need not take enforcement threats seriously because local governments do not always follow through. Because Jesús María had taken specific steps to ban tax amnesties in the two years before our experiment, it is plausible that its enforcement promises are at least partly credible.
+
+We enhance the government’s commitment power by specifying collection priorities and setting clear deadlines. The goal is to make unfulfilled threats noticeable.11 We choose deadlines sufficiently distant in time to give taxpayers the opportunity to repay, yet not so distant that it undermines the importance of compliance.
+
+2. Delay in Decision Making
+Under nonobviously dominated play, taxpayers settle if they can as soon as they understand it is a dominant action. In practice, even when an action becomes dominant, it may take taxpayers time to actually change their behavior. One reason for delay may be liquidity shocks. Alternatively, delay may occur if the payoff gain from prompt repayment is small. We estimate a model of delayed repayment in Section VI, but the following approximate accounting equality helps clarify the implications of delay for design:
+
+ 
+ 
+ 
+The term 
+ 
+ corresponds to the number of times the same collection capacity can be used to issue threats. If the collection period is one quarter and delay is a month, we can recycle capacity three times.
+
+i. Larger Threat Groups
+The first implication of delay is that it may be useful to use threat groups that are larger than available collection capacity. In a model with vanishing delay, capacity is recycled sufficiently many times that batch size is not a limiting factor: the entire addressable population receives a threat. With delay, the number of times capacity can be recycled is moderate, so that increases in batch size could be beneficial. The trade-off is that greater batch size may reduce settlement probability.
+
+As an example, imagine there are 500 taxpayers and 50 collection days, that repayment occurs with a 10-day delay, and that the city can coercively collect from 20 people every 10 days. If the city threatens 20 people every 10 days, threats can be fulfilled under any scenario. Assume that in this case, 100% of taxpayers comply. Then, 20 × 1 × 5 = 100 people voluntarily settle their taxes. If the city threatens 50 people every 10 days, threats are less credible. Assume that only 60% of people comply in this case. Still, 50 × 0.6 × 5 = 150 people settle their taxes, and threats are fulfilled in equilibrium. With a 10-day delay, issuing more threats than available collection capacity increases revenue.
+
+In our experimental design, we issue roughly twice as many direct threats as available garnishment capacity. However, this remains a conservative choice in equilibrium: the realized number of threats we need to enforce is half of available capacity.
+
+ii. Longer Deadlines
+When it takes people time to pay, short deadlines can be counterproductive if people simply can’t raise necessary funds in time: it triggers costly garnishments on people who may have otherwise repaid. For this reason, longer deadlines may increase settlement probability enough to compensate for a potential increase in repayment delay.
+
+Consider again a city with 500 taxpayers and 50 collection days, that is able to perform 100 coercive collections in aggregate. For simplicity, assume that the city is conservative: at any given time the number of threats issued is equal to the remaining available collection capacity. Repayment is now stochastic: 60% of people can repay within 10 days, and 40% can repay within 25. People repay by the end of the deadline they are given. If the city sets a deadline of 25 days, the repayment rate is 100% so that the city can issue 100 threats twice, and 200 taxpayers settle voluntarily. If the city sets a deadline of 10 days, 60% of people settle, and 40% of the collection capacity is consumed, allowing the city to issue 100 × 0.6 threats on the second round, followed by 100 × 0.62, 100 × 0.63 and 100 × 0.64 threats on the remaining rounds. In expectation, roughly 140 people will settle their taxes voluntarily. Setting a longer deadline is beneficial.
+
+In our field experiment, collection deadlines have an interquartile range of four weeks, running between four and eight weeks, with a mean of six weeks. The variation in deadline reflects specific circumstances of the taxpayer, including the nature of the debt, and whether they are local residents.
+
+This discussion defines a family of PIE mechanisms indexed by the length of the deadline and the size of the threat group (see Figure III). The standard collection process corresponds to a large threat group and long deadlines.12 Under both rationalizability and nonobviously dominated play, small threat groups and short delays are weakly optimal. However, when repayment takes time, a poor choice of parameters may cause PIE to be ineffective. Our experiment identifies parameters for which PIE  improves over standard collection.
+
+The Range of PIE Mechanisms
+Figure IIIThe Range of PIE Mechanisms
+Deadline length refers to the deadline given to members of group G1 after which garnishment begins. Threat group size refers to the number of taxpayers included in group G1 at any time.
+
+Open in new tabDownload slide
+III. Experimental Context
+From April to September 2021, we partnered with Jesús María, a district of Lima, to collect property-related taxes from 13,432 delinquent taxpayers. This section details the context for our experiment and why this context seemed well suited to evaluate PIE.
+
+III.A. General Context
+1. Property Taxes and User Charges
+Our study targets the two most important municipal taxes in Peru: (i) property taxes, based on assessed property values, with tax rates between 0.2% and 1% of assessed value; and (ii) user charges, paying for public goods such as trash collection and public safety. In 2020, they represented almost 50% of municipal revenues
+
+2. Jesús María
+Jesús María is one of 43 municipal districts of Lima and belongs to the top quartile in terms of income. As of 2020, there were more than 60,000 properties in the district, 90% of which were residential units. The average assessed value of properties amounted to 110,000 Peruvian soles (around US$30,000).
+
+Properties are linked to over 35,000 registered taxpayers, 90% of which live in the district. In 2020, total municipal taxes due stood at US$15.8 million, with a per capita average equal to US$435. The distribution of taxes due is skewed to the right. The 10 largest taxpayers own commercial properties (e.g., shopping malls) and represent 16% of total taxes due, while the top 500 taxpayers accounted for 42% of total taxes due.13
+
+By the end of 2020, Jesús María had a delinquency rate of 12% for property taxes and 24% for user charges. Jesús María’s annual collection costs are roughly US$1 million.
+
+3. Suitability for Experimentation and External Validity
+Concerns that COVID-19 would reduce tax compliance created an opportunity for experimentation. Because tax collection costs were already high, the collection budget was held fixed.14 Hence, any improvement would require deploying available collection capacity more effectively.15 Experimentation was facilitated by the fact that within legal constraints, Peruvian municipalities have significant degrees of freedom over their collection process. In addition, Jesús María had banned the use of tax amnesties in the previous two years, making collection threats more credible.
+
+Jesús María exhibits fairly high enforcement capacity compared to other settings in which PIE may be applied. This was a conscious choice, motivated by the logistical challenges of implementing divide-and-conquer in the field. This affects the external validity of our findings in two ways. Organizations with fewer administrative resources may find it difficult to implement PIE. At the same time, external validity is improved by the fact that we relied solely on existing municipal employees, rather than hiring workers of our own (see Online Appendix OK for a description of task allocation). The upside of PIE may also be higher in settings with lower capacity. Finally, we show in Section VI that implementing PIE can be simplified at little cost, potentially facilitating adoption.
+
+III.B. The Standard Collection Process
+1. Collection Steps
+Property taxes and user charges are enforced jointly, on a quarterly basis. Figure IV summarizes the timeline of collection steps.
+
+Standard Collection Timeline
+Figure IVStandard Collection Timeline
+Standard collection timeline for Jesús María in 2021. Valor is the notification of delinquency. The Writ initiates coercive collection. Garnishment is the seizure of bank accounts. The number of days legally required between different actions (e.g., Notify “Valor” to Coercive Collection) depends on whether delinquency is over property taxes or user charges.
+
+Open in new tabDownload slide
+Collection consists of two stages: ordinary collection and coercive collection. Ordinary collection starts right after the payment deadline and involves (i) sending bulk reminders (mostly through emails and text messages) to all taxpayers who missed the deadline, (ii) calling roughly the top 50% of delinquent debtors with the highest tax due to remind them of their liabilities, and (iii) a formal letter notifying the amount owed (valor). This letter triggers a countdown at the end of which coercive collection can begin.
+
+Coercive collection for property taxes (resp. user charges) can only begin 1 (resp. 20) working day(s) after the taxpayer is formally notified. If the city chooses to initiate coercive collection, a legal writ (sometimes referred to as the REC1) issued by employees with formal legal training must be sent to the taxpayer. Collection actions can only begin seven working days after the taxpayer is notified of the writ.
+
+In principle the city government has three options for collection: garnishing bank accounts; seizing goods at the property; and placing a lien on the property. Although some taxpayers do not use banks, garnishing accounts is by far the most effective measure. Due to the COVID-19 pandemic, garnishment was the only collection step taken in 2020 and 2021.
+
+Some collection steps depend on the amount of taxes due. The largest 500 taxpayers are assigned a dedicated collection agent who manages their account.16 For debtors owing less than 100 soles, debts across different quarters are pooled and enforced with low intensity once or twice per year. They amount to a small share of taxes due, and we exclude them from our analysis.
+
+2. Penalties
+Daily interest corresponding to an annual rate of 10.8% is applied to all delinquent debt. When coercive collection begins, a 10% penalty is added and the taxpayer is charged for some of the collection costs.17 In addition, taxpayers under coercive collection are registered with a credit risk agency and show up as delinquent in national databases.
+
+3. Capacity Constraints
+The collection unit consists of 15 city employees, led by a head and deputy head. Five staff handle regular collection, with one dedicated to the top 500 taxpayers. Three staff manage coercive collection, two handle notifications, one oversees IT, and two offer general support.
+
+Collection efforts are constrained by workforce, budget, and service provider capacity (e.g., banks). City officials’ estimates reported in Table I show that issuing notifications and issuing formal writs are inexpensive and have a high monthly capacity (5,000–16,000). In contrast, garnishment is limited to 400 actions per month and represent a bottleneck. Accordingly, our experiment focused on the effective use of garnishment capacity. Treatment and control arms were each allocated a budget of 1,000 garnishments over five months. Realized garnishments are also very close: 533 garnishment actions were taken under treatment, and 531 were taken under the control arm.
+
+
+TABLE IOpen in new tabOperational Capacity and Unit Costs
+Monthly capacity (units)	Unit cost (soles)
+Phone calls	5,237	1.60
+SMS	16,000	0.16
+E-mails	16,000	0.18
+Valor issue	10,687	0.90
+Valor notification	10,687	1.83
+Writ (REC1) issue	5,990	2.68
+Writ (REC1) notification	5,990	1.92
+Garnishment issue	400	60.80
+Garnishment notification	400	6.37
+Notes. Monthly capacity and cost (in Peruvian soles) of actions are shown for collection unit staff in Jesús María in 2021. Valor is the notification of delinquency. The writ initiates coercive collection. Garnishment is the seizure of bank accounts.
+
+IV. Experimental Design
+IV.A. Scope and Treatment Arms
+The experiment was preregistered with the American Economic Association’s Randomized Controlled Trial registry under number 7305. We did not commit to a pre-analysis plan because uncertainty over the logistics of implementation made it difficult to anticipate the correct analytic framework. The sample population consisted of taxpayers delinquent on their Q1 property tax or user charges by April 5, 2021.18Figure V summarizes the experiment’s timeline.
+
+Experiment Timeline
+Figure VExperiment Timeline
+Rank assignment and randomization refers to the computation of rank zi in PIE (see equation (2)) and the assignment of taxpayers to treatment and control, respectively.
+
+Open in new tabDownload slide
+Following the payment deadline, 13,432 taxpayers who had not paid their Q1 2021 taxes as of April 5 and had taxes due above 100 Peruvian soles (around US$25) entered our experimental sample. Smaller debts were excluded. Debtors were all assigned a priority rank based on scores zi defined using a statistical model of repayment described below.
+
+Half of the taxpayers were randomly assigned to a version of PIE described below; remaining taxpayers were assigned to the city’s standard collection procedure. Following Banerjee et al. (2020), we drew our treatment assignment uniformly from the 10% most balanced assignments under the Mahalanobis distance with respect to age, taxes due, top 500 taxpayer status, and predicted repayment. Online Appendix Table OE.1 provides summary statistics.
+
+1. Control and Treatment
+The control arm follows the collection process detailed in Figure IV and described at length in Section III.B: the bulk of taxpayers are concurrently issued identical notifications; after some delay, the majority of taxpayers are issued legal writs; after further delay a number of taxpayers are placed in garnishment. Taxpayers go through each stage of collection as a group and are not issued prioritized threats with tight deadlines.
+
+Implementation details for the treatment arm are provided in Sections IV.B and IV.C. We implement a version of PIE in which small groups of taxpayers are iteratively issued assertive collection threats with a deadline set on average at six weeks. Notifications and writs are issued only to threatened taxpayers, under the shortest schedule consistent with the law. Garnishment takes place if taxpayers fail to meet minimum payments by the deadline they were given. New threats are only issued when capacity is freed up either by taxpayers settling their taxes or by garnishments being executed.
+
+Figure VI plots the number of collection actions taken over time and clarifies the difference between treatment and control. Both are associated with roughly the same final number of garnishments, but the processes leading up to these final numbers differ. Under control, notifications and writs are issued in bulk, and taxpayers go through each collection stage as a group. As a result, garnishment takes place late in the collection period. Under treatment, notification and writs are only issued following targeted threats. Collection steps, including garnishment, take place continuously. This enables faster recycling of collection capacity on repayment. In short, standard collection processes debtors in parallel, while PIE processes debtors serially in small batches.
+
+Number of Collection Actions Taken
+Figure VINumber of Collection Actions Taken
+Panels A, B, and C plot the number of notifications, writs, and garnishment orders issued in treatment and control arms of the experiment over the course of data collection, April to September 2021.
+
+Open in new tabDownload slide
+Differences between treatment and control are further clarified by Table II. For different quantiles of taxes due, we report the writ enforcement rate for taxpayers who were issued a writ before July 19.19 That is, the share of taxpayers under garnishment among taxpayers that received a writ before July 19, but have made no payment by the end of the experiment, or received a garnishment by the end of the experiment. On average, more than 97% of writs are enforced under treatment. In contrast, the writ enforcement rate in the control group is 31%. In addition, while the likelihood of enforcement is higher for taxpayers with higher taxes due, enforcement does not follow a strict priority rule as a function of taxes due. This is because in the control group, tax collectors can prioritize based on subjective assessments. As a result, while enforcement in the control group is not uniformly random, control taxpayers only face weakly prioritized enforcement.
+
+
+TABLE IIOpen in new tabWrit-Enforcement Rate
+Tax due quantiles	Writ enforcement rate	# Unpaid writ and no garnishment	# Unpaid writ or garnishment
+Control	Treatment	Control	Treatment	Control	Treatment
+0%–20%	0.208	1.000	156	0	197	21
+20%–40%	0.219	1.000	196	0	251	18
+40%–60%	0.193	0.970	356	1	441	33
+60%–80%	0.321	0.980	298	2	439	99
+80%–100%	0.509	0.995	202	2	411	367
+Notes. The writ enforcement rate is the share of taxpayers under garnishment among taxpayers that received a writ before July 19th, but have made no payment by the end of the experiment or received a garnishment by the end of the experiment.
+
+2. Failure of SUTVA
+Although we randomly assign a large number of taxpayers to treatment and control, we are also dealing with a single implementation organization: Jesús María’s tax-collection unit. Due to its small size, we could not guarantee balance with respect to employee characteristics and chose to rotate staff across treatment and control. Prioritized enforcement also proved less labor intensive than standard collection.20 As a result, employees nominally assigned treatment regularly assisted employees assigned to the control group. This enabled the city to issue a large number of writs under the control arm.
+
+This failure of SUTVA implies that comparing treatment and control arms likely underestimates the effect of PIE implemented at scale.21 To draw more meaningful policy comparisons, we interpret raw findings reported in Section V using a semi-structural model in Section VI.
+
+IV.B. Rank Assignment
+This section and the next describe the logistics of running PIE in the field. Score si, defined by equation (2), depends on taxes due Di, repayment odds 1 − qi, and collection cost λi. In our case, Di is observed and collection cost λi can be treated as roughly constant, so that normalizing it to one does not change the ranking of taxpayers. The challenge is to estimate 1 − qi.
+
+We do so by averaging predictions from OLS, LASSO, and random forest models, using 2019 and 2020 administrative data (see Online Appendix OG). The main takeaways are that:
+
+Higher taxes due predicts greater repayment odds, so that score 
+ 
+ prioritizes large taxpayers. This enhances the progressivity of tax collection.
+
+We estimate two models: an “endogenous model” using past repayments as a covariate and an “exogenous model” excluding past behavior. The endogenous model predicts repayment better but potentially disincentivizes repayment. We predict each taxpayers’ repayment odds using either our endogenous or exogenous model, with equal probabilities.
+
+IV.C. Prioritized Iterative Enforcement in the Field
+A total of 6,704 taxpayers were assigned to the treatment group. Our implementation of PIE reflects legal constraints on the collection process, as well as concerns over commitment power and delay in taxpayers’ reactions.
+
+1. Priority Groups
+At every point in time, taxpayers were assigned to one of three priority groups: G1, G2, or G3. The top 400 highest-ranked taxpayers who had not paid more than 50% of their taxes were assigned to group G1, the next top 400 were assigned to group G2, and the remainder were assigned to group G3. Group membership was updated weekly. New members of a given group were sent a physical card and an email specifying the corresponding collection promise. A translated information letter for group G1 is reproduced in Table III.22
+
+
+
+
+TABLE IIIOpen in new tabInformation Letter for Priority Group G1
+NOTICE OF IMMINENT COLLECTION
+We remind you that you have the following debt outstanding with the municipality:	Amount
+The coercive collection process will start at the latest on:	Today +
+6 weeks
+and it can start at any time and without prior warning.	
+If the coercive collection process is started your debt will include penalties and administrative expenses regulated by law amounting to:	Amount × 0.1
++ US$35
+In addition to accruing a weekly interest of:	Interest
+We remind you that it is in your own interest to pay immediately to avoid higher expenses. You can use any of the payment options listed below.
+Notes. The text is translated from the original Spanish to English. The information letter is sent to new members of G1.
+
+G1 taxpayers faced a repayment deadline of six weeks on average, with some variation depending on individual circumstances.23 Failure to pay would result in prompt garnishment. G2 members had a 12-week garnishment deadline and were informed that they could be moved to group G1 at any time. The rationale for group G2 was to induce taxpayers to prepare for payment early, but the data show it had a limited effect. G3 members received no fixed garnishment promise but were warned about tax amounts, late penalties, and potential promotion to group G2. This implicitly informed taxpayers of their low priority, and data suggest this may have reduced repayment propensities.
+
+Taxpayers assigned to control group C received a notification of the amount of tax they owed, via a letter of similar complexity to that sent to group G3 (see Online Appendix OK).
+
+Letters sent to groups G1 and G2 specify a clear deadline for collection and are more assertive than letters to group G3 and group C. This is part of the treatment. Prompt repayment allows the recycling of collection capacity at the core of PIE. To ensure that threats are effective, proper calibration is key: sufficiently many threats must be issued, but not so many that they cannot be acted on. Section VI shows that only G1 letters increased taxpayer compliance. G2 and G3 letters had limited effects compared to control group C. In short, the impact of letters on repayment arises only from prioritization at the heart of PIE.
+
+We deviated from assigning the 400 top-ranked delinquent taxpayers to group G1 in two ways. For the first assignment (April 5, 2021), 200 G1 spots were assigned to the 200 top-ranked taxpayers, and 200 G1 spots were uniformly assigned to taxpayers with rank below the top 200. This provided an early estimate of the impact of G1 membership and validated two premises of PIE: specific short-term threats increase repayment intensity, and estimated repayment predicts actual repayment. The second deviation was to expand group G1 to 600 taxpayers in June 2021, reflecting the fact that the number of garnishments issued fell well short of available capacity.
+
+2. Collection Actions
+In the treatment arm, only taxpayers assigned to group G1 were subjected to collection actions like notifications and writs. This strategy allowed us to expedite the collection process and set short repayment deadlines (see Online Appendix Figure OD.1). For groups G2 and G3, we limited actions to sending an initial letter and making reminder calls, as in the control group. Although we initially thought garnishment was the only impactful collection step, Section VI reveals that sending legal writs significantly increases taxpayer compliance, even if most writs have no consequences. This benefited the control group, which issued three times as many writs compared to the treatment group (see Figure VI).
+
+3. Excess Promise Making and Delay
+In line with Section II.C, we issued more threats than could be processed if all taxpayers defaulted. With a four-week garnishment capacity of 200, extending to 300 over six weeks, breaking G1 promises becomes inevitable if over 75% of taxpayers default. However, high realized settlement rates keep actual garnishments well below this threshold. Across both treatment and control, approximately 1,100 garnishments were issued over five months, against a theoretical capacity of 2,000.
+
+G1 promises were largely upheld. Of the 805 taxpayers in G1 due to Q1 debt, 371 missed payment deadlines and were slated for garnishment. Of these, 353 were actually garnished, yielding a 95% fulfillment rate. However, there was an average delay of 19 days in the actual implementation of garnishments.
+
+V. Raw Findings
+We report raw outcomes of interest, including tax revenue, the frequency of payment events, and the number of collection actions taken by the municipality. We also document that the basic requirements for PIE to be effective are satisfied: G1 priorities increase the settlement rate of taxpayers, and it is possible to predict repayment propensity.
+
+V.A. Main Outcomes
+1. Tax Collection
+Figure VII displays cumulative 2021 tax collection for the treatment and control groups over the five months after the 2021 Q1 tax deadline. We include all 2021 property taxes paid during that period, even if they correspond to Q2, Q3, or Q4 taxes. A similar figure restricted to Q1 taxes only is provided in Online Appendix OG.
+
+Cumulative Tax Collected April to September 2021
+Figure VIICumulative Tax Collected April to September 2021
+Cumulative taxes collected (in millions of Peruvian soles) include both voluntary payments by taxpayers and collection through garnishment.
+
+Open in new tabDownload slide
+By September 6, 2021, total collection in the treatment group was 9.2% higher than in the control group. The speed of collection is also higher under treatment than control. Because the distribution of taxes due has a long right tail, total revenue is potentially sensitive to the behavior of large taxpayers. In Section VI, we use a more robust model identified from binary payment decisions rather than payment amounts and estimate that expected collection is 7.5% higher under treatment than control.
+
+2. Collection Actions
+Table IV (and Figure VI) report the number of collection actions taken in the treatment and collection arms. Although the number of garnishments issued is roughly the same across treatment and control, the municipality issued three times as many notifications and writs in the control arm as in the treatment arm.
+
+
+TABLE IVOpen in new tabNumber of Collection Actions Taken
+Number of taxpayers who have received
+Notification	Writ	Garnishment
+Treatment	1,573	1,306	533
+Control	4,314	3,620	531
+Notes. Notification is the notice of delinquency. The writ initiates coercive collection. Garnishment is the seizure of bank accounts.
+
+3. Reduced-Form Impact on Payment Intensities
+Table V reports coefficients from the OLS regression (4) of payment events in the next week on indicator functions for the most recent priority group, the most recent actions taken, and covariates X.24
+
+ 
+  
+ 
+ 
+ 
+ 
+(4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TABLE VOpen in new tabOLS Regression of Payment Events on Priorities, Actions, and Covariates
+Payment next week
+Estimate (std. err.)	Estimate (std. err.)
+G1	0.021
+(0.002)	0.023
+(0.002)
+G2	−0.003
+(0.002)	−0.000
+(0.002)
+G3	−0.005
+(0.001)	−0.005
+(0.001)
+Writ	0.015
+(0.001)	0.016
+(0.001)
+Garnishment	0.005
+(0.003)	0.008
+(0.003)
+G1 & writ	−0.003
+(0.004)	−0.004
+(0.004)
+G1 & garnishment	−0.013
+(0.005)	−0.014
+(0.005)
+Est. repayment prob	0.072
+(0.002)	0.033
+(0.003)
+Some repayment	0.045
+(0.002)	0.045
+(0.002)
+Share repaid	−0.024
+(0.000)	−0.024
+(0.000)
+Prev. year share repaid at 3M	—	0.025
+(0.002)
+Constant	0.009
+(0.001)	0.012
+(0.001)
+N	295,504	295,504
+Notes. Robust standard errors are in parentheses. Covariates include or not the share of taxes repaid three months after the Q1 deadline in the previous year, which fails balance tests (see Online Appendix OE).
+
+Priority G1 and writs have significant positive effects on payment propensities, while the impact of priorities G2 and G3 is insignificant or negative. There is no crowding out between priority G1 and writs.
+
+Regression (4) assumes that the impact of priorities and collection actions does not depend on the assignment history. This is incorrect and biases estimates. Taxpayers who remain delinquent late in the collection process are adversely selected. To account for this, we estimate a model allowing for hidden types in Section VI.
+
+4. Progressivity of Tax Collection
+Because priorities are increasing in order of taxes due, PIE enhances the progressivity of tax collection. Figure VIII plots the share of tax revenue raised from taxpayers in the lower quantile q of taxes due. Treatment shifts the curve to the right. Those who owe more pay a larger share of total taxes under treatment than control.
+
+Share of Total Tax Revenue Collected as a Function of Quantile of Taxes Due
+Figure VIIIShare of Total Tax Revenue Collected as a Function of Quantile of Taxes Due
+To compute the share of taxes collected from taxpayers at quantile q of taxes due, we divide taxes paid by taxpayers below the qth quantile of taxes due by taxes paid by all taxpayers.
+
+Open in new tabDownload slide
+V.B. Evidence on Mechanisms
+Raw findings confirm that the ingredients needed for PIE to improve collection are present:
+
+G1 priorities significantly increase the settlement rate of taxpayers;
+
+our ranking of taxpayers predicts repayment behavior.
+
+In addition, we provide suggestive evidence that the effect of prioritized enforcement may get stronger over time, as the government’s reputation for delivering on promises grows.
+
+1. Impact of G1 Priorities on Settlement
+Figure IX plots the share of taxpayers who have repaid at least 50% of tax due for taxpayers in the first batch of group G1 assignments and a suitable comparison group from control.25
+
+Repayment in G1 versus Control, First G1 Batch
+Figure IXRepayment in G1 versus Control, First G1 Batch
+The solid and dashed lines represent the share of taxpayers who have paid at least 50% of their tax due for the treatment and control groups. Shaded regions are 95% robust confidence intervals for coefficients βT,t and βC,t, in the regression 1{Πi,t ≥ 0.5} ∼ βT,t1{i in Treatment} + βC,t1{i in Control} where Πi,t is taxpayer i’s cumulated payment share of taxes due by week t.
+
+Open in new tabDownload slide
+Taxpayers exhibit a significantly higher settlement rate under treatment than control. This is true even in the first few weeks during which no collection actions take place. The early impact of G1 membership is entirely driven by threats, rather than collection actions.
+
+2. Predictability of Repayment Behavior
+Figure X compares the settlement behavior of the top and bottom thirds of taxpayers across three predictive models: one incorporating historical repayment data, one excluding it, and one ranking taxpayers solely by total taxes due. The figure indicates that all models are predictive, but the inclusion of past repayment data enhances precision. Note that better classification does not necessarily translate into better performance. If the discrepancy between estimated precision and realized precision is worse for more complex models, then scoring based on complex models overweights repayment probability and underweights taxes due as scoring inputs.
+
+Share of Population Having Repaid More than 50% of Taxes Due by Top Third and Bottom Third of Predicted Repayment Probability, with 95% Confidence Bounds
+Figure XShare of Population Having Repaid More than 50% of Taxes Due by Top Third and Bottom Third of Predicted Repayment Probability, with 95% Confidence Bounds
+Open in new tabDownload slide
+3. Reputation Formation
+We assess the effect of treatment on the propensity of taxpayers to be delinquent in subsequent quarters. For all taxpayers delinquent in the first quarter, we observe the amount by which they are delinquent in Q1 (their Q1 debt), and whether they had any debt related to second quarter taxes (Q2 debt). If the taxpayer is not delinquent with respect to Q2 taxes, then their Q2 debt is set to zero. To control for the fact that taxpayers included in G1 are selected, we control for whether the taxpayer’s score is high enough to be included in G1 in Q1. For the sample of taxpayers delinquent in Q1, we estimate the following linear model via OLS:
+
+ 
+ 
+ 
+(5)
+Findings reported in Table VI suggest that among taxpayers with comparably high scores, being assigned to group G1 reduced delinquency rates by 23.8% in Q2.
+
+ 
+
+
+
+
+
+TABLE VIOpen in new tabImpact of Treatment on Subsequent Delinquency
+ 
+Constant	1.401
+(0.012)
+Treatment	0.016
+(0.015)
+Potential assignment to G1	−0.170
+(0.027)
+Potential assignment to G1 × treatment	−0.238
+(0.041)
+N	13,432
+Notes. Robust standard errors are in parentheses.
+
+VI. Counterfactuals
+VI.A. A Semi-Structural Model
+We estimate a model of settlement behavior as a function of threats and collection actions, that allows us to evaluate key counterfactual policies. Those include an implementation of PIE at scale, an optimized policy reflecting insights from our experiment, and the simplified version of PIE ultimately adopted by the municipality.
+
+Our modeling choices seek to address three empirical challenges. The first is adverse selection. Because treatment and control groups face a different process of threats and actions, delinquent taxpayers in each group become differentially selected over time. We include unobserved types to account for this differential evolution.
+
+The second challenge is the thick right tail in the distribution of both taxes due and payment amounts. This makes inference about the effect of treatment on average payments difficult. As a result, we focus on the impact of priorities and collection actions on decisions to make a payment and assume that conditional on a payment being made, the amount being repaid is independent of treatment status and collection actions taken.26
+
+The third challenge is to realistically capture individual choices. As Table II shows, the likelihood of enforcement associated with a writ is low in the control group. This makes us reluctant to assume that taxpayers’ responses to writs reflects informed rational optimization.27 Given this concern, we simply seek to fit behavioral responses to priorities and collection actions, without seeking to estimate a microfounded model of behavior. This is sufficient to let us evaluate counterfactual policies in which threats are similar to threats used in our experiment (in terms of deadlines and credibility), and only the process of threat issuance varies. Having a reliable micro-founded model of taxpayers’ preferences would let us evaluate threats with significantly different deadlines and credibility.
+
+The remainder of this section focuses on describing the model and associated findings. Online Appendix OG investigates in-sample fit and robustness to specification changes.
+
+1. Repayment Behavior
+We assume that each taxpayer i is associated with a persistent observed characteristic 
+ and a persistent unobserved type 
+⁠, drawn i.i.d. across taxpayers from a Gaussian distribution 
+⁠. In our main implementation, we use as observed characteristic the taxpayer’s predicted repayment probability from our most predictive model (which includes past repayment behavior).28 Unobserved type θi serves to explain correlation in repayment behavior across periods and captures the impact of selection over time: taxpayers who have not made repayments after two weeks are systematically different from taxpayers who have not made repayments after three months.
+
+At the beginning of each period t (before payment actions are taken), the city government assigns the taxpayer a priority 
+ and takes a collection action at ∈ {garnishment, writ, notification, ∅}. Priorities and actions are ordered—∅ ≺ G3 ≺ G2 ≺ G1 and ∅ ≺ notification ≺ writ ≺ garnishment—and increase over time.
+
+Each period t, a taxpayer i makes a payment with Poisson intensity κi,t. Let si,t ∈ {0, 1} denote whether the taxpayer makes a payment. We assume that conditional on making a payment, the share of taxes due repaid by this payment (referred to as normalized payment), πi,t ∈ [0, 1], is drawn from a fixed distribution fπ,i that depends only on the taxes owed by taxpayer i.29 Let Ti(t) denote the set of taxpayer i’s payment times occurring strictly before t. We denote by 
+ the sum of normalized payments made up to period t. A taxpayer’s total payments should rarely exceed four times quarterly taxes due.30
+
+Let Xi,t denote the vector of covariates
+
+ 
+ 
+ 
+We assume that in each period, taxpayer i makes a payment with Poisson intensity κi,t taking the form
+
+ 
+ 
+(6)
+where 
+ is the usual dot product, and ϕ is a nondecreasing S-shaped function, parameterized by 
+⁠, specified below. Conditional on type θi, the intensity of payment at time t depends only on payments made, the current priority group gi,t, and the latest collection action taken ai,t. We allow for interaction effects between priority G1 and collection actions. For instance, it may be that receiving a priority G1 and receiving a writ act as substitutes.
+
+2. Collection Actions and Priorities
+Let us denote by hi,t = (ξi, ai,s, gi,s, πi,s)s ≤ t the public history of actions, priorities, and payments made, associated with taxpayer i at time t.
+
+ 
+Assumption 1.
+We assume that the distribution of priority assignments gi,t and collection actions ai,t are functions of public data hi,t−1 alone, and independent of type θi.
+
+We denote by G(· |hi,t) ∈ Δ({G1, G2, G3, ∅} × {garnishment, writ, notification, ∅}) the joint distribution of gi,t and ai,t conditional on public history hi,t.
+
+The assumption that priorities gi,t and actions ai,t are functions of public data alone is true by construction in the treatment arm: we assigned priorities and collection actions on the basis of data shared by the city government. In principle, collection actions taken by the government in the control arm could depend on signals of θi unavailable to us. We have no evidence that such signals play a role. Assumption 1 formally rules them out.
+
+In the language of Engle, Hendry, and Richard (1983), Assumption 1 guarantees that priorities gi,t and actions ai,t are weakly exogenous to parameters (φ, β, σ), so that we don’t need to explicitly specify the data-generating process for priorities and actions in order to estimate (φ, β, σ).
+
+Let Ki,t ≡ 1 − exp (−κi,t) denote taxpayer i’s period t payment probability. For any final history hi,T, its likelihood can be factorized as follows:
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The first two factors do not depend on the parameters of interest φ, β, σ. This implies that parameters φ, β, σ can be efficiently estimated using the conditional log -likelihood:
+
+ 
+ 
+ 
+(7)
+In turn, fπ,i can be estimated using conditional payment data in the event a payment is made, for taxpayers with tax due amounts similar to taxpayer i.
+
+By construction, the estimation of parameters of interest (φ, β, σ) is not driven by taxpayers with large amounts of tax due. Instead, parameters of interest are estimated using only taxpayers’ binary decisions to make a payment in any period. This allows us to form more robust estimates of treatment effects than those obtained from raw averages.
+
+3. Implementation
+Altogether, we seek to recover 14 parameters:
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Given parameters  
+ 
+ 
+ 
+⁠, we specify function ϕ mapping covariates and persistent types to payment intensity κi,t in equation (6) as
+
+ 
+ 
+  
+ 
+ 
+ 
+ 
+We aggregate payments at the weekly level. The log-likelihood of observed payment behavior (see equation (7)) induces a posterior distribution over parameters φ, β, σ computed using Markov chain Monte Carlos (Chernozhukov and Hong 2003).31
+
+Our framework is essentially a fixed-effect Poisson model (Hausman, Hall, and Griliches 1984). Intuitively, coefficients β are identified from variation in noncollinear covariates Xi,t in the cross section of taxpayers. The variance σ of types θi is identified from persistent variation in payment propensity across taxpayers with similar covariates. Coefficients  
+ 
+ 
+ and 
+ 
+ place upper and lower bounds on payment intensities. Although our model is surely misspecified, we note that likelihood-maximizing parameters achieve the best fit between the true and simulated processes under the Kullback-Leibler divergence (White 1982).
+
+VI.B. Findings
+Table VII reports posterior means and standard deviations for parameters of interest. Robustness checks are provided in Online Appendix OG. To a first order, these coefficients can be directly interpreted as percentage point changes in the likelihood of a payment event in the next week.32
+
+ 
+ 
+ 
+
+TABLE VIIOpen in new tabEstimated Parameters for Our Model of Taxpayer Payment Choice
+Mean	Std. dev.
+βG1	3.62 · 10−2	3.33 · 10−3
+βG2	0.43 · 10−2	2.93 · 10−3
+βG3	−0.65 · 10−2	1.33 · 10−3
+βgarnishment	2.20 · 10−2	4.67 · 10−3
+βwrit	3.27 · 10−2	2.34 · 10−3
+βnotification	0.01 · 10−2	0.14 · 10−3
+βG1-garnishment	−2.61 · 10−2	6.86 · 10−3
+βG1-writ	−1.16 · 10−2	5.91 · 10−3
+2.86 · 10−2	2.82 · 10−3
+−3.50 · 10−2	1.30 · 10−3
+βξ	1.29 · 10−1	4.21 · 10−3
+σ	0.50 · 10−1	0.23 · 10−2
+ 
+ 
+1.29 · 10−2	2.03 · 10−3
+ 
+3.44 · 10−1	0.90 · 10−1
+Note. The first (second) column reports the mean (standard deviation) of parameter estimates from the MCMC procedure described in Section VI.A.
+
+Consistent with the reduced-form evidence reported in Section V, inclusion in group G1 increases payment intensity. The coefficient associated with priority G2 is much smaller. Although we highlighted to members of group G2 that they could be moved to G1 at any time, this did not seem to effectively engage taxpayers’ anticipation and planning, possibly because it informed taxpayers that they were a relatively lower collection priority. Inclusion in group G3 reduced payment intensities compared to control, possibly because informing G3 members of potential promotion to group G2 reduced their expectations of prompt collection.
+
+Estimated settlement probability ξi is predictive of actual settlement behavior, confirming reduced-form findings reported in Section V. Our estimate of coefficient σ suggests meaningfully large amounts of unobserved heterogeneity in types. Coefficients on payment variables suggest that taxpayers who have made some payments are subsequently more likely to make further payments, but less so if the cumulated share of taxes due paid is larger.
+
+Issuing formal writs has a large impact on settlement, comparable to that of being included in priority group G1.33 The effect of writs is somewhat smaller when associated with a G1 priority, but G1 priorities and writs are only weak substitutes. The effectiveness of writs within the control group was a surprise to us given that writ enforcement rates in the control group are low (Table II).
+
+VI.C. Counterfactuals
+We evaluate counterfactual policies under the following assumption.
+
+ 
+Assumption 2 (Valid Extrapolation).
+Provided that collection promises are kept, changing the process for priorities gi,t and actions ai,t does not affect the settlement behavior of taxpayers given priorities and collection actions.
+
+Under Assumption 2, estimated parameters β, σ, φ let us evaluate counterfactual mechanisms assigning actions and priorities as a function of public histories, provided that collection promises continue to be kept under the counterfactual. In the language of Engle, Hendry, and Richard (1983), priority assignment and collection action processes are super-exogenous to settlement behavior over the restricted class of mechanisms that keep collection promises.
+
+1. Relevant Counterfactuals
+We are interested in the following counterfactuals whose outcomes are summarized in Table VIII.34
+
+CF1. Experiment as implemented. We first replicate collection policies from our experiment. Taxpayers are ranked using the same score, and 3,450 writs are issued under our simulated control, versus 1,101 under simulated treatment. We evaluate the experiment as it was implemented, which means that garnishments are systematically implemented on noncompliant members of group G1, but with an average implementation time of nine weeks rather than six weeks.35In addition, we replicate the increase of group G1 from 400 to 600 halfway into the experiment. We find that treatment increases expected collection by approximately 7.5%, at the cost of 558 expected garnishments.
+
+Online Appendix OG further documents the fit between simulated and realized outcomes.
+
+CF2. Experiment as intended. Second, we simulate a version of treatment as it was intended: the payment deadline of six weeks is strictly enforced. Because this stricter deadline naturally induces more garnishments, we scale down the size of group G1 until the number of garnishments issued roughly matches the number of garnishments issued in the actual experiment.
+
+We find that in this scenario, treatment increases expected collection by 1.8%. This reduction in treatment effect, compared to treatment as implemented illustrates the importance of setting deadlines correctly as highlighted in Section II.C.
+
+CF3. Eight-week deadlines. The increased delay in the experiment as implemented raises the question of whether group G1 would be less effective if taxpayers had anticipated a three-week delay in the implementation of garnishments. For this reason we evaluate a version of treatment in which the garnishment deadline is set at eight weeks (rather than nine), and the size of group G1 is fixed at 400 throughout the experiment. We maintain the assumption that control issues approximately three times as many writs as treatment.
+
+We estimate that under this scenario, treatment would increase expected revenue by 5.9%, at the cost of issuing an average of 552 garnishments.
+
+CF4. Matching writs used in control. In this counterfactual, we replicate the design of counterfactual CF3 but issue writs in a manner similar to control. In this case, we find that PIE improves collection by 10.8% over treatment. On average, this collection scheme issues 1,523 G1 priorities, 3,450 writs, and 547 garnishments.36
+
+Online Appendix OH shows that similar effects can be obtained if writs are issued early, and only to taxpayers that will be issued G1 priorities in the future. In that case roughly 1,500 writs are issued, all of which are credible.
+
+CF5. Rank by Tax Due. We replicate counterfactual CF4, but rank taxpayers according to their taxes due. Under this simpler scoring rule, treatment increases revenue by 12.3% over control, and issues 595 garnishments on average. The increase in garnishments is not surprising because tax due is a less discriminating predictor of repayment behavior than the scores used in the experiment.
+
+CF6. Adopted policy. Finally we simulate the effect of the collection policy adopted by the municipality: it uses tax due alone as a rank; it issues only two rounds of G1 priorities, one at the beginning of the collection period, and one seven weeks later, each with a deadline of seven weeks. Unlike other PIE designs G1 priorities are not reissued each week. Instead, G1 priorities are recycled twice. This policy combination increases revenue by 11.3% compared with control and issues 642 garnishments on average.
+
+
+TABLE VIIIOpen in new tabEvaluation of Counterfactual Policies
+% Change in revenue			
+Counterfactual policy	Mean effect	(95% CI)	# G1	# Writs	# Garnished
+CF1. Experiment as	7.5	(3.9, 10.5)	1,862	1,101	558
+  implemented					
+CF2. Experiment as	1.8	(−1.1, 4.6)	1,101	699	536
+  intended					
+CF3. Eight-week	5.9	(2.5, 9.0)	1,499	911	552
+  deadline					
+CF4. CF3 + matching	10.8	(7.3, 13.9)	1,523	3,450	547
+  writs in control					
+CF5. CF4 + rank by	12.3	(8.6, 15.5)	1,451	3,450	595
+  taxes due					
+CF6. Adopted policy	11.3	(7.8, 14.5)	1,000	3,450	642
+Note. In our actual experiment, treatment issued 1,838 G1 priorities, 1,306 writs, and 533 garnishments.
+
+Online Appendix OH reports additional counterfactuals. We note that our implementation of PIE is a policy bundle: members of group G1 are also issued a writ as promptly as feasible. We disentangle the impact of PIE that can be attributed to an earlier use of writs, and the effect that can be attributed to priority G1 alone. We find that roughly two-thirds of the effect can be attributed to priority G1. We also show that the distribution of taxes due plays a key role in mediating the effectiveness of PIE , refining our understanding of the effectiveness of PIE in different environments.
+
+VII. Discussion
+PIE seeks to improve the way a fixed enforcement capacity is deployed. The approach is well suited to environments in which agents are boundedly rational or have private information. Importantly, similar divide-and-conquer strategies can be applied to settings other than tax collection in which policy enforcement is hindered by limited capacity (see Braga et al. 2001 for an application to homicide prevention).
+
+Our field experience identifies delay in best response as a key friction affecting the effectiveness of PIE. Under a simple baseline model, setting short deadlines and keeping threat groups small is a dominant design. This is no longer the case when repayment takes time. Longer deadlines and threat groups that are larger than available collection capacity may be optimal. Our data identify a policy combination that improves over the benchmark collection process and lets us simulate out counterfactual designs. Plausible designs yield increases in revenue between 7% and 12%. Importantly, we are able to evaluate trade-offs between simplicity of design and revenue. We show that the simplified version of PIE ultimately adopted by the municipality yields the majority of feasible collection benefits.
+
+Building on those insights, Online Appendix OB provides a brief checklist of key steps required to adopt PIE.
+
+VII.A. Limits
+Our experiment has important limitations. We fail SUTVA: treatment is less labor intensive, yielding a reallocation of capacity to control. In addition, although our sample of taxpayers is large, we implement PIE  in a single location in partnership with an unusually collaborative municipality.
+
+Some aspects of our design also failed to have the effect we hoped for. Priority group G2 did not increase settlement, suggesting that our letters did not effectively engage the higher-order strategic thinking of taxpayers. Worse, priority G3 may have reduced taxpayers’ propensity to repay. Design variants that communicate incentive information more clearly or differently may be able to address these issues.
+
+Our semi-structural model also has limits: it only permits counterfactuals in which the nature of enforcement promises is not changed in significant ways and does not elucidate taxpayers’ decision making. The fact that weakly enforced writs are effective even on a control population that is familiar with them potentially indicates a persistent failure of learning. At the same time, the fact that taxpayers assigned to priority group G3 settle at a lower rate than similar taxpayers in the control group suggests that taxpayers respond to information about the likelihood of enforcement. It is plausible to us that effective policy design should seek to strategically slow down learning. For instance, one may consider disclosing less information to low-priority taxpayers and keeping garnishment rates low but bounded away from zero.
+
+VII.B. External Validity
+The value of PIE as a collection strategy may depend nonmonotonically on government capacity. Because it requires commitment power and some organizational competence (especially during initial implementations), PIE may not be suitable in contexts with very low capacity. At the other end of the spectrum, efficiency gains from using PIE may vanish in high-capacity environments. To that extent, Jesús María, a relatively high-capacity district in a middle-income country, may be representative of locations where PIE has a significant impact.
+
+On the positive side, external validity is improved by the fact that we operate only with the human resources available to the municipality. In addition, our semi-structural model allows the evaluation of PIE under counterfactual treatments and counterfactual populations. For instance, Online Appendix OH clarifies the sensitivity of PIE to the distribution of taxes due. We show that PIE yields the highest benefits in environments with moderate inequality in taxes due.37

@@ -1,0 +1,320 @@
+Long-run Effects of Austerity: An Analysis of Size Dependence and Persistence in Fiscal Multipliers
+
+Abstract
+This paper provides evidence that austerity shocks have long-run negative effects on GDP. Our baseline results show that contractionary fiscal shocks larger than 3% of GDP generate a negative effect of more than 5.5% on GDP even after 15 years. Evidence is also found linking austerity to smaller capital stock and total hours worked in the long-run. The results are robust to different fiscal shock datasets, the exclusion of particular shocks, and the use of cleaner controls. The paper also engages with the emerging discussion regarding fiscal multipliers heterogeneity, presenting evidence that the effects of exogenous fiscal measures are nonlinear on the shock size. The results also contribute to the broader discussion on the long-run effects of demand by suggesting that such shocks might permanently affect the economy.
+
+(…) macroeconomics in this original sense has succeeded: Its central problem of depression prevention has been solved, for all practical purpose (…) the potential for welfare gains from better long-run, supply-side policies exceeds by far the potential from further improvements in short-run demand management.
+
+Lucas Jr. (2003)
+
+This post-crisis experience suggests that changes in aggregate demand may have an appreciable, persistent effect on aggregate supply – that is, on potential output.
+
+Yellen (2016)
+
+1 Introduction
+In August 2022, Greece exited the European Union's ‘enhanced surveillance’, a framework established to ensure the policies implemented in the country from 2010 would not be reversed. These measures, aimed at decreasing public indebtedness, included large cuts to public spending, privatizations, and tax increases. After 12 years of its implementation, it is not clear how successful the strategy was. Greece's general government debt went from 130% of GDP in 2010 to 224% in 2021, while the average of OECD countries went from 70% to 94.7%. Greek real GDP per capita in 2021 is still 12.7% lower than in 2010, while the European Union (EU) expanded 12.1%.1 The labor market was also impacted significantly: while the EU had an increase of 3.5% in its labour force, Greece had a reduction of 8.4%. Moreover, long-term unemployment2increased by more than 41% in the country between 2010 and 2021, while it fell by 7% in OECD.
+
+Ideally, to evaluate the success of the austerity strategy, one would have to compare Greece's performance in the period to what would have happened if different policies had been implemented. Moreover, to take more general conclusions that can inform policy, it is also relevant to understand the timing of effects; that is, how much of the decrease in GDP in 2021 is related to the austerity implemented in 2017 and how much to the policies applied still in 2010, for instance. Such analysis of the long-run effects of austerity, however, is nonexistent in the literature, despite being central to the discussion that dominated economic and policy debates in recent decades. This paper seeks to fill this gap.
+
+In different moments in the past 15 years, due to economic crises, such as the financial in 2007, the debt one in the Eurozone, and the Covid pandemic, or by broader theoretical reasons, such as the discussions of a ‘secular stagnation’ and a zero-lower bond for monetary policy, more aggressive fiscal policy has been brought to the fore. This movement has also been accompanied by a ‘renaissance in fiscal research’, as pointed out by Ramey (2019), which led to a significant improvement in our knowledge about the topic. The literature, however, focuses on (i) the short and medium-runs effects of (ii) fiscal shocks in general.
+
+There might be different reasons for the shorter-run focus. Ramey (2019) points to methodological issues, arguing that the methods to estimate long-run effects would be different than those commonly employed in the fiscal literature. Another potential explanation is the theoretical understanding that demand shocks have only short-term effects, with supply-side factors determining the long-run. Both arguments, however, should not prevent an interest in estimating the long-run effects of these shocks. First, there are now methods widely used in the literature to estimate the effects of similar shocks over extended time horizons. Second, although the idea of neutrality of demand in the long-run is still important, there has been growing interest in recent years in the long-term effects of shocks, particularly negative ones related, for instance, to political, banking, or financial crises (e.g. Yellen, 2016 and Blanchard et al., 2015). By estimating the long-run effects of fiscal shocks, one can also contribute to this emerging literature on the persistence of demand shocks.
+
+Not least important is the fact that the literature tends to analyse the effects of fiscal shocks in general, and not of austerity policies. This is not only an important gap but, not rarely, a source of misunderstanding as the estimated effects of fiscal shocks in general are implied to hold for austerity measures in particular. Due to its deep implications on social and political spheres, economists' use of the term should dialogue with other areas of knowledge and the broader public, for which austerity tends to mean ‘enforced or extreme economy especially on a national scale’, as defined by the Merriam-Webster dictionary. Less anecdotally and without resorting to other fields, this is also recognized by Alesina et al. (2019a): ‘[t]he term “austerity” indicates a policy of sizeable reduction of government deficits and stabilization of government debt achieved by means of spending cuts or tax increases, or both.’ (p. 1, italics added). The literature, however, with very few exceptions,3 ignores this definition in important ways; of particular interest for us in this paper, is the assumption that the effects are linear on the size of the shock.4
+
+There are different reasons why the size of the shock might be relevant. The economy can have multiple equilibria,5and shifts between equilibria might depend on the size of the initial departure from the former steady state. Another channel could be through to money illusion, for instance, and the idea reinforced by behavioural research that the cognitive costs related to operating with nominal or real values are nonlinear (e.g. Fehr and Tyran, 2001). The effects might also be asymmetrical due to different reactions of the financial market: as in Greenwald et al. (1988), banks are resilient to relatively small negative shocks, but sufficiently large ones can lead to financial collapse. An additional channel might be related to factor hoarding: in face of a small demand shock, output might be adjusted via changes in capacity utilization and work intensity, while larger shocks tend to generate modifications in investment plans and labor demand, with larger impacts on aggregate demand. All these reasons might impact not only the proportional effects (or multiplier, in a more general usage of the term) of the shocks, but also their persistence over time. Therefore, taking into consideration the size of the fiscal shock is important not only as a matter of following the definition of austerity, but also because there are multiple theoretical reasons indicating that the effects might not be symmetrical and proportional.
+
+There is a flourishment of research on asymmetrical and nonlinear effects of macroeconomic shocks. Regarding monetary policy shocks, some examples are Tenreyro and Thwaites (2016), Barnichon and Brownlees (2019), and Stenner (2022) that test for state, sign and size-dependency. Recent examples on the fiscal policy side are Barnichon et al. (2022), which use US data and conclude that, within a 5-year horizon, the multiplier of negative shocks is larger than 1, while the multiplier for expansionary shocks is always smaller than 1, and Ben Zeev et al. (2023) that, on the other hand, also using US data, finds no difference in the magnitude of multipliers of positive and negative shocks. These papers, however, do not look at the key aspect of asymmetry that we are considering here: the size of the shock. The discussion of how the empirical literature deals with these dimensions is resumed in section II.
+
+This paper aims to fill these important gaps in the literature by estimating the effects of austerity – understood as contractionary fiscal shocks of significant magnitude – over a time horizon of 15 years. Results indicate that sufficiently large shocks (more than 3% of GDP in the baseline case) generate a significant and persistent reduction in GDP even after 15 years; this result is robust to the use of alternative datasets, the exclusion of episodes, and the implementation of different estimation methods. We provide evidence that both the capital stock and labor input (proxied by total hours worked) are significant channels contributing to the long-term negative impact on GDP. The paper also presents evidence that fiscal multipliers are heterogeneous by shock size. While the negative shocks, in general, have an instantaneous multiplier of 0.07 and a long-run one of 0.51, fiscal shocks larger than 3% of GDP are associated with multipliers of 0.23 and 1.45, respectively.
+
+Besides this introduction, the paper has three other parts. In section II, we present the current research on fiscal shocks to locate this paper in the broad literature and introduce, by comparisons, the methodology used in the empirical estimations. Section III explains the method and data in more detail and presents our baseline estimations. It is followed by section IV, in which a series of robustness checks and extensions are performed. Section V concludes the paper.
+
+2 Fiscal Research
+There are two main methods used to estimate exogenous policy changes at the country-level. A traditional method in the literature is the cyclically adjusted primary balance (CAPB) method (e.g. Blanchard and Perotti, 2002, Alesina and Ardagna, 2010). The idea is that, by calculating how much the components of the government budget change along the economic cycle, one can net this effect from actual government primary balance and thus check if the public sector is acting with a positive, negative, or neutral impulse in the economy. This method has received multiple criticisms. Romer and Romer (2010) point out that CAPB is affected by non-policy changes that might be correlated with other elements affecting output.6 Another argument, which goes to the heart of the endogeneity concern, is that even if the CAPB method correctly indicates a discretionary policy change, its motivation might be related to cyclical fluctuations: governments might cut spending if inflation is increasing; social expenditure tends to increase in recessions, and so on (e.g. Devries et al., 2011; Ball et al., 2013).
+
+An alternative to CAPB7 that recently gained ground is the ‘narrative approach’. This method tries to look directly at exogenous fiscal shocks, that is, changes in government expenditure or revenue that are not related to the business cycle. In the most recent and consolidated datasets, these shocks are identified by the analysis of official documents (congressional debates, speeches, budget documents, etc.) and consider as exogenous the changes motivated by the goal of increasing long-run growth or reducing the budget deficit.8
+
+This method is increasingly recognized as an important step in improving estimations based on panel data. However, it is also not exempt from criticism. Jordà and Taylor (2016) show that the time of fiscal shocks in the IMF fiscal narrative dataset (Devries et al. (2011)) can be predicted by some state variables – for instance, fiscal consolidations are more likely when public debt to GDP is high and when GDP growth is below potential. They propose using a propensity weighting strategy to further improve the identification of fiscal shocks. More details of the method will be presented in section III.
+
+In terms of methods to get impulse response functions of the output after the fiscal shocks, there are two main alternatives in the literature. The one used in this paper is based on Local Projections (Jordà (2005)), which has the advantage of not requiring the assumption of any particular functional form.9An alternative econometric method that is also widely used is Vector Autoregressions (VARs); it requires, however, the assumption of a model and, although generating a smaller variance, it tends to produce a more biased estimation, increasingly so for long horizons (Li et al. (2024); Jordà et al. (2020)).10
+
+We can return to the observation by Ramey (2019), mentioned in section I, that the long-run effects of fiscal shocks are not estimated due to methodological limitations. Semi-parametric methods have been used in estimations with similar setups over long time horizons. Jordà et al. (2020) use local projections with instrumental variables to calculate the effects of monetary shocks over 12 years, and Acemoglu et al. (2019) implement local projections with different propensity weighting methods to estimate the effects of democracy on a 30-year horizon, to name a couple. Therefore, it is not unusual in recent research to use the methods implemented here to calculate long-run effects of similar shocks.
+
+As also indicated in section I, another potential explanation for the lack of research on the long-run effects of fiscal shocks, however, is the theoretical understanding that demand shocks only have short-run effects, with supply determining the long-run. This view has prevailed in economic theory (Yellen, 2016), from ‘standard’ growth models, such as Solow (1956), to both new classical (and real business cycle) and most of the new Keynesian models, and has largely informed macroeconomic empirical research.11 In recent years a number of papers resumed the discussion about the long-term effects of negative shocks, but most focus on the effects of political, banking, or financial crises, while others look at GDP and estimations of its trend to identify recessions and analyze their effects over time (Haltmaier, 2013 over a 4-year horizon; Cerra and Saxena, 2008, Martin et al., 2015 and Blanchard et al., 2015 over a maximum horizon of 10 years are some examples).
+
+However, there are very few estimations for fiscal shocks. The main exception12 is the emergence of a literature in recent years analysing the long-run effects of public R&D expenditure. Li and Koustas (2019) use a ‘quasi-experimental’ framework, and estimate the long-run effect of US Second World War defense spending in local economies. Gross and Sampat (2023) also explore public investment in the US during World War II to analyse effects at the regional level. Kantor and Whalley (2023) estimate the effects on counties that received more public R&D conducted by NASA contractors during the Cold War era Space Race. The work of Antolin-Diaz and Surico (2024) is the closest paper to ours in terms of the goal of estimating the long-run effects of government spending. The authors use the dataset of military spending news constructed by Ramey and Zubairy (2018) as the government spending shock to test the effects on different macro variables on a fifteen-year horizon.
+
+These papers advance the literature greatly but differ from ours in important dimensions. First, they focus on specific government expenditure types rather than general fiscal policy. Second, they estimate the effects in a single country. Third, the ones focused on R&D rely on a ‘quasi-experimental’ framework and analyse the effect of a policy in one specific time frame; in the case of Antolin-Diaz and Surico (2024), concerns are if the results can be extended to any other country, given the particularity of the military sector in the US economy. Thus, there are important concerns about external validity issues in both cases. Lastly, in the case of Antolin-Diaz and Surico (2024), the exogeneity assumption implied in their baseline Cholesky decomposition is based on a weak instrument, at least after 1954 (Ramey, 2011).
+
+Table 1 lists some of the most influential papers in the fiscal research literature. The literature is vast, and it is difficult to do justice to all the important contributions; the list is produced to include more recent papers closer to ours in estimating shocks using country-level data and to illustrate the diversity of empirical methods used. In terms of the results, the literature is also heterogeneous, although there has been a convergence in recent years towards the direction of the short-run effects on GDP of fiscal consolidations to be negative (Ramey, 2019). There are important exceptions, however, such as Giavazzi and Pagano, 1990 and more recently Alesina and Ardagna, 2010, which argue that permanent contractionary fiscal shocks can have a positive effect on output, sparking an intense discussion around the ‘expansionary austerity’ hypothesis.13
+
+TABLE 1. Selected studies of the effect of fiscal shocks on GDP
+Authors	Data	Identification	Method	Max. horizon
+Alesina et al. (2019b)	16 OECD countries	Narrative	VAR	5 years
+1978–2014			
+Jordà and Taylor (2016)	17 OECD countries	Narrative	LP (AIPW)	5 years
+1978–2009			
+Riera-Crichton et al. (2016)	15 OECD countries	Narrative	LP	1 year
+1980-2009	(VAT changes)		
+Guajardo et al. (2014)	17 OECD countries	CAPB	2SLS and VAR	5 years
+1978–2009	inst. by narrative		
+Ilzetzki et al. (2013)	44 countries	CAPB	VAR	5 years
+1960-2007	(Expenditure)		
+Baum et al. (2012)	6 OECD countries	CAPB	TVAR	3 years
+1965–2011			
+Auerbach and Gorodnichenko (2012)	USA	CAPB	STVAR	5 years
+1966-2009	inst. by forecast		
+Romer and Romer (2010)	USA	Narrative (Tax)	OLS and VAR	5 years
+1947–2007			
+Alesina and Ardagna (2010)	21 OECD Countries	CAPB	OLS	3 years
+1970–2007			
+Mountford and Uhlig (2009)	USA	Sign restriction	VAR	6 years
+1955–2000			
+Abbreviations: AIPW, augmented inverse propensity weighted estimator; STVAR, extension of smooth transition autoregressive (STAR) models; TVAR, threshold vector autoregression.
+The most obvious difference between our estimation and the literature indicated in Table 1, as addressed at length, is the maximum time horizon.14However, there is another important element that is common in these works and, as mentioned in section I, is explored in this paper: the assumption of linearity of the effect of fiscal change, particularly that shocks of different sizes have the same proportional effects.
+
+There are papers that deal with nonlinearities in the context of government spending. Besides the recent papers by Ben Zeev et al. (2023) and Barnichon et al. (2022), already mentioned, other important works that explore nonlinearities are, for instance, Auerbach and Gorodnichenko (2012), Ramey and Zubairy (2018), and Ghassibe and Zanetti (2022). However, they focus on state-dependency (differences in multipliers when the economy is in a recession or expansion)15 or sign-dependency (differences in multipliers for positive and negative shocks), and not on size-dependency, as this paper does.
+
+This linearity assumption tends to be more explicit in papers that use narrative fiscal shocks as the ‘treatment’ variable, given that not rarely the independent variable is binary. However, even in estimations with a ‘continuous’ treatment, that is, the size of the shock as the independent variable,16 for instance, a limitation persists, given that these estimations would still capture the average size of the effect, and, a priori, it is possible that shocks of different sizes have different proportional effects (or multipliers, in a more general use of the term). The limitation of taking into account only the average effects is highlighted in a sample with a large number of small shocks, which is the case for the narrative fiscal shocks datasets (see Table 2).
+
+TABLE 2. Description of narrative fiscal shocks in Alesina et al. (2018)
+Any size	>1% GDP	>2% GDP	>3% GDP
+Total	232	128	69	33
+Range of shocks	10.0%	8.7%	7.7%	6.7%
+Avg. size of contraction	1.6%	2.5%	3.4%	4.4%
+Notes: Range of shocks is the difference between the largest and smallest shock.
+Summing up: our paper aims to address some gaps in the large and emerging fiscal research literature. The main one is to examine the long-run effects of austerity shocks, resorting to modifications in the estimation method to account for particularities of the time horizon and the fact that multiple shocks occur in the horizon of interest. Second, this paper does not assume that the fiscal multiplier is the same regardless of the shock size, which is particularly relevant not only to the conceptual discussion about austerity, but also to the emerging research on heterogenous fiscal multipliers.
+
+3 Estimations
+Baseline
+As previously mentioned, despite its weakness, the narrative approach to identify fiscal shocks has been recognized in the literature as the best option to deal with endogeneity. In this paper, we use the dataset of narrative fiscal shocks compiled by Alesina et al. (2018), which is, to the best of our knowledge, the largest available, covering 16 OECD countries (Australia, Austria, Belgium, Canada, Denmark, Finland, France, Germany, Ireland, Italy, Japan, Portugal, Spain, Sweden, the UK, and the USA) from 1978 to 2014. The shocks identify permanent fiscal contractions that are exogenous to the economic cycle. Some basic descriptive statistics of the sample are displayed in Table 2; almost half of the contractionary shocks are smaller than 1% of GDP and only around 15% is larger than 3% of GDP.
+
+For the reasons described in previous sections, we estimate the effects using a semi-parametric method. More specifically, we will use an extension of the Augmented Inverse Propensity Weighted Estimator (AIPW). According to Lunceford and Davidian (2004) and Jordà and Taylor (2016), the AIPW is the estimator with the smallest asymptotic variance within the class of the double-robust estimators – that is, those for which it is sufficient that either the conditional mean model (‘outcome model’) or the propensity score model (‘treatment model’) to be correctly specified for the estimator to be consistent.
+
+As indicated in section II, the ‘treatment model’ is used to calculate the probability of each unit (country-year) having an austerity shock. The variables used in the probit regression are:17 country dummies, debt (% GDP), GDP gap,18 real GDP growth (current and one lag), a dummy for an episode of fiscal consolidation in the previous year, long-term and short-term interest rates, current account (% GDP), change in the investment to GDP ratio, real private loan growth, and CPI inflation rate. Except for the data on the current account, which we extract from the OECD, and the one for real private loan growth, obtained with the Bank for International Settlements (BIS), the source for the other variables is the data employed by Alesina et al. (2018).19We use these probabilities of treatment in a propensity weighting strategy to further improve the identification of fiscal shocks: a higher weight is given to countries that, although having a higher probability of having a shock, do not have one.
+
+As shown in the Appendix (sections A and B),20this procedure eliminates any differences between treatment and control groups with respect to the discussed variables and reinforces the exogeneity of the fiscal shocks. Figure 1 illustrates the effect of reweighting the sample. The fiscal shock occurrence distributions, initially significantly different for the control and treatment groups, become much more similar after the sample reweighting.
+
+Details are in the caption following the image
+Figure 1
+Open in figure viewer
+PowerPoint
+Fiscal shocks distribution probabilities.
+After the ‘preliminary’ stage of reweighting the sample, we can proceed to the ‘outcome model’, in which a regular difference-in-differences regression is performed with controls for conditional mean within a Local Projections set-up. We control for a cyclical component of GDP, country-fixed effects, and two lags of change in GDP.
+
+More specifically, the estimator can be written as:
+ 
+ 
+ 
+ 
+ 
+(1)
+For which: 
+ is the variable of interest at time 
+, 
+ is the fiscal policy variable, 
+ is the policy propensity score at time 
+ given the relevant set of covariates contained at 
+, and 
+ is a generic specification of the conditional mean of 
+ in the subpopulation 
+ (that is, with or without a shock). Finally, 
+, with 
+ indicated what would be the size of 
+ for group 
+ in the absence of treatment and 
+ the estimator of the covariates over 
+.21
+
+An important adjustment to this method is required. The main problem to be addressed here is that in settings in which the ‘treatment’ (austerity shocks) can occur multiple times, it is possible that, when interested in the effect of treatment at time 
+ on 
+, another treatment takes place between time 
+ and time 
+. In those cases, the effect of 
+ for 
+ is absorbed by the fixed effects coefficients of the regression, biasing the estimation of the treatment itself. This problem increases with the forecasted horizon; thus, it is an important problem for long-run estimations such as the ones performed in this paper. The solution, proposed by Teulings and Zubanov (2014) and followed in this paper, is to include future fiscal shocks occurring up to time 
+ in the future (
+) as controls.
+
+Figure 2 presents the main results of our estimations, namely the effects on GDP of contractionary fiscal shocks of different sizes. We are defining ‘austerity’ as negative shocks larger than 3% of GDP. We test other minimum thresholds in the robustness section (section IV).
+
+Details are in the caption following the image
+Figure 2
+Open in figure viewer
+PowerPoint
+Effect of Austerity – By size of the shock
+Notes: The black lines indicate estimated coefficients. The darker grey area is the confidence interval given by two SDs (approximately 95% confidence interval), while the light grey area is the confidence interval given by one standard deviation (approximately 68% confidence interval). Austerity is defined by shocks larger than 3% of the GDP.
+
+As can be seen, when all contractionary shocks are considered, a negative effect on GDP is present in most years, but it is statistically significant only in the fourth and fifth years after the shock. The results are different for larger shocks: austerity episodes produce strong negative effects on GDP that are statistically significant for every year; those shocks are associated with a reduction in GDP of 5.6% after 15 years.22In other words, our estimations suggest that relatively large contractionary fiscal shocks generate significant long-run negative effects on GDP.
+
+Extended dataset and different GDP measure
+The discussion regarding austerity regained centrality after the great financial crisis of 2007 and its repercussions in the European debt crises some years later. Given that our series goes up to 2014, an important limitation of the estimations is the exclusion of the long-run effects of this recent wave of austerity. A simple solution would be to extend the data on GDP; in our baseline specification, however, there is an additional problem: we are controlling for shocks occurring between 
+ and 
+. Therefore, we would also need to extend the fiscal shock data.
+
+Given the non-existence of a longer narrative dataset, we perform an intermediate solution: given the mentioned limitations of the CAPB method, we extend the series of shocks to be used only as controls with a measure of fiscal shock based on the cyclically adjusted primary balance calculated by the IMF, while we keep using the same narrative shocks as treatments. Following the usual procedure in the literature, we look at the annual change in the CAPB and assume that a shock occurs when the CAPB increases by at least 1.5% as a percentage of GDP. Finally, to generate a series for GDP up to 2019 – and to take into account that there might have been revisions in the growth rates since the data was compiled by Alesina et al. (2019a) – we use data from OECD on the growth rate of GDP (in volume).
+
+As can be seen in Figure 3, qualitative results persist: for a sufficiently large austerity shock, there are statistically significant long-run effects on GDP.
+
+Details are in the caption following the image
+Figure 3
+Open in figure viewer
+PowerPoint
+Effect of austerity – by size of the shock – extension
+Notes: The black lines indicate estimated coefficients. The darker grey area is the confidence interval given by two standard deviations (approximately 95% confidence interval), while the light grey area is the confidence interval given by 1 SD (approximately 68% confidence interval). Austerity is defined by shocks larger than 3% of the GDP.
+
+Fiscal multipliers and continuous treatment
+We can now analyse the question of the proportional effects of different-size shocks. That is, if a shock 1% larger (as a % of GDP) has a different effect considering all the shocks and only those larger than 3%, for instance. This estimate gives us something similar to a fiscal multiplier.
+
+To test this, we resort to an adaptation of our baseline method. First, in our ‘treatment model’, we reweight the sample the same way did before, using a binary treatment variable. In our ‘outcome’ model, however, we use a continuous treatment, that is, the size of the shock.23This is performed within each treatment band of interest of our baseline estimation: all contractionary shocks, and austerity ones (those larger than 3% of GDP).
+
+Table 3 presents the results for the instantaneous and long-run ‘multipliers’. The long-run coefficients indicate, for example, that a shock of 2.5% of GDP will, on average, reduce GDP by around 1.3% after 15 years, while a shock of 3.5% of GDP tends to produce a reduction of about 5.1%. The result indicates that the multipliers for sufficiently large shocks are significantly different than the one when considering all fiscal contractions: using a chi-square test, we can reject the hypothesis that they are statistically equal with a 5% significance level.
+
+TABLE 3. ‘Multipliers’ – by size shock
+All shocks		Austerity
+Instantaneous (after 1 year)
+Multiplier	−0.07		−0.23
+P-value 
+ 0% GDP	—		0.02
+Long-run (after 15 years)
+Multiplier	−0.51		−1.45
+P-value 
+ 0% GDP	—		0.03
+Note: A Chi-square test is used to test the null hypothesis that the multiplier is equal to the one when all contractionary shocks are considered.
+This result reinforces the idea that the size of the shock matters, not only due to persistence issues, as indicated in our baseline estimations, but also for potential non-linear proportional effects on the economy.
+
+4 Extensions and robustness
+Alternative thresholds
+To test how sensitive the results are to the austerity threshold used, we test the effect on GDP after 15 years of shocks considering four other thresholds. Figure IV indicates that shocks larger than 1%, 1.5%, 2%, and 2.5% of GDP – besides the baseline cases of 3% – have long-run effects on GDP.
+
+Details are in the caption following the image
+Figure 4
+Open in figure viewer
+PowerPoint
+Alternative thresholds. [Colour figure can be viewed at wileyonlinelibrary.com]
+Notes: Dots indicate estimated coefficients. The bars indicate a 90% confidence interval.
+
+Alternative dataset
+Another important dataset of narrative fiscal shocks is the one from Devries et al. (2011), which covers 17 OECD countries from 1978 to 2007. This dataset has several differences with respect to the one elaborated by Alesina et al. (2019a): the most explicit ones are the reduced number of years and the inclusion of the Netherlands. However, the changes are deeper, with frequent significant discrepancies in the size and timing of the shocks. Thus, checking if the effects of this alternative sample of shocks align with our baseline results can serve as an important robustness check.
+
+The narrative shocks in the Devries et al. (2011) dataset tend to be smaller than the ones in Alesina et al. (2019a): the average shock size in the former is 1% of GDP, and the largest is 4.5%, while in the Alesina et al. (2019a) dataset, the average shock is of 1.6% of GDP, with the largest being of 9.7%. Therefore, there are not enough observations to perform the estimations for shocks larger than 3% of GDP, and thus, we define austerity shocks as those larger than 2.5% of GDP.
+
+Figure 5 presents our results, which are very similar to the ones from Jordà and Taylor (2016), which use Devries et al. (2011) dataset, for short-run periods and considering all negative fiscal shocks, but for horizons longer than those estimated by the authors, the results are statistically insignificant. However, once again, when the shock size is taken into account, the results indicate something different. For austerity shocks, the negative effect on GDP is statistically significant from the fifth year onwards.
+
+Details are in the caption following the image
+Figure 5
+Open in figure viewer
+PowerPoint
+Effect by shock size – alternative dataset
+Notes: The black lines indicate estimated coefficients. The darker grey area is the confidence interval given by 2 SDs (approximately 95% confidence interval), while the light grey area is the confidence interval given by 1 SD (approximately 68% confidence interval). Austerity is defined by shocks larger than 3% of the GDP.
+
+In Figure 6, we apply the same reasoning used in section IV and test different thresholds for the austerity definition. Again, we get a qualitatively similar result indicating that our findings regarding the long-run effects of austerity shocks are robust to different thresholds for the minimum size of the shocks.
+
+Details are in the caption following the image
+Figure 6
+Open in figure viewer
+PowerPoint
+Effect by shock size – alternative dataset and thresholds. [Colour figure can be viewed at wileyonlinelibrary.com]
+Notes: Dots indicate estimated coefficients. The bars indicate a 90% confidence interval.
+
+Excluding episodes and countries
+As indicated in Table 2, there is a wide spectrum of shock sizes, this being one of the key venues of exploration in our paper. However, given that we are placing only a lower limit to the shocks, particularly large austerity measures may be driving our results. To test the robustness of our results to this possibility, we re-run the baseline estimation for austerity shocks excluding one episode at a time and check if the effects on GDP after 10–15 years hold. Figure 7 shows that the results are robust to the exclusion of any particular shocks.
+
+Details are in the caption following the image
+Figure 7
+Open in figure viewer
+PowerPoint
+Robustness check – excluding shocks (larger than 3% of GDP). [Colour figure can be viewed at wileyonlinelibrary.com]
+Notes: Dots indicate estimated coefficients. The bars indicate a 95% confidence interval.
+
+Another robustness exercise is to exclude entire countries from the sample. One reason for this exercise is the exclusion of a larger group of observations at each time (compared with the exclusion of particular shocks). Another is that it is possible that for some countries the shocks have a larger degree of endogeneity: for instance, contrary to Devries et al. (2011), Alesina et al. (2019a) exclude the Netherlands from their sample given that the fiscal rule of the country leads to a particularly large correlation between fiscal adjustments and past output growth. As can be seen in Figure 8, the result that there are long-run effects of austerity shocks (contrary to the case with all fiscal shocks) holds for the exclusion of any country. It is worth noting that the impact of austerity policies is particularly significant in Ireland, where strong contractionary fiscal measures were implemented from 2009 to 2012.
+
+Details are in the caption following the image
+Figure 8
+Open in figure viewer
+PowerPoint
+Robustness check – excluding countries. [Colour figure can be viewed at wileyonlinelibrary.com]
+Notes: Dots indicate estimated coefficients. The bars indicate a 95% confidence interval.
+
+Initial examination of channels
+A detailed examination of the channels through which these long-run effects operate is beyond the scope of this paper. Here, we perform a first approximation to check the effects on the three main aggregate inputs to the GDP: capital stock, labor and factor productivity.
+
+We assume a Cobb–Douglas function:
+ 
+and use data from the Penn World Table (PWT) for the capital stock (
+) and labor input (
+), defined as the total number of hours worked. The Total Factor Productivity (
+) is calculated as the residual using the production function above. The output elasticities of capital and labor, 
+ and 
+, are given by the respective factor remuneration (also sourced from the PWT), which follows from the maximization under perfect competition.24
+As previously discussed, one way in which shocks of different sizes can have heterogeneous proportional effects on the economy is through investment if, for instance, investment decisions are more sensitive to GDP growth after a given threshold. Despite this potential non-linearity, the direction of the effect on the capital stock itself is not clear a priori, as government expenditure can crowd in or crowd out private investment depending on multiple factors, such as the type of fiscal shock and the effect on the interest rates, for instance (e.g. Antolin-Diaz and Surico, 2024; Bahal et al., 2018). Figure 9 strongly suggests that austerity shocks are indeed associated with a consistent and statistically significant negative effect on the stock of capital, which could help explain the long-run effects on GDP. There is also a negative and significant effect of austerity on the labor used in the economy. Although weaker than the effect on the capital stock, the reduction in the number of employed people, even after 15 years of an austerity shock, helps us understand the aggregated effect on GDP. In both cases, it is interesting to note not only the effect of austerity shocks but also how different they are when we take into account all fiscal shocks. Finally, aggregate TFP is the factor that reacts the strongest immediately after the shock, contributing negatively to the GDP until at least the sixth year after the shock, but its effect converges to zero in the long run.
+
+Details are in the caption following the image
+Figure 9
+Open in figure viewer
+PowerPoint
+Effect by austerity shock by GDP component
+Notes: The black lines indicate estimated coefficients. The darker grey area is the confidence interval given by 2 SDs (approximately 95% confidence interval), while the light grey area is the confidence interval given by 1 SD (approximately 68% confidence interval). Austerity is defined by shocks larger than 3% of the GDP. The capital stock is sourced from the Penn World Table 10.0.
+
+‘Cleaner’ controls – a local projections approach to DiD
+An increasingly recognized problem in studies that resort to some form of differences-in-differences (DiD) estimation is the bias that emerges once one moves away from a ‘2X2’ setup – that is, two periods (pre- and posttreatment) and two status (treated or never treated) (e.g., Callaway and Sant'Anna, 2021; De Chaisemartin and d'Haultfoeuille, 2020; Goodman-Bacon, 2021). In our case, one can illustrate an important potential bias by reminding that the regression that estimates the effect of an austerity shock in time 
+ on output in time 
+ has as controls countries that also had shocks between 
+ and 
+. In situations in which the treatment effects are heterogeneous and dynamic, as in our case, the bias is clear: the observations used as controls are also under the influence of shocks.
+
+There are different ways of trying to reduce this bias. The method suggested by Dube et al. (2022) seems particularly interesting and adequate for our purposes given the endogenous nature of the treatment time. In this section, we follow their approach by excluding from the control sample countries that were ‘treated’ between 
+ and 
+ when estimating the effect of treatment in 
+ on output at 
+.25This is performed with our baseline setting (section III), that is, on top of performing propensity-score matching and controlling for future shocks of the treated countries.
+
+Although this approach has the advantage of providing control units that are not under the influence of austerity, it comes with the relatively high cost of significantly decreasing the number of observations for each estimation. This might lead to a less smooth sequence of coefficients and a wider confidence interval. In our case, the smaller the threshold for the minimum shock size, the stricter the rule on controls will be.26 We focus, therefore, only on the austerity shocks so that we can have an adequate number of observations. In Appendix C, we test a much less strict method to ‘clear’ the controls and our baseline results continue to hold.
+
+Reassuringly, results are qualitatively the same as the baseline ones, with austerity shocks having long-run negative effects on GDP, the capital stock and labor input (Figure 10). Moreover, the relatively small magnitude differences are in line with what would be expected: when considering only ‘clean’ controls, the effects of austerity are even stronger.
+
+Details are in the caption following the image
+Figure 10
+Open in figure viewer
+PowerPoint
+Cleaner controls – Austerity shocks
+Notes: The black lines indicate estimated coefficients. The darker grey area is the confidence interval given by 2 SDs (approximately 95% confidence interval), while the light grey area is the confidence interval given by 1 SD (approximately 68% confidence interval). Austerity is defined by shocks larger than 3% of the GDP.
+
+Estimation bias, lag length selection and penalized LPs
+In our baseline estimation, we deal with two important sources of potential bias. One is that countries affected by austerity might have different characteristics than countries not affected; and the other is that within the 15-year horizon, a country might be affected by more than one austerity shock. To deal with the first, we reweight the sample using propensity score matching; to address the second, we control for future shocks.
+
+In terms of the estimation method, however, another aspect has to be analyzed. As mentioned in section II, we prioritize the use of LPs as they tend to produce less biased estimations, although at the cost of larger variances (e.g. Li et al., 2024). However, recent research has also indicated that lag-augmented LPs tend to be superior to LPs, particularly for long-run estimations (e.g. Montiel Olea and Plagborg-Møller, 2021; Antolin-Diaz and Surico, 2024), the basic idea being that lagged endogenous variables might be relevant to predict the treatment shock.
+
+In our baseline estimations, we choose to use the simpler LP because (i) the AIPW model should account for part of this predictability, (ii) our dependent variable is in levels, which, as shown by Antolin-Diaz and Surico (2024), tends to reduce estimation biases (as compared to de-trended variables), but, importantly, and similarly to the discussion in section IV, (iii) the inclusion of many lags comes with a cost in terms of observations, which is especially relevant in a sample like ours, where each country is observed for only 36 years, and for long-run estimations.
+
+As a robustness exercise, we test the effect of adding four and ten lags of the control variables in the LPs. As can be seen in Table 4, our baseline results, for all shocks and austerity, 1 year ahead and in the long-run, continue to hold, with austerity shocks generating statistically significant negative effects on GDP even after 15 years; the coefficient, however, tends to be smaller with the use of more lags. The table also indicates the problem with the reduction of the sample.
+
+TABLE 4. Lag-augmented LPs
+Instantaneous (1 year)	Long-run (15 years)
+Number of lags	0	4	10	0	4	10
+All shocks
+Effect	0.171	0.257	0.233	1.178	1.200	−0.205
+Obs.	508	457	356	276	228	135
+Austerity
+Effect	−0.151	−0.389***	−0.380***	−5.610**	−3.359**	−1.794***
+Obs.	416	377	299	234	195	117
+With respect to the trade-off between bias and variance mentioned a couple of times, Barnichon and Brownlees (2019) demonstrate that the use of penalized LPs can increase inference precision. As a robustness check, we estimate the long-run effects of the shocks using a penalized LP based on Friedman et al. (2010), which suggests a technique that incorporates elements of Lasso and Ridge methods.27As can be seen in Figure 11, the results are very similar to the baseline ones.
+
+Details are in the caption following the image
+Figure 11
+Open in figure viewer
+PowerPoint
+Penalized LPs
+Notes: The black lines indicate estimated coefficients. The darker grey area is the confidence interval given by 2 SDs (approximately 95% confidence interval), while the light grey area is the confidence interval given by 1 SD (approximately 68% confidence interval). Austerity is defined by shocks larger than 3% of the GDP.
+
+5 Conclusion
+After a time of diminished interest in fiscal policy during the so-called Great Moderation in advanced economies, the past two decades saw an emerging interest in fiscal research, deriving from the challenges most economies faced since the Global Financial Crisis. Despite several efforts, which greatly improved our knowledge about the topic, a few important gaps persist. This paper aimed to address one in particular: the long-run effects of austerity policies; and, by doing so, shed some light on two other important questions: the heterogeneity of fiscal multipliers by shock size, and the persistent effects of demand shocks.
+
+The idea that countries are still being affected by the most recent austerity wave that followed the financial crisis is widespread in public opinion. This impression might have encouraged the emergence of a literature that links austerity with several effects, including those that tend to have persistent impacts, from public health, to political instability and democracy erosion (e.g. Fetzer, 2019; Baccaro et al., 2021; Ponticelli and Voth, 2020; Guriev and Papaioannou, 2022; Rajmil et al., 2020). Regarding its economic impact, however, the evidence is limited to short-run effects.
+
+Employing a method that ‘re-randomize’ the allocation of austerity episodes in a local projections set up and accounting for the fact that multiple shocks occur in the time horizon of interest, our results indicate that austerity measures (defined as negative shocks larger than 3% of the GDP) have a detrimental effect on GDP of about 5.5% even after 15 years. This result is robust to extensions in the fiscal shocks used as controls, to different measures of GDP, to alternative narrative datasets, to the exclusion of individual shocks, and to the use of ‘cleaner’ controls. Moreover, there is robust evidence that austerity shocks have significant negative effects on capital stock and hours worked.
+
+Finally, evidence that fiscal multipliers depend on the size of the shock is also presented: while the long-run multiplier for all shocks is 0.5, the one from austerity shocks is almost three times larger, 1.45.
+
+This paper fills a relevant gap in the literature by: (i) examining the long-run effects of fiscal policy in general, employing techniques that are appropriate for such estimations; and (ii) allowing different effects for different shock sizes, both in proportional terms and related to its persistence over time. This last point, besides contributing to the emerging literature on heterogenous fiscal multipliers, is particularly relevant as the term ‘austerity’ is of public interest and, thus, it is important that economists engage in the broader conversation with a similar understanding of the term: contractionary fiscal policy of significant size. Arguing, a priori, that standard fiscal multipliers are sufficient to assess the impact of austerity episodes is misleading, does not contribute to our understanding of the topic and is not very useful for policy orientation. Finally, when it comes to the time horizon of the estimation, our study contributes to the growing literature on the persistent effects of demand shocks by being the first to analyse the long-run impact of narrative fiscal shocks. In this context, our estimations present additional evidence that demand shocks may have significant long-run effects.

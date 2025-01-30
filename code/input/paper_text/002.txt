@@ -1,0 +1,633 @@
+The Value of Information in Competitive Markets: Evidence from Small and Medium-Sized Enterprises
+
+Abstract
+We empirically investigate how the performance of small and medium-sized enterprises (SMEs) changes when gaining access to market information. To do so, we evaluate the impact of an information program diffused by a bank among its SME customers. Adopting firms gained access to reports with rich information about their own clientele and that of nearby establishments. While we find that adoption is associated with a 4.5% revenue increase, our instrumental variable results indicate that adoption increases revenue by 9%. The main mechanism driving our result is that the new information prompted adopting establishments to target gender-age customer groups underserved before adoption.
+
+I.  Introduction
+Although neoclassical economics implicitly assumes that (perfect) information is widely available to firms and decision-makers, the reality is that imperfect and asymmetric information problems are ubiquitous in markets and organizations. In fact, economists have shown that information plays a central role in understanding the development and functioning of markets in a wide variety of contexts, such as finance (Hayek 1945; Fama 1970; Lucas 1972; Grossman and Stiglitz 1980), labor and education (Stigler 1962; Spence 1973), healthcare and insurance (Rothschild and Stiglitz 1976), and markets where product performance is sensitive to quality concerns (Akerloff 1970).
+
+A key mechanism through which information affects the economy is decision-making (Stigler 1961). In addition to consumers making purchasing decisions based on information available to them through advertising and consumer reports, information is also a key input for firms’ decisions related to their day-to-day production and marketing strategies (Bergemann and Bonatti 2019). In fact, in a competitive market environment, information can be a source of competitive advantage through a variety of channels—for instance, by lowering costs (more efficient resource allocation and production processes) or enhancing the understanding of business opportunities (better product customization and improved demand forecasting). Whereas the literature on firm dynamics has recognized the role of productivity in shaping firm growth, Foster, Haltiwanger, and Syverson (2008, 2016) show that investments in market information may be a good way to increase demand and consequently boost firm growth and survival.
+
+Over the last few decades, the marginal cost of collecting and processing information has gone down dramatically, due mainly to the rise of information technology (IT). This decrease in information costs has enabled firms to adopt data-driven decision-making (DDD) practices over traditional decision-making based on intuition (Brynjolfsson, Hitt, and Kim 2011; Brynjolfsson and McElheran 2016a, 2016b).1 However, this increase in the use of market information for decision-making has concentrated in large corporations,2 and it has lagged in small and medium-sized enterprises (SMEs).3
+
+Despite this well-documented information gap, the reason why SMEs are lagging in the use of market information for decision-making is still unclear (Gertler et al. 2023; Kim 2024). In fact, identifying how market information affects SMEs’ performance and decision-making would help answer at least two relevant questions. First, it would inform us whether SMEs can benefit from access to market information. The current low rates of use of information among SMEs may be driven by three potential reasons: (a) returns from information access are too low, (b) collection and analysis costs are too high, or (c) managerial awareness and understanding of the returns and costs of the information access are lacking. Finding positive returns for SMEs can open the door for public (and private) interventions intended to decrease information access costs and facilitate data-sharing initiatives (Jones and Tonetti 2020). These initiatives would increase the use of market information among SMEs, which in turn may reduce the existing performance gap between firms with “intuition-driven” and “data-driven” decision-making practices. Thus, narrowing down this gap may contribute to decreasing market concentration with all its consequences on market outcomes, such as prices, quality, and innovation.4
+
+Second, it would improve our understanding of how access to market information affects firms’ competitive strategies and market equilibrium outcomes. Recent years have witnessed dramatic increases in the availability of data, and the pace is accelerating. Therefore, understanding how this improvement in information access is likely to affect both firm strategic decision-making and market competition is of first-order importance to stay ahead of events and regulate markets accordingly.
+
+In this paper, we contribute to this debate in two distinct ways. First, we estimate the distribution of returns to market-information access through the adoption of an information-sharing program that facilitates the implementation of DDD practices among SMEs. Second, we provide evidence of which mechanisms operate behind the estimated effect of market-information access on SMEs’ performance.
+
+To do so, we use information from a large European bank on the deployment in Spain of an information-sharing program among its SME customers. After voluntarily signing up for this unprecedented and unique free information-sharing program, SMEs received a monthly report on their sales profiles relative to other neighboring establishments in their same sector. This report is based on all credit and debit card transactions from the previous month in all the establishments with a bank point of sale (POS). It is important to note that the information contained in the report is descriptive and not predictive.5 Therefore, the program reduces the costs of SME access to market information through a double channel. First, given their limited number of customers, SMEs usually do not have the capacity to generate large volumes of data on consumer behavior. Second, SMEs often lack the capacity to analyze large volumes of disaggregated data and draw conclusions from them. This program processes the raw data and offers SMEs a report that, despite having very rich information, is easier to understand than the data in their original format and granularity level. Following an earlier pilot release in 2014, the program was officially launched in the spring of 2016 for the whole country, targeting all establishments with a bank POS. Our final working data contain quarterly information for 487,606 establishments. Among all establishments in our working data, 7,110 adopted the program across all provinces in Spain and across 17 sectors and 60 subsectors in the economy.6
+
+Our empirical methodology uses first-differences ordinary least squares (OLS) regressions of quarterly revenue data on adoption, with sector-zip-code-quarter fixed effects and establishment-age time trends as baseline specification. We complement this analysis with an instrumental variables (IV) approach where we take advantage of the fact that different establishments within the same sector-zip-code dyad are affiliated with different bank branches. Our IV is the number of adopters (other than the focal establishment) in the establishment’s bank branch in a given quarter. The rationale for the instrument comes from conversations with bank managers detailing that the bank did not compensate its employees for the diffusion of the program, and therefore differences in program diffusion across branches were explained by idiosyncratic preferences of branch employees with the program. Those employees who identified the most with the program due to their data savviness exerted much effort in the promotion of the program, increasing adoption among their customers. Those employees who did not identify with the program due to their data-skill shortcomings exerted little effort in its promotion; as a result, their customers were unlikely to adopt because they were not aware of the benefits of the program. This strategy allows us to use exogenous variation in adoption probability across establishments within the same sector, zip code, and quarter, thus controlling for sector-zip-code-quarter-year-specific demand shocks.
+
+We find that adoption is associated with a 4.5% increase in revenue from credit and debit card transactions, whereas our IV estimation shows that adoption increases establishments’ revenue by 9% for those establishments whose adoption decision is most strongly affected by our instrument. This finding is robust to several falsification and placebo tests. Moreover, our heterogeneity analysis suggests that differences in adopter “sophistication” (as measured by a survey administered by the bank), size, or business density do not appear to drive differences in adoption returns. If anything, we find that smaller adopters in sector–zip codes with higher business density and single-establishment adopters benefited the most from adoption.
+
+Next, we investigate the role of mechanisms behind these findings. Adoption may prompt establishments to target existing yet unexploited business opportunities. Our analysis shows direct support for this mechanism in two main ways. First, our evidence points out that the increase in revenue after adoption comes from an increase in both the number of transactions and the number of customers, while keeping the average number of transactions per customer and the average value per transaction constant. Second, we find that their new customers come from previously underserved gender-age groups in their customer portfolio and from new geographic areas. Moreover, we observe that adopting establishments reshuffle their sales toward idle times of the week when expanding their customer portfolio. Even in the absence of discovering new business opportunities, adoption may help establishments improve their scheduling hours and sales-effort allocation across peak and off-peak times. These empirical findings are consistent with results from Eeckhout and Veldkamp (2023) in a setting where firms are risk averse and market information is a complementary input to investments because data lower the risk of investment by making demand more predictable. After receiving information, they find that firms may increase markups through a composition effect by shifting attention to more profitable products in their portfolio. In our empirical setting, adopters increase revenues after adoption, and they do so by shifting attention to underserved customer profiles and off-peak times of the week.
+
+Finally, we investigate whether adoption (albeit sparse) has an impact on the revenue of nonadopters and overall revenue at the market level. First, we find that nonadopters’ revenue goes down when a nearby establishment adopts in their same zip code and business sector, suggesting that the increase in revenues at adopting establishments is obtained by stealing revenue from nonadopters. Second, we find no statistically significant effect of adoption on revenue at the market level. These results have direct and important consequences for our understanding of the impact of information on the degree of competition in a market and ultimately on consumer surplus and total welfare.7 If access to more information made establishments specialize into narrower market segments, then it would follow that the degree of competition would decrease, prices would increase, and welfare could decrease. Instead, at low levels of information dispersion, our findings suggest a positive association between more information in a market and the degree of competition.
+
+Our findings contribute to three main streams of literature. First and foremost, our paper contributes to the literature studying the impact of market information on firms’ decision-making. The industrial organization literature (and more generally in economics) customarily assumes firms’ full knowledge on market fundamentals when making optimal decisions. However, abundant evidence suggests that firms’ information is usually far from perfect (e.g., Cyert and March 1963; Baum and Lant 2003; Li, Netessine, and Koulayev 2017; Kim 2024). Therefore, understanding whether and why firms—particularly SMEs—are able to benefit from more and better information through the adoption of beneficial practices (Anderson et al. 2021; Gertler et al. 2023) should be of first-order importance to comprehend and regulate competition dynamics in a world shaped by an increasing availability of data (Foster, Haltiwanger, and Syverson 2008, 2016; Bergemann and Bonatti 2019; Bergemann, Bonatti, and Gan 2021).
+
+To the best of our knowledge, ours is among the first papers to empirically evaluate the gains of access to market information among SMEs in the retail and customer service sectors in a developed economy. Two related streams of research have studied the impact of information on SMEs. Whereas one focuses on SMEs in developing countries (McKenzie and Woodruff 2014, 2015; Fabregas et al. 2019; Anderson et al. 2021; McKenzie 2021; McKenzie and Puerto 2021; Anderson and McKenzie 2022; Gertler et al. 2023), the other does so on SMEs in online retailing (Muller, Fay, and Vom Brocke 2018; Jin and Sun 2019, 2022; Berman and Israeli 2022). Our study complements both streams of research by investigating the impact of information access on largely unsophisticated, brick-and-mortar “analog” retail and customer service establishments. The papers closest to ours in these two streams of research are Anderson et al. (2021), Berman and Israeli (2022), and Jin and Sun (2019). Anderson et al. (2021) investigate the impact of consumer and sales analytics on decisions, sales, and profits across brick-and-mortar SMEs in Rwanda using a field experiment. Berman and Israeli (2022) use an IV strategy to estimate the effect of information on weekly revenue with rather sophisticated customer information (e.g., customer acquisition costs, or average customer lifetime value) in a sample where all online retailers adopt. Jin and Sun (2019) study the impact of purchasing data at the online retailer level in a large online platform on total sales. They find that data access facilitates business growth and that smaller retailers are sensitive to data access costs. Our paper differs from these in that it provides detailed evidence on main effects and heterogeneity from access to market information in a comprehensive sample of brick-and-mortar establishments in Spain rather than in a developing economy or an online platform.
+
+Our paper also provides a unique opportunity to study why analog SMEs are less likely to use market information for their decision-making. Kim (2024) shows that small firms in the personal care industry may lack knowledge of competitors’ decisions even when this information is readily accessible.8 Moreover, she finds suggestive evidence that managerial inattention plays an important role in explaining firms’ lack of awareness. Our paper differs from hers in two noticeable ways. First, we provide evidence of the impact of market information on firm and market outcomes, such as revenues, transactions, and customers, using a comprehensive sample of establishments across all retail sectors. Second, we show that SMEs react when they gain access to rich multidimensional information. Thus, our findings are consistent with the view that the change in behavior after information access is driven by managerial inattention and lack of awareness before adoption and not the lack of sophistication or cognitive capacity. In our setting, information allows firms to increase their revenue by becoming aware of existing, unexploited business opportunities. Moreover, we find that adopting SMEs increase their sales in idle times of the week after adoption, which is consistent with an improvement in their internal resource allocation (Bloom et al. 2013; Bruhn, Karlan, and Schoar 2018; Giorcelli 2019). Interestingly, the impact of information is not larger for more sophisticated establishments (as measured by a bank survey). This finding is likely due to the combination of two factors: (i) more sophisticated firms were probably already using a considerable amount of information in their decision-making process before adoption, and (ii) the information-sharing program in our study processes the information, facilitating its understanding and use by less sophisticated managers.
+
+We also contribute to a second literature that focuses on the study of persistent performance differences (PPDs) among otherwise equal firms within an industry. Although traditional explanations for the dispersion in productivity have pointed out competition (Galdon-Sanchez and Schmitz 2002; Syverson 2004, 2011) or search costs (Hortaçsu and Syverson 2004) as main driving factors, Gibbons and Henderson (2013) highlight the importance of management practices in explaining the observed distribution of PPDs in an economy. Furthermore, Bloom and Van Reenen (2007) have provided consistent evidence that certain managerial practices are more likely to be associated with high productivity levels. Our paper identifies access to market information as an intangible input of production (Stigler 1961) that may facilitate the adoption of beneficial practices, which translates into changes in performance of SMEs. Thus, access to market information among SMEs can reduce the productivity gap between large and small firms. Interestingly, given the sizable increase in revenue associated with adoption, our evidence discards low adoption returns as an explanation for the observed low adoption rate of this program. Alternatively, our evidence leaves managerial inattention and nonmonetary adoption costs such as information barriers to identifying valuable opportunities (Gertler et al. 2023) as the only remaining and potential reasons for the low adoption rate of this program and, more generally, for the gap in the use of market information among SMEs.
+
+Finally, our third contribution is to the growing literature studying the increasing role of DDDs (Brynjolfsson, Hitt, and Kim 2011; Brynjolfsson and McElheran 2016a, 2016b). Whereas McAfee and Brynjolfsson (2012) argue that data analytics allow managers to evaluate and precisely measure the impact of their decisions through DDDs, Lambrecht and Tucker (2015) state that big data is valuable for achieving a sustainable competitive advantage only when paired with the right analysis toolkit and organizational competence. Einav et al. (2017) assess gains from e-commerce, Farboodi et al. (2019) present data as a valuable intangible asset driving the skewness of firm size and productivity distribution, and Bajari et al. (2019) show that access to large amounts of data and information allows firms to lower forecasting errors and therefore enables better decision-making.9
+
+Although the managerial implications of our findings are clear for managers of SMEs, it is important to emphasize that our findings have implications for a large and relevant group of the economy. In our setting (an average Organization for Economic Cooperation and Development [OECD] economy such as Spain), large firms (more than 50 employees) account for less than 1% of all firms in the country and 48% of employment, whereas SMEs account for more than 50% of employment and 99% of firms.10 These patterns in the distribution of firm size and employment are representative of all industrialized and OECD countries. To the extent that our results provide estimates of the private returns of access to market information for SMEs, our findings are informative and relevant to a large group of stakeholders in an economy.
+
+The structure of the rest of this paper is as follows. We describe the empirical setting and our data in section II. Section III lays out the methodology and discusses identification. In section IV, we describe our main results and their heterogeneity. Section V investigates mechanisms, and section VI explores alternative explanations as well as the aggregate effects of adoption. Finally, section VII concludes.
+
+II.  Institutional Detail and Data Description
+A.  The Bank and the Program
+Our empirical setting is the market for SMEs in Spain. Our data come from one of the largest European banks with a global presence and a high market share in Spain. Hereafter, we refer to the data provider as “the bank.” The bank is also a major player in the credit card market both as credit (and debit) card issuer and as credit card POS provider.
+
+Amid its prevalence and salience in the marketplace, the bank launched a program for its POS clients in Spain. Upon joining the program, the bank generated a monthly report for each adopter, which became available through the program’s online platform. The report contained information on the month-to-month credit and debit transactions of the POS client as well as those of same-sector establishments nearby. It is important to note that the information contained in the report is descriptive and not predictive. The bank provided this program for free, and adoption among its POS clients was voluntary. While the bank first tested a pilot program in the south of Spain in the fall of 2014, the bank launched the nationwide program in the spring of 2016.11
+
+With this initiative, the bank aimed to improve its service to its SME clients and increase its market share in the POS market. Interestingly, the bank did not compensate its employees for the diffusion of this program, which explains its ex post scant adoption rates. If anything, bank employees would offer the adoption of the program to a client as a source of value added to an already existing business relationship.12
+
+To join the program, a POS client followed a two-step process. First, the client physically visited a bank branch and met with a branch employee, who facilitated signing up for the program. The branch employees did not provide training on how to use the information or consulting services on the sort of strategies the adoptee could follow given the information detailed in the reports. Once the client signed up, the bank sent her an email with information on accessing the incoming monthly reports.
+
+Second, the client needed to follow the indications in the email received. These instructions prompted the client to answer a few questions regarding her analytical and marketing savviness.13 At this point in the process, the newly signed-up customer became familiar with the online platform that the bank used to deliver its monthly report. This platform contained different tools and orientation videos to familiarize the client with the report information and therefore maximize the understanding, accessibility, and customer experience from this service. Additionally, note that when clients signed up for this service online, they had to acknowledge a waiver on their liability with the program. Regardless of when a customer signed up for the program, the signee would receive the bank’s first report during the first week of the following calendar month.
+
+The report contained summary statistics regarding the number and value of credit card transactions in the previous month. The report disaggregated this information on credit card transactions by client demographic groups such as age, gender, and zip code, as well as other classifications such as new versus returning customers or the time and day of transactions. The report also contained the same set of aggregated information for other businesses in the same zip code and province. This set of information on each store’s nearby establishments in the same sector allowed program participants to benchmark their performance through the discovery of differences between their own performance and client portfolio and those of other nearby establishments. In other words, each monthly report effectively provided precise information on the local market in which each program participant operated. Note that the report was not static in nature, because its information varied month to month as the sales profiles of both adopters and the businesses in the same sector nearby changed over time.
+
+Figure 1 provides examples of the information contained in the monthly reports as well as the presentation of the information. Figure 1A shows summary statistics of total revenue, transactions, and unique credit cards used during the previous month. From these data, the figure shows average transaction size, spending distribution per transaction, transactions per card, customer distribution per number of transactions, and the distribution of new, repeating, and lost customers. The report also provides information on spending profiles of the store’s customers through actual spending, gender, age, and zip code, highlighting the client types with higher spending, more transactions, and higher transaction value. Figure 1B shows an example of information provided in the report for the average establishment in the same sector and zip code as well as the city and province. The content of these figures is not exhaustive of all the information in the reports.14
+
+Fig. 1. 
+Fig. 1.  A, Sample report of monthly information on the adopting establishment. B, Sample report of monthly information on the competition of the adopting establishment.
+View Large Image Download PowerPoint
+To further understand the program, we need to describe the nature and quality of the information used to generate the monthly reports. The reports originated from credit and debit card transactions made by both bank-issued cards in all POS markets in the country (both the POS from the bank and from other financial institutions) and other bank-issued cards in the POS of the bank. Because the bank of our study holds a substantial market share in both the credit card and POS markets in the country, the report information that the program issued and the adopters received was representative of the population of credit card transactions in the market for both the adopter and the establishments nearby (Carvalho et al. 2021). Although the amount of information used to design the reports did not change during our sample period, the structure of the report evolved during its pilot stage—that is, between fall 2014 and spring 2016. Since the official launch of the program at the national level, the structure of the reports and the amount‘ and detail of information in them remained constant. Thus, we can safely state that the quality and content of the report delivered to adopters was constant from spring 2016 to fall 2018.15
+
+B.  Program Impact on Daily Operations and Strategies of Adopters
+Once we have described the nature and format of the reports that program adopters received, we describe how SMEs were able to use the information in the reports to improve their decision-making and daily operations. Because the General Data Protection Regulation (GDPR)16 went into effect in the EU on May 25, 2018, the bank was unable to reveal the identities of adopters to preserve their privacy and comply with the new regulation. Therefore, we are unable to directly ask adopters about their program experience. Instead, we summarize the experience of a few adopters described in different articles appearing in the press when the program was first launched.
+
+A first example is a computer store in the Sevilla province. The owner of the store stressed that he used the report information to focus his advertising efforts on different gender-age groups “with higher precision than alternative channels such as Google or Facebook,” because the reports provided actual spending per demographic group. He also emphasized that the program information improved his understanding of where his prices, client loyalty, and customer response were relative to his competition. As a direct consequence, his stock management also improved (see https://www.diariodesevilla.es/economia/Analisis-datos-alcance_0_1042996038.html).
+
+Another example is a shoe store in Madrid. In addition to confirming some of her intuition regarding the age profile of her current clientele, the owner learned that her store’s customer loyalty was weak, so she started a retention campaign offering an extra pair of shoes for every five purchases per client (see https://www.madridiario.es/436116/bbva-commerce360-pymes).
+
+A third example is a bar, also in Madrid, whose owner realized after joining the program that his sales on Thursdays were lower than in competing bars. As a result, he started a promotional campaign on Thursdays under the name “Jueves Jamoneros,” offering two for the price of one on that day of the week and adding special dishes with jamón (traditional cured Spanish ham).
+
+An interesting example is the case of three friends and owners of a bookstore and cooking school in downtown Madrid. After joining the program, the owners learned that most of their clients were women, despite the school’s location being in a male-populated area. They understood that their most successful day was Monday, unlike other competing stores, so the information received was pivotal to deciding to open on Mondays. Finally, the report showed that their foreign clients were mainly from Spanish-speaking countries—namely, Chile and Argentina—but also from the United States and South Korea, which drove them to introduce classes in English (see https://www.abc.es/economia/abci-commerce-360-soluciones-data-tambien-para-negocios-201608101454_noticia.html).
+
+Finally, we have the case of Miguel, who owns a restaurant in Madrid. He learned that his sales were lacking on Sundays relative to other restaurants in his area, so he introduced a two-for-one dinner special for Sunday evenings. He also learned that his best clients were younger women, so he modified his menu, introducing dishes catering to the preferences of that demographic group to build loyalty and customer retention. Most importantly, he emphasized that the reports were instrumental to effectively designing and advertising his home delivery service, because he was finally able to observe which zip codes his clients were coming from (see https://www.youtube.com/watch?v=VgcH4ZQKJsk).
+
+In the end, the overarching conclusion is that the program allowed adopters to improve their stock management and learn which type of clients were spending more money in their area, enabling the owners to make better decisions and to launch initiatives that would lure those customer types to their establishments and increase their revenue accordingly. Note that some of these strategies introduced new products, others implied price discounts, and some meant more efficient advertising and stock management. In summary, the information provided in the reports inspired very different reactions from adopters.
+
+C.  Data Description
+Our data sample comprises information on the universe of all transactions from credit cards issued by the bank from January 2014 to December 2018 in 487,606 establishments distributed across 51 provinces, 17 sectors, and 4,846 sector-zip-code dyads. Out of our final sample of establishments, only 7,110 establishments were program adopters. This number represents approximately 1.5% of the total number of clients of the bank with a POS and 0.3% of establishments with a POS in the country. While our data do not allow us to empirically examine the reasons behind the low adoption rate of this program, institutional and indirect evidence suggest three main drivers: the program’s marketing and advertising (bank employees were not compensated directly for the diffusion of the bank), lack of awareness, and managerial inattention on the SMEs’ side. Table 1 shows the evolution of the number of adopters by quarter from summer 2014 to fall 2018. Table 2 shows the distribution of the number of adopters by sector-zip-code dyad.
+
+Table 1.  Distribution of Adopters per Year/Quarter
+Year and Quarter	Frequency	%
+2014:Q4	23	.32
+2015:Q1	64	.9
+2015:Q2	57	.8
+2015:Q3	15	.21
+2015:Q4	22	.31
+2016:Q1	27	.38
+2016:Q2	13	.18
+2016:Q3	327	4.6
+2016:Q4	695	9.77
+2017:Q1	1,629	22.91
+2017:Q2	1,155	16.24
+2017:Q3	947	13.32
+2017:Q4	432	6.08
+2018:Q1	613	8.62
+2018:Q2	552	7.76
+2018:Q3	493	6.93
+2018:Q4	46	.65
+Total	7,110	100
+View Table Image
+Table 2.  Distribution of Number of Adopters per Sector-Zip-Code Dyad
+Number of Adopters	Frequency	%
+1	3,569	73.65
+2	794	16.38
+3	253	5.22
+4	125	2.58
+5	47	.97
+6	24	.5
+7	9	.19
+8	8	.17
+9	4	.08
+10	4	.08
+11	3	.06
+12	2	.04
+13	2	.04
+14	1	.02
+15	1	.02
+Total	4,846	100
+View Table Image
+Our final sample of establishments is the result of applying two distinct sample selection criteria. From an initial sample consisting of nearly 2.5 million establishments distributed across all provinces and sectors, we first dropped 0.5 million establishments with an average of fewer than five credit card transactions per quarter and then dropped 1.5 million establishments belonging to sector-zip-code dyads without program participants. These changes decrease computational burden while preserving all the within-zip-code-sector variation in program adoption from the original data. This variation is precisely what will allow us to achieve our goal of estimating the impact of program adoption at the establishment level.17
+
+Additionally, it is also important to clarify the nature of our transaction data. While our sample contains establishments using dataphones (POS) of the bank and other banks, our transaction data account only for transactions using credit and debit cards issued by the bank. Because our original data allow us to see all transactions in dataphones from the bank, we estimate that transactions using credit cards of our bank represent 25% of the total credit transactions. Our data do not include information on cash transactions or transactions using credit and debit cards of other banks.
+
+The data are unique in that for each transaction they detail establishment- and card-specific identifiers.18 The data also contain cardholder information at the card level, such as age, gender, and residence zip code,19 as well as establishment location, sector, and subsector.20 Because of our confidentiality agreement with the bank, we aggregate transaction information at the establishment-quarter level.
+
+Table 3 shows that our dataset accounts for a total of 4,610,034 establishment-quarter observations. In our sample, the average establishment collects €4,715 per quarter spread across 120 transactions. Finally, note that the average transaction value is €64, the average store sells to 74 customers in a quarter, and the average value per customer is €85.
+
+Table 3.  Descriptive Statistics
+Observations	Mean	Standard Deviation	Minimum	Maximum
+Full sample:					
+ Revenue	4,610,034	4,715	29,171	12	7,948,335
+ Transactions	4,610,034	120	710	5	227,139
+ Average value of transactions	4,610,034	64	101	2.4	15,000
+ Customers	4,610,034	74	338	2	134,725
+ Average value per customer	4,610,034	85	198	1	92,066
+Adopters:					
+ Revenue	63,639	6,248	18,730	15	537,791
+ Transactions	63,639	153	462	5	8,146
+ Average value of transactions	63,639	80	147	3	7,006
+ Customers	63,639	92	224	3	5,975
+ Average value per customer	63,639	102	200	1	10,500
+ Business density (number of nearby establishments)	63,639	75	96	0	1,020
+ Sophistication	3,495	3.53	.89	1.00	5.00
+Note.  All variables are computed from our working sample of quarterly information at the establishment level.
+
+View Table Image
+The bottom half of table 3 describes these and other variables for the subsample of adopters.21 The average adopter collects €6,248 per quarter in 153 transactions, with an average transaction of €80. In our sample, the average adopter serves 92 customers per quarter, and the average customer spends €102 per quarter and per establishment. Finally, the average adopter in our sample is located in zip codes with 75 nearby establishments of their same sector.
+
+Finally, we use the fact that adopters, when registering to the online platform that will grant them access to the monthly reports, may answer three different questions regarding their analytical, marketing, and digital capabilities.22 The bank refers to these questions as measures of sophistication. Each of these questions provides answers measured with a five-point Likert scale. Not all adopters respond to this questionnaire. In fact, only 3,495 adopters out of the total 7,110 responded—that is, 49.2% of adopters. Table 4 shows differences in observables between respondents and nonrespondents to the sophistication questions. Although we do not find statistically significant differences in quarterly revenue, nonrespondents are in zip codes with higher within-sector business density. When adjusting quarterly revenue to sector averages, we find that nonrespondents are more likely to be below the mean quarterly revenue. Nonrespondents are also more likely to be above and below the median of business density across sectors. For our study, we create a measure of sophistication and analytical savviness by averaging all three answers from these adopters who answer all three questions. The result is an average sophistication score of 3.53 and standard deviation of 0.89.23
+
+Table 4.  Summary of Statistics of Respondents and Nonrespondents of Sophistication Questions
+Nonrespondents	Respondents	Difference
+Number	3,615	3,495	
+Revenue	4,416.366	4,069.228	347.137
+(276.241)	(134.127)	(310.358)
+Competitors	81.780	73.542	8.167***
+(1.764)	(1.619)	(2.399)
+Large size dummy	.332	.365	−.033***
+(.007)	(.006)	(.010)
+Small size dummy	.525	.341	.184***
+(.008)	(.007)	(.011)
+High business density dummy	.446	.324	.123***
+(.008)	(.007)	(.010)
+Low business density dummy	.411	.382	.028***
+(.008)	(.007)	(.010)
+Note.  This table reports differences in size (revenue) and local competitors between respondents and nonrespondents to the sophistication survey. Standard errors are shown in parentheses.
+
+*** Significant at the 1% level.
+
+View Table Image
+Although not explicitly shown in table 3, we test differences in outcomes between adopters and nonadopters and find statistically significant differences across all variables, primarily because the large number of observations lowers the standard errors of all tests in differences. Table 3 provides additional information on the minimum and maximum of all variables to add information to the differences in means. After describing our data, we proceed to present our empirical methodology in the following section.
+
+III.  Empirical Methodology and Identification
+A.  Baseline Regression Specification
+We are primarily interested in estimating the returns to program adoption in our sample. For that purpose, our baseline specification is
+
+𝑌𝑖⁢𝑠⁢𝑗⁢𝑡=𝜇+𝛽⁢Adoption𝑖⁢𝑠⁢𝑗⁢𝑡+𝛾⁢𝑋𝑖⁢𝑠⁢𝑗⁢𝑡+𝛼𝑖+𝜃𝑠⁢𝑗⁢𝑡+𝑢𝑖⁢𝑠⁢𝑗⁢𝑡,
+ 
+(1)
+where Yisjt represents the log of the outcome variable, such as revenue, number of transactions, or number of customers for establishment i in sector s located in zip code j and quarter t. Our main variable of interest is Adoptionisjt, which is a dummy variable equal to one if establishment i has adopted the program before quarter t and zero otherwise. This variable varies within establishment over time for adopters and remains zero for nonadopters. See figure 2 for a representation of the timeline between the time when an establishment signs up for the program, the delivery of its first report, and our variable Adoptionisjt taking a value of one. In this example, the establishment signs up in the middle of the second quarter (month 4) and only starts receiving a report on May 1. Our adoption variable is equal to one in the quarter following adoption and all quarters after that.
+Fig. 2. 
+Fig. 2.  Timeline of adoption.
+View Large Image Download PowerPoint
+Our regression specification also includes time-varying controls Xisjt, such as dummies for the first 4 quarters of each establishment entering our sample (new establishments may display different growth at the beginning of their existence), as well as establishment fixed effects αi and sector-zip-code-quarter-year-specific fixed effects θsjt. Finally, uisjt is our residual.
+
+Our working specification takes first differences from specification (1) above:
+
+Δ⁢𝑌𝑖⁢𝑠⁢𝑗⁢𝑡=𝛽⁢Δ⁢Adoption𝑖⁢𝑠⁢𝑗⁢𝑡+𝛾⁢Δ⁢𝑋𝑖⁢𝑠⁢𝑗⁢𝑡+𝜃𝑠⁢𝑗⁢𝑡+Δ⁢𝑢𝑖⁢𝑠⁢𝑗⁢𝑡,
+ 
+(2)
+where ΔYisjt represents first differences in our dependent variable and ΔAdoptionisjt represents first differences in the program-adoption dummy variable in specification (1). Note that ΔAdoptionisjt takes a value of one in the quarter immediately following adoption and a value of zero in all other quarters. This specification in first differences also contains controls Xisjt, such as dummies for the first 4 quarters after an establishment enters our sample, sector-zip-code-quarter-specific fixed effects θsjt, and a residual Δuisjt.24
+Before coping with endogeneity concerns in the next subsection, we argue here that estimating our parameter of interest β with first differences allows us to tackle several potential issues of identification.25 On the one hand, first differences are equivalent to introducing establishment fixed effects. Hence, we control for any time-invariant unobserved factor in the error term driving establishment outcomes and potentially correlated with the probability of adoption at the establishment level. On the other hand, our context is far from being stationary. Therefore, autocorrelation in the error term may be a potential concern because it may lead to rejection even in the absence of any effects. We address this issue in three ways. First, we aggregate our outcome variables at the quarter level, consequently diminishing the degree of autocorrelation between transactions happening 6 months apart in our data. Second, instead of estimating the model with fixed effects using all sample periods of pretreatment and treatment, we estimate our model in first differences and use variation only between two consecutive time periods. Third, we cluster standard errors at the establishment level to allow for a flexible correlation structure of error terms over time (Cameron and Trivedi 2010; Wooldridge 2010). Finally, this regression specification relaxes the requirement of strict exogeneity in the regressors, requiring only weak exogeneity for the consistency of estimates. Our main result section below includes further robustness checks to attenuate concerns in this regard (Bertrand, Duflo, and Mullainathan 2004).
+
+B.  IV and Identification
+A pervasive concern in the program-adoption literature—and elsewhere in economics—is the endogeneity and self-selection of establishments into program adoption. This concern is problematic in our context if the establishment-specific idiosyncratic error terms are correlated with adoption due to three typical reasons. First, high-performance establishments (or less inattentive managers) may be more likely to adopt. Second, adoption may be more intense in sectors or areas receiving positive temporary shocks. Third, adoption may be more likely in establishments growing more intensively. Our specification (2) addresses these problems by absorbing establishment dummies, including sector-zip-code-quarter fixed effects and establishment-specific trends, respectively.
+
+Alternatively, other issues that can compromise identification of the impact of adoption on outcome variables include sporadic episodes of growth that coincide with the timing of adoption (e.g., complementary investments or changes in the incentives to sell more by credit card). In these cases, the OLS first-differences regression specification (2) will erroneously attribute changes in productivity to program adoption. To address this concern of endogeneity in the adoption decision, we use an IV identification strategy.
+
+To this end, we look for changes in an establishment’s environment that may exogenously change the probability of adoption across establishments within a sector-zip-code-quarter triad, while being orthogonal to establishment-specific productivity and demand shocks. With this goal in mind, our IV strategy exploits the fact that different establishments in the same sector-zip-code dyad may hold their business bank account in different bank branches located in different zip codes.26 Hereafter, we call the bank branch where an establishment has its business bank account the “establishment branch.”
+
+Our conversations with bank managers provide a strong foundation for our IV strategy below. As explained in section II.A, the bank did not compensate its employees for the diffusion of this program. The bank paid only for brochures and advertising boards and distributed them equally among bank branches. The variation in adoption across branches was rooted in their employees’ affinity toward the program. By affinity, we mean how intrinsically motivated an employee was to diffuse this program due to her interest in data analytics, as well as innovative products introduced by the bank. Some employees liked the nature of the program and were drawn to talk about it with their clients; other employees were not. The stronger the affinity of an employee, the higher her promotional effort despite the lack of compensation. In other words, the distribution of employees’ affinity toward the program, and thus the distribution of promotional effort across bank branches, is orthogonal to the distribution of potential gains from adoption of the program across establishments’ branches.
+
+Our IV is the number of adopters per quarter (across sectors and zip codes) in the establishment branch, not counting the focal establishment. Figure 3 sheds light on the rationale behind our IV. Assume two zip codes, A and B. Each zip code has a bank branch. Zip code A has two bakeries (bakery 1 and bakery 2), and zip code B has one pharmacy. Whereas bakery 1 located in zip code A uses the bank branch in zip code A, bakery 2 also located in zip code A uses the bank branch in zip code B. The pharmacy in zip code B uses the bank branch in zip code B. Our IV strategy takes advantage of the fact that different establishments in the same sector and zip code use different bank branches. Per our IV strategy, the adoption by the pharmacy located in zip code B (using the bank branch located in zip code B) increases the probability of adoption by bakery 2, but it does not affect the probability of adoption by bakery 1 in zip code A.
+
+Fig. 3. 
+Fig. 3.  IV identification.
+View Large Image Download PowerPoint
+Specifically, and through the lens of our example in figure 3, the increase in the probability of adoption by bakery 2 may come from two different channels. First, branch employees in zip code B may exert greater promotional effort in the diffusion of the program in a particular quarter and therefore increase the probability of adoption by all its SME clients, including the pharmacy and bakery 2. Second, the pharmacy’s adoption also increases the probability of adoption by bakery 2 through peer effects at the establishment branch level. These peer effects would occur through social interactions between the pharmacy owner and the owner of bakery 2 while they are at the bank branch or elsewhere in the neighborhood (since they presumably bank in that branch because they live nearby).27 In our empirical application, we do not observe promotional effort of the program at the branch or employee level or social interactions between owners of different establishments. Thus, our instrument relies on quarterly variation across bank branches in the number of adopters. These differences proxy for differences in promotional effort as well as differences in social interactions among branch clients across branches. Both channels helped the diffusion of the potential benefits associated with joining the program.28
+
+Our identification strategy posits that the number of adopters at the establishment branch in any given quarter (as opposed to the adopters in the same zip code of the focal establishment) increases the probability of adoption of the focal establishment. The reason is that the number of adopters at the branch level is positively related to the promotional effort of the employees and social advertising of the program between bank branches’ customers. In our example in figure 3, the pharmacy adopts the program, thereby increasing the probability of adoption by bakery 2, because they share the same establishment branch. By contrast, the probability of adoption by bakery 1 does not change despite sharing sector and zip code with bakery 2, because bakery 1 does not share an establishment branch with the pharmacy. Therefore, our instrument provides quarterly variation in the proxy for program promotional effort at the branch level, creating variation in the probability of adoption across establishments in the same sector-zip-code dyad. In our data, establishments within the same sector-zip-code dyad use a median number of five different bank branches to do their banking (with a maximum of 69 different branches used by all establishments in the fashion sector in a downtown Madrid zip code).
+
+Given all this, we need to address the validity of our exclusion restriction. Our IV strategy relies on the assumption that quarterly variation in branch promotional effort (proxied by number of adopters at the branch-quarter level) must be orthogonal to establishment-specific productivity and demand shocks. Then, our exclusion restriction would fail if a correlation existed between establishment-specific shocks and promotional effort of the establishment branch within a quarter in a way that we would not be able to capture through establishment- or branch-specific trends. For example, if motivated employees selectively exerted greater promotional effort to firms pursuing growth, this would imply selection into the program and the bank branch would in fact be correlated with performance other than through adoption. In a sense, heterogeneous trends in performance across different establishments within the same sector-zip-code dyad and affiliated with different bank branches would violate our exclusion restriction. Alternatively, our exclusion restriction would also be violated if branch employees were more likely to target businesses with higher expected returns from the information.29
+
+However, let us note that our identification strategy does not rely on the assumption that different establishments within a sector-zip-code dyad with different establishment branches are alike. Even if establishments self-select into different branches, our identification strategy exploits differences in promotional effort over time within a branch and relies on the timing of promotional effort being orthogonal to the timing of program adoption.
+
+Moreover, let us consider that peer effects may also exist between establishments of the same sector-zip-code dyad that do not share an establishment branch. In this case, in addition to this mechanism working against our identification strategy, we note that (1) the introduction of sector-zip-code-quarter fixed effects perfectly captures this type of peer effects between establishments in the same sector and zip code and (2) these second-order effects between neighbor establishments in the same sector and zip code should not be a concern for our exclusion restriction. Ultimately, a necessary exclusion restriction for the plausibility of our IV is that sharing the same establishment branch affects only the probability of adoption and does not directly affect performance.30 Finally, it is important to emphasize that the bank did not introduce any other program with (partially or fully) overlapping characteristics during our sample period.
+
+IV.  Main Results and Heterogeneity
+We organize the results of our empirical analysis as follows. First, we show our main results of running regression specification (2). Then, we follow up with an exploration of heterogeneity in the impact of program adoption.
+
+A.  Main Results
+Table 5 shows the results of running our baseline specification (2) where the dependent variable is the log of quarterly credit card revenue per establishment. Columns 1–3 run OLS regressions in first differences under alternative deviations of the baseline specification. Column 1 shows that adoption is associated with an increase of 4.5% in revenue. Column 2 shows results when including leads up to 7 quarters after adoption. Our findings show that the increase in revenue is concentrated in the quarter after adoption, and we do not observe further significant increases or decreases in subsequent quarters (if anything, an additional positive increase occurs 3 quarters after adoption).31 From these results in column 2, we can conclude that the gains in revenue are permanent at least up to 2 years after adoption—that is, our evidence shows no reversion to the mean within our sample period. Furthermore, we can qualify this finding in two ways. First, because our analysis is in first differences using data aggregated at the quarterly level, this “one-shot” improvement is equivalent to an effect that may take more than a quarter to manifest (between 1 and 6 months). Second, the fact that we do not see any statistically significant increases or decreases in revenue 1 quarter after adoption (and beyond) is consistent with two features of our data: (1) sector-zip-code dyads in our data have very few adopters (see table 2), and (2) sector-zip-code dyads in our sample are fairly stable because nonadopting establishments do not make drastic changes during our sample period. Note that even if such drastic changes were occurring, our sector-zip-code-quarter-year dummies absorb such changes.
+
+Table 5.  Baseline Results
+Dependent Variable: ΔLog Revenue
+OLS
+(1)	OLS
+(2)	OLS
+(3)	First-Stage Regression
+(4)	Second-Stage Regression
+(5)	OLS
+(6)	First-Stage Regression
+(7)	Second-Stage Regression
+(8)
+Falsification [{ΔAdoption = 1} t − 1]			.00978					
+(.0158)					
+ΔAdoption	.0455***	.0458***			.0902**	.0445***		.0841**
+(.0157)	(.0157)			(.0386)	(.0159)		(.0422)
+Lead {ΔAdoption = 1} t + 1		−.00364						
+(.0148)						
+Lead {ΔAdoption = 1} t + 2		.00381						
+(.0161)						
+Lead {ΔAdoption = 1} t + 3		.0276*						
+(.0163)						
+Lead {ΔAdoption = 1} t + 4		.0211						
+(.0168)						
+Lead {ΔAdoption = 1} t + 5		.00421						
+(.0169)						
+Lead {ΔAdoption = 1} t + 6		−.00684						
+(.0186)						
+Lead {ΔAdoption = 1} t + 7		−.00933						
+(.0228)						
+Peers IV				.00446***			.00451***	
+(.00012)			(.000121)	
+Sector-zip-code-quarter fixed effects	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes
+Dummies first 4 quarters	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes
+Bank-branch time trend						Yes	Yes	Yes
+Observations	4,053,333	4,053,333	4,053,333	4,053,333	4,053,333	4,053,333	4,053,333	4,053,333
+Note.  All specifications are regressions in first differences. Column 1 runs simple OLS. Column 2 adds to the specification in col. 1 dummies of leads of adoption in first differences. Column 3 runs a falsification test with a dummy taking a value of one a quarter before adoption. Column 4 shows the results of a first-stage regression of our peer IV on first differences of adoption. Column 5 shows IV results. Columns 6–8 replicate cols. 1, 4, and 5 adding the establishment’s branch-specific time trends. Standard errors are clustered at the establishment level and reported in parentheses.
+
+* Significant at the 10% level.
+
+** Significant at the 5% level.
+
+*** Significant at the 1% level.
+
+View Table Image
+Column 3 runs a placebo falsification test by including a dummy that takes a value of one in the quarter before adoption as an explanatory variable. Results show no increases or decreases in revenue preceding the quarter of adoption. This result is important because it is consistent with no revenue shocks (positive or negative) driving program adoption.
+
+Columns 4 and 5 of table 5 show the results of implementing our IV strategy. Column 4 shows estimates of the first-stage results. Column 5 shows the results of running our IV strategy on the baseline specification of column 1. We find that the effect jumps from 4.5% to 9%. We carry out the Hausman test, and we cannot reject the null hypothesis that the OLS and IV coefficients are the same (𝑝=.24
+).32
+
+A potential concern is that bank branches with more adopters are also branches that attract better firms, perhaps because they have better account managers, and these better firms are more likely to both sign up for the program and experience growth. For this reason, in columns 6–8 of table 5, we run OLS and IV specifications with bank-branch-specific time trends capturing differences over time across bank branches and the respective firms selecting into those bank branches. Our results are robust and similar to those using earlier specifications. OLS results show that adoption is associated with a 4.4% increase in quarterly revenue, while our IV estimates find an 8.4% increase in quarterly revenue due to information access.33
+
+Before exploring result heterogeneity in section IV.B, two different aspects of our main results are worth discussing. First is the timing of our 4.5% OLS estimate and IV estimate of 9%. Although learning may at first seem steep, recall that Δ⁢Adoption𝑖⁢𝑠⁢𝑗⁢𝑡=1
+ could mean adoption in January or March and accruing benefits of adoption anytime between April and June. Therefore, the estimates of adoption benefits range from 1 to 6 months and thus somewhere between short- and medium-term returns to adoption.
+
+Second, we must comment on the fact that OLS results yield a smaller coefficient than the IV results. A first potential explanation is negative selection into adoption; that is, adopting businesses have experienced a negative shock to their sales, and they adopt the bank program to increase them. Given our findings in column 3 of table 5 (our falsification test), we find this explanation implausible because adopting businesses are not different from nonadopting businesses 1 quarter before adoption. A second potential explanation may be mismeasurement in the timing of adoption, because some adopters have adopted earlier in the quarter before their adoption dummy takes a value of one in our specification. This mismeasurement would cause attenuation bias, which is consistent with our OLS estimate being lower than our IV estimate.34
+
+A third and final potential explanation is the existence of heterogeneous returns to program adoption (Forman, Goldfarb, and Greenstein 2012). If bank branches that have customer establishments with higher potential returns of program adoption exerted more promotional effort, we are likely to observe a jump in their estimate of returns from adoption when applying our IV strategy. Similarly, if bank branches whose employees have a higher affinity toward the program not only exert higher promotional effort but also do a better job explaining the characteristics and functionalities of the program, adopters in those branches will likely obtain higher returns from adoption. In other words, there are reasons to believe the local average treatment effect may be larger than the average treatment effect. This finding implies that although the instrument affects revenue only through its impact on program adoption, the returns to program adoption are larger for those establishments whose adoption decisions are most affected by our instrument.35 Finally, it is important to note that our sector-zip-code-quarter-year fixed effects address potential concerns of sector- or zip-code-specific seasonality driving both revenues and adoption in our estimates.
+
+B.  Heterogeneity of Impact of Adoption
+Once we have determined that program adoption increases establishment revenue by 9%, we investigate the presence of heterogeneity in this effect. We explore heterogeneous effects in two different ways. First, we investigate heterogeneous effects across sectors, subsectors, and geographical regions. We plot the distribution of effects across these three dimensions in figure 4. Note that all three distributions of effects have clear positive mean and median values. The heterogeneity across sectors shows the lowest variance with a range between −0.16 and 0.20. Program adoption was especially beneficial in fashion, technology, and home establishments. It was detrimental to adopting establishments in sectors such as supermarkets and sports and toys. We find the distribution with the largest variance across subsectors ranging from −0.4 to 1, where pubs, duty free, and sports establishments received the lowest returns of adoption. By contrast, adopting establishments in subsectors such as musical instruments, large florists, and leather products obtained sizable returns. The distribution across regions lies between those two distributions of sector and subsector returns because it reflects different distributions of sectors and subsectors across regions. The provinces of Barcelona and Madrid enjoyed returns between 7% and 8%.36
+
+Fig. 4. 
+Fig. 4.  Treatment estimates across sectors, subsectors, and regions.
+View Large Image Download PowerPoint
+Second, we investigate heterogeneous effects across different establishment characteristics. By doing so, we do not intend to make causal statements on the impact of these establishment characteristics on performance but rather associations between the impact of program adoption with observed characteristics and all other factors associated with such characteristics. For this purpose, we split our sample of adopters into four different dimensions: sophistication of the adopter, establishment size before adoption, degree of business density (proxied by the number of local businesses), and whether adopters are multi- or single-establishment businesses. A priori and on theoretical grounds, we would expect less analytically savvy adopters to display higher returns of adoption, smaller adopters to obtain higher returns of adoption, and adopters in denser markets (sector-zip-code dyads in our empirical setting) to achieve higher returns of adoption. We expect a larger adoption impact on less savvy adopters because more savvy adopters were probably already collecting and using information before gaining access to the program report. We also expect smaller adopters to benefit more from adoption, because larger adopters go through more transactions and consequently have more market information before adoption. We also expect adopters in denser business areas to derive larger adoption returns for two reasons: (i) information from more dense areas is likely to be more accurate as information comes from more establishments’ experiences, and (ii) the informational advantage gained through adoption will have a larger effect in more dense areas. Finally, we also expect single-establishment adopters to gain higher adoption returns, as multiestablishment adopters are probably collecting and using information before adoption. We test these predictions in our data.
+
+We report our heterogeneity results for both OLS and IV control function (CF) in tables 6 and 7, respectively. Our IV CF strategy implies including the error term of the first stage in table 5 as a regressor (Imbens and Woolridge 2009; Wooldridge 2010).37 Columns 1 and 2 of table 6 investigate how analytical sophistication drives the impact of program adoption. To do so, we take advantage of our measure of adopter sophistication described earlier in the data section, and we create dummies for adopters above and below the median level of sophistication among adopters. Column 1 shows that adoption is associated with increases of 4.4% and 5.2% in revenue for adopters above and below the median level of sophistication, respectively. Column 2 applies our IV CF approach and shows that the returns are 7.5% and 8.9% for adopters above and below the median level of sophistication, respectively. Note that table 6 reports the p-value of the test for equal returns for both firm types. According to the reported p-values, we cannot reject that these rates of return are statistically the same. Contrary to our prediction above, this suggests that the role of digital and data savviness, as well as sophistication as measured by the questionnaire administered by the bank, does not seem to drive returns to program adoption.38
+
+Table 6.  Heterogeneous Effects
+Dependent Variable: ΔLog Revenue
+Sophistication	Size	Business Density	Multiple vs. Single Establishments
+OLS
+(1)	IV
+(2)	OLS
+(3)	IV
+(4)	OLS
+(5)	IV
+(6)	OLS
+(7)	IV
+(8)
+ΔAdoption × High/Multi	.0443*	.0752*	.0351**	.0856**	.0640***	.106***	.0117	.0868**
+(.0232)	(.0414)	(.0157)	(.0382)	(.0199)	(.0398)	(.020)	(.038)
+ΔAdoption × Low/Single	.0515	.0892	.0713*	.127**	.0235	.0660	.0868***	.179***
+(.033)	(.0573)	(.0379)	(.0559)	(.0212)	(.0418)	(.025)	(.053)
+Residual CF		−.0387		−.0587		−.0473		−.0935**
+(.0490)		(.0441)		(.0437)		(.0472)
+Sector-zip-code-quarter fixed effects	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes
+Dummies first 4 quarters	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes
+p-value null equal returns	.859	.738	.376	.311	.128	.137	.019	.007
+Observations	4,031,417	4,031,417	4,053,333	4,053,333	4,053,333	4,053,333	4,053,333	4,053,333
+Note.  This table explores result heterogeneity of cols. 1 and 5 of table 5. Columns 1 and 2 run OLS and IV interacting first differences of the adoption dummy, with dummies of establishment above and below our sophistication index (see sec. IV.B and n. 22 for a detailed description of how this index was computed). Columns 3 and 4 run OLS and IV interacting the adoption first-differences dummy with dummies of establishment below and above median quarterly revenues before adoption. Columns 5 and 6 run OLS and IV interacting the adoption first-differences dummy with dummies of establishment below and above the median number of competing outlets in the same sector and zip code before adoption. Columns 7 and 8 run OLS and IV interacting the adoption first-differences dummy with dummies for whether the establishment belongs to a multi- or single-establishment firm. Standard errors are clustered at the establishment level and reported in parentheses.
+
+* Significant at the 10% level.
+
+** Significant at the 5% level.
+
+*** Significant at the 1% level.
+
+View Table Image
+Table 7.  Heterogeneous Effects
+Dependent Variable: ΔLog Revenue
+OLS
+(1)	IV
+(2)	OLS
+(3)	IV
+(4)
+ΔAdoption × High_Soph	.0948	.1330*		
+(.0598)	(.0710)		
+ΔAdoption × Low_Soph	.0889*	.1344*		
+(.0540)	(.0738)		
+ΔAdoption × Big Size	−.0894	−.0922*		
+(.0552)	(.0552)		
+ΔAdoption × High Density	.0366	.0351		
+(.0329)	(.0331)		
+ΔAdoption × Big Size × High Density			.0298	.0793**
+(.0212)	(.0397)
+ΔAdoption × Big Size × Low Density			.0413*	.0922**
+(.0221)	(.0424)
+ΔAdoption × Small Size × High Density			.138***	.194***
+(.0443)	(.0606)
+ΔAdoption × Small Size × Low Density			−.00464	.0513
+(.0476)	(.0626)
+Residual CF		−.0440		−.0583
+(.0490)		(.0441)
+Sector-zip-code-quarter fixed effects	Yes	Yes	Yes	Yes
+Dummies first 4 quarters	Yes	Yes	Yes	Yes
+p-value null equal returns	.889	.974	.035	.031
+Observations	4,031,417	4,031,417	4,053,333	4,053,333
+Note.  This table explores result heterogeneity of cols. 1 and 5 of table 5. Columns 1 and 2 run OLS and IV interacting first differences of the adoption dummy, with dummies of establishment above and below our sophistication index, with dummies of establishment below and above median quarterly revenues before adoption, and dummies of establishment below and above the median number of competing outlets in the same sector and zip code before adoption. Columns 3 and 4 interact the dummies of size and competition in cols. 1 and 2 using the whole sample since we omit the sophistication dummies. In cols. 1 and 2, the p-value of equal returns tests whether high- and low-sophistication returns are different. In cols. 3 and 4, it tests whether all four interaction coefficients are different. Standard errors are clustered at the establishment level and reported in parentheses. The interaction of “Adoption” with the “Small Size” and “Low Competition” dummies in cols. 1 and 2 are not identified due to multicollinearity.
+
+* Significant at the 10% level.
+
+** Significant at the 5% level.
+
+*** Significant at the 1% level.
+
+View Table Image
+Because table 4 shows differences in observables between respondents and nonrespondents to the sophistication questions, columns 1 and 2 in table 7 repeat the exercise controlling for differences in performance that may come from differences in size or business density. Results are qualitatively the same as those in table 6 in that we cannot reject that adoption returns above and below the sophistication median are statistically the same (p-values of differences are .89 and .97, respectively). In this case, column 1 shows that adoption is associated with increases of 9.5% and 8.9% in revenue for adopters above and below the median level of sophistication, respectively, when controlling for differences in size and local competition. Column 2 applies our IV CF approach and shows that the returns are now 13.3% and 13.4% for adopters above and below the median level of sophistication, respectively. To the extent that our sophistication measure may correlate with the existence of organizational investments co-occurring with program adoption, the exercises in columns 1 and 2 in both tables 6 and 7 show that the returns of adoption are statistically the same regardless of the level of such organizational capital.
+
+Next, in table 6, we explore how establishment size correlates with the impact of program adoption. We measure size by the average quarterly revenue of an establishment in all observed quarters before adoption.39 We create dummies that divide the adopters into those above and below the median establishment size of all adopters before adoption. Column 3 shows that the impact of program adoption in large establishments is 3.51% and 7.13% in small establishments. When applying our IV strategy, the estimate for large establishments becomes statistically significant at 8.56%, and the estimate for small establishments increases to 12.7%. As expected from our prediction, these findings seem to suggest that the returns to access market information vary greatly with establishment size.40 We note that the p-value of null hypothesis of equal returns in column 4 is .31, and therefore we are not able to reject that these returns are the same.41
+
+Columns 5 and 6 explore the heterogeneity of adoption returns along the dimension of business density. For this purpose, we calculate the average number of establishments in the same sector and zip code for each adopting establishment over the sample period.42 We create dummies that divide the adopters into those above and below the median number of establishments nearby. As predicted, results in column 5 show that the association between adoption and revenue increases is statistically significant for establishments in highly dense business areas, and it is not statistically significant for establishments in less dense areas. Column 6 reports our IV results and shows that adoption increases revenue by 11% in denser areas. These results across denser and less dense sector-zip-code dyads are not statistically different from each other. Additionally, columns 7 and 8 examine differences in adoption returns across single- and multiestablishment firms. We find that single-establishment firms experience returns of 18% relative to a 9% return in establishments belonging to multiestablishment firms and that these returns are statistically different at the 1% level.43
+
+Finally, we interact our size and business-density dummies in columns 3 and 4 of table 7. If anything, we can see that small adopting establishments in less dense areas do not experience statistically significant adoption returns. By contrast, small adopters in competitive areas experience returns of adoption as high as 19%, and large adopters have returns between 8% and 9% in areas of higher and lower business density, respectively. These returns of adoption are statistically different from each other at the 5% level.44
+
+In summary, our heterogeneity results are insightful in depicting scenarios where program adoption yields higher returns. Our findings in figure 4 as well as tables 6 and 7 show that returns are widely heterogeneous across adopters of different sectors and different provinces as well as adopters of different sizes and located in zip codes of different business density. Our results also suggest that in our context, sophistication as well as data and digital experience do not seem to matter for the returns to program adoption and access to market information.
+
+C.  Autocorrelation and Staggered Adoption
+A potential concern is the existence of autocorrelation in both the outcome and the treatment variables, which may bias the standard errors of our estimation downward. Our main specification aims to address this concern in three ways. First, following Bertrand, Duflo, and Mullainathan (2004), we estimate our model in first differences after aggregating our outcome variables at the quarter level. Second, we cluster standard errors at the establishment level to allow for a flexible correlation structure of error terms over time (Cameron and Trivedi 2010; Wooldridge 2010). Finally, we restrict our sample to quarters when adoption takes place and the two preceding periods in each sector-zip-code dyad in our data. By doing so, our first-difference estimator effectively ignores the time-series information that is potentially causing the problem in the first place (Bertrand, Duflo, and Mullainathan 2004). Table A4 shows results when using this sample and finds that adoption is associated with a 4.6% increase in quarterly sales, while our IV estimator shows an increase of 6.7% in quarterly sales.
+
+A second concern arises from the staggered adoption pattern in our data. A recent literature (e.g., de Chaisemartin and D’Haultfoeuille 2020; Callaway and Sant’Anna 2021; Goodman-Bacon 2021) establishes the perils of using difference-in-differences research designs with two-way fixed effects when staggered adoption occurs. A primary concern in that literature is that treated groups later become controls, creating potential bias. In our data, however, this is quite rare because it is unusual for two or more treated establishments to be in the same sector-zip-code dyad (see table 2). Furthermore, even in those cases where there are multiple treated establishments in a cell, there is often a considerable time gap between their treatment. Additionally, our IV varies across adopters within a zip code. Finally, we include sector-zip-code-quarter-year fixed effects in our main specification. Wooldridge (2022) shows that including group-specific time trends attenuates bias in the estimation of program adoption.
+
+When restricting our sample to periods in those sector-zip-code dyads with at most one adopter, table A5 shows qualitatively equivalent results, with a 7.17% and 8% increase in the OLS and IV specifications, respectively. Table A6 shows results of using the csdid Stata package developed by Callaway and Sant’Anna (2021).45 Overall, our findings are consistent with our earlier results in this paper in that balanced samples yield estimates consistent with our first-difference estimator. Moreover, there is heterogeneity of adoption returns across adopting cohorts; that is, some groups derive high returns of adoption while others do not.
+
+V.  Mechanisms
+Our main result establishes that program adoption increases establishment revenue by 9%. Moreover, we find that this effect is heterogeneous in that smaller establishments in high-business-density areas benefit more from adoption. In this section, we aim to understand the mechanisms behind our findings.
+
+Because the reports received by program adopters contain different sets of information, they may highlight business opportunities that the establishment was not aware of before adoption and may drive an adopter to serve new customer profiles after adoption—that is, new age-gender groups or customers from nearby zip codes.46 In this section, we investigate whether adopters change their behavior in accordance with a mechanism in which the reports facilitate the discovery of new business opportunities.
+
+A.  Number of Transactions and Customers
+We start our analysis of mechanisms by investigating how the increase in revenue at adopting outlets relates to the quarterly number of transactions and the quarterly number of customers (measured by the number of unique credit cards used at an establishment in a quarter) at the establishment level. Columns 1–4 in table 8 study the impact of program adoption on the number and average value of transactions. Columns 1 and 2 show that adoption increases the number of transactions by 4.4% in the OLS specification and by 13% in the IV specification. Moreover, although column 3 shows that the change in revenue per transaction is not statistically different from zero in the OLS specification, we find a drop of 3.9% in the IV regression in column 4. These findings add two new factors to our understanding of our main results in table 5. On the one hand, the increase in revenue after adoption appears to be driven by an increase in transactions and not an increase in transaction size. On the other hand, adopting establishments are not increasing (perhaps even decreasing) their prices after adoption, consistent with a potential increase in head-to-head competition of adopters with their sector competitors in their zip codes. This finding is partially consistent with some of the stories in section II.B regarding adopting establishments using the information provided by the service to engage with underserved clientele demographics with new discounts and promotions. Note that discounts are only one of many different strategies that adopters use.47
+
+Table 8.  Effects on Number of Transactions and Customers
+Dependent Variable: ΔLog Number of Transactions	Dependent Variable: ΔLog Revenue per Transaction	Dependent Variable: ΔLog Number of Customers	Dependent Variable: ΔLog Revenue per Customer	Dependent Variable: ΔLog Transactions per Customer
+Transactions	Revenue per Transaction	Customers	Revenue per Customer	Transactions per Customer
+OLS
+(1)	IV
+(2)	OLS
+(3)	IV
+(4)	OLS
+(5)	IV
+(6)	OLS
+(7)	IV
+(8)	OLS
+(9)	IV
+(10)
+ΔAdoption	.0436***	.130***	.00187	−.0394**	.0385***	.119***	.00701	−.0293	.00514	.0101
+(.0120)	(.0316)	(.00906)	(.0187)	(.0113)	(.0301)	(.00961)	(.0199)	(.00325)	(.00711)
+Sector-zip-code-quarter fixed effects	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes
+Dummies first 4 quarters	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes
+Observations	4,053,333	4,053,333	4,053,333	4,053,333	4,053,333	4,053,333	4,053,333	4E+06	4,053,333	4,053,333
+Note.  Columns 1 and 2 run OLS and IV with first differences of the log quarterly number of transactions and adoption. Columns 3 and 4 run OLS and IV with first differences of the log quarterly average transaction value and adoption. Columns 5 and 6 run OLS and IV with first differences of the log quarterly number of customers (measured by the number of cards used) and adoption. Columns 7 and 8 run OLS and IV with first differences of the log quarterly average revenue per customer and adoption. Columns 9 and 10 run OLS and IV with first differences of the log quarterly average number of transactions per customer and adoption. Standard errors are clustered at the establishment level and reported in parentheses.
+
+** Significant at the 5% level.
+
+*** Significant at the 1% level.
+
+View Table Image
+Columns 5–10 in table 8 investigate the impact of adoption on the number of customers per quarter, measured by the number of unique credit cards used in a quarter at a given establishment. To do so, we use three different dependent variables. Column 5 shows that program adoption is associated with an increase of 3.9% in the number of customers per quarter, whereas column 6 uses our IV strategy and reports a 12% increase in the number of unique customers per quarter. An increase in the number of customers (as per how our variable is computed) from quarter to quarter can be driven by an influx of new customers who never purchased in that establishment before or customers who purchased in the establishment 2 quarters before adoption and returned after adoption.
+
+Further, columns 7–10 investigate whether the increase in the number of customers per quarter is accompanied by changes in the revenue per customer or the number of transactions per customer. We find no statistically significant changes in either dimension in both the OLS and the IV specifications.
+
+Overall, these findings suggest that adopting establishments attract new customers and increase the returning rate of customers who stopped purchasing at the store before adoption. These findings are consistent with those in Einav et al. (2021) in that they find that 80% of sales variation in retail (within merchants, across stores, over time) comes from the extensive (“customer”) margin, so that any significant market expansion must come primarily from new customers to an industry.48 Furthermore, our results also suggest that purchasing behavior of new and returning customers does not appear to be statistically different from that of old loyal customers in two important dimensions, such as amount spent and number of transactions.49
+
+B.  Customer Demographics and Geographical Reach
+We continue our analysis by examining whether the average demographic profile of the customers of an establishment changes after adoption. Importantly for us, the report highlights the most important customer profile of the adopting establishment and its sector–zip code independently. In fact, the report identifies customer profiles according to two gender groups (male, female), six age groups (<25, 25–34, 35–44, 45–54, 55–64, ≥65), and the customer-dwelling zip code. This information allows establishments to identify differences between their own main customer types and the main customer types of other establishments in the same sector and same zip code.
+
+For this purpose, we identify the main customer type (one of the 12 gender-age groups described above) for each sector-province dyad and calculate the share of revenue from each establishment’s main customer type according to their sector-province dyad before adoption. We create dummies that divide the adopters into those above and below the median share of revenue from the main customer type among all adopters for each sector-province dyad. Columns 1 and 2 in table 9 show that on average adoption does not significantly change the share of revenue from the main customer type. Yet, in columns 3 and 4, we investigate whether the no-effect finding is the result of compositional effects. Indeed, findings in columns 3 and 4 show that those establishments with larger shares of the main customer type before adoption are likely to decrease the share of revenue from the main customer type after adoption. Conversely, establishments with smaller shares increase their share of revenue from the main customer type. Column 4 uses the CF IV, and so we include the error term of the first stage as a control in the regression specification.50
+
+Table 9.  Changes in Composition of Customers
+Dependent Variable: ΔShare in Prime Customer	Dependent Variable: ΔLog HHI of Customer Types
+Share Prime Customer	Concentration Customer Types
+OLS
+(1)	IV
+(2)	OLS
+(3)	IV
+(4)	OLS
+(5)	IV
+(6)	OLS
+(7)	IV
+(8)
+ΔAdoption	.00168	−.00578			−.0249***	−.0344*		
+(.00315)	(.0074)			(.00715)	(.0178)		
+ΔAdoption × High			−.0197***	−.0258***			−.0575***	−.0866***
+(.00474)	(.0081)			(.0132)	(.0232)
+ΔAdoption × Low			.0236***	.0174**			.0045	−.0209
+(.00401)	(.00796)			(.00635)	(.0174)
+Residual CF				.0069				.0306
+(.00836)				(.0204)
+Sector-zip-code-quarter fixed effects	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes
+Dummies first 4 quarters	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes
+p-value null equal returns			.00	.00			.00	.00
+Mean dependent variable in levels	.187	.187	.187	.187	.288	.288	.288	.288
+Observations	4,053,333	4,053,333	4,053,333	4,053,333	4,053,333	4,053,333	4,053,333	4,053,333
+Note.  Columns 1–4 use first differences of the share of quarterly revenues from the prime customer as the dependent variable, while cols. 5–8 use first differences of the log of HHI of customer types (as a measure of concentration and specialization of an establishment on customer types). Columns 1 and 2 (5 and 6) run simple OLS (IV) first-differences regressions. Columns 3 and 4 (7 and 8) run OLS (IV) interacting first differences of adoption with dummies of whether the establishment had a share of prime customers over (“High”) and below (“Low”) the median before adoption. Standard errors are clustered at the establishment level and reported in parentheses.
+
+* Significant at the 10% level.
+
+** Significant at the 5% level.
+
+*** Significant at the 1% level.
+
+View Table Image
+In columns 5–8 of table 9, we examine how the diversity of the customer profile per establishment changes with adoption. Our dependent variable uses information on the shares of revenue per each of the 12 age-gender groups in each establishment to compute a Herfindahl-Hirschman index (HHI) of customer diversity. Our HHI measure would take a value of one if an establishment sold 100% of its goods and services to only one of the 12 groups and would take a value of 0.083 if it sold an equal amount to all 12 age-gender groups. Columns 5 and 6 show that program adoption decreases the concentration of sales by 2.5% and 3.4%, respectively. Columns 7 and 8 explore whether the decrease in concentration comes from establishments with high or low degrees of concentration before adoption. For this purpose, we compute the HHI of the customer-type concentration for each adopter before adoption. Then, we create two dummy variables: “High,” which equals one if the HHI of the establishment is above the median among all adopters and zero otherwise, and “Low,” which gives a value of one to an adopter if its HHI is below the median among all adopters and zero otherwise. Results in columns 7 and 8 show that the decrease in concentration after adoption comes entirely from establishments with high concentration rates before adoption. Those establishments in the upper half of the concentration distribution decrease concentration by 5.8% and 8.7%, respectively, after adoption. These results indicate that after receiving information about competitor strategies and market opportunities, establishments tend to diversify their client portfolio more instead of focusing on a narrower customer niche. As in column 4, column 8 uses the CF IV, so we include the error term of the first stage as a control in the regression specification.
+
+Finally, table 10 investigates whether adopters change the spatial composition of their customer base. For simplicity, we compute for each establishment the share of revenue from customers residing in other zip codes. Columns 1 and 2 show that adoption does not seem to have an effect on the average share of revenue from customers in other zip codes. Building from this finding, columns 3 and 4 decompose the main effect into adopters with large and small shares (above and below the median) of revenue from customers in other zip codes before adoption. We create two dummy variables: “Large Share,” which equals one if the revenue share coming from customers in other zip codes is above the median among all adopters and zero otherwise, and “Small Share,” which gives a value of one to an adopter if its revenue share coming from customers in other zip codes is below the median among all adopters and zero otherwise. Our results show that those establishments with a lower-than-median share of customers from other zip codes increase their share by 2.2 percentage points.51
+
+Table 10.  Attracting Customers from Other Areas
+Dependent Variable: ΔShare of Revenue from Customers from Other Zip Codes
+OLS
+(1)	IV
+(2)	OLS
+(3)	IV
+(4)
+ΔAdoption	.00566	.00941		
+(.00347)	(.00583)		
+ΔAdoption × Large Share			−.00461	.00134
+(.00335)	(.00624)
+ΔAdoption × Small Share			.0152**	.0216***
+(.00592)	(.00734)
+Residual CF				−.00692
+(.00694)
+Sector-zip-code-quarter fixed effects	Yes	Yes	Yes	Yes
+Dummies first 4 quarters	Yes	Yes	Yes	Yes
+p-value null equal returns			.004	.003
+Mean dependent variable	.695	.695	.695	.695
+Observations	4,053,333	4,053,333	4,053,333	4,053,333
+Note.  Columns 1 and 2 run first-differences OLS and IV of the share of revenues from customers residing outside the establishment’s zip code. Columns 3 and 4 interact the first differences of adoption with dummies for whether the establishment had a share of outside-zip-code clients above the median (“Large Share”) and below the median (“Small Share”). Standard errors are clustered at the establishment level and reported in parentheses.
+
+** Significant at the 5% level.
+
+*** Significant at the 1% level.
+
+View Table Image
+In summary, our findings in tables 9 and 10 show that the increase in revenue due to program adoption is consistent with a mechanism where establishments discover new business opportunities and expand their customer portfolio through the implementation of new marketing strategies to take advantage of the new (to them) information. Adopters do not simply increase their number of customers, they target new age-gender profiles and look for customers beyond their zip code. Given the average size of the SMEs in our sample and the anecdotal evidence in section II.B, we do not expect the SMEs in our sample to engage in ambitious advertising campaigns or grandiose promotional events to attract more customers. Their new marketing strategies ought to be as simple as paying more attention to customers in age-gender groups underserved before adoption or taking an interest in those first-time customers who are likely to reside in another zip code (see sec. II.B for examples of actual strategies taken by adopters). More importantly, our findings show that the arrival of information tilts and shapes the sales profiles of adopters relative to nonadopters. This result is consistent with the view (presented in the introduction) that adopting SMEs are relatively substituting intuition-driven management with DDDs.
+
+VI.  Further Robustness Checks and Additional Results
+In this section, we consider different additional results from two alternative explanations, as well as the impact of adoption on nonadopting establishments and the impact on aggregate sector revenue.
+
+A.  Additional Results and Alternative Explanations
+After receiving information from the monthly report, establishments may learn that nearby establishments organize their sales in different times of the day and different days of the week. This may trigger adopting establishments to reallocate clients and sales to different times of the week (days or hours), potentially improving their workload distribution and the efficiency of the allocation of resources such as personnel, time, and effort. Following this logic, we study how adoption changed the distribution of revenue across different days and hours within a week.
+
+To do so, we divide the week into four time slots: weekday morning (until 3 p.m.), weekend morning, weekday evening (after 3 p.m.), and weekend evening. We identify the peak shopping time for each sector-province dyad and find that, for the average establishment, 37.3% of sales took place during its peak shopping time. Columns 1–6 in table 11 show results of regressing the log of revenue at the peak and off-peak (the other three time slots) times of the week on adoption. Columns 1 and 2 show no change in the sales at peak time, whereas columns 3 and 4 show an increase in the sales at off-peak time. This relative shift of revenue among business hours could be driven by (1) a supply-side gain in efficiency or (2) shifting business to serve new demographics with different shopping schedules—this second channel would coexist with the main mechanism described in the above section. To disentangle these two channels, columns 5 and 6 control for changes in the clientele’s demographics. Once we control for changes in demand demographics (log of sales for each of the 12 age-gender customer categories and log of sales for out-of-zip-code customers), the magnitude of the effect decreases from 17% to 8%.52 These findings suggest that program adoption triggers an increase in sales due to changes in business hours and potential efficiency improvements in daily operations.53
+
+Table 11.  Distribution of Revenues in Peak and Off-Peak Time
+Dependent Variable: ΔLog Revenue in Weekly Peak Times	OLS
+(3)	Dependent Variable: ΔLog Revenue in Weekly Off-Peak Times	IV
+(6)	Dependent Variable: ΔLog HHI Revenues over Week	Dependent Variable: ΔLog HHI Revenues over Week
+OLS
+(1)	IV
+(2)	IV
+(4)	OLS
+(5)	OLS
+(7)	IV
+(8)	OLS
+(9)	IV
+(10)
+ΔAdoption	.0207	.032	.0815***	.170***	.0382**	.0815**	−.0152***	−.0440***	−.00915*	−.0312***
+(.0284)	(.0651)	(.0212)	(.0543)	(.0156)	(.0387)	(.00555)	(.0127)	(.00526)	(.0119)
+Sector-zip-code-quarter fixed effects	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes
+Dummies first 4 quarters	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes
+Demand controls					Yes	Yes			Yes	Yes
+Observations	4,053,333	4,053,333	4,052,580	4,052,580	4,052,580	4,052,580	4,053,333	4,053,333	4,053,333	4,053,333
+Note.  Columns 1 and 2 run OLS and IV first-difference regressions of the log of quarterly revenues occurring during peak times. Columns 3 and 4 repeat the same specification using first difference of the log of quarterly revenues occurring during off-peak times. Columns 5 and 6 repeat the specifications in cols. 3 and 4 adding as controls changes in the share of sales from age-gender groups and out-of-zip-code clients. Peak and off-peak times are defined at the sector-province level, and they could be four time frames, weekday or weekend, morning or evening. Columns 7–10 run OLS and IV first-difference regressions of the log of concentration of revenues across four different times over the week (weekday morning, weekday afternoon, weekend morning, weekend afternoon). Columns 9 and 10 control for changes in the shares of sales for age-gender client groups and customers residing outside of the establishment’s zip code. The mean HHI is 0.419. Standard errors are clustered at the establishment level and reported in parentheses.
+
+* Significant at the 10% level.
+
+** Significant at the 5% level.
+
+*** Significant at the 1% level.
+
+View Table Image
+Columns 7–10 in table 11 investigate the impact of program adoption on the concentration of revenue among the four time slots. Our concentration measure HHI would take a value of one if an establishment sold 100% of its goods and services during only one time slot and would take a value of 0.25 if it sold equally in all four time slots. Columns 7 and 8 show that program adoption decreases concentration by 4.4%. When controlling for changes in clientele demographics in columns 9 and 10, concentration decreases by 3.1%. Note that these results are consistent with our findings in columns 1–6 above.
+
+At this point, it is important to discuss how improvements in the workload distribution may result in an increase in revenue. First, if establishments are at capacity during peak times, off-peak times may be their only margin to grow. Thus, establishments may schedule clients’ visits (wholesale or larger clients) at off-peak times while growing in other age-gender segments at peak times. Second, following section II.B, some adopters may see that their performance is lacking relative to others during off-peak times and as a result use clever strategies to lure consumers during those specific times of the week.
+
+A final concern stems from the fact that our working data do not comprise information on cash transactions (as described in the data section above) and thus we cannot assess how cash transactions change due to program adoption.54 If anything, because we observe all debit and credit transactions in our bank’s dataphones, we estimate that our working data capture on average 25% of the total number of credit and debit transactions per establishment.
+
+Under the assumption that the proportion of cash transactions does not change due to program adoption, our specification absorbing establishment fixed effects is effectively controlling for potential heterogeneity across outlets in this regard. Yet, the share of cash transactions may change after adoption if adopters were to ask clients to pay with debit or credit instead of cash. Note that this would imply an increase in transactions in our data but a mere shift from cash to credit in the establishment’s finances.
+
+While we cannot directly address this concern, we can empirically examine whether establishments in sectors with large shares of cash transactions experience larger gains of adoption than those establishments in sectors with small shares of cash transactions. For this purpose, we use data from Esselink and Hernandez (2017) to classify sectors in our data as more or less cash intensive. We hypothesize that if shifting cash to credit transactions were a problem, we should observe higher adoption returns in cash-intensive sectors. Table 12 shows that the impact of adoption is the same for cash and credit sectors. Therefore, while acknowledging the limitation of our data, we conclude that our data do not support concerns regarding the conversion of cash to credit transactions.
+
+Table 12.  Credit Card versus Cash Sectors
+Dependent Variable: ΔLog Revenue
+OLS
+(1)	IV
+(2)
+ΔAdoption × Credit card	.0511**	.0924**
+(.0240)	(.0401)
+ΔAdoption × Cash	.0412**	.0866**
+(.0206)	(.0436)
+Residual CF		−.0492
+(.0444)
+Sector-zip-code-quarter fixed effects	Yes	Yes
+Dummies first 4 quarters	Yes	Yes
+p-value null equal returns	.75	.86
+Observations	4,053,333	4,053,333
+Note.  Based on information from the report of the European Central Bank by Esselink and Hernandez (2017), we separate sectors in our data with high and low shares of credit card transactions. We divide sectors in our data as credit card intensive (car dealers, technology, fashion, healthcare, home, accommodation, and travel) and cash intensive (bars and restaurants, books and press, food, hypermarkets, leisure, other services, sports and toys, transportation, and wellness and beauty). We run OLS and IV first-differences regressions of the log of quarterly revenue on adoption interacting the adoption dummy for whether an establishment belongs to a credit-card-intensive sector or a cash-intensive sector. Standard errors are clustered at the establishment level and reported in parentheses.
+
+** Significant at the 5% level.
+
+View Table Image
+B.  The Impact of Adoption on Nonadopters and Aggregate Revenue
+Finally, we investigate whether the increase in revenue due to access to market information comes from business stealing or from creating net value. Table 13 investigates the effect of adoption on nonadopters’ revenue. To do so, we define nonadopters as the rest of the establishments in the same sector-zip-code dyad. Column 1 estimates the impact of adoption on adopters and nonadopters, including sector-quarter fixed effects (we cannot control for sector-zip-code-quarter fixed effects given our definition of nonadopters). Column 1 also includes sector-zip-code-specific trend and trend squared. In column 2, we define nonadopters as establishments in the same subsector–zip code so that we can introduce sector-zip-code-quarter fixed effects along subsector-zip-code-specific trends and their square. We note that adoption is associated with decreases in the revenue of nonadopters and that the impact is stronger in closer establishments—those in their sector (1.5% decrease when a nearby same-subsector establishment adopts the program). When we instrument for adoption in column 3, the impact on nonadopters remains qualitatively unchanged. Column 4 runs the same specification as column 2 dropping all adopters, thus comparing performance of nonadopters before and after adoption in their sector-quarter dyad and showing a drop in revenue of 1.4% after adoption of a nearby establishment. In columns 5–7, we define adoption as only the first time it occurs within a sector and zip code. While OLS findings are robust to this definition change, our IV result becomes statistically nonsignificant (although still negative and close to 1%). Finally, column 8 splits the sample of nonadopters into those in high- and low-density subsectors. In this specification, a subsector is high or low density if it is above or below the median number of establishments, respectively (same definition used in table 6). We find no difference in the impact of adoption on a nonadopter’s revenue depending on the business density in its subsector and zip code.
+
+Table 13.  Adoption Impact on Revenue of Establishments Nearby
+Dependent Variable: ΔLog Revenue
+OLS
+(1)	OLS
+(2)	IV
+(3)	OLS
+(4)	OLS
+(5)	IV
+(6)	OLS
+(7)	OLS
+(8)
+ΔAdoption	.0430***	.0397**	.095466**		.0420***	.0968**		.0457***
+(.0158)	(.0160)	(.0398)		(.0160)	(.0398)		(.0160)
+ΔAdoption by establishment nearby	−.00423*	−.0146***	−.0117**	−.0135***	−.0108**	−.00793	−.0108**	
+(.002312)	(.00497)	(.00536)	(.00502)	(.00532)	(.00571)	(.00538)	
+ΔAdoption by other establishment in high-density subsector								.00433*
+(.00248)
+ΔAdoption by other establishment in low-density subsector								−.00593*
+(.00319)
+Sector-quarter fixed effects	Yes							
+Sector-zip-code-quarter fixed effects		Yes	Yes	Yes	Yes	Yes	Yes	Yes
+Sector-zip-code trends	Yes							
+Subsector-zip-code trends		Yes	Yes	Yes	Yes	Yes	Yes	Yes
+Dummies first 4 quarters	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Yes
+Drop out adopters				Yes			Yes	
+Effect only of first adopter					Yes	Yes	Yes	
+Observations	4,056,062	4,053,173	4,053,173	3,998,182	4,053,173	4,053,173	3,998,182	4,053,173
+Note.  Specifications 1–3 in this table run specifications 1 and 5 in table 5 adding first differences of adoption by a nearby establishment in the same sector and zip code as a control. Columns 4 and 7 drop adopters from the sample. Columns 5–7 consider the impact of only the first adopter. Column 8 splits the dummy of adoption by a nearby establishment on those establishments with high and low establishment density in their subsector-zip-code dyad. Standard errors are clustered at the establishment level and reported in parentheses.
+
+* Significant at the 10% level.
+
+** Significant at the 5% level.
+
+*** Significant at the 1% level.
+
+View Table Image
+These findings suggest that some of the gains in revenue following adoption come from business-stealing effects from nearby establishments. Thus, we cannot reject that adoption has no effect on total welfare. To shed light on this matter, we aggregate revenue at the subsector-zip-code level and run specifications in first differences in table 14. Our adoption dummy here takes a value of one if any establishment of a given subsector and zip code has adopted and zero otherwise.55 The findings of our OLS regressions show a positive association between subsector-zip-code revenue and adoption. In particular, columns 1–3 show an increase of at least 3.7% in revenue at the subsector-zip-code level when introducing sector-zip-code-quarter, subsector-zip-code, and subsector-quarter fixed effects in the specification, respectively. For our IV strategy, we use the number of other subsectors with adopting establishments in the same zip code and the same quarter as IV. Column 4 shows that the IV is positively correlated with adoption. Finally, column 5 shows no statistically significant effect of adoption on revenue at the sector and zip-code levels.56 This result is consistent with the results in table 13 showing that the increase in establishment revenue due to adoption is likely driven by business stealing.
+
+Table 14.  Aggregate Effect of Adoption
+Dependent Variable: ΔLog Revenue
+OLS
+(1)	OLS
+(2)	OLS
+(3)	First Stage
+(4)	Second Stage
+(5)
+ΔAdoption	.0392***	.0368***	.0379***		−.0492
+(.00705)	(.00712)	(.00698)		(.0421)
+IV				.00158***	
+(.0000446)	
+Sector-zip-code-quarter fixed effects	Yes	Yes	Yes	Yes	Yes
+Subsector-zip-code fixed effects		Yes	Yes	Yes	Yes
+Subsector-quarter fixed effects			Yes		
+Observations	273,082	272,900	272,885	272,900	272,900
+Note.  This table runs OLS and IV first differences on the log of quarterly aggregate revenue sales at the sector-zip-code level on adoption. Columns 1, 2, and 3 run OLS regressions with sector-quarter-zip-code, subsector-zip-code, and subsector-quarter fixed effects, respectively. Column 4 runs the first-stage IV using the number of adopters in the same zip code from other sectors as an instrument for adoption. Column 5 shows results of the second-stage IV using the first stage in col. 4. Standard errors are clustered at the sector-zip-code level and reported in parentheses.
+
+*** Significant at the 1% level.
+
+View Table Image
+Even though the findings in table 14 suggest that program adoption is not welfare improving, we must also consider the fact that (by revealed preference) consumers switching from one establishment to another must be enjoying net increases in their utility. If so, switching behavior could be an indication of welfare improvement.57 Additionally, if adopters become more efficient (lower costs for the same level of revenue), welfare gains from the launch of this program adoption may come primarily from efficiency gains and less so from increases in sales or consumer surplus.
+
+To conclude this section, it is important to acknowledge and remember that this program had very low rates of adoption across the board. Thus, our findings might have differed if we had observed higher adoption rates.58 Higher adoption rates may have spread market information across most establishments, potentially diminishing gains of business-stealing strategies. Under an alternative scenario with higher adoption rates, firms may have pursued differentiation-driven strategies.
+
+VII.  Conclusions
+This paper investigates the role of information in competitive markets through the evaluation of a program administered by a large bank that provided market information to their SME customers. In our empirical context, SMEs were invited by their credit card POS provider to register free of charge in a program that would deliver monthly reports of their performance and the performance of nearby establishments, as well as demographic and geographic characteristics of their customers and those of other nearby establishments. Using first-difference OLS regressions, we find that adoption is associated with a 4.5% increase in revenue from credit and debit card transactions, and our IV strategy shows a revenue increase of 9% for those establishments whose adoption decision is most strongly affected by the instrument. We find heterogeneous effects of program adoption such that smaller adopters in high-density markets benefit more from the information provided by the program. We find no differences across levels of entrepreneurial sophistication and digital experience among adopters. We also investigate mechanisms through which the new information delivered by the monthly reports may have triggered the observed increase in revenue. We find that adopting establishments increase their revenue from targeting underserved market segments before adoption.
+
+Our findings have managerial implications for the understanding of the impact of access to market information on the performance of SMEs. Departing from the existence of PPDs coupled with increases in the market power of large firms (De Loecker, Eeckhout, and Unger 2020; Eeckhout and Veldkamp 2023) and decreases in business dynamism (Akcigit and Ates 2019), understanding how the arrival of new information can affect these trends is important. Although anecdotal evidence suggests that the use of market information has so far concentrated among large firms, our findings show that small firms can benefit from access to market information as well. However, if high adoption costs bar access to market information by small firms, the disparities between large and small firms will likely grow even larger in the future.
+
+Our findings show that small enterprises are capable of using the information provided by the bank program to their advantage, yielding a sizable average return of adoption. However, the low adoption rate in our study raises the question of whether the same managerial inattention overcome by adopters when receiving the reports is also driving the nonadopting decision. The program and its reports may help adopters overcome their managerial inattention toward their own market. Yet, the same managerial inattention that prevented many from targeting the right demographic groups may also prevent others from paying attention to the existence of this program and the available market information. A cautious interpretation of the evidence presented in this paper calls for an estimate of the lower bound of the cost of collection and analysis of market information. In fact, managers and owners of SMEs may perceive the cost of adoption to be at least 9% of their revenue if we want to rationalize their behavior before the free supply of information provided by the program evaluated in this study.
+
+Future research should investigate the nature and behavior of the costs of collection and use of market information under different competitive environments. Understanding whether the scarce adoption patterns observed in SMEs can be addressed with mere awareness campaigns, the provision of information technologies that exhibit complementarities with market-information data, or the provision of adequate skilled human capital to process market information as input in decision-making is important. An additional venue for future research should also aim to enhance our understanding of the potential impact of market-level scalability of the adoption of information-sharing programs similar to the program analyzed in our paper. Our empirical findings show that adopters engaged in strategies that seemed to target business stealing. Yet, one wonders whether scenarios with larger adoption rates may push adopters toward innovative and product-differentiation strategies. In fact, future research should provide further evidence of the specific actions taken by firms as a result of an increase in market information, such as changes in pricing strategies, introduction of new products, or marketing and advertising campaigns.
+
+

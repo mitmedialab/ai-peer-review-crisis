@@ -1,0 +1,843 @@
+Perceptions About Monetary Policy
+
+Abstract
+We estimate perceptions about the Federal Reserve’s monetary policy rule from panel data on professional forecasts of interest rates and macroeconomic conditions. The perceived dependence of the federal funds rate on economic conditions varies substantially over time, in particular over the monetary policy cycle. Forecasters update their perceptions about the Fed’s policy rule in response to monetary policy actions, measured by high-frequency interest rate surprises, suggesting that they have imperfect information about the rule. Monetary policy perceptions matter for monetary transmission, as they affect the sensitivity of interest rates to macroeconomic news, term premia in long-term bonds, and the response of the stock market to monetary policy surprises. A simple learning model with forecaster heterogeneity and incomplete information about the policy rule motivates and explains our empirical findings.
+
+I. Introduction
+Over the past 30 years, the Federal Reserve and other central banks have increasingly focused on communicating monetary policy strategy to the public. Underlying this trend is the idea that public perceptions about the central bank’s policy framework and strategy determine the macroeconomic effectiveness of monetary policy. Monetary transmission depends on expectations of future policy because expectations drive long-term interest rates and other asset prices.1 But what monetary policy strategy does the public perceive? How do these perceptions vary over the cycle and in response to policy actions? What role do they play in the transmission of monetary policy to financial markets?
+
+Empirical progress on these questions requires a measure that captures the public’s forward-looking perceptions of how the Fed will respond to future economic data at each point in time. Importantly, the perceived policy framework may differ from the Fed’s historical behavior. Since Taylor (1993, 1999), however, empirical policy rules have typically been estimated in time-series data by regressing the policy rate onto macroeconomic conditions.2 Such estimates cannot speak to the role of public perceptions about the monetary policy framework because they are based on historical data and thus inherently backward-looking.
+
+In this article, we estimate perceived, forward-looking monetary policy rules each month using rich survey data from the Blue Chip Financial Forecasts (BCFF) spanning almost four decades of U.S. monetary policy. We characterize time variation in the estimated rules, their relationship to actual monetary policy decisions, and their influence on financial markets.
+
+For each monthly survey from January 1985 to May 2023, we form a forecaster-by-horizon panel, which consists of forecasts for the federal funds rate, output gap, and inflation across 30–50 forecasters and horizons from zero to five quarters. We estimate a perceived monetary policy rule that relates fed funds rate forecasts to macroeconomic forecasts in each month’s panel. We also estimate an inertial perceived rule that includes lagged funds rate forecasts. All our subsequent analyses consider both types of rules, and we find broadly similar results.
+
+Our estimation yields perceived response coefficients for the output gap, 
+⁠, and inflation, 
+⁠. We focus our analysis on the perceived output-gap coefficient, 
+⁠, for two reasons. First, inflation was low and stable over our sample. Second, BCFF collects forecasts of headline CPI inflation, which reflect noisy short-term inflation fluctuations, whereas monetary policy tends to focus on longer-term inflation pressures. We interpret the output-gap coefficient 
+ as a measure of the Fed’s perceived responsiveness to economic conditions.
+
+Our first key finding is that the perceived monetary policy rule exhibits substantial variation over time. The Fed’s perceived responsiveness to the output gap, 
+⁠, varies between 0 and about 1.5. The perceived monetary policy rule often lines up with rolling estimates of the Fed’s historical behavior from time-series macroeconomic data. However, during several episodes, our forward-looking perceived rule diverges from the historical, backward-looking rule. This divergence is particularly pronounced during episodes with strong forward guidance, including zero lower bound (ZLB) and liftoff periods.
+
+The perceived policy rule varies systematically over the monetary policy cycle and with uncertainty. The coefficient 
+ tends to be high in the early stages of monetary tightening cycles, when the slope of the yield curve is high, indicating that the Fed is perceived to be strongly data-dependent at these times. Conversely, 
+ tends to be low in monetary easing episodes and when uncertainty is high. At these times, the Fed is viewed to be less responsive to standard indicators of economic activity such as the output gap, perhaps because it is putting more weight on risks not captured by these indicators.
+
+Section III shows that policy perceptions respond to high-frequency monetary policy surprises around Federal Open Market Committee (FOMC) announcements in a state-contingent way. How forecasters update their beliefs suggests that they have imperfect information about the policy rule and learn from observed policy decisions. Intuitively, a surprise tightening during an economic expansion signals to forecasters that the Fed’s response to economic activity is stronger than expected, while a surprise tightening in a weak economy signals the opposite. We confirm this prediction in the data: 
+ increases after a positive high-frequency monetary policy surprise when the economy is strong, but declines following the same type of surprise when the economy is weak. The magnitude of the empirical response suggests that monetary policy surprises on FOMC dates would be 50% less volatile if the monetary policy rule were fully known.
+
+Having characterized variation in the perceived monetary policy rule over time and in response to monetary policy decisions, we show that these shifting perceptions matter for the key asset prices that transmit monetary policy to the real economy: short- and long-term interest rates and stock prices.
+
+Section IV.A documents that market interest rates react more strongly to macroeconomic news when the Fed’s perceived responsiveness 
+ is high. This high-frequency analysis validates our survey-based estimates of 
+ using financial market data and suggests that they are consistent with the “market-perceived policy rule” of Hamilton, Pruitt, and Borger (2011). It also connects our perceived policy rule to the results of Swanson and Williams (2014), who document changes in the market’s sensitivity to macroeconomic news at the ZLB. Economically, our results show that monetary policy perceptions can “do the central bank’s work for it” (Woodford 2005), moving the expected path of rates in response to economic developments before the Fed changes the actual policy rate.3
+
+Shifts in the perceived monetary policy rule also have a pronounced effect on long-term interest rates, which are particularly important for transmitting monetary policy. Section IV.B shows that policy-rule perceptions affect the term premium in long-term bond yields, driving a wedge between long-term rates and expected short-term rates. Classic finance theory suggests that when 
+ is higher, investors expect interest rates to fall more, and hence bond prices to rise more, in bad economic states, that is, when the output gap is low. Thus, they believe Treasury bonds are better hedges and require a lower term premium for holding them. We document precisely this pattern: both subjective term premia, calculated from survey expectations of future yields, and statistical term premia, estimated with predictive regressions, move inversely with 
+⁠.
+
+These results can help explain the reaction of long-term bond yields to monetary policy decisions (e.g., Hanson and Stein 2015; Nakamura and Steinsson 2018). Monetary policy has stronger effects on long-term yields if policy decisions affect perceptions of the monetary policy rule, which in turn affect term premia. Our mechanism predicts that the impact of policy surprises on term premia should be most pronounced when the economy is weak, that is, the impact should be state-contingent. A surprise tightening in a weak economy leads investors to revise 
+ downward, raising term premia. Thus, long-term yields should rise more than they would following the same surprise in a strong economy, when 
+ and term premia move in the other direction. In Section IV.C, we find strong evidence for such state dependence, extending commonly used event-study regressions to document a stronger response of long-term rates to policy surprises in a weak economy than in a strong economy. These results provide additional evidence of updating about the perceived rule, and its effect on term premia, without relying on our survey-based estimate 
+⁠.
+
+We show in Section IV.D that the stock market’s response to monetary policy also depends strongly on the perceived monetary policy rule. Using high-frequency regressions of stock returns on interest rate surprises around FOMC announcements (as in Bernanke and Kuttner 2005), we document that the market response to a tightening surprise is significantly more negative when 
+ is low. This result suggests that investors anticipate more pronounced economic consequences from a monetary policy shock when the Fed is perceived to be less responsive to economic conditions, consistent with standard New Keynesian theory.
+
+In Section V we present a simple model with forecaster heterogeneity and imperfect information about the policy rule that motivates and explains our empirical findings. The true policy rule is time-varying and unobserved by forecasters, who learn about it from policy-rate decisions. Forecasters receive different signals about the output gap and form policy-rate forecasts according to their perceived rule. According to the model, regressions of policy-rate forecasts on output-gap forecasts in a forecaster-horizon panel recover the policy-rule coefficient perceived by forecasters. The model predicts that forecasters update their perceived coefficient upward after a surprise tightening in a strong economy but update downward after a surprise tightening in a weak economy. It also predicts that fed funds futures respond more strongly to macro news when the perceived coefficient is high, that term premia are inversely related to the perceived coefficient, and that long-term yields respond more strongly to monetary policy surprises when the economy is weak. All these predictions are confirmed in the data.
+
+Finally, Section VI shows that our estimates are robust to various changes in the policy-rule specification, estimation method, and data sources. Linking policy-rule beliefs over time using a state-space model or augmenting the perceived rule to include expected financial conditions has little effect on our estimates of 
+⁠. We account for heterogeneity in beliefs about the policy rule across forecasters in several different ways. Accounting for heterogeneity does not significantly change the time-series variation that is the focus of this article. We also address the well-known concern that policy-rule regressions can yield biased estimates because macroeconomic variables endogenously depend on all shocks in the economy, including the monetary policy shock. Building on Carvalho, Nechio, and Tristão (2021), we use a model that captures this endogeneity bias and show that such bias is unlikely to affect the time-series variation in 
+ and hence our main results. In addition, our results in Sections III and IV strongly support an interpretation of 
+ as a perceived policy-rule coefficient. Nevertheless, many of the takeaways from our empirical analysis remain valid under a more general, noncausal interpretation of 
+ as the perceived endogenous comovement between the short-term policy rate and macroeconomic variables. For example, under this broader interpretation, our results show that perceived comovement is priced in financial markets and influences term premia.
+
+In summary, using a novel methodology for estimating perceptions of the monetary policy rule from professional forecasts, we establish three key empirical results. First, the perceived monetary policy rule varies significantly and systematically over time. Second, the way forecasters update their beliefs suggests that they have incomplete information about the policy rule and learn about it from policy actions. Third, variation in the perceived rule impacts the transmission of monetary policy to financial markets, affecting the sensitivity of interest rates to macro news, the term premium in long-term bond yields, and the reactions of yields and stock prices to FOMC announcements.
+
+By providing estimates of the perceived monetary policy rule, this article contributes to the literature on incomplete information and monetary policy (Blinder et al. 2008; Eusepi and Preston 2010; Taylor and Williams 2010; Cogley, Matthes, and Sbordone 2015). We document that investors learn about the rule from policy decisions and that their perceptions are transmitted to financial markets. Caballero and Simsek (2022) study disagreement and learning in the context of monetary policy, but with a different focus. They model disagreement between the Fed and the public about the economic outlook, providing a microfoundation for monetary policy surprises in the presence of a constant and known monetary policy objective. By contrast, we provide evidence suggesting incomplete information about the monetary policy rule. Our findings are complementary to Stein and Sunderam (2018), who examine strategic communication between the central bank and market participants. Our work also connects to the debate on rules versus discretion in monetary policy going back to Kydland and Prescott (1977) and Taylor (1993) because time variation in the perceived monetary policy rule is potentially consistent with the Fed exercising significant discretion.
+
+Methodologically, our article builds on previous work that estimates monetary policy rules from financial market and survey data. The main idea in this literature is to take the concept of an empirical monetary policy rule—in the manner of Taylor (1999)—and apply it to forward-looking data. Some papers have estimated perceived policy rules using consensus survey forecasts (e.g., Bundick 2015; Kim and Pruitt 2017; Jia, Shen, and Zheng 2023), while others have used individual forecasts to estimate constant-parameter rules, potentially allowing for a single parameter break (Carvalho and Nechio 2014; Andrade et al. 2016, 2019). We make two related contributions to this literature. First, in contrast to prior work, we estimate the perceived rule in each monthly survey, using variation across both forecasters and horizons to pin down the rule’s parameters. Second, we relate month-to-month shifts in the perceived rule to monetary policy actions and the key asset prices responsible for monetary policy transmission. Our results suggest that the perceived monetary policy rule is an important determinant of risk premia and that FOMC announcements influence asset prices in part by changing perceptions of the policy rule.
+
+Within the macro-finance literature on the financial market effects of monetary policy, this study is closely related to recent work on incomplete information and policy perceptions. Bauer and Swanson (2023a, 2023b) argue that high-frequency monetary policy surprises are predictable because investors do not know the Fed’s monetary policy rule. Our results are consistent with this incomplete information view of monetary policy and further show that forecasters update their perceived rule in response to Fed policy actions. Bianchi, Ludvigson, and Ma (2023) study FOMC announcements and perceptions of regime-switching policy rules in a structural New Keynesian asset-pricing model. While we model perceptions about monetary policy using continuously evolving parameters in the policy rule, our estimates could also be interpreted as reflecting shifting beliefs about the likelihood of future policy regimes. More generally, our empirical approach differs from earlier studies on monetary policy perceptions as we estimate policy-rule perceptions from survey data, study time variation in the perceived monetary policy rule, and directly assess its transmission to financial markets.
+
+II. The Perceived Monetary Policy Rule
+In this section, we describe how the perceived monetary policy rule is estimated and characterize its cyclical patterns.
+
+II.A. Blue Chip Survey Data
+BCFF is a monthly survey of professional forecasters going back to 1982. The survey asks for forecasts of interest rates, including the federal funds rate, various Treasury yields, and corporate bond yields. In addition, forecasters are queried about the macroeconomic assumptions underlying their rate forecasts, specifically, their growth and inflation forecasts. The number of participating institutions, each identified by name, ranges from 30 to 50 across surveys. We start our sample in January 1985, because the quality of the data is poor in earlier years. Our sample ends in May 2023 for a total of 461 monthly surveys.
+
+Forecasts are made for quarterly horizons from the current quarter out to five quarters ahead.4 We denote the forecast of institution j made at t for a generic variable y by 
+⁠. We measure time t in months as the Blue Chip survey is monthly. Since forecasts are for end-of-quarter observations, the monthly horizon h depends on both the survey month and the forecast horizon. For example, for the one-quarter-ahead forecast in the January 2000 survey, 
+ corresponds to June 2000 and 
+⁠.
+
+We specify policy rules for the federal funds rate, the Fed’s policy rate, denoted by 
+⁠. Since empirical monetary policy rules are usually specified in terms of year-over-year inflation, 
+⁠, and the output gap, 
+⁠, we compute these measures from the macroeconomic forecasts in the BCFF. Year-over-year CPI inflation forecasts, denoted as 
+⁠, are calculated from quarterly forecasts and, for short horizons, observed CPI inflation. To calculate output-gap forecasts, 
+⁠, we impute forecasts for the level of real GDP from GDP growth forecasts and take projections of potential GDP from the Congressional Budget Office (CBO), using real-time data at the time of the survey for most of our sample. These output-gap projections assume that all forecasters share the same potential output forecast, equal to the CBO projection. Online Appendix B.4 shows that using unemployment rate projections in the Survey of Professional Forecasters (SPF) leads to similar results.
+
+Across surveys, horizons, and institutions, our data contain about 120,000 individual forecasts. There is substantial variation across forecasters and horizons. For detailed descriptions of the BCFF data, calculations, and summary statistics, see Online Appendix A.1.
+
+II.B. Estimation of Perceived Rules from Survey Panels
+We describe how we estimate perceived monetary policy rules from survey data. The basic procedure is as follows. In each monthly BCFF survey, we regress forecasts for the federal funds rate on forecasts for the output gap and inflation. As we formalize in the model in Section V, if survey respondents first form views on future output and inflation and then use a policy rule to translate these views into funds rate forecasts, this procedure recovers the perceived monetary policy rule.
+
+In each month of the BCFF survey, there is variation across forecasters and forecast horizons. In principle, either dimension of variation would be sufficient for our procedure. To see the intuition, suppose for simplicity that forecasters believe that the Fed follows a rule according to which it sets the federal funds rate to 0.5 times the output gap. Further suppose that two forecasters have one-year-ahead output-gap forecasts of 2% and 4%. Then their one-year-ahead funds rate forecasts are 1% and 2%, respectively, and a regression of funds rate forecasts on output-gap forecasts correctly recovers a coefficient on the output gap of 0.5. Alternatively, suppose there is only one forecaster, who forecasts that the output gap will be 2% next year and 0% two years from now. Then her funds rate forecasts are 1% for next year and 0% for the year after that. Again, a regression of funds rate forecasts on output-gap forecasts correctly recovers the perceived output-gap coefficient. Our estimation procedure exploits variation across forecasters and forecast horizons.
+
+Our framework starts from the simple monetary policy rule
+
+ 
+ 
+(1)
+This type of policy rule has been standard in the macroeconomic literature since Taylor (1993, 1999). Crucially, we allow all parameters to vary over time. The inflation target 
+ and the natural rate of interest 
+ represent the expected long-run values for inflation and the real interest rate, once cyclical shocks have died out.5 Our focus is on the coefficients capturing the monetary policy response to the inflation gap and the output gap, 
+ and 
+⁠. The rule also includes an exogenous monetary policy shock, 
+⁠.
+
+To capture the perceptions of professional forecasters about the policy rule equation (1), we estimate the perceived coefficients 
+ and 
+ by regressing federal funds rate forecasts on output-gap and inflation forecasts. Specifically, for each Blue Chip survey at time t, we form a forecaster (j)-by-horizon (h) panel and estimate the regression
+
+ 
+ 
+(2)
+The error term 
+ contains forecaster j’s expectation of the future monetary policy shock at 
+⁠, 
+⁠, as well as possible measurement and specification errors affecting the funds rate forecasts. Our estimation includes forecaster fixed effects 
+ to allow for the possibility that forecaster beliefs about 
+ and 
+ may be correlated with their inflation and output-gap forecasts.
+
+Four assumptions are sufficient for regression (2) to recover the perceived monetary policy rule. First, forecasters disagree about the economic outlook, meaning that there is some heterogeneity in 
+ and 
+ across forecasters j. This assumption builds on a large body of evidence for disagreement in economic expectations (e.g., Mankiw, Reis, and Wolfers 2003; Patton and Timmermann 2010; Andrade et al. 2016). It is confirmed in our BCFF data, which contain substantial variation across both forecasters and horizons, as documented in Online Appendix Table A.1. Importantly, our estimation framework does not require that forecasts are rational, which would be at odds with a large literature documenting biases, overconfidence, strategic incentives, and other deviations from rational expectations in survey forecasts (Bordalo et al. 2020; Angeletos, Huo, and Sastry 2021).
+
+The second assumption is that economic forecasts are determined independently of any expected future monetary policy shock, 
+⁠. This assumption is unlikely to hold exactly, and some endogeneity bias, arising from the perceived effects of monetary policy shocks on output, could affect our estimates. This problem afflicts most empirical work on monetary policy rules.6 Endogeneity bias may be less severe in our context because the framing of the BCFF explicitly asks forecasters about the macroeconomic assumptions underlying their rate forecasts. Consistent with this view, the empirical results in Sections III and IV.A suggest that our estimates indeed capture a perceived policy rule and that endogeneity bias is likely small or at least stable over time. To the extent that any bias is stable over time, it does not affect our main results, which concern time variation in the perceived rule. Section VI shows that bias correction leads to very similar results.
+
+The third assumption is that policy-rate forecasts are made according to the policy rule in equation (1). Since Taylor (1993), extensive empirical evidence shows that this type of simple rule accurately captures the Fed’s policy rate.7 This assumption is supported by the fact that the simple policy rule fits the data well. The average 
+ of regression (2) across surveys is 70% with forecaster fixed effects and 33% without fixed effects. In Section VI we consider the consequences of relaxing this assumption. First, the policy rule could depend on factors beyond the output gap and inflation. We show that including forecasts of credit spreads in the policy rule has little effect on the estimated output-gap coefficients. Second, there is likely heterogeneity across forecasters in their beliefs about the policy rule. If forecasters have different coefficients 
+ and 
+⁠, our baseline estimation with common coefficients will recover the averages of the perceived monetary policy reaction coefficients across forecasters if disagreement about the policy rule is independent of disagreement in output-gap and inflation forecasts. Section VI also shows that accounting for belief heterogeneity in different ways leads to estimates with time-series variation that is similar to our baseline 
+⁠.
+
+Fourth, we assume that forecasters view the policy-rule parameters as highly persistent. Formally, 
+⁠, 
+⁠, 
+⁠, and 
+ are assumed to follow martingales, so that their changes are unpredictable.8 This martingale assumption is standard in time-varying parameter models (Primiceri 2005). For 
+ and 
+⁠, the martingale property naturally follows from their definition as long-run macroeconomic trends (Laubach and Williams 2003; Bauer and Rudebusch 2020). As a result, the intercept in regression (2), 
+⁠, differs across forecasters but not across horizons and can be captured with forecaster fixed effects. It is important to account for this type of heterogeneity given the existing evidence for long-run disagreement (Patton and Timmermann 2010; Andrade et al. 2016).
+
+Much theoretical and empirical research has documented the relevance of interest-rate smoothing and policy gradualism (e.g., Woodford 2003b; Bernanke 2004; Taylor and Williams 2010). We therefore consider the possibility that policy follows an inertial rule:
+
+ 
+ 
+(3)
+where 
+ is the time-varying “inertia parameter” that determines the extent to which the last quarter’s policy rate affects the current policy rate, and the coefficients 
+ and 
+ are the short-run responses of monetary policy to inflation and the output gap. To estimate the perceived inertial rule we simply augment regression (2) with the funds rate forecast for the preceding quarter:
+
+ 
+ 
+(4)
+For 
+ we use the actual fed funds rate that was observed in the previous quarter for 
+⁠. The forecaster fixed effect, 
+⁠, again absorbs disagreement about long-run real rates and long-run inflation. The estimated coefficients in equation (4) capture the perceived short-run policy responses to inflation and the output gap, whereas the baseline estimates from regression (2) represent perceived medium-run reaction coefficients, in line with the BCFF forecast horizon of up five quarters.9
+
+II.C. Perceived Baseline Policy Rule
+Figure I plots the time series of the estimated perceived policy rule from our baseline specification regression (2). The top panel shows the perceived output-gap coefficient, 
+⁠, which has a sample average around 0.5, in line with conventional empirical estimates of policy rules (Taylor 1993; Clarida, Galí, and Gertler 2000). The estimated series exhibits a striking amount of variation, ranging from 0 to 1.5, that can be linked to the monetary policy cycle. The tight confidence intervals, based on standard errors that are clustered by both horizon and forecaster, show that the perceived parameters are estimated precisely, due to the large amount of information in each monthly panel of survey forecasts.
+
+Parameter Estimates for the Baseline Policy Rule
+Figure IParameter Estimates for the Baseline Policy Rule
+Estimated policy-rule coefficients for the output gap, 
+⁠, and inflation, 
+⁠. Blue lines (color version available online) show estimates of perceived policy rules from month-by-month panel regression (2) with forecaster fixed effects, estimated from Blue Chip Financial Forecast surveys from January 1985 to May 2023. We base 95% confidence intervals (shaded) on standard errors with two-way clustering by forecasters and horizon. Black lines show estimated historical policy rules using a seven-year estimation window of monthly observations for the federal funds rate, the output gap, and four-quarter CPI inflation.
+
+Open in new tabDownload slide
+Before and during monetary tightenings—for instance, in the mid-1990s, between 2003 and 2005, and around liftoff from the ZLB in 2015 and in 2022—
+ tends to be high, indicating that the rate outlook is perceived to be strongly related to the economic outlook. During these episodes the Fed is viewed as highly data-dependent, consistent with Fed communication at the time. Examples include speeches from all three recent Fed Chairs Bernanke, Yellen, and Powell, such as Yellen (2015)’s repeated emphasis that “policy will depend on ... incoming data.” The Fed also provided explicit forward guidance that led forecasters to expect rate hikes, for example, in 2004 and before each liftoff.10
+
+By contrast, before and during monetary easings, 
+ is typically low, as forecasters see little connection between the rate outlook and the economic outlook. These episodes are often marked by elevated financial stress, such as during the dot-com bust in 2001 and the failure of Lehman Brothers in 2008. At such times, the Fed likely pays attention to a broader set of indicators, including financial conditions, that are informative about economic risks in real time. As a result, the Fed’s decisions may appear more discretionary and less rules-based during these periods. In addition, the Fed may take a “risk management approach,” cutting rates before the economic outlook deteriorates too much.11 Strong forward guidance at the ZLB, such as the announcement in September 2011 that the Fed would keep rates near zero “at least through mid-2013,” led to a particularly sharp disconnect between expectations of rates and economic conditions, essentially pinning 
+ at zero.12 Our results show that there is an asymmetry between easing and tightening episodes, consistent with financial market evidence that rate cuts are more often surprising than rate hikes (Cieslak 2018; Schmeling, Schrimpf, and Steffensen 2022).
+
+Figure I also compares the perceived rule to an estimate of the historical policy rule, obtained from rolling regressions of the fed funds rate on inflation (annual percent change in the CPI) and the output gap (percent deviation of real GDP from CBO potential output). We use a seven-year rolling window, long enough to allow for relatively precise estimates but short enough to uncover time variation in the rule’s parameters.13 Until 2008, the output-gap coefficients in the perceived and historical rules exhibit broadly similar patterns, and their correlation is 0.5. But after 2008, the historical and perceived rules diverge, illustrating the value of our approach. For instance, the perceived coefficient, 
+⁠, immediately captures the Fed’s forward guidance in 2011 and plummets to zero, while the output-gap coefficient in the historical policy rule barely budges. It only drops to zero several years later in 2015. However, by this time the Fed was already engaged in “data-dependent” tightening, as captured by the rise in 
+⁠. These differences arise because the historical rule is necessarily backward-looking, while our survey-based perceived rule is forward-looking.14
+
+The perceived inflation coefficient 
+⁠, shown in the bottom panel of Figure I, fluctuates around zero and is positive only over the first few years and at the very end of our sample. This pattern contrasts with typical empirical and optimal policy rules, which feature an inflation coefficient greater than one and satisfy the “Taylor principle.” The reason is that over most of our sample period, inflation was low and stable, hovering near the Fed’s inflation target. As noted by Clarida, Galí, and Gertler (2000), with limited variability in inflation, the estimated policy-rule coefficient may well be low and “one might mistakenly conclude that the Fed is not aggressive in fighting inflation” (p. 143) even if the central bank is in fact committed to stable inflation. The low estimates of 
+ also reflect the fact that BCFF collects forecasts for headline CPI inflation, which mostly capture short-run, transitory fluctuations in inflation that are of little relevance for monetary policy. This explains why the 
+ estimates are volatile and even occasionally turn negative.15
+
+We interpret 
+ as a summary measure of “perceived Fed responsiveness” and focus on this estimate in our subsequent analysis. This interpretation is supported by the fact that in the pre-COVID period—the first 35 years of our sample—the U.S. economy was affected mainly by demand shocks. As a result, the perceived output-gap coefficient 
+ summarizes the Fed’s overall responsiveness to economic conditions. Intuitively, the Fed is expected to react to changes in the output gap partly because it also summarizes demand-driven inflationary pressures.
+
+We interpret variation in 
+ as changes in the beliefs about the Fed’s policy rule. Because our estimates are forward-looking, an alternative interpretation is that these changes reflect shifting beliefs about future regime changes in monetary policy (Bianchi 2013; Bianchi, Ludvigson, and Ma 2023). Both ways of modeling changes in monetary policy—time-varying parameters or discrete policy regimes—have long traditions. We assume continuously evolving parameters in the perceived policy rule because this is a simple and tractable way to capture changing perceptions about monetary policy in our empirical analysis and our learning model in Section V.
+
+II.D. Perceived Inertial Policy Rule
+Figure II shows the estimated coefficients for the perceived inertial policy rule. We again superimpose historical policy-rule coefficients from rolling-window regressions, in this case including a three-month lag of the funds rate as in equation (3).
+
+Parameter Estimates for the Inertial Policy Rule
+Figure IIParameter Estimates for the Inertial Policy Rule
+Estimated policy-rule coefficients for the output gap, 
+⁠, inflation, 
+⁠, and the one-quarter lagged interest rate, 
+⁠. Blue lines show estimates of perceived policy rules from month-by-month panel regression (4) with forecaster fixed effects, estimated from Blue Chip Financial Forecast surveys from January 1985 to May 2023, with shaded areas for 95% confidence intervals based on standard errors with two-way clustering (by forecasters and horizon). Black lines show estimated historical policy rules using a seven-year estimation window of monthly observations for the federal funds rate, the output gap, and four-quarter CPI inflation.
+
+Open in new tabDownload slide
+The coefficients of the perceived inertial rule, shown in Figure II, show broadly similar patterns as those for the baseline rule in Figure I. The inertial-rule coefficients are naturally smaller in magnitude because they capture the perceived short-run policy response, while the baseline rule captures the response over a medium-run horizon. Similar to our results above, there are substantial cyclical shifts in the perceived output-gap coefficient 
+⁠. These shifts are generally consistent with those in the historical policy rule before 2008, but differences arise thereafter due to the forward-looking nature of our survey-based estimates.
+
+The bottom panel of Figure II shows that 
+ trends up over our sample period: the average is 0.6 before 2000 and 0.9 thereafter. This pattern is consistent with other evidence that the Fed has become more gradual and forward guidance more important (Coibion and Gorodnichenko 2012; Bianchi, Ludvigson, and Ma 2023; Pflueger 2023). At the same time, the inertial 
+ becomes more compressed relative to the baseline 
+⁠, indicating that there is less variation in the perceived short-run responses of monetary policy than in the perceived medium-run responses in the second half of the sample. In light of this wedge, one might expect baseline 
+ to be more relevant for long-term asset prices.
+
+The inflation coefficient 
+ again varies mostly around zero, with an important exception: over the last year of our sample, 
+ rose sharply, due to the surge in inflation and the corresponding monetary policy response. This pattern is more evident in the inertial than the baseline estimates because in 2023 inflation was expected to gradually decline.
+
+II.E. Cyclical Variation
+To document systematic variation in the Fed’s perceived responsiveness, Table I reports univariate regressions of 
+ on cyclical variables. Results for the baseline rule are in the top panel, and results for the inertial rule are in the bottom panel. Although these regressions do not speak to causality, they suggest which factors could drive variation in the perceived rule.
+
+
+TABLE IOpen in new tabCyclical Variables and the Perceived Monetary Policy Rule
+Slope	Tightening	Unemployment	ZLB	VIX
+(12 m lag)	dummy	rate	dummy	
+Panel A: Baseline 
+ Coefficient	0.12
+0.14
+(0.03)	(0.08)	(0.02)	(0.11)	(0.00)
+ Intercept	0.20
+0.39
+0.54
+0.46
+0.72
+(0.06)	(0.05)	(0.14)	(0.05)	(0.09)
+ 
+0.18	0.04	0.01	0.03	0.12
+Panel B: Inertial 
+ Coefficient	0.04
+0.05	
+(0.01)	(0.04)	(0.01)	(0.03)	(0.00)
+ Intercept	0.10
+0.16
+0.20
+0.20
+0.32
+(0.03)	(0.02)	(0.05)	(0.02)	(0.05)
+ 
+0.07	0.02	0.00	0.08	0.14
+N	460	460	460	460	448
+Notes. Regressions of 
+ on cyclical variables in monthly data from January 1985 to May 2023. The top panel shows results for the baseline rule equation (2), and the bottom panel for the inertial rule equation (4). Regressors are the slope of the yield curve measured as the second principal component of Treasury yields from Gürkaynak, Sack, and Wright (2007), lagged by 12 months; a tightening dummy for the months from the first to the last change in the fed funds rate of monetary tightening cycles; the unemployment rate; a ZLB dummy for zero lower-bound periods; and the VIX, that is, CBOE Volatility Index from 1990 onward and S&P 100 Volatility Index 1986–1989. Regressions use a one-month lead of 
+ to account for the publication lag. Newey-West standard errors using 12 lags are in parentheses. * p < .10, ** p < .05, *** p < .01.
+
+The first two columns show that 
+ tends to be high during the tightening portion of a monetary policy cycle. The slope of the yield curve reflects the expected path of future policy rates, and a positive slope anticipates monetary tightening, while a flat or inverted yield curve predicts monetary easing and typically a recession.16 We find a strong positive correlation between 
+ and the slope. The correlation is even stronger for the lagged slope—which is intuitive since the yield curve is often upward-sloping well before the onset of the tightening cycle—thus the slope is lagged by one year in the regression in Table I. The second column uses a dummy variable for monetary tightening cycles, which is equal to one from the first to the last month with an increase in the fed funds rate during the cycle. Although the coefficient is statistically significant only for the baseline rule, the estimates generally confirm that 
+ tends to be elevated during tightening cycles.
+
+While the perceived policy rule shifts with monetary policy, it has no clear relationship with the business cycle. Table I shows that 
+ is unrelated to the unemployment rate, and we have found similar results for various other indicators of economic activity, including NBER recession dummies.
+
+The fourth column shows that the Fed is perceived to be somewhat less responsive to economic conditions during ZLB periods than non-ZLB periods, though only the negative coefficient on inertial 
+ is statistically significant. ZLB periods mix two kinds of episodes: when the Fed gave strong forward guidance for continued near-zero policy rates, as it did from September 2011 until 2013, funds rate forecasts are close to zero for all horizons in the BCFF data, so 
+ is essentially zero as well. But before liftoff from the ZLB—and also between 2009 and September 2011 when the Fed was mistakenly expected to lift off soon—
+ is elevated.17
+
+The last column of Table I shows that the Fed’s perceived responsiveness to economic data tends to be lower when financial market uncertainty, here measured by the VIX, is high. In additional analysis we find similar patterns for various other measures of financial and macroeconomic uncertainty, including the uncertainty measures of Jurado, Ludvigson, and Ng (2015). These findings suggest that the Fed is viewed as less data-dependent during easing episodes because elevated uncertainty and financial stress render standard economic data less informative about the true state of the economy.18
+
+One might be concerned that misspecification of the policy rule is driving some of the time variation we document. Perhaps a more comprehensive perceived rule—including many more factors potentially important to Fed decisions—would lead to more stable perceived coefficients. But the empirical policy rules prominent in the literature tend to be simple and parsimonious. They provide a natural benchmark for our estimation of forward-looking rules and to assess how monetary policy perceptions vary over time. For robustness, we analyze our baseline and inertial rule estimates throughout the article. In Section VI we consider alternative specifications, for example, including credit-spread forecasts.
+
+In sum, perceptions about monetary policy exhibit substantial time variation related to easing and tightening cycles, forward guidance, and economic and financial uncertainty. Although the cyclical variables in Table I jointly explain a meaningful fraction of the variation in 
+⁠, a large share of this variation remains unexplained. We turn to understanding changes in the perceived monetary policy rule in response to new information.
+
+III. The Perceived Rule and Monetary Policy Surprises
+Do forecasters revise their perceived monetary policy rule in response to actual Fed decisions? The analysis in this section shows that they do. Perceptions respond to monetary policy surprises in a manner consistent with the idea that forecasters have imperfect information about the policy rule and learn from observed policy decisions.
+
+Following common practice, we measure monetary policy surprises as high-frequency rate changes around FOMC announcements, based on the assumption that these rate changes are mainly due to the announcement itself (e.g., Gürkaynak, Sack, and Swanson 2005; Nakamura and Steinsson 2018). If market participants do not have full information about the policy rule, these surprises can arise not only from monetary policy shocks but also from differences between the perceived and actual Fed response to macroeconomic data (Bauer and Swanson 2023a, 2023b).19 In this case, beliefs about the policy rule should respond to surprises in a state-contingent manner: a tightening surprise in an economic boom suggests that the Fed cares even more about output than previously believed, so this kind of surprise should lead to an increase in 
+⁠. By contrast, a tightening surprise during a recession would signal less Fed concern with output stabilization, so forecasters should tend to revise downward 
+⁠. This logic is formalized in our model in Section V.
+
+We empirically investigate belief updating by estimating the dynamic response of 
+ to monetary policy surprises using state-dependent local projections (Jordà and Taylor 2016; Ramey and Zubairy 2018). We use the high-frequency surprise measure of Bauer and Swanson (2023b), the first principal component of 30-minute changes in Eurodollar futures rates around FOMC announcements, which captures changes in policy-rate expectations, and thus forward guidance, over a horizon of about a year. The surprise is normalized to have a unit effect on the four-quarter-ahead Eurodollar futures rate, measured in percentage points. The monthly monetary policy surprise, 
+⁠, sums up announcement surprises and equals zero in months without announcements. We estimate local projections
+
+ 
+ 
+(5)
+where the indicator variable 
+ equals one when the output gap is below its median and zero otherwise, capturing episodes when the economy is growing slowly and resource slack is high. The regressions control for lagged 
+ to account for serial correlation in the perceived policy-rule coefficient. We estimate equation (5) over the entire sample for 
+⁠, from January 1985 to May 2023. There are 323 announcement surprises from February 1988 to December 2019, and we set 
+ to zero when no policy surprises are available.
+
+The impulse responses in Figure III show that 
+ responds to monetary policy surprises in a state-contingent way, consistent with the idea that forecasters learn about the monetary policy rule from actual Fed decisions. The top panels plot estimates of 
+ against h and document that there is a pronounced and persistent positive response of 
+ to monetary policy surprises when the economy is strong. The responses peak between six and nine months and are statistically significant for several horizons, judging by the 95% confidence bands. In line with our hypothesis, the picture reverses in the bottom panels, which show persistently negative responses when the economy is weak. The responses for the inertial rule parameter, shown in the top right and bottom right panels, are similar and estimated somewhat more precisely.20
+
+The Response to a High-Frequency Monetary Policy Surprise
+Figure IIIThe Response to a High-Frequency Monetary Policy Surprise
+State-dependent local projections for 
+⁠, using regressions 
+ where 
+ is the monetary policy surprise, and 
+ is an indicator for whether the output gap during month t was below the sample median. The top panels show estimates of 
+⁠, and the bottom panels show estimates of 
+⁠. Estimates in the left panels use the baseline estimate of 
+⁠, and the estimates in the right panels use the inertial-rule estimate. Shaded areas are 95% confidence bands based on Newey-West standard errors with 
+ lags. Sample: monthly data from January 1985 to May 2023.
+
+Open in new tabDownload slide
+The magnitudes in Figure III are economically meaningful relative to the standard deviations of baseline 
+ (0.3) and inertial 
+ (0.15). A 1 percentage point monetary policy surprise leads to an increase in 
+ of roughly 0.7 in a strong economy. The same monetary policy surprise is estimated to lead to a somewhat larger decline in 
+ in a weak economy. A simple back-of-the-envelope calculation in Section V, based on the model presented there and the magnitudes of these impulse responses, suggests that about 50% of the variation in monetary policy surprises is due to incomplete information about the policy rule.
+
+The evidence in this section is closely related to recent work by Bauer and Swanson (2023a, 2023b), who argue that market participants have incomplete information about the monetary policy rule and that misperceptions about the rule can explain the predictability of high-frequency monetary policy surprises. Our evidence is consistent with this view, but goes further by showing how professional forecasters update their beliefs in response to FOMC actions. In other words, Bauer and Swanson emphasize that the gap between 
+ and 
+ is an important driver of monetary policy surprises, while we provide evidence that these surprises lead to changes in beliefs, captured by 
+⁠.
+
+The evidence in Figure III for a state-dependent response of 
+ to monetary policy surprises is consistent with learning about the policy rule. As our model in Section V shows, the direction of the belief update depends on the sign of the output gap. After a hawkish policy surprise, 
+ increases in a strong economy and decreases in a weak economy. Under rational learning, the updating should be immediate. The gradual responses as in Figure III may emerge if forecasters are overconfident about their own signal about 
+ and underreact to information contained in monetary policy surprises. Overall, our evidence supports the view that the Fed’s true monetary policy rule is at least partly unknown and the public learns about the rule from the FOMC’s actions.
+
+IV. Transmission to Financial Markets
+Having characterized time variation in the perceived monetary policy rule, we show that it affects the key asset prices that transmit monetary policy to the real economy: short- and long-term interest rates, as well as stock prices.
+
+IV.A. Interest Rate Responses to Macroeconomic News Surprises
+This section examines the sensitivity of interest rates to macroeconomic news. Event studies using narrow windows around macroeconomic announcements have previously been used to identify the effects of monetary policy on financial markets by Hamilton, Pruitt, and Borger (2011) and Swanson and Williams (2014), among others. Our contribution is to document a connection between the sensitivity of financial markets to macroeconomic news and the perceived monetary policy rule, as captured by 
+⁠.
+
+To investigate this connection, we estimate event-study regressions
+
+ 
+ 
+(6)
+where 
+ is the change in an interest rate on announcement date t and 
+ is a macroeconomic announcement surprise, that is, the value of the macroeconomic data release minus the consensus expectations for this data release before the day of the announcement. A positive interaction coefficient 
+ indicates that interest rates are more sensitive to macro news at times when the Fed is perceived to be more responsive to economic conditions.
+
+Regression (6) is closely related to the empirical setup of Swanson and Williams (2014), who also document time variation in the high-frequency responses of financial market variables to macroeconomic news announcements. Like them, we rely on the identification assumption that the information released in a narrow interval around a macro announcement is primarily about the macroeconomy, and that the interest rate response reflects the anticipated monetary policy reaction. Swanson and Williams (2014) allow the magnitude of the response to vary over time in an unrestricted fashion, investigating shifts during the ZLB period. By contrast, we directly tie variation in the sensitivity of interest rates to news to our estimates of the perceived monetary policy rule with the interaction effect 
+⁠. In this way, we assess whether our survey-based estimates of the perceived policy rule, 
+⁠, are consistent with changes in the sensitivity of financial market prices to macroeconomic news.
+
+Table II reports estimates of equation (6) for four different interest rates: Three-month and six-month federal funds futures rates and 2-year and 10-year Treasury yields. Fed funds futures measure policy-rate expectations over the near term, and Treasury yields capture longer-term expectations. The left four columns in Table II use the single most influential macroeconomic announcement, nonfarm payrolls surprises, as 
+⁠. The right four columns use a linear combination of all macroeconomic surprises used by Swanson and Williams (2014), the fitted values from a regression of high-frequency interest rate changes on all these macro news. In Table II, Panel A reports results for the baseline estimate of 
+⁠, and Panel B uses the inertial estimate. The sample starts in 1990, when our macro news data begins, and ends in May 2023.21
+
+
+TABLE IIOpen in new tabSensitivity of Interest Rates to Macroeconomic News
+News: Nonfarm payrolls	News: All announcements
+3 m FF	6 m FF	2 y Tsy	10 y Tsy	3 m FF	6 m FF	2 y Tsy	10 y Tsy
+Panel A: Baseline 
+ 
+0.003	0.004
+0.002	0.000	0.003	0.004	0.003	0.001
+(0.002)	(0.002)	(0.003)	(0.003)	(0.002)	(0.002)	(0.003)	(0.003)
+ Z	0.001	0.001	0.001	0.004
+0.84
+0.84
+0.76
+0.79
+(0.001)	(0.001)	(0.001)	(0.001)	(0.21)	(0.17)	(0.14)	(0.15)
+ 
+0.21
+0.36
+0.45
+0.33
+0.46	0.48	0.69
+0.58
+(0.03)	(0.04)	(0.05)	(0.05)	(0.39)	(0.32)	(0.25)	(0.27)
+ Intercept	−0.001	−0.001	−0.003	−0.002	−0.001	−0.002	−0.001	0.000
+(0.001)	(0.001)	(0.002)	(0.002)	(0.001)	(0.001)	(0.002)	(0.002)
+ 
+0.03	0.05	0.06	0.03	0.03	0.04	0.05	0.03
+Panel B: Inertial 
+ 
+0.007	0.004	0.001	0.000	0.006	0.002	0.003	0.002
+(0.004)	(0.006)	(0.006)	(0.007)	(0.005)	(0.006)	(0.007)	(0.008)
+ Z	−0.002	−0.003	−0.002	0.002	0.59
+0.61
+0.65
+0.72
+(0.002)	(0.002)	(0.003)	(0.002)	(0.19)	(0.14)	(0.12)	(0.14)
+ 
+0.48
+0.72
+0.86
+0.58
+2.89
+2.85
+2.62
+2.03
+(0.08)	(0.08)	(0.09)	(0.10)	(0.91)	(0.78)	(0.54)	(0.65)
+ Intercept	−0.001	0.000	−0.002	−0.002	−0.001	0.000	0.000	0.000
+(0.001)	(0.001)	(0.001)	(0.002)	(0.001)	(0.001)	(0.001)	(0.002)
+ 
+0.03	0.05	0.05	0.02	0.03	0.05	0.05	0.03
+Notes. Estimates of the regression 
+⁠, where 
+ is the interest rate change on days with macroeconomic announcements, expressed in percentage points, and 
+ is either the (standardized) surprise in nonfarm payrolls or a macro news aggregate that captures all announcements. Following Swanson and Williams (2014), we compute the news aggregate as the fitted value of a regression of the interest rate change on all macro news. Robust standard errors are reported in parentheses. The sample consists of all 3,984 days with macro announcements between January 1990 and April 2023. * p < .10, ** p < .05, *** p < .01.
+
+The results in Table II show that our coefficient of interest, 
+⁠, is uniformly positive and statistically significant across almost all combinations of interest rates, macroeconomic news, and estimates of 
+⁠. That is, interest rates respond more strongly to macroeconomic news when the Fed is perceived to be more responsive to macro data. This result conforms with intuition: the same news about output leads markets to expect a larger change in future policy rates when the Fed is perceived to be more sensitive to output. The model in Section V formalizes this argument.22
+
+The magnitudes of the interaction effects are also economically significant. Note that the 95th percentile of baseline 
+ is about 1, and the 95th percentile of inertial 
+ is about 0.5; the 5th percentiles of both series are about zero. The estimates in Table II suggest that interest rates do not respond to nonfarm payrolls surprises when 
+ is zero, and respond strongly when 
+ is positive. Panel A shows that when baseline 
+ equals one, a one standard deviation nonfarm payrolls surprise raises interest rates by 20–45 basis points. The estimates for all macroeconomic announcements show that the sensitivity of interest rates to macro news doubles and sometimes triples as 
+ changes from its 5th to 95th percentiles.
+
+Overall, Table II documents the connection between 
+ and the sensitivity of interest rates to macro news, showing that our survey-based perceived policy rule is consistent with the “market-perceived monetary policy rule” (Hamilton, Pruitt, and Borger 2011). This evidence also alleviates endogeneity concerns that our estimates of 
+ might be influenced by the perceived endogenous response of output to monetary policy shocks. If changes in 
+ were primarily driven by this endogenous response, the sensitivity of interest rates to macro news should be unrelated to 
+ because macroeconomic data cannot respond to policy rates within narrow announcement windows. That the impact of macro news on interest rates scales up with 
+ suggests that we are indeed capturing the perceived monetary policy rule.
+
+IV.B. Term Premia in Long-Term Interest Rates
+In this section, we show that term premia in long-term bonds vary with monetary policy perceptions. This finding has important implications for monetary policy transmission because longer-term interest rates significantly influence aggregate spending and output. Term premia are often viewed as independent of conventional monetary policy, but recent work in macro-finance has questioned this view (e.g., Hanson and Stein 2015; Song 2017; Drechsler, Savov, and Schnabl 2018). Our evidence supports a direct link between term premia and the perceived monetary policy rule.
+
+Standard asset-pricing logic suggests that 
+ should be inversely related to term premia in long-term bonds. Assets that have higher payoffs in bad states of the world—when agents have higher marginal utility—should be more valuable and therefore command lower expected returns. With a higher perceived monetary policy coefficient 
+⁠, interest rates are expected to fall more during a recession, and bond prices are expected to rise more. Thus, when 
+ is high, bonds are perceived to be better hedges and should have lower expected returns and term premia.23 The model in Section V formalizes this prediction.
+
+To investigate this prediction, we use survey expectations of future interest rates to construct subjective expected excess returns on long-term bonds. We prefer this measure over realized bond excess returns for two reasons. First, realized returns are a noisy realization of expected returns. Second, because our focus is on subjective perceptions, we want to allow for discrepancies between full information rational expectations and subjective expectations, which recent work has documented to be empirically important for bond returns.24
+
+We construct subjective expected one-year excess returns for par Treasury bonds following Piazzesi, Salomao, and Schneider (2015). The expected 12-month-ahead par yield on an n-year Treasury bond, 
+⁠, is approximated using the consensus BCFF forecast at the four-quarter forecast horizon. The log excess return on a par bond is:
+
+ 
+ 
+(7)
+where 
+ denotes the one-year zero-coupon yield and 
+ is the duration of a par bond with maturity 
+ years (Campbell 2017, 236–237). Since we have forecasts for 5- and 10-year yields, we calculate expected one-year returns for bond maturities of 6 and 11 years. Blue Chip forecasters are required to submit their responses at the end of the previous month, so for consistency we use observed yields from the last trading day of that month. We regress these subjective risk premia on contemporaneous 
+ and controls, for example,
+
+ 
+ 
+(8)
+where the term spread, 
+⁠, is defined as the difference between 10-year and 1-year zero-coupon Treasury bond yields.
+
+Table III, Panel A reports results for the baseline estimate of 
+⁠. The first column shows a negative and statistically significant relationship with the subjective term premium on the six-year bond. The estimated coefficient is economically large: when baseline 
+⁠, the expected bond excess return is almost 2 percentage points lower than when 
+⁠.
+
+
+TABLE IIIOpen in new tabTerm Premia
+Panel A: Baseline 
+ 
+(0.55)	(0.61)	(0.37)		(1.24)	(1.31)	(0.55)
+ TERM		0.32*				0.51	
+(0.19)				(0.34)	
+ 
+0.12	0.16	0.61		0.09	0.12	0.61
+Panel B: Inertial 
+ 
+1.06	1.10	
+1.69	1.76	
+(1.24)	(1.14)	(0.74)		(2.37)	(2.21)	(1.50)
+ TERM		0.18				0.28	
+(0.19)				(0.33)	
+ 
+0.01	0.02	0.46		0.01	0.02	0.52
+PCs	No	No	Yes		No	No	Yes
+Notes. Regressions of subjective expected log excess returns on 6-year and 11-year nominal Treasury bonds over 12-month holding periods on baseline 
+ (Panel A) and inertial 
+ (Panel B) and yield curve variables. 
+ is the spread between the 10-year and 1-year zero-coupon nominal Treasury yields. If indicated, regressions control for the first three principal components (PCs) of Treasury yields. Coefficients on the constant and the three PCs are omitted. Sample: 425 monthly observations from December 1987 to May 2023. Newey-West standard errors with automatic lag selection (between 19 and 28 months) are in parentheses. * p < .10, ** p < .05, *** p < .01.
+
+Since the slope of the yield curve is correlated with 
+ (see Section II.E), we control for information in the yield curve in columns (2) and (3). The term spread enters only marginally significantly in column (2), consistent with the findings in Nagel and Xu (2023). In the third column, we control for the first three principal components of Treasury yields with maturities 1, 2, 5, 7, 10, 15, and 20 years. Naturally, including this yield curve information increases the 
+ but leaves the coefficient on 
+ largely unchanged. The remaining three columns in Panel A report similar results for the expected 1-year excess returns on 11-year Treasuries.
+
+Table III, Panel B shows results for the inertial estimate of 
+⁠. In the specifications that include the first three principal components of yields, the coefficient of interest is also negative and statistically significant at the 1% level, as in Panel A. For the other two specifications, however, the coefficient on 
+ is not statistically significant. This is consistent with the idea that the inertial 
+ captures the perceived short-run response of interest rates to the economy, whereas term premia depend on the longer-term behavior of interest rates, which is better captured by baseline 
+⁠.25
+
+While we focus on subjective term premia, there is a long tradition of estimating statistical term premia using predictive regressions for excess bond returns (e.g., Campbell and Shiller 1991; Cochrane and Piazzesi 2005; Bauer and Hamilton 2018). Online Appendix E.1 shows that the perceived output-gap coefficient, 
+⁠, predicts realized bond excess returns with a negative sign, controlling for the usual predictors including the shape of the yield curve.
+
+In sum, our evidence shows that the perceived policy rule is negatively related to both subjective and statistical bond term premia. The results are consistent with standard asset-pricing logic: investors perceive bonds to be better hedges when they view the Fed as being more responsive to economic conditions. Our model in Section V formalizes this intuition and rationalizes these empirical results.
+
+IV.C. Bond Market Responses to Monetary Policy Surprises
+The link we document in Section IV.B between the perceived monetary policy rule and term premia has additional implications when combined with our results on belief updating from monetary policy actions in Section III: monetary policy actions can affect term premia by changing beliefs about the policy rule.
+
+The “Greenspan conundrum” is an illustrative example. During the monetary tightening of 2004–2005, the Fed raised the policy rate, but long-term yields stayed flat or even decreased. The Greenspan conundrum is often attributed to a decline in term premia (e.g., Backus and Wright 2007), and our results suggest that shifting perceptions of the policy rule may have driven this decline. In particular, our results show that tightening episodes shift beliefs about the policy rule, raising the Fed’s perceived responsiveness, 
+⁠. As a consequence, term premia tend to fall, mitigating or even reversing the rise in long-term yields.
+
+More broadly, since updating about the monetary policy rule from policy rates depends on the state of the economy, our results suggest that the response of long-term bond yields to FOMC announcements should too. Specifically, long-term bond yields should respond more strongly to monetary policy surprises around FOMC announcements when the economy is weak, since term premia move inversely with 
+⁠. We test this hypothesis directly, using event-study regressions similar to Beechey and Wright (2009), Hanson and Stein (2015), and Nakamura and Steinsson (2018), who document that long-term nominal and real interest rates respond strongly to high-frequency monetary policy surprises.
+
+We generalize the regression specification of Hanson and Stein (2015) as follows:
+
+ 
+ 
+(9)
+where each observation is an FOMC announcement. Following Hanson and Stein (2015), the monetary policy surprise proxy, 
+⁠, is the two-day change in the two-year nominal Treasury yield. The dependent variable is the change in either nominal or real long-term Treasury yields or (instantaneous) forward rates, and the sample starts in 1999, when data on real interest rates become reliable. We add an interaction with the indicator variable 
+⁠, defined to equal one when the output gap is below its median as in Section III. Our main interest is in 
+⁠, the coefficient on the interaction 
+⁠, which captures state dependence and is predicted to be positive.
+
+Table IV shows our regression estimates, with results for 5-year bonds in Panel A and 10-year bonds in Panel B. For each dependent variable, we present estimates of the univariate regression with only the policy surprise, for comparability with Hanson and Stein (2015), and for the multivariate regression (9). The first column of Panel A shows that the five-year nominal Treasury yield rises about one for one with the two-year yield around FOMC announcements, but the second column shows that this unconditional estimate masks pronounced state dependence. In a strong economy, a 1 percentage point tightening surprise raises the five-year yield only 85 basis points, whereas in a weak economy, the effect rises to 139 basis points. That is, the effect is about 60% larger in a weak economy. The difference is even larger for the five-year forward rate, where the effect roughly triples (from 46 to 157 basis points). The stronger state dependence of forward rates is consistent with the idea that movements in term premia play an important role. The last four columns of Table IV, Panel A report results for five-year TIPS yields, where the effect of policy surprises on real rates doubles in a weak economy, and for five-year TIPS forward rates, where the effect roughly triples.
+
+
+TABLE IVOpen in new tabSensitivity of Long-Term Rates to Monetary Policy Surprises
+Nominal yield	Nominal forward	TIPS yield	TIPS forward
+Panel A: Five-year maturity	
+ 
+1.08
+0.85
+0.93
+0.46
+0.83
+0.61
+0.89
+0.50
+(0.06)	(0.04)	(0.12)	(0.08)	(0.10)	(0.08)	(0.15)	(0.08)
+ 
+0.00		0.01		−0.01		0.00
+(0.01)		(0.01)		(0.01)		(0.02)
+ 
+0.54
+1.11
+0.56
+0.93
+(0.11)		(0.24)		(0.22)		(0.29)
+ Intercept	0.00	0.00	0.00	−0.01	−0.01	−0.01	−0.00	−0.00
+(0.00)	(0.00)	(0.01)	(0.01)	(0.01)	(0.01)	(0.01)	(0.01)
+ 
+0.75	0.79	0.32	0.43	0.31	0.35	0.25	0.31
+Panel B: Ten-year maturity	
+ 
+0.86
+0.54
+0.44
+0.12	0.71
+0.49
+0.34
+0.25
+(0.09)	(0.07)	(0.11)	(0.11)	(0.08)	(0.07)	(0.14)	(0.10)
+ 
+0.01		0.02		0.00		0.01
+(0.01)		(0.02)		(0.01)		(0.01)
+ 
+0.76
+0.75
+0.53
+0.21
+(0.16)		(0.19)		(0.19)		(0.33)
+ Intercept	0.00	−0.00	0.00	−0.01	−0.00	−0.01	−0.00	−0.01
+(0.01)	(0.01)	(0.01)	(0.01)	(0.01)	(0.01)	(0.01)	(0.01)
+ 
+0.43	0.52	0.09	0.16	0.32	0.36	0.07	0.08
+Notes. Estimates of regressions 
+⁠, where the dependent variable is the two-day change in a nominal/TIPS yield or instantaneous forward rate with maturity 5 years (Panel A) or 10 years (Panel B), 
+ is the two-day change in the two-year nominal Treasury yield, and 
+ is an indicator of whether the output gap is below the median. The sample consists of 170 FOMC announcement dates between January 1999 and April 2023. Robust standard errors are reported in parentheses. * p < .10, ** p < .05, *** p < .01.
+
+For 10-year bonds, the findings are similar, as shown in Panel B. The interaction coefficient is positive in all four multivariate regressions, and, with the exception of only the 10-year real forward rate, statistically significant at the 1% level and large in magnitude. For both nominal and real 10-year yields, the effect of policy surprises on long-term rates more than doubles in a weak economy.
+
+Our evidence clearly shows that a tightening monetary policy surprise increases long-term rates more in a weak economy than in a strong economy. These patterns can be explained by updating about the policy rule, coupled with a connection between the perceived policy rule and term premia. In a weak economy, a tightening surprise indicates to the public that the Fed is less sensitive to output than previously thought, making long-term bonds worse hedges. This in turn causes term premia to rise, which amplifies the response of long-term yields to the surprise. Conversely, in a strong economy, a tightening surprise decreases term premia because the public learns that the Fed is more sensitive to the economy than expected and that long-term bonds are better hedges, dampening the effect on long-term rates.
+
+These results may help explain why long-term bond yields have responded only weakly to interest rate hikes during expansions (the Greenspan conundrum), while they have responded strongly on average after 1999 (Hanson and Stein 2015; Nakamura and Steinsson 2018; Hanson, Lucca, and Wright 2021), which has been dominated by economic weakness and severe recessions. On the whole, our evidence supports the conclusion that perceptions about monetary policy influence term premia in long-term interest rates.
+
+IV.D. Stock Market Responses to Monetary Policy Surprises
+Finally, the perceived monetary policy rule should affect how stock prices respond to monetary policy surprises around FOMC announcements. If the Fed is perceived to better stabilize the output gap—and hence corporate profits and dividends—then stocks should respond less to any well-identified shock, including a high-frequency monetary policy surprise.
+
+Bernanke and Kuttner (2005) documented that monetary tightening surprises are associated with large declines in the aggregate stock market, while easing surprises lead to sizable increases. To examine how this relationship varies with the perceived policy rule, we estimate event-study regressions
+
+ 
+ 
+(10)
+where 
+ is the monetary policy surprise of Bauer and Swanson (2023b), as in Section III. We estimate equation (10) with the stock returns 
+ measured as either the CRSP value-weighted market return on the day of an FOMC announcement, or the intraday return on S&P500 futures from 10 minutes before to 20 minutes after the announcement. The sample starts in February 1988 and ends in December 2019.26
+
+Table V shows the results. In the first three columns, the dependent variable is the CRSP value-weighted return on the day of the announcement. The first column reports the benchmark result without interaction effect: stock returns are strongly negatively related to monetary policy surprises around FOMC announcements. The magnitudes are similar to those reported by Bernanke and Kuttner (2005), with a monetary policy surprise of 100 basis points causing a decline in the aggregate stock market index of 7 percentage points.
+
+
+TABLE VOpen in new tabStock Market Responses to Monetary Policy Surprises
+CRSP daily	S&P500 30-min
+Benchmark	Baseline 
+Inertial 
+Benchmark	Baseline 
+Inertial 
+(1.47)	(2.48)	(1.62)	(0.89)	(1.21)	(1.00)
+0.24
+(0.25)	(0.51)		(0.12)	(0.37)
+10.1
+13.5
+5.41
+9.96
+(4.78)	(5.05)		(1.74)	(3.01)
+Intercept	0.20
+0.23
+0.24
+(0.060)	(0.14)	(0.14)	(0.031)	(0.076)	(0.095)
+0.13	0.15	0.15	0.14	0.16	0.17
+Notes. Regressions of stock market returns on monetary policy surprises, 
+⁠, the estimated output-gap coefficient in the perceived policy rule, 
+⁠, and the interaction of the two. In the first three columns, the dependent variable is the daily return on the CRSP value-weighted index. In the last three columns, the dependent variable is the return on S&P500 futures in the 30-minute window around the monetary policy announcement. The sample includes 316 FOMC announcements between February 1988 and December 2019. Robust standard errors are in parentheses. * p < .10, ** p < .05, *** p < .01.
+
+The next two columns of Table V report estimates of regression (10) for the baseline estimate of 
+ and the inertial rule 
+⁠, respectively. In both regressions, the coefficient on the interaction effect is statistically significant at least at the 5% level. The positive coefficient indicates that at times with high values for 
+⁠, when the Fed is perceived to be highly responsive to economic conditions, the stock market reaction to policy surprises is less pronounced or even absent. To get a sense of the magnitudes, note that when baseline 
+ is one the implied response coefficient 
+ would be near zero, meaning that the stock market does not respond to policy surprises at all. In other words, the negative market response to policy surprises is driven by times when the Fed’s responsiveness to output is perceived to be low. The last three columns show similar but more precisely estimated coefficients for the return on S&P500 futures in a 30-minute window around the announcement as the dependent variable, following Gürkaynak, Sack, and Swanson (2005) and Bauer and Swanson (2023b).
+
+These results are consistent with the standard New Keynesian model, where a more responsive monetary policy rule dampens the volatility of the output gap in response to shocks.27 After a tightening surprise or contractionary policy shock, output and corporate profits are expected to fall, driving down stock prices. If 
+ is high, investors expect the Fed to be more sensitive to output and to lower interest rates relatively sooner to undo the negative effects on the output gap. In this case, a tightening surprise is expected to have smaller effects on future output, and the impact on stock prices today is less severe. On the other hand, when the Fed is perceived to react less to output fluctuations and 
+ is low, the same tightening surprise is expected to last longer, leading to more severe macroeconomic consequences and more negative stock response.
+
+The stock market’s response to FOMC announcements is often interpreted as high-frequency evidence of the real effects of monetary policy, given that stock prices reflect macroeconomic expectations (Bernanke and Kuttner 2005). Our results suggest that shifting perceptions about the monetary policy rule also matter for real economic outcomes. In particular, investors expect monetary policy shocks to more strongly affect economic outcomes at times when the Fed is perceived to be less responsive to the economy.28
+
+V. A Simple Model with Learning and Heterogeneity
+We present a simple model that rationalizes our estimation of the perceived monetary policy rule and explains our empirical findings. The model features incomplete information about both the state of the economy (as in noisy-information models, e.g., Woodford 2003a) and about the Fed’s policy rule (similar to Eusepi and Preston 2010; Cogley, Matthes, and Sbordone 2015; Bauer and Swanson 2023a, 2023b). Forecasters receive idiosyncratic signals about the economy that lead to forecast disagreement. The Fed’s interest rate decisions provide information about its policy rule and cause changes in the perceived rule. The model characterizes the relationship between interest rate and output-gap forecasts, the belief updating in response to monetary policy surprises, the response of interest rates to macroeconomic news, and the properties of term premia in long-term bonds. It also allows us to quantify the importance of uncertainty about the monetary policy rule for high-frequency monetary policy surprises. All proofs are given in Online Appendix F.1.
+
+The policy rate is described by a simple monetary policy rule,
+
+ 
+ 
+(11)
+with i.i.d. monetary policy shocks 
+⁠. The key parameter is the response to the output gap, 
+⁠, which is known by the Fed but not the public. It is time varying and follows a random walk,
+
+ 
+ 
+(12)
+with i.i.d. innovations 
+⁠. For simplicity, the degree of policy inertia 
+ is known and constant. We abstract from the effects of monetary policy on the economy and let the output gap 
+ follow an exogenous AR(1) process,
+
+ 
+ 
+(13)
+with i.i.d. innovations 
+⁠. The shocks 
+⁠, 
+⁠, and 
+ are mutually uncorrelated.
+
+In period 1, the prior belief of forecaster j about the monetary policy rule is given by
+
+ 
+ 
+(14)
+where 
+ denotes the information set including past output gaps and interest rates up to and including time t. All forecasters have the same prior beliefs about the policy rule. We denote beliefs about the policy rule, based on information up to time t, by 
+⁠.
+
+At the beginning of each period, each forecaster observes a noisy signal about the output gap, 
+⁠, where 
+ is i.i.d. across t and j. The signals lead to disagreement in output-gap forecasts 
+⁠. Forecasters then use the perceived policy rule to make interest rate forecasts, 
+⁠. In our model, output-gap forecasts are rational, but similar results would obtain in the presence of under- or overreaction, strategic incentives, or other biases (Bordalo et al. 2020; Angeletos, Huo, and Sastry 2021), as long as forecasters form policy-rate forecasts consistent with their perceived policy rule.
+
+Next all forecasters observe the output gap 
+⁠, similar to a macroeconomic announcement in the data. At the end of period t, the Fed sets the policy rate 
+ based on the policy rule, similar to an FOMC announcement. In response to the interest rate decision, forecasters update their beliefs about the policy rule, captured by 
+⁠.
+
+In our baseline specification, forecasters update about the policy-rule parameter as rational Bayesians, but we can allow for nonrational updating due to overconfidence. Building on the model of belief misspecifications of Angeletos, Huo, and Sastry (2021), we assume that forecasters perceive the variance of the monetary policy shock to be 
+ 
+ when it is actually 
+⁠. If 
+⁠, forecasters are effectively overconfident, overweighting their own private prior relative to the public signal contained in the policy rate in the spirit of Bordalo et al. (2020).
+
+Lemma 1 shows that the perceived monetary policy rule can be recovered from a forecaster-horizon panel.
+
+ 
+Lemma 1 (Period-by-Period Panel Regression).
+In the panel regression of time t policy-rate forecasts on time t output-gap forecasts with forecaster fixed effects
+ 
+ 
+the regression coefficient 
+ is a consistent estimate of 
+⁠.
+
+Our empirical strategy in Section II builds on the insight from Lemma 1 that the perceived coefficient 
+ can be estimated with a panel regression using forecasts made at t.
+
+Lemma 2 describes how forecasters update their perceptions of the monetary policy rule. We use 
+ to denote average or “consensus” expectations across all forecasters j.
+
+ 
+Lemma 2 (Policy Surprises and Belief Updating).
+The monetary policy surprise is
+ 
+ 
+(15)
+and forecasters update their policy-rule belief 
+ according to
+ 
+ 
+ 
+ 
+ 
+(16)
+Lemma 2 shows how the monetary policy surprise, 
+⁠, conveys information about the actual rule 
+⁠. In the absence of monetary policy shocks, we would have 
+ 
+ and thus 
+ could be learned perfectly. With monetary policy shocks, forecasters update their prior 
+ depending on the signal-to-noise ratio 
+⁠. The model predicts no updating after monetary policy decisions in the limiting case with vanishingly small uncertainty about the monetary policy coefficient, captured by the prior variance 
+⁠. In this case, 
+ is zero because agents are confident that they know the policy rule.
+
+The key testable implication of Lemma 2 is that the perceived policy rule 
+ should respond to monetary policy surprises in a state-contingent way. A positive monetary policy surprise could arise either from a positive output gap and higher-than-expected monetary policy coefficient, or from a negative output gap and lower-than-expected 
+⁠. Thus, in response to such a positive surprise, forecasters revise 
+ up in a strong economy but revise it down in a weak economy. Our evidence in Section III confirms this prediction and supports the view that agents have incomplete information about the policy rule.
+
+Figure IV illustrates the model’s implication that updating of beliefs about the policy rule is state-contingent. The speed at which forecasters update their beliefs 
+ differs depending on whether agents update rationally (⁠
+⁠) or exhibit overconfidence (⁠
+⁠). With rational updating, the perceived monetary policy coefficient responds immediately and permanently to the policy surprise (solid black lines). In the case of overconfidence, agents put too much weight on their priors about the policy rule and respond more slowly (dashed red lines). The gradual responses in this case match the empirical patterns in Figure III. An additional implication of underreaction is that fed funds forecast errors should be predictable from the interaction of economic activity and the perceived monetary policy reaction coefficient 
+⁠, a prediction that we verify in Online Appendix C.
+
+Model Impulse Responses of Perceived Monetary Policy Coefficient
+Figure IVModel Impulse Responses of Perceived Monetary Policy Coefficient
+Regression on model-simulated data: 
+ where 
+ is an indicator for whether the output gap during period t was negative. We report the average across 2,000 simulations of length 3,000. The simulations use a persistence of the output gap of 
+⁠, and volatilities 
+⁠, 
+⁠, and 
+⁠. “Rational” corresponds to 
+⁠, and “Overconfidence” to 
+⁠.
+
+Open in new tabDownload slide
+Lemma 2 also allows us to roughly quantify the empirical relevance of incomplete information about the policy rule. The expression for 
+ in Lemma 1 provides a link between the magnitude of the response of 
+ to observations of 
+ 
+ and the share of uncertainty about the monetary policy surprise that is due to uncertainty about the policy rule. We can use this link to conduct a simple back-of-the-envelope calculation: comparing the peak response in the top left panel in Figure III of 0.7 with an average output gap of 1.4% suggests that about 
+ 
+ of the variation in monetary policy surprises are due to the uncertainty of forecasters about the policy rule.29
+
+Lemma 3 states that the perceived monetary policy rule should also influence how strongly interest rates respond to macroeconomic news announcements.
+
+ 
+Lemma 3 (Macroeconomic News).
+Define a macroeconomic surprise as 
+ and the contemporaneous change in interest rate forecasts as 
+⁠. The interaction coefficient 
+ in the following regression is positive:
+ 
+ 
+(17)
+In Section IV.A, we confirm the prediction of Lemma 3 that the perceived monetary policy rule influences the sensitivity of interest rates to macroeconomic news.
+
+Lemma 4 traces out the implications of the perceived monetary policy rule for term premia in long-term bonds, using the two-period bond as a stand-in. We assume a simple stochastic discount factor where marginal utility is inversely related to the output gap. One microfoundation for this assumption would be constant relative risk aversion (CRRA) utility over consumption with consumption equal to output and constant potential output. Similar assumptions for the stochastic discount factor are common in reduced form asset-pricing models (e.g., Lettau and Wachter 2007).
+
+ 
+Lemma 4 (Bond Risk Premia).
+Assuming a log stochastic discount factor 
+ 
+⁠, the expected excess return on a two-period bond declines with the perceived monetary policy coefficient 
+⁠.
+
+Lemma 4 predicts that the perceived monetary policy rule should influence long-term interest rates beyond its impact on expected future policy rates, that is, through term premia. When the perceived monetary policy coefficient, 
+⁠, is high, interest rates are expected to fall and bond prices are expected to rise in recessions, which are states of high marginal utility. This perceived comovement makes long-term bonds desirable hedges, decreasing the term premia that investors demand to hold them. We confirm these predictions for expected excess bond returns in Section IV.B.
+
+Combining Lemmas 2 and 4 yields the following result for the responses of long-term bonds to monetary policy announcements.
+
+ 
+Corollary 1 (State-Contingent Long-Term Bond Responses).
+Denote the interest rate on a two-period bond by 
+ and let 
+ be an indicator variable equal to one when the output gap is negative and zero otherwise. In the regression
+ 
+ 
+(18)
+the coefficient 
+ is positive.
+
+Corollary 1 has further testable implications for the transmission of the perceived monetary policy rule to long-term interest rates. It uses a two-period bond to understand the behavior of long-term bond yields around monetary policy announcements, showing that long-term bond yields should display excess sensitivity to monetary policy surprises when the economy is weak, that is, 
+ is below average. Conversely, long-term bond rates should be relatively insensitive to monetary policy surprises if the economy is strong and 
+ is above average. We confirm this prediction in Section IV.C.
+
+VI. Robustness of Estimated Perceived Policy Rules
+This section demonstrates the robustness of our estimates of the perceived output-gap coefficient 
+ to alternative specifications of the policy rule and different estimation methods. Overall, we find that our estimates are very robust: All of the alternative estimates of 
+ are highly correlated with our baseline estimates, with correlation coefficients above 0.8.
+
+We first consider an estimate of the baseline rule equation (2) that does not include forecaster fixed effects. This simple pooled OLS estimate of 
+ has a correlation of 0.84 with our estimate including forecaster fixed effects. Online Appendix Figure B.1 plots both estimates. Because of the less restrictive assumptions required for the estimates with forecaster fixed effects, we focus on these throughout the article.
+
+While our panel regression estimates treat each Blue Chip survey as separate, we can link the surveys over time using state-space models. Online Appendix B.1 estimates two such models, corresponding to panel regressions with and without forecaster fixed effects. The resulting estimates of 
+ and 
+ are somewhat smoother month to month, but overall exhibit very similar patterns to our panel-regression estimates. For the estimate of 
+ with forecaster fixed effects, the correlation with the corresponding state-space model estimate is 0.99.
+
+Our estimation assumed that forecasters share a common belief about the rule’s parameters. What if there is heterogeneity in the perceived rule? Under certain conditions that are stated in Online Appendix B.2, heterogeneity is orthogonal to our estimates in the sense that we capture the average belief across forecasters. This is the case, for example, if heterogeneity in macroeconomic forecasts is uncorrelated with heterogeneity in the perceived rule parameters. To relax this assumption, we consider three alternative estimates of the perceived monetary policy rule that account for heterogeneity (details and plots are in Online Appendix B.2). First, we estimate a regression of the form equation (2) for each forecaster, only using the cross-horizon variation, and then average the estimates across forecasters. The resulting series has a correlation of 0.81 with our baseline 
+⁠. Second, we estimate a multidimensional panel regression (across i, j, and h) that includes forecaster fixed effects interacted with the output-gap and inflation forecasts, thus allowing individual forecasters to persistently perceive the Fed to be more or less responsive to output and inflation than the average forecaster. In this case, the correlation with our baseline 
+ estimate is 0.88. A third way to address heterogeneity is to consider subsets of forecasters. We split forecasters into three groups based on their inflation forecasts, addressing the concern that inflation hawks (forecasters that expect high inflation) and doves might perceive different monetary policy rules. The resulting estimates of 
+ have a correlation with our baseline estimate of 
+ that is above 0.8 for all three groups. Together, these results suggest that the time variation evident in our perceived policy rule is common to the monetary policy beliefs across all forecasters, and that accounting for belief heterogeneity does not materially affect the time-series patterns that are the main focus of our article.30
+
+Next we address concerns about omitted variables in the perceived policy rule. In particular, there is extensive evidence that financial market conditions affect the Fed’s monetary policy.31 If forecasts for financial conditions and economic conditions are correlated, then a high value for 
+ could partly reflect the perceived monetary policy response to financial conditions. We investigate this possibility by including forecasts of future credit spreads—the difference between forecasts for Baa corporate bond yields and the 10-year Treasury yield—as a proxy for expected financial conditions.32 These estimates indeed confirm an important perceived role for financial conditions in determining the policy rate, as the coefficient on the expected credit spread is often substantially negative and statistically significant (results omitted). But incorporating credit spread forecasts into the perceived policy rule has little effect on the perceived response to output-gap forecasts. The correlation between our baseline estimates of 
+ and those including expected credit spreads is 0.94.
+
+Another possible concern about our estimates is the reliance on output-gap forecasts that are imputed from GDP growth forecasts. We address this concern by estimating perceived policy rules using the SPF, which contains forecasts for the unemployment rate as an alternative measure of expected economic activity. Online Appendix B.4 shows that the resulting 
+ look very similar to those for the BCFF.
+
+Finally, we address the concern that our estimates of monetary policy rules might be potentially biased due to the endogeneity of the macroeconomic variables. After all, inflation and output are endogenously determined by all structural shocks in the economy, including the monetary policy shock. Recent work by Carvalho, Nechio, and Tristão (2021) analyzing different types of New Keynesian models suggests that OLS estimates of policy rules may not be affected much by this bias. Nevertheless, one might worry that our estimates of 
+ might be biased by the perceived endogenous response of inflation and output to monetary policy and therefore do not capture the perceived responsiveness of monetary policy to economic conditions. To deal with this issue, we quantify the bias and adjust for it, adapting the model-based approach of Carvalho, Nechio, and Tristão (2021) to our cross-sectional setting as detailed in Online Appendix B.3. As expected, we find that the bias-adjusted 
+ is somewhat higher than the baseline estimate, with a sample mean of 0.57 versus 0.43. This difference is consistent with the idea that forecasters expect exogenous monetary policy shocks to cause output to contract, biasing down 
+⁠. However, the bias adjustment leaves the time-series variation in 
+⁠, our main object of interest, largely unchanged, as evident from the high correlation between baseline and bias-adjusted estimates of 0.92.
+
+A structural interpretation of our estimates as coefficients in a perceived policy rule is also supported by our empirical results, which show that 
+ responds to monetary policy surprises in a state-dependent, theory-consistent manner (Section III) and that it explains interest rate responses during narrow intervals around macroeconomic news surprises (Section IV.A). That said, one could also simply interpret 
+ as the perceived endogenous comovement between the policy rate and the macroeconomy, sidestepping these causality concerns. Under this interpretation, our results help us to understand how forecasters learn about this comovement, and how their perceptions are reflected in financial markets.
+
+VII. Conclusion
+This article presents new time-varying estimates of the monetary policy rule perceived by professional forecasters, using rich panel data of monthly survey forecasts. With our estimates of the perceived monetary policy rule, we document a number of new facts that are relevant for monetary policy and asset pricing. First, the perceived responsiveness of monetary policy to the economy varies substantially over time, reflecting the Fed’s shifting concerns about economic data versus financial and other risks. It tends to be high during monetary tightening cycles when Fed policy is perceived to be data-dependent, and low during easing cycles and times of elevated economic and financial uncertainty. Second, after high-frequency monetary policy surprises on FOMC announcement dates, forecasters update their estimates of the monetary policy rule, indicating that they perceive monetary policy surprises to be informative about the rule followed by the Fed. The way forecasters update depends on the state of the economy, as the same surprise tightening indicates higher responsiveness to the economy in a strong economy and weaker responsiveness in a weak economy. Third, the perceived monetary policy rule affects the transmission of monetary policy to financial markets, explaining the sensitivity of interest rates to macroeconomic news, the variation in term premia on long-term bonds month-to-month and around monetary policy surprises, and time variation in the response of the stock market to FOMC announcements.
+
+These conclusions have broader implications for monetary economics and the practice of monetary policy. In particular, they imply that the impact of monetary policy on financial markets—the first stage of the monetary transmission mechanism—cannot be understood without taking into account that the public has incomplete information about the Fed’s monetary policy strategy and learns about it over time. This opens the door for important additional research, addressing such questions as how central bank communication shapes perceptions about the monetary policy strategy and how optimal monetary policy should account for shifting perceptions in seeking to stabilize inflation and employment.
+

@@ -1,0 +1,260 @@
+Machine Scheduling and Spreadsheet Modeling in a Fashion Management Class
+
+Abstract
+This paper is a result of several semesters of teaching an Operations Management class in the Fashion Management
+program. Topics like flow shop and parallel machine models are traditionally discussed in an Industrial Engineering
+class. However, we discussed these topics successfully in a fashion management class by providing examples that our
+students could relate to. This included examples in apparel production and fashion retailing. The students were also
+able to learn several logical Excel based formulas while creating spreadsheets for these topics. For the flow shop model,
+we create a spreadsheet model that reflects all details of the Gantt chart including idle times. In the case of parallel
+machines, the spreadsheet involves the more complex Nested IF functions. The students showed enthusiasm even
+when creating the more challenging spreadsheet models.
+Keywords: spreadsheet modeling; Flow shop models; Parallel machines; supply chain.
+INTRODUCTION
+Fashion Merchandising and Management (FMM) is the largest major in the School of
+Business at Thomas Jefferson University. In addition to specialized coursework in FMM,
+these majors are also required to take all the core business classes that are typically taken
+by other traditional business majors. We also have several FMM majors who choose
+Finance or Accounting as their minor areas of study. Such coursework prepares these
+students very well when they seek full-time jobs upon graduation. While several of our
+FMM students obtain jobs in the retailing industry, some of the technically inclined
+students seek employment in apparel manufacturing and production. Some students
+eventually start their own boutiques or related entrepreneurial ventures. Since our FMM
+majors are required to take all business core courses, they are comfortable with
+quantitative coursework like Business Statistics and Operations.
+Microsoft Excel is the most popular software program that is widely used in the industry.
+Its popularity is attributed to its unparalleled flexibility, versatility, and a wide range of 
+ 
+21
+capabilities for data management, analysis and visualization. It is used by financial
+analysts, retails store managers, project managers, business analysts, accountants to name
+a few. Due to the increasing use of data-driven decision making even in the retailing
+sector and business in general, the demand for proficiency in Microsoft Excel has also
+increased significantly in recent years. Teaching spreadsheets is not specifically about
+helping students learn spreadsheets but to also help them grow to make more informed
+decisions as managers in the real world. Educational theory, such as Dale Edgar’s Cone
+of Experience, suggests that learners remember 70-90% of what they say and do (active
+learning). Excel exercises or projects are considered as active learning (Braun, 2017).
+Operations and Data Analytics is one of the core business classes which is required for all
+majors in the School of Business. This course includes the coverage of important topics
+like Inventory, Forecasting, Linear Programming, Supply chains, Waiting Lines, etc.
+Since FMM majors take specialized courses in their field, they have a firm understanding
+of concepts like Supplier Lead Time and opportunity costs (or loss of customer goodwill)
+due to shortages or late shipments. For example, they know that late shipments from their
+suppliers can be disastrous when the product is seasonal. This late shipment issue is
+highlighted in a Harvard Business Case (Hammond & Raman, 2006) which discusses the
+ski wear supply chain and the impact of late shipments in this highly seasonal business.
+Flow shop and parallel machine models are topics that are traditionally found in
+Industrial Engineering coursework. Some pioneering textbooks provide various methods
+of scheduling (Bedworth & Bailey, 1982). Some quick and dirty manual methods have
+since been presented and discussed (Woolsey, 1971, 1982, 1990). Most business students
+have never visited a production unit. However, we believe that we can discuss these
+topics with our fashion students by providing real-life examples as well as examples in
+their field in addition to guiding them to create spreadsheet models.
+We discuss two specific concepts in the classroom.
+Concept 1 is about two serial processors better known as the two-machine flow shop
+model. We first present a pictorial solution by drawing a Gantt chart. We then create a
+spreadsheet model to reflect all aspects of the pictorial solution. To our knowledge, such
+a spreadsheet solution is not found in any textbook. More importantly, the students find
+this spreadsheet model easy to understand. We then ask our students to complete
+Assignment 1 on three machines by providing a partial solution and some guidelines. An
+important hint given is that there will be another Idle Time column that must be included
+while creating the spreadsheet. 
+Jaideep T. Naidu, Nioka Wyatt
+Machine Scheduling and Spreadsheet Modeling in a Fashion Management Class
+ 
+Concept 2 is about parallel (and identical) machines. Here, we review two numerical
+examples in the classroom. One example is to minimize the flow time of a set of jobs on
+three identical machines. The second numerical example is to sequence the jobs using the
+due-date rule to calculate tardiness and number of tardy jobs. These are also solved
+pictorially by drawing Gantt charts. We then create spreadsheet models that reflect the
+pictorial solutions. The students are then asked to complete Assignment 2, which involves
+solving a similar problem but with four machines.
+For both Assignments, the students submit manual as well as spreadsheet-based
+solutions.
+CONCEPT 1: A 2-MACHINE FLOW SHOP MODEL
+This model involves two machines (or stages). Jobs must be processed on both machines
+by first going to Machine 1 (M1) and then to Machine 2 (M2). Interestingly, there is a
+simple real-life example provided by Martinich (1997). We refer to it as Numerical
+Example 1 and is presented below. Our fashion students relate to this model immediately
+when we also refer to cutting and sewing as another example of two important stages
+involved in apparel production.
+Numerical Example 1
+Joe has five loads of laundry to do before he can go to the beach. Based on the colors and
+fabrics, he has estimated the washing and drying times for each load (Table 1). All loads
+must first be washed and then dried (clothes that have been washed can sit in a basket
+waiting to go to the dryer so that the washer can be used.) Determine the optimum
+sequence to minimize make span and find the total completion time of all jobs.
+TABLE 1
+Load Washer Dryer
+A
+B
+C
+D
+E
+35
+20
+38
+40
+36
+40
+25
+50
+20
+45
+Since our main contribution is to create a spreadsheet model to closely reflect the Gannt
+chart, we will not delve into Johnson’s Rule for the optimum sequence. This rule is found
+in various textbooks. Using Johnson’s Rule, the optimum sequence to minimize make
+span is: B – A – E – C – D. And Figure 1 below presents a Gannt chart which clearly shows
+the start and end times of each job on the two machines. The Gantt chart also displays
+Idle times on M2. 
+ 
+23
+FIGURE 1
+M1:0 20 55 91 129 169
+B A E C D
+M2:0 20 45 55 95 140 190 210
+B A E C D
+where
+represents idle time
+We present a detailed Excel solution for the above example in Appendix – A. Our
+spreadsheet uses Excel formulas to calculate completions times of each job on both
+machines. It also calculates the Idle times on M2. Appendix – A also has Assignment 1
+related to a 3-machine flow shop that the students must complete.
+CONCEPT 2: PARALLEL MACHINES MODELS
+Consider a set of N jobs having different processing times and a set of M identical (and
+parallel) machines which can process any of these jobs. If N ≤ M, then the N jobs are
+randomly assigned to one of the M machines and they get processed with no job waiting
+in line. If N > M, then the first M jobs are randomly assigned to the M machines and the
+remaining jobs are waiting for the next available machine to be processed. These waiting
+jobs can be said to be in a queue (i.e., waiting line) and the job that is first in this queue
+will go to the first available machine.
+Specifically, let us consider N jobs and M machines where N > M and all the M machines
+are available. The goal is to minimize the flow time. Job flow time is defined as how long
+a job is in the system (i.e., from the time it entered the shop until the time it leaves the
+shop after being processed).
+Upon reading the above description in this section, a business major may not be clear
+about what the above means or where it can be applied. Hence, we provide simple reallife examples of such scenarios. When we enter a bank during peak business hours, we
+are likely to see three tellers currently serving one customer each and about five
+customers waiting in a line to go to the next available teller. Interestingly, this is not only
+found in banks and post-offices but also a very common sight in various apparel and
+retail stores too. Numerical Example 2 given below is for 3 machines (equivalent to 3
+check-out counters in a retail store). We use the first come, first served (FCFS) rule to
+pictorially illustrate the mathematics of parallel machines. The spreadsheet model is
+presented in Appendix B. 
+Jaideep T. Naidu, Nioka Wyatt
+Machine Scheduling and Spreadsheet Modeling in a Fashion Management Class
+24  , VOL. 12, ISSUE 2 – JUNE 2024, PP. 20-30
+Numerical Example 2
+Consider three machines (M1, M2, M3) in parallel and a total of eight jobs (A, B, C, D, E,
+F, G, H). The jobs and their processing times (in hours) are as given in Table 2. Consider
+these to be identical parallel machines implying that the jobs can be processed on any of
+the three machines.
+TABLE 2
+JOB A B C D E F G H
+Processing Time (P) 10 20 11 21 22 50 40 60
+At time t = 0, we assume that all machines are ready, and all jobs are available. Note that
+while the jobs have arrived around the same time, they arrived in the order A, B, C, D, E,
+F, G, and H. We use the FCFS rule since retail stores, banks, and post-offices implement
+FCFS sequencing. Such a rule is fair and simple to implement.
+At time t = 0: Job A (10) goes to M1; Job B (20) to M2; and Job C (11) to M3. Note that Jobs
+B or C could also have gone to M1. However, the end result will still be the same in terms
+of total completion time of all jobs.
+Jobs A, B, C will be completed at times t = 10; t = 20; and t = 11 on M1, M2, and M3
+respectively.
+At time t = 10: Job D (21) goes to M1 and is completed at t = 31;
+At time t = 11: Job E (22) goes to M3 and is completed at t = 33;
+At time t = 20: Job F (50) goes to M2 and is completed at t = 70;
+At time t = 31, Job G (40) goes to M1 and is completed at t = 71; and
+At time t = 33, Job H (60) goes to M3 and is completed at t =93.
+The Gantt chart (Figure 2) displays the start and end times of the eight jobs on the three
+machines.
+FIGURE 2
+M1:0 10 31 71
+A D G
+M2:0 20 70
+B F
+M3:0 11 33 93
+C E H
+ 
+25
+We present a detailed spreadsheet model for the above example in Appendix – B. This
+spreadsheet model uses Excel formulas to determine which machine processes the next
+job and also to calculate the completion times of each job.
+Finally, we present Numerical Example 3. This example includes the due-dates of each
+of the jobs and the goal is to calculate job tardiness and the number of tardy jobs.
+Tardiness is an important measure of performance. Our students understand how late
+shipments from suppliers can negatively impact retailers in the case of highly seasonal
+products.
+Numerical Example 3
+Consider three machines (M1, M2, M3) in parallel and a total of eight jobs (A, B, C, D, E,
+F, G, H). The jobs, their processing times (in hours) and due-dates (in hours) are as given
+below in Table 3. The goal is to reduce tardiness and number of tardy jobs. Intuitively,
+sequencing the jobs in non-increasing order of due-dates works well in terms of reducing
+tardiness and/or the number of tardy jobs.
+TABLE 3
+JOB A B C D E F G H
+Processing Time
+(P)
+10 20 11 21 22 50 40 60
+Due-Date (D) 15 18 25 35 40 45 55 68
+Since jobs are processed in the same order as in Example 2, the Gantt chart in Figure 3 is
+same as Figure 2.
+FIGURE 3
+M1:0 10 31 71
+A D G
+M2:0 20 70
+B F
+M3:0 11 33 93
+C E H
+Since we have only eight jobs in this example, it is easy to visually see what jobs are tardy.
+Note that Job A is done at t = 10 and is due only at t = 15. Hence, Job A is not tardy. Job B
+is done at t = 20 but is due at t = 18. Hence, Job B is tardy and its tardiness = 20 – 18 = 2
+hours. Continuing in this fashion, we note that Jobs F, G, and H are also tardy by 25, 16,
+and 25 hours respectively. 
+Jaideep T. Naidu, Nioka Wyatt
+Machine Scheduling and Spreadsheet Modeling in a Fashion Management Class
+26  , VOL. 12, ISSUE 2 – JUNE 2024, PP. 20-30
+A spreadsheet model with a detailed explanation is presented in Appendix – C. This
+spreadsheet goes beyond what was created in Appendix – B. So, we do not replicate what
+we already did in Appendix – B. We use NESTED IF functions to calculate when each job
+is completed on one of the three machines. Based on the due-date information, we use
+single IF statements to calculate job tardiness and the number of tardy jobs. Appendix C
+also includes Assignment 2 related to four parallel machines that the students must
+complete.
+MANAGERIAL ISSUES
+Flow shop models: Cutting and sewing are two important stages in apparel production.
+The shop floor supervisor may have to decide on worker and machine allocations on a
+daily basis since there can be several customer orders with different due-dates. The
+worker allocation also depends on the skillset i.e., some workers may specialize in men’s
+clothing while others are experienced in cutting and sewing of women’s or children’s
+clothing. When there is sudden and unanticipated demand that needs to be fulfilled, the
+supervisor may have to consider overtime or hire temporary workers or rent additional
+machines or outsource some of the work. These are examples of some strategies that may
+need to be implemented frequently.
+Parallel Machine models: As discussed earlier, we have assumed parallel machines to be
+identical machines. This is equivalent to check-out counters found in several retail outlets.
+The store manager must always make sure that the customer waiting lines are not very
+long. This is accomplished by opening one or more additional check-out counters during
+peak times and weekends. Having too many counters open is also not a good strategy. A
+good manager/supervisor is always trying to strike a balance between reducing customer
+wait times and minimizing the retail store’s costs. Just like in the flow shop model, adding
+more machines, hiring more people, and outsourcing some work is commonly practiced.
+In general, meeting customer deadlines is of utmost importance when it comes to apparel
+production. In the case of seasonal products, this importance increases exponentially. The
+supplier can lose a customer forever if a shipment is delayed.
+CONCLUSION
+Flow shop and parallel machine models typically find a place in engineering coursework.
+Most operations management textbooks used by business schools do not even cover
+parallel machine models. However, we have been able to successfully introduce these
+topics in a traditional fashion management class. The students were able to appreciate
+how these concepts are routinely used in the service industry as well as in the fashion
+and apparel industry. Furthermore, drawing Gannt charts to manually solve these
+problems enhances their understanding of the Math as they can visually see the entire 
+ 
+27
+process. We then focus on these pictorial solutions to create spreadsheet models which
+enhance their understanding of Excel functions. Most students are then able to complete
+the two Assignments by putting in some effort. In conclusion, we believe that the students
+benefit from these topics because of their applications in the fashion field and also
+because of their enhanced understanding of the more complex Excel functions. 

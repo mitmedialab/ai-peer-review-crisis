@@ -1,0 +1,114 @@
+Monetary Shocks, Labor Market Frictions, and Income Inequality:
+A Heterogeneous Agents Approach
+
+Abstract
+
+This paper investigates the relationship between monetary policy shocks, labor market frictions, and income inequality in a heterogeneous agents model. We develop a dynamic stochastic general equilibrium (DSGE) framework in which households differ in skill levels, wealth, and labor force attachment. Our model introduces search-and-matching frictions in the labor market and accommodates incomplete asset markets, thereby capturing the ways in which aggregate shocks have unequal effects on households. We calibrate the model to United States data and estimate that expansionary monetary policy, while boosting average output and employment, magnifies income disparities under certain conditions of labor market stickiness. Targeted transfers and labor market reforms that reduce matching frictions mitigate this adverse distributional effect. Our results suggest that policymakers should consider inequality implications when designing monetary policy, highlighting the importance of coordination between monetary and labor market policies.
+
+1. Introduction
+
+Inequality has risen substantially in many advanced economies over the past few decades (Atkinson, 2015). While numerous structural factors—such as technological change and globalization—have been implicated in driving long-term inequality trends, recent research suggests that macroeconomic policies and institutions can also play a decisive role (Coibion et al., 2017). In particular, debates about the relationship between monetary policy and inequality have come to the fore, as central banks have often relied on unconventional measures to stabilize economies following financial crises or recessions.
+
+A growing literature argues that the transmission of monetary policy to household income and wealth is heterogeneous. For example, while an expansionary monetary policy can boost employment and output, it can also increase asset prices, thereby favoring capital owners who are already wealthy (Gornemann et al., 2021). Additionally, labor market frictions—such as search costs, bargaining asymmetries, or rigid wages—can dampen the employment gains for lower-skilled workers, potentially reinforcing inequality (Krueger et al., 2020).
+
+Motivated by these observations, we build a dynamic stochastic general equilibrium (DSGE) model featuring heterogeneous households and labor market frictions to study the distributional consequences of monetary policy. Unlike representative-agent models that emphasize aggregate outcomes, our approach highlights inequality in both labor income and financial asset holdings. We calibrate our model to U.S. data, capturing features such as different skill distributions and a realistic labor matching process. We then conduct a series of monetary policy shock experiments and analyze how they propagate through the labor market, asset returns, and household consumption, with a particular focus on inequality outcomes.
+
+We find that, under a standard Taylor rule, an expansionary monetary shock disproportionately benefits high-wealth households because of larger gains in asset returns. Meanwhile, search frictions in the labor market slow wage growth for low-skilled workers. Thus, even though aggregate output and employment rise, earnings gaps can widen. We show that these adverse distributional consequences are attenuated by policy options that reduce search frictions or directly redistribute income to liquidity-constrained households. Our findings underscore the importance of considering the heterogeneous impact of macroeconomic policies, suggesting that monetary and labor market policies should be jointly designed when reducing inequality is an explicit policy objective.
+
+2. Literature Review
+
+Our paper contributes to several strands of the literature. First, it adds to the body of work on distributional effects of monetary policy. Traditional New Keynesian models (e.g., Clarida et al., 1999) assume representative agents, but recent extensions highlight that wealth and income distributions are crucial for policy evaluation (Auclert, 2019; Kaplan et al., 2018). We extend this line of research by considering heterogeneity in skill levels, labor force attachment, and assets within a search-and-matching environment.
+
+Second, we relate to the literature on labor market frictions and monetary policy transmission. Building on the seminal work of Diamond (1982), Mortensen and Pissarides (1994), and Merz (1995), search-and-matching models emphasize how job creation and wage setting respond to macroeconomic shocks. We contribute by incorporating a more nuanced structure of heterogeneity in skill types and wealth. This allows us to highlight the role of labor market stickiness in shaping the distributional impact of monetary expansions or contractions.
+
+Lastly, our paper contributes to the emerging field studying optimal policy design under heterogeneity. By examining how different policy rules interact with labor market reforms, we shed light on how to tailor policies that improve aggregate outcomes without exacerbating inequality. In particular, our results suggest that labor market reforms—such as improved matching efficiency or lower hiring costs—can complement traditional monetary policy tools to achieve a more equitable distribution of economic gains.
+
+3. Theoretical Framework
+
+3.1 Model Overview
+
+We develop a closed-economy DSGE model in discrete time, populated by a continuum of households, final-goods firms, and intermediate-goods firms. The key features are:
+	1.	Heterogeneous Households: Households differ in skill level (low, medium, high), financial wealth, and labor force attachment. Skill types determine potential wages and job-finding rates.
+	2.	Search-and-Matching Labor Market: Job creation and destruction follow a Mortensen-Pissarides (1994) framework. Firms post vacancies to match with unemployed workers, paying a cost. Matches are subject to exogenous and endogenous separation.
+	3.	Monetary Authority: The central bank follows a Taylor rule. Monetary policy affects the real economy through nominal rigidities in wage-setting and through credit conditions that influence asset returns.
+	4.	Incomplete Asset Markets: Households can hold risk-free bonds and physical capital but cannot fully insure against idiosyncratic labor income risk. This incompleteness channels monetary shocks into heterogeneous consumption and savings decisions.
+
+3.2 Household Problem
+
+Each household ￼ maximizes expected utility:
+
+\[
+\max \; \mathbb{E}t \sum{\tau=t}^{\infty} \beta^{\tau - t} \, u \bigl(c_{i,\tau}, \ell_{i,\tau}\bigr),
+\]
+
+where ￼ is consumption, ￼ is labor supply (or leisure), and ￼ is the discount factor. Households receive labor income when employed, which depends on skill-specific wages, and they earn returns from assets. They face a budget constraint:
+
+￼
+
+where ￼ denotes asset holdings, ￼ is the skill-dependent wage, ￼ is the employment indicator (1 if employed, 0 otherwise), and ￼ is the real return on assets.
+
+3.3 Labor Market
+
+Firms post vacancies ￼ to maximize profits. The matching process is governed by a Cobb-Douglas matching function:
+
+￼
+
+where ￼ is the aggregate unemployment rate and ￼ captures matching efficiency. Once matched, a firm and worker bargain over wages following Nash bargaining. When a match is successful, the firm produces output based on the worker’s skill level and the firm’s productivity. Exogenous separation occurs with probability ￼, while endogenous separation can occur if the match surplus falls below a threshold.
+
+3.4 Monetary Policy
+
+The central bank sets the nominal interest rate ￼ according to a Taylor rule:
+
+\[
+i_t = \rho \, i_{t-1} + (1-\rho)\bigl[\phi_\pi (\pi_t - \pi^) + \phi_y (y_t - y^)\bigr] + \varepsilon_t,
+\]
+
+where ￼ captures interest-rate smoothing, ￼ is inflation, ￼ is the inflation target, ￼ is output, ￼ is the output target, and ￼ is a monetary shock. Nominal rigidities in wage-setting ensure that changes in ￼ affect real variables.
+
+4. Calibration and Estimation
+
+We calibrate the model to match key features of the U.S. economy:
+	1.	Household Heterogeneity: The shares of low-, medium-, and high-skilled workers match Current Population Survey (CPS) data, and their wage distributions reflect observed differentials.
+	2.	Search Parameters: Vacancy-filling rates and job-finding rates are set to replicate average unemployment duration and job separation rates.
+	3.	Preferences: The discount factor ￼, disutility of labor, and risk aversion are chosen to match aggregate consumption patterns and labor supply elasticities.
+	4.	Taylor Rule Parameters: Estimates from the Federal Reserve’s historical policy reaction functions guide choices of ￼ and ￼.
+
+Model parameters are jointly estimated using Bayesian techniques on quarterly U.S. time series data (GDP, inflation, employment, etc.) from 1990–2020. Posterior estimates confirm that the model can replicate standard business cycle properties and observed dynamics of employment across skill groups.
+
+5. Results
+
+5.1 Aggregate Dynamics of a Monetary Shock
+
+We first examine the effects of a one-time expansionary monetary shock ￼. Figure 1 (hypothetical) shows impulse response functions for key macroeconomic variables.
+	•	Output and Employment: As expected, output and employment rise, with a peak around 3–4 quarters after the shock.
+	•	Inflation: The increase in demand pushes inflation modestly above the target, aligning with standard New Keynesian predictions.
+	•	Interest Rates: The nominal interest rate decreases initially, then gradually returns to steady-state levels.
+
+5.2 Distributional Impact
+
+Next, we analyze how the shock affects the cross-sectional distribution of income and consumption. Households holding more financial assets benefit from higher returns on capital as the economy expands, even though short-term interest rates fall. High-skilled households also see larger wage gains due to stronger bargaining positions and less cyclical unemployment. In contrast, low-skilled households face slower wage growth and remain vulnerable to unemployment spells, partly because of the search frictions that limit their mobility.
+
+To quantify these distributional shifts, we compute the Gini coefficient for labor income and total income over the business cycle. After the monetary expansion, the Gini coefficient for labor income rises by approximately 0.8 percentage points, whereas the Gini for total income increases by around 0.5 percentage points. Consumption inequality rises modestly, reflecting tighter liquidity constraints for low-wealth households.
+
+5.3 Policy Experiments
+
+We consider two policy extensions to mitigate rising inequality:
+	1.	Targeted Transfers: A fraction of seigniorage from expansionary monetary policy is redistributed directly to the bottom quintile of wealth holders. This measure stabilizes their consumption and reduces the rise in income inequality by about 0.3 percentage points.
+	2.	Labor Market Reforms: We reduce the costs of posting vacancies and increase matching efficiency (￼). This lowers structural unemployment for low-skilled workers, improving their labor market prospects during expansions. When combined with accommodative monetary policy, this reform nearly offsets the initial inequality increase.
+
+These results highlight the importance of coordinating monetary policy with fiscal or labor market policies to manage distributional consequences.
+
+6. Discussion and Policy Implications
+
+Our findings contribute to the debate on whether and how central banks should incorporate inequality considerations into their objectives. On the one hand, traditional arguments emphasize that monetary policy should focus on stabilizing inflation and output, leaving redistribution to fiscal authorities. On the other hand, our model shows that ignoring heterogeneity can undermine macroeconomic effectiveness if low-skilled, liquidity-constrained households face persistent disadvantages during expansions.
+
+Additionally, labor market frictions can amplify disparities—if firms and workers cannot form matches quickly, the benefits of expansionary policy may accrue disproportionately to the already employed and wealthier segments of the population. This suggests a complementarity between labor market reforms and monetary policy: making the labor market more flexible and inclusive can enhance the broad-based gains of expansionary measures and reduce inequality, without sacrificing price stability.
+
+Finally, our targeted-transfer experiment indicates that even modest redistribution can significantly mitigate inequality increases in the wake of monetary expansions. While this approach may challenge traditional norms of central bank independence, it highlights the possibility that combined policy measures can achieve both stability and inclusivity.
+
+7. Conclusion
+
+In this paper, we construct a heterogeneous-agents DSGE model with search-and-matching labor market frictions to study the distributional consequences of monetary policy. Our results reveal that expansionary monetary policy, though boosting employment and output, can exacerbate income inequality by favoring high-wealth households and high-skilled workers when labor market frictions are prevalent.
+
+However, policy interventions such as targeted transfers and labor market reforms offer promising avenues for mitigating these inequalities, underscoring the importance of cross-institutional cooperation. The broader implication is that monetary policy cannot be viewed in isolation from distributional considerations. By acknowledging and addressing heterogeneity in the labor market, policymakers can ensure that the gains from macroeconomic stabilization are more equitably shared.
+

@@ -1,0 +1,311 @@
+Judicial Reform and Banks Credit Risk Exposure*
+
+Abstract
+The aim of this paper is to examine the impact of the Judicial System Reform, which was introduced in Italy in 2012, on the efficiency of the judicial system and the exposure of banks to credit risk in terms of Non-performing loans. To this end, we apply a difference-in-differences approach, using a dataset that covers annual judicial proceedings from 2010 to 2017, supplemented by bank balance sheet data. Our findings indicate that the reform had a detrimental effect on both judicial efficiency and the NPL ratio. The negative impact is especially pronounced in courts that were previously more efficient, suggesting that the court mergers may have resulted in diseconomies of scale.
+
+1 Introduction
+Non-performing loans (NPLs) are bank loans that have either defaulted or are close to defaulting. Since the 2008 financial crisis, the issue of NPLs has become increasingly prominent in both public and academic debates due to their negative impact on systemic stability and macroeconomic growth. On the one hand, banks with high NPL ratios are vulnerable to negative market sentiment, which affects their ability to raise interbank liquidity or access capital markets, thereby weakening their balance sheets and making them less resilient to external shocks (Bonaccorsi di Patti and Sette, 2012; Balgova, Nies, and Plekhanov, 2016). On the other hand, the volume of NPLs retained by banks constrains their lending capacity, as higher NPL levels require higher reserve capital, reducing the funds available for external lending.1As a result, curbing the accumulation and persistence of NPLs has become a priority on the European Union's political agenda, particularly concerning macro-prudential policies (European Systemic Risk Board, 2019).
+
+To address this problem, the EU has advocated for structural reforms aimed at enforcing creditors' rights. Judicial reforms designed to increase efficiency are expected to facilitate the recovery of collateral, allowing banks to improve their balance sheets and strengthen financial stability by promoting loan recovery and discouraging moral hazard by borrowers.2
+
+This paper aims to empirically evaluate the impact of judicial system reforms in addressing NPL accumulation. It draws on the implementation of the judicial system reform in Italy in 2012 and assesses its impact on the efficiency of the judicial system and the NPL ratio of banks. Italy has been under particular scrutiny due to the high proportion of NPLs on its banks' balance sheets. Although the average European NPL ratio has gradually declined since the 2008 crisis, Italy's NPL ratio remained at 10% in the second quarter of 2018, well above France (2.9%), Germany (1.7%), and Spain (4.1%), though lower than Portugal (11.7%) and Greece (44.9%) (European Systemic Risk Board, 2019). Italy also exemplifies the inefficiencies of a slow judicial system (Peyrache and Zago, 2016). Numerous studies have shown that judicial efficiency is a key factor affecting NPL dynamics (Jappelli, Pagano, and Bianco, 2005; European Banking Authority, 2016; Carpinelli et al., 2017; Schiantarelli, Stacchini, and Strahan, 2020). A slow judicial system can hinder contract enforcement and collateral recovery, leading to the persistence of NPLs on banks' balance sheets.3
+
+In response to these challenges, the Italian government implemented a major reform of the judicial system in 2012, known as the Judicial System Reform (JSR), aimed at improving the efficiency of the courts and reducing the average length of proceedings. The reform involved a geographical reorganisation of the Italian courts through mergers and the closure of smaller local branches (sezioni distaccate), reducing the number of courts from 165 to 140, with 23 courts absorbing one or two other courts.
+
+This decision by the central government was taken without a prior assessment of the efficiency level of the host courts or a feasibility study of the potential impact of the merger. As a result, the reform introduced an exogenous change in the functioning of the merged courts while leaving other courts unaffected.
+
+This setting provides a quasi-experimental framework to assess the causal impact of the reform by evaluating its effects on both judicial efficiency and the NPLs of banks operating within the jurisdiction of the affected courts. The first set of results indicates that the reform had unintended negative effects on judicial efficiency. On average, the length of court proceedings increased by about 39 days (9%) after the reform, likely due to a shortage of administrative staff or inadequate infrastructure in the receiving courts. These findings are consistent with Peyrache and Zago (2016), who suggest that while merging smaller courts can reduce fixed costs, it can also exacerbate diseconomies of scale and lead to a less effective judicial system. The second set of estimates shows a negative impact of the JSR on NPLs. Banks within the jurisdiction of treated courts experienced an increase in their NPL ratio of 3.5 percentage points—about a 20% increase—compared to banks in untreated areas, driven by the overall decline in judicial efficiency. Furthermore, our heterogeneity analysis reveals that banks operating in areas served by courts that were more efficient before the reform were disproportionately affected. Overall, our analysis confirms that judicial reform plays an important role in shaping the financial stability of banks by directly affecting NPLs.
+
+Contribution and background literature
+This paper contributes to the literature in several ways. Our approach to measuring judicial efficiency follows that of Schiantarelli et al. (2020); Pezone (2023); Palumbo et al. (2013); Chemin (2009, 2012); Jappelli et al. (2005), who use average trial length as a proxy for judicial performance. This approach contrasts with studies that focus on technical efficiency, such as Kittelsen and Førsund (1992), which apply Data Envelopment Analysis (DEA) to assess court efficiency, and Peyrache and Zago (2016), which use the directional distance function (DDF) to decompose court inefficiency into its components. Our main measure of court performance is based on court delays, in line with the official statistics published by CEPEJ (2016). To provide a more comprehensive overview, we also consider disposition rates and case turnover rates. However, as noted by Marciano, Melcarne, and Ramello (2019), these indicators capture only one dimension of judicial efficiency, as they do not take into account how resources are used in the delivery of justice.4Djankov et al. (2003) found a correlation between lengthy court proceedings and the use of highly formalised procedures to resolve disputes, which can result in reduced consistency, fairness and increased corruption.
+
+This paper builds on the literature examining the relationship between judicial efficiency and firms' access to credit by exploring how variations in judicial efficiency affect credit markets. Several studies have analysed how the legal environment, particularly the enforcement of creditor rights, influences firms' access to credit (Jappelli et al., 2005; Bae and Goyal, 2009; Fabbri, 2010; Haselmann and Wachtel, 2010; Moro, Maresch, and Ferrando, 2018) and firm outcomes more broadly (Laeven and Woodruff, 2007; Giacomelli and Menon, 2013; Ponticelli and Alencar, 2016). While this literature provides important insights into how access to credit depends on the enforcement of creditor rights, it falls short in explaining the role of NPLs, which are critical to this relationship.
+
+Recent research by D'Apice, Fiordelisi, and Puopolo (2024) highlights the importance of judicial efficiency in curbing the accumulation of NPLs, focusing on “contract enforcement” reforms in Austria, Belgium, Norway, and Sweden between 2007 and 2008. Their findings confirm the positive effect of a more efficient judiciary on reducing NPLs, both through faster loan recovery and by discouraging borrower opportunism. However, endogeneity issues have limited further exploration of the interaction between judicial efficiency and NPLs.5In this respect, our analysis provides a novel empirical contribution by using the 2012 Italian JSR as a quasi-natural experiment to mitigate endogeneity concerns.
+
+Our analysis draws inspiration from Chemin (2009), which evaluates the effects of a judicial reform adopted by Pakistan in 2002 on entrepreneurship through a two-stage analysis. The study first investigates how judge training enhances judicial efficiency and then assesses its causal impact on entrepreneurship. In a similar vein, we examine the reform's effects on both judicial efficiency and the NPL ratio at two distinct levels. Furthermore, we analyse how these effects differ across regions and among different types of banks. Our results demonstrate that the judicial system plays a significant role in the accumulation and stagnation of NPLs, offering valuable insights into how different banking practices influence this process.
+
+The remainder of the article is organised as follows: Section II provides institutional background, and section III discusses judicial efficiency measures. Section III presents the dataset, and section IV outlines the empirical strategy. Results are presented in sections V and VI, with robustness checks and heterogeneity analysis discussed in sections VII and VIII, respectively. Section IX concludes the article.
+
+2 Institutional background
+The territorial organisation of the Italian judiciary system
+The Italian judicial system is organized into two main levels: courts and districts.6 Courts (circondari di tribunale ordinario) serve as the first level where both civil and criminal cases are heard for the first time. In the event of dissatisfaction with the decision of a court, there is the possibility of an appeal, which takes the case to the district level. The districts (corti d'appello or distretti giudiziari) play a crucial role in reviewing the decisions of the courts of first instance, ensuring compliance with legal procedures and the correct application of the law. Each court is assigned to a designated district on the basis of a rule of geographical proximity. As a result, the role of the courts and the districts is distinct, as they fulfil different functions within the legal framework. The courts act as the front line for adjudicating cases, while the districts act as appellate bodies, providing a comprehensive review to ensure procedural correctness and legal accuracy. This structured relationship between courts and districts contributes to the hierarchical and specialised nature of the Italian judicial system.7In terms of territorial organisation, each regional capital has its district, and each province has at least one court.8
+
+The 2012 judicial reform
+The primary goal of the reform was to improve the efficiency of Italian courts. As the former Minister of Justice explained, “The number of cases handled by very small courts falls well below the efficiency threshold, which, among other things, prevents them from specialising and becoming more efficient.”9Moreover, many local branches were originally established in response to emergencies but were never closed once the circumstances that led to their creation were resolved. As a result, many of these branches had no clear justification for remaining active.
+
+The reform proposed closing 45 courts and merging them with larger ones, as well as shutting down all local branches. This restructuring was expected not only to increase efficiency by enabling courts to specialise, but also to generate significant cost savings by reducing the maintenance expenses of judicial buildings.
+
+The government based its decisions on a set of clear criteria, including the population served by each court, the number of incoming cases, the court's staff, and its overall workload. Courts that fell below the average in all these parameters were slated for closure. In addition, factors such as infrastructure, the prevalence of organised crime, and the minimum population served (set at 200,000 inhabitants) were considered.10
+
+Ultimately, the reform led to the full closure of all 220 local branches and 26 of the 165 courts. The remaining “hosting" courts absorbed all the judges and administrative staff from the closed courts, ensuring no job losses.11For our analysis, it is important to note that court efficiency at the time of the reform was not one of the criteria considered in the decision-making process, indicating that the reform was likely exogenous to individual court performance. The reform followed an EU Council recommendation to Italy on July 12, 2011, and was formally implemented by the Monti government in 2012 (Peyrache and Zago, 2016).12
+
+The relationship between NPLs and the judicial system
+According to the guidelines set out by the European Banking Authority (EBA), a loan is classified as “Non-Performing" when the bank deems it unlikely that the borrower will repay the loan, or when the borrower is more than 90 days overdue on a payment.13
+
+The rise in Non-Performing Loans (NPLs) held by Italian banks has been heavily influenced by the financial crises since 2008. However, most analysts agree that the main factor exacerbating NPLs is the lengthy credit recovery process, an issue closely tied to the efficiency of the judicial system.14
+
+When a borrower defaults on a loan, the bank typically first issues a formal request for repayment. If the request is unmet, the bank has two options. The first option, under Italian bankruptcy law, is to file a lawsuit against the debtor, seeking judicial enforcement of its creditor rights. Once the court rules on the foreclosure, the bank can seize the debtor's assets and write the Non-Performing Loans off its balance sheet.15In this scenario, the efficiency of the judicial system is critical: the faster the court rules on the case, the sooner the bank can recover its funds.
+
+The second option is for the bank to securitise the Non-Performing Loan, selling the debt to investors who will then take responsibility for recovering it.16However, the sale price of an NPL is closely tied to the time required for recovery; a longer recovery period generally results in a lower sale price.
+
+In both cases, the lengthy judicial process imposes costs on the bank. To prepare for potential losses on loans, banks must estimate the expected losses and set aside capital provisions—funds reserved to cover amounts they anticipate being unable to recover from debtors.17The greater the volume of Non-Performing Loans on a bank's balance sheet, the larger the capital reserves required, which reduces the amount of capital available for other productive uses, such as issuing new loans.
+
+An inefficient judicial system also reduces the selling price of non-performing credit if the bank opts to sell it, resulting in additional losses for the bank (European Systemic Risk Board, 2019).
+
+3 Data
+To define the efficiency index, we rely on data from the Directorate General for Judicial Statistics (DG Stat) of the Ministry of Justice. The DG Stat database provides annual information on new, closed, and pending cases at the court level, along with the number of judicial officers per court, from 2008 onwards. The data are categorised into civil and criminal cases, and within the civil justice framework, they are further distinguished by areas of judicial intervention: ordinary jurisdiction, labour, arrangements with creditors, enforcement, and bankruptcy.18 In total, we have data for 139 courts19for the period from 2009 to 2017.
+
+Information on the stock of NPLs was obtained from Bankscope, a Bureau Van Dijk-Moody's database that contains balance sheet information for around 30,000 public and private banks worldwide. For Italy, we found data for a panel of nearly 730 banks for the period from 2011 to 2017. For the control variables, we obtained data on the number of firms from Eurostat's Structural Business Statistics database, which provides information disaggregated to the NUTS 3 level.20Data on the number of bank branches operating in the jurisdiction of the courts comes from the Bank of Italy.
+
+The dataset for assessing the impact of the reform on efficiency is constructed by merging the data from the Ministry of Justice with Eurostat's Structural Business Statistics. As the number of judicial officers is missing for six courts and the 2009 observation is dropped in the calculation of the efficiency index, we have 1,058 non-missing observations.
+
+To assess the impact of the reform on NPLs, we merge this court-level dataset with Bankscope. We link the bank-level data to each court using the municipality's postcode. For some municipalities connected to courts, data is missing in Bankscope, resulting in a final count of 808 observations. In this context, we assign banks to the jurisdiction of the courts based on the municipality where the bank is located.
+
+In the absence of direct data on the actual bank-firm relationships and the specific sources of loans, we indirectly assume that NPLs originated in the courts with jurisdiction over the areas where the banks are located, suggesting close firm-bank relationships.21While this may be a limitation, the literature consistently indicates that geographical distance significantly influences lending decisions (Guiso, Sapienza, and Zingales, 2004), especially for small firms, which account for about 99% of Italian businesses.22The importance of proximity in lending has been studied by several researchers (Petersen and Rajan, 2002) and found to be mainly due to the information asymmetries that can arise in distant lending scenarios (Bofondi and Gobbi, 2003), creating a “gravitational pull” effect (Qi et al., 2024). Moreover, the Italian Antitrust Authority defines the relevant market for local credit as corresponding to the administrative provinces, which largely coincide with the borders of the court jurisdictions, making this the “natural” unit of reference for bank financing to firms (Guiso et al., 2004; Costanzo, Succurro, and Trivieri, 2023). The provincial level was also the unit considered by the Central Bank in its decisions on branch licenses until 1990, when restrictions were lifted.23Other studies support the hypothesis that distance matters in bank-firm relationships, demonstrating the advantages of physical proximity. For instance, Degryse and Ongena (2005) finds evidence of spatial price discrimination in bank lending, with lending rates increasing as the distance between the firm and the bank grows. In a different context, Bragoli et al. (2022) shows that operational proximity to banks positively affects firm performance in Italy.
+
+The potential mismatch between the origin of NPLs and their reporting would only be problematic if it were correlated with the treatment; specifically, if the reporting of NPLs by banks differed significantly between treated and control areas at the time of the reform. We find no evidence to support this concern. However, our empirical specification attempts to mitigate potential bias from misalignment by employing a comprehensive set of fixed effects and control variables. Moreover, while aggregating NPLs at the court level may introduce distortions due to loan misallocation, these distortions are likely to be minimal, as distant bank-firm relationships probably represent only a small fraction of total loan contracts in Italy. We expect any distortions to bias the effect towards zero rather than amplify it.
+
+A measure of judicial efficiency
+Our primary measure of court performance, based on CEPEJ (2016), focuses on court delays, reflecting only one aspect of judicial efficiency and failing to account for other essential factors that influence the effective administration of justice. In this regard, Marciano et al. (2019) presents an insightful breakdown of the taxonomy of judicial indicators, distinguishing between efficiency and effectiveness indicators. This emphasises the need for a broader assessment that considers not only the timeliness of court proceedings but also the strategic use of resources critical to overall justice delivery. However, providing a deep understanding of the inner functioning of courts is beyond the goal of our analysis. Hence, in our setting, courts' efficiency is assessed by resorting to the standard measure of trial length adopted by the Ministry of Justice and by the Italian National Bureau of Statistics. The index—which is also largely used by the economic literature (Palumbo et al., 2013; Schiantarelli et al., 2020; Pezone, 2023)—is based on pending, incoming and closed proceedings and measures efficiency in terms of the average number of days required to close a case (Efficiency Index–EI):
+ 
+(1)
+In equation (1), 
+ represents the number of pending proceedings at the beginning of period 
+, which is the same as the number at the end of the previous period. 
+ refers to the number of unresolved cases at the end of period 
+; 
+ is the number of new proceedings initiated in period 
+, and 
+ is the volume of cases resolved during period 
+. Thus, the numerator captures the number of pending cases at both the start and the end of the year, while the denominator reflects a court's ability to process cases, based on its incoming and resolved cases. The higher the index, the lower the efficiency level, indicating that the court is accumulating cases rather than resolving them.24The judicial efficiency index is also a key component of the rule of law dimension in institutional quality, which is widely recognised as a significant driver of business productivity and national development (Nifo and Vecchione, 2014).
+Table B2 presents figures on the average efficiency and size of the Italian courts from the period before the reform (2011). It also provides descriptive statistics for the three groups of courts affected by the reform: unaffected, absorbing, and dropped courts. Interestingly, the table shows that, on average, dropped courts were not necessarily those with longer proceedings, as they exhibited an average duration of around 432 days, which is shorter than both the absorbing courts (505 days) and the full-sample average (476 days). Regarding the size of incoming proceedings, dropped courts were generally smaller, averaging 1,143 new cases, compared to 4,303 in absorbing courts and 5,607 in unaffected courts.
+
+Figure B1 shows the geographical distribution of the average Efficiency Index across Italian judicial districts, both before (Panel a) and after (Panel b) the implementation of the JSR. Dark-shaded areas represent higher values in the Efficiency Index (EI), signalling longer durations for judicial processes. The maps highlight significant regional differences, with the North showing better performance than the South. The figure also allows for a visual before-and-after comparison of the EI, suggesting a general decline in court performance post-reform, with a few exceptions. A more detailed analysis, accounting for both observed and unobserved factors, is conducted in the following sections to assess the JSR's impact on judicial operations. To illustrate how the NPL ratio has evolved over time—both geographically and in relation to judicial efficiency—Figure B2 shows the distribution of the NPL ratio by Italian region (Panel a)25 and by quartiles of the Efficiency Index (Panel b) during the period analysed. Panel (a) indicates an increasing trend in NPL ratios across all regions until 2015, followed by a slight decrease in the last two years. Notably, NPL ratios were relatively consistent across Italian NUTS 1 regions, with slightly less variation and lower levels in the North-West. In terms of judicial efficiency, there are no significant differences between the four groups, although there is a slight decrease after 2015, mirroring the trends in the previous figure.
+
+4 Empirical strategy
+The purpose of our analysis is to evaluate the impact of the JSR on court efficiency and the NPL ratio of banks operating in the affected jurisdictions. The identification strategy is based on a difference-in-differences model, where we compare the difference in outcomes—either the Efficiency Index or the NPL ratio—between treated and control courts, both before and after the implementation of the reform.
+
+Treated courts are defined as those that absorbed courts abolished by the reform. These new entities exist only in the post-reform period, whereas before the reform, they were observed as two separate units.
+
+To establish a quasi-experimental framework, we draw on the literature on municipal mergers (Reingewertz, 2012; Blesse and Baskaran, 2016; Blom-Hansen et al., 2016) and artificially define the treated courts in the pre-reform period by aggregating the outcome variables of the receiving and absorbed courts.26Control courts are those unaffected by the reform. Figure B3 provides a map showing treated, dropped, and unaffected courts. For court efficiency, the impact of the JSR is estimated using the following OLS equation:
+(2)
+ is the efficiency indicator (in log form) for court i in judicial district d in year t. 
+ is a binary variable equal to 1 for courts that incorporated another court, and 
+ is a binary variable equal to 1 after the implementation of the JSR. 
+ and 
+ are court and district-year fixed effects, which capture time-invariant unobserved factors specific to each court and district-level non-parametric trends that vary by year.27 
+ represents year fixed effects, which control for any time-varying unobserved heterogeneity common to all courts, such as macroeconomic shocks or political cycles. 
+ is a stochastic error term. The vector of controls, 
+, includes the number of firms operating in the catchment area during the pre-intervention period (i.e., 2008) to account for differences arising from varying levels of economic activity.28Estimates are weighted by the inverse of the number of judges in each court before the JSR, which prevents larger courts from being over-represented while giving fair weight to smaller courts.
+For the NPL ratio analysis, we assess whether the reform has affected banks' ability to recover loans after firms default. The baseline equation is:
+(3)
+where 
+ is the average NPL ratio (i.e. the amount of NPLs retained by bank b-th as a proportion of total gross loans granted by the same bank in period t) for banks operating in the catchment area of court i in district d. The model includes the same set of fixed effects described above (
+, 
+, 
+) and the vector of controls 
+.29
+As in equation (2), we control for the number of firms operating in the catchment area of the court. In addition, we include the number of banks operating within the court's jurisdiction to avoid bias due to differences in the size of the banking sector in different areas. This controls for the “economic potential of the area” and the “potential size of the banking sector”, thus mitigating bias from NPLs originating from geographically distant firms.30Table B3 provides descriptive statistics on the relevant variables used in this analysis.
+
+5 The impact of the JSR on Judicial efficiency
+The results in Table 1 illustrate the impact of the JSR on court efficiency, as estimated from the empirical specification outlined in equation (2). Specifically, the effect of interest is captured by 
+, which represents the percentage change in the Efficiency Index for treated courts relative to control courts following the JSR. Since the Efficiency Index measures the number of days required to resolve a case, a positive coefficient indicates a decline in efficiency.31
+
+TABLE 1. Impact of Judicial Reform on the Efficiency index. DiD baseline estimates
+(1)	(2)	(3)
+ln(EI)	ln(EI)	ln(EI)
+0.089*	0.088*	0.089*
+(0.049)	(0.047)	(0.050)
+Observations	1,057	1,057	1,057
+0.79597	0.79921	0.87218
+Court FE	Y	Y	Y
+Year FE	Y	Y	Y
+Controls	N	Y	Y
+District-year FE	N	N	Y
+Y mean	6.090	6.090	6.090
+Notes: Robust standard errors, clustered at the court level, are in parentheses. Across columns, models are run controlling for year and court fixed effects. Column (2) adds the number of active firms in 2008, demeaned and interacted with year dummies and treatment as in Wooldridge (2021), while column (3) also includes district-year fixed effects. Observations are weighted according to the pre-JSR reciprocal of the number of judges working in the court. 
+ is a dummy variable that identifies treated courts. 
+ is a binary variable equal to 1 from 2012 onwards.
+***
+, ** 
+, * 
+.
+Estimates in Column 1 are derived from the baseline DiD specification, while Column 2 incorporates the interacted controls. Column 3 extends the previous specification by adding district-year fixed effects to account for non-parametric district-specific time trends, such as organisational strategies, funding availability for different courts, and other shocks that may affect each district differently over time.
+
+The results across all three models are consistent in magnitude, positive, and statistically significant, suggesting a negative impact of the JSR on court efficiency. In our preferred specification (Column 3), the Efficiency Index increased by nearly 9%,32 which, given the average trial length of 441 days, translates into an additional 39 days to close a proceeding. Clustering at the district level yields broadly identical results, as shown in Table B4, columns (1) to (3). The results also hold when using alternative weighting schemes that take into account two different measures of the size of the court before the reform, the reciprocal of the number of administrative staff working in the court, or the reciprocal of the population living in the area served (Table B4, columns (4) and (5)).
+
+The evidence in Table 1 contrasts with the intended goal of the reform, which aimed to enhance judicial efficiency. These findings are in line with the challenges reported by the courts during the 2013 assessment of the Ministry of Justice, as discussed in Section A. Courts highlighted issues such as a shortage of administrative personnel and inadequate infrastructure, which hindered the absorbing courts' ability to manage the increased workload and backlog effectively.
+
+To further explore these findings and ascertain whether similar conclusions can be drawn when analysing different aspects of judicial performance, we introduce two additional measures of efficiency: the Case Turnover Ratio (CRT) and the Disposal Rate (DR), which assess the courts' ability to handle backlogs and dispose of cases, respectively.
+
+The CRT is defined as:
+ 
+(4)
+and the DR is computed using the following formula:
+ 
+(5)
+The estimates from our preferred specification (Table 1, Column 3) are presented in Table B5, which confirm that the reform did not significantly improve treated court efficiency. In fact, the sign of the treatment coefficients suggests that the reform is associated with a decline in the ability to process backlogs in treated courts and that there was a decline in the effective management of both incoming and previous cases.
+Validation
+The DiD estimates are only informative about the causal impact of the reform on the Efficiency Index if we can validate the Parallel Trend Assumption i.e., that outcomes for treated and control groups would have followed similar paths in the absence of the reform. We test this assumption using an event study approach (Autor, 2003), modifying equation (2) to include leads and lags terms that identify the years before and after the implementation of the reform, respectively. Regressions are then run using the year prior to the introduction of the reform as the baseline.
+
+We graphically present the results of the test in Figure 1.33Data at hand allows us to consider a period of up to two years before the implementation and for five years thereafter (until 2017). We can test the absence of any anticipation effect considering only one lead (t-2) by setting the year before the onset of JSR (t-1= 2011) as the reference year. The absence of a statistically significant lead term (t-2) indicates no anticipation effects, supporting our identifying assumption.
+
+Details are in the caption following the image
+Figure 1
+Open in figure viewer
+PowerPoint
+Testing the Parallel Trend assumption. Event study on the Efficiency Index [Colour figure can be viewed at ∖Latexurldefns{http://wileyonlinelibrary.com}{∖textit{wileyonlinelibrary.com}}]
+Note: The dots are the point estimates of the effect of the JSR in each year; the vertical lines represent the respective 90% confidence intervals. The point with no standard errors indicates the reference year (2011). Regressions include fixed effects and controls as from Table 1, col.3.
+
+Other than testing the Parallel Trend assumption, the event study analysis allows for an investigation of the dynamics of the policy effects over time. The Figure suggests that the negative effects of the reform materialised gradually, with coefficients becoming positive two years post-reform, and significant three to four years after implementation. This aligns with the hypothesis of a “bottleneck” effect that may have impeded court operations, increasing case resolution times. We now turn to analyse the components of the Efficiency Index, namely the series of the new, closed, and pending proceedings. This analysis may provide insight into the mechanisms driving the negative effects observed in the previous section. It also includes an additional year of data, allowing us to further validate the absence of differences in trends between treated and control courts before the JSR. Figure 2 illustrates the results obtained by the implementation of the same event study that was described above but with an additional lead term (t-3).34
+
+Details are in the caption following the image
+Figure 2
+Open in figure viewer
+PowerPoint
+Testing the Parallel Trend assumption. Event study on the Incoming, Closed and Pending files [Colour figure can be viewed at ∖Latexurldefns{http://wileyonlinelibrary.com}{∖textit{wileyonlinelibrary.com}}]
+Note: The dots are the point estimates of the effect of the JSR in each year; the vertical lines represent the respective 90% confidence intervals. The point with no standard errors indicates the reference year (2011). Regressions include fixed effects and controls as from Table 1, col.3.
+
+By looking at the dynamics after the JSR, we observe a slight decrease in the number of new incoming proceedings while the number of pending files remained stable. The number of closed files has also declined, albeit not in a manner that is statistically significant. These results suggest the reform did not increase the courts' workload but reduced their capacity to efficiently process both incoming and pending cases, consistent with the findings from the alternative efficiency indices.
+
+The analysis on the components of the Efficiency Index lends additional support to the existence of common trends, as lead terms for each series are statistically indistinguishable from zero. To complement the event study analysis described above, Figures B4 and B5 plot the trend for the Efficiency Index and its components over the period 2010–2017, respectively (starting in 2011 for the Efficiency Index). We observe that the two lines are not statistically different in the pre-reform period for the EI, given that the confidence bands overlap. Interestingly, the line of the treated courts overtakes the untreated two years after the introduction of the JSR, ending up with an EI that is higher on average. The two lines were parallel in the pre-reform period for the incoming, pending, and closed proceedings.35
+
+6 The impact of the JSR on NPLs
+In this section we assess the extent to which the JSR impacted NPLs held by Italian banks. As discussed earlier in section II, the efficiency of the judicial system plays a key role in influencing the level of NPLs. A slow judicial process can lead to their accumulation, while a more efficient system enables banks to enforce creditors' rights more quickly, reducing the stock of NPLs. However, given that earlier results suggest the JSR did not significantly improve court efficiency, we expect that banks operating in the affected areas may have struggled to limit the accumulation of NPLs.
+
+To test this hypothesis, we run the model in equation (3) and present results in Table 2.
+
+TABLE 2. Impact of Judicial Reform on NPLs. DiD baseline estimates
+(1)	(2)	(3)
+NPL ratio	NPL ratio	NPL ratio
+2.601**	2.565**	3.545***
+(1.228)	(1.197)	(0.865)
+Observations	808	774	757
+0.79601	0.74698	0.81924
+Court FE	Y	Y	Y
+Year FE	Y	Y	Y
+Controls	N	Y	Y
+District-year FE	N	N	Y
+Y mean	15.85	15.50	15.49
+Notes: Robust standard errors, clustered at the court level, are in parentheses. Across columns, models are run controlling for year and court fixed effects. Column (2) adds the number of active firms in 2008 and the nr. of banks operating in the catchment area of the court, demeaned and interacted with year dummies and treatment as in Wooldridge (2021), while column (3) also includes district-year fixed effects. 
+ is a binary variable equal to 1 for banks operating in the treated courts area. 
+ is a binary variable equal to 1 from 2012 onwards.
+***
+, **
+, *
+.
+The DiD coefficient –
+ –indicates the average change in NPL ratio for banks within the catchment area of treated courts compared to those in untreated courts.36Across columns, the models in Table 2 use the same specifications as in Table 1, with the addition of the number of banks located in the area as controls.37 All specifications yield a positive and statistically significant coefficient. Specifically, banks in the catchment area of treated courts experienced a rise in the NPL ratio of nearly 3.5 percentage points, equivalent to an average 20% increase in the NPL ratio, compared to banks in non-treated areas. This suggests that due to the inefficiencies faced by treated courts, banks in those areas struggled to recover overdue credit and were unable to remove these loans from their balance sheets.
+
+Other studies have examined the impact of credit enforcement reform on NPLs (D'Apice et al., 2024) or interest rates (Rodano, 2021) and have found positive outcomes from judicial reforms. For instance, D'Apice et al. (2024) reported a reduction in NPLs by 1.69 to 3.44 percentage points in a country-level analysis across Austria, Belgium, Norway and Sweden. Rodano (2021) found that more efficient courts with shorter bankruptcy procedures were associated with lower average interest rates (by about 14 to 18 basis points) on credit lines, especially for high-risk firms. In terms of the implications of our findings, they align with the work of Lilienfeld-Toal, Mookherjee, and Visaria (2012), who cautions that stronger legal enforcement mechanisms may have adverse distributional effects. Specifically, while legal reforms may improve credit access for wealthier borrowers, they may reduce it for smaller, more vulnerable borrowers. This comparison underscores the importance of carefully considering both the direct and indirect effects of legal reforms on credit markets, as well as potential heterogeneous effects across different borrower groups and regions. Overall, this variety in results suggests that the impact of judicial reforms on the credit market may vary depending on implementation and context.
+
+To further explore the dynamics and persistence of the impact on NPLs, Table B9 presents yearly treatment effects, estimated by interacting year dummies for the post-treatment period with the treatment indicator, following Wooldridge (2021). Reassuringly, the results consistently show a positive and statistically significant effect (except in the first year), with the magnitude increasing over time. This aligns with the “bottleneck effect” for judicial efficiency identified in Figures 1 and 2.
+
+Validation
+The Bank Focus data for Italy begin in 2011, leaving us with only a single pre-treatment period in our analysis. This limitation makes the typical event study à la Autor—used to track outcome evolution prior to a reform—less useful in evaluating differences in trends between the treated and control groups. However, Figure B6 provides preliminary, visual evidence suggesting that there were no significant differences in NPL trends between the two groups before 2012. To further confirm the absence of pre-treatment differences, we conduct a T-test on several observable characteristics that could influence the NPL ratio, including the number of firms, the number of banks, judicial efficiency, gross loans, total customer deposits, and the level of Non-Performing Loans. For each of these variables, the differences between treated and untreated groups are not statistically significant (Table B10). Additionally, following the approach of Pei, Pischke, and Schwandt (2019), we perform a robustness test by regressing these baseline characteristics on the treatment variable. The results, shown in Table B11, confirm a zero coefficient for the treatment variable, indicating balanced characteristics and supporting our identification strategy.
+
+In keeping with recent contributions that acknowledge that violations of parallel trends are plausible (Rambachan and Roth, 2023), we examine the extent to which our results are robust to these violations. To this end, we account for potential violations of the parallel trends assumption by imposing constraints on how post-treatment trends can deviate from pre-treatment trends, based on specific identification assumptions. Figure B7 illustrates robust confidence intervals for the treatment effect of the JSR on NPLs in 2014, following an event study approach, using relative magnitude bounds (
+ 
+). The figure shows that by restricting post-treatment violations of parallel trends to no more than the maximum pre-treatment deviation (i.e., setting 
+ 
+ = 1), we derive a robust confidence interval of [ 0.205, 6.598 ] for the impact on NPLs in 2014. Although this interval is wider than the standard OLS confidence interval—which is only valid under strict adherence to parallel trends—it still rules out the possibility of a null effect on NPLs in 2014.
+
+In this context, we also assess the sensitivity of the results when a different control group is considered. To increase the similarity between the two groups, we match courts on the basis of the propensity score and restrict the sample to units with a propensity score in the interval [0.1, 0.9]. We then apply the difference-in-differences method to this propensity score-matched sample, using the propensity score to compute weights in the subsequent DiD estimation. Reassuringly, the results remain consistent with our baseline estimates (Table II), as shown in Table B12.38Overall, our results support the hypothesis that treated and control courts may have followed parallel trends prior to the JSR. Nevertheless, we are aware of the limitations of our data and we temper our claims.
+
+7 Robustness
+In addition to testing the validity of the identification assumption, we also examined whether the results could be driven by specific courts. To do this, we ran our preferred specification and systematically excluded courts one by one (Figure B8) for both equation (2) and equation (3). The figures show that the results are not sensitive to the exclusion of any single court, confirming that the findings are robust and not driven by the influence of one specific court.
+
+Table B13 presents the estimates of equation (3) on three additional outcomes representing economic and productive conditions at the provincial level (specifically, log GDP per capita, firm exit rate, and the number of active enterprises). These estimates provide a broader understanding of the economic consequences that the JSR may have produced. In all three columns, the coefficients have the expected signs, although they are not precisely estimated. Specifically, our findings indicate a negative effect of the reform on GDP, a reduction in the number of active firms, and an increase in the firm exit rate—patterns consistent with an increase in NPLs and the evidence discussed earlier.
+
+8 Heterogeneity
+This section examines how the impact of the reform on the Efficiency Index and NPLs varies across different dimensions. Specifically, we explore three sources of heterogeneity: the geographical location of the court, the role of mutual and cooperative banks in the banking system, and the pre-reform level of judicial efficiency of the court.
+
+With regard to the first dimension, Figure B3 highlights significant regional differences in judicial efficiency across Italy. Empirical studies have extensively examined the disparity in social and economic development across Italian geographical areas. Italy frequently serves as a case study to illustrate how a uniform political system can yield significantly heterogeneous outcomes based on geographical location (Nifo and Vecchione, 2014; Ferrara and Nisticò, 2019). In this context, institutional quality plays a key role and judicial reform can serve as a crucial shock. To investigate this further, we assess whether the JSR had a heterogeneous effect on judicial efficiency and NPLs depending on the geographical location of the courts. For the regional classification, we use the Nomenclature of Territorial Units for Statistics (NUTS) provided by Eurostat, focusing on the first level of classification (NUTS1). We extended our models (equations 2 and 3) by interacting treatment with a categorical variable identifying NUTS1 regions: 
+. In this context, equation (2) becomes:
+ 
+(6)
+The term 
+ represents the differential effect of the reform on the EI for treated courts compared to untreated courts. The term 
+ captures the heterogeneous effects that vary according to the geographical location of the court, as identified by the 
+ categories of the 
+ variable.
+For the analysis of the NPL ratio, interactions with 
+ (specifically, 
+ and 
+) are also included in equation (3).39
+
+In this framework, the effect is given by the first derivative of equation (6) with respect to the treatment 
+, calculated as follows: 
+. The value of 
+ varies across the different categories of the 
+ variable.
+
+To help interpret the results, Figure 3 plots the point estimates for 
+ along with the corresponding confidence intervals for both EI (Panel a) and NPLs (Panel b).
+
+Details are in the caption following the image
+Figure 3
+Open in figure viewer
+PowerPoint
+Impact of the JSR on the Efficiency Index and NPLs' ratio. Heterogeneity by Italian NUTS 1 [Colour figure can be viewed at ∖Latexurldefns{http://wileyonlinelibrary.com}{∖textit{wileyonlinelibrary.com}}]
+Note: The horizontal axis reports the Italian NUTS 1 areas. The dots are the point estimates for each region; the vertical lines represent the 90% confidence intervals. The regressions include fixed effects and controls from column 3 of Table 1 for EI and Table 2 for NPLs.
+
+Figure 3 shows that the JSR worsened judicial efficiency only in the central regions of Italy, while it increased the NPL ratio in all areas. For both outcomes, the estimated coefficients do not indicate statistically significant differences across NUTS1 regions. In other words, despite initial regional disparities and differences in the performance of the courts before the reform, we cannot prove the existence of significant territorial differences in the impact of the JSR.
+
+The second dimension of heterogeneity we examine is the structure of the banking system, focusing on the indirect effect that judicial reform may have on debtors. As several researchers have pointed out (Schiantarelli et al., 2020; D'Apice et al., 2024), judicial reforms can have direct effects on the efficiency of the courts and at the same time indirectly affect the behaviour of borrowers through moral hazard. In the context of the JSR, this means that if the reform was perceived as ineffective in enforcing creditors' rights, some firms may have been tempted to strategically default on their debts, masked by the length of court proceedings.
+
+The JSR sparked a heated debate among practitioners and the public. Notably, the National Association of Judges and many local lawyers' associations questioned the reform's effectiveness in addressing the issue of lengthy Italian trials and raised concerns about its potential short-term negative impact on the ability of the system to handle its workload (Biele et al., 2023). Overall, the message conveyed to the public was controversial, and it is reasonable to assume that some firms formed biased expectations about the effectiveness of the reform, possibly leading to opportunistic behaviour. As a result, the increase in the NPL ratio may be partly attributed to a poorly performing judicial system, but also to moral hazard arising from the perceived ineffectiveness of the JSR.
+
+The tendency of firms toward moral hazard may be reduced in areas where cooperative and mutual banks are prevalent. Unlike commercial banks, these institutions build trusting relationships with firms (Berger and Udell, 2002; Berger et al., 2005) and closely monitor behaviour due to their local focus (Costanzo, 2023). This local dimension helps to deter opportunistic behaviour through the threat of reputational damage. This study examines whether the presence of cooperative banks mitigates the negative impact of the JSR on the NPL ratio by discouraging strategic defaults.
+
+To examine this relationship more closely, we measure the proportion of cooperative and mutual banks out of the total number of banks within each court's jurisdiction in 2011. We then create two binary variables to categorise courts based on whether this share is above or below the median for the entire sample.40These variables are interacted with our treatment, allowing us to estimate the differential effect of the reform based on the share of cooperative and mutual banks. The results are shown in Table 3, Column 1. The interaction terms capture the differential effects, and we observe positive and significant coefficients for both groups. However, the coefficient is slightly smaller in areas with a higher concentration of mutual banks. We tested whether the two coefficients are statistically different but could not reject the null hypothesis that their difference is zero (
+). In addition, we performed the Young Westfall-Young test (Young, 2019) to assess the hypothesis that none of the treatment variables had an effect. This test yielded a randomised p-value of 0.0005, further confirming our initial findings.41
+
+TABLE 3. Heterogeneity in cooperative banks and past efficiency
+(1)	(2)
+NPL ratio	NPL ratio
+3.865**	3.714*
+(1.574)	(2.108)
+2.632**	−1.623
+(1.110)	(1.584)
+Observations	757	753
+0.888	0.865
+Heterogeneity	Coop. banks	Efficiency
+Court FE	Y	Y
+Year FE	Y	Y
+Controls	Y	Y
+District-year FE	Y	Y
+Y mean	15.49	15.48
+F-
+=
+0.410	4.098
+Pval-F	0.523	0.0453
+Young Westfall-Young test	0.00058	0.00258
+Notes: Robust standard errors, clustered at the court level, are in parentheses. Across columns, models are run controlling for year, court and district-year fixed effects. Models also consider the number of active firms in 2008 and the number of banks operating in the catchment area of the court, demeaned and interacted with year dummies and treatment as in Wooldridge (2021). 
+ is a binary variable equal to 1 for banks operating in the treated courts area. 
+ is a binary variable equal to 1 from 2012 onwards. 
+ is a binary variable identifying observations below the median value of the distribution of the 
+ variable, while 
+ identifies observations above the median value. Col. (1) and (2) refer to the heterogeneity based on the share of cooperative banks operating in the catchment area of the courts, considered as a predetermined time-invariant variable, or on the predetermined time-invariant level of the efficiency index, respectively. 
+ is the value of the F-statistic obtained when testing if the difference between the coefficients of the two interaction terms is equal to zero. P-val F is the p-value of the test. Young Westfall-Young test is the randomised p-value of the test proposed by Young (2019).
+***
+, **
+, *
+.
+Finally, we investigate whether the relationship between the JSR and NPLs depends on the courts' ability to manage cases before the reform. In Column 2 of Table 3, we present a heterogeneity analysis similar to that for cooperative banks, but this time categorising courts according to whether their efficiency index was above or below the sample median. The results of the model with interaction terms show that the effect is positive and significant only for courts with an efficiency index below the median, that is, those that were previously more efficient. The Wald test confirms that the difference between the two coefficients is statistically significant (
+). Overall, the estimates in Table 3 suggest that the reform had a slightly larger impact on NPLs in banks operating within the jurisdiction of courts that were more efficient before the reform.
+
+The heterogeneity analysis sheds light on the mechanism driving the effect of the JSR on the two outcomes. Specifically, it suggests that the main source of heterogeneity is the level of efficiency of the courts before the reform, while the effect is not tied to geographic location or the structure of the banking system. Court mergers may have imposed excessive burdens, particularly on courts that were previously more efficient. These findings are consistent with other studies and are supported by descriptive evidence (Biele et al., 2023).
+
+9 Conclusions
+The analysis of the impact of the judicial system on finance has a long tradition in economics. The topic has received renewed attention in the aftermath of the 2008 economic crisis, given the potential influence that the judiciary can have on banks' management of NPLs and, ultimately, on systemic stability.
+
+In this paper, we exploit the introduction of a regulation aimed at improving judicial efficiency through the geographical reorganisation of courts in Italy to analyse the relationship between judicial structural reforms and NPLs. By constructing a dataset of annual cases handled by each court over the period 2010-2017, we are able to define an index that measures judicial efficiency in terms of case duration. We then complement this data with information on the balance sheets of the banks that operate in the catchment area of the courts.
+
+Our findings confirm the existence of a relationship between judicial reforms and the ability of banks to take NPLs off their balance sheets. However, our study shows that the reform has not had the desired effect, leading to longer court proceedings and an increase in the stock of NPLs held by banks operating in the catchment area of the courts targeted by the reform. Our empirical results on trial length also confirm the technical efficiency findings presented in Peyrache and Zago (2016), showing that while court mergers may have been effective in reducing fixed costs, they may have created diseconomies of scale. This is aligned to some extent with the heterogeneity analysis based on pre-determined levels of efficiency, which shows that the negative effect of the JSR is mainly identified in those courts that were previously faster in closing their cases.
+
+Although Italy shows non-negligible social and economic disparities across regions, our results do not display significant geographical heterogeneity for both the Efficiency Index and the NPL ratio.
+
+More broadly, our analysis points out that the role played by the judicial system in shaping the exposure of banks to credit risk is relevant and not trivial. This is particularly important in the current economic and financial scenario worldwide, as shaped by the Covid-19 outbreak. The European Union has approved one of the most comprehensive packages of structural reforms (the Next Generation EU plan), which strives to boost economic and financial development. Indeed, the judiciary is at the core of the reforming agenda in many Member States, as judicial efficiency is considered necessary in a resilient economy. At the same time, Member States have supported firms with economic measures, often in the form of loans, credit guarantees and debt repayment moratoria during the crisis. While the latter were crucial in preventing corporate failures, they also contributed to the build-up of corporate leverage. Although corporate debt is not necessarily harmful, it could pose a serious threat to bank stability if the recovery takes longer than expected. In this context, as our paper highlights, the relationship between the efficiency of the judicial system and banks' credit exposure is of critical importance in determining economic stability.
+

@@ -1,0 +1,479 @@
+Firms and economic performance: A view from trade
+
+Abstract
+We use transaction-level US import data to compare firms from virtually all countries in the world competing in a single destination market. First, we decompose countries’ sales into the contribution of the number of firm-products, their average appeal and its dispersion. Then, by making distributional assumptions consistent with the data, we identify new structural parameters that are useful in understanding the role of firm heterogeneity for trade and economic performance. We find that differences in the dispersion of appeal are quantitatively important in explaining exports, even after controlling for selection, average appeal and other determinants of trade, and that they are relevant for welfare. We also find that countries with a higher GDP per capita export more per firm largely because they have a higher dispersion of appeal, hence more heterogeneous firms.
+
+1. Introduction
+Understanding differences in economic performance across countries has always been a great challenge. Until recently, the main focus was on measuring aggregate productivity from national accounts. The availability of firm-level data revolutionized the field by showing that productivity varies enormously even across firms within countries. One striking fact emerging from this literature is the increasingly dominant role of top firms both domestically (e.g., Autor et al., 2020) and in international markets (e.g., Freund and Pierola, 2015).1 However, some important questions on the role of firm heterogeneity still remain unanswered: How relevant quantitatively are firms that deviate from the country-industry average to explain aggregate performance? How does firm heterogeneity vary across countries, and with the level of development? What are the implications of this variation for trade flows and welfare?2
+To answer these questions, in this paper we use transaction-level data on US seaborne imports, containing information on unit values, volumes and the identity of exporting firms for 6-digit products from over 100 countries in 2002 and 2012, to compare firms from virtually all countries in the world. This unique dataset allows us to provide a comprehensive account of how the distribution of firm-level characteristics explains aggregate sales in a single destination market. Moreover, by making distributional assumptions consistent with the data, we identify new structural parameters illustrating the importance of cross-country variation in firm heterogeneity, even within detailed sectors, for trade and economic performance.
+As a preliminary step, we follow recent methodological advances in trade theory to quantify the role of various firm-level margins.3 First, we decompose countries’ sales to the US within a given 4-digit industry and year into an extensive margin—the number of firm-products per country—and an intensive margin—the average sales per firm-product from a given country. This exercise shows that each margin accounts on average for half of the overall variation in sales. Second, we decompose the intensive margin, into two parts: the average “appeal” of the firm-products, which we can extract from the data, and deviations from its average. More precisely, we define appeal as quality-to-price ratios, where quality is a demand shifter. Intuitively, countries with more appealing firm-products sell more. However, heterogeneity in appeal also affects total sales because consumers can substitute high-appeal firm-products for low-appeal firm-products. We show that when the elasticity of substitution is higher than two, we are in a “superstar economy” in the sense that more dispersion in appeal, conditional on its average, implies larger sales per firm-product. We find that heterogeneity explains roughly half of the cross-country variation in average sales per firm-product within an industry. We also find that countries with a higher GDP per capita sell more per firm largely because they have more heterogeneous, and hence top, firms.
+These results suggest that countries differ in economic performance not just because they host firms that are on average better or worse. Equally important is the ability to breed firms that are exceptional, in that they deviate from the country-industry mean. The main focus of the paper is to study the latter source of economic performance, i.e., differences in firm heterogeneity across countries. In doing so, however, we face three challenges. First, since our sample only includes firms that export to the US, one concern is that differences in dispersion might be driven by selection, especially if progressively less appealing firms export from origins selling more to the US. Second, we would like to know if heterogeneity in a country-industry-year triplet is well approximated by continuous distributions, despite the granular nature of the data. If so, this may suggest that exceptional firms are a manifestation of economic performance rather than outliers. Finally, our preliminary decompositions rely on values of the elasticity of substitution, which are however difficult to estimate.
+To make progress, we impose more structural restrictions. Several papers argue that sales are well approximated by a log-normal distribution (see, for instance, Cabral and Mata, 2003, Head et al., 2014, Bas et al., 2017). We confirm this in our sample. In particular, we find that log-normal distributions, with parameters that vary across country-industry-year triplets, provide a good fit of the data.4 Under the assumption of log-normality, we can use Quantile-Quantile (QQ) regressions in each triplet to obtain estimates of the shape parameters of the distributions of sales that are independent of truncation. This allows us to separately identify differences in heterogeneity and in selection. Moreover, under our assumptions, there is a simple mapping between the distribution of sales and the distribution of appeal. This mapping allows us to flexibly separate cross-country differences in the heterogeneity of appeal from cross-industry differences in the elasticity of substitution, without relying on any estimates of the latter parameter. Using this approach, we confirm that differences in heterogeneity across countries are large; that they are strongly correlated with the volume of exports, even after controlling for selection, average appeal and other determinants of trade; and that heterogeneity correlates positively with per-capita income across countries.
+Finally, we argue that firm heterogeneity is important not just to explain observed trade flows, but also for welfare. In particular, we implement an accounting exercise showing that the price index of the basket of imported varieties is significantly lower from origins with higher dispersion. Other things equal, we find that the price index of imports from a country-industry with a variance of log sales one standard deviation higher than the sample mean, roughly corresponding to the observed average difference between Germany and China, would be around 14% lower. Moreover, it is known that both welfare and the gains from trade depend on the extent of heterogeneity (e.g., Bas et al., 2017). Yet, structural models usually allow for cross-country differences in average productivity, but not in its dispersion (e.g., Costinot and Rodríguez-Clare, 2014). Our results imply that considering differences in firm heterogeneity is also important.
+This paper is related to the literature on the role of firms for explaining trade flows. Some papers have studied the contribution of the extensive and intensive margin (e.g., Fernandes et al., 2023, Bernard et al., 2018, Fernandes et al., 2016, Bernard et al., 2009, Chaney, 2008, Hummels and Klenow, 2005). This strand of literature has shown that larger and richer countries have both more and bigger exporters. We further decompose the intensive margin into the contribution of average appeal and its dispersion.5 Freund and Pierola (2015) and Fernandes et al. (2016) have documented a number of important facts about the trade shares captured by top firms. Our framework clarifies that looking at market shares is not enough to quantify the contribution of heterogeneity, which also depends on structural parameters. In terms of results, the finding that richer countries have bigger exporters partly because their firms are more unequal is, to our knowledge, new.6
+The paper is closely related to Redding and Weinstein (2024), who develop a log-linear decomposition to flexibly quantify the contribution of various firm-level margins in explaining variation of US imports across countries.7 We complement their analysis in several ways. First, our main goal is to move beyond an accounting exercise by making distributional assumptions that allow us to identify new structural parameters. To illustrate the practical relevance of this contribution, we relate these structural parameters to measures of economic performance across countries and discuss their implications. Second, our focus is primarily on the role of firm heterogeneity. For this reason, our decomposition is designed to fully separate the effect of average and dispersion in the level of appeal. Due to the concavity of the log operator, the log-linear decomposition in Redding and Weinstein (2024) overstates the contribution of heterogeneity conditional on the mean. Finally, we use different data.8
+The remainder of the paper is organized as follows. Section 2 introduces a theoretical framework that illustrates the role of firm heterogeneity when decomposing countries’ sales. Section 3 describes the firm-level data on US imports that we use in the empirical analysis. Section 4 reports the results from a preliminary decomposition of US imports into firm-level margins. In Section 5 , we make distributional assumptions that allow us to identify new structural parameters and study how they relate to trade and economic performance. Section 6 discusses the welfare implication of the results in models of trade with heterogeneous firms and selection. Section 7 concludes.
+2. Firm heterogeneity and trade accounting with CES preferences
+We now show how to map countries’ sales to a given destination in a given industry into firm-level characteristics. Our approach builds on previous work by Redding and Weinstein (2024). However, we depart from their log-linear decompositions to fully separate the role of average characteristics (in levels) relative to dispersion. The only restriction we impose in this section is a Constant Elasticity of Substitution (CES) demand system.9 We assume that firms produce differentiated varieties and we identify each variety as a different technology. Since we are interested in studying how these technologies affect sales, in the empirical section, we will take the firm-product pair as the basic unit of analysis and we will refer to it simply as a “firm” or “variety”.10
+2.1. Preferences and demand
+Consider consumers located in a destination 
+. In the empirical section, the destination will be the US market. Preferences over consumption of goods produced in 
+ industries are:
+(1)
+Each industry 
+ produces differentiated varieties and consumers have CES preferences over these varieties:
+(2)
+where 
+ is quantity consumed of variety 
+, 
+ is a demand shifter, 
+ denotes the set of varieties available for consumption in market 
+ in industry 
+, and 
+ is the elasticity of substitution between varieties. In general, we use lowercase letters for variables referring to a single variety and uppercase letters for more aggregate variables. The demand shifter 
+ is often interpreted as “quality”, because it measures the value of a certain product for a given quantity consumed. It captures both the intrinsic quality of the variety and its specific appeal in the destination market considered. Since we have data on one destination market only, we will not be able to distinguish between them. With this caveat in mind, from now on, we may refer to 
+ as quality.
+We denote by 
+ the price of variety 
+ and by 
+ the minimum cost of one unit of the consumption basket 
+:
+(3)
+Then, demand for a variety 
+ can be expressed as:
+(4)
+As usual, demand is a negative function of the price, with elasticity 
+. Conditional on prices, demand is increasing in quality, with elasticity 
+.
+2.2. Decomposing sales
+Consider an industry 
+, and define 
+ as the number of varieties sold from country 
+ to destination 
+ in industry 
+ and 
+ as their average sales. Then, total sales originating from 
+ are:
+(5)
+This equation decomposes countries’ sales into the contribution of an extensive margin (the number of varieties) and an intensive margin (average sales of each variety).
+Next, consider the intensive margin, 
+. From (4), we can write sales of variety 
+ as:
+(6)
+where 
+ is defined as the quality-to-price ratio and 
+ summarizes demand conditions where 
+ is expenditure allocated to sector 
+ in destination 
+. Note that, within a given industry-destination, differences in sales depend solely on differences in quality-to-price ratios. For this reason, from now on, we refer to 
+ as a synthetic measure of “appeal”. Average sales per variety can then be expressed as a function of the distribution of appeal:
+(7)
+We can now decompose the intensive margin, 
+, into two key statistics of the distribution of appeal: its average and an appropriate measure of dispersion. To this end, define the arithmetic mean of 
+ from a single origin 
+ as:
+(8)
+Then, sales of the firm with average appeal are 
+. Heterogeneity matters when average sales differ from the sales of the average firm. To quantify its role, we add and subtract 
+ to (7) so as to obtain:
+(9)
+This equation shows that average sales per variety can be decomposed into two terms. The first term in square brackets captures the contribution of the average appeal of varieties from a given country. The second term captures the importance of heterogeneity in appeal from that origin. Clearly, (9) shows that the contribution of heterogeneity is zero if all quality-to-price ratios from a given country are identical. But what is the sign of this term if appeal does vary across varieties? The answer to this question depends on the value of 
+, because the latter captures the willingness to reallocate demand towards better varieties.
+To see how, note from (6) that sales are a convex function of appeal when 
+. In this case, by Jensen’s inequality, the contribution of heterogeneity in (9) is positive. When 
+, instead, sales are linear in appeal, so that only its average, and not its distribution, matters. Finally, when 
+, sales are a concave function of appeal, so that more heterogeneity has a negative contribution to average sales. In other words, if varieties are sufficiently substitutable, we are in a “superstar economy”, in the sense that the possibility to reallocate expenditure from less to more appealing varieties increases average sales when holding constant the mean quality-to-price ratio. Note that, while 
+ is sufficient for demand to increase more than proportionally with 
+, the elasticity of revenues is 
+ because of the negative effect of quantity on prices. This is why an elasticity greater than two is needed for revenues to increase more than proportionally with 
+.
+Interestingly, we can also rewrite (9) in terms of the distribution of observed sales and 
+. In particular, substituting 
+ from (6), yields:
+(10)
+where 
+.
+Eqs. (5), (10) can be used to decompose the sales originating from any country or group of countries. All is needed is estimates of 
+ and the observed firm-level sales from any country or group of countries. Note also that while documenting the properties of the distribution of sales, such as the variance or the role of top firms, is an interesting exercise, it is not sufficient to assess the importance of firm heterogeneity, i.e., of having firms that differ from the country’s average. For instance, (10) shows that if 
+ heterogeneity is irrelevant, regardless of how sales are distributed. However, this also highlights the main limitation of the exercise, which hinges on having reliable estimates of the parameter 
+. Finally, although the second term on the right-hand side of (10) captures the effect of reallocation among heterogeneous firms, which depends both on the distribution of sales and 
+, in what follows we will often refer to it simply as a measure of “heterogeneity”.
+3. The data
+To perform the empirical analysis, we need data on the sales of individual products in a single destination market by firms from different origin countries. We obtain this information using transaction-level data on US seaborne imports from Piers, a database administered by IHS Markit.11 Piers contains the complete detail of the bill of lading of any shipment that is imported into the US by sea. IHS markit collects the bills of lading filed with the US Customs, verifies and standardizes their information, and makes the resulting data available for sale. We purchased from IHS Markit information on the universe of seaborne manufacturing import transactions of the US, by exporting firm and product, in two years, 2002 and 2012. For each transaction, we know the complete name of the exporting firm, its country of origin, the exported product (according to the 6-digit level of the HS classification), the value (inclusive of freight, insurance and other transportation charges, in US dollars) and the quantity (in kilograms) of the transaction; we compute the unit value of each transaction as the ratio of value to quantity.12 We use a correspondence table developed by the World Integrated Trade Solutions to map each HS6 product exported by a firm into a 4-digit SIC industry.13 The final data set comprises 1,350,574 observations at the firm-product-year level. Firms belong to 
+ 4-digit SIC manufacturing industries and 
+ origin countries spanning the five continents.
+Three features of Piers are especially relevant for our analysis. First, access to Piers is not restricted and can be obtained by anyone, albeit at a fee. Second, all firms in Piers use the same export mode (by sea), which favors comparability. Third, Piers contains the full name of each firm, which allows us to precisely identify companies exporting to the US, thereby reducing the risk of over-counting them. These characteristics enable us to compare export flows, and their firm-level determinants, from virtually all countries in the world to the same destination market.
+Since our decompositions are valid for any subset of firms and sales, the fact that Piers only contains seaborne shipments implies that our results should be interpreted, strictly speaking, as applying to firms selling in the US by sea. At the same time, maritime trade is the principal trade mode worldwide, accounting for 70% of world trade values and 80% of world trade volumes (UNCTAD, 2018). It also represents the bulk of US trade in manufacturing and the main mode of selling goods in the American market for most countries: as shown in panel (a) of Table 1, Piers accounts for 83% of overall manufacturing exports to the US for the average country in our sample, and for 77% for the median country.14 In Appendix A.1, we discuss the countries for which Piers provides a less extensive coverage of exports to the US. In Section 4.1, we show that excluding these countries has no bearing on the results.
+Panel (b) of Table 1 provides further details on the composition of our sample. All variables in this panel are computed separately for each country-industry-year triplet, and reported statistics are calculated across all available triplets. The average triplet has 
+ firms and 
+ varieties, a value of total exports to the US exceeding $
+ million and average exports per firm-product slightly above $
+ million. Appendix A.1 provides more details on data construction, discusses the advantages and limitations of Piers relative to the (restricted-access) transaction-level data collected by the US Customs, and compares a number of moments obtained from Piers with their counterparts based on aggregate trade data from various sources.
+Table 1. Descriptive statistics.
+
+Empty Cell	Mean	Median	Std. Dev.	Empty Cell
+(a) Sample coverage				
+Share of Piers exports in total exports to the US (based on customs data)	0.83	0.77	0.55	
+(b) Sample composition				
+N. of firms	44	8	249	
+N. of firm-product pairs (varieties)	55	9	316	
+Total exports ($1000)	60 347	2360	536 000	
+Average exports per variety ($1000)	1273	230	11 058	
+(c) Moments				
+Variance of log sales	3.54	3.07	3.12	
+Variance of log prices	0.41	0.19	0.67	
+Notes. The variable in panel (a) is computed for each country in the years 2002 and 2012. Reported statistics are the mean, median and standard deviation of the variable across all countries and years. The variables in panels (b) and (c) are computed for each country-industry-year triplet. Reported statistics are the mean, median and standard deviation of each variable across all triplets.
+We now present some new stylized facts about how sales vary across countries and industries. In panel (c) of Table 1, we report summary statistics on two moments, the variance of log sales and the variance of log prices in each country-industry-year triplet. Reported statistics are the mean, median and standard deviation of each variable across all triplets. Sales dispersion is high and varies markedly across triplets. It has also significantly increased over the sample period, by 10% on average across countries and industries (untabulated).15 Given that we know the identity of firms, we can also compute the change in sales dispersion driven by reallocation among firms active in both years. In the subsample of continuing varieties, sales dispersion has increased by 29% while in the rest of the sample it has increased by approximately 8%.16 Conversely, price dispersion is relatively small and exhibits low cross-sectional variation. Unreported figures also indicate that price dispersion has remained stable over time.
+To have a first sense of how firm heterogeneity varies across countries and correlates with trade and economic performance, Fig. 1 shows the cross-country relationships between sales dispersion and the log of four country characteristics: real GDP, real per-capita GDP, population and average exports to the US.17 The variance of log sales is computed for each country-industry-year triplet and is then averaged across all industry-years within a country to neutralize compositional effects due to differences in the industrial structure of production. The first graph shows that sales dispersion is strongly positively correlated with real GDP. The second and third graphs dig into this relationship by dividing real GDP in its two components: real per-capita GDP and population. The plots highlight that sales are significantly more dispersed in richer and, to a lesser extent, larger countries. Finally, the fourth graph studies the relationship between sales dispersion and average exports to the US, computed as the mean value of exports across all industries and years for each country. The plot shows that countries in which sales are more dispersed across firms export more to the US on average.
+
+Download: Download high-res image (575KB)
+Download: Download full-size image
+Fig. 1. Sales Dispersion and Country Characteristics.
+
+Notes. Variance of log sales and average exports to the US are computed for each country-industry-year triplet and then averaged across all industries and years for each country. The other country characteristics are simple averages between the years 2002 and 2012.
+4. Decomposing US imports: Preliminary evidence
+4.1. Firms, average appeal and heterogeneity
+We now implement the decompositions presented in Section 2.2. For this we need an estimate of the elasticity of substitution between varieties in each industry, 
+. For our baseline decomposition, we source these parameters from Broda and Weinstein (2006), who extend the estimation approach proposed by Feenstra (1994) to accommodate measurement error and deal with infeasible values.18 We have estimates of 
+ for 
+ out of 
+ industries; all estimates satisfy the theoretical restriction that 
+. In the average industry, 
+ equals 4.21, while it is equal to 2.79 in the median industry; Appendix Table B1 reports the median values of 
+ in each 2-digit SIC sector. Regarding the distribution of 
+ across industries, the 
+th, 
+th, 
+th and 
+th percentiles are equal to 1.80, 2.18, 
+ and 5.57, respectively. Importantly, the estimates of 
+ are larger than 
+ for the vast majority of industries (
+, i.e., 83% of the total). As explained in the previous section, this implies that greater heterogeneity in appeal should translate into higher average sales. For robustness, we also use two alternative sets of estimates of 
+ obtained on our transaction-level data, which however are available for fewer industries (more details below).
+We start by decomposing countries’ exports to the US into the contributions of the extensive and intensive margin. To this purpose, we take logs of (5) and run separate regressions, across all available country-industry-year triplets, of 
+ and 
+ on 
+, where the subscript 
+ stands for time (the year 2002 or 2012) and will henceforth be used in all equations that are taken to the data. In all regressions, we control for industry
+year fixed effects, so that our decomposition focuses on variation in sales across countries within each industry and year.19 The properties of OLS imply that the coefficients on 
+ obtained from these regressions add up to one, and thus provide the percentage contribution of each margin to explaining variation in countries’ exports to the US. We similarly decompose the intensive margin 
+ into the contribution of average appeal and dispersion in appeal, by regressing each term on the right-hand side of (10) on 
+ and industry
+year fixed effects.
+The results are reported in Table 2. Panel (a) shows the decompositions performed on the full sample. The estimates in columns (1) and (2) refer to the contributions of the extensive and intensive margin. Each margin explains roughly half of the variation in countries’ exports to the US. Hence, countries that export more to the US within a given industry and year do so because they sell both a larger number of varieties and more of each variety, with the contributions of the two margins being roughly equivalent in our data. The estimates in columns (3) and (4) refer instead to the decomposition of the intensive margin into the contributions of average appeal and its heterogeneity. The results show that reallocation between heterogeneous firms contributes similarly to average appeal to explaining variation in average exports per variety. Hence, firm heterogeneity is an important factor for understanding countries’ export performance.
+Table 2. Decomposition of countries’ exports.
+
+Empty Cell	First Step	Empty Cell	Second Step	Empty Cell
+Empty Cell	Extensive Margin	Intensive Margin	Empty Cell	Average	Dispersion	Empty Cell
+Empty Cell	(1)	(2)	Empty Cell	(3)	(4)	Empty Cell
+(a) Baseline	0.466***	0.534***		0.403***	0.597***	
+(0.003)	(0.003)		(0.119)	(0.119)	
+(b) No small countries	0.478***	0.522***		0.378***	0.622***	
+(0.003)	(0.003)		(0.101)	(0.101)	
+(c) No countries with small market shares	0.505***	0.495***		0.403***	0.597***	
+(0.006)	(0.006)		(0.121)	(0.121)	
+(d) No countries with large market shares	0.464***	0.536***		0.374***	0.626***	
+(0.003)	(0.003)		(0.094)	(0.094)	
+(e) No industries with high shares of imported inputs	0.461***	0.539***		0.448***	0.552***	
+(0.003)	(0.003)		(0.150)	(0.150)	
+(f) No trading companies	0.456***	0.544***		0.382***	0.618***	
+(0.003)	(0.003)		(0.118)	(0.118)	
+(g) No top-1 firm in each triplet	0.506***	0.494***		0.319***	0.681***	
+(0.003)	(0.003)		(0.122)	(0.122)	
+(h) No firms with sales 2SD above triplet average	0.498***	0.502***		0.549***	0.451***	
+(0.003)	(0.003)		(0.155)	(0.155)	
+(i) Alternative elasticity of substitution - Reverse-Weighting	0.471***	0.529***		0.470***	0.530***	
+(0.003)	(0.003)		(0.068)	(0.068)	
+(j) Alternative elasticity of substitution - Hummels	0.480***	0.520***		0.571***	0.429***	
+(0.004)	(0.004)		(0.160)	(0.160)	
+Notes. Columns (1) and (2) perform the decomposition in Eq. (5). Each coefficient is obtained from a separate regression, run across country-industry-year triplets, of the log of the corresponding margin on the log of total exports to the US in the triplet, controlling for industry-year fixed effects. Columns (3) and (4) perform the decomposition in Eq. (10). Each coefficient is obtained from a separate regression, run across country-industry-year triplets, of the corresponding margin on average exports to the US in the triplet, controlling for industry-year fixed effects. Panel (a) uses the whole sample of triplets (24454 observations). Panel (b) uses the sample that excludes countries for which the share of Piers exports in total exports to the US is smaller than 45%, i.e., the first group of countries in map (b) of Figure A1 (21192 observations). Panel (c) uses the sample that excludes countries whose market shares fall below the 5th percentile of the distribution in a given industry and year (15206 observations). Panel (d) uses the sample that excludes countries whose market shares fall above the 95th percentile of the distribution in a given industry and year (23964 observations). Panel (e) uses the sample that excludes industries for which the average share of imports of parts and components in total US imports over 1972–2001 is above 25% (19765 observations). Panel (f) uses the sample that excludes firms whose name contains words starting with “trad”, “logist”, “transp”, “export” or “import” (23998 observations). Panel (g) uses the sample that excludes the top-1 firm in each triplet (20632 observations). Panel (h) uses the sample that excludes firms whose total exports to the US are at least two standard deviations above the average exports for their triplet (24454 observations). Panel (i) uses estimates of the elasticity of substitution obtained using the Reverse-Weighting estimator (Redding and Weinstein, 2024) on the transaction-level data from Piers (18880 observations). Panel (j) uses estimates of the elasticity of substitution obtained using Hummels’ (2001) approach on the transaction-level data from Piers (12904 observations). The standard errors are corrected for heteroskedasticity. ***, **, *: indicate significance at the 1, 5 and 10% level, respectively.
+These patterns are consistent across a large number of robustness checks, which are presented in the remaining panels of Table 2 . In panel (b), we exclude countries for which Piers covers less than 45% of total exports to the US and find that the coefficients hardly change. In panels (c) and (d), we exclude countries with small and large market shares, respectively. The former (latter) are market shares falling below the 
+th (above the 
+th) percentile of the distribution of market shares in a given industry and year. These exercises show that the decompositions are not driven by either small or large exporters. In panel (e), we exclude industries for which the share of imports of parts and components in total US imports is above 25%.20 Also in this case, the results are largely unchanged, suggesting that the decompositions are not driven by industries in which US imports predominantly consist of intermediate inputs reflecting firms’ participation in global value chains. In panel (f), we drop trading companies, which we identify as firms whose name contains words starting with “trad”, “logist”, “transp”, “export” or “import”.21 The main patterns are unaffected, suggesting that the decompositions reflect heterogeneity among direct exporters rather than the role of shipping firms.
+One reason for the importance of firm heterogeneity in explaining sales is the presence of top firms in each country. As long as these “superstar firms” are exceptional, i.e., they have significantly better appeal compared to the remaining firms in an industry, their presence would be associated with both high sales and high dispersion. It is known that top firms can define the export performance of a sector. As in previous studies, the top firm in each country plays a dominant role also in our sample, accounting for 25% of total exports to the US, on average.22 But are these firms really outliers, in the sense that they significantly affect the quantitative role of dispersion in explaining exports? A simple way of answering this question is to remove top firms from each triplet and redo the decompositions using the remaining sample of firms. In panel (g), we exclude the top-1 firm, defined as the firm with the highest sales across products in the triplet. In panel (h), we instead remove all firms whose total exports (across all products) are at least two standard deviations above the average exports for their triplet. The decomposition of the extensive and intensive margin is essentially unchanged, while the contribution of heterogeneity in appeal decreases, at most, only marginally. This suggests that the importance of heterogeneity for explaining the intensive margin of countries’ exports does not merely reflect the presence of outliers.
+As already discussed, the importance of heterogeneity for the decomposition of average exports depends on the elasticity of substitution, 
+. To study the sensitivity of our decompositions to this parameter, we now repeat the analysis using two alternative sets of values of 
+, which we directly estimate on the transaction-level data from Piers using the Reverse-Weighting (RW) estimator introduced by Redding and Weinstein (2024) and the approach proposed by Hummels (2001).23 We obtain elasticity estimates for 259 industries with the RW estimator and for 163 industries with Hummels’ (2001) approach. The median values of these elasticities are larger than 
+ in all 2-digit SIC sectors (see Appendix Table B1). Moreover, despite the use of different data and estimation methods, all estimates of 
+ are highly correlated among each other, with pairwise correlations among the three sets of estimates ranging from 0.6 to 0.99 across sectors.
+The results of the decompositions using the alternative estimates of 
+ are reported in panels (i) and (j) of Table 2. The coefficients in columns (1) and (2) are slightly different from their counterparts in panel (a) due to the use of smaller samples; reassuringly, however, this has almost no bearing on the quantification of the contributions of the extensive and intensive margin. More importantly, the coefficients in columns (3) and (4) are also in line with those in panel (a), even though the elasticity of substitution influences these coefficients directly, and not just through sample size. This confirms that both average appeal and its heterogeneity explain roughly half of the variation in average exports per variety. Overall, these results suggest that the decompositions are robust to the sample and the empirical methods used to estimate the elasticity of substitution. Nevertheless, in Section 5, we present an approach that does not rely on estimates of 
+.
+We now pause to briefly discuss the relationship between these results and the existing literature. The fact that the extensive margin explains about half of the variation in trade flows is consistent with previous findings (e.g., Fernandes, Freund and Pierola, 2016, (Fernandes et al., 2023, Redding and Weinstein, 2024)). The contribution of firm heterogeneity in affecting the volume of trade has received less attention. Redding and Weinstein (2024), who develop an alternative decomposition of US imports, find that dispersion of firm attributes accounts for 36% of the variation in measures of revealed comparative advantage. However, their log-linear decomposition holds constant the mean of the log of firm attributes, which is negatively affected by the dispersion of the level of attributes. Once the effect of the mean and dispersion of the level of attributes is fully separated, we find that the contribution of heterogeneity is reduced to around 25%.
+4.2. Average exports and country characteristics
+Our preliminary evidence suggests sales from larger and richer countries to be more dispersed. At the same time, these countries have been shown to have higher exports per firm (see, for instance, (Fernandes et al., 2016). We now use our decomposition to ask: are average exports per firm higher in larger and richer countries because the latter have better firms or because they have more heterogeneous firms? To tackle this question, we start by computing the arithmetic mean of each of the three terms in (10) across all industries and years for each country. Then, we regress each term on the log of countries’ population and real per-capita GDP.24 The coefficients obtained from the regressions for average appeal and dispersion in appeal add up to the coefficients obtained from the regression for average exports per variety. Hence, they provide an additive decomposition of the margins along which population and income per capita correlate with the intensive margin of countries’ exports.
+The results are reported in Table 3. Column (1) confirms that income per capita is strongly positively correlated with average exports per variety. The coefficient on population is also positive, albeit imprecisely estimated. Columns (2) and (3) decompose the coefficients in column (1) into the contributions of average appeal and its dispersion, respectively. The results suggest that both average appeal and heterogeneity have a quantitatively similar importance for explaining the correlations of exports with population and income per capita.
+Table 3. Intensive margin of exports and country characteristics.
+
+Empty Cell	Country-Level Averages	Empty Cell	Country Fixed Effects	Empty Cell
+Empty Cell	Intensive Marg.	Average	Dispersion	Empty Cell	Intensive Marg.	Average	Dispersion	Empty Cell
+Empty Cell	(1)	(2)	(3)	Empty Cell	(4)	(5)	(6)	Empty Cell
+Real per-capita GDP	0.354***	0.187***	0.167***		0.298**	0.098	0.199***	
+(0.117)	(0.061)	(0.057)		(0.117)	(0.061)	(0.059)	
+Population	0.094	0.037	0.057		0.117	−0.006	0.123***	
+(0.084)	(0.044)	(0.043)		(0.082)	(0.043)	(0.043)	
+Obs.	102	102	102		102	102	102	
+R2	0.12	0.12	0.12		0.10	0.04	0.19	
+Notes. The table reports cross-country regressions of the three terms in Eq. (10) on country characteristics. In particular, in columns (1)–(3), the dependent variables indicated in the columns’ headings are constructed separately for each country–industry–year triplet and then averaged at the country level. In columns (4)–(6), the dependent variables are the country fixed effects obtained by regressing each of the variables indicated in the columns’ headings on country and industry-year fixed effects across triplets. Real per-capita GDP and population are simple averages of these variables between the years 2002 and 2012. All explanatory variables are in logs and all dependent variables are in US$ million. The standard errors are corrected for heteroskedasticity. ***, **, *: indicate significance at the 1, 5 and 10% level, respectively.
+Next, to better isolate the role played by the distribution of firm characteristics within industries, we regress each of the three terms in (10) on country and industry
+year fixed effects. Because the industry
+year effects absorb average differences in a given term across industry-years, the country effects are identified from the comparison of countries exporting to the US in the same industry and year. As such, the country effects reflect the average value of a given term net of effects due to differences in the composition of export industries across countries. We then repeat the specifications in columns (1)-(3) using as dependent variables the country effects rather than the simple country-level averages of the three terms.
+The results are reported in columns (4)-(6) of Table 3. The estimated coefficients confirm the positive correlation of average exports per variety with income per capita and population, with the coefficient on the latter variable being imprecisely estimated. However, both correlations are now mostly driven by heterogeneity in appeal. These results indicate that, once compositional effects are neutralized, the main reason why richer countries export more per firm is dispersion, i.e., the prevalence of above-average firms within industries.
+5. Firm heterogeneity and trade with log-normal distributions
+The results so far suggest that the degree of firm heterogeneity varies significantly across countries, even within narrowly-defined industries, and that this variation may represent an important source of economic performance: it correlates with exports and GDP. However, these results are subject to three limitations. First, the degree of firm heterogeneity computed on observed sales need not reflect just technological factors. In particular, since only a subset of domestic firms sell into a given foreign destination, selection into exporting will directly affect the variance of their sales. Second, another concern is that the results may be affected by the granularity of the data. The third limitation is that the quantifications rely on estimates of the elasticity of substitution, 
+.
+We now want to separate the effect of differences in the primitive distribution of appeal from that of truncation, granularity and 
+. Since the effects of truncation and granularity depend on the shape of the distribution, to make progress, we need to make some additional structural assumptions. Following several papers in the literature, we start from the hypothesis that sales are well approximated by log-normal distributions. Under this assumption, we can estimate the parameters of the unconditional distribution of exports, and compare them to the moments of the data in a way that allows us to assess the importance of selection and granularity while controlling for cross-industry differences in 
+.
+5.1. Sales with log-normal distributions: Theory
+We start by showing the mapping between the hypothetical (unconditional) distribution from which appeal is drawn and observed sales in the log-normal case. Assume that, in a given country and industry, the log of appeal, 
+, is drawn from a normal distribution with mean 
+ and variance 
+. Since sales in destination 
+ are a power function of appeal, 
+, they will be log-normal
+, where:
+(11)
+(12)
+Note that sales dispersion depends both on the variance of log appeal and on the elasticity of substitution. This is because differences in appeal translate into larger differences in demand the more substitutable varieties are. However, the effect of 
+ on the log of 
+ is industry specific, and can thus be fully absorbed by controlling for industry fixed effects. Note also that these results apply whenever sales are a power function of firm characteristics. As discussed in Appendix C, this can be the case under a class of demand functions more general than CES.
+Assume next that, as in standard heterogeneous-firms trade models with a fixed export cost, sales are truncated from below at 
+. In this case, the observed mean, 
+, is the conditional expectation for 
+:
+(13)
+with 
+, and where 
+ and 
+ are the density and the CDF of the standard normal distribution, respectively. Naturally, average observed sales are increasing in the minimum 
+.
+While log sales are drawn from a normal distribution with variance 
+, the variance of observed sales also depends on truncation:
+(14)
+Since truncation is a mean-preserving contraction combined with a mean-changing rigid shift, the variance of the truncated distribution is less than the variance of the original normal distribution. Hence, the ratio 
+ is increasing in the cutoff, 
+: intuitively, as smaller sales are removed, the variance of the remaining distribution falls.
+In what follows, we will use these results to argue that cross-country differences in 
+, i.e., differences in dispersion of the unconditional distribution of appeal, are important for explaining sales. To do so, we will first show that sales are well approximated by log-normal distributions. Second, we will use the properties of log-normal distributions to estimate the parameter 
+. Third, we will use industry fixed effects to net out cross-country differences in the variance of log sales from the influence of 
+. Finally, we will use the ratio 
+ to control for the cutoff, and hence to separate the effect of selection.
+5.2. Sales with log-normal distributions: Estimation
+We now provide formal statistical tests that our data are well approximated by the log-normal distribution.25 Given that our unit of analysis is the country–industry–year triplet, we perform the tests on each triplet separately. The results are shown in the first four columns of Table 4. Column (1) reports the number of triplets on which the tests are run. Column (2)-(4) indicate the fraction of triplets for which the null hypothesis of the tests, i.e., that log exports to the US are drawn from a normal distribution, is not rejected at the 5% significance level. We henceforth refer to these cases as “LN triplets” for brevity.
+We start with the Kolmogorov–Smirnov (KS) test, which non-parametrically compares the empirical distribution of log exports to the US with the theoretical normal distribution.26 As shown in column (2), panel (a), the null hypothesis is not rejected in 
+ of the 
+ triplets in our sample. In columns (3) and (4), we complement the KS test with two tests proposed by D’Agostino et al. (1990), which are designed to detect deviations from the normal distribution associated with skewness (asymmetric tails) or non-normal kurtosis (thick or light tails). The fraction of LN triplets remains well above 80% in both cases, ranging from 82% for the skewness test to 87% for the kurtosis test.27
+One reason for the large fraction of LN triplets in panel (a) could be the limited power of the KS and D’Agostino et al. (1990) tests in small samples. Accordingly, we repeat the tests on two less granular samples, which consist of triplets containing at least 9 varieties (i.e., the sample median, as shown in Table 1) or 27 varieties (the top quartile), respectively. The results are reported in panel (b) of Table 4 for the sample of triplets with 9+ varieties and in panel (c) for the sample of triplets with 27+ varieties.28 As expected, the fraction of LN triplets is slightly reduced as we progressively focus on larger samples. Yet, it still exceeds 90% for the KS test, and oscillates between two-thirds and four-fifths of the sample for the D’Agostino et al. (1990) tests.
+Table 4. Tests for log normality of exports.
+
+Empty Cell	Statistical Tests	Empty Cell	R2 from QQ Regressions	Empty Cell	Coefficient on Theoretical Quantiles
+(R2) from QQ Regressions	Empty Cell
+Empty Cell	Obs.	% LN (KS)	% LN (Sk)	% LN (Ku)	Empty Cell	Mean	Std. Dev.	Empty Cell	All	Top 75%	Top 50%	Top 25%	Empty Cell
+Empty Cell	(1)	(2)	(3)	(4)	Empty Cell	(5)	(6)	Empty Cell	(7)	(8)	(9)	(10)	Empty Cell
+(a) All triplets	24 754	0.98	0.82	0.87		–	–		–	–	–	–	
+(b) Triplets with 9+ varieties	12 437	0.96	0.78	0.83		0.95	0.05		1.93 (0.96)	1.93 (0.96)	1.98 (0.96)	2.05 (0.95)	
+(c) Triplets with 27+ varieties	6314	0.92	0.67	0.75		0.96	0.03		1.97 (0.97)	1.98 (0.98)	2.05 (0.97)	2.14 (0.96)	
+Notes. Column (1) reports the number of country–industry–year triplets on which the tests for the normality of log exports to the US are performed. Column (2) reports the fraction of triplets for which the null hypothesis of normality is not rejected at the 5% level of significance according to the Kolmogorov–Smirnov test. Columns (3) and (4) report analogous results for the D’Agostino et al. (1990) test based on the skewness and kurtosis of the distribution. The sample consists of all available triplets (panel a) and of triplets with at least 9 (panel b) or 27 (panel c) firm–products exported to the US; in panel (a), the D’Agostino et al. (1990) tests are performed on the sample of 16893 triplets with at least 5 firm–products exported to the US, as the test statistics are not defined for smaller triplets. Columns (5)–(6) report descriptive statistics on the R2 obtained by estimating the QQ regression on each triplet, using theoretical quantiles of sales implied by the log-normal distribution; reported statistics are the mean and standard deviation of the R2 across all triplets. Columns (7)–(10) report the coefficient on the theoretical quantiles and the R2 (in parenthesis) obtained by estimating the QQ regression on each triplet, using either the whole sample of firm–products in the triplet (column 7) or the sub-sample of firm–products in the top 75th, 50th and 25th percentile of the sales distribution in the triplet (columns 8–10); reported statistics are the median coefficient and the median R2 across all triplets.
+The above results speak in favor of the log-normal distribution. This is important because, under the assumption of log-normality, we can estimate the parameters of the unconditional distribution of exports. In particular, to estimate the variance, 
+, we follow Head et al. (2014) and exploit a linear relationship linking theoretical and empirical quantiles of log sales. This approach is known as the Quantile-Quantile (QQ) estimator, and its asymptotic properties are studied in Kratz and Resnick (1996).
+We start by ranking varieties within each triplet in ascending order of their sales. Let 
+ denote the log sales in the US of variety 
+, with 
+ indicating the variety with the minimum sales and 
+ the variety with the maximum sales in the triplet. The empirical quantiles of sorted log sales within the triplet are 
+, while the empirical CDF of log sales is given by 
+. The theoretical quantiles are defined as:
+(15)
+The QQ estimator regresses the empirical quantiles on the theoretical quantiles, so the variance of the unconditional distribution can be recovered from the coefficient on 
+. We run a separate regression of 
+ on 
+ for each triplet, and recover the variance of the unconditional distribution in the triplet, 
+, as the square of the coefficient on 
+ from the corresponding regression. Since the relationship between theoretical and empirical quantiles is linear under log-normality, QQ regressions provide an estimate of 
+ independently of truncation in the observed data.
+We implement the QQ estimator on the two samples of triplets with 9+ and 27+ varieties, which provide us with enough degrees of freedom to estimate the parameters of the QQ regression in each triplet. Columns (5)-(6) of Table 4 report descriptive statistics on the 
+ of the QQ regressions. We find the latter to fit the data remarkably well: in the sample of triplets with 9+ varieties, the 
+ equals 0.95 for the average triplet and its standard deviation across triplets is a tiny 0.05. In the sample of triplets with 27+ varieties, the average 
+ is even higher (0.96) and the distribution of 
+ across triplets even tighter (s.d. 0.03).
+The above findings corroborate the results of the KS and D’Agostino et al. (1990) tests. However, as is well-known, the fit of the log-normal distribution may be relatively worse on the right tail. We can use the results of the QQ regressions to also shed light on this issue. To this purpose, we study how the fit of these regressions changes as we progressively trim larger parts of the left tail of the sales data in each triplet. In addition, we analyze how the coefficient on the theoretical quantiles changes on the truncated samples, as this coefficient should not be sensitive to truncation under log-normality.
+The results of these exercises are reported in the last four columns of Table 4, which show the median coefficient on 
+ and the median 
+ obtained by running the QQ regressions on different samples. In particular, in column (7), we use the whole sample of varieties in each triplet, while in columns (8)-(10) we restrict to varieties in the top 
+th, 
+th and 
+th percentile of the sales distribution in each triplet. The median 
+ ranges between 0.95 and 0.98, and the median coefficient always remains in a tight neighborhood of 
+, suggesting that the log-normal distribution provides a good fit of the export data also on the right tail.
+In Table 5, we present some statistics on the estimates of 
+, the variance of the unconditional distribution of log sales in each triplet, both for the sample of triplets with 9+ varieties (panel a) and for the sample of triplets with 27+ varieties (panel b). Three facts stand out. First, heterogeneity is typically large, with 
+ exceeding 
+ in the average triplet and 3.7 in the median triplet. Second, heterogeneity has increased over time, with the average value of 
+ across countries and industries rising by 
+–8% between 2002 and 2012. Third, and more importantly, heterogeneity varies markedly across triplets. The standard deviation of 
+ is roughly half its mean, ranging between 1.6 and 
+ depending on the sample. More generally, the distribution of 
+ across triplets spans a wide interval, ranging between 0.83 (
+st percentile) and 10.83 (
+th percentile) in the sample of triplets with 9+ varieties, and between 1.29 and 8.83 in the sample of triplets with 27+ varieties.29
+Table 5. Descriptive statistics on heterogeneity and selection.
+
+Empty Cell	Estimated (QQ)
+Variance of Log Sales	QQ/Observed
+Variance of Log Sales	Empty Cell	Empty Cell
+Empty Cell	Mean	Median	Std. Dev.	Change	Mean	Median	Std. Dev.	Change	Empty Cell	Empty Cell
+Empty Cell	(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)	Empty Cell	Empty Cell
+(a) Triplets with 9+ varieties	4.02	3.71	2.00	0.08	1.04	1.03	0.06	0.01		
+(b) Triplets with 27+ varieties	4.09	3.88	1.58	0.05	1.01	1.01	0.04	0.01		
+Notes. Columns (1)–(4) report descriptive statistics on the estimated variance of log sales, obtained by applying the QQ estimator on each country–industry–year triplet, using theoretical quantiles of sales implied by the log-normal distribution. Columns (5)–(8) report descriptive statistics on the ratio between the estimated and the observed variance of log sales. Reported statistics are the mean, median and standard deviation of each variable across all triplets, as well as the percentage change in the average value of each variable between 2002 and 2012. The sample consists of triplets with at least 9 (panel a) or 27 (panel b) firm–products exported to the US.
+Finally, we discuss the relationship between the unconditional variance, 
+, and the observed variance of log sales, 
+. Recall from (14) that the variance of the truncated distribution should be less than the variance of the unconditional distribution. Moreover, this ratio should be increasing in the cutoff, 
+, and hence in selection. Table 5 reports descriptive statistics on 
+ across triplets. The ratio exceeds 
+ both in the average and in the median triplet, with a tiny standard deviation of 0.04–0.06 across triplets depending on the sample. Over time, 
+ has remained largely stable, with the change in its average value not exceeding 1% on either sample.
+5.3. Firm heterogeneity, trade and economic performance
+We now discuss the implications of firm heterogeneity for trade. To this purpose, we run regressions of the log of exports to the US, 
+, on the log of the unconditional variance, 
+, across country–industry–year triplets. We control for two sets of fixed effects. First, we include industry
+year fixed effects, so as to exploit cross-country variation within industry-years and neutralize differences in 
+ across industries. Second, we include country
+year fixed effects, which absorb the influence of gravity variables such as distance, common language and common border, as long as these bilateral determinants of trade affect exports uniformly across industries.
+The results are reported in Table 6, using the sample of triplets with 9+ varieties in column (1) and with 27+ varieties in column (5). The results show that, within a given industry and year, countries characterized by larger firm heterogeneity export significantly more to the US. The relationship between heterogeneity and trade is also remarkably tight.30 In columns (2) and (6), we augment the specification by adding the log ratio between the unconditional variance and the observed variance in each triplet, 
+. Since the volume of exports is a negative function of the truncation point, a negative coefficient on 
+ would be consistent with selection, i.e., it would suggest that the cutoff for exporting to the US is lower for countries that sell more in the US in a given industry and year. In both samples, we find that larger exports to the US are indeed significantly associated with a lower value of 
+. We interpret this result as consistent with a “pecking order” across origin countries, whereby progressively less appealing firms export from countries selling more in a given market. Yet, the correlation between heterogeneity and trade is largely unaffected.
+In columns (3) and (7), we include additional control variables. To account for differences in the average appeal of varieties, we add the log of the average quality-to-price ratio across all varieties in each triplet. We construct this variable using Eqs. (6) and (8), along with sales data from Piers and estimates of 
+ from Broda and Weinstein (2006); the industry-specific term 
+ is absorbed by the industry
+year fixed effects. We also control for other determinants of trade. Because the specification includes industry
+ year and country
+year fixed effects, all factors influencing exports to the US either at the industry level or at the country level are already accounted for. Hence, we add variables capturing determinants of trade that could operate both across countries and industries. In particular, to account for endowment-based comparative advantage, we include interactions between proxies for the skill and capital endowment of each country in a given year and proxies for the skill and capital intensity of each industry. As proxies for country–industry transportation costs, we include the log bulk weight of each industry interacted with three different variables: the log distance of each country from the US; and two dummies equal to 
+ if a country shares the same language or a common border, respectively, with the US. To control for trade barriers, we also add the log of one plus the US import tariff in each triplet.31
+Table 6. Firm heterogeneity and exports.
+
+Empty Cell	(1)	(2)	(3)	(4)	Empty Cell	(5)	(6)	(7)	(8)	Empty Cell
+Estimated (QQ) variance of log sales	1.655***	1.640***	1.042***	0.671***		2.072***	2.059***	1.309***	0.757***	
+(0.032)	(0.031)	(0.036)	(0.046)		(0.058)	(0.055)	(0.062)	(0.080)	
+QQ/observed variance of log sales		−9.663***	−8.301***	−3.497***			−10.694***	−9.795***	−4.069***	
+(0.349)	(0.320)	(0.370)			(0.667)	(0.659)	(0.595)	
+Average appeal			0.751***	0.690***				0.775***	0.719***	
+(0.037)	(0.052)				(0.043)	(0.073)	
+Skill endowment 
+ skill intensity			1.091***	−0.723				0.744***	−0.521	
+(0.126)	(0.762)				(0.160)	(0.974)	
+Capital endowment 
+ capital intensity			0.122***	−0.024				0.176***	0.015	
+(0.016)	(0.071)				(0.021)	(0.076)	
+Distance 
+ bulk weight			−0.170***					−0.151***		
+(0.032)					(0.044)		
+Common language 
+ bulk weight			0.002					0.048		
+(0.027)					(0.035)		
+Common border 
+ bulk weight			0.194**					0.263**		
+(0.078)					(0.117)		
+US import tariff			0.632	−0.149				−0.043	−1.006	
+(0.614)	(0.925)				(0.847)	(1.054)	
+Industry 
+ year FE	yes	yes	yes	yes		yes	yes	yes	yes	
+Country 
+ year FE	yes	yes	yes	yes		yes	yes	yes	yes	
+Country 
+ industry FE	no	no	no	yes		no	no	no	yes	
+Obs.	12 437	12 437	11 646	11 646		6314	6314	6037	6037	
+R2	0.57	0.63	0.73	0.96		0.60	0.64	0.73	0.97	
+Notes. The dependent variable is the log of total exports to the US in each country–industry–year triplet. Estimated (QQ) variance of log sales is the log of the estimated variance of log sales, obtained by applying the QQ estimator on each triplet, using theoretical quantiles of sales implied by the log-normal distribution. QQ/observed variance of log sales is the log ratio between the estimated and the observed variance of log sales in each triplet. Average appeal is the log of the average quality-to-price ratio across all firm–products in each triplet. See Appendix A.2 for a detailed description of the other variables used in columns (3)–(4) and (7)–(8). All regressions are run across triplets. The sample consists of triplets with at least 9 (columns 1–4) or 27 (columns 5–8) firm–products exported to the US. The standard errors are corrected for heteroskedasticity. ***, **, *: indicate significance at the 1, 5 and 10% level, respectively.
+While the coefficients on tariffs and the interaction between bulk weight and the common language dummy are imprecisely estimated, all other variables enter with the expected sign and their coefficients are statistically significant. Nevertheless, the inclusion of these controls implies just a moderate reduction in the coefficient on 
+, which remains highly significant. Hence, firm heterogeneity remains a strong correlate of a country’s exports even after accounting for average appeal and other determinants of trade. Finally, in columns (4) and (8), we add country
+industry fixed effects. These fixed effects subsume the proxies for country–industry transportation costs used in columns (3) and (7). Moreover, they imply that the remaining coefficients are identified only from variation over time within country–industry pairs. Heterogeneity remains a strong correlate of trade also in this very demanding specification.
+Next, we revisit the correlations between firm heterogeneity and country characteristics. In particular, we are interested in assessing whether larger and richer countries have a higher dispersion of sales because of differences in the underlying distributions, because of a lower export cutoff, or both. To answer this question, we first regress 
+, 
+ and 
+ on country and industry
+year fixed effects, and then relate the country effects from these regressions to the log of countries’ real per-capita GDP and population.
+The results are reported in Table 7. In columns (1)-(3), we focus on the sample of triplets with 9+ varieties, whereas in columns (4)-(6) we use the sample of triplets with 27+ varieties. The estimates imply that heterogeneity is higher in larger and richer countries even when controlling for possible truncation in the data. Moreover, the coefficients from the regression for the unconditional variance (columns 2 and 5) are smaller than those from the regression for the observed variance (columns 1 and 4), consistent with the hypothesis of selection. However, the difference between the two sets of estimates is small, suggesting that selection is unlikely to be the main determinant of the observed differences in sales dispersion across countries.
+Table 7. Firm heterogeneity, selection and country characteristics.
+
+Empty Cell	Observed
+Variance of
+Log Sales	Estimated (QQ)
+Variance of
+Log Sales	QQ/Observed
+Variance of
+Log Sales	Observed
+Variance of
+Log Sales	Estimated (QQ)
+Variance of
+Log Sales	QQ/Observed
+Variance of
+Log Sales	Empty Cell	Empty Cell
+Empty Cell	(1)	(2)	(3)	(4)	(5)	(6)	Empty Cell	Empty Cell
+Real per-capita GDP	0.135***	0.130***	−0.005*	0.095***	0.093***	−0.001		
+(0.026)	(0.027)	(0.003)	(0.023)	(0.022)	(0.001)		
+Population	0.054***	0.045**	−0.009***	0.034*	0.028	−0.006***		
+(0.017)	(0.018)	(0.002)	(0.018)	(0.018)	(0.001)		
+Obs.	97	97	97	80	80	80		
+R2	0.32	0.29	0.18	0.20	0.19	0.25		
+Notes. The dependent variables are the country fixed effects obtained by regressing the variables indicated in the columns’ headings (in logs) on country and industry–year fixed effects across triplets, using the sample of triplets with at least 9 (columns 1–3) or 27 (columns 4–6) firm–products exported to the US. Real per-capita GDP and population are simple averages of these variables between the years 2002 and 2012. All explanatory variables are in logs. The standard errors are corrected for heteroskedasticity. ***, **, *: indicate significance at the 1, 5 and 10% level, respectively.
+6. Implications for price indexes
+We now show that the results obtained so far are important also for welfare. In particular, using again our accounting framework, we show that the price index of the basket of imported varieties is significantly lower from origins with higher dispersion. We instead discuss in Appendix D the effect of heterogeneity on welfare in the workhorse trade model with free entry and selection.32
+Since log-normal distributions provide a good approximation of the data, we can derive a simple formula mapping few and easy-to-compute statistics about firms into prices. These formulas allow us to study the effect of heterogeneity on the price index. We start by rewriting the price index in destination 
+ and industry 
+ as:
+(16)
+Note that 
+ is the price index of the basket of goods imported from country 
+.
+Taking logs, we can rewrite:
+(17)
+where 
+. Since 
+, we can express the inverse of the price index as a function of the parameters of the unconditional distribution of sales, which is log-normal 
+. Due to truncation, the conditional mean is:
+Substituting this into (17) yields:
+(18)
+This equation shows how the price index depends on the mean and variance of the unconditional distribution of log sales. However, we want to study the effect of heterogeneity holding constant the mean of the unconditional distribution of appeal: 
+. Using this together with (11)–(12) to solve for 
+ and substituting it into (18), we obtain:
+(19)
+Holding constant 
+ and in the absence of truncation, the second term in this expression shows that heterogeneity, as measured by 
+, lowers price indexes when 
+, i.e., when sales are convex in appeal.33 Moreover, the third term in (19) shows that heterogeneity has an additional effect due to the truncation point. Since truncation also contributes to making sales convex, it reinforces the impact of heterogeneity on the price index. Intuitively, shifting probability mass to the tails of the unconditional distribution lowers the observed average price when actual prices are cut above a certain level.34
+These formulas allow us to evaluate the role of heterogeneity, as captured by the variance of the log of appeal. We now use them to perform some simple quantifications. It is important to stress that, by keeping constant both mean appeal and the number of varieties, these exercises allow us to isolate the relevance of heterogeneity in an accounting sense. They do not correspond to counterfactual quantifications in which other variables are allowed to adjust. They should therefore be interpreted as partial equilibrium results or as outcomes of a decomposition that remains agnostic on how the various components of the price index are related to each other. Compared to the decompositions in Section 4, this exercise has the advantage of isolating the role of a structural parameter, rather than the observed dispersions.
+We take as a benchmark the average industry in the average country. We therefore set 
+, which corresponds to the simple mean across industries in our sample and is well within the conventional values for the elasticity of substitution between varieties. As we will see later on, the results are not very sensitive to this parameter. For the remaining parameters, we focus on the sample of triplets with 27+ varieties, although results are very similar using triplets with 9+ varieties. We choose 
+, which corresponds to the mean of the QQ estimates of the variance of the unconditional sales distribution (see Table 5). For the truncation point, we set 
+, which corresponds to the simple average across country–industry–year triplets of the lowest decile of the sales distribution in each triplet. Finally, we obtain the unconditional mean, 
+, so as to match the simple mean of the observed average sales, 
+, according to (13), given 
+ and 
+. This yields 
+.
+We now compare this benchmark industry 
+ with another industry 
+ that differs only in the dispersion of sales, 
+, and compute the implied difference in their price indexes, holding everything else constant. In particular, we consider a second hypothetical industry with an unconditional variance that is one standard deviation higher than the mean. This corresponds to 
+ in the sample of triplets with 27+ varieties (the difference would be even larger, with 
+, in the sample of triplets with 9+ varieties). As a concrete example, these differences roughly correspond to the average industry in Germany (higher dispersion) versus China (lower dispersion). Then, their relative price index is:
+(20)
+Using the above-mentioned values, the first term is equal to 0.135 and the second to 0.013. Together, they imply a price index 16% higher in the industry with lower dispersion. These are sizeable differences. In terms of sales, given 
+, they would imply a 56% higher value from the industry with higher dispersion. Once again, these results confirm that differences in heterogeneity are quantitatively important for explaining economic performance.
+How robust are these results to alternative parametrizations? As (20) shows, the direct effect of differences in 
+ (disregarding truncation) only depends on 
+. Estimates of this parameter are often in the 
+ range. It turns out that, within this interval, the coefficient multiplying 
+ is not very sensitive to the exact value of 
+. In particular, it is equal to 0.11 for 
+, reaches a maximum of 0.125 for 
+ and falls to 0.094 for 
+.35 Regarding the estimated differences in 
+, as already mentioned, variation is even higher in the sample of triplets with 9+ varieties. In this case, the direct effect from the first term of (20) would increase to 0.19, which is 40% higher than in the more conservative case considered above. The effect through truncation depends instead on more parameters. However, its impact on the price index is much smaller than the direct effect, about a tenth, and hence it is unlikely to significantly alter the overall quantitative implications under alternative parametrizations.
+7. Conclusions
+In this paper, we used transaction-level US import data to compare firms from virtually all countries in the world competing in a single destination market. By making distributional assumptions consistent with the data, we have identified new structural parameters that are useful in understanding trade and economic performance. In particular, we found that the shape parameter of the distribution of appeal varies systematically across countries and that this variation is quantitatively important to explain exports. We also found that richer countries export more per firm largely because they have more heterogeneous, and hence top, exporters. Finally, we showed that differences in the dispersion of appeal matter not just for exports, but also for price indexes and hence welfare. It is therefore important to take them into account, especially in quantitative models, and to understand their origins.
+We conclude by discussing briefly some candidate explanations. First, it seems natural to conjecture that innovation be one driver of firm heterogeneity. For instance, richer markets may be more conducive to drastic innovation with more dispersed outcomes (e.g., Bonfiglioli et al., 2018, Bonfiglioli et al., 2019) than imitation (Benhabib et al., 2021, König et al., 2016). It could also be that richer and thicker markets facilitate a stronger sorting between firms, suppliers and workers, which would amplify any pre-existing productivity differences (e.g., Bonfiglioli and Gancia, 2019, Sampson, 2014). Another hypothesis is that distortions in poorer countries may discourage large investments and prevent good firms from growing to their full potential. Since different models are likely to carry different policy prescriptions, identifying the mechanism through which firm heterogeneity is generated is an important direction for future research.

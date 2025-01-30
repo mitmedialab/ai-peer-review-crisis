@@ -1,0 +1,509 @@
+Time-varying stock return correlation, news shocks, and business cycles
+
+Abstract
+The cross-sectional average of the pairwise correlations between U.S. stock returns is considered as a measure of risk to aggregate wealth priced by the stock market. We show that this measure predicts future U.S. output growth at a horizon of one to four years. A stronger average correlation of stock returns foreshadows significantly lower future output growth, even when controlling for some other widely used financial predictors. An innovation to average correlation gives rise to macroeconomic dynamics that resemble negative news about future total factor productivity (TFP) in a vector autoregression. TFP news shocks thus appear to be a key source of aggregate risk priced into stocks.
+
+1. Introduction
+The correlation across returns on U.S. common stocks displays substantial time variation (Campbell et al., 2001). This variation appears to be counter-cyclical with respect to fluctuations in U.S. output growth. For instance, the average pairwise correlation between industry portfolios of stocks listed on the NYSE, AMEX, and Nasdaq is negatively related to real GDP growth.1 Correlation between industry returns rose sharply ahead of virtually every recession over the past six decades (see Fig. 1).2 For example, it reached a historical high of 0.83 shortly after the bankruptcy of Lehman Brothers in 2008 from below 0.20 at the beginning of the new millennium; it then decreased after the Great Recession, before surging again to above 0.80 during the COVID-19 recession. Against this background, the question arises whether changes in stock return correlation are informative about business cycle fluctuations, which we address in this paper.
+To preview our results, using predictive regressions, we find that an increase in the average correlation between U.S. industry returns is associated with significantly lower future real GDP growth. The information contained in average correlation is statistically relevant for future GDP growth at a horizon of one to four years, even when controlling for some other widely used financial indicators, such as the slope of the yield curve and the Gilchrist and Zakrajsek (2012) credit spread. In addition, we study how innovations to return correlation affect macroeconomic aggregates in a structural vector autoregression (VAR). An orthogonal increase in return correlation is followed by a significant decrease in consumption, a rise in inflation, and a delayed but persistent decrease in total factor productivity (TFP). These macroeconomic dynamics are reminiscent of a negative news shock about future TFP.
+
+Download: Download high-res image (613KB)
+Download: Download full-size image
+Fig. 1. Average correlation between returns on industry portfolios and real GDP growth in the United States.
+
+Notes: Cross-sectional average correlation between value-weighted returns on NYSE, AMEX, and Nasdaq stocks sorted into 49 Fama-French industry portfolios, calculated according to Eq. (9) (black solid line; measured on the right axis). Year-over-year growth rate of U.S. real GDP per capita (red dotted line; measured on the left axis). The shaded regions denote eight recession periods dated by the National Bureau of Economic Research (NBER). Sample: 1960Q1-2021Q4.
+The starting point of our investigation is an insight by Pollet and Wilson (2010) that higher correlation between stocks reveals higher risk on the unobservable portfolio of aggregate wealth. A simple portfolio-theoretic framework provides a decomposition of the variance of the stock market return into the product of (1.) the cross-sectional average variance of individual stock returns (henceforth AV) and (2.) cross-sectional average correlation (henceforth AC) (see Driessen et al., 2009, Pollet and Wilson, 2010). Pollet and Wilson (2010) show that these two components capture almost all of the time series variation in post-war U.S. stock market variance and that AC predicts future excess returns. Motivated by the Roll (1977) critique,3 Pollet and Wilson (2010) argue that changes in AC predict excess returns because they reveal changes in aggregate risk (see also Krishnan et al., 2009, Driessen et al., 2009). Using this decomposition as our guiding framework, we document the time series behavior of AV and AC in a sample that covers over half a century of U.S. data that span the 1960–2021 period. We corroborate the main empirical results of Pollet and Wilson (2010) on our sample using predictive regressions. On the one hand, we show that the product of AV and AC provides a good approximation of aggregate stock market variance. On the other hand, while AV more accurately predicts subsequent market variance than AC, it has no discernible forecasting power for excess stock market returns. AC instead strongly predicts future excess returns.
+Next, we explore the predictive content of AV and AC for economic activity. This exercise closely follows Gilchrist and Zakrajsek (2012), who document that a credit spread index built from a broad range of U.S. corporate bonds has superior forecasting power for U.S. economic activity over the Treasury term spread and the federal funds rate. We find that both AV and AC are statistically significant predictors of economic activity, and that they are negatively associated with future GDP growth. However, while AV and the Gilchrist and Zakrajsek (2012) credit spread quickly lose their statistical significance over time, AC emerges as the only statistically significant predictor alongside the term spread at longer forecast horizons of two to four years. This finding is new to the literature and constitutes our first main contribution.
+After documenting that AC predicts economic growth, we turn to the question of what fundamental sources drive the movements in AC and thus in aggregate risk. Our empirical approach follows Kurmann and Otrok (2013). In particular, we estimate a VAR for AC and macroeconomic variables, and we extract the orthogonal shocks that are responsible for most of the forecast error variance (FEV) of AC over a ten-year forecast horizon, using a methodology developed by Uhlig (2003). Applying this identification strategy to our data, we find that a single shock accounts for around 90% of all unpredictable movements in AC over a ten-year horizon. AC increases significantly on impact of the shock, and it gradually returns to its baseline level. TFP barely moves on impact but then gradually decreases to a persistently lower level. Consumption, investment, and output gradually decrease, and their responses are close to a permanent reduction. Hours drop initially and exhibit a hump-shaped response. The shock also generates a sustained drop in stock prices, a worsening in consumer sentiment, and a decrease in the slope of the yield curve, which capture forward-looking information about economic activity and productivity. Inflation, in turn, increases significantly and remains steadily above its initial level. Thus, the response of real activity together with the inverse response of inflation are suggestive of a negative supply-side shock.
+We compare the propagation of the AC shock with structural macroeconomic shocks. An informal comparison reveals, on the one hand, that the dynamics of macroeconomic aggregates together with the staggered but permanent long-run reduction in TFP closely resemble the responses to a negative news shock about future TFP as reported in earlier work (e.g., Beaudry and Portier, 2006, Beaudry and Portier, 2014, Beaudry and Lucke, 2010, Barsky and Sims, 2011, Kurmann and Otrok, 2013, Barsky et al., 2015, Kurmann and Sims, 2021). On the other hand, the impulse responses implied by an AC shock are neither consistent with demand-side shocks, nor with other types of shocks originating on the supply side of the economy, such as surprise productivity shocks, investment-specific news shocks, labor supply shocks, or wage bargaining shocks (e.g., Barsky and Sims, 2011, Ben Zeev and Khan, 2015, Foroni et al., 2018).
+To more formally assess whether an AC shock captures news about future TFP innovations, we identify a TFP news shock following Barsky and Sims (2011) and Kurmann and Sims (2021). The Barsky and Sims (2011) identification approach is a restricted version of Uhlig (2003)’s statistical approach and consists of identifying the innovation that has no instantaneous effect on TFP but explains most of the FEV of TFP over a ten-year horizon. The Kurmann and Sims (2021) identification approach differs from the Barsky and Sims (2011) approach in that it drops the zero impact assumption and it extracts the shock that accounts for the maximum FEV share of TFP at a long but finite horizon set to 20 years. The AC shock and the TFP news shock are identified from the same VAR using distinct identification procedures. Yet, the two types of shocks generate similar impulse responses of macroeconomic variables. These results prove robust in a variety of robustness checks. Thus, we conclude that movements in the correlation of stock market returns capture information on news about future TFP, which is our second main contribution.
+There is a growing literature linking time-varying return correlation to aggregate fluctuations. Changes in stock return correlation affect investor welfare by changing the trade-off between risk and expected return (Markowitz, 1952). In addition, changes in return correlation may also be relevant from a macroeconomic perspective. For example, using a general equilibrium asset pricing model with heterogeneous risk aversion, Ehling and Heyerdahl-Larsen (2017) show that stock return correlation varies counter-cyclically with the business cycle. In the model, consumption risk sharing between heterogeneous consumers with constant relative risk aversion causes cyclical variations in the volatility of aggregate risk aversion and, in turn, leads to cyclical variation in return correlation. The model quantitatively matches average industry return correlations and changes in correlations from business cycle peaks to troughs in U.S. data.
+From a broader perspective, the relationship between equity returns and economic activity has received considerable interest in both finance and macroeconomics. Financial economists have paid particular attention to the observation that expected excess returns on stocks vary with business cycle conditions so that equity premia are high during downturns (e.g., Fama and French, 1989, Campbell and Cochrane, 1999, Lettau and Ludvigson, 2001, Campbell and Diebold, 2009). Macroeconomists have built on this insight by exploiting movements in stock prices to study the role of expectations in business cycle fluctuations (e.g., Beaudry and Portier, 2004, Beaudry and Portier, 2006). In a seminal paper, Beaudry and Portier (2006) show that news about future TFP – which are instantaneously priced in the stock market but have no contemporaneous impact on TFP – are responsible for an important fraction of business cycle fluctuations. The extent to which news shocks drive business cycles has subsequently attracted considerable attention (for an overview, see Beaudry and Portier, 2014). The papers by Barsky and Sims (2011), Kurmann and Sims (2021), and Kurmann and Otrok (2013) are most closely related to ours. Instead of relying on information contained in stock prices, Barsky and Sims (2011) and Kurmann and Sims (2021) propose FEV-maximizing identification procedures of TFP news shocks. Kurmann and Otrok (2013) extract a shock that explains most of the FEV of the yield curve slope and show that news about future TFP innovations are a main driver of the slope.
+Additionally, a great amount of macroeconomic literature has explored the link between economic conditions and stock market volatility. The time series evidence points to a counter-cyclical relationship (e.g., Schwert, 1989, Hamilton and Lin, 1996, Engle and Rangel, 2008, Conrad and Loch, 2015). Unexpected increases in stock market volatility have been attributed to uncertainty shocks that lead to a rapid drop and rebound in economic activity (e.g., Bloom, 2009, Bekaert et al., 2013, Caggiano et al., 2014, Leduc and Liu, 2016, Caldara et al., 2016, Basu and Bundick, 2017, Ludvigson et al., 2021). What seems to matter for economic growth is aggregate uncertainty rather than firm-level cross-sectional uncertainty (Dew-Becker and Giglio, 2024). Stock market volatility is the preferred measure of uncertainty in most of this literature, although some papers use news articles, surveys, econometric or structural models to measure uncertainty (see Berger et al., 2019, Cascaldi-Garcia et al., 2024, David and Veronesi, 2024).
+Our results provide a new angle on the relationship between equity returns and economic activity, connecting different strands of literature. Building on the insight from Pollet and Wilson (2010) that changes in aggregate risk reveal themselves through changes in the correlation between stock returns, we are the first to show that changes in return correlation also contain information about business cycles. Specifically, we document that return correlation predicts future GDP growth at business cycle frequencies, which is a valuable insight for the literature predicting economic activity using financial variables (e.g., Estrella and Mishkin, 1998, Gilchrist and Zakrajsek, 2012). We further show that shocks to return correlation co-vary with TFP news shocks. This implies that TFP news shocks are a key source of aggregate risk – revealed through average correlation – that is priced in excess stock market returns. Bad news about future TFP then involve an increase in aggregate risk and a rise in average correlation, implying a higher level of risk at all levels of expected return and reduced gains from portfolio diversification. This finding offers an empirical explanation for time-variation in stock return correlations, which has been the subject of inquiry of substantial work in the literature (e.g., Campbell et al., 2001, Driessen et al., 2009, Pollet and Wilson, 2010).
+The rest of the paper is organized as follows. We decompose stock market variance into AV and AC and investigate their predictive ability for GDP growth in Section 2. In Section 3, we study the macroeconomic effects of an innovation to AC and document its close resemblance to a TFP news shock. Finally, Section 4 concludes.
+2. Stock return correlation and business cycles: Reduced-form evidence
+In this section, we first decompose stock market variance into AV and AC. Next, we discuss how we compute AC and AV from the data. We then document the empirical relationship between market variance and these two components. Finally, we analyze the predictive ability of AV and AC for excess returns and economic activity.
+2.1. An approximation for stock market variance
+Our primary objective is to study the relationship between time-varying stock return correlation and macroeconomic conditions. Asset pricing studies show that, using a simple portfolio-theoretic framework, the time-varying variance of the stock market return can be decomposed into the product of two components: the cross-sectional average variance of individual stock returns and cross-sectional average correlation (e.g., Driessen et al., 2009, Pollet and Wilson, 2010, Chen and Petkova, 2012). This decomposition is a convenient starting point of our analysis, as it yields two well-defined objects — average variance and average correlation. It seems intuitive that the variation in individual stock returns should be reflected in the variance of the market portfolio. However, it is perhaps less widely appreciated that the time-varying correlation between stock returns is also an important source of market variance. Moreover, Pollet and Wilson (2010) show that changes in average variance of individual stocks do not carry a positive price of risk in the stock market. By contrast, they show that changes in stock return correlation are priced in excess stock market returns because they reveal changes in the risk on aggregate wealth.
+Formally, let 
+ denote the value-weighted market portfolio which consists of 
+ stocks (
+ is large), where 
+ is the weight of stock 
+ in the market at time 
+. The variance of the return on the market portfolio is:
+(1)
+with time-varying individual standard deviations 
+ and time-varying pairwise correlations 
+. Stock market variance 
+ can be approximated by the product of two terms (see Pollet and Wilson, 2010):
+(2)
+The first term on the right-hand-side of Eq. (2) is the weighted cross-sectional average variance for the 
+ stocks:
+(3)
+and the second term on the right-hand-side of Eq. (2) is the weighted cross-sectional average correlation between all pairs of stocks:
+(4)
+Eq. (2) provides a good approximation as long as stock-specific deviations from average variance are small (see Appendix A for details).
+2.2. Data, measurement, and stylized facts
+We estimate stock market variance, average variance, and average correlation at the quarterly frequency, using daily value-weighted returns on NYSE, AMEX, and Nasdaq stocks sorted into 49 Fama and French (1997) industry portfolios (Appendix B provides variable sources and definitions). We use Fama–French industry portfolios because they are representative for the near-universe of stocks traded on the U.S. stock market, and the data are freely available in a standardized way at a daily frequency for a period stretching back several decades, which increases the reproducibility of our results. When using Fama–French industry portfolios weighted equally across industries, Pollet and Wilson (2010) find results similar to those obtained using individual equity returns. We also corroborate their main empirical results on our sample.
+Our data span the period 1960Q1-2021Q4. We compute the realized variance of industry portfolio 
+ in quarter 
+ as
+(5)
+where there are 
+ daily returns 
+ in quarter 
+ (see Schwert, 1989). Under suitable conditions, 
+ is an unbiased and efficient estimator of return variance (see Andersen et al., 2001, Andersen et al., 2003). The realized covariance between the return on portfolio 
+ and 
+ (
+) in quarter 
+ is
+(6)
+We use the realized variances and covariances to estimate quarterly market variance (
+), average variance (
+), and average correlation (
+), using equal weights as Pollet and Wilson (2010) do for industry portfolios. In particular, we calculate 
+ from the realized variances and covariances of the 
+ industry portfolios using Eq. (1) as follows:
+(7)
+Moreover, we compute 
+ by taking the arithmetic cross-sectional mean of 
+ across the 49 industry portfolios:
+(8)
+Finally, we obtain 
+ as the arithmetic cross-sectional mean of the pairwise realized correlation of daily returns during each quarter for all 1176 pairs of industry portfolios:
+(9)
+Fig. 2 shows 
+ and 
+ together with stock market variance, 
+. The shaded regions represent recession periods dated by the National Bureau of Economic Research (NBER), and the vertical blue dotted lines denote historical events selected by Bloom (2009) to construct his benchmark measure of exogenous “uncertainty shocks”, which we complement by the COVID-19 recession.4 There is a large degree of co-movement between stock market variance and average variance: the sample correlation between 
+ and 
+ is equal to 0.97. The correlation between 
+ and 
+ is also positive, albeit somewhat lower, at 0.49. The two components of market variance, 
+ and 
+, are also positively correlated with a correlation coefficient equal to 0.39. Both series display peaks on Bloom’s dates and during the COVID-19 recession. Spikes in stock market volatility thus reflect a combination of, on average, higher individual stock return variances and higher correlations.
+Table 1 reports pairwise correlations of 
+ and 
+ with five proxies for risk aversion or risk premia in financial markets (see also Figure C.2 in Appendix C). There is a high degree of correspondence between 
+ and two model-based proxies for time-varying risk aversion, with a correlation of 0.76 and 0.87, respectively.5 There is also a relatively high positive correlation of 0.61 between 
+ and the excess bond premium (EBP) proposed by Gilchrist and Zakrajsek (2012).6 At the same time, 
+ is virtually uncorrelated with a composite index of investor sentiment in the equity market proposed by Baker and Wurgler (2006).7 Moreover, movements in 
+ are also largely independent from movements in the inverse of Robert Shiller’s cyclically adjusted price-to-earnings (CAPE) ratio, which has been used by Wachter (2013) as a proxy for the time-varying risk of rare disasters.8
+
+Download: Download high-res image (1MB)
+Download: Download full-size image
+Fig. 2. Stock market variance and its components.
+
+Notes: Top panel: Market variance (red dotted; measured on the left axis) and average variance (black solid; measured on the right axis). Bottom panel: Market variance (red dotted; measured on the left axis) and average correlation (black solid; measured on the right axis). Market variance is calculated from quarterly realized variances and covariances of daily returns on 49 Fama–French industry portfolios using Eq. (7). Average variance is the cross-sectional average of the quarterly realized variances of 49 industry portfolios (see Eq. (8)). Average correlation is the cross-sectional average of the realized correlations for all 1176 pairs of industry portfolios (see Eq. (9)). The shaded regions represent NBER recession dates. The vertical blue dotted lines denote 16 major historical events dated by Bloom (2009) and the COVID-19 recession (see the main text for details). Sample: 1960Q1-2021Q4.
+The correlation of 
+ with proxies of risk aversion is also positive but more moderate, and it is positive but rather low with the EBP. On the one hand, it is not surprizing that 
+ correlates positively with proxies of risk aversion as it displays a positive correlation with 
+ and 
+ of roughly the same order. On the other hand, the moderate correlations suggest that movements in 
+ contain information that goes beyond changes in risk aversion in equity and corporate bond markets. 
+ is additionally somewhat counter-cyclical with respect to the proxy for investor sentiment, with a rather low correlation of −0.18. In addition, there is a significant positive association between 
+ and the proxy for time-varying disaster risk, with a moderate correlation of 0.37.9
+Table 1. Pairwise correlations of AV and AC with selected proxies for financial risk atitude.
+
+Empty Cell	Risk aversion (BHL)	Risk aversion (BEX)	EBP	Investor sentiment	Inverse CAPE ratio
+AV	0.76⁎⁎⁎	0.87⁎⁎⁎	0.61⁎⁎⁎	0.02	−0.08
+AC	0.41⁎⁎⁎	0.48⁎⁎⁎	0.17⁎⁎	−0.18⁎⁎⁎	0.37⁎⁎⁎
+Notes: This table shows the pairwise correlation coefficients of AV and AC with the following variables: time-varying risk aversion estimated by Bekaert et al. (2013); time-varying risk aversion estimated by Bekaert et al. (2022); excess bond premium (EBP) estimated by Gilchrist and Zakrajsek (2012); investor sentiment estimated by Baker and Wurgler (2006); and the inverse cyclically adjusted price-to-earnings (CAPE) ratio.
+***
+Denote statistical significance at the 1%.
+**
+Denote statistical significance at the 5%.
+2.3. The predictive content of AV and AC for stock market variance and excess returns
+We replicate a set of predictive regressions for stock market variance and excess returns by Pollet and Wilson (2010), using 
+ and 
+ as predictors. While the sample of Pollet and Wilson (2010) ends in 2006Q4, our data span fifteen more years, thus making it worthwhile to revisit this issue. In particular, we regress contemporaneous and one-quarter-ahead stock market variance on combinations of 
+ and 
+, and we estimate predictive regressions of the one-quarter-ahead excess return for the stock market on 
+, 
+, and some additional financial predictors.
+Table 2 shows the OLS estimation results from the contemporaneous market variance regressions. We find that 
+ and 
+ provide a good approximation of stock market variance (Table 2, top panel).10 The product of 
+ and 
+ captures the bulk of the variation in 
+, as evidenced by an 
+ of 0.997 (column (1)). 
+ accounts individually for nearly 24% of the variation in 
+, while 
+ on its own explains nearly 95% of the variation (columns (2) and (3)). The relationship between market variance and its components is robust to using a linear approximation of Eq. (2), adding the COVID-19 pandemic, and using alternative measures of market variance (columns (4) to (7)). We also find that 
+ and 
+ jointly explain a non-negligible part of up to 26% in one-quarter-ahead market variance, depending on the market variance measure used (see Table 2, bottom panel). Individually, 
+ proves to be the superior predictor for subsequent market variance (column (3)).
+In Table 3, we replicate the forecasting regressions for the quarterly excess stock market return of Pollet and Wilson (2010) for the period 1960Q1-2019Q4, using 
+, 
+ and a number of additional predictors in line with Pollet and Wilson (2010). We find that 
+ is a strong and statistically significant forecaster of excess stock market returns (column (1)). By contrast, 
+ has no predictive power for subsequent excess returns, in spite of the relative strength of 
+, as compared to 
+, as a predictor for stock market variance in Table 2 (column (2)). When jointly included, 
+ emerges clearly as the only useful predictor of future excess returns, with robust 
+-statistic equal to 2.75, indicating significance at the 1% level (column (3)). 
+ remains statistically significant at the 5% level with a 
+-statistic equal to 2.30 when we additionally control for market variance 
+, the Lettau and Ludvigson (2001) consumption-wealth-income ratio 
+, the price–dividend ratio 
+, the risk-free rate 
+, and the lagged dependent variable (column (4)). As in Pollet and Wilson (2010), only 
+ and 
+ are statistically significant regressors in addition to 
+.
+Table 2. Decomposing and predicting stock market variance.
+
+Empty Cell	Dependent variable: variance of stock market returns estimated at 
+Empty Cell	(1)	(2)	(3)	(4)	(5)	(6)	(7)
+Constant	−0.143	−5.619	−1.071	−2.936	0.027	0.016	2.203
+Empty Cell	[−4.782]	[−2.648]	[−8.464]	[−3.848]	[0.153]	[0.112]	[8.589]
+15.932		4.005			
+Empty Cell		[3.458]		[2.559]			
+0.723	0.687			
+Empty Cell			[23.180]	[17.383]			
+0.932				0.937	0.929	0.671
+Empty Cell	[78.678]				[10.391]	[13.360]	[8.230]
+0.997	0.236	0.946	0.958	0.916	0.926	0.747
+248	248	248	248	240	248	248
+Empty Cell	Dependent variable: variance of stock market returns estimated at 
+Empty Cell	(1)	(2)	(3)	(4)	(5)	(6)	(7)
+Constant	1.412	−0.802	0.940	0.405	1.553	1.741	2.983
+Empty Cell	[5.326]	[−0.639]	[3.159]	[0.496]	[5.178]	[5.353]	[9.894]
+6.490		1.149			
+Empty Cell		[2.230]		[0.789]			
+0.317	0.307			
+Empty Cell			[5.080]	[5.013]			
+0.386				0.362	0.323	0.398
+Empty Cell	[5.610]				[5.349]	[4.758]	[8.061]
+0.171	0.040	0.183	0.184	0.137	0.112	0.260
+248	248	248	248	240	248	248
+Notes: Top panel: OLS estimates from contemporaneous regressions of stock market variance in period 
+ on combinations of 
+ and 
+. Bottom panel: OLS estimates from predictive regressions of stock market variance in period 
+ on combinations of 
+ and 
+. The dependent variable in columns (1)-(5) is market variance calculated from realized variances and covariances of returns on 49 Fama–French industry portfolios using Eq. (7). The dependent variable in column (6) is market variance calculated as the sum of squared daily returns on the S&P 500 index over each quarter. The dependent variable in column (7) is market variance calculated as the spliced values of realized variance (sum of squared daily S&P 500 returns) for the period 1960Q1-1985Q4 and the squared VXO implied volatility index of the Chicago Board Options Exchange from 1986Q1 onward (see Bloom, 2009). 
+ i the cross-sectional average of the pairwise correlation of returns on 49 Fama–French industry portfolios. 
+ is the cross-sectional average of the realized variance of returns on 49 Fama–French industry portfolios. Newey and West (1987) 
+-statistics with six lags are reported in square-brackets. Columns (1)-(4), (6), and (7) report estimates for the period 1960Q1-2021Q4. Column (5) shows estimates for the period 1960Q1-2019Q4.
+These findings corroborate the results of Pollet and Wilson (2010) for an extended sample period. Individually, 
+ explains a larger amount of the variation in contemporaneous market variance than 
+, and it also more accurately predicts subsequent market variance. However, more importantly, 
+ strongly predicts future excess stock market returns, while 
+ has no discernible forecasting power for excess returns.
+Table 3. Predicting stock market excess returns.
+
+Empty Cell	Dependent variable: excess return for the stock market at 
+ (
+)
+Empty Cell	(1)	(2)	(3)	(4)
+Constant	−0.03	0.01	−0.04	0.05
+Empty Cell	[1.61]	[0.97]	[1.95]	[0.52]
+0.07		0.08	0.10
+Empty Cell	[1.97]		[2.75]	[2.30]
+−0.02	−0.13	−0.03
+Empty Cell		[0.17]	[1.06]	[0.05]
+−0.00
+Empty Cell				[0.36]
+0.67
+Empty Cell				[2.19]
+−0.02
+Empty Cell				[0.85]
+−0.53
+Empty Cell				[1.92]
+−0.08
+Empty Cell				[1.18]
+0.023	0.000	0.031	0.082
+Notes: OLS estimates from predictive regressions of the excess return for the stock market at 
+ on dependent variables in period 
+. The dependent variable is the log return on the S&P 500 index minus the 3-month Treasury bill rate in period 
+ (
+). The independent variables are as follows: 
+ is the cross-sectional average of the pairwise correlation of returns on 49 Fama–French industry portfolios; 
+ is the cross-sectional average of the realized variance of returns on 49 Fama–French industry portfolios; 
+ is market variance calculated from realized variances and covariances of returns on 49 Fama–French industry portfolios using Eq. (7); 
+ is the consumption, wealth, income ratio from Lettau and Ludvigson (2001); 
+ is the price-dividend-ratio calculated as the difference between the log of prices and the log of dividends; 
+ is the 3-month Treasury bill rate; and 
+ is the dependent variable in period 
+. Data for 
+, 
+, 
+, and 
+ come from the updated data set of Welch and Goyal (2007). Newey and West (1987) 
+-statistics with five lags are reported in square-brackets. Estimates for the period 1960Q1-2019Q4 are shown.
+2.4. The predictive content of AV and AC for economic activity
+Given the differential performance of 
+ and 
+ in forecasting market variance and excess returns, we now turn to analyzing their predictive ability for economic activity. To study this issue, we employ univariate (in-sample) predictive regressions that closely follow Gilchrist and Zakrajsek (2012).11 Their econometric model takes the following form:
+(10)
+where 
+ denotes the annualized 
+-quarters-ahead percentage change in U.S. log real GDP (
+ 
+ 
+). The latter is regressed on a constant 
+, past values of GDP growth (
+ 
+ 
+ with 
+), and a set of financial predictors that includes the U.S. Treasury term spread 
+, the real federal funds rate 
+, and the Gilchrist–Zakrajsek credit spread index 
+ (henceforth GZ spread). Appendix B provides data definitions and sources. We complement the set of financial predictors in Eq. (10) by 
+ and 
+.12 Table 4 reports the sample correlation between the five regressors, indicating that 
+ and 
+ are positively associated with the GZ spread, and weakly negatively associated with the other two financial predictors.
+We estimate Eq. (10) using OLS and choose the lag length 
+ for the autoregressive terms in each specification optimally using the Akaike information criterion (AIC). The sample period begins in 1973Q1 due to availability of the GZ spread. It ends in 2019Q4 because the COVID-19 recession has been argued to severely distort macroeconometric model estimates and forecasts (e.g., Schorfheide and Song, 2024, Lenza and Primiceri, 2022). We conduct a robustness check with data until 2021Q4. Since we are primarily interested in business cycle dynamics rather than near-term forecasting performance, we generate forecasts at a horizon of one to four years (
+ 
+ quarters). The forecast error 
+ follows an MA(
+-1) process under the null hypothesis of no predictability because of overlapping observations. To account for the overlap in the residuals for 
+, and to capture potential heteroskedasticity, we compute Hodrick (1992) 1B standard errors.13
+Table 5 shows the results for the predictive regressions. The slope of the yield curve significantly predicts GDP growth at all horizons and along all different model specifications, consistent with earlier studies (e.g., Estrella and Mishkin, 1998). The real federal funds rate has some forecasting ability at a horizon of three and four years but has less predictive power at shorter horizons. On the contrary, the GZ spread is a good predictor of GDP growth at the one-year horizon, in line with Gilchrist and Zakrajsek (2012). The parameter estimate on the GZ spread is statistically significant at the 1% level, and the adjusted 
+ increases by 13 percentage points (p.p.) from 0.18 to 0.31 when adding the GZ spread to the regression (see columns (1) and (2) in panel (a)). However, its predictive power deteriorates for longer horizons: The parameter estimates on the GZ spread are only marginally significant at the two-year horizon and turn insignificant at the three-year and four-year horizon (see panels (b), (c), and (d)).
+Table 4. Correlations matrix of financial predictors.
+
+Empty Cell	
+0.52⁎⁎⁎	−0.19⁎⁎⁎	−0.14⁎⁎	−0.12⁎
+−0.37⁎⁎⁎	−0.12*	−0.08
+0.66⁎⁎⁎	0.22⁎⁎⁎
+0.54⁎⁎⁎
+Notes: This table shows the pairwise correlation coefficients between the financial predictor variables for the longest available sample. 
+ is the U.S. Treasury term spread, 
+ is the real federal funds rate, 
+ is the GZ spread, 
+ is the cross-sectional average variance of returns on 49 Fama–French industry portfolios, and 
+ is the Fisher Z-transformed cross-sectional average correlation of returns on 49 Fama–French industry portfolios.
+***
+Denote statistical significance at the 1%.
+**
+Denote statistical significance at the 5%.
+*
+Denote statistical significance at the 10%.
+When individually included, both 
+ and 
+ have statistically significant predictive power for economic activity at all four horizons, and they are both negatively associated with future GDP growth. At longer horizons, 
+ emerges as the better predictor. The forecasting power of 
+ at the two year horizon is on par with that of the GZ spread. At the three and four year horizon, the inclusion of the GZ spread leads to increases in the in-sample fit of 3 and 4 p.p., respectively, and the inclusion of the 
+ leads to increases in the in-sample fit of 3 p.p. at the three and four year horizon. By contrast, the inclusion of 
+ in the predictor set yields an improvement in the in-sample fit that ranges from 7 to 9 p.p., respectively, which is a noticeable improvement compared to the GZ spread or 
+ (see column (4) in panels (c) and (d)).
+In the joint model specification, 
+ has a marginal predictive content for GDP growth only at the one-year horizon, but the sign switches from negative to positive (see column (5) in panel (a)). By contrast, an increase in 
+ robustly predicts a decrease in future GDP growth at a horizon of one to four years, with a coefficient estimate that is always statistically significant at least at the 5% confidence level (see column (4) in panel (a) to (d)). Moreover, the information contained in 
+ is statistically relevant for future GDP growth at all four horizons, even when controlling for the other predictors (see column (5) in panel (a) to (d)).
+We obtain nearly identical results when replacing 
+ with 
+ in the regressions (see Table C.1 in Appendix C). Higher average correlation is also significantly associated with lower GDP growth at the one to four year horizon when replacing the Gilchrist and Zakrajsek (2012) credit spread with the EBP in the regressions, while the EBP is only significant at the one-year and two-year horizon (see Table C.2 in Appendix C). Finally, the results are robust to including the COVID-19 recession into the sample (see Table C.3 in Appendix C). We thus conclude that, while 
+ and 
+ both predict GDP growth one year ahead, 
+ is a statistically significant predictor at a forecast horizon of one to four years.
+Table 5. Financial predictors of economic activity, 1973Q1-2019Q4.
+
+Empty Cell	Dependent variable: 
+Empty Cell	(a) 
+=4 quarters	Empty Cell	(b) 
+=8 quarters
+Empty Cell	(1)	(2)	(3)	(4)	(5)	Empty Cell	(1)	(2)	(3)	(4)	(5)
+−0.41	−0.41	−0.42	−0.42	−0.41		−0.63	−0.62	−0.64	−0.64	−0.62
+Empty Cell	[3.67]	[3.67]	[3.75]	[3.71]	[3.57]		[4.34]	[4.46]	[4.58]	[4.36]	[4.26]
+0.17	0.01	0.15	0.15	−0.05		0.36	0.23	0.34	0.34	0.19
+Empty Cell	[1.27]	[0.04]	[1.14]	[1.16]	[0.36]		[2.24]	[1.38]	[2.18]	[2.13]	[0.98]
+−0.43			−0.59			−0.31			−0.42
+Empty Cell		[3.63]			[3.32]			[2.14]			[1.72]
+−0.24		0.23				−0.19		0.17
+Empty Cell			[3.93]		[2.08]				[2.98]		[1.19]
+−0.19	−0.20					−0.23	−0.24
+Empty Cell				[2.20]	[2.07]					[2.14]	[2.02]
+Adj. 
+0.18	0.31	0.23	0.21	0.34		0.31	0.38	0.34	0.36	0.42
+Empty Cell	(c) 
+=12 quarters		(d) 
+=16 quarters
+Empty Cell	(1)	(2)	(3)	(4)	(5)		(1)	(2)	(3)	(4)	(5)
+−0.69	−0.68	−0.70	−0.69	−0.67		−0.70	−0.68	−0.70	−0.69	−0.67
+Empty Cell	[4.07]	[4.25]	[4.34]	[4.10]	[3.97]		[3.67]	[3.78]	[3.85]	[3.67]	[3.48]
+0.53	0.43	0.51	0.50	0.41		0.68	0.59	0.65	0.66	0.53
+Empty Cell	[2.83]	[2.00]	[2.74]	[2.64]	[1.62]		[3.32]	[2.42]	[3.21]	[3.20]	[1.87]
+−0.23			−0.28			−0.27			−0.35
+Empty Cell		[1.19]			[0.84]			[1.23]			[0.92]
+−0.19		0.07				−0.19		0.14
+Empty Cell			[2.59]		[0.40]				[2.65]		[0.65]
+−0.28	−0.28					−0.33	−0.34
+Empty Cell				[2.35]	[2.30]					[2.61]	[2.56]
+Adj. 
+0.36	0.39	0.39	0.43	0.46		0.41	0.45	0.44	0.50	0.54
+Notes: This table reports results from a predictive regression of U.S. real GDP growth 
+ quarters into the future, 
+, on financial predictors. Panels (a) to (d) contain the results for forecast horizons of 
+ quarters. Column (1) reports estimates from a specification that includes the term spread, 
+, and the real federal funds rate, 
+. Columns (2) to (4) report estimates that additionally include the Gilchrist and Zakrajsek (2012) credit spread, 
+, the cross-sectional average variance of returns on 49 Fama–French industry portfolios, 
+, and the (Fisher Z-transformed) cross-sectional average correlation of returns on 49 Fama–French industry portfolios, 
+, one at a time. Column (5) reports estimates from a specification that simultaneously includes all five financial variables. Each specification also includes a constant and 
+ lags of GDP growth (not reported), where 
+ is determined by the AIC. Entries in the table denote the standardized estimates of the OLS coefficients. Absolute asymptotic 
+-statistics computed based on Hodrick (1992) 1B standard errors are reported in square-brackets. In-sample goodness of fit is measured by the adjusted 
+.
+3. Stock return correlation and business cycles: Structural VAR evidence
+Having established that AC predicts output growth in-sample at least as well as the yield curve slope, we now turn to studying the fundamental sources of movements in AC within a VAR framework. Following Kurmann and Otrok (2013), we first uncover orthogonal innovations to AC (“AC shocks”) that explain most of the unpredictable movements in 
+ over a ten-year horizon, using a purely statistical identification approach that follows Uhlig (2003). We then seek to provide an economic interpretation for these innovations. Based on how they affect the economy, we investigate the possibility that they contain information on news about future TFP.
+3.1. What moves average correlation?
+Our benchmark VAR is a five-variable system that comprises 
+ and four variables included in the benchmark VAR used by Barsky and Sims (2011) and Kurmann and Sims (2021): the log of utilization-adjusted TFP, measured using the August 2024 vintage of Fernald (2014)’s utilization-adjusted TFP series; the log of real personal consumption expenditures per capita; the log of total hours worked per capita in the nonfarm business sector; and the log of inflation, measured by the log-difference of the PCE price index excluding food and energy items (Appendix B provides variable definitions and sources). We also estimate larger VARs to study the transmission mechanism in more depth.
+We extract AC shocks from the five-variable VAR using Uhlig (2003)’s FEV maximizing approach. Let us consider the following moving average representation of a reduced-form VAR:
+(11)
+where 
+ denotes an 
+ vector of time series observed in period 
+, 
+ is a lag polynomial, and 
+ is a 
+ vector of reduced-form errors with variance–covariance matrix 
+. Let us further assume that there exists a linear mapping between the reduced-form errors 
+ and a 
+ vector of mutually independent shocks 
+ɛ
+ with 
+ɛ
+ɛ
+ɛ
+, such that 
+ɛ
+, where the 
+ column of the matrix 
+ represents the contemporaneous impact of the 
+ orthogonal shock on the endogenous variables. Identification entails finding a matrix 
+ that satisfies the restriction 
+ɛ
+ɛ
+. However, for any matrix 
+, there exists an alternative matrix 
+ such that 
+, where 
+ is an orthonormal matrix (i.e., a square matrix so that 
+), which also satisfies 
+ (e.g., the Cholesky decomposition of 
+). Hence, identification entails choosing an orthonormal matrix 
+.
+The approach proposed by Uhlig (2003) consists of finding the 
+ columns of 
+ defining the 
+ mutually orthogonal shocks that explain the maximal amount of the FEV of a given target variable 
+ (i.e., 
+ in our case) over the forecast horizon 
+ to 
+. Without loss of generality, finding the first shock that explains most of the FEV of variable 
+ (i.e., the column 
+ of 
+ with 
+ ordered first) amounts to solving
+(12)
+ɛ
+(where 
+ is a column vector with 1 in the first position and 0 elsewhere), subject to the constraint 
+ which ensures that 
+ is an orthonormal vector. The objective function in Eq. (12) can be expressed as a Lagrangian
+(13)
+with first-order condition
+(14)
+where
+(15)
+The solution 
+ is an eigenvector of 
+ with eigenvalue 
+. Hence, the maximization amounts to a principal components problem, as one needs to find the eigenvector 
+ with the maximal eigenvalue – that is, the first principal component – in order to maximize the objective function in Eq. (12). We set the forecast horizon to 
+ quarters.
+We estimate the VAR by OLS for the period 1960Q1-2019Q4, using two lags of the endogenous variables, as indicated by the AIC. We include the COVID-19 pandemic period in a robustness check. Residuals of a VAR model that spans more than half a century of financial and macroeconomic data are prone to conditional heteroskedasticity. To guard against this, we conduct inference using a residual-based moving block bootstrap proposed by Brüggemann et al. (2016), which produces asymptotically valid confidence intervals in the presence of conditional heteroskedasticity of unknown form.14 Throughout the paper, we report confidence intervals based on 2000 moving block bootstrap replications using the method of Hall (1992), as suggested by Mertens and Ravn (2019).
+Fig. 3 shows the impulse responses to a positive AC shock, identified using Uhlig (2003)’s statistical approach.15 The impulse responses are normalized so that consumption decreases by 1% on impact. The shock leads to a statistically significant increase in 
+ on impact. 
+ then gradually returns to the baseline level. TFP barely moves on impact but then gradually decreases to a persistently lower level over the longer run. The AC shock is followed by a statistically significant and long-lasting decrease in consumption. The persistent impulse response pattern is consistent with the results from the longer-horizon predictive regressions for economic activity (see Section 2.4). The AC shock also leads to a statistically significant and hump-shaped decrease in hours and to a significant and persistent increase in inflation.
+The question arises as to how to interpret AC shocks from an economic perspective. Existing evidence can provide guidance on the plausibility of different economic interpretations. In particular, the observed dynamics of macroeconomic aggregates after an AC shock are reminiscent of a negative news shock about future TFP as reported in several studies (e.g., Beaudry and Portier, 2006, Beaudry and Portier, 2014, Beaudry and Lucke, 2010, Barsky and Sims, 2011, Kurmann and Otrok, 2013, Barsky et al., 2015, Kurmann and Sims, 2021). Most importantly, the AC shock shares the key features of a TFP new shock that inflation and consumption move in opposite directions and TFP displays a staggered but permanent longer-run reduction. To build some intuition on why an AC shock might capture news about future TFP, consider Pollet and Wilson (2010)’s insight that changes in the correlation between stock returns reveal changes in aggregate risk. This suggests that news about future innovations to productivity are a key source of aggregate risk priced in excess stock market returns. Bad news about future TFP then involve an increase in aggregate risk and a rise in average correlation, implying a higher level of risk at all levels of expected return and reduced gains from diversification. As this risk materializes and productivity shifts to a lower long-run level, it brings about a supply-side contraction in the economy.
+
+Download: Download high-res image (524KB)
+Download: Download full-size image
+Fig. 3. Impulse responses to a positive AC shock.
+
+Notes: Impulse responses to a positive shock to average correlation, identified as the orthogonal innovation that explains the maximal amount of the forecast error variance of average correlation over a forecast horizon of zero to 40 quarters. The impulse responses are normalized so that consumption decreases by 1% on impact. The shaded areas represent 68% (dark gray) and 90% (light gray) confidence intervals based on 2000 moving block bootstrap replications.
+While a news shock presents itself as a potential source of innovations to AC, the impulse responses implied by an AC shock are less consistent with other structural shocks. On the one hand, the impulse responses to an AC shock are not reminiscent of other types of shocks originating on the supply side of the economy. For instance, TFP should increase on impact and return gradually to its initial level after a surprise technology shock (e.g., Barsky and Sims, 2011). The permanent shift in TFP after an AC shock also rules out an explanation based on investment-specific news shocks (e.g., Ben Zeev and Khan, 2015). Finally, the persistent effects of the AC shock on inflation are not aligned with the U.S. evidence on the implications of labor supply and wage bargaining shocks (e.g., Foroni et al., 2018).
+On the other hand, the reaction of consumption together with the inverse reaction of inflation rule out a demand-side interpretation of AC shocks. In a canonical DSGE model, for instance, economic activity and inflation move in the same direction after an aggregate demand shock, such as an exogenous spending shock or a risk premium shock (e.g., Smets and Wouters, 2007). The observed dynamics after an AC shock are also inconsistent with the effects of a monetary policy shock in DSGE models (e.g., Christiano et al., 2005, Smets and Wouters, 2007) and structural VARs (e.g., Jarocinski and Karadi, 2020, Miranda-Agrippino and Ricco, 2021).16 After an exogenous monetary policy tightening, for instance, both inflation and output (as well as its components) should decrease, and there should be no permanent effect on real aggregates and TFP. The responses are also not consistent with the effects of a fiscal policy shock such as an exogenous increase in government spending, which raises output and consumption but crowds out private investment (e.g., Blanchard and Perotti, 2002).17
+3.1.1. Resemblance between AC shocks and TFP news shocks
+Next, we formally verify the conjecture that AC shocks contain information on news about future TFP. To that end, we extract from our baseline VAR a TFP news shock as the shock that is orthogonal to TFP innovations and best explains variation in adjusted TFP over a ten-year horizon, in line with Barsky and Sims (2011) and Kurmann and Otrok (2013). This shock is identified using a restricted version of Uhlig (2003)’s approach. Let 
+ be a lower triangular matrix obtained from the Cholesky decomposition of 
+ in a VAR with adjusted TFP ordered first. Then, we choose the column 
+ of 
+ that maximizes the FEV of adjusted TFP over a forecast horizon of 
+ quarters, subject to 
+ and the additional restriction 
+ which ensures that the first shock does not instantaneously affect adjusted TFP. Again, we set the forecast horizon to 
+ quarters as in Barsky and Sims (2011) and Kurmann and Otrok (2013).
+Kurmann and Sims (2021) show that news shock identifications that rely on the zero impact restriction 
+ are sensitive to cyclical mismeasurement of productivity and propose an alternative identification based on Uhlig (2003)’s max-share approach. Their approach differs from that of Barsky and Sims (2011) in two ways: First, it drops the zero impact assumption and, second, it extracts the shock that accounts for the maximum FEV share of adjusted TFP at a long but finite horizon set to 
+ quarters instead of maximizing the FEV share over a ten-year horizon. To ensure that our results are not driven by measurement issues with productivity, we also apply this identification as an alternative.
+Fig. 4 depicts the impulse responses of macroeconomic variables to a negative TFP news shock, identified using the Barsky and Sims (2011) approach (red dotted lines) and the Kurmann and Sims (2021) max-share approach (blue dashed-dotted lines), with 90% confidence intervals shaded. For comparison, the figure also shows the responses to a positive AC shock from Fig. 3 (black solid lines), with shaded 68% (dark gray) and 90% (light gray) confidence intervals. The impulse responses are again normalized so that consumption decreases by 1% on impact. The two alternative identification approaches yield very similar impulse responses after a TFP news shock. Moreover, a negative TFP news shock produces similar effects as a positive AC shock, with confidence intervals overlapping for most variables and horizons. Specifically, after a negative news shock, 
+ rises significantly on impact and gradually returns to its previous level. Productivity does not move contemporaneously and displays a staggered response with a delay of about two years. It then gradually decreases to a persistently lower level, in line with the effects of a TFP news shock documented in previous work (e.g., Beaudry and Portier, 2006, Beaudry and Portier, 2014, Beaudry and Lucke, 2010, Barsky and Sims, 2011, Kurmann and Otrok, 2013, Barsky et al., 2015, Kurmann and Sims, 2021). Consumption decreases significantly on impact and remains persistently below its baseline level. Hours exhibit a hump-shaped negative reaction. Inflation increases significantly on impact and remains above its baseline level for several years.
+
+Download: Download high-res image (788KB)
+Download: Download full-size image
+Fig. 4. Impulse responses to a positive AC shock and a negative TFP news shock.
+
+Notes: Impulse responses to a positive shock to average correlation, identified as the orthogonal innovation that explains the maximal amount of the forecast error variance of average correlation over a forecast horizon of zero to 40 quarters (black solid lines), with 68% (dark gray) and 90% (light gray) confidence intervals based on 2000 moving block bootstrap replications. Impulse responses to a negative TFP news shock, identified using the Barsky–Sims approach (red dotted lines) and the Kurmann-Sims max-share approach (blue dashed-dotted lines), with 90% confidence intervals shaded. The impulse responses are normalized so that consumption decreases by 1% on impact.
+To further illustrate the resemblance between AC shocks and TFP news shocks, Fig. 5 depicts the 10-year rolling window correlation of the AC shock series with the TFP news shock series extracted from the VAR using the Barsky–Sims identification approach (top panel) and with the TFP news shock series identified via the Kurmann–Sims max-share approach (bottom panel). The association between the two shock series is relatively strong: For the full sample, the correlation coefficient of the AC shock series is 0.45 with the TFP news shock series identified using the Barsky–Sims approach and 0.50 with the news shock series identified using the Kurmann–Sims max-share approach. Their rolling correlation is significantly positive throughout the sample and reaches peak levels at around 0.60 in the 1990s and late 2000s. The correlation between the two series is, of course, not perfect. The TFP news shock series is more volatile than the AC shock in roughly the first half of the sample, while the AC shock series is more volatile in roughly the second half (see Figure C.4 in Appendix C). This suggests that the AC shock series is a noisy measure of news about innovations to future productivity that also contains information on other shocks than TFP news shocks. Yet, the relatively close association of the AC shock with the TFP news shock is remarkable, given that shocks should not be correlated at all.18
+
+Download: Download high-res image (675KB)
+Download: Download full-size image
+Fig. 5. Comparison of AC shock and TFP news shock series.
+
+Notes: Ten-year rolling-window correlation between the AC shock and the TFP news shock (solid line) with 90% confidence interval (dashed lines). Top panel: TFP news shock identified using the Barsky–Sims approach. Bottom panel: TFP news shock identified using the Kurmann-Sims max-share approach.
+3.1.2. Larger VAR systems
+We now extend the analysis by specifying a seven-variable VAR system that contains, in addition to the five variables already included above, the log of real GDP per capita and the log of real private investment expenditures per capita. The seven-variable VAR is estimated for the 1960Q1-2019Q4 period using two lags chosen by the AIC. Fig. 6 shows the estimated impulse responses. The responses of key macroeconomic aggregates to an AC shock and a TFP news shock are also similar in the larger VAR system: Output and investment decrease significantly and persistently after a positive AC shock and a negative TFP news shock.
+The resemblance between AC shocks and TFP news shocks is further substantiated by how forward-looking variables react to the two types of shocks. Following Kurmann and Sims (2021), we include stock prices, consumer sentiment, and the slope of the yield curve (measured as 5-year Treasury yields minus the federal funds rate as in Kurmann and Otrok, 2013, Kurmann and Sims, 2021) as forward-looking variables one-at-a-time to the seven-variable VAR. Identification proceeds as before. A positive AC shock and a negative TFP news shock have comparable effects on forward-looking variables (see Fig. 7): Stock prices decrease significantly on impact and remain persistently below their initial level; consumer sentiment worsens significantly on impact and improves only slowly in the years after the shock; and the yield curve slope drops significantly on impact and returns to its previous level relatively fast.
+
+Download: Download high-res image (866KB)
+Download: Download full-size image
+Fig. 6. Impulse responses to a positive AC shock and a negative TFP news shock: Seven-variable VAR.
+
+Notes: Impulse responses to a positive shock to average correlation, identified as the orthogonal innovation that explains the maximal amount of the forecast error variance of average correlation over a forecast horizon of zero to 40 quarters (black solid lines), with 68% (dark gray) and 90% (light gray) confidence intervals based on 2000 moving block bootstrap replications. Impulse responses to a negative TFP news shock, identified using the Barsky–Sims approach (red dotted lines) and the Kurmann–Sims max-share approach (blue dashed-dotted lines), with 90% confidence intervals shaded. The impulse responses are normalized so that consumption decreases by 1% on impact.
+Finally, we examine the response of the federal funds rate by adding it to the seven-variable VAR. To account for the stance of monetary policy during the zero lower bound (ZLB) episode, we replace the federal funds rate with a shadow short-term interest rate between 2009Q1 and 2015Q4. We use either the shadow rate estimated by Wu and Xia (2016) or by Krippner (2013). We also estimate the VAR using the federal funds rate for the period up to 2007Q3. Fig. 8 depicts the response of the monetary policy rate to a positive AC shock and a negative TFP news shock. The impulse responses are qualitatively identical across the three interest rate measures. In particular, the monetary policy rate increases on impact of an AC shock and a TFP news shock, and the increase is more persistent for the pre-ZLB period. The response of the fed funds rate to an AC shock is only significant at the 68% level, however.
+
+Download: Download high-res image (347KB)
+Download: Download full-size image
+Fig. 7. Impulse responses to a positive AC shock and a negative TFP news shock: Forward-looking variables.
+
+Notes: Impulse responses of forward-looking variables to a positive shock to average correlation, identified as the orthogonal innovation that explains the maximal amount of the forecast error variance of average correlation over a forecast horizon of zero to 40 quarters (black solid lines), with 68% (dark gray) and 90% (light gray) confidence intervals based on 2000 moving block bootstrap replications. Impulse responses of forward-looking variables to a negative TFP news shock, identified using the Barsky–Sims approach (red dotted lines) and the Kurmann–Sims max-share approach (blue dashed-dotted lines), with 90% confidence intervals shaded. The impulse responses are normalized so that consumption decreases by 1% on impact.
+
+Download: Download high-res image (325KB)
+Download: Download full-size image
+Fig. 8. Impulse responses to a positive AC shock and a negative TFP news shock: Response of monetary policy rate.
+
+Notes: Impulse responses of the monetary policy rate to a positive shock to average correlation, identified as the orthogonal innovation that explains the maximal amount of the forecast error variance of average correlation over a forecast horizon of zero to 40 quarters (black solid lines), with 68% (dark gray) and 90% (light gray) confidence intervals based on 2000 moving block bootstrap replications. Impulse responses of the monetary policy rate to a negative TFP news shock, identified using the Barsky–Sims approach (red dotted lines) and the Kurmann–Sims max-share approach (blue dashed-dotted lines), with 90% confidence intervals shaded. The impulse responses are normalized so that consumption decreases by 1% on impact. Left panel: Impulse response of the federal funds rate spliced with the Wu and Xia (2016) shadow rate (sample: 1960Q1-2019Q4). Middle panel: Impulse response of the federal funds rate spliced with the Krippner (2013) shadow rate (sample: 1960Q1-2019Q4). Right panel: Impulse response of the federal funds rate (sample: 1960Q1-2007Q3).
+3.1.3. Robustness
+The results hold up to various robustness checks. First, we examine whether the AC shock merely captures a shock to the slope of the Treasury yield curve. Kurmann and Otrok (2013) extract a shock that explains most of the unpredictable movements in the yield curve slope and show that this shock is closely associated with news about future productivity innovations. To rule out that the AC shock captures the slope shock, we identify an AC shock that maximizes the FEV of 
+ over a ten-year horizon but is orthogonal to contemporaneous movements in the slope. The impulse responses to this “residual” AC shock are shown in Figure C.6 in Appendix C. By construction, the slope does not instantaneously move in response to the residual AC shock. The responses of the remaining variables are in line with the baseline results shown in Fig. 6.
+Second, we examine the influence of the Great Moderation and the COVID-19 pandemic on our estimates. We focus on the Great Moderation period by estimating the VAR on the period after 1984Q1, consistent with, e.g., Stock and Watson (2002). The Great Recession has been argued to have ended the Great Moderation, we thus estimate the VAR until 2008Q3. One of the possible factors giving rise to the positive response of inflation in the VAR could be the presence of the 1970s in our sample. However, the response of inflation to the AC shock remains significant and the remaining responses are in line with the baseline results (see Figure C.7 in Appendix C). We include the post-pandemic observations by extending the sample up to 2021Q4. We remove the first and second quarter of 2020 from the sample period due to the outbreak of the COVID-19 pandemic, as has been suggested in the literature (e.g., Schorfheide and Song, 2024). We obtain results that are in line with the baseline estimates (see Figure C.8 in Appendix C).
+Third, we assess whether uncertainty shocks can also be excluded from the list of potential interpretations of the impulse responses after an AC shock. Bloom (2009) constructs a binary indicator of uncertainty shocks that takes a value 1 during selected historical events associated with spikes in stock market volatility and a 0 otherwise (see footnote 4). We add this binary indicator to the seven-variable VAR, ordered first. An adverse uncertainty shock identified using the Cholesky decomposition has negative demand-side effects, dampening economic activity and inflation on impact (see the red dotted impulse responses in Figure C.9 in Appendix C). This is consistent with the evidence presented by, e.g., Bloom (2009), Leduc and Liu (2016), and Basu and Bundick (2017), but contrasts with the impact of an AC shock. Alternatively, we use a binary indicator of uncertainty shocks constructed by Andreasen et al. (2024).19 Identification of an uncertainty shock proceeds as before. After an uncertainty shock identified using the latter binary variable, the response of inflation on impact is negative but not statistically significant and again very different from the initial response after an AC shock (see the blue dashed impulse responses in Figure C.9 in Appendix C)
+We additionally conduct a number of smaller robustness checks. In particular, we identify an AC shock by extracting the shock that explains most of the FEV of 
+ over a one-year horizon instead of a ten-year horizon, and we obtain results that are broadly in line with the baseline estimates (see Figure C.10 in Appendix C). The results are also robust to measuring inflation using the GDP-deflator instead of the core PCE price index (see Figure C.11 in Appendix C). The results are finally robust to estimating the reduced-form system with four lags (see Figure C.12 in Appendix C).
+3.1.4. On the business cycle implications of a TFP news shock – a digression
+The business cycle implications of a TFP news shock shown in Fig. 4, Fig. 6 are consistent with those of some previous studies, while incompatible with others. Specifically, we find that consumption initially decreases significantly after a news shock and at the same time there is an initial decrease in hours. This is in line with the findings of, for example, Beaudry and Portier (2006), Beaudry and Lucke (2010), and Beaudry and Portier (2014). Positive co-movement between consumption and hours underscores the idea of news-driven business cycles. However, other studies find that the initial response of hours to a news shock is of opposite sign than that of consumption (e.g., Barsky and Sims, 2011, Barsky et al., 2015, Kurmann and Sims, 2021). Negative co-movement between these macroeconomic aggregates is at odds with a news-driven interpretation of business cycles.
+Kurmann and Sims (2021) show that, under the generally accepted assumption of Barsky and Sims (2011) that TFP reacts only with a delay to a news shock, the initial response of hours to a news shock is sensitive to the methods used by Fernald (2014) to construct utilization-adjusted TFP. Specifically, depending on how utilization-adjusted TFP is measured, Kurmann and Sims (2021) find that hours initially either move in the opposite direction as consumption or move in the same direction but not in a statistically significant manner. Kurmann and Sims (2021) show that the max-share identification they propose is robust to TFP measurement issues: Hours and consumption initially move in the opposite direction after a news shock, regardless of how utilization-adjusted TFP is constructed.
+To examine what lies at the heart of the differences between our findings and those of Kurmann and Sims (2021), we revisit their VAR specification. In particular, we consider a four-variable VAR that comprises utilization-adjusted TFP, consumption, hours, and inflation (Figure C.5 in Appendix C shows the time series used to replicate the results of Kurmann and Sims, 2021). We estimate the model using four lags and data from 1960Q1 to 2007Q3 (their sample period). Then, we gradually expand the sample to 2008Q4, 2009Q4, 2010Q4 and 2019Q4. Identification of a TFP news shock proceeds using the Kurmann–Sims max-share approach. Fig. 9 depicts the responses to a negative TFP news shock for the five different sample periods. It turns out that the response of hours to a news shock is sensitive to the sample period used. We find that the initial responses of hours and consumption to a TFP news shock are in line with Kurmann and Sims (2021) until 2008Q4: Consumption decreases and hours increase on impact of a news shock. In the data, there is an exceptionally strong contraction in hours worked in 2009 (see Figure C.5 in Appendix C). Once this large drop enters the sample, the initial response of hours to a news shock becomes statistically not significant and of the same sign as consumption (see the blue dashed-dotted line in Fig. 9). The response of hours on impact is nearly identical for the sample period ending in 2009Q4, 2010Q4, and 2019Q4. Thus, the Great Recession seems to have brought about a change in the co-movement between key macroeconomic aggregates and hours implied by a TFP news shock.
+
+Download: Download high-res image (752KB)
+Download: Download full-size image
+Fig. 9. Impulse responses to a negative TFP news shock.
+
+Notes: Impulse responses to a one-standard-deviation negative TFP news shock, identified using the max-share approach. The shaded areas represent 68% confidence intervals based on 2000 moving block bootstrap replications.
+4. Conclusion
+The average correlation between U.S. industry returns varies substantially over time. AC is counter-cyclical with respect to fluctuations in U.S. output and exhibits spikes during major economic and political events like the Cuban missile crisis, the Black Monday crash, the 9/11 terrorist attacks, and the bankruptcy of Lehman Brothers. Pollet and Wilson (2010) trace time variation in AC to changes in the risk on the unobservable portfolio of aggregate wealth. Building on this insight, this paper examines the business cycle implications of changes in AC in order to shed light on the fundamental factors that drive changes in aggregate risk revealed through changes in AC.
+Using predictive regressions, we first document that AC is associated with significantly lower future real GDP growth at a horizon of one to four years, even when controlling for some other widely used financial predictors. Using a vector autoregression, we then study the macroeconomic implications of a shock that maximizes the amount of unpredictable movements in AC over a ten-year horizon. The observed dynamics of macroeconomic aggregates after an AC shock are reminiscent of a negative news shock about future TFP. Most importantly, the AC shock shares the key features of a TFP new shock that inflation and consumption move in opposite directions and TFP hardly moves on impact but gradually shifts to a permanently lower level. The shock also generates an adverse reaction of output, investment, hours, stock prices, and consumer sentiment, as well as a reduction in the slope of the yield curve, consistent with a TFP news shock. To the extent that changes in AC reveal changes in aggregate risk, our results imply that news about future TFP are a key source of aggregate risk priced by the stock market. Exploring possible structural explanations for why TFP news shocks drive aggregate risk is left for future research.

@@ -1,0 +1,331 @@
+Establishment size and the task content of jobs: evidence from 46 countries
+
+Abstract
+Using a mix of household- and employer-based survey data from 46 countries, we provide novel evidence that workers in larger establishments perform more non-routine analytical tasks, even within narrowly defined occupations. Moreover, workers in larger establishments rely more on the use of information and communication technologies to perform these tasks. We also document a 15% raw wage premium that workers in larger establishments enjoy relative to their counterparts in smaller establishments. A mediation analysis shows that our novel empirical facts on the task content of jobs are able to explain 5–20% of the establishment size wage premium, a similar fraction to what can be explained by selection of workers on education, gender and age.
+
+1 INTRODUCTION
+Empirical studies show that the task composition of jobs can explain a large share of the dispersion of wages across occupations and time (Autor et al. 2003; Acemoglu and Autor 2011; Autor and Handel 2013; Goos et al. 2014; Acemoglu and Restrepo 2022). Most studies are, however, constrained by the fact that direct measures of the task content of jobs are not available in standard datasets. To overcome this limitation, authors typically resort to imputing the task content of occupations by means of alternative datasets such as the Occupation Information Network (O*NET) or the European Working Conditions Survey (EWCS). The use of these general task classifications relies on the implied assumption that the task composition of jobs under the same occupation is homogeneous. This strategy therefore rules out the possibility that heterogeneity in tasks drives within-occupation wage differences.
+
+In this paper, we explore whether the assumption of homogeneity in the task composition of jobs within occupations holds empirically. To do this, we focus on a natural and relevant dimension along which the task content of a given occupation might vary: establishment size. Employer size is meaningful because it is a simple statistic that strongly correlates with total factor productivity and managerial quality both theoretically (Lucas 1978) and empirically (Bloom and Van Reenen 2007). Larger employers also tend to use more automation and offshoring (Alekseeva et al. 2021). Given this gradient in how production is organized, the task content of jobs in establishments of different sizes is likely to also differ (Ocampo 2022). These differences in the task content of jobs have concrete implications on the compensation of workers and may explain part of the so-called establishment size wage premium (ESWP).
+
+Our main result is that the assumption of homogeneity in the task composition of jobs within occupations does not hold empirically. In particular, we find that, even within narrowly defined occupations, there are systematic differences in the task intensities performed by workers employed by establishments of different sizes. We document that the intensity of non-routine analytical tasks of workers in larger establishments is, on average, 5–15% of a standard deviation higher. The size of this gap is comparable in magnitude to the gap present between the countries at the two extremes of the development spectrum, as documented by Caunedo et al. (2023). We also report suggestive evidence in favour of an establishment size gradient in non-routine interpersonal and routine cognitive tasks. Moreover, we find that to undertake these tasks, workers in larger establishments rely significantly more on information and communication technologies (ICT). We interpret this result as an indication that workers in larger establishments may perform more non-routine analytical, non-routine interpersonal, and routine cognitive tasks through increased use of ICT.
+
+These empirical patterns are robust to using both employer- and employee-based responses, and are widely present across the comprehensive set of 46 high-, middle- and low-income countries that we study after combining two large and representative datasets: the OECD Survey of Adult Skills and the World Bank Skills Measurement Surveys. Furthermore, replicating our analysis separately for each 1-digit ISCO occupation highlights that: (i) the patterns are still present when zooming into occupations, which increases the reliability of the within-occupation comparisons that we make between large and small establishments; and (ii) while the establishment size gradient in usage of ICT is present in all 1-digit occupations, the gradient for non-routine analytical tasks is concentrated in certain occupations, particularly professionals and elementary occupations. Finally, we provide evidence that our main finding is true not only for the average worker: the distributions of the intensity of performed tasks in larger establishments are also horizontally shifted relative to smaller establishments.
+
+Though we acknowledge that we cannot rule out that the estimated gaps are partly confounded by selection of workers into firms of different sizes, it is reassuring that our main results hold after controlling for a rich set of observable worker characteristics, including education, cognitive and non-cognitive skills, and industry of employment. Moreover, following Oster (2019), we find that selection on unobservables would have to be at least as large as selection on observables for our estimated establishment size gradients in task content to be indistinguishable from zero.
+
+This paper provides novel evidence of systematic differences in task intensity by comparable workers in the same occupation according to whether they are employed by a large or a small establishment, and that these differences help to explain wage differentials.1 This result contributes to the recent literature documenting heterogeneity in task content within occupations (e.g. Deming and Kahn 2018; Stinebrickner et al. 2019), which has emphasized the role of dimensions other than employer size. Atalay et al. (2024) show that the variation in tasks is correlated with city size such that larger cities have higher intensity of analytical and interactive tasks, more technological requirements, and increased task specialization. Additionally, a number of papers report that occupational task content varies across countries (Dicarlo et al. 2016; Lewandowski et al. 2022; De La Rica et al. 2020; Caunedo et al. 2023).
+
+Our results on the establishment size heterogeneity of tasks provide novel foundations to understand employer productivity and its dynamics. Our findings are consistent with the implications of static models that endogenize employers' decisions on how to allocate tasks for production (Ocampo 2022; Adenbaum 2023). For instance, Ocampo (2022) shows that automation may affect the task composition of occupations. Along with finding that workers in larger establishments use more ICT, we also document that they perform more non-routine analytical tasks compared to workers in smaller establishments. As employers grow larger, they likely accumulate more capital, automate, and offshore jobs (e.g. Jaimovich et al. 2023), which leads to changes in the task requirements of production. In particular, jobs may evolve to focus on non-routine analytical tasks and to use more ICT so as to complement the processes that aim to replace routine tasks. Future work exploring this mechanism may provide novel insights to understand the drivers of firm dynamics.
+
+Moreover, the uncovered patterns on task heterogeneity connect naturally with the literature exploring the determinants of within-occupation wage dispersion, and provide a plausible novel driver of the ESWP—the empirical fact that larger establishments tend to pay their workers more for doing the same occupation. We explore the implications of the establishment size gradient in occupational task intensities on wage determination in two steps.
+
+First, we document that, on average, workers in larger establishments earn about 15% more than their counterparts in smaller establishments, after controlling for 2-digit occupation codes. Our measured ESWP is consistent with the existence of large and economically significant employer-size wage premia found in other studies employing alternative datasets (Velenchik 1997; Gerlach and Hübler 1998; Schaffner 1998; Troske 1999; Winter-Ebmer 2001; Dobbelaere 2004; Söderbom et al. 2005; Lehmer and Möller 2010; Bloom et al. 2018; Colonnelli et al. 2018; Reed and Thu 2019; Lochner et al. 2020; Porcher et al. 2023). We extend previous analyses to show that this is not driven exclusively by a few workers in larger establishments who are paid disproportionately more. Rather, the distribution of wages in larger establishments is shifted to the right compared to the distribution of wages in smaller establishments.
+
+Second, we conduct a mediation analysis to provide suggestive evidence on the sources of this ESWP, including our finding that task composition varies across establishments of differing sizes. A number of explanations for the existence of the ESWP have been proposed (Brown and Medoff 1989; Oi and Idson 1999): (i) large employers hire more skilled workers (worker selection); (ii) large employers have worse working conditions (compensating differentials); (iii) large employers have market power and share rents with workers (productivity); (iv) large employers have higher costs of monitoring and pay efficiency wages; and (v) large employers pay higher because of threat of unionization. In this paper, we explore the establishment size gradient in occupational task intensities as a complementary source of the ESWP. We find that this mechanism is able to explain over 10% of the raw ESWP. This proportion ranges from 5% to 20% across the countries in our sample. Our novel empirical pattern therefore accounts for an economically significant fraction of the ESWP that is comparable to the share explained by the sorting of higher-educated individuals into larger establishments.
+
+These results open an exciting research avenue to explore the consequences of the employer size gradient in the task content of jobs on dynamic wage determination. Recent evidence indicates that early-career experience in large firms has dynamic rewards in future worker outcomes (Arellano-Bover 2024). Our findings suggest a compelling mechanism to rationalize this—the experience in performing non-routine analytical tasks and in using ICT accumulated by younger workers in larger establishments is rewarded with better future earnings prospects (Stinebrickner et al. 2019). We urge future research to probe along these lines.
+
+1.1 Outline of the paper
+The remainder of this paper proceeds as follows. In Section 2, we describe the main datasets as well as our definition of occupations, and detail the measures of task content used in the analysis. In Section 3, we document novel facts on the heterogeneity of occupational task contents across establishments of differing sizes, and discuss potential drivers. In Section 4, we measure the ESWP and study a number of explanations for its existence, including the establishment size gradient in task intensity. Finally, in Section 5, we conclude with a summary of the findings and a discussion of future directions for work. The Appendix contains additional results.
+
+2 DATA AND MEASUREMENT
+2.1 Data sources
+We take advantage of the availability of cross-country harmonized surveys reporting the tasks performed by individuals in their work to construct a rich dataset covering working (not self-employed) individuals aged 16–65 across 46 countries at various stages of economic development. We combine two main datasets.
+
+2.1.1 The OECD Survey of Adult Skills
+The Survey of Adult Skills is a cross-sectional, cross-country survey conducted under the OECD Programme for International Assessment of Adult Competencies (PIAAC). This survey aims to measure cognitive skills (literacy, numeracy and problem solving in technology-rich environments), as well as skills used both at work and in other contexts. It is representative of a country's adult population aged 16–65, with around 5000 individuals participating in each country.2 There have been three rounds of data collection (2008–13, 2012–16 and 2016–19). We focus on the surveys collected from the following 30 countries: Belgium, Chile, Cyprus, Czech Republic, Denmark, Ecuador, France, Greece, Hungary, Ireland, Israel, Italy, Japan, Kazakhstan, South Korea, Lithuania, Mexico, the Netherlands, New Zealand, Norway, Peru, Poland, Russian Federation, Singapore, Slovak Republic, Slovenia, Spain, Sweden, the UK and the USA.3
+
+Full earnings information is not available in the public-use files of New Zealand, Peru, Singapore and the USA. Instead, earnings are reported only in deciles.4 These countries are still employed in the quantification of the gradient in task intensity by firm size.
+
+2.1.2 World Bank Skills Measurement surveys
+Our second main data source is the World Bank's STEP Skills Measurement Programme surveys. They also are cross-sectional surveys that aim to measure the demand and supply of skills in urban areas of low- and middle-income countries, which allows us to complement the set of high- and middle-income countries available in the OECD's Survey of Adult Skills. There are two types of surveys in the programme: household-based and employer-based.
+
+The household-based surveys interview a randomly selected household member (aged 15–64) about their personal education and training history, work status and history, skills used in their job, earnings, individual competencies, and non-cognitive traits and abilities (e.g. personality, behaviour, risk preferences). Sample sizes vary from 3000 to 4000 individuals. We focus on the surveys that contain consistent questions regarding tasks and skills, corresponding to the following 11 countries: Armenia, Bolivia, China (Yunnan Province), Colombia, Georgia, Kenya, Laos, Macedonia, Sri Lanka, Ukraine and Vietnam.5
+
+Additionally, in some countries, firms were also surveyed using an employer-based questionnaire. In this module, an informed respondent from around 300–500 firms per country reported the worker composition of the firm, the skills required from workers in different occupations, and the amount of in-firm training provided. We use the employer-based surveys of the following nine countries: Albania, Armenia, Azerbaijan, Bosnia-Herzegovina, Georgia, Kenya, Kosovo, Serbia and Vietnam. Note that four of these countries have also conducted the household-based survey, which allows us to document consistent evidence of within-occupation task heterogeneity from both the employer's and the employee's perspective.
+
+2.1.3 Strengths and limitations of data used
+The main virtue of these datasets is the availability of information about the tasks performed by individuals in their own work that are comparable across a wide range of countries. The main limitation is that they are cross-sectional. In particular, note that although both STEP and PIAAC surveys were conducted over multiple rounds across years, only one country (the USA) was surveyed twice with different sets of respondents. In the absence of a panel, we are limited in the mechanisms that we explore. For instance, we cannot control for additional individual heterogeneity outside the characteristics that we observe, nor can we speak to the dynamics of task requirements and wages.
+
+2.2 Measuring establishment size, occupational task content and wages
+2.2.1 Establishment size and the presence of large establishment gaps
+Both datasets provide a measure of workplace or establishment size based on the number of employees, reported in bins. We define establishments that have at least 50 employees as large.6 The establishment size gaps that we measure in the main analyses compare workers in establishments that have at least 50 employees to workers in establishments with fewer than 50 employees. The qualitative results are robust to the use of alternative cut-offs for the definition of ‘large’.
+
+2.2.2 Occupations
+Occupations typically refer to a ‘set of jobs whose main tasks and duties are characterized by a high degree of similarity’.7 In statistical analyses within economics, occupation classifications also serve as a convenient way to summarize heterogeneity across jobs. Though they are useful, we show that these occupational classifications may mask heterogeneity in within-occupation task intensity that, in turn, could help to explain within-occupation wage inequality.
+
+We focus on within-occupation variation as defined by the widely used 2008 version of the International Standard Classification of Occupations (ISCO-08) by the International Labour Organization. The ISCO-08 is a four-level hierarchical, nested classification that is coded using four digits. The first digit refers to one of the 10 ‘major groups’ that typically reflect skill complexity. Each ‘major group’ is divided into several ‘sub-major groups’ (second digit), which in turn are divided into one or more ‘minor groups’ (third digit), which in turn are divided into one or more ‘unit groups’ (fourth digit). There are a total of 43 sub-major groups, 130 minor groups, and 436 unit groups. The most detailed occupational code available in the PIAAC and STEP surveys has three digits.
+
+For parsimony, our preferred specifications use 2-digit ISCO-08 codes, which we believe balances the trade-off between the specificity of the occupations and sample size concerns. Though other datasets often include occupation codes at a more granular level, a number of papers that study job polarization and tasks in the labour market discuss occupations at a similar aggregation to ours (e.g. Spitz-Oener 2006; Goos et al. 2014; Fonseca et al. 2018). We show that the results are quantitatively similar using 3-digit ISCO-08 codes.
+
+2.2.3 Task content of occupations
+We follow the approach in Caunedo et al. (2023) to construct task measures that are comparable to well-established definitions in the literature (e.g. Autor et al. 2003; Acemoglu and Autor 2011). We distinguish five task components of occupations: non-routine analytical (NRA), non-routine interpersonal (NRI), routine cognitive (RC), routine manual (RM), and non-routine manual (NRM). Non-routine analytical tasks involve reading and thinking creatively. Non-routine interpersonal tasks require interacting with others (e.g. through advising, negotiating, teaching). Routine cognitive tasks require structured repetition of activity planning and time management. Routine manual tasks involve physically demanding activities. Finally, non-routine manual tasks involve manual dexterity. The exact variables employed are listed in Appendix Table A1.
+
+We create an individual index measuring the intensity of a particular task category in two steps. First, we standardize the responses to each task variable to have within-country mean zero and standard deviation unity. Second, to obtain the index for a task category, we average the standardized responses to the task variables, and re-standardize the result to again have within-country mean zero and standard deviation unity. By construction, these measures are interpreted as intensities in units of standard deviations relative to the country mean. In Online Appendix OA-C, we consider an alternative construction of task intensity indices using multiple correspondence analysis.
+
+2.2.4 Usage of ICT
+A particular focus of our paper is on documenting the intensity with which workers use technologies such as computers and specific software as part of their work. Though we report results relating to the usage of ICT alongside the task dimensions discussed above, we do not consider it mutually exclusive to those tasks. Rather, we interpret the use of ICT as a means through which the tasks are performed. In Appendix Table A1, we show the questions in the surveys that are relevant to measure the use of ICT. We create an index in a similar manner as for the above measures of task content.
+
+2.2.5 Wages
+STEP's worker-based survey reports log hourly earnings in USD. The PIAAC survey elicits hourly wages (in levels of the domestic currency), but for some countries wages are reported only in bins.8 To quantify the establishment size wage gap, we focus on log hourly wages in non-self-employment work. We deflate the values to 2018 local currency, and use 2018 exchange rates to US dollars to convert earnings to real 2018 USD.
+
+2.2.6 Demographics and additional controls
+To increase the comparability of demographic variables across surveys, we first consider the following standard controls: gender, age block (10-year groups starting from age 16 and ending at 65), and three education categories based on ISCED 2008—(i) primary education or less (ISCED 1), (ii) up to a professional tertiary education degree (ISCED 5), and (iii) bachelor's degree and above (ISCED 5A and beyond).
+
+We further aim to better account for the potential sorting of workers with higher ability or higher non-cognitive skills into larger establishments. In terms of cognition, for STEP countries, we standardize, at the country level, the proportion of correct responses over the total number of questions in three different linguistic tests (vocabulary, sentence and passage). For PIAAC countries, we use the first imputation in both the numeracy and literacy competencies, and we verify that the results hold when employing item response theory over the ten imputations available in the survey (Khorramdel et al. 2020). In terms of non-cognitive abilities, STEP provides pre-constructed measures for the following traits: openness, stability, agreeableness and grit. We employ the (standardized) first principal component from these four dimensions. Though PIAAC is known for being less well-equipped for measuring individual non-cognitive traits, we still use a number of measures that have previously been shown to predict earnings. In particular, we follow Anghel and Balart (2017) in using measures of cultural engagement, social trust and political efficacy, and we follow Cabrales et al. (2014) in employing a measure of motivation for learning. We combine these four measures by taking their first principal component to proxy for the respondent's non-cognitive skills.
+
+We consider the following sectoral classification for STEP countries: (i) agriculture, fishing and mining; (ii) manufacturing and construction; (iii) commerce; and (iv) other services. For PIAAC, we use more detailed information encompassing 21 different industries.
+
+Finally, in additional specifications reported in the Appendix, we account for regional variation in industrial and demographic composition by employing regional fixed effects, which are always available in STEP but are missing for a subset of PIAAC countries (Italy, Norway and the USA). Importantly, the nature of these regions changes across countries, even within the same survey. For instance, among STEP countries, regions refer to metropolitan areas in Colombia, while in China (Yunnan), they pertain to census enumeration areas. In PIAAC countries, the geographical information corresponds to OECD TL-2 territorial levels (representing the first administrative tier of sub-national government), which are defined politically. Given that this hinders the interpretation of these fixed effects and that they are available for only a subset of countries, we consider the inclusion of regional controls as a robustness check rather than as part of our main specification.
+
+2.3 Summary statistics
+We report summary statistics for the 36 countries for which we have a continuous measure of wages in Online Appendix Table OA-A1. To ensure that our results are not driven by extrapolation, we also impose that each establishment size and 2-digit occupation code cell has at least five observations. The number of observations after focusing on working-age individuals who are not self-employed varies from 857 (Greece) to 3984 (UK) among PIAAC countries, and from 360 (Laos) to 1289 (Vietnam) among STEP countries. In general, small establishments are more prevalent, but there is significant cross-country variation. For instance, in Belgium and the Netherlands 50% of the establishments are large, while the share is around 20% in Ecuador and Greece.
+
+3 ESTABLISHMENT SIZE GRADIENT IN THE TASK CONTENT OF JOBS
+In this section, we document from various perspectives our novel stylized fact that even within narrowly defined occupation groups, there are significant differences in the task composition of jobs across workers of establishments of different sizes. To quantify such a gradient, we estimate versions of the regression
+(1)
+where 
+ is the measure of task content of the job of worker 
+, 
+ is an indicator of whether the establishment 
+ of individual 
+ has at least 50 employees, 
+ is a vector of individual- and establishment-level characteristics, and 
+ and 
+ are occupation-code and country fixed effects, respectively. We focus on our five main task categories (NRA, NRI, RC, RM, NRM) as well as the use of ICT as outcomes. Our coefficient of interest is 
+, which captures the average difference in intensity in doing task 
+ between two observably equivalent workers in the same country and occupation who differ in that one is employed by a large establishment and the other by a small one.9 We report standard errors clustered at the country level.
+In panels A and B of Table 1, we report estimates of 
+ in equation (1) using the pooled samples of PIAAC and STEP countries, respectively. In column (1), we present the establishment size gradient in task intensity controlling only for occupation and country fixed effects. Qualitatively, we find that workers in larger establishments perform more non-routine analytical tasks and make more intensive use of ICT. We also find suggestive evidence that workers in larger establishments perform more routine cognitive tasks, a pattern that is more evident in the STEP pooled sample than in the PIAAC one.10
+
+TABLE 1. Pooled estimates of establishment size gradient in the task content of jobs.
+Outcome variable	(1)	(2)	(3)
+Panel A: PIAAC
+Non-routine analytical	0.155***	0.117***	1.488
+(0.019)	(0.017)
+Non-routine interpersonal	0.074***	0.055**	1.427
+(0.022)	(0.022)
+Routine cognitive	0.008	0.035**	−0.632
+(0.015)	(0.014)
+Routine manual	−0.006	0.011	−0.149
+(0.015)	(0.010)
+Non-routine manual	−0.007	0.001	−0.030
+(0.017)	(0.014)
+Use of ICT	0.156***	0.132***	1.525
+(0.010)	(0.010)
+Sample size	65,151	65,151
+Panel B: STEP
+Non-routine analytical	0.125***	0.066**	0.395
+(0.032)	(0.023)
+Non-routine interpersonal	−0.015	−0.035	−0.601
+(0.030)	(0.034)
+Routine cognitive	0.169**	0.191***	−4.020
+(0.067)	(0.060)
+Routine manual	−0.020	0.007	−0.068
+(0.034)	(0.033)
+Non-routine manual	−0.048	−0.060	−4.489
+(0.038)	(0.035)
+Use of ICT	0.194***	0.125**	0.696
+(0.057)	(0.043)
+Sample size	8339	8339
+Controls
+Country fixed effects	Yes	Yes
+2-digit occupation fixed effects	Yes	Yes
+Industry fixed effects		Yes
+Individual demographics		Yes
+Individual cognition/non-cognition		Yes
+Notes: Regressions of a given category of task requirement intensity on an indicator of large establishment (at least 50 employees). Each row refers to a specific task category. Additional controls are indicated in the lower part of the table. Individual demographics include education, gender and age. Regressions are conducted separately for the pooled sample of PIAAC and STEP countries in panels A and B, respectively. Standard errors are reported in parentheses and clustered at the country level. Column (3) reports the estimated 
+ from Oster (2019).
+***, **, * indicate 
+, 
+, 
+, respectively.
+We do not find a difference in the intensity with which manual tasks, either routine or non-routine, are performed between workers in larger and smaller establishments. The establishment size gradient in non-routine interpersonal tasks is concentrated among PIAAC countries (we return to this later when we document that the gradients for these tasks appear to be more country-specific). Note that by controlling for occupation fixed effects at the 2-digit level based on the ISCO-08 classification, we account for the possibility that the occupational structure of large and small establishments differs in a way that could explain these patterns.
+
+In column (2) of Table 1, we build on our baseline results to account for potential confounders of the establishment size gradient. We include industry fixed effects to rule out the possibility that the gaps are driven by larger establishments disproportionately concentrating in industries that use certain tasks more intensively, or have establishments that are more productive. Moreover, we introduce individual controls for education, gender and age to account for the most salient sources of worker selection into establishments that are typically recorded in standard datasets. Finally, we take advantage of the availability of measures of cognitive and non-cognitive skills in the surveys that we use to show that the task gap barely changes after their inclusion, which reinforces the idea that worker selection cannot fully explain the gradient in task requirements. We find qualitatively similar results, which suggests that our results do not simply arise from differential selection of workers into small and large establishments.11
+
+In terms of economic magnitude, focusing on column (2) of Table 1, we find that the average worker in a large establishment performs around 11.7% and 6.6% of a standard deviation more non-routine analytical tasks than a worker in a small establishment in the PIAAC and STEP countries, respectively. We interpret this standard deviation as relative to the country-specific distribution of performed tasks. The average worker in the large establishment also uses 13.2% and 12.5% of a standard deviation more ICT compared to the average worker in smaller establishments in STEP and PIAAC countries, respectively. In terms of routine cognitive tasks, the average large-establishment worker in PIAAC countries performs 3.5% of a standard deviation more than their counterparts in smaller establishments; the difference is larger, at 19.1% of a standard deviation, in the STEP sample. The size of these gaps is comparable to that present between the countries at the two extremes of the development spectrum, as measured by GDP per capita (Caunedo et al. 2023).
+
+3.1 Robustness to selection on unobservables
+The results above show that the gaps in skill use persist after the inclusion of a rich set of observable covariates. Still, the cross-sectional nature of the data limits the amount of unobserved individual heterogeneity that we can control for. To show that the facts that we uncover are unlikely to be driven by selection on unobservables, we follow Oster (2019), who suggests estimating the value of a parameter, denoted as 
+, indicating how much stronger/weaker selection on unobservables would have to be, relative to selection on observables, to render the coefficient of interest indistinguishable from zero.12 A value 
+ indicates that selection on unobservables would have to be as large as selection on observables to make the coefficient of interest equal zero. Since one would typically believe that the included controls are capable of explaining a large fraction of the variation in the outcome, Oster (2019) suggests that 
+ is a rule of thumb to be confident that selection on unobservables is not a large issue. The estimated 
+ values for the different establishment size gradients in tasks are reported in column (3) of Table 1. We find that the estimated 
+ values for the tasks for which we identified quantitatively significant gaps comfortably satisfy the proposed rule of thumb.13
+
+3.2 Alternative treatment of occupations
+Our main interest is in documenting within-occupation heterogeneity in task composition. While we have demonstrated the robustness of our results to the use of various degrees of specificity in the occupation codes (2-digit and 3-digit), in Table 2 we take an even more flexible approach. In particular, we estimate our preferred specification separately for subsamples defined by 1-digit occupation codes, while still controlling for dummies of 2-digit occupation codes. This approach has the conceptually attractive feature of allowing for more precise within-occupation comparisons of task intensity between establishments of different sizes by considering subsamples that contain more similar occupations.14 We find that workers in larger establishments across virtually all 1-digit occupation codes perform more non-routine analytical tasks and use more ICT in their work, within both PIAAC and STEP countries, as is consistent with the strong effects that we found in the pooled results. Not surprisingly, there are differences in the magnitude of the establishment size gradient depending on which 1-digit occupation code we focus on. For instance, among PIAAC countries, the largest gaps in the performance of non-routine analytical tasks and in the use of ICT are seen among services and sales workers. Looking at the undertaking of routine cognitive tasks, we find that that the establishment size gradient in tasks is driven by elementary occupations and clerical support workers in the PIAAC sample. Finally, for most 1-digit occupation categories, in both the PIAAC and STEP samples, we find small establishment size differences in the performance of routine and non-routine manual tasks—as we found in our main specification.
+
+TABLE 2. Establishment size gradient in the task content of jobs, by 1-digit occupation codes.
+Task category	
+1-digit ISCO-08 category	NRA	NRI	RC	RM	NRM	ICT	No. of observations
+Panel A: PIAAC
+Managers	0.087	−0.003	−0.010	−0.020	0.021	0.036	4157
+(0.052)	(0.042)	(0.024)	(0.047)	(0.060)	(0.033)
+Professionals	0.088***	0.051**	−0.045**	−0.016	−0.082	0.085***	13,472
+(0.026)	(0.024)	(0.020)	(0.040)	(0.063)	(0.014)
+Technicians & associate professionals	0.132***	−0.036	0.021	−0.035	0.059	0.086***	9601
+(0.027)	(0.025)	(0.025)	(0.038)	(0.038)	(0.027)
+Clerical support workers	0.050	0.040	0.112***	−0.111**	0.011	0.096***	7503
+(0.044)	(0.035)	(0.040)	(0.050)	(0.040)	(0.025)
+Services & sales workers	0.167***	0.160**	−0.022	0.103**	0.069*	0.223***	12,175
+(0.031)	(0.061)	(0.059)	(0.042)	(0.035)	(0.030)
+Craft & related trade workers	0.076	−0.022	0.087	−0.032	−0.084**	0.190***	6344
+(0.093)	(0.072)	(0.109)	(0.039)	(0.040)	(0.064)
+Plant & machine operators, & assemblers	0.163*	0.060	0.051	−0.022	0.021	0.179***	5244
+(0.080)	(0.066)	(0.108)	(0.024)	(0.041)	(0.028)
+Elementary occupations	0.113***	0.131***	0.124***	0.120***	0.027	0.200***	6132
+(0.023)	(0.043)	(0.039)	(0.042)	(0.056)	(0.038)
+Panel B: STEP
+Managers	0.150	−0.015	0.369**	−0.170	−0.128	0.260	451
+(0.131)	(0.152)	(0.142)	(0.150)	(0.160)	(0.202)
+Professionals	0.017	0.068	0.074	−0.046	−0.095**	0.177*	2142
+(0.032)	(0.061)	(0.048)	(0.055)	(0.038)	(0.085)
+Technicians & associate professionals	0.149*	0.271*	0.058	0.150**	−0.027	−0.052	788
+(0.079)	(0.126)	(0.123)	(0.060)	(0.096)	(0.067)
+Clerical support workers	0.035	−0.126	0.060	0.069	0.088	0.198***	895
+(0.067)	(0.098)	(0.101)	(0.038)	(0.131)	(0.038)
+Services & sales workers	0.202***	0.047	0.223***	−0.117	0.009	0.218*	1847
+(0.062)	(0.080)	(0.065)	(0.075)	(0.084)	(0.106)
+Craft & related trade workers	0.107	−0.214*	0.275**	0.135	0.121	0.093	687
+(0.122)	(0.105)	(0.092)	(0.104)	(0.095)	(0.119)
+Plant & machine operators, & assemblers	0.286**	−0.122	0.194	−0.024	−0.295**	0.139*	588
+(0.108)	(0.068)	(0.111)	(0.075)	(0.120)	(0.075)
+Elementary occupations	0.087	0.204*	0.150	0.042	−0.064***	0.100*	941
+(0.064)	(0.102)	(0.150)	(0.107)	(0.018)	(0.049)
+Notes: Coefficient of an indicator for large establishment in a regression of task content intensity on indicator of large establishment (at least 50 employees) by 1-digit ISCO-08 occupation codes and the set of controls in column (2) of Table 1. We do not report the 1-digit categories corresponding to armed forced occupations and skilled agricultural, forestry and fishery workers due to small sample size. Standard errors are reported in parentheses and clustered at the country level.
+***, **, * indicate 
+, 
+, 
+, respectively.
+3.3 Cross-country comparisons
+We complement the pooled analysis from Table 1 by exploring the presence of the establishment size gradient separately for each country. We report the results in Figure 1. What we find aligns well with our previous results: (i) the larger reliance on non-routine analytical tasks and the use of ICT is present in virtually all countries in our sample; and (ii) the higher intensity on non-routine interpersonal and routine cognitive tasks, while prevalent throughout many countries, also features a subset of countries for which the effects are not distinguishable from zero. Appendix Figure A1 shows that the differences in the performance of routine and non-routine manual tasks are mostly indistinguishable from zero and, if any, are negative.
+
+Details are in the caption following the image
+FIGURE 1
+Open in figure viewer
+PowerPoint
+Establishment size gradient in the task content of jobs by country, within 2-digit occupations.
+Notes: Coefficient of an indicator for large establishment in a regression of task content intensity on indicator of large establishment (at least 50 employees) and the set of controls in column (2) of Table 1. Regressions are done separately for each country. Countries are ordered by decreasing point estimates. ‘United States’ refers to the survey conducted in 2012, and ‘USA2’ to the survey conducted in 2017. Reported confidence intervals at 95% confidence level computed using heteroscedasticity-robust standard errors.
+
+3.4 Country-level correlates of the establishment size task gradient
+Although the qualitative patterns uncovered above are fairly similar across countries, some quantitative differences arise. There are several reasons why this might be the case, including: (i) differences in labour market institutions; and (ii) differences in the relevance of firms with at least 50 employees. We explore whether these differences can be explained by the level of development across countries, focusing on two indicators: log GDP per capita, and the proportion of the population that has completed at least tertiary-level education. In Appendix Figures A2 and A3, we plot the establishment size gradients in the task content of jobs against log GDP per capita and the fraction of population with at least tertiary education, respectively. We highlight two empirical patterns. First, the establishment size differences in the use of non-routine analytical tasks are uncorrelated with log GDP per capita and only slightly positively correlated with the proportion of the population that is at least tertiary educated. This suggests that this pattern is not driven by economic development. In contrast, the establishment size gradient in the performance of routine cognitive and the use of ICT is negatively correlated with economic development—in richer countries and countries with a more educated population, the establishment size differences in the task content of jobs are smaller.
+
+3.5 Differences in the distribution of task intensity by establishment size
+So far, our results document average differences in task composition of occupations between establishments of different sizes. In Online Appendix OA-D, we extend our analysis by also exploring the differences in the distribution of task intensity. For this, we employ distributional regressions in the spirit of Chernozhukov et al. (2013), and show that the large establishment differences in non-routine analytical tasks and in the use of ICT are present at multiple thresholds throughout the support of the distribution. This demonstrates that the mean differences that we find are not driven solely by discrepancies in the upper tail of the distribution of tasks performed. Instead, the distributions of the intensity of performed tasks in larger establishments are all shifted to the right compared to those in smaller establishments. For the case of routine and non-routine manual tasks, the insignificant differences are seen throughout the intensity distribution, except for the case of routine manual tasks for large establishments, where there is suggestive evidence of a widening of the intensity distribution in larger firms.
+
+3.6 When does the gradient arise?
+We provide two pieces of evidence to suggest that the establishment size gradient in the task content of jobs does not arise from larger employers exclusively assigning more non-routine analytical tasks and usage of ICT to workers with longer tenure in the establishment. Rather, this establishment size gradient is already reflected in the labour demand of the employers and thus appears at the beginning of the job tenure and early in the workers' careers.
+
+First, in Appendix Table A4, we re-estimate our preferred specification conditioning first on workers having been in their current job for a short period of time (up to 2 years) and then additionally on being young (less than 25 years old). This excludes workers who may have adopted more task-intensive work as they progressed in their careers. Among these young workers with short tenure, we find establishment size gradients in non-routine analytical tasks and the use of ICT that are of the same sign and comparable in magnitude to the full sample.
+
+Second, we leverage the availability of employer surveys from the World Bank STEP skills surveys programme to examine whether the task requirements of firms already differ at the time of hiring.15 In these surveys, employers answer a limited set of questions on the skill requirements of occupations in the workplace. Based on the questions asked in the survey, we are able to identify only tasks that pertain to the following categories: (i) non-routine analytical tasks and (ii) use of ICT. To limit the burden on the survey respondent, STEP elicits only two occupations (randomly selected out of nine categories). Appendix Table A5 reports estimates of average differences in task requirements between large and small employers, within occupation categories, for the pooled sample of nine countries where the STEP employer survey is available. We again find that large employers require more non-routine analytical tasks and use more ICT as early as in the hiring stage. This further suggests that the origins of the gradients arise from systematic differences in how production or technology is organized by employer size rather than from how workers are able to accumulate more specialized tasks over their tenure or career.
+
+3.7 Discussion: sources of the establishment size gradient in task content
+The more fundamental question remains: why do workers in the same occupation engage in different task intensities depending on their establishment's size? To the best of our knowledge, there is no unified framework that may be used to exhaustively explore the potential drivers of the establishment size gradient, so in this subsection we focus on providing several well-grounded plausible explanations, relate them to our empirical findings, and highlight that further theoretical and empirical analyses will be needed to shed more light on this question.
+
+To make the exposition easier to follow, let us take a concrete example. Our results suggest that an accounting professional in a larger establishment performs non-routine analytical tasks more intensely and uses more ICT than another accounting professional in a smaller establishment, even within the same industry and controlling for the innate skills of the accountants. This is consistent with Adenbaum (2023), who argues that larger, more productive establishments are able to organize production such that workers are more specialized. The accountant in the small establishment may need to perform additional administrative tasks, such as sorting mail or answering phones, whereas in larger establishments, specific workers are hired to perform these administrative tasks, leaving the accountant to focus on the tasks in which he specializes, which tend to be more non-routine analytical and use more ICT. We find some support towards this story in that, for certain occupation categories, we document that workers in larger establishments display higher intensity in some task categories at the expense of engaging less in other task categories. However, our pooled results from Table 1 show that on average, workers in larger establishments perform more non-routine analytical tasks and use more ICT without significantly decreasing their performance of other task categories.
+
+A second plausible rationale is rooted in the idea that establishment size does not only relate to organizational capacity. Larger establishments are naturally more complex. The increased complexity in larger establishments may lead workers in the same occupation to perform tasks with different intensities to obtain the same goal. The accountant in the small firm will come across the same financial transactions in their day-to-day work as the accountant in the large establishment, but the latter is more likely to encounter complex financial transactions in their day-to-day work that involve more non-routine analytical work.
+
+To deal with such complexity, larger establishments tend to adopt technologies that complement the scale of their operations (e.g. Alekseeva et al. 2021; Lashkari et al. 2024). While the accountant in the smaller establishment may just need a simple spreadsheet to prepare the employer's financial statements, the accountant in the larger establishment would be required to use more specialized accounting software (which helps the larger establishment to process more complex transactions, facilitates communication with other relevant personnel, and might improve replicability). One can make similar arguments for other occupations. For instance, the most complex equipment used by a family bakery might be an industrial oven, while a baker in a large bread manufacturing plant has to work with complex equipment throughout the whole bread-making process.
+
+Regardless of where the firm size gradient in task content comes from, we have shown that there is heterogeneity in the task content of jobs, even within the same occupation. This heterogeneity may be fundamental in helping us to better understand labour markets. For instance, in the next section, we show that the differences in task content between large and small establishments can explain an economically significant portion of the wage gaps observed between workers in larger and smaller establishments.
+
+4 THE ESWP AND THE ROLE OF INDIVIDUAL SELECTION, SECTORS AND TASKS
+In this section, we first document in Subsection 4.1 the presence of an ESWP— both on average and throughout the wage distribution—using the pooled PIAAC and STEP samples separately. We then explore in Subsection 4.2 how much of this raw gap can be explained linearly by various mechanisms, including selection of individuals into occupations, and differences in the task composition of occupations.
+
+4.1 The ESWP: cross-country evidence
+Similar to how we documented the establishment size gap in the task content of jobs in Section 3, in this subsection we explore the establishment size gap in wages. We estimate the regression
+(2)
+where 
+ is log real hourly wages in 2018 USD of individual 
+. The rest of the specification is similar to equation (1). We interpret 
+ as a measure of the ESWP, which is how much more workers with similar observables in establishments with at least 50 employees are paid (in log points) relative to those in smaller establishments within the same occupation and country.
+The estimated ESWP controlling only for country and 2-digit ISCO-08 occupation code fixed effects (column (1) of Table 3) is measured to be about 16.5% and 25.7% for PIAAC and STEP countries, respectively.16 These results show that the establishment size wage gaps are not perfectly explained by differences in the occupational structure of establishments. In column (2), we saturate the regression with additional controls, including our proposed mediator, the establishment size gradient in tasks.17 Though the estimated ESWP falls after the inclusion of these possible mediators, we find that there is still a substantial ESWP left unexplained. In the next subsection, we explore how much of the explained ESWP can be attributed to the different mediators considered.
+
+TABLE 3. Pooled estimates of the ESWP.
+Mean regressions	Quantile regressions
+(1)	(2)	(3)	(4)	(5)
+p10	p50	p90
+PIAAC
+ESWP	0.153***	0.111***	0.117***	0.106***	0.085***
+(0.014)	(0.012)	(0.010)	(0.010)	(0.012)
+Sample size	54,782	54,782	54,782	54,782	54,782
+STEP
+ESWP	0.229***	0.185***	0.216***	0.143***	0.056***
+(0.028)	(0.025)	(0.034)	(0.022)	(0.030)
+Sample size	8339	8339	8339	8339	8339
+Controls
+Country fixed effects	Yes	Yes	Yes	Yes	Yes
+2-digit occupation fixed effects	Yes	Yes	Yes	Yes	Yes
+Tasks		Yes	Yes	Yes	Yes
+Industry fixed effects		Yes	Yes	Yes	Yes
+Individual demographics		Yes	Yes	Yes	Yes
+Individual cognition/non-cognition		Yes	Yes	Yes	Yes
+Notes: Columns (1) and (2) show regressions of log hourly wages (in 2018 USD) on an indicator of large establishment (at least 50 employees) and the set of controls in columns (1) and (2) of Table 1, respectively. The PIAAC countries for which continuous wage data are not available are excluded. Appendix Table A6 additionally reports the point estimates and standard errors for the various tasks and computer use, which are not reported in the present table for brevity. Columns (3)–(5) show results from quantile regressions under the specification in column (2). Standard errors are reported in parentheses and clustered at the country level.
+***, **, * indicate 
+, 
+, 
+, respectively.
+Expanding on the existing literature, we explore the ESWP beyond the comparison of average wages between large and small establishments. In columns (3)–(5) of Table 3, we report the 
+ coefficients in a quantile regression version of equation (2) at the 10th, 50th and 90th quantiles, controlling for tasks, industry fixed effects and individual controls. We find that the worker at the 10th percentile in larger establishments is paid 0.117 and 0.216 log points more than the worker at the 10th percentile in smaller establishments in PIAAC and STEP, respectively. For the median worker, the difference is about 0.106 and 0.143 log points, and it is 0.085 and 0.056 log points at the 90th percentile. This suggests that the entire wage distribution of large establishments is shifted to the right compared to smaller establishments, even within occupations.
+
+In Online Appendix OA-E, we provide a richer analysis of the ESWP. We find that the existence of an economically significant ESWP is present when we look at more detailed occupational categories or at individual countries.
+
+4.2 Sources of the ESWP
+There are a number of plausible reasons for the existence of the ESWP. In this subsection, we explore the role in wage determination of sorting by (i) individual characteristics, (ii) industry characteristics, and (iii) differential task content of jobs. To quantify their relative importance, we conduct a simple mediation analysis adopting the two-step conditional decomposition developed in Gelbach (2016). A desirable feature of his approach is that the results from the decomposition are independent of the order in which the mediators are introduced in the regression. A limitation, however, is that we require measurement of the key mediators to avoid omitted variable biases. The decomposition begins with a raw estimate of the ESWP, 
+, from the regression
+(3)
+where 
+ is log real hourly wages, 
+ is the indicator for worker 
+ being in a large firm, 
+ are occupation fixed effects (2-digit ISCO code), and 
+ are country fixed effects. This raw ESWP estimate coincides with the estimate in column (1) of Table 3. The second step of the decomposition consists of re-estimating the above equation after the inclusion of a set of individual controls 
+ that are believed to mediate the ESWP:
+(4)
+In our case, the variables incorporated in 
+ are (i) individual characteristics, including sex, age and education, (ii) sector dummies, and (iii) the task content of jobs and usage of ICT reported by workers. In other words, this regression replicates the specification in column (2) of Table 3. The difference 
+ is interpreted as the part of the ESWP that we are able to explain by controlling for 
+. Gelbach (2016) uses the formula for the omitted variable bias to apportion the explained part of the ESWP to each of the component variables of 
+.18
+
+The decomposition results are summarized graphically in Figure 2. We find that the mediators that we consider are able to explain 27.6% of the raw ESWP in PIAAC, and 19.2% in STEP. Individual characteristics (age, sex and education) explain a significant portion of the ESWP, around 15.5% and 13.1% in PIAAC and STEP, respectively. This suggests that large establishments pay more on average because they hire workers who are older, more educated, and better skilled. This sorting pattern of workers to larger employers has been documented recently by Arellano-Bover (2021). Importantly, though human capital sorting (by occupation or education) explains a large portion, it is unable to fully explain the existence of the ESWP.
+
+Details are in the caption following the image
+FIGURE 2
+Open in figure viewer
+PowerPoint
+Gelbach decomposition of ESWP, pooled.
+Notes: Pooled PIAAC and STEP samples. Raw ESWP refers to the estimate in column (1) of Table 3. Explained ESWP is the difference between the estimates in columns (1) and (2) in that table. The vertical axis is the amount of the ESWP explained by the corresponding component. Numbers in brackets indicate percentages of the raw ESWP. Reported confidence intervals at 95% confidence level. Standard errors are clustered at the country level.
+
+The third to eighth bars in both Figures 2(a) and 2(b) report the fractions of the raw ESWP that are explained by the differences in the tasks performed and in ICT use by the workers documented in Section 3. To help us to better interpret the results, in Appendix Table A6, we report the coefficients of the tasks on log wages in the regressions of Table 3. In particular, we document that non-routine analytical tasks, non-routine interpersonal tasks and the use of ICT have positive returns on wages, whereas routine cognitive and routine manual tasks have negative returns, consistent with existing evidence (Autor and Handel 2013; Stinebrickner et al. 2019). Something important to notice is that the Gelbach (2016) decomposition estimates the contribution of each mediator keeping the other mediators constant. Hence while the different task components may be predictive of wages, the variation that explains the ESWP is largely mediated by the variation in the usage of ICT rather than variation in the task content.
+
+Returning to Figure 2, we find that the establishment size gradient in the performance of non-routine analytical tasks explains about 4.5% of the raw ESWP in PIAAC. Moreover, differences in the use of ICT explain an additional 4.7% of the raw ESWP in PIAAC, and 10.5% in STEP. In STEP countries, apart from the large role of ICT, we find that routine cognitive tasks, which are disproportionately undertaken by workers in large establishments but have sizeable negative returns on wages, explain 
+% of the gap.
+
+Overall, we take these results to reflect not only the disproportionately higher intensity with which workers perform various tasks and use ICT in larger establishments, but also the growing importance of computer skills (Alekseeva et al. 2021) in the labour market.19 Combined, these task components and the use of ICT explain more than 10% of the raw ESWP, a magnitude comparable to that explained jointly by education, age and sex.20
+
+The main concern in the performed decomposition analysis is the potential presence of omitted variables. While we do have a rich set of worker controls (including cognitive and non-cognitive skills that should reduce the potential for the presence of unobserved determinants of worker selection into establishments), not observing establishment characteristics, in particular performance, may be a concern. First, the ESWP may be partially driven by differences in establishment productivity—in many models of the labour market, including rent-sharing models or search and matching models, more productive employers pay higher wages to their workers. Unfortunately, we do not observe measures of employer productivity. To partially address this issue, we control for the sector in which the worker works with the aim of accounting for aggregate productivity differences across sectors. We find that the sectoral membership of the worker only partly explains the existence of the ESWP—about 2% of the raw ESWP in PIAAC countries.
+
+A second concern is that the ESWP may be driven by spatial differences in wages. In an attempt to capture within-country spatial differences in wages, we repeat the decomposition including regional fixed effects, and report the results in Appendix Figure A4.21 We find that the regional dummies are able to explain a non-negligible fraction of the ESWP (around 9% and 20% in PIAAC and STEP countries, respectively). Importantly, we show that this does not come at the expense of shifting the importance of the tasks performed, as their importance in the decompositions remains about the same size.
+
+4.2.1 Cross-country comparisons
+The results of the decomposition exercise by country are summarized graphically in Online Appendix Figure OA-B2, which focuses on countries for which both the ESWP and the explained portion of the ESWP are statistically significant. We find that the proportion of the raw ESWP explained by the controls that we consider varies between 20% and 40%. In terms of broad patterns, basic individual characteristics such as age, sex and education consistently explain a significant portion of the raw ESWP (between 10% and 30%). Sectoral membership is intermittently statistically and economically significant in a handful of countries. In countries where this component accounts for a statistically significant portion, sectors explain around 5–20% of the raw ESWP.
+
+The establishment size gradients in the performance of non-routine analytical tasks and the use of ICT explain, in general, a total of about 5–20% of the raw ESWP. The establishment size gradient in the performance of non-routine analytical tasks explains between 5% and 8% of the raw ESWP whenever it contributes to a statistically significant share of the ESWP. Among the countries for which the ICT component is statistically significant, the estimates lie mostly between 3% and 9% of the raw ESWP, with a couple of countries where the use of ICT contributes more substantially to the ESWP.22
+
+5 CONCLUSION
+In this paper, we document novel stylized facts about the heterogeneity in occupational task intensity across establishments. We find that individuals working in larger establishments report that they perform non-routine analytical tasks more frequently and use ICT more intensively, even within narrowly defined occupations. We complement these empirical facts with demand-side information confirming that larger employers indeed require workers to perform more non-routine analytical and ICT-intensive tasks.
+
+Moreover, we document the existence of an economically significant establishment size wage premium (ESWP) of about 15%. We provide suggestive evidence on the role of task heterogeneity in explaining this ESWP. By controlling for individual characteristics (age, gender, education, cognition and non-cognition) of the workers, sector and task content of jobs, we explain about 28% of the raw ESWP in PIAAC countries, and 19% in STEP countries. Differences in the task contents of jobs are able to explain over 10% of the raw ESWP. Therefore, accounting for within-occupation heterogeneity in the task content of jobs enriches our understanding of wage gaps in the labour market.
+
+We consider that our work opens two natural avenues for future research.
+
+First, an unresolved question is how these task differences arise in a dynamic economy. In the Introduction, we suggested that as employers grow larger, they invest in automation and/or offshore more work, which transforms the organization of production. These larger establishments engage workers in complementary tasks such as non-routine analytical and routine cognitive tasks. Moreover, these tasks are performed with more ICT. While our results are consistent with this micro-founded mechanism of firm dynamics, it is difficult to establish its consistency with reality in the absence of panel data of employers and tasks.
+
+Second, we leave for future study other implications for the labour market of the establishment size task gradient. We have suggestive evidence of its role in static wage determination, but lack exogenous identifying conditions to argue for its causal nature. The implications of our results on dynamic wage determination remain unexplored. More specifically, our results may serve as a nexus between two seemingly parallel strands of the literature. (i) A number of studies show that having experience in certain tasks has different returns in the market: analytical tasks and the use of ICT have been found to have high market returns, especially in recent years (Stinebrickner et al. 2019; Alekseeva et al. 2021). (ii) There is evidence that experience in large firms also has higher returns in the market (Arellano-Bover 2024). Our results suggest a plausible mechanism for the bigger dynamic returns to working in larger employers—workers in larger firms gain more experience in performing non-routine analytical tasks and the use of ICT, which are highly valued in the labour market.
+

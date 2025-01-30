@@ -1,0 +1,332 @@
+Stationary Social Learning in a Changing Environment
+
+Abstract
+We consider social learning in a changing world. With changing states, societies can be responsive only if agents regularly act upon fresh information, which significantly limits the value of observational learning. When the state is close to persistent, a consensus whereby most agents choose the same action typically emerges. However, the consensus action is not perfectly correlated with the state, because societies exhibit inertia following state changes. When signals are precise enough, learning is incomplete, even if agents draw large samples of past actions, as actions then become too correlated within samples, thereby reducing informativeness and welfare.
+
+1 Introduction
+The literature on social learning has extensively studied the extent to which agents learn from others' actions. In particular, it has been quite successful at understanding the possible emergence of informational cascades, and conditions under which the consensus that eventually forms over time is correct (see Bikhchandani, Hirshleifer, Tamuz, and Welch (2024) for a recent survey). However, little attention has been drawn to the possibility that the underlying state of nature might change over time.1 Still, in several applications, for example, technology adoption or investment decisions, the optimal course of action is likely to evolve, raising the question of whether social learning then efficiently aggregates information.
+
+The possibility of state changes provides new insights both from applied and theoretical perspectives. For instance, the dynamics of learning may shed light on how societies react to changes in the environment, and on how a dominant consensus may be replaced by a new one.2 From a theoretical perspective, the possibility of state changes creates a tension between information aggregation and responsiveness to change. Indeed, while efficient aggregation supposes that some agents safely rely on their peers to act, it also requires that society reacts swiftly to a change in the environment, ruling out informational cascades. The goal of this paper is to evaluate how this tension shapes equilibrium welfare.
+
+To address this question, we analyze steady-state equilibria in a model where (a) the state of nature follows a Markov chain and (b) in each period, a continuum of short-lived agents draw a finite sample of past actions and have access to a (possibly costly) informative signal. Though unnecessary for our results, allowing for costly information makes social learning even more desirable. Indeed, the potential welfare gains from learning from others result not only from better-informed decisions, but also from savings on information costs.
+
+Two forces drive equilibrium welfare at a steady state. The first one is reminiscent of the Grossman–Stiglitz paradox: actions cannot be too informative about the state for otherwise agents would have no incentive to acquire information. With changing states, this logic imposes that some fresh information flows in every period at the steady state, and thus puts a limit on equilibrium welfare. When agents sample at least two actions, a second (countervailing) force comes into play. In that case, some agents will sample conflicting evidence, and rely entirely on their signals, while others will obtain unambiguous evidence allowing them to possibly free-ride on the information acquired by the former. This creates a intertemporal externality across samples, which can be expected to bring welfare gains. This is exactly what happens in Banerjee and Fudenberg (2004), who show in a fixed-state model that learning is eventually complete when agents sample as few as two actions. In sharp contrast, our chief finding is that allowing for even arbitrarily rare changes in the state typically results in incomplete learning.
+
+We first analyze the case where agents sample at most two actions. In any equilibrium, all agents must acquire (or make use of) information with positive probability, regardless of their samples. Otherwise, indeed, the forces of imitation are so strong that all agents within and across periods eventually play the same action. In a changing world, such an uninformative, irreversible consensus is ruled out in equilibrium. Therefore, learning is incomplete: agents never entirely rely on their peers, even when the state is arbitrarily persistent. Not only observing two actions no longer ensures complete learning, but welfare is typically worse than when only one action is sampled.
+
+For larger samples, we focus on the case where the state is highly persistent. First, we show that a consensus prevails. That is, in a steady-state equilibrium, most likely most agents play the same action. However, this consensus must be fluctuating, and the population oscillates over time following state changes. The dynamics following a state change is characterized by two phases. Agents first stick to the current consensus unless their sample conveys somewhat mixed evidence. But such conflicting evidence is unlikely in a society where one action dominates, and there may be significant inertia in moving away from an established consensus. Once the population displays some minimal dissent, the fraction of agents acting against the old consensus quickly takes off, and the population snowballs towards a new consensus. The efficiency of learning reflects responsiveness, that is, how long it takes for society to escape an obsolete consensus when the state changes.
+
+We next show that, when signals are binary, precise enough, and not too costly, there exists an equilibrium in which welfare is the same as in no-social-learning benchmark where agents observe no past action. When signals get more precise, agents are more likely to play the right action when acquiring information, and both the convergence toward a correct consensus and away from a wrong consensus get faster. However, it turns out that the relative speed of convergence toward a correct consensus increases. As for samples of size two, agents observing even unanimous samples must then acquire information to make sure that society remains responsive to change and does not get stuck in an irreversible consensus. Intuitively, when signals are precise, the actions of agents acquiring information are highly correlated to the state, hence among themselves. Actions are less diverse, which curtails information aggregation and thereby welfare.
+
+To prove this result, we exploit time-invariance equations for measures to provide bounds on the beliefs for nonunanimous sample compositions. Intuitively, when state changes are rare, equilibrium beliefs can be approximated in terms of time-average values of the dynamical systems that describe the evolution of the population's behavior. Perhaps surprisingly, these belief estimates point to the presence of belief reversal: seeing one dissenting action within an otherwise unanimous sample should be taken as evidence that the minority action is the correct one.3
+
+The paper is organized as follows. We introduce the model in Section 2. Section 3 is devoted to small samples, and Section 4 provides results for larger samples in the persistent limit case. Section 5 addresses robustness issues and extensions. We discuss the relation to the literature in Section 6, and conclude in Section 7.
+
+2 The Model
+2.1 States, Actions, and Payoffs
+We consider a social learning model in discrete time with an evolving, binary state of nature mathematical equation. In each period, there is a continuum of short-lived agents who choose an action from the action set mathematical equation and obtain a utility of one when their action matches the current state, and of zero otherwise.
+
+Successive states mathematical equation follow a symmetric Markov chain over Θ. The parameter mathematical equation captures the degree of persistency. States are i.i.d. if mathematical equation, and fully persistent if mathematical equation. We assume that mathematical equation: the state is persistent, but not fully.
+
+2.2 Timing, Sampling, and Signals
+At each date t, events unfold as follows. Each new-born agent (i) first observes a random sample of n past actions, (ii) next decides whether or not to acquire additional information about the current state mathematical equation at cost mathematical equation, (iii) finally picks an action mathematical equation.
+
+We assume that sampled actions are drawn from the pool of actions played in the previous period, in proportion to their prevalence in the population (proportional sampling). That is, the sample composition at date t, measured by the count of ones, follows a binomial distribution mathematical equation, where mathematical equation is the fraction of agents playing action 1 in period mathematical equation. Samples are independent across agents and private.
+
+The additional information available to agents consists of a private signal that is independent across agents conditional on the current state. We let q denote the posterior belief assigned to mathematical equation given the signal under a uniform prior, and refer to q as a private belief. We denote by mathematical equation the right-continuous cdf of q in state θ. Signal distributions are assumed symmetric across states.4 That is, the distribution of the posterior probability assigned to θ conditional on the state being θ is the same for both states. This corresponds to mathematical equation for each mathematical equation. We rule out uninformative signals, and assume throughout that mathematical equation for some mathematical equation. Finally, we denote by mathematical equation the supremum of the support of the unconditional distribution mathematical equation. By symmetry, the infimum is mathematical equation. Following the usual terminology, signals are unbounded if mathematical equation, and bounded if mathematical equation.
+
+2.3 Equilibrium Concept
+We focus on equilibrium steady states in which all agents across and within periods use the same decision rule σ. The equilibrium notion requires that σ is optimal given beliefs, and that beliefs are derived from the invariant joint distribution of states and samples induced by σ. In addition, we restrict attention to symmetric equilibria, that is, we require that the equilibrium is unchanged when relabeling actions and states so that the decisions given a sample mathematical equation are the mirror images of those made with sample k. A formal definition of equilibrium steady states is given in Section 4.1, together with an existence result. At this stage, we simply denote by mathematical equation the (interim) probability that the current state is mathematical equation conditional on seeing a sample composed of mathematical equation ones.
+
+2.4 Information Acquisition
+Consider an agent who holds an interim belief p and contemplates acquiring information. Upon acquiring information and receiving a signal inducing a private belief q, the agent chooses action 1 whenever the more likely state is mathematical equation, that is, if mathematical equation, with indifference if mathematical equation.
+
+Accordingly, the probability of playing the correct action mathematical equation is given by
+mathematical equation
+(1)
+The function v is convex, increasing on mathematical equation and symmetric: mathematical equation for all p.
+Instead, when information is not acquired, the agent's action matches the state with probability mathematical equation.
+
+Since more information cannot hurt, mathematical equation for all p; besides, the net value of acquiring information mathematical equation is maximal when mathematical equation. If mathematical equation, agents never acquire information and samples are not informative. We rule out this case and assume throughout the following.
+
+Assumption 1.mathematical equation.
+
+These properties imply the existence of a unique mathematical equation such that mathematical equation iff mathematical equation. As our analysis highlights, what ultimately matters is whether mathematical equation or not.
+
+When signals are bounded mathematical equation, one has mathematical equation for mathematical equation, hence mathematical equation irrespective of whether mathematical equation or mathematical equation. When signals are unbounded, mathematical equation for all mathematical equation, hence mathematical equation if mathematical equation and mathematical equation if mathematical equation. In what follows, we maintain the assumption that mathematical equation (the richer case), and defer the discussion of the easier case mathematical equation to Section 5.1.
+
+
+Assumption 2.mathematical equation.
+
+Figures 1 and 2 illustrate two typical cases. In Fig. 1, signals are unbounded and mathematical equation; in Fig. 2, signals are binary with precision mathematical equation (bounded). In that case, private beliefs are either mathematical equation or π, and mathematical equation, implying mathematical equation.
+
+Details are in the caption following the image
+Figure 1
+Open in figure viewer
+PowerPoint
+Signals with unbounded strength.
+
+Details are in the caption following the image
+Figure 2
+Open in figure viewer
+PowerPoint
+Binary signals with precision π.
+
+We conclude this section with a property that any equilibrium must satisfy, namely there is no steady-state cascade.
+
+
+Lemma 1.In any equilibrium steady state, one has mathematical equation for some k.
+
+
+Proof.Assume instead that for some equilibrium and for each k, one has either mathematical equation or mathematical equation. Signals are never used, hence samples are uninformative at the steady state and, therefore, mathematical equation for each k—a contradiction. Q.E.D.
+
+Lemma 1 imposes that private signals must be used with positive probability following at least one sample realization in any steady-state equilibrium. Still, one may have mathematical equation for some sample compositions. Upon observing such samples, agents play their perceived best action without using further information.
+
+3 Small Samples
+We discuss here small sample sizes mathematical equation. The case mathematical equation where agents do not sample serves as a no-social-learning benchmark. In that case, the belief of all agents at a steady state is given by the invariant distribution of mathematical equation, which is uniform over Θ. Agents acquire information, and obtain an expected payoff of mathematical equation.
+
+3.1 Samples of Size mathematical equation
+We assume here that mathematical equation. Equilibrium symmetry implies that mathematical equation and that all agents acquire information with the same probability β, with mathematical equation by Lemma 1. We set mathematical equation. Note that mathematical equation when mathematical equation.
+
+
+Proposition 1.If mathematical equation, there is a unique equilibrium steady state:
+
+
+If mathematical equation, one has mathematical equation and mathematical equation.
+If mathematical equation, one has mathematical equation and mathematical equation.
+
+Proof.Consider an agent A in period t who samples the action mathematical equation of some player B. In the steady state, both A and B hold either an interim belief mathematical equation or mathematical equation, where mathematical equation obeys the following equation:
+
+mathematical equation
+(2)
+Either, with probability β, B acquired information and then played the right action with probability mathematical equation, or did not, and matched the state with probability mathematical equation.
+
+If mathematical equation, B's indifference condition imposes mathematical equation. One therefore derives mathematical equation. Substituting into (2) yields mathematical equation, hence mathematical equation. mathematical equation then requires mathematical equation.
+
+If mathematical equation, one has mathematical equation and (2) now reads
+
+mathematical equation
+(3)
+Since mathematical equation for mathematical equation and since mathematical equation, (3) has a (unique) solution in mathematical equation if and only if mathematical equation. Q.E.D.
+
+When the state changes frequently, past actions cannot possibly be very informative about the current state, and information is acquired with probability 1. As the state gets more persistent, past actions potentially become informative, and β decreases. In the persistent limit mathematical equation, agents acquire information with vanishing probability, hence most likely replicate the action they sample. The equilibrium payoff increases from mathematical equation to mathematical equation as λ decreases from the i.i.d. case to the persistent limit. More generally, the equilibrium payoff, hence welfare, is given as follows.
+
+
+Corollary 1.The equilibrium welfare is mathematical equation for mathematical equation, where mathematical equation is the solution of (3), and mathematical equation for mathematical equation.
+
+For binary signals with precision π, the equilibrium welfare is mathematical equation, for each mathematical equation.
+
+3.2 Samples of Size mathematical equation
+When mathematical equation, private signals are always interim valuable in equilibrium, which limits the informativeness of past actions. The situation is quite different with larger samples. With mathematical equation, the efficiency of social learning can be improved if agents with some sample k generate enough information that (future) agents with a different sample mathematical equation find it optimal to herd, that is, if there exists mathematical equation such that mathematical equation. Ultimately, the equilibrium welfare is determined by the magnitude of such information externalities across samples.
+
+Let us look at how this discussion applies to the case mathematical equation. In this case, mathematical equation, by symmetry: agents who sample conflicting actions are confused and acquire information. The key question is whether the information produced by these agents is enough to ensure that other agents can herd, that is, mathematical equation. Casual intuition suggests that this should be the case when the state is sufficiently persistent. But, remarkably, this intuition is incorrect.
+
+
+Proposition 2.In any equilibrium, one has mathematical equation.
+
+Proposition 2 implies that agents are always willing to acquire information when mathematical equation. For mathematical equation, it implies that it can never be strictly optimal to ignore one's signal.
+
+The logic works as follows. Assume that mathematical equation, so that agents acquire information when sampling conflicting evidence only. By acquiring information, these agents are instrumental in moving toward a correct consensus. Sooner or later, society will reach such a consensus, at which point there will be too few agents sampling mixed evidence, and the population will no longer be responsive to changes in the state.
+
+The complete proof of Proposition 2 is in Appendix A. We provide a sketch below.
+
+
+Proof Sketch.We argue by contradiction and assume that mathematical equation in some equilibrium. Since mathematical equation, agents with a balanced sample acquire information, and choose action 1 if their private belief exceeds mathematical equation, which has probability mathematical equation in state θ.
+
+Denoting by mathematical equation the fraction of agents playing action 1 in period mathematical equation, the probability that a generic agent in period t plays action 1 is thus given by mathematical equation, where
+
+mathematical equation
+Since mathematical equation, one has mathematical equation for each mathematical equation: the popularity mathematical equation of action 1 increases over time when mathematical equation, and decreases otherwise, as shown in Figure 3.
+For x close to 0, the ratio mathematical equation is approximately equal to mathematical equation. Thus, as long as mathematical equation is close to zero, mathematical equation increases by mathematical equation when mathematical equation, and decreases by mathematical equation when mathematical equation. Since mathematical equation, one has mathematical equation: step sizes are higher when mathematical equation decreases. This means that mathematical equation converges faster toward a consensus on action 0 when mathematical equation than it moves away from this consensus when mathematical equation. Consequently, whenever mathematical equation approaches either 0 or 1, there is a positive probability that the population will never bounce away from this consensus, even following state changes.
+
+Combined with the observation, obvious from Figure 3, that mathematical equation cannot stay bounded away from 0 and 1 indefinitely, this implies that the sequence mathematical equation converges to either 0 or 1, almost surely: the population converges to a permanent consensus, although the state of nature keeps changing. Thus, past actions are fully uninformative at the steady state, hence mathematical equation—a contradiction. Q.E.D.
+
+Details are in the caption following the image
+Figure 3
+Open in figure viewer
+PowerPoint
+Population dynamics.
+
+
+Corollary 2.When signals are binary, the equilibrium welfare is mathematical equation for all mathematical equation, all mathematical equation and all mathematical equation. When mathematical equation has support mathematical equation, the equilibrium welfare is strictly lower for mathematical equation than for mathematical equation if mathematical equation.
+
+
+Proof.By Proposition 2, acquiring information is always valuable with mathematical equation, so an agent obtains a payoff mathematical equation for any sample realization k, where mathematical equation. This implies that welfare is no larger than mathematical equation, that is, the welfare when mathematical equation in the case mathematical equation.
+
+With binary signals with precision π, mathematical equation for all mathematical equation, and the equilibrium payoff is then mathematical equation for every mathematical equation and mathematical equation, like in the cases mathematical equation and mathematical equation.
+
+When mathematical equation has support mathematical equation, v is strictly convex on mathematical equation, and mathematical equation. Q.E.D.
+
+When signals are binary, social learning arises in equilibrium (some agents do herd), yet there is no welfare gain over the benchmark case mathematical equation where information is always acquired. With richer signals, the equilibrium welfare is nonmonotonic for small λ: it increases from mathematical equation to mathematical equation and decreases from mathematical equation to mathematical equation. This is all the more surprising as this holds when the state is highly persistent, that is, when the logic of observational learning acts most forceful.
+3.3 Comparison to Fixed-State Models
+We here relate these findings to the literature with a fixed state and known calendar time. The relevant comparison is Banerjee and Fudenberg (2004) (henceforth BF), who assume that in each period, a continuum of short-lived agents draw a random sample of past actions and observe a signal for free.5 If mathematical equation, the analysis of BF implies the existence of a continuum of steady states. In any such steady state, the fraction of agents who play the correct action is constant over time, and equal to mathematical equation. In each period, all agents ignore their signals, and replicate the action they sample.6 This multiplicity is ruled out with changing states, since it cannot be that agents systematically ignore their signals.
+
+If mathematical equation, our results sharply contrast with BF. For mathematical equation, BF shows that, under minimal assumptions on signals (that are satisfied in our setup), learning is eventually complete: actions converge to the correct one. As soon as the state may change, our analysis instead shows that equilibrium payoffs do not exceed mathematical equation, even as mathematical equation. Accordingly, allowing for a changing state has a strong negative impact. In addition, the comparison between samples of size 1 and 2 suggests that, while observing more actions compensates for a limited signal quality when the state is fixed, this may exacerbate the inefficiency in a changing world.
+
+4 The General Case: Equilibrium Analysis
+The discussion on small samples illustrates a key complication. When only one action is sampled, the interim belief at date t involves only the expected value of mathematical equation in each state, reflecting how often on average past agents play the correct action. This allows for a closed form analysis. As soon as two actions are sampled, the interim belief mathematical equation also involves the correlation of actions within samples.7 Formally, the belief likelihood ratio is
+mathematical equation
+(4)
+where mathematical equation is the distribution of mathematical equation in state θ, so that the formula for mathematical equation involves all lth moments of mathematical equation for mathematical equation; in addition, the evolution of mathematical equation over time involves even higher powers of mathematical equation, as can be checked.
+Consequently, the equilibrium conditions involve the entire joint steady-state distribution of mathematical equation. This distribution is a complex object, leaving little hope for a tractable analysis.8 Accordingly, we focus on the persistent limit mathematical equation, which we view as the most relevant case for a comparison with the usual fixed-state setup.
+
+In Section 4.1, we provide a formal definition of strategies and equilibrium steady states. In Section 4.2, we prove that the population is (asymptotically) always in consensus. Section 4.3 discusses welfare and the extent to which the prevailing consensus is correct.
+
+4.1 Strategies and Equilibrium
+A strategy specifies whether or not to acquire information (if mathematical equation) and which action to choose. These decisions depend on the composition of one's sample, and (whenever relevant) on the signal. A strategy is thus a pair mathematical equation of (measurable) maps, with mathematical equation and mathematical equation, with the understanding that mathematical equation is the probability of acquiring information upon observing a sample composed of k ones, and mathematical equation is the probability of playing action 1 upon drawing sample k and observing a private belief mathematical equation. Not acquiring information is informationally equivalent to drawing an uninformative signal mathematical equation for sure: an agent with sample k who does not acquire information thus plays 1 with probability mathematical equation.
+
+Conditional on the state being θ, an agent sampling k thus plays action 1 with probability
+mathematical equation
+(5)
+The sample composition at date t follows a Binomial distribution mathematical equation. It follows that the fraction of agents choosing action 1 in period t is
+mathematical equation
+(6)
+For fixed σ, the pair mathematical equation follows a Markov chain over mathematical equation. Over time, mathematical equation evolves independently of mathematical equation, and mathematical equation.
+
+An equilibrium steady state is a pair mathematical equation where mathematical equation is an invariant measure for mathematical equation, and σ is optimal given μ. The optimality condition on σ reads as C1 and C2 below:
+
+C1
+mathematical equation if mathematical equation and mathematical equation if mathematical equation;9
+C2
+mathematical equation if mathematical equation and mathematical equation if mathematical equation.
+We recall that the interim belief mathematical equation is the belief on the current state. It is related to the belief on the previous state through the equality mathematical equation. The belief mathematical equation is itself related to the steady-state distribution μ through (4).
+The condition that μ is an invariant distribution for mathematical equation reads
+
+C3
+mathematical equation for all measurable mathematical equation.
+Since we focus on symmetric equilibria, we require in addition that μ and σ treat the two states and actions symmetrically. Formally:
+
+C4
+mathematical equation and mathematical equation for each k and q.
+C5
+μ is invariant under the transformation mathematical equation.
+We denote by mathematical equation the game with transition parameter λ. The proof of Theorem 1 below is in Appendix B.
+
+
+Theorem 1.The game mathematical equation has a symmetric equilibrium steady state.
+
+4.2 Aggregate Behavior: A Consensus Result
+We first derive a general result on the aggregate behavior in the population, and prove that the actions of agents become highly correlated as the state gets close to persistent.
+
+
+Theorem 2.Let mathematical equation and let mathematical equation be any equilibrium steady state of mathematical equation, for mathematical equation. As mathematical equation, the marginal of mathematical equation over mathematical equation (weakly) converges to the uniform distribution over the two-point set mathematical equation.
+
+According to Theorem 2, most likely most agents play the same action in any given period. This consensus result implies in turn that most likely most agents draw a unanimous sample mathematical equation consisting only of zeroes or of ones.
+
+
+Proof.Let λ and an equilibrium mathematical equation of mathematical equation be given, and denote by mathematical equation the (steady-state) average fraction of agents whose action matches the state. mathematical equation is weakly higher than the equilibrium payoff mathematical equation because information acquisition costs are not accounted for.
+
+Let us list the actions within a generic agent's sample in some random order mathematical equation. One available strategy mathematical equation is to simply imitate mathematical equation. The strategy mathematical equation would yield a payoff of mathematical equation if the state were fixed. Accounting for state transitions, and assuming mathematical equation for concreteness, mathematical equation yields
+
+mathematical equation
+and thus, mathematical equation. Since no strategy improves upon mathematical equation, this implies that the marginal gain of observing mathematical equation is at most λ.
+In turn, this implies that mathematical equation and mathematical equation coincide with high probability when λ is small. Indeed, consider the alternative strategy mathematical equation consisting in playing mathematical equation if the second action confirms the first one (mathematical equation) and acquiring information otherwise (mathematical equation). In the latter case, the agent's belief is 1/2, hence the agent's payoff conditional on mathematical equation is mathematical equation. Therefore, the payoff mathematical equation is a convex combination of mathematical equation and of mathematical equation, where the weights are the conditional probabilities of mathematical equation and of mathematical equation given mathematical equation.
+
+On the other hand, the martingale property of beliefs ensures that mathematical equation (which is also mathematical equation) is a convex combination of the beliefs 1/2 and of mathematical equation, with the same weights. Since mathematical equation, and since mathematical equation, it follows that the probability mathematical equation that mathematical equation contradicts mathematical equation is at most of the order of λ.
+
+To conclude, recall that mathematical equation and mathematical equation are independent draws from a Bernoulli distribution with parameter x, where x is first drawn according to μ. Since mathematical equation and mathematical equation coincide with high probability, it must be that x is quite close to 0 or to 1, with high μ-probability. Q.E.D.
+
+According to Theorem 2, the population is in consensus in a typical period, with mathematical equation being close to either 0 or 1. At the same time, the consensus must evolve over time in response to changes in the state. This implies that the population alternates between the two consensus, and that the transition periods are vanishingly short relative to the time spent in consensus.
+
+Let us briefly elaborate on the transition dynamics, assuming mathematical equation and mathematical equation for concreteness. We denote by mathematical equation the equilibrium probability of acquiring information when sampling mathematical equation. Theorem 2 implies that, as mathematical equation, fewer and fewer agents acquire information, hence mathematical equation. For λ small, interim beliefs are mathematical equation and mathematical equation. Since agents either acquire information or herd, it can be checked that mathematical equation evolves according to mathematical equation, with
+mathematical equation
+(7)
+where mathematical equation and mathematical equation.
+Fix mathematical equation. Assume that the state switches to mathematical equation at a time where the population has settled on a near-consensus mathematical equation. As long as mathematical equation, (7) implies that mathematical equation increases at a speed that hinges on β. As mathematical equation, the equilibrium value of β converges to zero, and mathematical equation is (with high probability) close to zero, so that the number of periods required until mathematical equation increases. Once mathematical equation, since mathematical equation is bounded away from the diagonal mathematical equation on the interval mathematical equation, it takes only a finite number of stages, independent of λ, until mathematical equation.
+
+The transition dynamics from one consensus to the other thus involves two different phases. In a first phase, which grows longer as mathematical equation, the old consensus persists despite the state change (inertia): most agents observe a unanimous sample and most likely herd, which slows down society's response. At some point, though, there is enough heterogeneity in the population, and sufficiently many agents draw more balanced samples—enhancing information acquisition—and the society quickly switches to the new consensus in bounded time: there is a domino effect whereby the popularity of the new action snowballs.
+
+Since, as mathematical equation, society is almost always in consensus, and information is acquired with vanishing probability, the equilibrium welfare is equal to the fraction of time spent in a correct consensus; in other words, it is directly linked to the duration of the phase of inertia.
+
+4.3 Equilibrium Welfare
+We now focus on equilibrium welfare, and examine how our incomplete learning result extends to larger samples. For simplicity, we assume here that signals are binary with precision mathematical equation.
+
+
+Theorem 3.If mathematical equation is high enough, and λ is small enough, there exists an equilibrium in which mathematical equation for all k: acquiring information is always a best response.
+
+
+Proof sketch:.We look for an equilibrium where mathematical equation for all mathematical equation and mathematical equation: agents always acquire information for sure unless they observe a unanimous sample, in which case they randomize between acquiring information and herding on the observed action.10 We first show that, whenever mathematical equation, there exists a mathematical equation such that mathematical equation. We next show that, provided mathematical equation is high enough, all other interim beliefs are contained in the interval mathematical equation, which completes the proof.
+
+Using (5) and (6) for such strategies and binary signals, mathematical equation obeys mathematical equation, with
+
+mathematical equation
+If mathematical equation, the analysis of the case mathematical equation (which holds verbatim) implies that society is eventually trapped in an irreversible consensus. This yields mathematical equation, which contradicts mathematical equation. If mathematical equation for an arbitrary m, mathematical equation as mathematical equation. Indeed, whenever the state switches to mathematical equation, mathematical equation jumps above mathematical equation and then increases at a rate of mathematical equation. It thus escapes some fixed neighborhood of 0 in mathematical equation stages and next approaches 1 in bounded time unless the state switches back to mathematical equation. For λ small, state changes occur on average every mathematical equation stages; at the steady state, mathematical equation and mathematical equation are then close to perfectly correlated. This contradicts mathematical equation. By a continuity argument, there exists mathematical equation such that mathematical equation.
+Such a mathematical equation is an equilibrium iff mathematical equation for each mathematical equation. Our methodological contribution consists in providing estimates of such mathematical equation as mathematical equation. Bayes rule writes mathematical equation, with mathematical equation, where mathematical equation and mathematical equation is the invariant cdf conditional on θ—mathematical equation for each x. The argument relies on approximating mathematical equation with mathematical equation, where mathematical equation is the tth iterate of mathematical equation and mathematical equation is a doubly infinite orbit of mathematical equation. This sum is similar to the time average of mathematical equation during a visit to state mathematical equation, hence this approximation is reminiscent of the law of large numbers.
+
+The proof uses the following observation on mathematical equation. As mathematical equation, the probability of a state switch in m periods is vanishingly small, hence the distribution mathematical equation around mathematical equation coincides with the push-forward measure (given mathematical equation) of mathematical equation around mathematical equation for any fixed m. Specifically, we show that
+
+mathematical equation
+for any mathematical equation. This yields mathematical equation for some z. In the limit mathematical equation, this leads to
+mathematical equation
+(8)
+where mathematical equation is the function mathematical equation in the specific case where mathematical equation. It is straightforward to show that the RHS in (8) is uniformly bounded, which guarantees that mathematical equation for all mathematical equation, provided mathematical equation is high enough. Q.E.D.
+Theorem 3 is reminiscent of the case mathematical equation because information is acquired following all sample realizations. The underlying reason is similar: if information was not acquired at unanimous samples, society would converge toward a consensus faster than away, making such consensus irreversible, hence uninformative. With mathematical equation, though, the chances of observing a dissenting action in one's sample are higher, which lowers the relative speed of convergence toward the correct consensus. If π is large, though, convergence is still too fast because signals are then more correlated with the true state, and hence, among each other.11 Actions are then less diverse, accelerating convergence.
+
+Equation (8) yields upper and lower bounds on mathematical equation (the latter comes from an upper bound on mathematical equation). These two bounds are quite close if mathematical equation, allowing for precise estimates of mathematical equation and mathematical equation. These equilibrium values are depicted in the right panel of Figure 4, as a function of π. Note that mathematical equation, which implies that beliefs are nonmonotonic in the sample composition.
+
+Details are in the caption following the image
+Figure 4
+Open in figure viewer
+PowerPoint
+Transition functions, densities, and beliefs for n = 3.
+
+Some intuition can be found in the left and central panels of Figure 4 (in the case mathematical equation). The left panel features the functions mathematical equation. Note that mathematical equation is close to 0, hence the population converges quickly toward a consensus on action 0 when mathematical equation. The dynamics away from 0 is not nearly as fast when mathematical equation. As a result, conditional on x being relatively low, society is more likely to be transitioning away from 0 than toward 0. Hence, the current state is more likely to be mathematical equation. This is further illustrated by the central panel, where we plot the logs of (simulated) steady state, equilibrium densities in the limit mathematical equation. We note that this belief reversal mathematical equation increases with π, in line with the intuition that convergence to the correct consensus gets relatively faster.
+
+4.4 The Planner's Problem
+One key question is whether our incomplete learning result is an equilibrium feature or an inescapable feature of the environment. It turns out that a social planner who could dictate any strategy would attain a steady-state welfare of 1 in the persistent limit, so the learning failure is an equilibrium phenomenon. Consider, for example, a (symmetric) strategy in which the probability of acquiring information is of order λ for mathematical equation, is 1 for mathematical equation and increases linearly with mathematical equation. Such a strategy ensures that the duration of the phase of inertia is of order mathematical equation and, therefore, negligible compared to mathematical equation. This ensures that the prevailing consensus is always correct in the limit mathematical equation. At the same time, the expected fraction of agents acquiring information vanishes as mathematical equation (see Lévy, Pęski, and Vieille (2022) for details).
+
+5 Discussion
+In this section, we review the case mathematical equation, as well as extensions of our model to asymmetric environments and to a continuum of actions. Other extensions are discussed in the Supplemental Appendix.
+
+5.1 The Case mathematical equation
+When mathematical equation, that is, signals are free and unbounded, the prevailing consensus is asymptotically correct in the limit mathematical equation, as Proposition 3 shows. This result is in line with the fixed-state literature (see, e.g., Smith and Sørensen (2000), Banerjee and Fudenberg (2004)), in contrast to the case mathematical equation.
+
+
+Proposition 3.Suppose mathematical equation and let mathematical equation be arbitrary. For mathematical equation, let any equilibrium steady state be given, with payoff mathematical equation. Then mathematical equation.
+
+
+Proof.As before, we list the actions sampled by a typical agent in some random order mathematical equation. Let mathematical equation be the interim belief formed on the basis of mathematical equation only. One strategy consists in replicating mathematical equation. Since mathematical equation matches yesterday's state with probability mathematical equation, this strategy yields a payoff mathematical equation. Another strategy consists in ignoring all sampled actions except for mathematical equation and using one's (free) signal optimally. This strategy yields a payoff mathematical equation, which is no larger than the equilibrium payoff mathematical equation. Thus,
+
+mathematical equation
+(9)
+Since mathematical equation, mathematical equation for all mathematical equation and mathematical equation for mathematical equation. Together with (9), and using the continuity of the functions u and v, this implies mathematical equation and mathematical equation. Q.E.D.
+
+5.2 Asymmetric Case
+The symmetry assumption made so far is quite convenient, but plays no specific role. Consider a general setup where (a) the probabilities that the state changes from mathematical equation to mathematical equation and from 1 to 0 are mathematical equation and mathematical equation, respectively, so that the invariant probability of state 1 is mathematical equation, (b) the utility is an arbitrary function mathematical equation, and (c) the (unconditional) distribution of private beliefs is an arbitrary distribution mathematical equation with expectation mathematical equation.
+
+There exist cutoffs mathematical equation such that mathematical equation iff mathematical equation. The results of the paper extend under the assumption that mathematical equation. This is a joint assumption on all primitives of the model. The assumption that mathematical equation states that signals are either bounded or costly (counterpart of Assumption 2). The assumption that mathematical equation ensures that any steady-state equilibrium entails some information acquisition (counterpart of Assumption 1). The detailed statements are in the Supplemental Appendix.
+
+5.3 Continuum of Actions
+While we have considered binary actions so far, we provide suggestive evidence that the discontinuity at the limit mathematical equation could arise as well with a richer (infinite) action set.
+
+For concreteness, assume mathematical equation and a square loss utility function mathematical equation. Note that, if mathematical equation, one has mathematical equation even with bounded signals because actions are responsive to any extra information; we thus assume mathematical equation to stick to the assumption mathematical equation.
+
+In the fixed-state version where a continuum of new agents sample at least two actions from the past, the distribution of actions converges over time to the correct action (see, e.g., Lee (1993)). With an evolving state, Proposition 4 below shows that the average dispersion of actions in the population vanishes as mathematical equation, thereby extending the consensus result of Theorem 2. The proof is in Appendix D.
+
+
+Proposition 4.Assume mathematical equation and denote by mathematical equation any two sampled actions. At any equilibrium steady state, one has
+
+mathematical equation
+where γ is independent of λ and of the equilibrium.
+A full-blown analysis of equilibrium behavior and welfare is highly challenging, and beyond the scope of the paper anyway. Without aiming at generality, we discuss here the example of perfect signals, which yields results consistent with our incomplete learning result. If the state is fixed, all agents acquire information in the first period and convergence to the truth takes exactly one period. When the state is evolving, the population in period t is described by the pair mathematical equation, where mathematical equation is the distribution of actions in the population. Accordingly, an equilibrium steady state is a distribution mathematical equation.
+We describe an equilibrium where all agents in period t choose the same action mathematical equation: actions are perfectly correlated, and inferences are independent of the sample size n.
+
+In period mathematical equation, agents then hold the interim belief mathematical equation. If mathematical equation, all agents choose the action mathematical equation. If instead mathematical equation, all agents acquire information, learn the state, and choose mathematical equation. Either way, the consensus is preserved in period mathematical equation. In this equilibrium, agents acquire information periodically: when agents learn that the current state is, say, mathematical equation, their actions are mathematical equation, mathematical equation, etc., until they acquire information in period mathematical equation, where mathematical equation. The marginal mathematical equation over action distributions is uniform over the degenerate distributions mathematical equation (mathematical equation, mathematical equation).
+
+As mathematical equation, mathematical equation weakly converges to a distribution concentrated over degenerate distributions mathematical equation, mathematical equation. In the persistent limit, actions are perfectly correlated within periods, and the consensus action a has a density: there is no complete learning.12
+
+6 Relation to the Literature
+Our paper especially connects to five themes in the literature on social learning.13
+
+Random sampling. Banerjee and Fudenberg (2004) and Smith and Sørensen (2020) also assume that agents draw a random (finite) sample from a continuum of past actions and identify conditions under which learning is asymptotically complete when the state is fixed. As these papers note, models with a continuum of agents inherently exhibit better aggregative properties than those with a sequence of agents. Indeed, when agents observe a common set of predecessors in one-agent models, some histories trigger an incorrect cascade if signals are bounded. With a continuum of agents, instead, agents update beliefs considering all possible (mutually exclusive) histories, weighted by their chances (Smith and Sørensen (2020)). In addition, as soon as agents observe two or more actions, they will rely more on their private signals when their sample conveys mixed evidence, which fosters learning. With a fixed state, this logic guarantees complete learning even when signals are bounded and/or costly (Banerjee and Fudenberg (2004)), and our results thus come in stark contrast.
+
+Costly information acquisition. Our modeling of costly information acquisition relates our work to Burguet and Vives (2000) and Ali (2018), who study within one-agent observational learning models whether costly private signals preclude (or not) complete learning when the state is fixed. Burguet and Vives (2000) endogenize the choice of precision, and argue that complete learning arises when information is acquired at beliefs close to certainty.14 Likewise, agents in Ali (2018) can choose from a set of experiments, at an idiosyncratic cost. When costs are bounded away from zero, learning is incomplete as soon as signals are bounded. Unlike these papers, we assume a continuum of agents. In this more favorable setup, learning is complete when the state is fixed if mathematical equation, even if signals are costly (see our extension of Banerjee and Fudenberg (2004) to costly signals in the Supplemental Appendix), in contrast to our main results. The example we analyze in Section 5.3 of a model with a continuum of (responsive) actions reinforces our message: costly signals do not preclude complete learning with a fixed state, but concur to incomplete learning with changing states.
+
+Changing states. Our paper also relates to a stream of papers on social learning in a changing world. Moscarini, Ottaviani, and Smith (1998) show that cascades must end in finite time, but arise for sure when the state is persistent enough. Based on their setup, Huang (2022) shows that in the long run the frequency of action changes is higher than that of state changes. In a different line of research, Ellison and Fudenberg (1995), Acemoglu, Nedic, and Ozdaglar (2008), and Frongillo, Schoenebeck, and Tamuz (2011) consider non-Bayesian models in which agents follow specific heuristics.
+
+Stationary analyses of social learning. Dasaratha, Golub, and Hak (2023) and Kabos and Meyer (2021) also develop stationary analyses of social learning. Dasaratha, Golub, and Hak consider a Gaussian environment where agents in a network learn from their neighbors. They show that learning is improved when agents have heterogeneous neighbors who have access to signals of different precision. While we rule out such heterogeneity, our analysis also highlights the adverse welfare impact of an excessive correlation of actions between (symmetric) agents. Kabos and Meyer consider a Markovian environment where past actions may be misrecorded, and investigate whether agents put too much or too little weight on their private information, while we focus on providing bounds on equilibrium welfare.
+
+Rate of learning and the Grossman–Stiglitz paradox. Our results echo the well-known Grossman–Stiglitz paradox (Grossman and Stiglitz (1980)) according to which agents would ignore their individual signals if information was fully aggregated, precluding information aggregation in the first place. In a fixed-state world where asymptotic learning is guaranteed, such a logic imposes that learning be necessarily slow, as shown in Vives (1993). In a social learning context, Harel, Mossel, Strack, and Tamuz (2021) also establish slow social learning even if agents observe several actions, because the correlation in the agents' actions arising from social learning reduces the amount of information these actions reveal about the state (see also Huang, Strack, and Tamuz (2024) on slow convergence). While a high correlation reduces the speed of learning with a fixed state, it lowers responsiveness, hence steady-state welfare, in our changing state environment.
+
+7 Conclusion
+We consider a general model of social learning with binary actions and states in which states change over time, information is possibly costly, and agents draw finite samples of past actions. We show that, under a wide range of situations, the possibility that the state changes drastically limits the extent of social learning at the steady state, in crisp contrast to what would happen in analogous fixed-state environments. Beyond this insight, the methods we develop could pave the way to address interesting questions on how a planner would optimally design the learning environment (sampling procedures, feedback given to players, etc.) to foster the welfare gains from social learning.

@@ -1,0 +1,450 @@
+Explaining Combat Stress аnd its Effects on Decision Making in the Theatre of Operation
+
+Abstract
+Combat stress and decision-making process in dynamic contexts are almost unexplored and still incompletely clear
+to the scientific community. On the other side, both are some key aspects of combat performance. Operational
+psychology is focused on using psychological knowledge in enhancing operational performance. First is necessary to
+understand their nature and relationship, in the direction of making strategies for training and dealing. Stress is
+productive when is optimal, while decision making process has its specifics in dynamic and risk contexts. Stress has
+an impact on decision making process, but their relationship is still unclear, as well as whether they can be seen as a
+related concept or separate phenomena. However, both are based on certain psychological processes, whose
+understanding and impact can lead to necessary changes in performance as a human behavior, and whose are base
+for mental readiness training programs. It is recommended to include these programs within the basic military
+training, to enhance military performance.
+Keywords: Combat stress; Operational performance; Decision-making; Military psychology.
+INTRODUCTION
+Operational psychology is a relatively new area of psychology that deals with the
+“operational” side of military and law enforcement, focused on the psychological
+information that is relevant for these specific populations, within their similarities.
+Psychology as a scientific area deals with human behavior, its explanation and
+prediction, while psychological applied branches’ main goal is to find ways of human
+behavior changing in accordance with the needs of the society, groups, and
+organizations in it. Military and law enforcement, especially with high demand, high
+reliability, and risk professions within them, are dealing with high-risk social goals and
+using expensive equipment, that needs expensive training and personnel readiness. All
+this confirms the need of investment and special care of personnel, that implies
+enhancing of their professional knowledge as well as their mental health and expiration 
+Aleksandra Dimitrovska
+Explaining Combat Stress аnd its Effects on Decision Making …
+6  , VOL. 12, ISSUE 2 – JUNE 2024, PP. 5-19
+date extension, which is unimaginable without implementing relevant psychological
+principles, practices, and research.
+According to that, the main idea of this text is making an overview of some current
+knowledge about two crucial aspects for understanding human behavior, towards
+enhancing combat performance. Given the distance between laboratory and field,
+research on this subject is rare and literature is limited. So, presenting some information
+about nature and relationships will open discussions about possibilities of
+neutralization some negative impact, to consider some steps toward maximizing the
+positive effects in combat.
+An attempt to explain combat situations is facing with the dynamic interpretation of the
+human behavior complexity in groups under unpredictable environment and stress.
+Stress has its impact on the psychological and physiological function that affects human
+behavior and the performance on the field, which has special implications in the case of
+leaders. One aspect of the field performance is decision making, as a psychological
+process that determines the whole behavior and has its impact on the situation in
+dynamic circumstances, as well as psychological processes and behavior of the other
+team members. It suggests the need for a multi-variable, complex and interactive model
+that can explain generation and coping with stress in combat, the way of its impact on
+the decision-making process, and the ways of its prevention and management.
+What is stress?
+There is no scientific consensus about the definition of stress, nor does there exist an
+official theory for reliable prediction of human reactions in the special conditions of
+environmental stress, especially in combat. In military psychology literature research is
+mostly focused on detecting modern military stressors or explaining relations of combat
+stress with other variables during different kinds of military training. When the
+definition of stress is discussed, mainly is presented Sally’ (1976) pioneer endocrinological
+approach of stress as external stimulus or psycho-biological response, vs. recently most
+accepted Lazarus’ transactional approach, by which stress has psychological nature and is
+viewed as a relationship (transaction) between individuals and their environment. He
+distinguishes the source of stress or stressors, as external event or internal request, from
+stress (harm, threat or challenge), as internal state or experience that comes from two
+mediating processes: cognitive appraisal of personal significance of the specific event
+(primary appraisal - interpretation of the situation) and coping strategies used by the
+individual to cope (secondary appraisal - interpretation of the coping possibilities).
+Coping, determined as personality’ efforts to manage demands, conflicts and pressures,
+that outperform person’ resources, has been studied extensively, but researchers
+haven’t reached a consensus about its nature yet. Opposed to coping as personality trait
+ 
+7
+which guides to enhancing that trait for adapting to stressful situation, is approach of
+coping as a response caused by a match between traits and specific stressful situation that guide
+to enhancing some traits (eg. performance-related) in specific situations (eg.
+performance-related stressful situation). Thereby, coping strategies can be generally
+(Lazarus & Folkman, 1984):
+1. Problem/ task-oriented - focused on task goal accomplishing and minimizing or
+modifying the stressors,
+2. Emotion-oriented - alleviation or elimination of the emotion’s consequence of a
+stressor, not on a stressor from the situation, that are effective for stressors that are
+uncontrolled and brief, but less for combat stressors, and
+3. Avoidant focused – diverting attention from the stressful situation.
+In the military case, occupational stress can be organizational, operational, and combat.
+While operational stress refers to operational environment and operational tempo, not
+directly associated with combat (hard training, rules, friends in danger), combat stress
+refers to the extent of stressors (physical, environmental, cognitive, and emotional)
+present in the combat environment. According to intensity, unpredictability, and risk,
+most like combat stress is acute stress in crises. On the other side, organizational stress
+is related with military organization, organizational structure, and life, which is mostly
+of chronic nature (and is not a focus of this work). Stress and stressors defer from the
+combat/ operational stress response/ injury, that refers to reactions (physical,
+behavioral, and social) experienced during or after a combat deployment and other
+stressors, that are descriptions of normal human reactions to extraordinary events, but
+which can finish with PTSD, as a kind of psychological diagnosis.
+Thereby, it is important to make difference between causes (stressors) that can be
+enduring or cumulative (ex. fatigue or boredom) or acute (ex. threat) and stress symptoms
+or outcomes of stress, that can be long-term (PTSD) and short-term, as well as between
+mental health and performance outcome. Thus, in the military, especially Special Forces
+and missions, the biggest accent is placed on prevention strategy, where education,
+training and social support have been proved as most effective approaches. Most
+important aim in it is improving stress tolerance, as capability to stay cool or not let
+emotional and physiological reaction to interfere with the cognitive processing, which is
+harder in acute crisis situation, characterized as with a sudden change in the situation
+with a loss of resources for the individual (Gaillard, 2003). 
+Aleksandra Dimitrovska
+Explaining Combat Stress аnd its Effects on Decision Making …
+8  , VOL. 12, ISSUE 2 – JUNE 2024, PP. 5-19
+It is important to emphasize that the “modern war” operations vary between highintensity combat, peacekeeping, and stability operations, to humanitarian or nationbuilding projects. So, they include a wide range of stressors, related to extreme stress
+exposure in combat up to capabilities of successful coping with shifting challenges of
+war and peace building. All this suggests the need for different training approaches. In
+extensive study, Barton distinguishes six primary stress dimensions: isolation,
+ambiguity, powerlessness, boredom, danger, and workload (Bartone, 2006). Given that
+all members are vulnerable to insurgent attack, and it is considered the most extreme
+war theatre, the text is focused on explaining combat stress and factors related with its
+existence.
+Models of combat stress
+To emphasize an appropriate model, it was shown that there are studies that outlined
+variables related to combat stress, but a coherent scheme of their relations lacks its face
+validity. It is almost impossible to conduct research and confirm some theories and
+hypothesis out of the real combat situation, so hence existing models are based on war
+experience of some combat leaders. Gal and Jones’ model (1995) includes number of
+antecedent variables that are acting through mediating variables (even without clear-cut
+distinction between them) in affecting individual appraisal of the combat situation, and
+result in modes of response and coping with the real combat situation. Antecedent
+variables are in the background of the combat situation and can be:
+1. Individual factors: personality dispositions as long-standing factors (limited evidence,
+but tendency is toward considering traits for selection for combat roles, leadership roles
+and special operation), individual’s well-being refers to the relationship with the
+environment (positively related with ability to face with stress), previous combat
+experience (enhancing, against fear, or inhibiting effect, if it was traumatic), role in combat
+(formal - leadership role is less stressful, or assumed – expectations, mastery and
+concentration to tasks distract attention from danger; both have crucial role in
+appraisal).
+2. Unit factors that determinate unit climate: unit cohesion and morale (law level of moral
+and weak bonds with comrades and leader positive relate with loneliness and low selfesteem, that concern military performance and intense perceived stress in combat),
+confidence in commanders (essential and critical role in coping with stress in combat,
+especially believe in professional competence, than believe in credibility and perception
+of care; confidence is linear with the command level before battle, but it trend is
+reversed after combat), confidence as a soldier (confidence in skills and weapon increase
+battle skills, that improves with training, especially simulations), ideology, values and 
+ 
+9
+commitment (believes of homeland defending give additional strength, but the solidarity
+with soldiers next, is main maintainer of survival in the battlefield), and
+3. Battlefield factors: type of battle (stress is higher in static than in mobile situation,
+higher in defensive than offensive operations, no clear data for day or nighttime), length
+of exposure (correlate with cumulative stress, so consequences are combat exhaustion
+and fatigue, and there is a limit to breakdown) and intensity of combat (correlate with
+acute stress with consequence of battle shock), battle anticipation (may be more stressful
+than acute battle, named as “pre-combat syndrome”, the relationship is inverted U with
+positive feeling of combat, as a result of two conflict tendencies – relaxation and
+excitation – fused in “incubation of threat”), uncertainty (temporal – when the time is
+unknown, and event – when the nature of event is unknown, both are positively related
+with stress) and surprise (mostly surprise aversive event, that maximize panic and
+breakdown), and environmental conditions (new and unfamiliar environment without
+acclimatization, especially adverse environment, is positively related with combat
+breakdown).
+Mediating variables have cognitive (interpretations of the antecedents, logical
+evaluations of the situation and building expectations of behavior and situational
+consequences) and dynamic quality. It is mostly controlled by the commanders, which acts
+as a lens - focusing the antecedent variables into a unified interpretation of situation (as
+optimal and create successful expectations).
+Appraisal process is the bridge between the external conditions and soldier’s response.
+Involves mental activities such as judgment, discrimination, and choice of activities, and
+can be explained as soldier’s perception and evaluation of the situation and his
+capabilities to cope with them. Those processes differ depending on individuals and
+situations and determine the individual’ course of action in different combat stressful
+situations.
+Modes of responses can be physical (autonomic, musculoskeletal, and glandular
+changes), emotional (affective reactions), cognitive (perception distortion, hyper alertness,
+increased automatic and over learned responses) and social. They are universal, mostly
+involuntary, automatic, and immediate, and just to some extent can be conditioned by
+training. In this case, training needs to introduce soldiers for these reactions and
+provide acceptance of them as normal body preparedness for the combat.
+Modes of coping are integration of the individual appraisal and variety of response,
+and can have various levels of active (preparing for combat and activities during
+combat, that mostly have positive consequences and lead to optimistic reappraisal) and 
+Aleksandra Dimitrovska
+Explaining Combat Stress аnd its Effects on Decision Making …
+10  , VOL. 12, ISSUE 2 – JUNE 2024, PP. 5-19
+passive modes (inactivity, apathy or lack of initiation, which consequences of ineffective
+performance to beginning of psychological collapse) to complete breakdown (combat
+fatigue, battle shock, war neuroses that is manifested in removal from the battle,
+immobility or unpredictable behavior). Modes of coping are voluntary, flexible and its
+time of expression can be personally controlled, so those are psychological aspects that
+are central target in the training. They can be influenced by training and strongly
+determined by the combat situation, but in the same time give input in their reappraisal
+(Jones et al., 1995).
+Pavlina et al. (2000) developed another model that is based on the previous one, which
+includes six aspects:
+1. Battlefield-related factors – intensity and duration of combat operation, material and
+manpower of attacking and defending forces, and taking care of warfare international
+norms and conventions.
+2. Stress prevention factors – individual (selection and classification and combat readiness
+of the military personnel by the psychological preparing techniques and combat
+training), unit (group cohesion and interpersonal relations) and social (family and
+broader community detachment).
+3. Leadership factors – proper selection and training of leaders (unit, field and senior
+level);
+4. Experience and appraisal of combat situation – combat stressors can be: psychological
+(cognitive and emotional), physical and physiological.
+5. Combat stress reactions – psychological (cognitive, emotional, and motivational),
+physical and behavioral, and
+6. Combat stress effects – different stages: psychological shock, immediate, acute, and
+chronic.
+Decision-making: aspects related to high-stress situations
+The definition that is focused on psychological aspects and uncertain and complex
+environments, defines the decision making as psychological process of choosing
+between various alternatives with the intent of reaching maximal number of goals,
+while avoiding damage and unnecessary risks and by using a minimal amount of
+resources. In a stressful situation typical for the military reality, important role in the
+decision making play many factors, as: the level of decision making, relevant
+personality traits, dynamic life-threatening environment, uncertainty, time criticality
+etc. (Heichal, 1992).
+ 
+11
+Difference in the hierarchical level of decision makers include difference in cognitive
+processes that are involved, difference in available time that have consequences on the
+decision making process nature and the way how it’s organized (number of people
+involved, primary aim – reaction of the changing environment or planning the future,
+whether the rules exist or have to be made), as well as difference in the stress effects for
+various situations. The process on the tactical level is action oriented, characterized as a
+reaction task, where basic problem is appropriate recognition of situation’ nature and
+choosing a correct procedure, more automatically oriented (reflexive), that need splitsecond decisions, which capabilities are the base of the military training (Ranyard et al.,
+1977).
+At the highest level this process is cognitive and systematic, oriented to decision
+making steps prescription, in which systematic process has seven steps: defining the goal,
+examination of all possible alternatives, their cost and benefits review, systematic search
+of new information for their evaluation, evaluation of the new information even they
+contradicts to chosen alternative, repeated examination of alternatives outcomes,
+making decision with finished preparations to enable its implementation (Gal, 1991).
+At any moment in decision making process during emergency, several factors have
+significant impact on the ability to solving complex problem in a limited time:
+psychomotor skills, knowledge and attitudes, information quality and completeness,
+stress generated by the actual problem or any other existing background problem, or
+the complexity of elements that must be attended to.
+Defining risk as a combination of probability of an unfavorable outcome of the mission
+success or performance, the decision maker with risk-averse, risk-neutral, or risk-prone
+attitude will make different decision in the same problem. Thus, making decisions in
+stressful environment whether decisions are immediate or delayed, usually suffer from
+uncertainty and imperfect information of the present. Uncertainty because of lack of
+information in the scope of decision and the probability of the appearance various
+results reached by making a specific decision. So, immediate decisions need more
+flexibility in designing strategy and making decisions given that they are based on
+imperfect knowledge, but uncertainty resolution at an early stage and no existing
+difference in time of resolution and time of consequences gives possibility of decision
+application in the best possible way with minimized worry time, that can be taken as
+advantages (Keeney & Raiffa, 1976).
+Thus, in dealing with uncertainty in a continually changing environment the decision
+maker must achieve a trade-off between the cost of action vs. the risk of non-action and
+Aleksandra Dimitrovska
+Explaining Combat Stress аnd its Effects on Decision Making …
+12  , VOL. 12, ISSUE 2 – JUNE 2024, PP. 5-19
+make decisions based on available information that are many times incomplete. The
+effective outcomes that achieve both kinds of judgment – analytical vs. intuitive in the
+situation of emergency, given that they follow different cognitive path (Hammond,
+2000).
+What differ decision making during intense stress from the systematic one also is time
+criticality that both with stress are subjective states, in which person feels that situation
+is complex, information is incomplete, time is short, real threat exist and failure
+consequences are extreme. In this case, less time is spent on alternatives identification,
+negative information has bigger influence while important can be neglected, automatic
+decision-making tendency is increased, and the number of mistakes can increase even
+in simple situations. So, the latter performance quality inversely is related with the
+quantity of decision-making stress influence, and the ability to deal depends on
+decision maker subjective perception, its appraisal of the situation severity,
+methodological decision-making process implementation ability, personal attitude, and
+previous similar experience (Cohen, 2004). In short, the focus is on perception and
+coping, which abilities upgrade are the base of the mental readiness trainings for
+intense stress situations in the military.
+Theoretical construct that is often used to explain the performance changes due to stress
+arousal theory. There is an inverted U-shaped relationship between arousal and task
+performance, so performance decreases when arousal is either too low or too high and
+is optimal at intermediate level. The stress level should be high enough to stimulate top
+performance, but not enough to over-stress the body, considering that performance
+declines as the body moves toward exhaustion (Yerkes & Dodson, 1908).
+The relationship of stress to judgment and decision making remains relatively
+unexplored aspect of human behavior, so literature is limited and not always
+conclusive. There are only few reliable empirical studies about stress effects on decision
+making process, mostly because of the difficulties caused by the ethical limitation in
+their realization, as well as enormous number of variables that have impact at the same
+time and which relationships are also important. So, the results of this research are still
+uncertain. Some empirical results show that combat stress reduces operational
+effectiveness by different impairments on the perceptual and cognitive abilities,
+influenced by the negative emotions that have negative impact on decision making,
+exposed as: attention lapses, narrowing of perceptual focus, short-term memory
+impairment, biased information processing etc. that will be shortly explained.
+Threatening stimuli are detected more efficiently than neutral and positive one, so with
+their appearance in the environment, attention is immediately focused (locked) on them
+influenced by the negative emotions (as fear), while thereby quickening response time 
+ 
+13
+and neglecting other stimuli or failing other tasks. Well-known natural phenomena,
+called attention tunneling or tunnel vision, occurs because of the adrenalin releasing as a
+survival mechanism in danger, to prepare the body for handling a threat, which is
+detrimental when other important information is ignored (Godnig, 2003).
+Lower working memory capacity, specifically in case of the higher emotionality, is
+related to more shooting mistakes, in case of making decision whether to shoot or not in
+a dangerous environment (Kleider et al., 2010). It was shown that higher level of threat
+correlated with less cognitive ability and higher feeling of resignation and helpless,
+greatest negative impact on cognition have strong feelings of anger and fear, different
+coping mechanism have influence on the performance in threatening situations as key
+mediators, low need of rationalize action associates with better cognitive functions in
+threat incidents (Wallenius et al., 2004). In the presence of threat, humans are
+biologically predisposed to subconscious reactions rather than conscious thought
+processing, to eliminate or reduce the imposing threat. While conscious perception
+forms a representation of an environment, subconscious perception directs the actions
+towards the environment and includes stimuli that do not reach conscious awareness.
+But if attention that helps person to sort information needed to perform some tasks,
+occurred solely on subconscious level, behavior would be difficult to take control. It
+would not be an intentional and controlled process, but a reactive subconscious process
+where action will be based on every aspect of environment (Gazzaniga, 2004). So,
+enhancing perceptual accuracy was shown that increases with actual combat
+experience, for which traditional military training was found that pays not enough
+attention (Thomas et al., 2004).
+Mental readiness training: Effectiveness and importance for the
+military operations
+To prevent operational effectiveness by reducing errors in field judgments and
+performance caused by combat stress, beside the selection phase, mental readiness
+training programs are developed for performance, injuries, and well-being military
+personnel protection. Mental readiness approach includes connection of stress
+management principles directly into meaningful training situation – giving directions
+how simulations as a cost-effective model need to be used, which means making
+combination of psychological coping principles with dynamic military stressful
+environments. While traditional military training is aimed at skill acquisition and
+retention by well known drills technique, stress training is aimed to improve stress
+tolerance, or the ability to maintain effective performance in dynamic high-stress 
+Aleksandra Dimitrovska
+Explaining Combat Stress аnd its Effects on Decision Making …
+14  , VOL. 12, ISSUE 2 – JUNE 2024, PP. 5-19
+environment. In short, drills are responses that soldiers are taught to show in certain
+situations. They are trained intensively and frequently and become automated
+responses, so less suffer from combat stress than those that need cognitive control. But
+drills as dominant or well-learned responses will only be adaptive if the situation that
+triggers this response is like the situation in which the response is learned. This misses
+to teach individuals in adaptive coping mechanisms or cognitive flexibility under
+unpredictable adverse circumstances that are different from those in training (Delahaij
+et al., 2006).
+Thus, in order of effective application, stress training should be an integral part of
+military training and consider the military culture, which need a mix of psychological,
+operational and technical experienced trainers, as well as very hard psycho-physical
+readiness of candidates. This opens some discussions about mental readiness trainers’
+competences and their relationship with the military commanders. The gap and tension
+that long existed between the two kinds of professionals lie in the fundamental
+difference in the way which stress is perceived, as well as in the adverse stress reactions
+treatment – are they medical problem and should be avoided, or it is a weapon used for
+reducing will and effectiveness of the opponents.
+Opposed to inappropriate approach of psychological professionals, is the fact that
+military leaders are not able to manage combat/ operational stress control (prevention,
+early identification, and optimal management of adverse effects) by themselves (Nash,
+2006). On the other side, in order lessons to be absorbed and not failed, mental
+readiness trainers need to have operational credibility with military personnel,
+implicitly and explicitly to endorse these fundamental principles, as well as to be placed
+in the regiment, in case to be implemented and supported by the military unit and life.
+Thus, considering that mental readiness training is one of the important phases against
+PTSD and maximal operational effectiveness, must not be abandoned the importance of
+the military leadership as its mediating factor, as well the need of close coordination
+among the two kinds of professionals, during both the training and operations
+(Thompson & McCreary, 2006).
+The set of psychological techniques, generally called Stress Management Training
+(SMT) are used for preparing soldiers for potentially highly stressful situation in a longterm perspective, and involve relaxation, cognitive restructuring, problem solving,
+social skills training, planning behavioral changes and exposure to stressful situation,
+etc. SMT diminishes negative reactions to stress by upgrading personality’ capabilities
+for more successful coping, that results in lowering the incidence of PTSD. According to
+Murphy and Sauter (2003) SMT can have better application by dividing the
+interventions in three phases: 
+ 
+15
+1. Primary, focused on changing the source of stress (or stressors) by changing
+environment or etc., as a stress prevention.
+2. Secondary, reducing the symptoms associated with stress before their crystallizing
+into disorders, and
+3. Tertiary interventions that includes treating psycho-physical disorders.
+Most common are the second one, that are most related with current problems coping.
+Despite SMT that is no coherent set, there are some consistent intervention programs
+with strategies that are carefully selected among those who include SMT and will be
+shortly explained (Ovuga, 2012).
+Stress inoculation training (SIT) is set of cognitive-behavior techniques, such as
+imagery and behavioral rehearsal, role play, modeling, and progressive exposure to
+stressful situations, unfold in three phases:
+1. Conceptualization
+2. Skills acquisition and rehearsal, and
+3. Application and follow through.
+The aim is to help for more successful coping with the consequences of being exposed
+to stressful event, by immunization through progressive exposure, as prevention. It is
+an intensive multi-stage process of replacing ineffective thoughts, in order to change or
+reduce maladaptive behavior in combat situations.
+Stress exposure training (SET) is spreading the SIT out of its traditional clinical
+application explicitly focusing on enhancing the effectiveness of operational
+performance in military personnel by reducing negative responses. SET as SIT same
+involve three phases:
+1. Educational – discussion about typical stress reactions and identification of individual
+reactions that are target of SET, by understanding and assimilating these new
+experiences and upgrading their motivational level to complete the training.
+2. Specific stress coping skills development, by development the stress reactions awareness
+ability, as well as building cognitive, emotional and behavioral specific stressful
+environment control strategies, by the trainer’s feedback.
+3. Practice of new strategies in increasing stress simulation situations.
+The second phase involves nine strategies, as: cognitive control techniques,
+psychological control techniques, intentional overlearning of cognitive and motor skills, 
+Aleksandra Dimitrovska
+Explaining Combat Stress аnd its Effects on Decision Making …
+ 
+mental practices, concurrent task development, guided error training, decision-making
+training, enhancing adaptability and team training (Cannon-Bowers & Salas, 1998).
+The third phase is simulation-based, that mostly correlated with real-world
+environment. It has been shown that are most important and used for increasing
+accuracy in high dynamic, complex and risk professions, especially for military
+operations. Future research is directed to examination of mediation variables and SET
+transfer principles from training to operational environment (Ross et al., 2004).
+Anxiety management training, developed by Richard Suinn, is as well cognitivebehavior based, but is focused on learning relaxation and its generalization on daily
+stressors. Two spots are recognized:
+1. Emotional, cognitive and physical signs related to anxiety detection, and
+2. Reaction to these signs on way to make them disappear.
+Specific is that it is not required to find the causes of anxiety, but the focus is on its
+recognition and neutralization. While, firstly was created for anxiety disorder
+treatment, and later had been used wider, as well as in enhancing performance by
+general stress reduction (Suinn & Richardson, 1971).
+Other important aspect for stress management or improving decision making process in
+high reliability professions, is efficiently coping with complex and unforeseen
+situations. This topic is included in traditional training programs (focused on
+enhancing cognitive control over negative stress reactions and to the question “How to
+process and control”), and in some new approaches (focused on development of openness
+and acceptance attitudes that helps for efficiently structure of those kind of situations,
+answering the question “What to process and control”). Type of traditional training based
+on Critical Thinking Instruction provides formalized questioning scheme for looking
+relevant cognitive processes and representation that are used to control the though
+process for managing a situation, as well as other psychological techniques, as
+relaxation, biofeedback, or metacognitive techniques as cognitive restructuring and etc.
+New approaches involve Thinking dispositions concept, that build executive processes
+that allow effective processing of information identified as relevant, and then reflective
+processes that allows relevant situation structuring, assign its meaning and build
+relevant framework; and Mindfulness concept, that put accent on directing whole
+attention on present experience with accepting the state of mind or avoiding as much as
+possible reacting on it or judging its context, that encourage keeping in touch with
+deviant elements, making relevant analysis framework and identifying appropriate
+automatic reactions (Fornette et al., 2015).
+ 
+17
+CONCLUSION
+Combat stress and decision making are significant aspects in the theatre of operations.
+Both are based on complex psychological processes, which understanding can help in
+enhancing military performance as well as are crucial in personnel mental health
+protection. Current knowledge has no complete explanation of their complex nature
+and interrelationship, given that research possibilities are limited. Mental readiness
+training is mostly based on upgrading coping capabilities, enhancing perceptual
+accuracy and cognitive restructuring for effective information processing, to minimize
+negative stress effects by advancing their control. Future perspective should be directed
+on implementing mental readiness training in the basic military training program as
+well as on some research about maximization of the training transfer and mediating
+variables discovery. This implies appropriate educated and trained mental readiness
+professionals, as well as their close coordination with the military professionals and
+leaders, which is conditioned by long existed gap removal. 

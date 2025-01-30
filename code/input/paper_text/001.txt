@@ -1,0 +1,1580 @@
+Endogenous Liquidity and Capital Reallocation
+
+Abstract
+This paper studies economies where firms acquire capital in primary markets and then, after idiosyncratic productivity shocks, retrade it in secondary markets that incorporate bilateral trade with search, bargaining, and liquidity frictions. We distinguish between full or partial sales (one firm gets all or some of the other’s capital) and document several long- and short-run empirical patterns between these variables and the cost of liquidity, as measured by inflation. Quantitatively, the model can match these patterns plus the standard business cycle facts. We also investigate the impact of search frictions, monetary and fiscal policy, persistence in shocks, and returns to scale.
+
+I.  Introduction
+This paper studies economies where firms first acquire capital in centralized primary markets, as in standard growth theory, and then, after idiosyncratic productivity shocks, retrade it in decentralized secondary markets. In the interest of realism and generality, the secondary markets can involve bilateral trade with search, matching, bargaining, and liquidity frictions, although in special cases each of these can be shut down. A novel feature is that we distinguish between full sales, where the buyer gets all the seller’s capital, and partial sales, where the buyer gets only some of it. Under constant returns to scale (CRS), it is efficient for firms with higher productivity to get all the capital in bilateral trade, but that may not happen in equilibrium, depending on the frictions.
+
+We first document some facts. Over the business cycle, the ratio of full sales to total capital expenditure—defined as new investment plus reallocation—is procyclical, while the ratio of partial sales to total capital expenditure is countercyclical. In the longer run, the ratio of full sales to total capital expenditure has increased and the ratio of partial sales to total capital expenditure has decreased. Given that 42% of full sales are facilitated by cash or cash-equivalent payments (Thomson Reuters M&A Database, 1971–2018), we examine the relationship between reallocation and the cost of liquidity, measured by inflation, as discussed below. In the longer run, full sales decrease while partial sales increase with inflation, while at cyclic frequencies, the pattern is reversed.
+
+Our theory is that high inflation raises the cost and lowers the amount of liquidity, decreasing total reallocation and full sales while increasing partial sales, consistent with the long-run evidence. Then, to get full sales increasing and partial sales decreasing with inflation at business cycle frequencies, we incorporate credit shocks. Easier credit increases total reallocation and full sales, decreases partial sales, and reduces money demand, leading to a short-term jump in inflation. With credit shocks at business cycle frequencies, total reallocation is procyclical and moves with inflation, while partial sales are countercyclical. The idea is not that credit shocks are necessarily more transitory but that they affect the price level, implying a change in short run but not trend inflation.
+
+While a main goal is to show that the calibrated model is consistent with the facts in the tradition of the real business cycle (RBC) literature, it can also be used to study monetary and fiscal policy. We solve for the optimal capital tax/subsidy and nominal interest/inflation rate, which depend on details like bargaining power not usually considered in related studies. In particular, inflation may have a nonmonotone impact on investment, output, and other macro variables, and different from many models, the Friedman rule may not be optimal. We also study how search frictions and persistence in shocks matter for this.
+
+To motivate an interest in capital reallocation, in general, economic performance requires not only getting the right amount of investment over time but also getting capital into the hands of those best able to use it at any point in time. With idiosyncratic shocks, capital should flow from lower- to higher-productivity firms (Andrade, Michell, and Stafford 2001; Maksimovic and Phillips 2001; Schoar 2002). The ease with which capital can be retraded on secondary markets affects investment in primary markets, and vice versa, as is true for many assets (Harrison and Kreps 1978; Lagos and Zhang 2020). However, the channel is subtle: a well-functioning secondary market encourages primary investment since if firms have more capital than they need, it is relatively easy to sell in that market, but it also discourages primary investment since if firms want more capital than they have, it is relatively easy to buy in that market. We analyze how the net effect depends on various factors, including bargaining power and monetary considerations.
+
+Also, reallocation is sizable, with purchases of used capital reported to be between 25% and 33% of total investment (Eisfeldt and Rampini 2006; Cao and Shi 2016; Dong, Wang, and Wen 2016; Eisfeldt and Shi 2018; Cui 2022), which is probably an underestimate since the data ignore small firms and those that are not publicly traded, neglect mergers, and include purchases but not rentals. Studies also document several stylized facts: reallocation is procyclical, while capital mismatch is countercyclical (Eisfeldt and Rampini 2006; Cao and Shi 2016); productivity dispersion is countercyclical (Kehrig 2015); the price of used capital is procyclical (Lanteri 2018); and the ratio of spending on used capital to total investment is procyclical (Cui 2022). Our goal is to match all of these facts.
+
+As for frictional reallocation, many argue that secondary capital markets are far from the perfectly competitive ideal (Gavazza 2010, 2011a, 2011b; Kurmann 2014; Li and Whited 2015; Ottonello 2015; Horner 2018; Kurmann and Rabinovich 2018; Bierdel et al. 2021). Imperfections include financial constraints, difficulties in finding counterparties, holdup problems, and asymmetric information. Our secondary market has bilateral trade and bargaining, as in search theory.1 It also has assets facilitating payments, as in monetary economics. While explicit modeling of this is missing from most work on capital reallocation, some studies (e.g., Buera, Kaboski, and Shin 2011; Moll 2014) argue that liquidity frictions are important, even if self-financing mitigates the problem, which is just what we model.
+
+To say more about our approach to liquidity, we use the label “money” but do not mean currency per se: it can include any asset that is widely accepted as a payment instrument or can be converted into something that is widely accepted with little cost or delay. In reality, there is a spectrum of assets with varying degrees of acceptability and return, implying a trade-off between these attributes, and research on the foundations of monetary theory analyzes this explicitly. Kiyotaki and Wright (1989), for example, formalize the trade-off but in a way that is far too stylized for this paper, which is a study in macroeconomics.
+
+The essence of macro is aggregation: standard models have just two uses of output, consumption or investment, and two uses of time, labor or leisure (with exceptions, like home production models with three uses for output and three uses for time; see, e.g., Greenwood, Rogerson, and Wright 1995). Similarly, our benchmark model has just two assets: money and capital. In reality, while cash may be the most liquid asset, there are substitutes. Hence, we incorporate banking, following Berentsen, Camera, and Waller (2007), and define money as currency plus checkable deposits in the quantitative work. In principle, other assets also provide liquidity, but as inflation lowers the return on the most liquid asset, cash, in equilibrium that can affect the return on other liquid assets and aggregate liquidity.
+
+As Wallace (1980, 64) says: “[inflation] is not a tax on all saving. It is a tax on saving in the form of money. But it is important to emphasize that the equilibrium rate-of-return distribution on the equilibrium portfolio does depend on [inflation]… the higher the [inflation rate], the less favorable the terms of trade—in general, a distribution—at which present income can be converted into future income. … Many economists seem to ignore this aspect of inflation because of their unfounded attachment to Irving Fisher’s theory of nominal interest rates… [and that] accounts for why economists seem to have a hard time describing the distortions created by anticipated inflation.”
+
+Evidence for this point is presented in figure 1 (app. A provides data details). It shows that various real rates of return—including those on transactions deposits, public and private bonds of different maturity and quality, and housing loans—are strongly negatively correlated with inflation. The message is clear: putting your money into a checking account, bonds, and so on does not completely avoid the inflation tax. Ignoring this message would be like saying, “I don’t care how they tax taxis—as far as I’m concerned, they can drive them out of existence, because I use Uber.” To the extent that taxis and Uber are substitutes for transportation, a tax on taxis gets passed through to Uber fares. To the extent that checking accounts, bonds, and so on are substitutes for cash in transactions, a tax on currency gets passed through to the cost of holding other liquid assets. Hence, inflation can capture the cost of liquidity, even in economies with multiple means of payment.
+
+Fig. 1. 
+Fig. 1.  Inflation and real returns on different assets.
+View Large Image Download PowerPoint
+An explicit model with multiple means of payment is presented in section VI, where liquid real assets serve as a substitute for currency. There it is shown that higher inflation lowers the liquidity embodied in cash, making agents want to substitute into real assets (a kind of Mundell-Tobin effect). This increases the price and liquidity of real assets, but on net total liquidity falls. While that works well in theory, general models with multiple assets having different liquidity and return are harder to take to data, so the benchmark model in sections III–V has just two assets, money and capital.
+
+The rest of the paper is organized as follows. Section II presents evidence. Sections III and IV develop the theory and show that it is tractable enough to deliver strong results on existence, uniqueness, comparative statics, and efficiency. Section V provides the main quantitative results. Section VI discusses extensions. Section VII concludes.2
+
+II.  Evidence
+A.  Macro Data
+Here we use US data from 1971 to 2018. Appendix A has more detail, but capital reallocation is from Compustat, which has information on full and partial sales—measured by acquisitions and sales of property, plant, and equipment—plus total capital expenditures. Firm data are summed to get aggregate series. Reallocation is defined as full plus partial sales. We focus on the reallocation-to-expenditure ratio (R share) and the partial-sales-to-reallocation ratio (P share), capturing the importance of reallocation in investment and the importance of partial sales in reallocation. In the early part of the sample, the R share varies a lot, but it stabilizes after 1984, fluctuating around 32%. Similarly, the P share stabilizes after 1984, fluctuating around 24%.3
+
+As discussed above, we entertain the possibility that liquidity plays a role and use inflation to measure its cost, although we also tried nominal Treasury bill (T-bill) and AAA corporate bond rates, and the results are similar. Figure 2 shows the R and P shares versus inflation—with different panels using the raw data, trend component, and cyclical component—after band-pass filtering, following Christiano and Fitzgerald (2003).
+
+Fig. 2. 
+Fig. 2.  Inflation and reallocation. R2 = 0.28, 0.52, 0.13 (first row); 0.25, 0.54, 0.07 (second row). p-values for slopes = 1.1×10−4
+, 7.2×10−9
+, 0.01 (first row); 2.9×10−4
+, 3.3×10−9
+, 0.06 (second row).
+View Large Image Download PowerPoint
+In the longer run, when inflation is high, firms spend less on used capital relative to total investment, while within reallocation, there are more partial sales. Given that full sales are about two times partial sales, when inflation rises, the fall in reallocation is mainly driven by full sales. Of course, other secular changes may affect reallocation, and the fall in inflation since 1980s may or may not have resulted from monetary policy; in any case, lower inflation is associated with more full sales and fewer partial sales in the longer run, while at business cycle frequencies, the relationships are reversed. A plausible explanation involves credit conditions at business cycle frequencies: easier credit leads to more full sales and fewer partial sales, plus it reduces money demand, which raises the price level and shows up as inflation in the short run.
+
+We pursue this using aggregate firm debt as a proxy for credit conditions. Figure 3 shows the cyclical components of debt, investment, the R and P shares, and output. Debt and the R share are procyclical, and the P share is countercyclical. So when credit conditions ease, debt goes up, part of which funds reallocation, explaining why full sales rise, partial sales fall, and total reallocation rises. Notice that reallocation must be more volatile than investment to get a procyclical R share. Table 1 shows that investment and reallocation positively comove and inflation is mildly procyclical. All of this is consistent with the intuitive discussion in the introduction.4
+
+Fig. 3. 
+Fig. 3.  Debt, investment, and reallocation over business cycle. Each series is normalized by its own standard deviation. Shaded areas denote National Bureau of Economic Research recession dates.
+View Large Image Download PowerPoint
+Table 1.  Business Cycle Statistics
+Correlation	Debt	R Share	P Share	Investment	Inflation	Output
+Debt	1	.53	−.44	.62	.42	.64
+R share	…	1	−.77	.62	.36	.62
+P share	…	…	1	−.50	−.27	−.52
+Investment	…	…	…	1	.43	.96
+Inflation	…	…	…	…	1	.33
+Output	…	…	…	…	…	1
+Relative standard deviation	1.41	6.44	9.66	2.58	.89	1
+Note.  Output is private output defined as the sum of consumption and investment. Its standard deviation is 1.73%.
+
+View Table Image
+B.  Micro Data
+Disaggregated Compustat data can be used to present two pieces of micro evidence. First, we show that money holdings have a positive effect on full purchases and reallocation and a negative effect on partial purchases. (In terms of labels, we usually use full and partial sales, but when the focus is on the firm getting capital, it seems better to use full and partial purchases.) Second, we examine how inflation impacts firms’ money holdings.
+
+To begin, we regress full purchases on firms’ liquidity at the end of the last period, measured by holdings of cash plus cash equivalent, including assets readily convertible into cash, like certificates of deposit, banker’s acceptances, T-bills, and commercial paper. We examine both extensive and intensive margins of full purchases. In the first approach, the left-hand side is a binary variable that equals 1 if a firm engages in a full purchase this year and zero otherwise, capturing the extensive margin. We use a linear probability model (a logistic model gives similar results). The second approach is to examine full purchase expenditure. For this, we take logs and focus on firms engaging in a full purchase in a given year, capturing the intensive margin. For our purposes, it does not matter whether money holdings cause full purchases or anticipations of full purchases cause money holdings—both say that cash facilitates reallocation.
+
+We control for factors that may affect purchases and money holdings, like earnings before interest and taxes (EBIT); total assets; leverage ratio, measured by short-term liabilities over shareholder equity (SEQ); and relative size of a firm, measured by its assets divided by the industry average. Independent variables are lagged one period to reduce simultaneity problems. We include year or year × industry fixed effects, defined by the first two digits of the Standard Industrial Classification codes. Total assets are normalized by the nominal price level. Variables other than the leverage ratio and relative size are in logs and normalized by total firm assets, but results are similar if normalized by the nominal price level.
+
+In table 2, columns 1–3 give results on the probability of a full purchase. Column 1 includes only firm fixed effects, column 2 includes firm and year fixed effects, and column 3 includes firm and year × industry fixed effects. In all cases, money holdings have a significant positive effect, with a 1% increase in cash raising the probability of a full purchase by 0.00018 in levels. As the average probability of a full sale is around 0.21, this means a 1% increase in cash increases the full sale probability by about 0.1%. EBIT has significant positive effects on full purchases. Total assets have a positive effect, while leverage ratios have a negative effect.
+
+Table 2.  Full Sales and Money Holdings
+Probability	Spending
+(1)	(2)	(3)	(4)	(5)	(6)
+Money holdings	.018***	.019***	.018***	.190***	.199***	.202***
+(.001)	(.001)	(.001)	(.012)	(.012)	(.013)
+EBIT	.024***	.027***	.028***	.270***	.274***	.266***
+(.002)	(.002)	(.002)	(.019)	(.019)	(.020)
+Asset	.087***	.066***	.069***	−.322***	−.390***	−.381***
+(.003)	(.003)	(.003)	(.018)	(.022)	(.025)
+Leverage	−.001**	−.001**	−.001*	−.005	−.005	−.005*
+(.000)	(.000)	(.000)	(.003)	(.003)	(.003)
+Firm fixed effects	Yes	Yes	Yes	Yes	Yes	Yes
+Year fixed effects		Yes			Yes	
+Year × industry fixed effects			Yes			Yes
+Adjusted R2	.029	.039	.053	.049	.075	.112
+Observations	115,822	115,822	115,822	33,678	33,678	33,678
+Note.  The table reports results from regressing whether a firm engages in a full purchase and full purchase spending on its money holdings. Robust standard errors (in parentheses) are clustered at the firm level. All independent variables are lagged by one period. Acquisition spending, money holdings, and EBIT are normalized by firms’ total assets.
+
+* 𝑝<.10
+.
+
+** 𝑝<.05
+.
+
+*** 𝑝<.01
+.
+
+View Table Image
+Columns 4–6 of table 2 report results on full purchase spending, with a 1% increase in money leading to a 0.2% rise in spending, so a $1 increase in money leads to an $0.08 increase, which is sizable. Again, EBIT has a positive effect on full purchase spending. We also ran dynamic panel regressions to account for the possibility that full purchases are persistent; the results are similar, with coefficients on lagged purchases that are small and insignificant. This all indicates that liquidity, measured by cash or cash equivalent, encourages full purchases.5
+
+Now we include partial purchases. While in Compustat we cannot identify the buyer in each partial purchase and hence their cash holdings, we can aggregate data to the state level and investigate how cash held in a state affects total reallocation—including both full and partial sales—and the composition of reallocation. This aggregation would be informative if firms buy mostly from firms in the same state.
+
+Table 3 shows the results from regressing reallocation and P share on cash holdings at the state level. Reallocation is defined as the sum of partial and full sales. P share, reallocation, money held, and EBIT are in logs, and the latter three are normalized by total assets. Assets are in logs and normalized by the nominal price level. All the independent variables are values at the end of the last period. Columns 1 and 2 report results on reallocation, while columns 3 and 4 report results on P share. We include state fixed effects in all regressions. The coefficients on cash holdings are positive in reallocation regressions and negative in P share regressions, which are all statistically significant. These results suggest that as cash holdings increase, firms tend to increase reallocation and shift from partial to full purchases. Similar results obtain using industry aggregates, although the coefficients are less significant.
+
+Table 3.  Money Holdings on Reallocation: State-Level Evidence
+Reallocation	P Share
+(1)	(2)	(3)	(4)
+Money holdings	.282***	.205**	−.470***	−.359***
+(.071)	(.087)	(.079)	(.097)
+EBIT	−.061	−.001	.034	− .113
+(.101)	(.097)	(.071)	(.070)
+Asset	−.098	−.186**	−.395***	−.042
+(.061)	(.080)	(.070)	(.076)
+Leverage	−.145	−.149	−.022	−.135
+(.130)	(.146)	(.107)	(.140)
+Year fixed effects		Yes		Yes
+Adjusted R2	.054	.141	.196	.304
+Observations	2,312	2,312	2,297	2,297
+Note.  The table reports results from regressing reallocation and P share on money holdings at the state level. Robust standard errors (in parentheses) are clustered at the state level. Reallocation, money held, and EBIT are normalized by total assets.
+
+** 𝑝<.05
+.
+
+*** 𝑝<.01
+.
+
+View Table Image
+Next, consider how money holdings depend on liquidity costs measured by consumer price index (CPI) inflation. The results are in table 4, with all regressions controlling for firm fixed effects. Column 1 indicates that a 1% increase in inflation reduces money holdings by about 1.268%. Since inflation decreases and money holdings increase over time in the sample, negative coefficients on inflation may result from trends. To address this, we use a band-pass filter to remove the trend component of inflation, and column 2 in table 4 reports results using the cyclical component. The coefficient on inflation remains negative and highly significant, and the magnitude is much larger.
+
+Table 4.  Money Holdings and Liquidity Cost
+Money Holdings
+(1)	(2)	(3)	(4)
+Inflation	−1.268***	…	…	…
+(.170)	…	…	…
+Inflation (cycle)	…	−2.706***	…	…
+…	(.160)	…	…
+State-level inflation	…	…	−2.092***	−1.753***
+…	…	(.524)	(.534)
+EBIT	.122***	.119***	.108***	.107***
+(.005)	(.005)	(.007)	(.007)
+Asset	−.091***	−.085***	−.085***	−.082***
+(.005)	(.006)	(.013)	(.013)
+Leverage	−.000***	−.000***	−.001*	−.001**
+(.000)	(.000)	(.001)	(.000)
+Capital expenditure	−.102***	−.105***	−.088***	−.078***
+(.005)	(.006)	(.008)	(.008)
+Firm fixed effects	Yes	Yes	Yes	Yes
+Year fixed effects			Yes	
+Year × industry fixed effects				Yes
+Adjusted R2	.013	.015	.029	.056
+Observations	142,303	142,303	91,851	91,851
+Note.  The table reports results from regressing money holdings on inflation rates. Robust standard errors (in parentheses) are clustered at the firm level. Money holdings, EBIT, and capital expenditures are normalized by total assets.
+
+* 𝑝<.10
+.
+
+** 𝑝<.05
+.
+
+*** 𝑝<.01
+.
+
+View Table Image
+To address the concern that the cyclical comovement may drive the results, we exploit cross-sectional variation in inflation rates by noticing that Compustat has addresses of firms. Assuming that firms care about local inflation, we regress money holdings on state-level inflation from Hazell et al. (2022), including year or year × industry fixed effects. The results in columns 3 and 4 show that the coefficients on state-level inflation are again negative and highly significant (slightly larger than those in col. 1). Hence, like the macro data, the micro evidence is consistent with our approach, which motivates developing models with full and partial sales, taking into account credit and monetary considerations.
+
+III.  Model
+Our formulation builds on the alternating market structure in Lagos and Wright (2005): each period in discrete time, a continuum of infinite-lived agents interact in a frictional decentralized market (DM) and then a frictionless centralized market (CM). This is ideal for our purposes because in a stylized way, the CM and DM correspond to primary and secondary trade. The framework also features an asynchronization of expenditures and receipts—reallocation occurs in the DM, while profit accrues in the CM—crucial to any analysis of money or credit. As well, it has proved tractable in many other applications and flexible in the sense that it allows various specifications for search, price determination, and so on, as seen in surveys by Lagos, Rocheteau, and Wright (2017) and Rocheteau and Nosal (2017).
+
+In the CM, households consume a numeraire good c, supply labor hours h, settle debt d, and adjust their portfolios of capital k and money m, while firms produce using h and k. In the DM, (the owners of) firms meet bilaterally and potentially retrade k after observing idiosyncratic productivity shocks. Agents discount between the CM and the next DM using 𝛽∈(0,1)
+ but not between the DM and CM, without loss of generality. If we normalize the time endowment per period to 1, utility over consumption and leisure is 𝑈⁡(𝑐,1−ℎ)=𝑢⁡(𝑐)+𝜉⁢(1−ℎ)
+, where 𝜉>0
+ is a parameter and 𝑢′⁡(𝑐)>0>𝑢″⁡(𝑐)
+.
+
+Quasi-linear utility enhances tractability, as described in lemmas 1 and 2, but Wong (2016) shows that those results also hold for any 𝑈⁡(𝑐,1−ℎ)
+ with 𝑈11⁢𝑈22=𝑈2
+12
+. Alternatively, Rocheteau et al. (2008) show that the results hold for any monotone, concave 𝑈⁡(𝑐,1−ℎ)
+ if labor is indivisible, ℎ∈{0,1}
+, and agents trade employment lotteries as in Rogerson (1988). This is relevant for comparing our results on business cycles with those from a canonical RBC model, which we take to be Hansen (1985), as it jettisons many of the bells and whistles in Kydland and Prescott (1982) without sacrificing results and then improves on performance by using indivisible labor. A special case of our setup with no idiosyncratic shocks is exactly Hansen’s indivisible labor model.6
+
+For ease of presentation, it is assumed that households own their own firms; while they could hold shares in other firms, given lemma 1 below, they do not need to. Each has a CRS production function 𝑓⁡(𝑘,ℎ)=(𝐴⁢𝜀⁢𝑘)1−𝜂⁢ℎ𝜂
+, where ε is idiosyncratic productivity and A is aggregate productivity, with the latter assumed constant until we get to the quantitative work in section V. The firm-specific ε has a time-invariant distribution F(ε) that can be persistent: using subscript + for next period, ε+ is drawn from a conditional cumulative distribution function 𝑄⁡(⋅|𝜀)
+. As usual, investment in k at t is productive at 𝑡+1
+, and it depreciates at rate δ.
+
+Given a real wage w, a firm with (k, ε) in the CM chooses labor demand 
+̃
+ℎ
+ (distinct from its owner’s labor supply) to maximize profit,
+
+Π⁡(𝑘,𝜀)= 
+max
+˜
+ℎ
+ ⁡{(𝐴⁢𝜀⁢𝑘)1−𝜂⁢
+˜
+ℎ
+𝜂−𝑤⁢
+˜
+ℎ
+}.
+The solution is 
+˜
+ℎ
+⁡(𝑘,𝜀)=(𝜂/𝑤)1/(1−𝜂)⁢𝐴⁢𝜀⁢𝑘
+, and this implies Π⁡(𝑘,𝜀)=𝐵⁡(𝑤)⁢𝜀⁢𝑘
+, where
+𝐵⁡(𝑤)≡(
+𝜂
+𝑤
+ 
+)𝜂/(1−𝜂)⁢(1−𝜂)⁢𝐴.
+ 
+(1)
+Hence, Π is linear in εk, which implies in what follows that efficient DM reallocation entails full sales: a high ε firm should get all the capital of a low ε firm.
+The price of money m in terms of numeraire c—or the inverse nominal price level—is ϕ, so that real balances are 𝑧=𝜙⁢𝑚
+ and gross inflation is 1+𝜋=𝜙/𝜙+
+. Also, while k and z are capital and real balances at the start of the CM, 
+^
+𝑘
+ and 
+^
+𝑧
+=𝜙+⁢
+^
+𝑚
+ are capital and real balances at the end. Denoting the CM and DM value functions by W and V, we have
+
+𝑊⁡(Ω,𝜀)	= 
+max
+𝑐,ℎ,
+^
+𝑘
+,
+^
+𝑚
+ ⁡{𝑢⁡(𝑐)+𝜉⁢(1−ℎ)+𝛽⁢𝔼
+^
+𝜀
+∣𝜀⁢𝑉+⁡(
+^
+𝑘
+,
+^
+𝑧
+,
+^
+𝜀
+)}
+subject to 𝑐	=Ω+(1−𝜏ℎ)⁢𝑤⁢ℎ−𝜙⁢
+^
+𝑚
+−
+^
+𝑘
+,
+ 
+(2)
+(3)
+where Ω is wealth, τh is a labor income tax, and 𝔼
+^
+𝜀
+∣𝜀
+ denotes the expectation with respect to 
+^
+𝜀
+ conditional on ε. Wealth is Ω=(1−𝜏𝑘)⁢𝐵⁡(𝑤)⁢𝜀⁢𝑘+(1−𝛿)⁢𝑘+𝑧−𝑑−𝑇
+, where τk is a capital income tax, T is a lump-sum tax, and d is debt from the previous DM. Using the budget equation to eliminate h, we rewrite the problem as
+𝑊⁡(Ω,𝜀)	=𝜉+
+𝜉⁢Ω
+(1−𝜏ℎ)⁢𝑤
+ 
++max𝑐⁡{𝑢⁡(𝑐)−
+𝜉⁢𝑐
+(1−𝜏ℎ)⁢𝑤
+ 
+}
++ 
+max
+^
+𝑘
+,
+^
+𝑚
+ ⁡
+⎧
+{
+⎨
+{
+⎩
+−
+𝜉⁢(𝜙⁢
+^
+𝑚
++
+^
+𝑘
+)
+(1−𝜏ℎ)⁢𝑤
+ 
++𝛽⁢𝔼
+^
+𝜀
+∣𝜀⁢𝑉+⁡(
+^
+𝑘
+,
+^
+𝑧
+,
+^
+𝜀
+)
+⎫
+{
+⎬
+{
+⎭
+.
+ 
+ 
+(4)
+ 
+Because A is constant, for now, choosing 
+^
+𝑚
+ is equivalent to choosing 
+^
+𝑧
+, so we focus on the latter. From (4), the following results are immediate:
+
+Lemma 1. 
+𝑊⁡(Ω,𝜀)
+ 
+ is linear in Ω with slope 𝜉/[(1−𝜏ℎ)⁢𝑤]
+.
+
+Lemma 2. 
+An interior solution for (
+^
+𝑘
+, 
+^
+𝑧
+) solves
+
+𝜉
+(1−𝜏ℎ)⁢𝑤
+ 
+=𝛽⁢𝔼
+^
+𝜀
+∣𝜀⁢
+∂𝑉+⁡(
+^
+𝑘
+,
+^
+𝑧
+,
+^
+𝜀
+)
+∂
+^
+𝑘
+ 
+,
+𝜉
+(1−𝜏ℎ)⁢𝑤
+ 
+⁢
+𝜙
+𝜙+
+ 
+=𝛽⁢𝔼
+^
+𝜀
+∣𝜀⁢
+∂𝑉+⁡(
+^
+𝑘
+,
+^
+𝑧
+,
+^
+𝜀
+)
+∂
+^
+𝑧
+ 
+.
+ 
+(5)
+(6)
+This means (
+^
+𝑘
+, 
+^
+𝑧
+) is the same for all agents with the same ε, although agents with different ε choose different (
+^
+𝑘
+, 
+^
+𝑧
+), unless ε is independently and identically distributed (i.i.d.), in which case (
+^
+𝑘
+, 
+^
+𝑧
+) is the same for all agents, even if they have different ε.
+To complete the CM problem, let 
+^
+𝑧
+⁡(𝜀)
+ and 
+^
+𝑘
+⁡(𝜀)
+ solve (5) and (6), and note from (4) that c solves 𝑢′⁡(𝑐)=𝜉/[(1−𝜏ℎ)⁢𝑤]
+. Then the budget equation gives labor supply,
+
+ℎ⁡(Ω,𝜀)=
+𝑐+
+^
+𝑘
+⁡(𝜀)+
+^
+𝑧
+⁡(𝜀)⁢𝜙/𝜙+−Ω
+(1−𝜏ℎ)⁢𝑤
+ 
+.
+ 
+(7)
+If Γ is the distribution of (k, z, ε) at the start of a period, its law of motion is
+Γ+⁡(𝑘,𝑧,𝜀)= 
+∫
+^
+𝑘
+⁡(𝑥)≤𝑘,
+^
+𝑧
+⁡(𝑥)≤𝑧
+ 𝑄⁢(𝜀|𝑥)⁢𝑑⁢𝐹⁡(𝑥).
+ 
+(8)
+Without aggregate shocks, agents move around in the distribution, but the cross section is constant. Even with aggregate shocks, the framework is quite tractable, since (
+^
+𝑘
+, 
+^
+𝑧
+) depends on ε but not past DM trades.
+In the DM, with probability α, each firm (owner) is randomly matched to a potential trading partner. Similar to stories motivating frictional labor markets, 𝛼<1
+ can mean it is hard to find anyone (a pure search problem) or it is hard to find the right type (a matching problem). In any case, in any meeting, the state variables of the pair are 𝐬=(𝑘,𝑧,𝜀)
+ and 
+˜
+𝐬
+=(
+˜
+𝑘
+,
+˜
+𝑧
+,
+˜
+𝜀
+)
+. When 𝜀>
+˜
+𝜀
+, the ε firm is a buyer and the 
+˜
+𝜀
+ firm is a seller, since the former should get some quantity 𝑞⁡(𝐬,
+˜
+𝐬
+)
+ of capital from the latter. Let 𝑝⁡(𝐬,
+˜
+𝐬
+)
+ be the cash payment by the buyer, and let 𝑑⁡(𝐬,
+˜
+𝐬
+)
+ be the value of any debt, a promise of payment in the next CM, as discussed more below. Then
+
+𝑉⁡(𝑘,𝑧,𝜀)=𝑊⁡(Ω,𝜀)+𝛼⁢ 
+∫
+𝜀>
+˜
+𝜀
+ 𝑆b⁢(𝐬,
+˜
+𝐬
+)⁢𝑑⁢Γ⁡(
+˜
+𝐬
+)+𝛼⁢ 
+∫
+𝜀<
+˜
+𝜀
+ 𝑆s⁢(
+˜
+𝐬
+,𝐬)⁢𝑑⁢Γ⁡(
+˜
+𝐬
+),
+ 
+(9)
+where Sb(·) and Ss(·) are buyer and seller surpluses, which by lemma 1 are
+𝑆b⁡(𝐬,
+˜
+𝐬
+)	=
+𝜉⁢{[(1−𝜏𝑘)⁢𝜀⁢𝐵⁡(𝑤)+1−𝛿]⁢𝑞⁡(𝐬,
+˜
+𝐬
+)−𝑝⁡(𝐬,
+˜
+𝐬
+)−𝑑⁡(𝐬,
+˜
+𝐬
+)}
+𝑤⁢(1−𝜏ℎ)
+ 
+,
+𝑆s⁡(
+˜
+𝐬
+,𝐬)	=
+𝜉⁢{𝑝⁡(
+˜
+𝐬
+,𝐬)+𝑑⁡(
+˜
+𝐬
+,𝐬)−[(1−𝜏𝑘)⁢
+˜
+𝜀
+⁢𝐵⁡(𝑤)+1−𝛿]⁢𝑞⁡(
+˜
+𝐬
+,𝐬)}
+𝑤⁢(1−𝜏ℎ)
+ 
+.
+ 
+(10)
+(11)
+We distinguish between two types of reallocation, a full sale 𝑞⁡(𝐬,
+˜
+𝐬
+)=
+˜
+𝑘
+ and a partial sale 𝑞⁡(𝐬,
+˜
+𝐬
+)∈(0,
+˜
+𝑘
+)
+. While full sales are socially efficient, they may not happen because of liquidity constraints: cash payments are constrained by 𝑝≤𝑧
+, while credit payments are constrained by 𝑑≤𝐷
+ with debt limit
+
+𝐷=𝜒0+𝜒Π⁢Π+𝜒𝑞⁢(1−𝛿)⁢𝑞+𝜒𝑘⁢(1−𝛿)⁢𝑘.
+ 
+(12)
+In (12), the first term represents unsecured debt, where χ0 can be a parameter or endogenized, as in Kehoe and Levine (1993); the second term is debt secured by profit, as in Holmstrom and Tirole (1998); the third and fourth terms are debt secured by new and existing capital, like mortgages and home equity loans, as in Kiyotaki and Moore (1997).
+Often χΠ, χk, and χq are called pledgeability parameters. One common story for 𝜒𝑗<1
+ is that you can renege on promised payments, but then a fraction χj of your asset j gets seized while you abscond with the rest. Li, Rocheteau, and Weill (2012) provide an alternative microfoundation, where holding more assets than you use as collateral signals quality. In any case, even at 𝜒𝑞=1
+, credit secured using only q as collateral supports no DM trade, as that does not even cover sellers’ outside option; hence, buyers need other lines of credit or cash.7
+
+There are many options available to determine the DM terms of trade—𝑞⁡(𝐬,
+˜
+𝐬
+)
+, 𝑝⁡(𝐬,
+˜
+𝐬
+)
+, and 𝑑⁡(𝐬,
+˜
+𝐬
+)
+—including Nash bargaining (Lagos and Wright 2005), strategic bargaining (Zhu 2019), and competitive price taking or price posting (Rocheteau and Wright 2005). We use Kalai’s (1977) bargaining solution, which has been popular since Aruoba, Rocheteau, and Waller (2007), who argue that it has advantages over Nash when liquidity constraints are operative. Letting θ be buyers’ bargaining power, to get Kalai’s bargaining outcome, we solve
+
+max
+𝑑,𝑝,𝑞
+ ⁡𝑆b⁡(𝐬,
+˜
+𝐬
+) subject to (1−𝜃)⁢𝑆b⁡(𝐬,
+˜
+𝐬
+)=𝜃⁢𝑆s⁡(
+˜
+𝐬
+,𝐬),𝑞≤
+˜
+𝑘
+,𝑝≤𝑧,𝑑≤𝐷.
+ 
+(13)
+We then have the following result (see app. B for details):
+Proposition 1. 
+Consider a DM meeting (𝐬,
+˜
+𝐬
+)
+ with 𝜀>
+˜
+𝜀
+, and define a threshold for ε by 
+̅
+𝜀
+=Ψ0−Ψ1⁢
+˜
+𝜀
+, where
+
+Ψ0≡
+[𝑧+𝜒0+𝜒𝑘⁢(1−𝛿)⁢𝑘]/
+˜
+𝑘
+−(1−𝛿)⁢(1−𝜒𝑞)
+(1−𝜏𝑘)⁢[1−𝜃−𝜒Π⁢(1+𝑘/
+˜
+𝑘
+)]⁢𝐵⁡(𝑤)
+ 
+ and Ψ1≡
+𝜃
+1−𝜃−𝜒Π⁢(1+𝑘/
+˜
+𝑘
+)
+ 
+.
+ 
+(14)
+Case i: 𝜒Π<⁢
+̅
+𝜒
+Π≡(1−𝜃)/(1+𝑘/
+˜
+𝑘
+)
+. If 𝜀>
+̅
+𝜀
+, there is a partial sale, 𝑞=𝑄<
+˜
+𝑘
+, where
+
+𝑄≡
+𝑧+𝜒0+[(1−𝛿)⁢𝜒𝑘+(1−𝜏𝑘)⁢𝐵⁡(𝑤)⁢𝜒Π⁢𝜀]⁢𝑘
+(1−𝜏𝑘)⁢𝐵⁡(𝑤)⁢[(1−𝜃−𝜒Π)⁢𝜀+𝜃⁢
+˜
+𝜀
+]+(1−𝛿)⁢(1−𝜒𝑞)
+ 
+,
+ 
+(15)
+and payment constraints bind, 𝑝=𝑧
+ and 𝑑=𝐷
+. If 𝜀<
+¯
+𝜀
+, there is a full sale𝑞=
+˜
+𝑘
+, and the mix between p and d is irrelevant as long as 𝑝+𝑑={(1−𝜏𝑘)⁢𝐵⁡(𝑤)⁢[(1−𝜃)⁢𝜀+𝜃⁢
+˜
+𝜀
+]+1−𝛿}⁢
+˜
+𝑘
+.
+Case ii: 𝜒Π>
+̅
+𝜒
+Π
+. The results are the same except now 𝜀<
+¯
+𝜀
+ implies a partial sale and 𝜀>
+̅
+𝜀
+ a full sale.
+
+While there are two cases in proposition 1, both imply that higher z raises the probability of a full sale. In particular, increasing z shifts the intercept but not the slope of the threshold 
+̅
+𝜀
+=Ψ0−Ψ1⁢
+˜
+𝜀
+. Figure 4 shows the case 𝜒Π<
+̅
+𝜒
+Π
+, which implies that partial sales occur above the threshold and partial sales occur above it, which means that higher productivity firms are more likely to be constrained. This happens when χΠ is low because while higher ε firms pay more, they also get more credit secured by Π, and the net effect depends on its pledgeability. It is also worth reiterating that CRS makes partial sales inefficient. In figure 4, given any 
+˜
+𝜀
+, trade is more likely to be constrained at higher ε, so reallocation with the highest social value is most prone to inefficiency because of illiquidity.
+
+Fig. 4. 
+Fig. 4.  Full and partial sales in DM trade.
+View Large Image Download PowerPoint
+Next consider CM clearing in m and c (by Walras’s law, we can ignore h). Let the aggregate supply M grow at rate μ, with changes engineered in the CM: add seigniorage to revenue from τh and τk, subtract government spending G, and set T to balance the budget each period. Then money and goods market clearing are given by
+
+𝜙+⁢𝑀+=∫
+^
+𝑧
+⁢(𝜀)⁢𝑑⁢𝐹⁡(𝜀) and 𝑐+𝐾++𝐺=𝑌+(1−𝛿)⁢𝐾,
+ 
+(16)
+where 𝑌=𝐵⁡(𝑤)⁢
+̅
+𝐾
+/(1−𝜂)
+ is total output, 𝐾+=∫
+^
+𝑘
+⁢(𝜀)⁢𝑑⁢𝐹⁡(𝜀)
+ is gross investment, and 
+̅
+𝐾
+ is effective capital weighted by productivity after DM trade:
+̅
+𝐾
+=𝛼⁢ 
+∬
+𝜀>
+˜
+𝜀
+ 𝜀⁢[𝑘+𝑞⁡(𝐬,
+˜
+𝐬
+)]⁢𝑑⁢Γ⁡(
+˜
+𝐬
+)⁢𝑑⁢Γ⁡(𝐬)
++𝛼⁢ 
+∬
+𝜀<
+˜
+𝜀
+ 𝜀⁢[𝑘−𝑞⁡(
+˜
+𝐬
+,𝐬)]⁢𝑑⁢Γ⁡(
+˜
+𝐬
+)⁢𝑑⁢Γ⁡(𝐬)+(1−𝛼)⁢∫𝜀⁢𝑘⁢𝑑⁢Γ⁡(𝐬).
+ 
+ 
+(17)
+ 
+Equilibrium is now defined as follows:
+
+Definition 1. 
+Given initial conditions (z, k) and paths for (μ, G, τh, τk), equilibrium is a list of nonnegative paths for (c, 
+^
+𝑧
+, 
+^
+𝑘
+, q, p, d, ϕ, w, Γ), where 
+^
+𝑧
+=
+^
+𝑧
+⁡(𝜀)
+ and 
+^
+𝑘
+=
+^
+𝑘
+⁡(𝜀)
+ for each agent and 𝑞=𝑞⁡(𝐬,
+˜
+𝐬
+)
+, 𝑝=𝑝⁡(𝐬,
+˜
+𝐬
+)
+, and 𝑑=𝑑⁡(𝐬,
+˜
+𝐬
+)
+ for each pair, satisfying the following at all dates: (i) in the CM, (c, 
+^
+𝑘
+, 
+^
+𝑧
+) solves (2); (ii) in the DM, (q, p, d) is given by proposition 1; (iii) markets clear as in (16); (iv) the distribution Γ evolves according to (8); and (v) the transversality conditions 𝛽𝑡⁢𝑢′⁡(𝑐𝑡)⁢
+^
+𝑘
+𝑡→0
+ and 𝛽𝑡⁢𝑢′⁡(𝑐𝑡)⁢
+^
+𝑧
+𝑡→0
+ hold.
+
+To define steady state, let (μ, G, τh, τk) be constant and note that if the growth rate of M is 𝜇≠0
+, then ϕ changes over time, but 𝜙⁢𝑀=𝑧
+ does not if 𝜙/𝜙+=1+𝜇
+.
+Definition 2. 
+Steady state is a time-invariant list (c, z, k, q, p, d, w, Γ), satisfying everything in definition 1 except for the initial conditions.
+
+While monetary policy is given by μ in the above formulation, for steady state it is equivalent to instead peg inflation π, or the illiquid nominal interest rate defined by 𝜄=(1+𝜋)/𝛽−1
+. To be precise, we define illiquid interest rates as follows: 1+𝑟
+ is the amount of c agents require in the next CM to give up 1 unit in this CM, and 1+𝜄
+ is similar except m replaces c. As usual, 𝜄>0
+ imposed, but the limit 𝜄→0
+ can be considered, which is the Friedman rule, or zero lower bound.
+
+It is useful to have the marginal value of capital in the DM. Using (9), we derive
+
+∂𝑉
+∂𝑘
+ 
+=
+𝜉
+(1−𝜏ℎ)⁢𝑤
+ 
+⁢
+⎧
+{
+⎨
+{
+⎩
+1−𝛿+(1−𝜏𝑘)⁢𝐵⁡(𝑤)⁢
+⎡
+⎢
+⎣
+𝜀+𝛼⁢(1−𝜃)⁢ 
+∫
+𝒮s⁡(𝐬)
+ (
+˜
+𝜀
+−𝜀)⁢𝑑⁢Γ⁡(
+˜
+𝐬
+)
++𝛼⁢𝜃⁢(1−𝛿)⁢𝜒𝑘⁢ 
+∫
+𝒮b⁡(𝐬)
+ 
+𝜀−
+˜
+𝜀
+Δ⁡(𝜀,
+˜
+𝜀
+)
+ 
+⁢𝑑⁢Γ⁡(
+˜
+𝐬
+)+𝛼⁢𝜃⁢(1−𝜏𝑘)⁢𝐵⁡(𝑤)⁢𝜒Π⁢ 
+∫
+𝒮b⁡(𝐬)
+ 
+𝜀⁢(𝜀−
+˜
+𝜀
+)
+Δ⁡(𝜀,
+˜
+𝜀
+)
+ 
+⁢𝑑⁢Γ⁡(
+˜
+𝐬
+)
+⎤
+⎥
+⎦
+⎫
+{
+⎬
+{
+⎭
+,
+ 
+ 
+(18)
+ 
+where Δ⁡(𝜀,
+˜
+𝜀
+)
+ denotes the denominator in (15), while
+𝒮s⁡(𝐬)={
+˜
+𝐬
+:
+˜
+𝜀
+>𝜀,
+˜
+𝜀
+<
+̅
+𝜀
+⁡(
+˜
+𝐬
+,𝐬)} and 𝒮b⁡(𝐬)={
+˜
+𝐬
+:
+˜
+𝜀
+<𝜀,𝜀>
+̅
+𝜀
+⁡(𝐬,
+˜
+𝐬
+)}
+ 
+(19)
+are sets of meetings where sellers are constrained by k and buyers by z.8 Similarly,
+∂𝑉
+∂𝑧
+ 
+=
+𝜉
+(1−𝜏ℎ)⁢𝑤
+ 
+⁢
+⎡
+⎢
+⎣
+1+(1−𝜏𝑘)⁢𝐵⁡(𝑤)⁢𝛼⁢𝜃⁢ 
+∫
+𝒮b⁡(𝐬)
+ 
+𝜀−
+˜
+𝜀
+Δ⁡(𝜀,
+˜
+𝜀
+)
+ 
+⁢𝑑⁢Γ⁡(
+˜
+𝐬
+)
+⎤
+⎥
+⎦
+ 
+(20)
+is the analog for z.9 Combining (18)–(20) with the first-order conditions, we get the Euler equations
+1
+𝑤
+ 
+=
+𝛽⁢(1−𝜏𝑘)⁢𝐵⁡(𝑤+)
+𝑤+
+ 
+⁢𝔼𝜀+|𝜀⁢[𝜀++𝛼⁢(1−𝜃)⁢𝐼s+𝛼⁢𝜃⁢(1−𝛿)⁢𝜒𝑘⁢𝐼b⁢1
++𝛼⁢𝜃⁢(1−𝜏𝑘)⁢𝐵⁡(𝑤)⁢𝜒Π⁢𝐼b⁢2]+
+𝛽⁢(1−𝛿)
+𝑤+
+ 
+,
+ 
+ 
+(21)
+ 
+𝑍
+𝑤
+ 
+⁢=
+𝛽⁢𝑍+
+𝑤+⁢(1+𝜇)
+ 
+⁢𝔼𝜀+|𝜀⁢[1+(1−𝜏𝑘)⁢𝐵⁡(𝑤+)⁢𝛼⁢𝜃⁢𝐼b⁢1],
+ 
+(22)
+where Z is aggregate real balances; to save space, Is, Ib1, and Ib2 denote the three integrals on the right-hand side of (18).
+IV.  Analytic Results
+We now study the model where ε is i.i.d. across time, which allows us to obtain analytical results, and χΠ is not too big, which is used to guarantee uniqueness. To begin, make a change of variable by defining
+
+𝐿≡
+(𝑍+𝜒0)/𝐾−(1−𝛿)⁢(1−𝜒𝑞−𝜒𝑘)
+(1−𝜏𝑘)⁢𝐵⁡(𝑤)
+ 
+,
+ 
+(23)
+a normalized notion of liquidity determining when the constraint binds. Then write (19) as
+𝒮b⁡(𝐿)≡{(𝜀,
+˜
+𝜀
+):
+˜
+𝜀
+<𝜀,𝜀>
+𝐿−𝜃⁢
+˜
+𝜀
+1−𝜃−2⁢𝜒Π
+ 
+} and 𝒮s⁡(𝐿)≡{(𝜀,
+˜
+𝜀
+):𝜀<
+˜
+𝜀
+,
+˜
+𝜀
+<
+𝐿−𝜃⁢𝜀
+1−𝜃−2⁢𝜒Π
+ 
+}
+for the sets of meetings where partial and full sales occur, now as functions of L.
+Also, write the effective capital stock, defined in (17), as 
+̅
+𝐾
+=𝐽⁡(𝐿,𝑤)⁢𝐾
+, with
+
+𝐽⁡(𝐿,𝑤)	≡𝔼⁢𝜀+𝛼⁢𝐼s⁡(𝐿)+𝛼⁢[(1−𝜏𝑘)⁢𝐵⁡(𝑤)⁢𝐿+(1−𝜒𝑞)⁢(1−𝛿)]⁢𝐼b⁢1⁡(𝐿)
++𝛼⁢𝜒Π⁢(1−𝜏𝑘)⁢𝐵⁡(𝑤)⁢𝐼b⁢2⁡(𝐿),
+ 
+where Is, Ib1, and Ib2 are the expected values of the integrals from (18), now as functions of L. Then in steady state, the Euler equations become
+𝑟+𝛿
+𝐵⁡(𝑤)⁢(1−𝜏𝑘)
+ 
+=𝔼⁢𝜀+𝛼⁢(1−𝜃)⁢𝐼s⁡(𝐿)+(1−𝛿)⁢𝜒𝑘⁢𝜄+𝜒Π⁢𝐵⁡(𝑤)⁢(1−𝜏𝑘)⁢𝛼⁢𝜃⁢𝐼b⁢2⁡(𝐿),
+𝜄	=𝛼⁢𝜃⁢ 
+∬
+𝒮b⁡(𝐿)
+ 
+(𝜀−
+˜
+𝜀
+)⁢𝑑⁢𝐹⁡(
+˜
+𝜀
+)⁢𝑑⁢𝐹⁡(𝜀)
+(1−𝜃−𝜒Π)⁢𝜀+𝜃⁢
+˜
+𝜀
++((1−𝛿)⁢(1−𝜒𝑞)/(1−𝜏𝑘)⁢𝐵⁡(𝑤))
+ 
+,
+ 
+(24)
+(25)
+where r and ι are the illiquid real and nominal rates defined above. Also, goods market clearing becomes
+(𝑢′)−1⁢[
+𝜉
+(1−𝜏ℎ)⁢𝑤
+ 
+]+𝐺=[
+𝐵⁡(𝑤)⁢𝐽⁡(𝐿,𝑤)
+1−𝜂
+ 
+−𝛿]⁢𝐾.
+ 
+(26)
+Notice that (24)–(26) are three equations in (K, Z, w). For what it’s worth, (24) and (25) are the classical investment-saving (IS) and liquidity-money (LM) curves: demand for investment equals supply of savings, and demand for liquidity equals supply of money. While not the textbook IS-LM model, clearly, these can be used in the same way by shifting curves (see n. 10). Of course, w is endogenous, but in principle (26) can be solved for it and used to write (24) and (25) to get two equations in (K, Z). We cannot solve for w explicitly, however, except in special cases, like 𝜃=1
+ or f(k, h) linear in h, each of which is too restrictive—that is, in each case, we rule out some interesting effects.
+
+While in principle it would be nice to work in (K, Z) space—after all, the paper is about capital and liquidity—in practice, it is better to notice that (24) and (25) are two equations in (L, B). As shown in figure 5, their intersections in (L, B) space constitute steady states, and given (L, B), K, Z, and w follow from (1), (23), and (26). Appendix B establishes the existence and uniqueness of monetary steady state under certain conditions, where some conditions are obviously needed since, as is known from related work, monetary equilibrium does not exist if θ is too small, ι is too big, or credit is too easy.
+
+Fig. 5. 
+Fig. 5.  Steady state.
+View Large Image Download PowerPoint
+Proposition 2. 
+If θ is not too small, while χ0, χΠ, and χk are not too big, there exists a monetary steady state iff 𝜄<
+̅
+𝜄
+, where 
+̅
+𝜄
+>0
+, and it is unique.
+
+Table 5 shows the effects of parameters on standard macro variables plus the probability of a full sale in a meeting, denoted Φ. As mentioned, here we restrict χΠ to be not too big, and for table 5 we also assume that χq is not too small. While these are natural restrictions, still many entries are ambiguous, shown by ±. This is not because the theory is messy; this is because it is rich enough to make many effects nonmonotone. In particular, both ∂𝐾/∂𝜄>0
+ and ∂𝐾/∂𝜄<0
+ are possible. The former is reminiscent of the Mundell-Tobin effect, heuristically, reflecting the idea that K and Z are substitutes—here meaning substitutes for payment—with Z used as a medium of exchange and K as collateral. Yet ∂𝐾/∂𝜄<0
+ is also possible, heuristically, reflecting the idea that they are also complements, with Z used to buy K. The net effect depends on parameters.
+
+Table 5.  Comparative Statics
+ι	χ0	χk	χq	χΠ	τk	τh	G	A	ιa	ιb
+K	±	0	+	±	±	–	–	+	+	±	+
+Z	±	–	±	±	±	±	–	+	+	±	±
+w	±	0	+	+	+	–	0	0	+	–	+
+c	±	0	+	+	+	–	–	0	+	–	+
+H	±	0	±	±	±	±	–	+	±	±	±
+Y	±	0	+	±	±	–	–	+	+	±	+
+Φ	–	0	+	+	±	–	0	0	0	–	–
+Note.  All effects assume that χq is big and χπ is small.
+
+a Assumes that χk is small.
+
+b Assumes that χk and θ are big.
+
+View Table Image
+Some results in table 5 are unambiguous, including most effects of fiscal policy. Also unambiguous is ∂𝑍/∂𝜒0<0
+, which says a higher debt limit reduces money demand, pushing up the price level, which shows up as inflation in the short run even while that is pinned down by 𝜙/𝜙+=1+𝜇
+ in the long run. Similarly, most of the effects on Φ are unambiguous, including ∂Φ/∂𝜄<0
+, ∂Φ/∂𝜒𝑘>0
+, and ∂Φ/∂𝜒𝑞>0
+. These results relate directly to the discussion in the introduction about how we intend to explain the facts.10
+
+In addition to existence, uniqueness, and comparative statics, welfare can be studied analytically. Appendix B compares the equilibrium outcome with no tax distortions, 𝜏𝑘=𝜏ℎ=0
+, with the solution to a planner problem. For q to be efficient in equilibrium, we need full sales in all meetings, which for an arbitrary ε distribution happens only when 𝜄→0
+. For K to be efficient, we need sellers in the DM to reap the full benefit of their investments, meaning 𝜃=0
+, but there is no monetary equilibrium at 𝜃=0
+. In fact, there is a two-sided holdup problem: given 𝜄>0
+, high θ is needed to get money demand right, low θ is needed to get capital demand right, and we cannot have both.11
+
+However, for any 𝜃>0
+, efficiency obtains when 𝜄→0
+ if we set 𝜏ℎ=0
+ and implement a corrective subsidy on capital formation financed by the lump-sum tax T.
+
+Proposition 3. 
+Efficiency is not possible at 𝜄>0
+. When 𝜄→0
+, monetary steady state is efficient if 𝜏ℎ=0
+ and 𝜏𝑘=𝜏*
+𝑘
+, where 𝜏*
+𝑘≤0
+, with strict inequality unless 𝜃=0
+, is given by
+
+𝜏*
+𝑘=1−
+∫∞
+0
+^
+𝜀
+⁢𝑑⁢𝐹⁡(
+^
+𝜀
+)+𝛼⁢∫
+^
+𝜀
+<
+˜
+𝜀
+(
+˜
+𝜀
+−
+^
+𝜀
+)⁢𝑑⁢𝐹⁡(
+˜
+𝜀
+)⁢𝑑⁢𝐹⁡(
+^
+𝜀
+)
+∫∞
+0
+^
+𝜀
+⁢𝑑⁢𝐹⁡(
+^
+𝜀
+)+𝛼⁢(1−𝜃)⁢∫
+^
+𝜀
+<
+˜
+𝜀
+(
+˜
+𝜀
+−
+^
+𝜀
+)⁢𝑑⁢𝐹⁡(
+˜
+𝜀
+)⁢𝑑⁢𝐹⁡(
+^
+𝜀
+)
+ 
+.
+ 
+(27)
+Note that proposition 3 does not imply 𝜄=0
+ is always optimal. If 𝜏ℎ≠0
+ or 𝜏𝑘≠𝜏*
+𝑘
+, welfare can be increasing in ι over some range, as verified numerically below.
+
+Before moving to numerical work, consider a pure credit setup with 𝜙⁢𝑀=0
+ (no money) and 𝜒0>0
+, 𝜒𝑗=0
+ for 𝑗≠0
+ (no collateral), which does not mean perfect credit, since 𝑑≤𝜒0
+ may still bind. This version has one nice feature: it immediately gives two equations in (K, w). It also facilitates comparison with other papers on capital reallocation, which do not have money, and helps us compare credit and money quantitatively in section V.E.
+
+Proposition 4. 
+With pure credit, steady state exists. It is unique if α is not too big. It is efficient if χ0 is not too small, 𝜏ℎ=0
+, and 𝜏𝑘=𝜏*
+𝑘
+, as given in (27).
+
+V.  Quantitative Results
+A.  Preliminaries
+Before discussing calibration, it is useful to extend the model on two dimensions. First, in reality, firms hold cash substitutes, such as interest-bearing bank deposits, that can partially reduce the cost of inflation; on the basis of experience, we want to allow for that because it can help quantitative analysis. Hence, we add banks as in Berentsen, Camera, and Waller (2007). After the CM closes and before the DM opens, suppose that some information is revealed that affects agents’ desired 
+^
+𝑧
+. Let this information simply be whether each agent will have a meeting in the next DM. Those that will not have a meeting hold excess cash; those that will have a meeting could use more. This liquidity mismatch creates a role for banks, as in Diamond and Dybvig (1983), except here they deal in money, not goods.
+
+What makes banking essential is that agents cannot easily trade liquidity among themselves using promised CM repayment for the same reason that they cannot trade DM capital using promised CM repayment: lack of commitment and lack of concern for reputation. If bankers have reputational concerns, making their promises credible, plus a comparative advantage in collecting debt, they have a role intermediating the reallocation of liquidity (see Gu et al. 2023 for a survey of banking models with these features). While not crucial for the theory, banks aid in calibration since they prop up money demand. The insight in Berentsen, Camera, and Waller (2007) is that the ability to retrade liquidity makes it less costly, since if you find yourself with more than you need, you can keep it in the bank, at interest, financed by loans to those who want more (another instance of secondary markets affecting demand in primary markets). Conveniently, the only impact this has on the equilibrium conditions is that 1 replaces α in (22).12
+
+Second, we add endogenous DM entry, as in many classic search models (e.g., Diamond 1982; Pissarides 2000) and monetary papers featuring a cost of participating in certain markets (e.g., Chatterjee and Corbae 1992; Chiu 2014). As in Khan and Thomas (2008, 2013), the entry cost γ is random across agents, and for simplicity let us assume that entry happens before seeing the ε shocks, so only those realizing γ below a common threshold γ* enter. With a CRS meeting technology, entry affects the measure of agents in the DM but not individual arrival rates. Like adding banks, making γ* endogenous is not crucial for the theory, but it helps in the quantitative work.
+
+In particular, we found that the model without entry implies a counterfactual positive long-run correlation between inflation and credit conditions, while with entry it implies a negative correlation, consistent with evidence. Moreover, endogenous entry is natural since it means the number of firms trading in the DM—and not just the total quantity traded—varies over time. Calculating the fraction of firms trading in secondary capital markets in Compustat, we find a strong positive correlation with output over the cycle.
+
+B.  Calibration
+We assume here that ε is i.i.d. (but see sec. VI). Also, attention is restricted to the sample period 1984–2018, where the P and R shares are relatively stable. This leads to the parameter values in table 6, and we now describe how they are set.
+
+Table 6.  Calibrated Parameter Values
+Parameter	Value	Targets
+ι	.067	Nominal AAA yield
+β	.9619	Real AAA yield
+ξ	2.2478	Labor hours
+η	.611	Investment/output
+δ	.1	Depreciation rate
+σε	1.2853	Compustat
+σγ	.2217	Acquisition elasticity
+μγ	−1.7684	R share
+χq	.8869	P share
+χΠ	.0989	Cash/output
+τk	.25	Capital tax rate
+τh	.22	Labor tax rate
+G	.1471	Government share
+θ	.50	Symmetry
+View Table Image
+Many parameters are standard in RBC research, which we follow where possible (i.e., we do not take parameter values from the literature but use methods in literature for setting parameters to hit empirical targets). For fiscal policy, we set 𝐺/𝑌=0.16
+, 𝜏𝑘=0.25
+ and 𝜏ℎ=0.22
+, consistent with the methods discussed in Gomme and Rupert (2007). For monetary policy, measuring π by annual CPI inflation, we get 2.65% on average over the sample. For the illiquid nominal rate ι, we use the AAA corporate bond yield of 6.72%, so the illiquid real rate solves 1+𝑟=(1+𝑖)/(1+𝜋)=1.0396
+, and 𝛽=0.962
+.13
+
+Then we use 𝑢⁡(𝑐)=log⁡(𝑐)
+ and set the coefficient on leisure to get hours worked as a fraction of discretionary time 33%, a standard target from time use surveys (Gomme et al. 2004). The depreciation rate is set to 𝛿=0.10
+, which combined with a labor’s share of 𝜂=0.611
+ matches an investment-output ratio of 20%, which we get using private plus public investment, excluding national defense. While there is not universal agreement on labor’s share—for example, Christiano (1988) argues that one can reasonably say that it is anywhere from 0.57 to 0.75, depending on interpretation and mainly how one treats proprietors income—our η is in the range typically used.
+
+For less standard parameters, to begin with credit, we set 𝜒0=𝜒𝑘=0
+ for this reason: the general framework allows several kinds of credit that are interesting in principle, but it would be difficult to handle them all in practice. Most papers use just one; we use two, χq and χΠ. With regard to χq, it is realistic to have deferred payment for new capital partially secured by the value of that capital, the way houses secure mortgage loans (Kiyotaki and Moore 1997). With regard to χΠ, the pledgeability of profit is standard in finance (Holmstrom and Tirole 1998; Li 2022). Hence, we focus on χq and χΠ, but before calibrating them, we need to discuss other parameters that are all set jointly.
+
+We assume that ε is lognormal, with 𝜇𝜀=0
+ and 𝜎𝜀=1.2853
+, in line with previous studies (e.g., Imrohoroglu and Tuzel 2014). To explain, it is standard to fit an AR(1) for the log of productivity, which gives a persistence coefficient 0.70 and standard deviation 0.357 in Compustat after 1984. The unconditional variance and standard deviation are 0.3572/(1−0.72)
+ and 0.50. That is for total productivity, while ε in the model is capital productivity, so 𝜎𝜀=0.50/(1−𝜂)=1.2853
+. Assume that the DM entry cost γ is also lognormal, with mean μγ and standard deviation σγ. Then calibrate μγ and σγ jointly with χq and χΠ to hit four sample averages: R share of 0.32, P share of 0.24, firm money holdings over total output of 4.2%, and the elasticity of acquisition spending with respect to inflation of −0.64.
+
+In these calculations, firm money holdings are checkable deposits plus currency held by nonfinancial corporate and noncorporate businesses (from Federal Reserve Economic Data) divided by output to make the series stationary. For the elasticity of acquisition spending with respect to inflation, it is estimated using Compustat, with acquisitions defined as full sales. We tried a few specifications, with estimates ranging between around −0.3 and −1, and settled on the number in the middle. This method is meant to emulate the one used for household money demand, where cash over output and its elasticity are key targets. While there is existing work on firm money demand (see Gao, Whited, and Zhang 2021 for a recent example) and, in principle, one could appeal to that, it seemed prudent to get numbers from the same data used for reallocation variables.
+
+Regarding the DM entry cost, as usual one must decide how to do the accounting: it is in terms of utility, labor, or numeraire? Our convention is to say that entry requires labor services from a financial sector, which is not modeled explicitly, but the idea is simple enough: participating in the DM uses hours employed in this service multiplied by w and a wage premium parameter, and this is added to CM output to get total output. The wage premium parameter is set to 1.17 to match the share of output in financial services relevant for capital investment, which is 1.1% in data from the US Bureau of Economic Analysis. The same accounting procedure is used in the model and data.
+
+Finally, there is bargaining power. We set 𝜃=1/2
+ as a benchmark, which is natural with ex ante identical agents. However, rather than focusing exclusively on one number, we present results below for different values of θ.
+
+C.  The Long Run
+The first experiment concerns the impact of inflation on steady state. Figure 6 shows the results for three bargaining powers, 𝜃=0.50
+, 0.45, and 0.55, recalibrating other parameters in each case. On the horizontal axis is ι, but this conveys the same information as π in steady state. The top row shows standard macro variables, Y, I, C, and H; the middle row shows reallocation variables, the R and P shares, plus the probability Φ of a full sale and the average DM price; the bottom row shows productivity, welfare, money, and credit. A vertical line indicates a threshold beyond which monetary equilibria vanish, the 
+̅
+𝜄
+ from proposition 2 (although one need not take this too seriously, since presumably monetary equilibria would survive beyond 
+̅
+𝜄
+ if, say, cash were also demanded by households or by firms for reasons other than reallocating k).
+
+Fig. 6. 
+Fig. 6.  Long-run effects of inflation. Vertical lines divide nonmonetary (left) and monetary (right) regions. For productivity, the level in the benchmark calibration is used as the normalization. For welfare, the level at zero inflation is used as the normalization.
+View Large Image Download PowerPoint
+First, notice that although in general output is nonmonotone, the top row shows that at calibrated parameters it decreases with ι, except for low θ and a small range of ι. Second, notice that there is a Phillips curve: H increases with ι, with the same qualification—except for low θ and a small range of ι—and recall (from n. 6) that 1−𝐻
+ can be interpreted as unemployment, not just leisure. The nonmonotonicity of K is more pronounced, but it increases with ι over a big range, and the effect is sizable. The bottom row shows that welfare is maximized at 𝜄=0
+ for these parameters, if not in general, with the welfare cost defined in a standard way as the amount of consumption (in percent) that agents would give up to go from a benchmark inflation to 0. At 𝜃=0.5
+, eliminating 10% inflation is worth around 1.4% of consumption, although 𝜋=0
+ inflation is not the best we can do, and going all the way to 𝜄=0
+ is worth around 5.5%.14
+
+The middle row of figure 6 concerns reallocation. As in the data, in the long run, inflation reduces the liquidity (cash and credit) available for reallocation, decreases the R share, increases the P share, and decreases the probability of full sales. It also raises the DM price (𝑝+𝑑)/𝑞
+, consistent with the facts. Figure 6 shows the average price, which is an average because of course it can vary across bilateral meetings—that is, the law of one price does not hold, also consistent with the facts on secondary capital trade (recall n. 1). The bottom row shows that inflation lowers average productivity by hindering reallocation.
+
+While we interpret figure 6 as providing numerical comparative statics, at the suggestion of a referee, in figure 7 we show how the results compare with long-run data. There is not a unique way to do this, but here the data is filtered to leave very smooth paths for investment and consumption over output as well as the R and P shares. These are compared with model predictions when inflation is the only driving process. Clearly, this is a counterfactual exercise, since many other factors changed over the period and should be interpreted as showing how these variables would have moved, abstracting from innovations in fiscal policy, regulation, demographics, and so on. Hence, one should not expect or desire a perfect fit, but interestingly enough, the match between the model and data is quite good.
+
+Fig. 7. 
+Fig. 7.  Long-run effects in data and model. Circles are scatterplots of data. To capture the long run, we use the previous trend components (frequencies above 9 years) from the band-pass filter. The results are robust with different specification. Solid lines are model predictions.
+View Large Image Download PowerPoint
+D.  The Medium Run
+In between looking at trends, as we did above, and studying business cycles, as we do below, one can ask about the medium run. As also suggested by a referee, one might worry that the long-run findings are basically driven by two observations: once there was high inflation, a low R share, and a high P share; then there was low inflation, a high R share, and a low P share.
+
+To address this, in figure 8 we plot the empirical R and P shares starting in 1971 along with the predictions of the model when we input actual inflation, focusing on the medium run by averaging over 5-year subperiods and looking at the model’s steady state in each one, using both fixed window and rolling averages. The model tracks the data well, with changes in inflation accounting for much of the pattern in the R and P shares not only over two broad episodes, one with high and one with low inflation, but also across all subperiods. As with figure 7, one should not expect a perfect fit, since the exercise abstracts from technical progress, financial innovation, and so on, but the fit is quite good.15
+
+Fig. 8. 
+Fig. 8.  Medium-run effects in data and model. The figure shows the R share and P share from the model (solid lines) and data (dashed lines). A and B are obtained by taking the average in fixed 5-year windows. Therefore, the time series are constant within each 5-year window. C and D are calculated by taking 5-year rolling averages.
+View Large Image Download PowerPoint
+E.  The Short Run
+Next we consider business cycles under two specifications: shocks to only aggregate productivity A and shocks to both A and credit conditions as captured by χq (shocks to other χj generate results that are similar if not exactly the same). The general specification is
+
+ln⁡𝐴𝑡=𝜌𝐴⁢ln⁡𝐴𝑡−1+𝜍𝐴,𝑡 and ln⁡𝜒𝑞,𝑡−ln⁡𝜒𝑞=𝜌𝜒⁢(ln⁡𝜒𝑞,𝑡−1−ln⁡𝜒𝑞)+𝜍𝜒,𝑡,
+where 𝜍𝐴,𝑡∼𝑁⁡(0,𝜎2
+𝐴)
+ and 𝜍𝜒,𝑡∼𝑁⁡(0,𝜎2
+𝜒)
+ are i.i.d. and orthogonal. We use 𝜌𝐴=0.83
+, as is standard in annual models, corresponding to 0.95 in quarterly models; with less precedent, we also use 𝜌𝜒=0.83
+. With only A shocks, 𝜎𝐴=3.83%
+ to match output volatility; with both shocks, 𝜎𝐴=2.76%
+ and 𝜎𝜒=8.21%
+ to match the volatility of output and the R share; then we ask how well the model accounts for other variables’ volatility and correlation with output.
+Columns 1–3 of table 7 show standard deviations from the data, the model with A shocks, and the model with both shocks; columns 4–6 show correlations with Y. Model as well as data statistics are computed after taking logs and filtering, as usual. For Y, C, I, and H, with only A shocks or with both shocks, the model does well accounting for volatility and correlation by the standards of the literature. This is similar to the textbook RBC model and perhaps not too surprising, but it is good to know that our new features do not impair performance of standard theory in capturing the basic facts.
+
+Table 7.  Business Cycle Statistics
+Standard Deviation	Correlation with Output
+Data
+(1)	A Only
+(2)	A and χq
+(3)	Data
+(4)	A Only
+(5)	A and χq
+(6)
+Output	1.73	1.73	1.73	1.00	1.00	1.00
+Consumption	.66	.44	.58	.96	.97	.89
+Investment	2.58	2.89	2.73	.96	.99	.95
+Employment	.88	.45	.76	.85	.97	.92
+Total factor productivity	.69	.62	.48	.76	1.00	.92
+R share	6.44	1.78	6.44	.62	−.99	.47
+P share	9.66	1.17	7.45	−.52	.98	−.55
+Inflation	.89	.39	1.18	.33	−.76	.42
+Note.  Standard deviations of other variables are relative to output.
+
+View Table Image
+How about reallocation dynamics? On that dimension, the model with only A shocks is way off. For the R share, the standard deviation is too small, and the correlation with Y is −0.99 instead of +0.62. For the P share, the standard deviation is far too small, only 1.17 compared with 9.66 in the data, and the correlation with Y again takes the wrong sign, +0.98 instead of −0.52. The conclusion is that with only aggregate productivity shocks, the theory does not at all capture empirical reallocation dynamics.
+
+How about the case with shocks to both χq and A? That does much better—by the standards of the literature, it accounts for the data very well indeed. Of course, it matches the volatility of the R share, since σχ is calibrated to that, but we did not target the correlation between the R share and Y, which now has a similar magnitude and the correct sign. For the P share, the standard deviation and correlation with Y look reasonably good and certainly better than with only A shocks. The conclusion is that with both shocks, the theory does capture empirical reallocation dynamics.16
+
+While the above are perhaps the main findings, there are subsidiary results. First, with only A shocks, inflation is counterfactually countercyclical and not volatile enough, but with both shocks, its correlation with Y has the correct sign and its volatility is not too far off. Also, although not shown in table 7, with both shocks, the correlation between inflation and the R share is 0.53 and the correlation between inflation and the P share is −0.55, which have the right signs if somewhat higher magnitudes than the data, 0.36 and −0.27; with only A shocks, the model does much worse. We do not push this too hard, however, since we have abstracted from features that may have a big influence on inflation dynamics, such as a more detailed model of monetary policy. We prefer to emphasize that the average DM price is procyclical, its correlation with Y being 0.67, and productivity dispersion measured by the coefficient of variation is countercyclical, its correlation with Y being −0.65. Hence, the model can match all the stylized facts on capital reallocation summarized in the introduction.
+
+It is also interesting to see how the two shocks affect different variables. For example, the results on the DM price are driven mainly by A shocks, while the results on productivity dispersion are driven by χq shocks. Moreover, two-shock models have another well-known advantage (Christiano and Eichenbaum 1992): they break the tight relationship between w and H in one-shock models. Although the labor market is not our focus, the correlation between w and H is 0.31 (Christiano and Eichenbaum obtained a correlation of 0.16 from data), which is a big step in the right direction compared with the result with one shock, which is 0.87, and the standard deviation of employment is not bad at all.
+
+One more exercise is to ask how much money matters. Consider the nonmonetary model from proposition 4 with credit shocks. This resembles Khan and Thomas (2013), who do not examine capital reallocation but find that credit shocks help capture empirical features of other variables. The results are in table 8, with parameters recalibrated and, in particular, σχ still set to match the volatility of the R share. On standard macro variables and the volatility of reallocation variables, the nonmonetary model does fairly well, but it gets only about 1/2 of the P share volatility in the data and does not deliver a sufficiently positive correlation between the R share and Y. Having money helps get these right.17 Moreover, obviously a monetary model is useful for understanding the effects of inflation on reallocation, welfare, and so on. In general, the answer is that money matters a lot.
+
+Table 8.  Business Cycle Statistics without Money
+Standard Deviation	Correlation with Output
+Data
+(1)	A Only
+(2)	A and χq
+(3)	Data
+(4)	A Only
+(5)	A and χq
+(6)
+Output	1.73	1.73	1.73	1.00	1.00	1.00
+Consumption	.66	.43	.51	.96	.96	.92
+Investment	2.58	2.93	2.81	.96	.99	.97
+Employment	.88	.43	.66	.85	.97	.90
+Total factor productivity	.69	.63	.54	.76	1.00	.94
+R share	6.44	2.45	6.44	.62	−.97	.25
+P share	9.66	1.16	4.91	−.52	.96	−.37
+Inflation	.89	…	…	.33	…	…
+Note.  Standard deviations are relative to output, except for output itself.
+
+View Table Image
+VI.  Extensions and Ideas for Future Work
+A.  Multiple Liquid Assets
+Suppose that in addition to money and capital, there is a long-lived real asset a in fixed supply with CM price ψ and dividend ρ, say, a Lucas tree, although things are basically the same with bonds.18 In the DM, both z and a can be used for some payments: with probability α1, only z is accepted; with probability α2, only a is accepted; and with probability α3, both are accepted. We also allow general χz and χa—the fraction of money and real asset that can be used in transactions—but fix 𝜒𝑞=1
+ and 𝜒𝑘=𝜒𝜋=0
+, since we are more interested in asset liquidity than credit for this exercise.
+
+Now wealth Ω includes (𝜓+𝜌)⁢𝑎
+, and the CM problem becomes
+
+𝑊⁡(Ω,𝜀)	= 
+max
+𝑐,ℎ,
+^
+𝑎
+,
+^
+𝑘
+,
+^
+𝑚
+ ⁡{𝑢⁡(𝑐)−𝜉⁢ℎ+𝛽⁢𝔼
+^
+𝜀
+⁢𝑉+⁡(
+^
+𝑎
+,
+^
+𝑘
+,
+^
+𝑧
+,
+^
+𝜀
+)}
+subject to 𝑐	=Ω+(1−𝜏ℎ)⁢𝑤⁢ℎ−𝜙⁢
+^
+𝑚
+−
+^
+𝑘
+−𝜓⁢
+^
+𝑎
+.
+ 
+It is routine to derive the Euler equations emulating what was done above. Normalizing the supply of the real asset to 1 and letting 𝑍𝑎=(𝜌+𝜓)⁢𝑎
+, we get
+𝑟+𝛿
+𝐵⁡(𝑤)⁢(1−𝜏𝑘)
+ 
+=𝔼⁢𝜀+(1−𝜃)⁢[𝛼1⁢𝐼s⁡(𝐿1)+𝛼2⁢𝐼s⁡(𝐿2)+𝛼3⁢𝐼s⁡(𝐿1+𝐿2)],
+𝜄	=𝛼1⁢𝜒𝑧⁢𝜆⁡(𝐿1)+𝛼3⁢𝜒𝑧⁢𝜆⁡(𝐿1+𝐿2),
+𝑟⁢𝑍𝑎	=(1+𝑟)⁢𝜒𝑎⁢𝜌+𝛽⁢𝑍𝑎⁢𝜒𝑎⁢[𝛼2⁢𝜆⁡(𝐿2)+𝛼3⁢𝜆⁡(𝐿1+𝐿2)],
+ 
+after imposing steady state, where
+𝜆⁡(𝐿)≡ 
+∬
+𝒮b⁡(𝐿)
+ 
+𝛼⁢𝜃⁢(𝜀−
+˜
+𝜀
+)⁢𝑑⁢𝐹⁡(
+˜
+𝜀
+)⁢𝑑⁢𝐹⁡(𝜀)
+(1−𝜃)⁢𝜀+𝜃⁢
+˜
+𝜀
+ 
+,𝐿1≡
+𝜒𝑧⁢𝑍
+(1−𝜏𝑘)⁢𝐵⁡(𝑤)⁢𝐾
+ 
+,and 𝐿2≡
+𝜒𝑎⁢𝑍𝑎
+(1−𝜏𝑘)⁢𝐵⁡(𝑤)⁢𝐾
+ 
+.
+Notice that L1 and L2 represent the liquidity embodied in money and in real assets. If 𝜃=1
+, the system reduces to two equations in (L1, L2):
+
+𝜄	=𝜒𝑧⁢[𝛼1⁢𝜆⁡(𝐿1)+𝛼3⁢𝜆⁡(𝐿1+𝐿2)],
+𝑟	=Υ+𝜒𝑎⁢[𝛼2⁢𝜆⁡(𝐿2)+𝛼3⁢𝜆⁡(𝐿1+𝐿2)],
+ 
+where Υ≡(1+𝑟)⁢𝜒𝑎⁢𝜌/(1−𝜏𝑘)⁢𝐵⁡(𝑤)⁢𝐾⁢𝐿2
+. Suppose that ρ is small, so that ∂Υ/∂𝐿1
+ and ∂Υ/∂𝐿2
+ are also small. Then
+∂𝐿1
+∂𝜄
+ 
+<0,
+∂𝐿2
+∂𝜄
+ 
+>0,and 
+∂(𝐿1+𝐿2)
+∂𝜄
+ 
+<0.
+Intuitively, as ι rises, the liquidity embodied in cash falls, so agents try to substitute into real assets. This increases the price and hence the liquidity embodied in real assets, but total liquidity, 𝐿1+𝐿2
+, falls. By continuity, if 𝜃<1
+ is not too small and 𝜌>0
+ not too big, the results still hold. Wallace (1980) did not derive these effects, as his framework at the time used Walrasian markets, where liquidity has no role, but they are consistent in spirit with his quotation in the introduction: inflation can reduce overall liquidity even if it directly taxes only cash, not other liquid assets. While it may be interesting to quantify this version, that is left to future research.
+
+B.  Effects of Search Frictions
+Motivated by claims (recall n. 1) for the relevance of search in secondary capital markets, we now ask how much the DM arrival rate α matters.19 One issue is how the business cycle results in table 7 depend on α. For standard macro variables, α does not matter much, which is not too surprising given that both 𝛼=0
+ (the textbook RBC model) and our calibrated α do well on that dimension. Of course, α matters for reallocation dynamics, since at low α the DM shuts down—no one is willing to pay the entry cost—but we are more interested in less obvious results.
+
+Figure 9 shows steady state as α varies, from a low point where the DM is closed to a high point of 1, for three specifications: perfect credit, constrained credit without money, and constrained credit with money. These can all generate the same outcome, since having χk very big in the second case or ι very small in the third case makes them very similar to the first case. To keep outcomes distinct, consider 𝜒𝑘=0.20
+ and 𝜄=0.02
+, with other parameters at calibrated values, making the threshold for the DM to open around 𝛼=1/3
+. Perhaps not surprisingly, higher α raises output and welfare, and the effects are sizable. To put it in perspective, with perfect credit, the impact on welfare of raising α to 1 is similar to the impact of lowering ι from 10% to 0. Qualitatively, raising α works by reducing primary investment, leading to more consumption and leisure, as firms become more confident in the secondary market. Given that search frictions matter, it would be useful in future work to investigate alternative specifications (recall n. 11).
+
+Fig. 9. 
+Fig. 9.  Long-run effects of search frictions. The first column is for the case of perfect credit, the second is for imperfect credit and no money, and the third is for imperfect credit and money. Output when 𝛼=0
+ is normalized to 1. Welfare gain is calculated relative to the calibrated economy in the main text.
+View Large Image Download PowerPoint
+C.  Effects of Fiscal Policy
+Figure 10 plots steady state against τk, ranging from a high of the calibrated 𝜏𝑘=0.25
+ down to large negative values, as suggested by the optimal capital subsidy discussed in section IV. The impact of τk on standard macro variables is big, but that is not too surprising given what we know from other RBC-style models (e.g., McGrattan, Rogerson, and Wright 1997; McGrattan 2012). Moreover, τk decreases the R share and the money demand. Since reallocating capital is less lucrative when its returns are more heavily taxed, firms demand less money and reduce participation in the used capital market. When they participate, they transact less. As a result, investment in the secondary market drops more than investment in the primary market, leading to a lower R share. However, the P share is not much affected.
+
+Fig. 10. 
+Fig. 10.  Long-run effects of capital taxation.
+View Large Image Download PowerPoint
+A caveat for these results is that the revenue change after adjusting τk is made up by adjusting the lump sum T, although it is not especially difficult to change that. Still, we report that steady state welfare is maximized, given calibrated parameters, including τh and ι, at 𝜏𝑘=−0.99
+. Alternatively, the optimum when 𝜏ℎ=0
+ and 𝜄→0
+ is 𝜏*
+𝑘=−0.73
+. Further investigation of fiscal policy in models of capital reallocation might prove interesting. Aruoba and Chugh (2010) solve a Ramsey optimal policy problem in a related model of household liquidity and find that search and bargaining frictions matter a lot; for example, 𝜄=0
+ is not optimal, even with homothetic utility, which contrasts from what is found in reduced-form models (e.g., Chari, Christiano, and Kehoe 1991). However, solving Ramsey problems is beyond the scope of this project.
+
+D.  Decreasing Returns
+A referee urged us to consider a decreasing returns to scale (DRS) production function. We did. Although DRS is more complicated than CRS, since we lose the linearity of profit in k, it is certainly feasible. However, when we tried to calibrate returns to scale, the data pushed us to 1. So we instead forced returns to scale to 0.9 and recalibrated other parameters, taking that as given. Some results changed just a little; for example, for business cycle statistics other than the correlation between the R share and output, the DRS version performs well if there are both productivity and credit shocks and not otherwise, like the CRS version, although the results are perhaps slightly better with CRS.
+
+On other dimensions, forcing returns to scale to 0.9 does much worse; for example, it does not allow us to match the empirical investment-output and consumption-output ratios (this is what we mean when we say that the data pushed us to 1). Moreover, the DRS specification implied that all reallocation involved partial sales: DM trade always left the seller with some k because the marginal product is huge near 𝑘=0
+. Last, although the DRS specification still generates a positive correlation between the R share and output (0.19 under DRS), the CRS specification matches data better on this statistic (0.48 under CRS vs. 0.62 in the data). So while a DRS version is feasible and does fine on some dimensions, we do not think it is an improvement because it does not allow us to study the P share; it is no better and, if anything, slightly worse than CRS on business cycle statistics; calibration wants returns to scale to be 1; DRS make the analysis less tractable; and a DRS version is harder to compare with standard RBC models.
+
+E.  Persistent Shocks
+The firm-specific shocks used above are i.i.d. Now suppose that ε can be decomposed into a persistent component ε1 and a transient component ε2,
+
+log⁡𝜀=log⁡𝜀1+log⁡𝜀2.
+Assume log⁡𝜀1∈{1−𝑥,1+𝑥}
+, with 𝑥∈[0,1)
+, so ε1 is a two-state Markov process, with log ε2 i.i.d. normal. For simplicity, assume the two-state Markov process to be symmetric with a switching probability 1−𝜔
+. Firms’ (
+^
+𝑘
+, 
+^
+𝑧
+) choices in the CM now depend on their persistent component ε1, so we lose the degeneracy of the (k, z) distribution at the end of the CM.20
+For now, let us concentrate on the impact of x on steady state, with 2x being the gap between the persistent component of high- and low-productivity firms. We keep other parameters the same and set 𝜔=0.75
+, then we vary x while keeping average productivity the same. The results are shown in figure 11, where the horizontal axis is the gap and results are reported for both high and low ε1 firms.21
+
+Fig. 11. 
+Fig. 11.  Effects of differences in persistent productivity component.
+View Large Image Download PowerPoint
+If x is larger, high ε1 firms acquire more k in the CM, and low ε1 firms less, reflecting differences in expected future productivity; but cash holdings can go up or down, depending on details including bargaining power. Perhaps surprisingly, for these parameters, high ε1 firms hold less cash. This is because they know that their productivity is likely to be higher, which has two effects: they invest more in the CM and rely less on the DM because they may not be able to get enough in the DM; and in the DM, they can rely more on credit, given 𝜒Π>0
+, since their expected profit is higher because of both higher ε and higher k. Similarly, low ε1 firms substitute out of capital and into cash for two reasons: after the CM closes, it is easier to trade cash, especially given the way we incorporate banking; and for a given χΠ, they cannot rely as much on credit. Also, notice that the R share falls slightly with the gap because the DM is used to partially insure the i.i.d. component of shocks. As the gap increases, the i.i.d. component contributes less volatility and investment shifts to the primary market, so the R share drops. The P share, however, increases, as some firms get bigger and hold less cash.
+
+The last row of figure 11 shows the composition of full sales in terms of trading parties. The first panel is the fraction of full sales where both the buyer and the seller are big, that is, high ε1 firms; the second is the fraction where the buyer is big and the seller small; and so on. As the gap increases, it is easier for big firms to fully purchase small firms, while the reverse is harder. A full sale is most likely to occur when a big firm meets a small firm, although there are also a fair number of full sales between two small firms. Small firms hold a lot of cash, which allows them to fully purchase other small firms if their productivity turns out to be high. On aggregate, one can show analytically that if χΠ is not too high, big firms are more likely to have full purchases than small firms. The intuition is the following. Because of banking, big and small firms have the same marginal benefit from holding liquidity, which is the marginal cost of liquidity, ι. But big firms are more likely to have high productivity and benefit more from purchasing capital, so big firms would value liquidity more than small firms if they are more likely to be constrained. Consequently, big firms must be less likely to be constrained and more likely to have full purchases.22
+
+The model generates distributions of money and capital holdings at the end of CM and at the end of DM. These distributions are special because of the persistent part of firm-specific productivity following a two-point symmetric Markov chain, but more realistic distributions would emerge for more complicated Markov chains. We have also tried some preliminary exploration of the short-run dynamics with persistent firm-specific productivity shocks. The main message is similar to the baseline model. We leave a more detailed analysis for future work because it is computationally much more intense.
+
+VII.  Conclusion
+This paper developed a framework consistent with empirical relationships related to different types of capital reallocation and inflation. Theory predicts that higher inflation lowers liquidity, which decreases (increases) full (partial) sales. This captures long- and medium-run patterns in the data. When credit shocks are added, better credit conditions reduce the demand for money, increasing short- but not long-run inflation as well as increasing (decreasing) full (partial) sales. This captures business cycle patterns in the data. The model can account for business cycle patterns in standard macro variables as well as capital reallocation. The framework also provides qualitative and quantitative insights into the effects of search, bargaining, policy, returns to scale, and persistence. It is also tractable enough to yield analytic results on existence, uniqueness, comparative statics, and policy. There are many other potential applications, some of which were sketched above. Two other ideas suggested by referees are as follows: why is current reallocation high despite an uptick in expected inflation? And how can we measure the extent to which the distinction between partial and full sales is driven mainly by liquidity costs or factors like agency considerations? There is much left for additional research.

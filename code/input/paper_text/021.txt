@@ -1,0 +1,572 @@
+RISK DISCLOSURE, CORPORATE GOVERNANCE AND FIRM VALUE IN AN EMERGING COUNTRY
+
+ABSTRACT
+
+This study aims to examine whether risk disclosure practices and corporate governance mechanisms are associated with the performance of listed companies in Malaysia’s emerging economy. The study uses fixed effects panel data regression models to gauge the relationship using 899 firm-year observations from companies that provide risk disclosures in their annual reports. The findings show that risk disclosure has a significant effect on firm performance. Audit committee monitoring also has a significant relationship with firm performance, while the results regarding the existence of a risk management committee are insignificant. In additional analyses, a composite measure of audit committee effectiveness confirms that its monitoring role improves firm performance significantly. This study addresses risk disclosure practices in an under-researched setting (Malaysia) with different corporate governance models and emerging risk reporting legislation, thus adding to the limited body of knowledge on corporate risk disclosure and corporate monitoring and their impact on firm performance.
+
+Keywords:Risk disclosure, Firm value, Audit committee, Risk management, Corporate governance, Capital structure, Cash holdings.
+
+ARTICLE HISTORY: Received:9 November 2021, Revised:6 May 2022, Accepted:23 May 2022, Published:14 June 2022
+
+JEL Classification:M40; M48; M12; G30; G34.
+
+Contribution/Originality: This study is one of very few studies which contributes new evidence that supports the association between risk disclosure, corporate governance attributes, and firm value in an emerging country. The findings draw attention to the importance of material risk disclosure, the monitoring role of audit committees and the impact on firm value, thus contributing to our understanding of the impact on economic performance.
+
+1. INTRODUCTION
+Recent decades have seen the collapse of large corporations due to weak corporate governance mechanisms and global financial crises. Therefore, there is a pressing need for increased transparency in companies’ annual reports due to increased corporate scandals and fraudulent reporting worldwide. Prominent among the concerns are inadequate governance structures and insufficient corporate disclosure, especially regarding to risk disclosure (Aldhamari, Mohamad Nor, Boudiab, & Mas' ud, 2020; Bravo, 2017; Haj-Salem, Damak Ayadi, & Hussainey, 2020; Kamaruzaman, Ali, Ghani, & Gunardi, 2019). Studies have contended that the main quality of risk disclosure is its capability of reducing information asymmetry (Dobler, Lajili, & Zéghal, 2011; Elshandidy, Shrives, Bamber, & Abraham, 2018; Haj-Salem et al., 2020) by disclosing insights on companies’ risk exposure (Dobler, 2008; Linsley & Shrives, 2006), thus better assessing their risk profile and future value (Bravo, 2017; Dobler et al., 2011). Recent evidence suggests that proper risk-related disclosure often leads to reduced unforeseen losses, lessens reputational damage, and enhances firm performance (Akindele, 2012; Rimin, Bujang, Wong, & Said, 2021). Previous evidence indicates that companies’ lower level of risk disclosure is related to disclosure outlays (Linsley & Shrives, 2006), business-related sensitivity and litigation costs (Dobler, 2008).
+
+Previous studies have examined the association between corporate risk disclosure and firm value (Bravo, 2017; Duppati, Scrimgeour, & Sune, 2019; Erkens, Hung, & Matos, 2012; Haj-Salem et al., 2020). However, the results are largely inconclusive due to different institutional settings and perspectives. Despite the escalating focus on corporate risk disclosure, studies linking mandatory risk disclosure, effective monitoring and firm value are limited, especially in emerging economies (Elshandidy, Neri, & Guo, 2018; Haj-Salem et al., 2020). While there is extensive literature on risk disclosure and firm value in the western world, studies related to the effects of risk disclosure and its potential benefit is still limited and remains largely unexplored (Bravo, 2017; Haj-Salem et al., 2020). In particular, the joint effect of mandatory risk disclosure, corporate governance and firm value is under‐researched, especially in emerging markets, such as Malaysia’s, partly due to its business environment and Asian culture. Research in these areas is of great importance because stakeholders are concerned with understanding corporate risk exposure, the monitoring process and its economic consequences (Haj-Salem et al., 2020).
+
+This study aims to fill in the knowledge gap by investigating the extent of mandatory risk disclosure, corporate governance mechanisms and their joint effect on firm value in an emerging economy. Research on corporate risk disclosure and firm value is abundant in developed nations but sparse in developing countries (Al-Maghzom, Hussainey, & Aly, 2016; Haj-Salem et al., 2020; PERJUCI & HOTI, 2022). More studies are needed to examine the direct link between corporate risk disclosure and its economic significance (Haj-Salem et al., 2020; Khlif & Hussainey, 2016). Moreover, research on mandatory risk disclosure, corporate monitoring, and their effect on firm value has been neglected in accounting literature (Haj-Salem et al., 2020). To the best of our knowledge, limited prior studies have examined the economic effects of mandatory risk disclosure and firm value in emerging economies. This study examines 899 firm-year observations, between 2011 to 2015, from Malaysian companies that provide mandatory risk disclosure. The objective of the study is three-fold. First, we examine whether mandatory risk disclosure has an impact on firm value. Next, we investigate the importance of monitoring mechanisms on firm value and, finally, we analyze whether corporate financial policies jointly affect firm value. Given the theoretical opacity and scholarly interest, more evidence on this topic seems reasonable.
+
+This paper is structured in the following manner: Section two provides the literature review and hypothesis development; section three confers the methodology of the study; section four contains the results and discussion from the robust panel regression analysis; section five explores additional analysis; and section six concludes the study.
+
+1.1. Institutional Background
+Previous studies have argued that a lack of risk disclosure negatively affects shareholders’ ability to adequately assess companies’ financial well-being (Abraham & Shrives, 2014). One of the direct consequences of this is the revised and improved legislation and governance codes, such as the introduction of the Sarbanes–Oxley Act in the US and the Securities Commission Malaysia (2012), which demand increased risk disclosure to improve transparency levels by allowing users of financial statements to better assess a firm’s financial position and going concern status. Risk disclosure is among the requirements prescribed in the Malaysian Code on Corporate Governance (Securities Commission Malaysia, 2012, 2017).
+
+In Malaysia, a company should provide sufficient information regarding its risk management activities as outlined in the Malaysian Code on Corporate Governance (Securities Commission Malaysia, 2012). The Securities Commission Malaysia (SC) has taken coherent steps to bolster the corporate governance (CG) regulatory framework to promote the adoption of world class corporate governance best practices, thus increasing transparency in corporate disclosure among listed companies in Malaysia. Since 2000, the SC has provided a series of guidance, governance codes and best practices, including a revised and improved Malaysian Code on Corporate Governance (MCCG) starting with the (Securities Commission Malaysia, 2000), followed by revised codes of Corporate Governance (Securities Commission Malaysia, 2007, 2012, 2017).
+
+Chapter nine on the continuing disclosure of Bursa Malaysia Listing Requirements (Bursa Malaysia Securities Berhad, 2021) mandates Malaysian companies to immediately disclose material information on business activities that could significantly affect investors’ decisions, such as risk disclosure relating to material prosecution and litigation. Such information is considered so imperative that immediate announcement to the Bursa Malaysia’s website is mandatory as it will have significant implications for the value of the listed issuers and this information is deemed necessary for users or investors to make timely and informed judgments pertaining their investments.
+
+Malaysia is a commonwealth nation where the law and accounting environment closely follows the common law pattern (Maigoshi, Latif, & Kamardin, 2018). Beginning in January 2012, Malaysian listed companies are required to comply with Malaysian Financial Accounting Standards (MFAS), which are equivalent to the International Financial Reporting Standards (IFRS). These standards require a listed company to adequately disclose relevant information and present a fair view of its financial position, and the related disclosures should be useful for users of financial information (Kamaruzaman et al., 2019). Among others, MFRS 137 Provisions, Contingent Liability and Contingent Assets, which is equivalent to the International Accounting Standard 37 (IAS 37), stipulates the accounting and disclosure requirements of events regarding risk transactions, such as provisions, contingent liability and contingent assets. This information is vital to enable users of financial information to understand the nature, amount, and timing of events (International Financial Reporting Standard foundation (IFRS), 2012). Other mandatory disclosures are stipulated in MFRS 9 and MFRS 132, which prescribe accounting treatment and disclosure requirements related to financial instrument disclosure and presentation.
+
+1.2. Risk-Related Disclosures and Firm Value
+Risk-related disclosure in corporate annual reports has fascinated many researchers globally (Al-Hadi, Hasan, & Habib, 2016; Al-Hadi, Al-Yahyaee, Hussain, & Taylor, 2019; Grassa, Moumen, & Hussainey, 2021). Recent major corporate collapse, financial fraud and financial restatements entailed major challenges regarding how companies should disclose their operations and financial results in their annual reports. One of the pressing needs is risk-related disclosure. As risks are inevitable for businesses, listed companies should provide adequate disclosure on how they manage risk, and it is in the best interest of the stakeholders that risk disclosure is reported adequately and in a timely manner.
+
+There is inconclusive evidence on how mandatory and highly sensitive events, such as contingent liability and pending lawsuits, may impact a firm’s disclosure practices. On one hand, studies have shown how risk-related disclosure can have a positive impact on firm value as it could potentially help reduce the likelihood of financial distress (Abdallah, Hassan, & McClelland, 2015; Abdullah, Shukor, Mohamed, & Ahmad, 2015; Nance, Smith Jr, & Smithson, 1993). Studies on the impact of mandatory risk disclosure have found that this disclosure is associated with market-based measures of risk and equity prices (e.g., (Jorion, 2002; Linsmeier, Thornton, Venkatachalam, & Welker, 2002; Rajgopal, 1999)), show a significant reduction in volatility (Ferrell, 2007), and demonstrate positive abnormal returns as well as operating performance (Greenstone, Oyer, & Vissing-Jorgensen, 2006). Some companies increase disclosure on pending litigation risks to undermine potential plaintiffs’ claims that companies withhold information and prevent large stock price declines, which can initiate shareholder lawsuits (Dong & Zhang, 2019). On the other hand, companies are dissuaded from providing risk disclosures, notably forward-looking disclosures, because such revelations can be inaccurate ex post, thus inciting lawsuits (Baginski, Hassell, & Kimbrough, 2002; Rogers & Van Buskirk, 2009). Abraham and Shrives (2014) and Mokhtar and Mellett (2013) argue that lack of risk-related disclosures can negatively affects shareholders’ ability to adequately assess companies’ financial well-being.
+
+In today’s complex business environment, advance technology and political uncertainties, companies may be involved in business disputes due to various reasons including unintended error, negligence and misconduct. These events often lead to companies being sued, which entails contingent liability, and could bring about heavy losses and possibly bankruptcy. Previous evidence from developed markets indicates that there is insufficient risk disclosure related to contingent liabilities during the litigation process, which makes it difficult for users of financial statements to assess a firm’s financial position (Desir, Fanning, & Pfeiffer, 2010). Abbott, Parker, and Peters (2006) pointed out that the lack of transparency of risk-related disclosures on loss contingency have led accounting standards boards, such as the Financial Accounting Standards Board (FASB) and the International Accounting Standards Board (IASB), to revise their standards to include the requirement for more explicit disclosures. The call for significant changes came from the users of accounting information, such as plaintiffs’ lawyers, aggrieved investors, and the public.
+
+From academic and practical perspectives, mandatory risk disclosure is significantly important as it will affect the overall performance and earnings quality of a firm. Not only will it have a significant impact on companies’ reporting quality, it will also cause auditors to adjust audit efforts depending on a firm’s earnings management risks (Abbott et al., 2006). Mandatory risk-related disclosure of pending lawsuits can place a significant financial burden on a company, directly impacting the survival and sustainability of a business. Extant findings from previous studies confirm that litigation risk is a prime issue (Habib, Jiang, Bhuiyan, & Islam, 2014). Additionally, mandatory risks disclosure may cause a severe financial burden for companies and can adversely affect companies’ financial policies, such as future investments and strategic operations. Previous evidence on corporate risk disclosure related to mandatory litigation risks indicates that companies reduce their level of disclosure despite the call for increased transparency (Bourveau, Lou, & Wang, 2018; Kothari, Shu, & Wysocki, 2009; Marinovic & Varas, 2016; Rogers & Van Buskirk, 2009). This study examines the disclosure of corporate litigation as a direct proxy for mandatory risk disclosure. Based on the above arguments, this study hypothesizes the following:
+
+H1: Mandatory risk disclosure adversely affects firm value, ceteris paribus.
+
+1.3. Corporate Governance Mechanisms, Risk Disclosure and Firm Value
+Extant studies have documented a positive and significant correlation between sound corporate governance measures and success (García, Ruiz, & Orta, 2012; Jensen, 1993). In general, corporate governance is defined as a system which directs and controls an organization or company (Institute of Chartered Accountants in England and Wales, 2010). Studies indicate that the implementation of sound corporate governance is crucial to promoting sufficient risk-related disclosures (Al-Shammari, 2014; Elshandidy & Neri, 2015).
+
+1.3.1. Board Size and Firm Performance
+Many companies strive to implement sound corporate governance mechanisms and procedures to ensure that management behaves in the best interests of all stakeholders. Among these monitoring mechanisms is the existence of an effective board, audit committee and risk management committee. The board of directors, being the highest decision-making entity, is expected to play a significant role in monitoring proper governance. Agency theory suggests that a suitable board size may lead to a better decision making process by resolving agency conflicts between management and shareholders (Jensen, 1993), thus delivering better performance. Likewise, the resource dependence theory argues that a larger board size can bring a wide variety of expertise in diverse fields and better provide more resources to a firm through established networking in the industry. Taken together, these two theories support the idea that a larger board is more effective and can significantly improve firm performance (Kalsie & Shrivastav, 2016).
+
+Empirically, studies have provided mixed results on the relationship between board size and firm performance. Too many members on a board can be difficult to manage as they progress toward a more symbolic role rather than perform their supervisory role. Based on 864 firm-year observations of Malaysian listed companies, Al-Absy, Ismail, and Chandren (2019) found that board size, among others, has a significant positive effect on manipulative earnings performance. On the basis of the theories and inconclusive evidence, this study proposes the following:
+H2a: Large board size improves firm value, ceteris paribus.
+
+1.3.2. Audit Committee Attributes, Risk Disclosure and Firm Value
+Good internal control is vital to achieve quality financial reports. The audit committee has a significant role in planning and monitoring corporate risk management activities toward the attainment of a company’s goals. Companies establish their audit committee team to help strengthen internal mechanisms and ensure the accuracy and impartiality of financial reports. Extant accounting and finance literature has analyzed characteristics of audit committees, such as size, meeting frequency, independence, and financial expertise, on firm performance. Two audit committee characteristics are investigated in this study, namely size and meetings. The Institute of Internal Auditors (Internal Audit Foundation, 2020) emphasized that the internal audit process is crucial in improving governance effectiveness and helping companies to accomplish their objectives and performance goals. A growing body of research proposes that audit committee attributes play a prominent role in influencing a firm’s effectiveness (Al-Matari, Al-Swidi, Fadzil, & Al-Matari, 2012; García et al., 2012). Resource dependence theory posits that a large audit committee increases the effectiveness of its oversight role as it comprises a broader spectrum of knowledge and vast experience from its members (Shukeri & Islam, 2012). On the other hand, a larger audit committee size can be less effective due to poor coordination and can lead to more frequent meetings (Aldamen, Duncan, Kelly, McNamara, & Nagel, 2012; Pucheta‐Martínez & De Fuentes, 2007).
+
+The frequency of audit committee meetings is the number of times the committee meets in a year. During these meetings, the committee often monitors the company’s internal control processes and provides reliable information to shareholders. The frequency of committee meetings each year is often considered to be a crucial aspect for monitoring its effectiveness (Lin, Li, & Yang, 2006). Extant literature on audit committee characteristics postulates that the frequency of meetings is associated with the quality of financial reporting (Abbott et al., 2006; Al-Matari et al., 2012; Be´dard, Chtourou, & Courteau, 2004; Raghunandan & Rama, 2007; Sharma, Naiker, & Lee, 2009). Audit committees that meet regularly are better informed on internal control issues and can promptly take the required action to address problems as they arise. Frequent audit committee meetings have more time to conduct the financial reporting process, recognize management risk, and monitor internal controls (Al-Matari et al., 2012). Consequently, firm performance is expected to increase with frequent audit committee meetings. On the contrary, Sharma et al. (2009) argued that audit committees that recognize potential financial reporting issues may want to meet more frequently, which later necessitates a financial restatement. In this case, more frequent meetings may indicate problems in a company’s internal controls or financial issues, and therefore would have a detrimental effect on firm performance. Based on the above evidence, this study argues that a larger audit committee size and more frequent meetings offer better monitoring and hence provide better avenues to improve firm performance. Thus, the study proposes the following hypotheses:
+
+H2b: A large audit committee size improves firm value, ceteris paribus.
+H2c: Frequent audit committee meetings improve firm value, ceteris paribus.
+
+1.3.3. Risk Management Committee and Firm Performance
+Risk management plays a significant role in providing reasonable assurance that any adverse impact in the foreseeable future has been properly mitigated. Therefore, businesses must implement a procedure to manage and mitigate these risks. Companies differ in their approaches towards managing risks; some companies include risk management as part of the audit committee function (Abdullah & Shukor, 2017). Recent evidence on the increasing collapse of large companies around the globe has prompted the demand for an independent oversight committee to assist the board in monitoring and assessing risk management activities. Extant studies point out that the failure of risk assessment and monitoring largely contributed to the 2008 global financial crisis (Conyon, Judge, & Useem, 2011; Kirkpatrick, 2009). The requirement to set up a separate risk management committee (RMC) in Malaysia is still voluntary, even though it is being strongly recommended in many countries worldwide (Aldhamari et al., 2020). Several studies have reported inconclusive evidence on the relationship between an independent RMC and firm performance. The results vary from no association to a negative association between a stand-alone RMC and firm performance. For example, Ali, Besar, and Mastuki (2017) and Ong, Heng, Ahmad, and Muhamad (2015) found an insignificant relationship between the existence of an independent RMC and incidents of financial restatement.
+
+Having an independent risk management committee (RMC) is still an ongoing debate as it would be costly and redundant. Nevertheless, signaling theory suggests that if establishing an RMC is costly, when a company voluntarily forms an RMC, it possibly provides a credible signal to stakeholders regarding its dedication to a high standard of risk management practices. Advocates of a separate RMC suggest that proper functioning of an RMC significantly reduces agency costs by controlling directors’ opportunistic behaviors in terms of risk taking and risk control. Jia and Bradbury (2020) found that companies with a separate RMC have better financial performance, growth opportunities, and lower financial hardship relative to those where the risk management pursuits are immersed in an existing board. Based on signaling theory and empirical evidence, we argue the following:
+
+H2d: The existence of an independent risk management committee improves firm performance, ceteris paribus.
+
+1.3.4. Cash Policy and Firm Performance
+There is inconclusive evidence on the vital role of cash holdings on firm performance. Extant studies support the notion of favorable cash holdings as it provides a precautionary buffer against financial distress and reduces the problems associated with underinvestment due to the lack of funds or high external financing (Azmat, 2014; Lee & Powell, 2011). Under the trade-off theory, it is postulated that a company holds cash to allow it to pursue optimum investment opportunities, especially when external financing is limited and costly. Hence, by holding enough cash, firms can avoid missing opportunities to finance worthwhile projects that can lead to improved firm performance. In addition, Baum, Caglayan, Ozkan, and Talavera (2004) reported that firms raise their level of cash as a preventative measure, especially in times of great uncertainty, to offset adverse effects of negative cash flow shocks. On the other hand, having too much idle cash is inefficient and may lead to unwarranted use of a company’s resources as entrenched managers could take advantage of perquisites or invest in bad projects. Extant studies advise companies to refrain from holding excessive amounts of cash as it has a negative influence on firm performance (Dittmar, Mahrt-Smith, & Servaes, 2003; Mikkelson & Partch, 2003).
+
+However, research on the importance of cash holdings in the event of corporate litigation risk is rather sparse, especially in emerging economies. The existence of litigation risks significantly alters corporate cash holdings in anticipation of future lawsuit settlements, cash-flow shocks and associated expenses. Companies with pending lawsuits have a more prevalent incentive to hold more cash to avoid external financing. Using a unique hand-collected dataset of the US companies listed on the S&P 1500, Malm and Kanuri (2017) confirmed that an increase in litigation risk is positively related with significant cash holdings. Likewise, based on 13,589 class action lawsuit observations in the US, Arena and Julio (2015) substantiated that companies increase their cash holdings in the face of increased litigation risks. Based on the above arguments, this study hypothesizes the following:
+
+H2: High levels of cash holdings improve firm performance, ceteris paribus.
+
+1.4. Capital Structure Policy and Firm Performance
+In a perfect capital market where there are no taxes or transaction costs, a firm’s level of leverage would not affect the cost of capital or the value of the firm (Modigliani & Miller, 1958). However, extant empirical evidence on the relationship of leverage and firm performance is contradictory and mixed (Ebaid, 2009; Graham & Harvey, 2001; Yazdanfar & Öhman, 2015). Based on agency theory, Jensen (1986) argues that debt financing has a positive effect on firm performance as managers are pressured to work more efficiently. On the other hand, a high level of leverage leads to a higher likelihood of default payments and financial distress, thus implying a negative association between level of debt and firm performance. Furthermore, the pecking order theory argues that firms prefer to finance projects using internal funds (Myers, 1984). External funds are avoided as they could signal that the firms are overvalued. Results found by Zeitun and Tian (2007) and Abor (2007) support the financial distress argument and pecking order theory. Zeitun and Tian (2007) showed that debt level has a negative relationship with both accounting and market performance, while Abor (2007) reported a negative relationship between leverage and firm value in small and medium-sized enterprises in South Africa. Nahar, Azim, and Jubb (2016) examined the relationship between risk disclosure, cost of capital and performance among 30 listed banks on the Dhaka Stock Exchange (DSE) between 2009 and 2012. They argued that risk disclosure better aligns the interests of managers and shareholders, which reduces agency costs and agency conflicts, thus helping to improve firm value in the long run. Based on these arguments and the existence of “bad news”, such as pending lawsuits, a higher level of leverage would increase the likelihood of bankruptcy as companies may have trouble meeting their obligations, hence we argue the following:
+
+H3: A high level of debt impairs firm performance, ceteris paribus.
+
+1.5. Control Variable
+In order to account for various determinants of firm value, the study utilizes firm size as the control variable. Firm size is measured by the natural log of market value. Previous studies have also employed this variable in their studies (Dash & Raithatha, 2018; Malm & Kanuri, 2017; Nahar et al., 2016; Sekome & Lemma, 2014; Wu, Peng, Shan, & Zhang, 2020).
+
+1.6. Dependent Variable
+The dependent variable for this study is firm value. Previous studies have employed various metrics of firm values using accounting, economics and market performance. Return on assets (ROA), return on equity (ROE) and Tobin’s Q are proxies for financial performance extensively used by previous researchers (Buallay, 2019; Pavelkova, Zizka, Homolka, Knapkova, & Pelloneova, 2021).
+
+2. METHODOLOGY
+Sample firms were initially collected from the Bursa Malaysia website comprising of all firms that made mandatory risk disclosures on pending litigation cases between 2011 and 2015. The first database on material litigation was first made available on the Bursa Malaysia website in 2011. Detailed information pertaining to material litigation disclosures was cross-checked with information disclosed in annual reports. Information on corporate governance attributes were manually collected from companies’ annual reports, while all other financial data were extracted from the Thomson DataStream database. Descriptive and panel data multiple regression analyses were employed to answer the research questions. Equation 1 presents the model estimated for the study to assess the effects of risk-related disclosure, financial policy, and corporate monitoring on firm performance:
+
+
+Table 1 defines operational measurement of the variables used. FV represents firm value using both accounting and market performance. This study employed return on assets (ROA) and return on equity (ROE) as proxies for accounting performance, while Tobin’s Q was used as a proxy for market performance. Cash holdings (CASH) and leverage (LEV) are proxies for financial policies. CASH refers to cash holdings measured using the cash and cash equivalent to total assets, while LEV is estimated using the ratio of total debt to total assets. LITCOSTA is a proxy for mandatory risk disclosure measured as the amount of litigation costs to total assets reported in a company’s annual report or as provided in an announcement on the Bursa Malaysia website. Four corporate governance mechanisms are examined: board size (BSZ), audit committee size (ACSZ), audit committee meetings (ACMEET) and the existence of an independent risk management committee (RISK). RISK is a dummy variable for the existence of a stand-alone risk management committee. Size is the control variable and is measured using the natural log of market value.
+
+Table 1. Variables and operational definitions.
+Variables	Operational Definition
+FV	Firm value is measured using ROA, ROE and Tobin’s Q. ROA is net income to total assets, ROE is net income to total equities, and Tobin’s Q is the market to book value.
+CASH	Cash and equivalents to total assets.
+LEV	Total debt to total assets.
+LITCOSTA	Proxy for mandatory risk disclosure. It is the estimated amount of pending litigation costs to total assets.
+BSZ	Board size, measured as the number of directors on the board.
+ACSZ	Audit committee (AC) size, measured as the number of audit committee members.
+ACMEET	The frequency of meetings per year.
+RISK	A dichotomous variable where 1 indicates the existence of a risk management committee and 0 otherwise.
+SIZE	The size of the company measured using the natural logarithm of market value.
+3. RESULTS AND DISCUSSION
+Initially, a total of 189 companies made mandatory risk disclosure announcements on Bursa Malaysia’s website between 2011 and 2015 as a result of various business reasons ranging from contract breaches and disputes with local land authorities and tax and customs departments to alleged fraud and misrepresentation of financial statements. The announcements were cross-checked with the companies’ annual reports to see whether companies disclosed the required information. After considering missing data and delisted firms, there were 899 observations. These companies were the defendant companies which had been sued for several reasons.
+
+Table 2. Pearson correlation matrix.
+No.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+1
+1.000
+2
+0.8327**
+1.000
+3
+0.1276**
+0.0650**
+1.000
+4
+0.1309*
+0.1662*
+0.1304*
+1.000
+5
+-0.130**
+-0.222**
+0.2275**
+-0.208*
+1.000
+6
+-0.012**
+0.0048*
+0.0081*
+0.0900*
+-0.0233*
+1.000
+7
+0.1670**
+0.1454**
+0.2502*
+0.0464*
+0.1199*
+-0.048*
+1.000
+8
+0.1051*
+0.0502*
+0.1816*
+0.0198
+0.1108*
+-0.014*
+0.3920*
+1.000
+9
+-0.102**
+-0.121**
+0.1015
+0.0454
+0.1239
+-0.009
+0.1822
+0.1700
+1.000
+10
+0.0069
+-0.0015
+-0.0122
+0.0196
+0.1126
+-0.019
+0.2547
+0.3352
+0.2286*
+1.000
+11	0.3304**	0.3068**	0.4512**	0.0831**	0.0749**	-0.038*	0.5158	0.3070	0.2699	0.1618	1.000
+Note: 1 is ROA (return on assets), 2 is ROE (return on equity), 3 is Tobin’s Q (market to book value), 4 is CASH (cash holdings policy), 5 is LEV is (capital structure policy), 6 is LITCOST (mandatory risk disclosure measured as estimated litigation cost to total assets), 7 is BSZ (board size), 8 is ACSZ (audit committee size), 9 is ACMEET (audit committee meeting frequency), 10 is RMC (risk management committee), and 11 is firm size (SIZE).
+** Correlation is significant at the 0.01 level (2-tailed).
+* Correlation is significant at the 0.05 level (2-tailed).
+
+All continuous variables were winsorized to reduce problems associated with outliers and to reduce variability of the data. A Pearson correlation analysis was conducted and the results are presented in Table 2. Except for the correlation between ROA and ROE, all other results showed a value of lower than 0.4, which implies that there is no serious correlation issue. Furthermore, the variance inflation factor (VIF) test showed that none of the variables has a VIF of more than 10, which suggests that there is no serious multicollinearity issue among the independent variables.
+
+Table 3 describes the statistical information for all variables used in the regression analysis. The dependent variable is firm value measured as ROA, ROE, and Tobin’s Q. The average and median ROA for the sample are -7.97% and 3.74%, respectively. The minimum and maximum ROA values are -6751.54% and 34.52%, respectively. For ROE measure, the median is 5.46%, while the maximum value is 154.94%. For market performance (Tobin’s Q), the mean and median values are 1.23 and 0.86, respectively, while the maximum value is 30.10. This study employs cash holdings and the level of leverage for corporate financial policy. On average, the sample firms have a cash holding of 13% of total assets, while the average leverage level is 48%. The maximum value of leverage level is very high at 591%, indicating a possible cause of financial distress in the sample firms.
+
+The maximum litigation cost faced by the sample firms is RM 6,475,000,000, with an average value of RM 59,433,000. Board size ranges from a minimum of four directors to a maximum of 14 directors. The average audit committee size for the sample is three, and they meet five times a year. Of the sample companies, 24% have a separate risk management committee, while for the rest of the companies, risk management activities are carried out by the audit committee. Firm size was measured using the natural log of market value, with an average value of 19.33.
+
+Table 3. Descriptive analysis.
+Variable	
+Mean
+Median
+Min.
+Max.
+Std. Dev.
+ROA (%)	
+-7.97
+3.74
+-6751.54
+34.52
+238.40
+ROE (%)	
+-4.58
+5.46
+-2459.40
+154.94
+125.69
+Tobin’s Q	
+1.23
+0.86
+-4.00
+30.10
+1.85
+CASH	
+0.13
+0.1
+0.00
+1.00
+0.12
+LEV	
+0.48
+0.44
+0.01
+5.91
+0.38
+LITCOST (RM’000)	
+59,433
+736
+0
+6,475,000
+466,043
+LITCOSTA	
+1.32
+0
+0.00
+338.79
+20.67
+BSZ	
+7.39
+7
+4.00
+14.00
+1.89
+ACSZ	
+3.24
+3
+2.00
+6.00
+0.53
+ACMEET	
+5.24
+5
+1.00
+16.00
+1.55
+RMC	
+0.24
+0.00
+0.00
+1.00
+0.43
+SIZE (LNMV)	
+19.33
+19.02
+14.48
+24.97
+1.86
+Note: ROA is return on assets, ROE is return on equity, Tobin’s Q is market to book value, CASH is cash holdings policy, LEV is capital structure policy, LITCOST is total litigation cost in RM ‘000, LITCOSTA is mandatory risk disclosure measured as estimated litigation cost to total assets, BSZ is board size, ACSZ is audit committee size, ACMEET is audit committee meeting frequency, RMC is the dichotomous variable on the existence of a risk management committee, SIZE is firm size.
+
+A series of panel data regression analyses were estimated to determine the most appropriate and efficient model. A pooled OLS estimator was conducted followed with a random effects panel data regression analysis. The results from the Breusch–Pagan Lagrange multiplier test showed that the use of a random effects panel regression estimator is the most appropriate. Next, both random effects and fixed effects regressions were tested. The Hausman test confirmed that the fixed effects panel data estimator is an efficient estimator. Table 4 provides the results of the panel data fixed effects regression based on a robust standard error for the three measures of performance—ROA, ROE and market performance (Tobin’s Q).
+
+The study hypothesizes that the level of cash holdings has a significant positive impact on firm performance due to the anticipation of future settlements of lawsuits and expenses. The results showed that cash holdings (CASH) have a positive insignificant relationship with all measures of firm value (ROA, ROE, and Tobin’s Q). It is argued that companies hold a certain level of cash to cover sudden or unforeseen situations to avoid having to sell assets or raise funds externally. For this study, it is assumed that companies hold cash as a precautionary measure due to the uncertainty of litigation outcomes and possibly to avoid missing opportunities to invest in worthwhile projects. The results show that the positive effect of holding cash to finance profitable projects in the future is offset by the prospect that the cash might be used to settle litigations brought by plaintiffs. Therefore, the level of cash failed to explain firm value.
+Previous studies indicate that a high level of debt or leverage has a significant negative impact on firm performance. The results in Table 4 confirm that leverage (LEV) has a negative and significant relationship with ROA, ROE and Tobin’s Q. Therefore, we can confer that the results support the financial distress argument and pecking order theory and is consistent with the results of prior studies (Bourveau et al., 2018; Rogers & Van Buskirk, 2009). Thus, the results confirm that a high level of leverage negatively affects firm value.
+
+Table 4. Fixed effects panel data regression with robust standard error for Models 1, 2, and 3.
+Variable	
+Model 1
+ROA
+Coefficient
+(p-value)
+Model 2
+ROE
+Coefficient
+(p-value)
+Model 3
+Tobin’s Q
+Coefficient
+(p-value)
+CASH	
+3.651
+(0.646)
+7.252
+(0.682)
+0.0168
+(0.972)
+LEV	
+-18.346
+(0.000)***
+-26.545
+(0.035)***
+-0.510
+(0.082)*
+LITCOSTA	
+-0.116
+(0.027)**
+-0.153
+(0.048)**
+-0.007
+(0.047)**
+BSZ	
+0.410
+(0.304)
+0.568
+(0.484)
+0.007
+(0.826)
+ACSZ	
+-0.281
+(0.812)
+-0.405
+(0.883)
+0.088
+(0.455)
+ACMEET	
+-0.954
+(0.002)***
+-2.670
+(0.001)***
+-0.034
+(0.082)*
+RISK	
+1.512
+(0.429)
+2.032
+(0.563)
+-0.072
+(0.409)
+SIZE	
+2.658
+(0.010)**
+4.606
+(0.054)*
+0.612
+(0.000)***
+Constant	
+-86.544
+(0.000)***
+-63.749
+(0.018)**
+-10.2525
+(0.000)***
+Sigma u	
+6.59
+18.39
+1.018
+Sigma e	
+6.44
+15.44
+0.502
+rho	
+0.51
+0.56
+0.804
+Note: *, ** and *** denote significance at the 10 %, 5% and 1% levels, respectively.
+ROA is return on assets, ROE is return on equity, Tobin’s Q is market to book value, CASH is cash holdings policy, LEV is capital structure policy, LITCOSTA is mandatory risk disclosure measured as estimated litigation cost to total assets, BSZ is board size, ACSZ is audit committee size, ACMEET is audit committee meeting frequency, RMC is the dichotomous variable on the existence of a risk management committee, SIZE is firm size.
+
+The results for mandatory risk disclosure (LITCOSTA) are all significantly negative, thus supporting the hypothesis that mandatory risk disclosure of corporate lawsuits has a detrimental effect on all measures of firm value. The result regarding the association between litigation risk and firm value is consistent with previous evidence, such as Dash and Raithatha (2018), who found that litigation risk on disputed tax contingent liability has a significant detrimental effect on ROA, ROE and Tobin’s Q. Likewise, Wu et al. (2020) found a significant negative impact of litigation risk on firm performance in Chinese listed companies.
+
+The number of directors on the board is an indispensable component of the internal corporate governance mechanism in enhancing management’s effectiveness. Two competing hypotheses best describe the relationship between board size and firm performance. The agency framework by Jensen (1993) proposes that a limited board size can lead to a better decision-making process by resolving agency conflicts, whereas a large board size is less likely to function efficiently and it would be problematic to control. On the other hand, resource dependence theory argues that a larger board can bring a pool of expertise in diverse fields, hence providing more resources to the firm through recognized networking in the industry which eventually enhances firm performance (Zhou, Owusu-Ansah, & Maggina, 2018). The results for board size (BSZ) are all positive but insignificant for all models, thus failing to support the resource dependence claim that a large board size improves firm performance.
+
+An audit committee (AC) is an integral part of good corporate governance in providing better quality financial reports. Studies have used agency theory and the resource dependence framework to support the relationship between AC size and firm performance. Agency theory argues that the interests of principals and agents are often diverged and that the principals monitor and limit self-interest activities of agents through incentives (Jensen. & Meckling, 1976). Resource dependence theory suggests that a larger audit committee size provides more expertise on how to better operate the firm, thus contributing to better firm performance. The results for AC size in all models of performance are insignificant and thus do not support the idea that AC size affects firm value in Malaysia. Similarly, Zhou et al. (2018) did not find a significant relationship between AC size and ROA. The results for AC meeting frequency (ACMEET) are all negative and significant, which indicates that frequent AC meetings impair firm value for companies with existing litigation risks. Our results contradict previous evidence on the association of frequent AC meetings and firm performance, such as in the study of Alzeban (2020), who found that frequent AC meetings improved firm performance for 119 companies in Saudi Arabia and the UAE.
+
+For risk management disclosure, the study hypothesizes that risk-related disclosure has a significant adverse effect on accounting and market performance. It is argued that notorious and bad news disclosures tarnish companies’ reputations, thus affecting their ability to generate income, which leads to negative consequences for profitability and firm value. On the other hand, the existence of a risk management committee on the board implies that a company is serious about managing and monitoring risk, which indicates that strong governance and commitment is in place. Therefore, a positive relationship between the existence of a risk management committee and performance is expected. Prior evidence supports the view that the presence of an independent risk management committee enhances the board’s supervisory role and increases the efficiency of the internal corporate control system, which leads to improved firm performance (Aldhamari et al., 2020; Rimin et al., 2021; Subramaniam, Lisa, & Jiani, 2009). Though the result regarding the existence of a risk management committee is positive, it is insignificant, thus failing to support the conjecture that a risk management committee provides an essential oversight role on firm performance. Therefore, mandating an independent risk management committee to provide an effective risk oversight function in Malaysia is not yet proven. However, this result should be interpreted carefully as it was voluntary to have a stand-alone risk management committee during the period under study and it has only recently become advisable (Securities Commission Malaysia, 2017).
+
+Regarding the control variable, the results show that size has a positive and significant relationship with firm value. This implies that larger firms with litigation risks are more likely to experience better performance. One reason for this is that large firms have more resources to fight against any litigation proceeding.
+
+4. ADDITIONAL ANALYSIS
+Further analyses were conducted to gauge the monitoring role of an audit committee in a firm. The first analysis was based on the best practice of audit committee meetings per year. A new variable, ACMEETBEST, was created to replace ACMEET. ACMEETBEST is a dichotomous variable taking the value of 1 if the AC meets between three and five times per year, and 0 otherwise. Equation 2 was created to assess the effects of audit committee best practice, risk related disclosure, financial policy, and corporate monitoring on firm performance as follows:
+
+
+
+Table 5. Additional analysis on the fixed effects panel data regression for Models 4, 5, and 6.
+Variables	
+Model 4
+ROA
+Coefficient (p-value)
+Model 5
+ROE
+Coefficient (p-value)
+Model 6
+TOBIN’S Q
+Coefficient (p-value)
+CASH	
+5.194
+(0.035)**
+17.552
+(0.000)***
+0.849
+(0.000)***
+LEV	
+-7.66
+(0.000)***
+-21.667
+(0.001)***
+0.218
+(0.144)
+LITCOSTA	
+-0.127
+(0.097)*
+0.006
+(0.997)
+0.015
+(0.430)
+BSZ	
+0.062
+(0.742)
+0.071
+(0.720)
+0.009
+(0.605)
+ACSZ	
+0.060
+(0.297)
+-0.790
+(0.671)
+0.104
+(0.185)
+ACMEETBEST	
+4.795
+(0.000)***
+13.092
+(0.000)***
+-0.146
+(0.115)
+RISK	
+-0.222
+(0.767)
+0.631
+(0.733)
+-0.222
+(0.767)
+SIZE	
+1.86
+(0.000)***
+4.487
+(0.000)***
+0.233
+(0.000)***
+Constant	
+-35.650
+(0.000)***
+-86.291
+(0.000)***
+-35.650
+(0.000)
+Prob > F	
+0.000
+0.000
+0.000
+R-squared	
+0.283
+0.218
+0.247
+Note: *, ** and *** denote significance at the 10 %, 5% and 1% levels, respectively.
+ACMEETBEST is a dichotomous variable taking the value of 1 if the AC meets between three and five times per year, and 0 otherwise. This is the best practice meeting frequency as suggested by the Malaysian Corporate Governance Code. ROA is return on assets, ROE is return on equity, Tobin’s Q is market to book value, CASH is cash holdings policy, LEV is capital structure policy, LITCOSTA is mandatory risk disclosure measured as estimated litigation cost to total assets, BSZ is board size, ACSZ is audit committee size, RMC is the dichotomous variable on the existence of a risk management committee, SIZE is firm size.
+
+All variables are as previously defined in Table 1, except ACMEETBEST. Models 4, 5 and 6 differ in terms of the dependant variable measured. Table 5 presents the fixed effects panel data with robust standard errors results for Models 4, 5 and 6. Cash holdings is significantly positively related to firm value in all models. Capital structure continues to be negatively associated with firm value, while mandatory risk disclosure is only negatively significant in Model 4. ACMEETBEST is significantly positive at 1% in Models 4 and 5, confirming that the best practice frequency of AC meetings per year significantly improves firm value. Size as a proxy for information asymmetry remains significantly positive and influences firm value in all models. All other governance variables are not associated with firm value in all models.
+
+AC effectiveness is an important criterion in assessing governance monitoring. From a resource dependence perspective, AC effectiveness is bound to improve when there are more AC members as it allows a wider competency of knowledge, experience and connections (Oussii & Taktak, 2018; Sultana, Sigh, & Van Der Zahn, 2015) to help the committee to resolve potential conflicts in the financial reporting process, thus improving firm performance. The next analysis employs a composite variable to measure AC effectiveness in Models 7, 8 and 9. Models 7, 8 and 9 differ in terms of the dependant variable used for financial performance. A new variable, ACEFFECTIVE, was created to assess AC effectiveness, whereby the variable adds both AC size (ACSZ) and AC best practice meeting frequency (ACMEETBEST) as suggested by the Malaysian Corporate Governance Code. This new variable replaces ACMEETBEST that was used in Models 4, 5, and 6. Equation 3 examines the effects of ACEFFECTIVE on firm performance.
+
+
+Table 6 presents the fixed effects panel data with robust standard error results for Models 7, 8 and 9. As expected, cash holdings continue to be significantly positively related to firm value in all models. Likewise, capital structure continues to be negatively associated with firm value in Models 7 and 8. ACEFFECTIVE is significantly positive at 1% in Models 7 and 8, confirming that AC effectiveness significantly improves firm value. The existence of a risk management committee (RISK) is significantly negative in Models 7 and 9, while SIZE as a proxy for information asymmetry continues to have a significant positive influence on firm value in all models. All other governance variables are not associated with firm value.
+
+Table 6. Additional analysis on the fixed effects panel data regression for Models 7, 8 and 9.
+Variable	
+Model 7
+ROA
+Coefficient (p-value)
+Model 8
+ROE
+Coefficient (p-value)
+Model 9
+TOBIN’S Q
+Coefficient (p-value)
+CASH	
+4.684
+(0.063) *
+15.236
+(0.008)***
+0.884
+(0.000) ***
+LEV	
+-8.099
+(0.000) ***
+-24.254
+(0.000) ***
+0.248
+(0.111)
+LITCOSTA	
+-0.122
+(0.231)
+0.446
+(0.793)
+0.014
+(0.456)
+BSZ	
+-0.505
+(0.792)
+-0.234
+(0.615)
+0.016
+(0.396)
+ACSZ	
+-
+-
+-
+ACMEETBEST	
+-
+-
+-
+ACEFFECTIVE	
+2.414
+(0.000) ***
+5.264
+(0.000) ***
+-0.003
+(0.956)
+RISK	
+-1.172
+(0.075) *
+-2.394
+(0.174)
+-2.444
+(0.01) ***
+SIZE	
+1.619
+(0.000) ***
+3.894
+(0.000) ***
+0.245
+(0.000) ***
+Constant	
+-34.791
+(0.000)
+-83.326
+(0.000) ***
+-3.840
+(0.000) ***
+Prob > F	
+0.000
+0.000
+0.000
+R-squared	
+0.263
+0.188
+0.242
+Note: *, ** and *** denote significance at the 10 %, 5%, 1% levels, respectively.
+ACEFFECTIVE is a composite variable adding the value of AC size and AC best practice meeting frequency as suggested by the Malaysian Corporate Governance Code. ACMEETBEST is a dichotomous variable taking the value of 1 if the AC meets between three and five times per year, and 0 otherwise. ROA is return on assets, ROE is return on equity, Tobin’s Q is the market to book value, CASH is the cash holdings policy, LEV is the capital structure policy, LITCOSTA is mandatory risk disclosure measured as the estimated litigation cost to total assets, BSZ is board size, ACSZ is audit committee size, RMC is the dichotomous variable on the existence of a risk management committee, and SIZE is firm size.
+
+5. CONCLUSIONS
+The study investigates whether mandatory risk disclosure and corporate monitoring practices are associated with firm value. Previous studies on risk-related disclosure and firm value provide mixed evidence. This study was based on companies with pending material litigation cases from 2011 to 2015. In this regard, the study addresses the knowledge gap that is viewed to be less explored, especially in emerging economies. The results based on the fixed effects panel data regression support the view that mandatory risk disclosure of bad news, such as litigation, significantly impairs a company’s accounting and market performance. Likewise, a firm’s level of leverage has a strong negative association with all measures of firm value (ROA, ROE, and market performance). Corporate monitoring mechanisms and audit committee effectiveness have a significant relationship with firm value, while the existence of a risk management committee, board size, and audit committee size have no significant relationship with firm value.
+
+This paper is among the limited evidence on mandatory disclosure practice and firm value in emerging economies, thus contributing to our understanding of its significant impact on economic performance. It also expands the literature on the role of corporate monitoring with regard to audit committee effectiveness on potentially providing an early signal of a firm’s deteriorating performance. The findings draw attention to the importance of material risk disclosure and the monitoring role of the audit committee and its impact on firm value. This study offers valuable input for investors, academicians, analysts and regulators on the effect of mandatory risk disclosure and corporate monitoring on firm value.
+
+The sample used in this research presents limitations as it only focuses on companies with material risk disclosures on pending litigation cases from 2011 to 2015 and used a limited proxy of corporate monitoring measures. Future studies could include a wider sample of firms with different control groups, e.g., based on industries, business life cycles or maturity. Considering the trend toward globalization in the Malaysian economy, future studies could also assess the impact of corporate monitoring measures using board and committee efficiency scores. Given the increased demand for voluntary risk disclosure, future studies could investigate the relationship between the risk disclosure index and its economic impact. Nevertheless, researchers, analysts, investors and regulatory bodies can gain valuable insight from the findings of this study to better understand the implications of mandatory risk disclosure, gauge proper investment strategies, and develop more detailed guidelines on corporate risk management disclosure.
+

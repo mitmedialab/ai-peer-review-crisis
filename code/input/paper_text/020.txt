@@ -1,0 +1,2258 @@
+PERFORMANCE EVALUATION OF SELECTED ISLAMIC BANKS IN BANGLADESH
+
+ABSTRACT
+
+The present study was carried out to evaluate the performance of selected Islamic banks in Bangladesh. Both quantitative and qualitative analyses were used. The relevant data and information were collected from relevant banks and stock exchanges. The performance of the banks was assessed through different variables, such as paid-up capital, investment-to-deposit ratio, classified investments, assets, net income, earnings per share (EPS) and dividends, which were then analyzed using various statistical measures, such as growth percentage, trend equations, the square of the correlation coefficient, and a correlation matrix. Fifty trend equations and R-squared were tested for ten different banks' activities. Among them, the trend values were positive for all the banks. The square of the correlation coefficient (R2) of most of the equations is more than 0.8, indicating well-fitting trend equations. This study proves that the industry has scope to grow.
+
+Keywords:Islamic Bank, Deposit, Investment, Capital, Classified investment, EPS, Bangladesh.
+
+ARTICLE HISTORY: Received:25 August 2021, Revised:2 May 2022, Accepted:20 May 2022, Published:7 June 2022
+
+JEL Classification:G0; G21; G29.
+
+Contribution/Originality: At present, in Bangladesh, Islamic banking accounts for more than a fifth of all banking. This study is one of the very few studies investigating the performance and sustainability of Islamic banks in Bangladesh.
+
+1. INTRODUCTION
+People are curious to learn about the processes and activities of Islamic banks, which are often deemed as unique in the banking world. Among the banking functions, the two most important ones are receiving deposits and making investments. In the case of the former, people who have surplus money will deposit it into banks; the banks have little role to play. However, the latter, i.e., investment, is crucial. In other words, a bank's success largely depends on its efficient investment operations. Hoque (1987) pointed out that in the case of Islamic banks, people deposit money to avoid paying interest. But banks have to invest money in profitable, secure and Islamic Shariah permitted sectors. Moreover, there are several modes of investment to be followed, which are quite different from those of traditional interest-based banking. Therefore, to understand Islamic banks, their performance and profitability, their investment operations should be evaluated. From this point of view the present study has been undertaken.
+
+1.1. An Overview of Islamic Banks
+Since the Islamic Foreign Ministers' conference in Dakar, Senegal, in 1978 where the Muslim countries expressly committed themselves to the Islamization of their economy, many significant changes have taken place in the Muslim world. Many countries have established Islamic banks during the last few years as part of an avowed strategy. Notably, among them is the case of Pakistan, which has not only started Islamic banking operations in selected spheres of the economy but has also made an all-out effort to convert the economy into an Islamic one phase by phase. This is a significant step. The basic principle and objective that stimulated countries toward introducing Islamic banking as a step toward Islamization of their economy was equal social and economic justice for all. This is possible through banning interest in all its forms and encouraging full participation in all economic pursuits.
+
+Bangladesh has a mixed banking system comprising nationalized, private and foreign commercial banks. At the end of June 2018, there were eight full-fledged Islamic banks operating with 1134 branches, 19 Islamic banking branches of nine conventional commercial banks, and 25 Islamic banking windows of eight conventional commercial banks out of a total of 10,114 branches of the banking industry (Bangladesh Bank, 2016). According to Bangladesh Bank, the central bank of Bangladesh, in terms of deposits and investments, at the end of June 2018, the Islamic banking industry in Bangladesh accounted for more than a fifth of the entire banking industry.
+
+Islamic banks in Bangladesh operate under the traditional banking industry structure, yet they have managed to ensure mobilization and investment of savings and effectively render all services as per any other banking service provider. They are still unique with respect to the Islamic principles followed in the processes of accepting deposits and lending funds to consumers.
+
+1.2. Function of Islamic Banks
+The functions of Islamic banks may be similar to those of conventional banks with some exceptions regarding general banking principles, mainly accepting deposits from depositors and the operating functions of customers as agents. Moreover, finance (i.e., advances and loans) can be used to carry out business with regard to various purposes not in the relationship between lenders and borrowers but like that of a partnership or mudarabah. It can also extend its function to the foreign exchange business in the same manner. Based on Islamic principle, the functions are to be carried out by Islamic banks in accordance with Islamic jurisprudence (Mannan, Haque, & Trafdar, 1987).
+
+2. REVIEW OF LITERATURE
+The notion of Islamic banking is based on the Islamic financing principle of fairness and the concept of investing in partnerships. The main philosophy of Islamic banking, as described by Ahmed (2004), is the prohibitions of interest (usury) in all transactions, the undertaking of business and trade activities must be on the basis of fair and legitimate profit, and the prohibition of monopoly and hoarding. Islamic banks do not deal with loans (except for benevolent loans or Qardh-e-Hasna). Instead, they introduce Musharakah Ajil (a deferred payment sale as a result of trading activity) and Mudharabah (profit sharing of gains and losses), which means that the investments of Islamic banks depend on the usefulness and feasibility of the projects in which money is invested.
+
+Islam, Sumon, Ahmed, & Yousuf (2019) examined the financial stability of eight full-fledged Islamic banks in Bangladesh for the period from 2010–2017 using the Z-score technique along with different financial ratios, such as NPF ratio, IDR ratio and liquidity ratio, that are widely used to access the financial stability of Islamic banks. That implies that Islamic banks at present are not, on the whole, financially stable. The results of the study suggest that Islamic banks in Bangladesh are now experiencing a higher IDR ratio, which indicates that these banks are making excessive financing. Although the NPF ratios for some Islamic banks are decreasing, the pace of this decrease is very slow.
+
+The heart of the banking business is the trust and confidence of the customer. Therefore, it should be the prime concern of banks to maintain customer loyalty. In countries with Muslim populations, such as Bangladesh, the customers follow Shariah, and they also want their banks to observe Shariah laws. Consequently, it is important for the banks to ensure the proper disclosures in their reporting. Sahabuddin, Islam, Junaina, Hareeza, & Bashir (2018) argued that there is an average disclosure requirement compliance rate of 88.11% in Bangladeshi Islamic banking companies. In another study, Arif & Tuhin (2013) concluded that it would be very easy for banks to comply with the disclosure requirements if the Bank Companies Act 1991 makes it mandatory as well as voluntary to comply with all of the disclosure requirements. As per the guidelines of IFSB 4, Bangladesh Bank (Central Bank of Bangladesh) should find ways of harmonizing the differences among legislations. Complying with all the requirements regarding financial statements of banks under Islamic Shariah Bangladesh Bank may require modifications in the BRPD Circular No. 15/2009.
+
+Ullah (2014) attempted to investigate the Shariah compliance status of the Islamic banks in Bangladesh. The study mentioned that Shariah compliance status varies highly among the Islamic banks, and Shariah violation is high in investing activities because of a lack of knowledge, lack of sincerity in complying with Shariah, lack of attention given to Shariah audits and Shariah research, and the lack of a strong Shariah supervisory board comprising full-time skillful members.
+
+Sajjad (2010) argued that Islamic banking is more efficient in allocating funds and is more capable of investing on the basis of the productivity of projects rather than on the creditworthiness of those who own the projects, as is the case in conventional banking. Ahmed (2004) pointed out that Islamic banks attempt to achieve socio-economic justice and equitable distribution of income and wealth as well as stability in the value of money to enable the medium of exchange to be a reliable unit of account.
+
+Islamic banks have enhanced a new dimension in banking initiated on religious standards. The Islamic Financial Services Industry (IFSI) has experienced tremendous growth over the last four decades. The IMF reported that the number and reach of Shariah-compliant financial institutions worldwide has risen from one institution in one country in 1975 to more than 300 institutions operating in more than 75 countries today (Hasan, 2008). Hasan (2008) also reported that Islamic banks follow a classical model of funding from their own deposits rather than borrowing from wholesale markets.
+
+Badreldin (2009) concluded that in the context of Bangladesh it is highly important for managers to determine the financial position of their institution compared to their competition or industry benchmarks. Islamic bank performance measurements help Shariah supervisory boards and other regulators to understand the performance of banks and to ensure only transparent and clear information is available and used. Moreover, it will be beneficial for investors to identify investment opportunities and ensure that the best decisions regarding the use of funding are being taken.
+
+Rashid & Nishat (2009) argued that Islamic banks have performed poorly in terms of the percentage of non-performing investments, which has increased the requirement for income cuts to escalate the amount of provision against classified investments. According to Sarker (1999), Islamic banks have not yet been successful in devising an interest-free mechanism for their funds on a short-term basis. They face the same problem with financing investments in consumer segments and government deficits.
+
+A study by Sarker (2005) investigated the issues related to the problems and challenges facing the continued expansion of the Islamic banking system in the financial sector of Bangladesh. The study suggested development of an inter-bank Islamic money market; activation of Shariah supervisory boards, enactment of a full-fledged Islamic banking act, development of new financial products in line with Islamic Shariah and the extension of investment in line with the PLS framework. The paper suggested that micro, small, and medium enterprises (MSMEs) should get priority in the investment decisions of the Islamic banks in Bangladesh.
+
+Sarker (1999) also pointed out the risk involved in profit-sharing, which seems to be so high that almost all of the Islamic banks in Bangladesh have resorted to those techniques of financing that bring them a fixed assured return. The scenario invites genuine criticism that these banks have not abolished interest, but they have, in fact, only changed the nomenclature of their transactions. Islamic banks lack adequate legal support from the central bank in Bangladesh. Moreover, project financing gets delayed in the absence of expertise and trained manpower capable of appraising, monitoring, evaluating and auditing. This inhibits growth despite these banks having a huge excess of financial liquidity.
+
+3. OBJECTIVES OF THE STUDY
+The specific objectives of the study are as follows:
+
+To appraise the performance of selected Islamic banks of Bangladesh.
+To appraise the competitive analysis and prospects of selected Islamic banks of Bangladesh.
+4. SCOPE AND METHODOLOGY OF THE STUDY
+This study evaluates the performance of the following Islamic banks of Bangladesh: Islamic Bank Bangladesh Limited (IBBL), Al-Arafah Islami Bank Ltd. (AAIBL), Social Islami Bank Ltd. (SIBL), EXIM Bank Ltd., and Shahjalal Islami Bank Ltd. (SJIBL). The analysis was conducted mainly on data from secondary sources. The relevant data and information were collected from stock exchanges, annual reports of the relevant banks, Bangladesh Bank, and the Bangladesh Securities and Exchange Commission. Relevant articles and literature were also consulted. In this paper, eight years’ worth of data (2011–2018) of the selected banks were analyzed. The performance of the selected banks was measured through the following variables: number of branches, number of employees, paid-up capital, total deposits, investments, investment-to-deposit ratio and classified investments as a percentage of total investments, total assets, net income, and earnings per share. To evaluate the performance of the selected banks, the data was analyzed through various statistical measures, such as growth percentage, trend equation, square of the correlation coefficient, and correlation matrix.
+
+The present paper is organized in the following manner: Section one gives an introduction of the study; section two presents the literature survey; section three details the objectives; section four details the methodology of the study; section five gives an overview of the selected Islamic banks of Bangladesh; the performance of the selected banks is apprised in section six; and, finally, section seven provides the conclusion and findings of the study.
+
+5. AN OVERVIEW OF THE SELECTED ISLAMIC BANKS OF BANGLADESH
+In Bangladesh, banking is dominated by usury (interest) based banks. All the nationalized commercial banks, local private commercial banks, foreign commercial banks and two specialized banks have been operating in the country on an interest basis. But in pursuance of the Quranic message about interest and in consonance with the counsel of the Organization of Islamic Conference (OIC) to gradually Islamize the banking system of its member nations, some Muslim business elites and industrialists and some Islamic organizations in the country took the initiative to establish an Islamic bank in Bangladesh. Their initiative was complemented with the cooperation of some Islamic personalities of international repute from Middle Eastern countries, the Islamic Development Bank and a number of Islamic financial institutions and banks from the Islamic world and outside. Accordingly, the Islami Bank Bangladesh Limited (IBBL), the first Islamic bank in Bangladesh, came into existence in Dhaka on March 13, 1983. In Bangladesh, as of 2018, there are eight full-fledged Islamic banks operating 1134 branches, 19 Islamic branches of nine conventional commercial banks and 25 Islamic banking windows of eight conventional commercial banks out of 10,114 branches in the banking industry that provide Islamic financial services in Bangladesh (Bangladesh Bank, 2016).
+
+5.1. Corporate Information of the Selected Islamic Banks
+Table 1 presents corporate information of the selected Islamic banks as of December 2018.
+
+Table 1. Corporate information of selected Islamic banks as of December 2018.
+(BDT in millions)
+
+Particulars	
+Al-Arafah Bank Ltd.
+EXIM Bank Ltd.
+Islami Bank Bangladesh Ltd.
+Shahjalal Islami Bank Ltd.
+Social Islami Bank Ltd.
+Date of incorporation	
+June 18, 1995
+August 3, 1999
+March 13, 1983
+April 1, 2001
+November 22, 1995
+Inauguration of first branch	
+September 27, 1995
+November 16, 1999
+March 30, 1983
+May 10, 2001
+1995
+Formal inauguration	
+1995
+November 16, 1999
+August 12, 1983
+2001
+1995
+Authorized capital	
+15,000.00
+20,000.00
+20,000.00
+10,000.00
+10,000.00
+Paid-up capital	
+10,440.22
+14,122.51
+16,099.91
+8,486.00
+8,121.29
+Deposit	
+266,205.48
+300,378.01
+822,573.12
+176,862.00
+248,324.49
+Investment	
+261,874.13
+306,264.57
+847,370.63
+186,090
+238,654.17
+Number of branches	
+168
+123
+342
+122
+155
+Number of employees	
+3,682
+2,969
+14,698
+2,395
+2,847
+Number of shareholders	
+25,793
+74,154
+40,819
+34,229
+32,035
+Source: Compiled from different annual reports of Al-Arafah Islami Bank Ltd., EXIM Bank Ltd., Islami Bank Bangladesh Ltd., Shahjalal Islami Bank Ltd., and Social Islami Bank Ltd.
+
+5.2. Islami Bank Bangladesh Limited (IBBL)
+The establishment of Islami Bank Bangladesh Limited (IBBL) on March 13, 1983, is a true reflection of the inner urge of the people in Bangladesh. This bank is the first of its kind in Southeast Asia. It is committed to conducting all banking and investment activities on the basis of an interest-free profit and loss sharing system. In doing so, it has unveiled a new horizon and a new silver lining of hope toward realizing a long-cherished dream of the people of Bangladesh for doing their banking transactions in line with what is prescribed by Islam. With the active co-operation and participation of Islamic Development Bank (IDB) and some other Islamic banks, financial institutions, government bodies and eminent personalities of the Middle East and the Gulf countries, Islami Bank Bangladesh Limited has earned the unique position of a leading private commercial bank in Bangladesh. As of December 2018, the authorized capital of the bank was Tk 20,000 million, and the paid-up capital was Tk 16,099.91 million.
+
+5.2.1. Al-Arafah Islami Bank Limited (AAIBL)
+Al-Arafah Islami Bank Ltd. was established as a private limited company on June 18, 1995. The inaugural ceremony took place on September 27, 1995. The vision of the bank is to be a pioneer in Islamic banking in Bangladesh and contribute significantly to the growth of the national economy. The authorized capital of the bank is Tk 15,000 million, and the paid-up capital is Tk 10,440.22 million as of December 2018. The bank has a diverse array of carefully tailored products and services to satisfy customer needs, and it is committed to contributing significantly to the national economy. All activities of the bank are conducted under a profit/loss-based system according to Islamic Shariah to abolish usury. Its investment policies under different modes are fully Shariah-compliant and well monitored by the Shariah Council.
+
+5.2.2. Social Islami Bank Limited (SIBL)
+Social Islami Bank Limited was incorporated on July 5, 1995, as a result of the dedicated efforts of a group of established Bangladeshi entrepreneurs. The bank started its commercial operations on the November 22, 1995. "Reduction of Poverty Level" is the bank's vision, which is a prime object as stated in the Memorandum of Association of the bank with the commitment of "Working together for a Caring Society". In December 2018, the bank’s authorized and paid-up capital stood at Tk 10,000 million and Tk 8,121.29 million, respectively. In the formal corporate sector, this bank offers the most up-to-date banking services through the opening of various types of deposit and investment accounts, trade financing, leasing of equipment, etc.
+
+5.2.3. EXIM Bank Limited
+EXIM Bank Limited was established in 1999 under the leadership of the late Mr. Shahjahan Kabir, founder and chairman, who had a dream of floating a commercial bank that would contribute to the socio-economic development of Bangladesh. The bank has earned a secure and distinctive position in the banking industry in terms of performance, growth and excellent management. In December 2018, the authorized capital and paid-up capital of the bank were Tk 20,000 million and Tk 14,122.51 million, respectively. The bank migrated all its conventional banking operations into Shariah-based Islamic banking in July 2004. EXIM Bank was the first private sector bank to open an exchange house in the UK in 2009. In order to provide IT-enabled products and services for its valued customers, the bank implemented world-renowned Shariah-based centralized core banking software named Temenos T24. This software is capable of providing a range of electronic banking services to valued customers through various electronic delivery channels.
+
+5.2.4. Shahjalal Islami Bank Limited (SJIBL)
+Shahjalal Islami Bank Limited (SJIBL) commenced its commercial operations in accordance with the principles of Islamic Shariah on May 10, 2001, under the Bank Companies Act 1991. The bank is committed in the long run to grow as a unique modern Islamic bank in Bangladesh, make significant contributions to the national economy, enhance customers' trust, wealth and quality investments, increase employee value and achieve rapid growth in shareholders' equity. The amount of authorized and paid-up capital in 2010 was Tk 10,000 million and Tk 84,863,425 million, respectively. By introducing innovative investment products, the bank is strategic enough in terms of expanding its branches both in cities and rural areas. The bank is known for its good governance and corporate social responsibility.
+
+6. PERFORMANCE APPRAISAL OF SELECTED ISLAMIC BANKS OF BANGLADESH
+This section presents the performance appraisal of the selected Islamic banks through different variables, such as the number of branches, the number of employees, paid-up capital, deposits, investments, classified loans, investment-to-deposit ratio, assets, net income, earnings per share, and dividends for eight years, from 2011 to 2018. To evaluate the performance, various statistical tools have been measured, e.g., growth percentage, straight line trend equations, the square of the correlation coefficient, and R-squared.
+
+Table 2. Number of branches of the selected Islamic banks.
+Bank	
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+Average Growth %
+Al-Arafah Bank Ltd.	
+88
+100
+110
+119
+129
+140
+154
+168
+-
+Growth %	
+-
+13.64
+10.00
+8.18
+8.40
+8.53
+10.00
+9.09
+9.69
+EXIM Bank Ltd.	
+62
+72
+80
+87
+103
+113
+118
+123
+-
+Growth	
+-
+16.13
+11.11
+8.75
+18.39
+9.71
+4.42
+4.24
+10.39
+Islami Bank Ltd.	
+266
+276
+286
+294
+304
+318
+332
+342
+-
+Growth	
+-
+3.76
+3.62
+2.80
+3.40
+4.61
+4.40
+3.01
+3.66
+Shahjalal Islami Bank Ltd.	
+73
+84
+92
+93
+93
+103
+113
+122
+-
+Growth	
+-
+15.07
+9.52
+1.09
+0.00
+10.75
+9.71
+7.96
+7.73
+Social Islami Bank Ltd.	
+76
+86
+94
+100
+111
+125
+138
+155
+-
+Growth	
+-
+13.16
+9.30
+6.38
+11.00
+12.61
+10.40
+12.32
+10.74
+Table 2 shows the growth pattern of the number of branches of the selected banks. The growth is highest in Islamic Bank Bangladesh Limited (IBBL), which has 342 branches. Shahjalal Islamic Bank Ltd. has the lowest number of branches at 122. All the selected banks maintain more than 120 branches, and they have all shown a positive growth in the number of branches during the period from 2011 to 2018.
+
+Table 3. Number of employees of the selected Islamic banks.
+Bank	
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+Average Growth %
+Al-Arafah Bank Ltd.	
+1,807
+2,110
+2,387
+2,649
+2,810
+3,070
+3,446
+3,682
+-
+Growth %	
+-
+16.77
+13.13
+10.98
+6.08
+9.25
+12.25
+6.85
+10.76
+EXIM Bank Ltd.	
+1,724
+1,909
+2,229
+2,465
+2,700
+2,747
+2,794
+2,969
+-
+Growth %	
+-
+10.73
+16.76
+10.59
+9.53
+1.74
+1.71
+6.26
+8.19
+Islami Bank Ltd.	
+11,465
+12,188
+12,980
+13,547
+13,622
+13,569
+13,760
+14,698
+-
+Growth %	
+-
+6.31
+6.50
+4.37
+0.55
+-0.39
+1.41
+6.82
+3.65
+Shahjalal Islami Bank Ltd.	
+1,624
+1,881
+2,173
+2,145
+2,156
+2,191
+2,402
+2,395
+-
+Growth %	
+-
+15.83
+15.52
+-1.29
+0.51
+1.62
+9.63
+-0.29
+5.93
+Social Islami Bank Ltd.	
+1,375
+1,625
+1,802
+1,922
+2,130
+2,363
+2,599
+2,847
+-
+Growth %	
+-
+18.18
+10.89
+6.66
+10.82
+10.94
+9.99
+9.54
+11.00
+The number of employees of the selected banks are shown in Table 3. IBBL has the highest number of employees at 14,698, and lowest is in Shahjalal Islamic Bank (SJIBL) with 2,395 employees. The growth percentage of employees of SIBL, AAIBL, EXIM Bank, SJIBL and IBBL are 11%, 10.76%, 8.19%, 5.93%, and 3.65%, respectively.
+
+Table 4 shows the paid-up capital position of the selected Islamic banks. It is observed from the table that all the banks increased their paid-up capital during the 2011–2018 period. The highest growth rate of paid-up capital is in SJIBL, and the total paid-up capital of IBBL is highest at Tk 7,428,576 million. This implies that the banks are continuously trying to improve their capital base.
+
+The growth of deposits of the selected banks is shown in Table 5. In 2018, the deposit amount is highest in IBBL with Tk 822,573.12 million, and its average growth percentage 13.46 %. EXIM bank has the second highest deposit amount of Tk 300,378.01 million with an average growth rate of 15.98%. Shahjalal Islami Bank has the lowest deposit amount of TK 176,862 million, and Islami Bank Bangladesh Ltd. has the lowest growth percentage of 13.46%. The trend of every bank shows a positive relation of total deposits during the 2011–2018 period. However, there have been significant fluctuations in the growth percentage window during these periods, especially with Shahjalal Islami Bank.
+
+The investments of the selected banks are shown in Table 6. It is observed from the table that IBBL has invested the highest amount during 2011 to 2018. IBBL’s investments in 2018 came to a total of Tk 847,370.63 million, and its investment growth percentage was 14.91%. During the same period, the investments of EXIM bank increased every year, and its average growth percentage was 17.49%. Shahjalal Islami Bank had the lowest total investments with lots of ups and downs from 2011 to 2014, and after that, they eventually managed to move toward positive growth up to 2018.
+
+Table 7 indicates that each bank had more or less a 90% investment-to-deposit ratio over the years. Moreover, EXIM Bank had the highest of more than 100% in 2018, which means that this bank invested more than the deposits taken. It seems that the bank may have faced a liquidity shortage due to overinvestment. Additionally, the highest growth rate recorded in a year was 12.79% for EXIM bank. However, the average growth rate was highest for SIBL. On the other hand, Shahjalal Islami bank did not perform up to the mark as they had a decreasing growth rate over the years and, as a result, the average growth rate is at negative figure of 0.31%.
+
+Table 4. Paid-up capital of selected Islamic banks (in millions of BDT).
+Bank	
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+Average Growth %
+Al-Arafah Bank Ltd.	
+5,893.37
+7,130.98
+8,343.25
+9,469.58
+9,469.58
+9,943.06
+9,943.06
+10,440.22
+-
+Growth %	
+-
+21.00
+17.00
+13.50
+0.00
+5.00
+0.00
+5.00
+8.79
+EXIM Bank Ltd.	
+9,223.56
+10,514.86
+11,566.35
+12,838.65
+14,122.51
+14,122.51
+14,122.51
+14,122.51
+-
+Growth %	
+-
+14.00
+10.00
+11.00
+10.00
+0.00
+0.00
+0.00
+6.428576
+Islami Bank Ltd.	
+10,007.71
+12,509.64
+14,636.28
+16,099.91
+16,099.91
+16,099.91
+16,099.91
+16,099.91
+-
+Growth %	
+-
+25.00
+17.00
+10.00
+0.00
+0.00
+0.00
+0.00
+7.428578
+Shahjalal Islami Bank Ltd.	
+4,453
+3,425
+2,740
+7,347
+7,347
+7,347
+7,714
+8,486
+-
+Growth %	
+-
+-23.09
+-20.00
+168.14
+0.00
+0.00
+5.00
+10.01
+20.00802
+Social Islami Bank Ltd.	
+6,393.92
+6,393.92
+7,031.42
+7,031.42
+7,031.42
+7,382.99
+7,382.99
+8,121.29
+-
+Growth %	
+-
+0.00
+9.97
+0.00
+0.00
+5.00
+0.00
+10.00
+8.28444
+
+Table 5. Total deposits of selected Islamic banks (in millions of BDT).
+Banks	
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+Average Growth %
+Al-Arafah Bank Ltd.	
+82,186.98
+118,683.39
+140,980.55
+166,851.17
+169,887.08
+199,703.92
+244,806.26
+266,205.48
+-
+Growth %	
+-
+44.41
+18.79
+18.35
+1.82
+17.55
+22.58
+8.74
+18.89
+EXIM Bank Ltd.	
+107,881.21
+140,369.66
+165,733.25
+200,009
+224,770.89
+248,223.16
+283,643.96
+300,378.01
+-
+Growth %	
+-
+30.12
+18.07
+20.68
+12.38
+10.43
+14.27
+5.90
+15.98
+Islami Bank Ltd.	
+341,853.67
+417,844.14
+473,140.96
+560,696.3
+615,359.21
+681,352.25
+755,022.25
+822,573.12
+Growth %	
+-
+22.23
+13.23
+18.51
+9.75
+10.72
+10.81
+8.95
+13.46
+Shahjalal Islami Bank Ltd.	
+83,350
+62,965
+47,459
+98,601
+109,259
+124,410
+146,348
+176,862
+-
+Growth %	
+-
+-24.46
+-24.63
+107.76
+10.81
+13.87
+17.63
+20.85
+17.41
+Social Islami Bank Ltd.	
+66,852.55
+93,594.29
+102,104.48
+124,535
+149,773.6
+190,564.5
+228,798.9
+248,324.49
+-
+Growth %	
+-
+40.00
+9.09
+21.97
+20.27
+27.24
+20.06
+8.53
+21.02
+Table 8 shows that the classified investments of IBBL and AAIBL are very low, i.e., less than 5.0% during 2011–2018 (see Table 7). IBBL managed to improve their credit recovery performance by lowering its non-performing investments (NPI) to total investment rate each year from 2011 to 2018. It is also observed that the classified investments were less than 8% during 2011 to 2018 for the other banks. It seems that Islamic banks are capable of managing their investment portfolio efficiently and their recovery rate is very high.
+
+It is observed from Table 9 that the assets of all selected banks increased from the previous year from 2011 to 2018. The growth percentage of total assets for SJIBL, EXIM Bank and Al-Arafah Islami Bank is more than 20% during the same period. IBBL also holds a moderately stable position by committing to a growth rate of almost 13%. Increasing trends of the assets of the selected banks implies better financial strength.
+
+It is observed from Table 10 that IBBL earned net income in all years from 2011 to 2018. Its highest net income of Tk 6,075.14 million was in 2018 and its lowest of Tk 3,029.08 million was in 2015. The average growth percentage of IBBL’s net income is 5.93%. Other Islamic banks have shown a moderate performance as their growth rates were both negative and positive. However, all the banks had a positive average growth rate of net income of between 3%–10%.
+
+The figures in Table 11 show that the earnings per share (EPS) of all the Islamic banks is good, but the EPS growth percentages are low, indicating that net income increased at a lower growth percentage during 2011 to 2018. Also, the average EPS of SJIBL & IBBL are close to 30% during the same period. We have also observed that the average EPS of SIBL is less than 10%, similar to other banks during 2011 to 2018. In 2018, the EPS of the selected Islamic banks was more than 20%, except for AAIBL and EXIM Bank.
+
+It is observed from Table 12 that all the selected Islamic banks declared a stock dividend during 2011 to 2018. A probable reason for declaring stock dividends could be to conform to the direction set by the Central Bank to increase the paid-up capital of all commercial banks. In addition to stock dividends, IBBL declared cash dividends of more than 10% during 2014 to 2018, and SIBL also declared more than 10% cash dividend during 2011 to 2016 with the exception of 2012.
+
+7. TREND EQUATIONS AND R-SQUARED OF SELECTED ISLAMIC BANKS OF BANGLADESH
+Fifty trend equations and R-squared were tested for ten different activities of the selected Islamic banks of Bangladesh. We observed the Table 12 points from the sequence of our analysis.
+
+Table 6. Total investments (in millions of BDT).
+Bank	
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+Average Growth %
+Al-Arafah Bank Ltd.	
+77,714.95
+106,650.42
+125,715.39
+146,740.37
+162,503.14
+196,519.38
+235,905.23
+261,874.13
+-
+Growth %	
+37.23
+17.88
+16.72
+10.74
+20.93
+20.04
+11.01
+19.22
+EXIM Bank Ltd.	
+99,699.63
+118,219.99
+143,847.38
+179,165.57
+197,536.57
+223,396.92
+255,033.17
+306,264.57
+-
+Growth %	
+18.58
+21.68
+24.55
+10.25
+13.09
+14.16
+20.09
+17.49
+Islami Bank Ltd.	
+322,772.83
+399,930.79
+474,015.95
+564,332
+629,631.27
+676,747.8
+748,672.54
+847,370.63
+-
+Growth %	
+23.90
+18.52
+19.05
+11.57
+7.48
+10.63
+13.18
+14.91
+Shahjalal Islami Bank Ltd.	
+80,592
+61,440
+43,958
+84,062
+96,835
+122,998
+158,668
+186,090
+-
+Growth %	
+-23.76
+-28.45
+91.23
+15.19
+27.02
+29.00
+17.28
+18.22
+Social Islami Bank Ltd.	
+53,908.58
+76,024.97
+85,922.33
+107,900
+134,116.9
+174,196.1
+210,045.51
+238,654.17
+-
+Growth %	
+41.03
+13.02
+25.58
+24.30
+29.88
+20.58
+13.62
+24.00
+
+Table 7. Investment-to-deposit ratios of selected Islamic banks (in percentage) (in millions of BDT).
+Bank	
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+Average Growth %
+Al-Arafah Bank Ltd.	
+89.07
+90.56
+88.74
+87.95
+95.65
+98.41
+96.36
+98.37
+-
+Growth %	
+1.67
+-2.01
+-0.89
+8.75
+2.89
+-2.08
+2.09
+1.49
+EXIM Bank Ltd.	
+92.42
+84.22
+86.79
+89.58
+87.88
+90.00
+89.91
+101.41
+-
+Growth %	
+-8.87
+3.05
+3.21
+-1.90
+2.41
+-0.10
+12.79
+1.51
+Islami Bank Ltd.	
+89.47
+85.18
+82.35
+79.88
+83.59
+86.43
+87.80
+90.80
+-
+Growth %	
+-4.79
+-3.32
+-3.00
+4.64
+3.40
+1.59
+3.42
+0.28
+Shahjalal Islami Bank Ltd.	
+93.00
+89.64
+88.88
+80.82
+82.77
+85.98
+90.17
+90.32
+-
+Growth %	
+-3.61
+-0.85
+-9.07
+2.41
+3.88
+4.87
+0.17
+-0.31
+Social Islami Bank Ltd.	
+80.63
+81.23
+84.15
+86.64
+89.54
+91.41
+91.80
+96.11
+-
+Growth %	
+0.74
+3.59
+2.96
+3.35
+2.09
+0.43
+4.69
+2.55
+
+Table 8. Percentage of classified total investments (in millions of BDT).
+Bank	
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+Average Growth %
+Al-Arafah Bank Ltd.	
+0.95
+1.63
+2.77
+4.5
+4.66
+4.54
+4.1
+4.79
+-
+Growth %	
+71.58
+69.94
+62.45
+3.56
+-2.58
+-9.69
+16.83
+30.30
+EXIM Bank Ltd.	
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+-
+Growth %	
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+Islami Bank Ltd.	
+2.71
+3.81
+3.67
+4.92
+4.25
+3.83
+3.59
+4.12
+-
+Growth %	
+40.59
+-3.67
+34.06
+-13.62
+-9.88
+-6.27
+14.76
+8.00
+Shahjalal Islami Bank Ltd.	
+1.89
+1.91
+0.94
+7.87
+6.47
+4.7
+3.97
+6.84
+-
+Growth %	
+1.06
+-50.79
+737.23
+-17.79
+-27.36
+-15.53
+72.29
+99.87
+Social Islami Bank Ltd.	
+3.93
+3.33
+5.35
+4.56
+3.84
+4.44
+8.20
+7.69
+-
+Growth %	
+-15.27
+60.66
+-14.77
+-15.79
+15.63
+84.68
+-6.22
+15.56
+
+Table 9. Assets of selected Islamic banks (in millions of BDT).
+Bank	
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+Average Growth %
+Al-Arafah Bank Ltd.	
+106,768.18
+149,320.36
+173,161.63
+210,439.01
+229,106.66
+272,900.04
+319,255.29
+338,465.3
+-
+Growth %	
+39.85
+15.97
+21.53
+8.87
+19.11
+16.99
+6.02
+18.33
+EXIM Bank Ltd.	
+129,874.42
+167,056.63
+195,452.52
+232,833.95
+265,148.42
+291,133.91
+333,892.61
+371,510.07
+-
+Growth %	
+28.63
+17.00
+19.13
+13.88
+9.80
+14.69
+11.27
+16.34
+Islami Bank Ltd.	
+502,613.05
+592,580.5
+664,554.96
+765,241.27
+859,201.05
+936,945.69
+1,069,709.1
+1,170,422.3
+-
+Growth %	
+17.90
+12.15
+15.15
+12.28
+9.05
+14.17
+9.42
+12.87
+Shahjalal Islami Bank Ltd.	
+107,229
+78,800
+58,921
+126,758
+137,870
+167,245
+207,886
+243,660
+-
+Growth %	
+-26.51
+-25.23
+115.13
+8.77
+21.31
+24.30
+17.21
+19.28
+Social Islami Bank Ltd.	
+84,406.18
+115,165.95
+126,616.56
+153,737.5
+180,112.1
+227,704.2
+276,348.95
+307,305.32
+-
+Growth %	
+36.44
+9.94
+21.42
+17.16
+26.42
+21.36
+11.20
+20.56
+
+Table 10. Net income of selected Islamic banks (in millions of BDT).
+Bank	
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+Average Growth %
+Al-Arafah Bank Ltd.	
+2,198.75
+1,945.4
+2,276.68
+2,324.95
+2,465.88
+3,349.4
+3,169.5
+2,456.8
+-
+Growth %	
+-11.52
+17.03
+2.12
+6.06
+35.83
+-5.37
+-22.49
+3.09
+EXIM Bank Ltd.	
+2,009.37
+2,157.63
+1,913.39
+2,465.68
+2,068.55
+3,039.76
+3,298.43
+2,332.52
+-
+Growth %	
+7.38
+-11.32
+28.86
+-16.11
+46.95
+8.51
+-29.28
+5.00
+Islami Bank Ltd.	
+4,841.45
+5,338.91
+4,973.19
+3,999.06
+3,029.08
+4,464.98
+4,692.95
+6,075.14
+-
+Growth %	
+10.28
+-6.85
+-19.59
+-24.26
+47.40
+5.11
+29.45
+5.93
+Shahjalal Islami Bank Ltd.	
+1,168
+2,072
+1,071
+747
+1,290
+1,557
+1,196
+1,471
+-
+Growth %	
+77.40
+-48.31
+-30.25
+72.69
+20.70
+-23.19
+22.99
+13.15
+Social Islami Bank Ltd.	
+1,083.42
+1,441.13
+1,220.2
+1,903.72
+2,072.59
+2,292.17
+1,455.25
+1,583.43
+-
+Growth %	
+33.02
+-15.33
+56.02
+8.87
+10.59
+-36.51
+8.81
+9.35
+
+Table 11. Earnings per share (EPS) of selected Islamic banks.
+(In Taka)
+
+Bank	
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+Average Growth %
+Al-Arafah Bank Ltd.	
+3.73
+2.3
+2.46
+2.2
+2.25
+3.07
+3.15
+2.35
+-
+Growth %	
+-38.34
+6.96
+-10.57
+2.27
+36.44
+2.61
+-25.40
+-3.72
+EXIM Bank Ltd.	
+2.18
+2.05
+1.65
+1.92
+1.48
+2.15
+2.34
+1.65
+-
+Growth %	
+-5.96
+-19.51
+16.36
+-22.92
+45.27
+8.84
+-29.49
+-1.06
+Islami Bank Ltd.	
+4.84
+4.42
+3.4
+3.77
+2.91
+2.77
+1.88
+2.48
+Growth %	
+-8.68
+-23.08
+10.88
+-22.81
+-4.81
+-32.13
+31.91
+-6.96
+Shahjalal Islami Bank Ltd.	
+2.1
+2.59
+1.95
+1.02
+1.76
+2.02
+1.41
+1.73
+Growth %	
+23.33
+-24.71
+-47.69
+72.55
+14.77
+-30.20
+22.70
+4.39
+Social Islami Bank Ltd.	
+1.81
+2.25
+1.74
+2.71
+2.81
+3.1
+1.79
+1.95
+Growth %	
+24.31
+-22.67
+55.75
+3.69
+10.32
+-42.26
+8.94
+5.44
+
+Table 12. Dividends per share of selected Islamic banks (in millions of BDT).
+Bank	 	
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+Al-Arafah Islami Bank Ltd.	Cash Dividend	
+-
+-
+-
+14.00%
+10.00%
+20.00%
+15.00%
+15.00%
+Stock Dividend	
+21.00%
+17.00%
+13.50%
+-
+5.00%
+-
+5.00%
+2.00%
+EXIM Bank Ltd.	Cash Dividend	
+-
+-
+-
+-
+12.00%
+15.00%
+12.50%
+10.00%
+Stock Dividend	
+14.00%
+10.00%
+11.00%
+10.00%
+12.00%
+15.00%
+12.50%
+10.00%
+Islami Bank Ltd.	Cash Dividend	
+7%
+8%
+8%
+15%
+20%
+10%
+10%
+10%
+Stock Dividend	
+25%
+17%
+10%
+-
+-
+-
+-
+-
+Shahjalal Islami Bank Ltd.	Cash Dividend	
+-
+-
+-
+10%
+13%
+10%
+-
+-
+Stock Dividend	
+25%
+20%
+10%
+-
+-
+5%
+10%
+10%
+Social Islami Bank Ltd.	Cash Dividend	
+10.50%
+5%
+12%
+18%
+15%
+20%
+-
+-
+Stock Dividend	
+-
+10%
+0%
+0%
+5%
+-
+10%
+10%
+
+Table 13. Trend equations and R2of the number of branches.
+Bank	
+
+R2
+Al-Arafah Islami Bank Ltd.	
+126 + 9.20X
+0.981
+EXIM Bank Ltd.	
+94.75 + 7.73X
+0.995
+Islami Bank Bangladesh Ltd.	
+302.25 + 9.10X
+0.984
+Shahjalal Islami Bank Ltd.	
+96.62 + 5.08X
+0.903
+Social Islami Bank Ltd.	
+110.62 + 9.08X
+0.967
+Table 13 shows the summary of trend equations and R2 of branch expansion. The trend equations of all the selected banks are positive and the goodness of fit of all the equations is high, i.e., more than 0.90. It also indicates stable branch expansion of the selected banks.
+
+Table 14. Trend equations and R2 of the number of employees.
+Bank	
+
+R2
+Al-Arafah Islami Bank Ltd.	
+2745.12 + 217X
+0.977
+EXIM Bank Ltd.	
+2442.12 + 148.43X
+0.939
+Islami Bank Bangladesh Ltd.	
+13228.62 + 315.01X
+0.842
+Shahjalal Islami Bank Ltd.	
+2120.87 + 78.23X
+0.785
+Social Islami Bank Ltd.	
+2082.87 + 169X
+0.981
+Table 14 shows the summary of trend equations and R2 of the number of employees. The trend values for employees of all selected banks are positive, and the goodness of fit of all the selected banks is high, i.e., more than 0.80. It seems that the numbers of employees of the Islamic banks are increasing over time.
+
+Table 15. Trend equations and R2of paid-up capital.
+Bank	
+
+R2
+Al-Arafah Islami Bank Ltd.	
+173663.103 + 20582.08X
+0.948
+EXIM Bank Ltd.	
+208876.142 + 23159.19X
+0.987
+Islami Bank Bangladesh Ltd.	
+583480.237 + 56758.29X
+0.010
+Shahjalal Islami Bank Ltd.	
+106156.75 + 13145.95X
+0.807
+Social Islami Bank Ltd.	
+150568.476 + 22227.67X
+0.970
+Table 15 shows the summary of trend equations and R2 of paid-up capital. The trend equations for all the selected banks are positive, and the goodness of fit of all the selected banks is very high, which indicates a positive increase of capital base of the selected banks.
+
+Table 16. Trend equations and R2 of total deposits.
+Bank	
+
+R2
+Al-Arafah Islami Bank Ltd.	
+8829.137 + 497.054X
+0.841
+EXIM Bank Ltd.	
+12579.183 + 613.58X
+0.864
+Islami Bank Bangladesh Ltd.	
+14706.648 + 634.44X
+0.660
+Shahjalal Islami Bank Ltd.	
+6107.375 + 636.88X
+0.713
+Social Islami Bank Ltd.	
+14258.671 + (-3643.6)X
+0.285
+Table 16 shows the summary of trend equations and R2 of the total deposits of the selected Islamic banks. The trend equations of the deposits of all selected banks are positive, and the goodness of fit of all the selected Islamic banks is very high, i.e., more than 0.80. Table 16 indicates a stable deposit growth of the selected Islamic banks, except for SIBL.
+
+Table 17 shows the summary of trend equations and R2 of the total investments of all selected Islamic banks. All the trend values are positive, and the goodness of fit of all the selected banks is high, i.e., more than 0.80. This reflects good management of investments by the selected banks.
+
+Table 17. Trend equations and R2 of total investments.
+Bank	
+
+R2
+Al-Arafah Islami Bank Ltd.	
+164202.876 + 21362.86X
+0.967
+EXIM Bank Ltd.	
+190395.475 + 23569.48X
+0.967
+Islami Bank Bangladesh Ltd.	
+582559.226 + 60206.32X
+0.982
+Shahjalal Islami Bank Ltd.	
+104330.375 + 14742.15X
+0.790
+Social Islami Bank Ltd.	
+135096.07 + 22396.80X
+0.967
+
+Table 18. Trend equations and R2 of investment-to-deposit ratio.
+Bank	
+
+R2
+Al-Arafah Islami Bank Ltd.	
+93.138 + 1.36X
+0.786
+EXIM Bank Ltd.	
+90.276 + 0.96X
+0.302
+Islami Bank Bangladesh Ltd.	
+85.687 + 0.41X
+0.110
+Shahjalal Islami Bank Ltd.	
+87.697 + (-0.21)X
+0.023
+Social Islami Bank Ltd.	
+87.688 + 1.85X
+0.978
+Table 18 shows the summary of trend equations and R2 of the investment-to-deposit ratios of all selected Islamic banks. It is observed from the table that all trend equations are positive, and the goodness of fit of the selected banks is high, i.e., more than 0.70, except for IBBL & SJIBL.
+
+Table 19. Trend equations and R2 of classified investments as a % of total investments.
+Bank	
+
+R2
+Al-Arafah Islami Bank Ltd.	
+3.492 + 0.44X
+0.731
+EXIM Bank Ltd.	
+N/A
+N/A
+Islami Bank Bangladesh Ltd.	
+3.862 + 0.077X
+0.129
+Shahjalal Islami Bank Ltd.	
+4.323 + 0.535X
+0.366
+Social Islami Bank Ltd.	
+5.168 + 0.45X
+0.529
+Table 19 shows the summary of trend equations and R2 of the classified investments of the selected Islamic banks. The trend equations of all the banks are positive, but the goodness of fit of the selected Islamic banks is moderate, i.e., near 0.50. It is observed that classified loans decreased in most years for the selected banks.
+
+Table 20. Trend equations and R2 of total assets.
+Bank	
+
+R2
+Al-Arafah Islami Bank Ltd.	
+224927.058 + 27578.96X
+0.978
+EXIM Bank Ltd.	
+248362.816 + 28178.79X
+0.987
+Islami Bank Bangladesh Ltd.	
+820158.49 + 79022.73X
+0.986
+Shahjalal Islami Bank Ltd.	
+141046.125 + 19345.7X
+0.812
+Social Islami Bank Ltd.	
+356879 + 3667.63X
+0.005
+Table 20 shows the summary of trend equations and R2 of total assets of the selected Islamic banks. All the trend equations are positive, and the goodness of fit of the selected Islamic banks is very high, i.e., more than 0.85, except for SIBL. This indicates a positive growth of assets of the selected Islamic banks over the eight years.
+
+Table 21. Trend equations and R2 of net income.
+Bank	
+
+R2
+Al-Arafah Islami Bank Ltd.	
+2524.54 + 116.06X
+0.494
+EXIM Bank Ltd.	
+2410.666 + 109.51X
+0.403
+Islami Bank Bangladesh Ltd.	
+4676.845 + 16.84X
+0.003
+Shahjalal Islami Bank Ltd.	
+1321.5 + 1.65X
+0.002
+Social Islami Bank Ltd.	
+1631.48 + 72.58X
+0.254
+Table 21 shows the summary of trend equations and R2 of net income of the selected Islamic banks. All the trend values are positive. However, the goodness of fit of the selected banks is low, which indicates that fluctuations in the net income is high in the selected banks during the investigated period.
+
+Table 22. Trend equations and R2 of earnings per share (EPS).
+Bank	
+
+R2
+Al-Arafah Islami Bank	
+2.688 + (-0.02)X
+0.022
+EXIM Bank Ltd.	
+1.928 + (-0.01)X
+0.012
+Islami Bank Bangladesh Ltd.	
+3.308 + (-0.31)X
+0.879
+Shahjalal Islami Bank Ltd.	
+1.822 + (-0.06)X
+0.185
+Social Islami Bank Ltd.	
+2.27 + 0.033X
+0.033
+Table 22 shows the summary of trend equations and R2 of EPS of all selected Islamic banks. All the trend equations are positive, but the goodness of fit of the selected banks is low, except for IBBL. This indicates that net income has increased but the fluctuation of net income is higher in the selected banks during the analyzed period.
+
+7.1. Correlation matrices for the selected Islamic banks of Bangladesh
+The correlation matrix shows the simple correlation coefficient among all the variables. The correlation matrix has also been calculated for all the selected Islamic banks. To calculate the correlation matrices for the selected Islamic banks, the following ten independent variables have been chosen:
+
+NBR = Number of branches                          NEM = Number of employees       
+TDEP = Total deposits                                  PCAP = Paid-up capital                  
+TINV = Total investments                            INVDEP = Investment-to-deposit ratio
+CLINV = Classified investments                   TASS = Total assets                       
+NINC = Net income                                        EPS = Earnings per share.             
+
+The findings of the correlation matrix are explained below.
+
+7.2. From the Correlation Matrix for Al-Arafah Bank Ltd., we Observed the Following:
+Al-Arafah Banks’ number of branches (NBR) has a strong correlation with NEM, TDEP, PCAP, TINV, INVDEP, CLINV, TASS and NINC, and a negative correlation with EPS.
+Al-Arafah Banks’ number of employees (NEM) has a strong correlation with NBR, TDEP, PCAP, TINV, INVDEP, CLINV, TASS and NINC, and a negative correlation with EPS.
+Al-Arafah Banks’ total deposits (TDEP) has a strong correlation with NBR, NEM, PCAP, TINV, INVDEP, CLINV, TASS and NINC, and a negative correlation with EPS.
+Al-Arafah Banks’ paid-up capital (PCAP) has a strong correlation with NBR, NEM, TDEP, TINV, INVDEP, CLINV, TASS and NINC, and a negative correlation with EPS.
+Al-Arafah Banks’ total investments (TINV) has a strong correlation with NBR, NEM, TDEP, PCAP, INVDEP, CLINV, TASS and NINC, and a negative correlation with EPS.
+Al-Arafah Banks’ investment-to-deposit ratio (INVDEP) has a strong correlation with NBR, NEM, TDEP, PCAP, TINV, CLINV, TASS and NINC, and a negative correlation with EPS.
+Al-Arafah Banks’ classified investments (CLINV) has a strong correlation with NBR, NEM, TDEP, PCAP, TINV, INVDEP, TASS and NINC, and a negative correlation with EPS.
+Al-Arafah Banks’ total assets (TASS) has a strong correlation with NBR, NEM, TDEP, PCAP, TINV, INVDEP, CLINV and NINC, and a negative correlation with EPS.
+Al-Arafah Banks’ net income (NINC) has a strong correlation with NBR, NEM, TDEP, PCAP, TINV, INVDEP, CLINV and TASS, and a negative correlation with EPS.
+Al-Arafah Banks’ earnings per share (EPS) has a positive correlation with INVDEP and a negative correlation with NBR, NEM, TDEP, PCAP, TINV, INVDEP, CLINV and TASS.
+7.2.1. From the Correlation Matrix for EXIM Bank Ltd., we Observed the Following:
+EXIM Banks’ number of branches (NBR) has a strong correlation with NEM, TDEP, PCAP, TINV, CLINV, TASS and NINC, a moderate correlation with INVDEP, and a negative correlation with EPS.
+EXIM Banks’ number of employees (NEM) has a strong correlation with NBR, TDEP, PCAP, TINV, CLINV, TASS and NINC, a moderate correlation with INVDEP, and a negative correlation with EPS.
+EXIM Banks’ total deposit (TDEP) has a strong correlation with NBR, NEM, PCAP, TINV, INVDEP, CLINV, TASS and NINC, and a negative correlation with EPS.
+EXIM Banks’ paid-up capital (PCAP) has a strong correlation with NBR, NEM, TDEP, TINV, CLINV, TASS and NINC, a moderate correlation with INVDEP, and a negative correlation with EPS.
+ EXIM Banks’ total investments (TINV) has a strong correlation with NBR, NEM, TDEP, PCAP, INVDEP, CLINV, TASS and NINC, and a negative correlation with EPS.
+EXIM Banks’ investment-to-deposit ratio (INVDEP) has a strong correlation with NBR, NEM, TDEP, PCAP, TINV, CLINV, TASS and NINC, and a negative correlation with EPS.
+EXIM Banks’ classified investments (CLINV) has a strong correlation with NEM, TDEP, PCAP, TINV, INVDEP, TASS and NINC, and a negative correlation with EPS.
+EXIM Banks’ total assets (TASS) has a strong correlation with NBR, NEM, TDEP, PCAP, TINV, INVDEP, CLINV and NINC, and a negative correlation with EPS.
+EXIM Banks’ net income (NINC) has a strong correlation with NBR, NEM, TDEP, PCAP, TINV, INVDEP, CLINV and TASS, and a negative correlation with EPS.
+EXIM Banks’ earnings per share (EPS) has a positive correlation with INVDEP, and a negative correlation with NBR, NEM, TDEP, PCAP, TINV, INVDEP, CLINV and TASS.
+Table 23 presents the correlation matrix for Al-Arafah Bank, and Table 24 presents the correlation matrix for EXIM Bank Ltd.
+
+Table 23. Correlation matrix for Al-Arafah Bank.
+Pearson Correlation	Particulars	
+No. of Branches
+No. of Employees
+Total Deposits
+Paid-up Capital
+Total Investments
+Investment-to-Deposit Ratio
+Classified Investments as a % of Total Investments
+Total Assets
+Net Income
+Earnings Per Share
+No. of Branches	
+1
+0.998**
+0.993**
+0.911**
+0.998**
+0.841**
+0.832*
+0.996**
+0.643
+-0.185
+No. of Employees	
+0.998**
+1
+0.996**
+0.928**
+0.996**
+0.818*
+0.850**
+0.998**
+0.656
+-0.198
+Total Deposits	
+0.993**
+0.996**
+1
+0.914**
+0.996**
+0.788*
+0.822*
+0.995**
+0.630
+-0.206
+Paid-up Capital	
+0.911**
+0.928**
+0.914**
+1
+0.893**
+0.694
+0.971**
+0.921**
+0.635
+-0.400
+Total Investments	
+0.998**
+0.996**
+0.996**
+0.893**
+1
+0.834*
+0.802*
+0.996**
+0.653
+-0.150
+Investment-to-Deposit Ratio	
+0.841**
+0.818*
+0.788*
+0.694
+0.834*
+1
+0.637
+0.833*
+0.712*
+0.053
+Classified Investments as a % of Total Investments	
+0.832*
+0.850**
+0.822*
+0.971**
+0.802*
+0.637
+1
+0.838**
+0.582
+-0.426
+Total Assets	
+0.996**
+0.998**
+0.995**
+0.921**
+0.996**
+0.833*
+0.838**
+1
+0.687
+-0.166
+Net Income	
+0.643
+0.656
+0.630
+0.635
+0.653
+0.712*
+0.582
+0.687
+1
+0.369
+EPS	
+-0.185
+-0.198
+-0.206
+-0.400
+-0.150
+0.053
+-0.426
+-0.0166
+0.369
+1
+Note:
+* Correlation is significant at the 0.05 level (2-tailed).
+** Correlation is significant at the 0.01 level (2-tailed).
+
+
+Table 24. Correlation matrix for EXIM Bank.
+Pearson Correlation	Particulars	
+No. of Branches
+No. of Employees
+Total Deposits
+Paid-up Capital
+Total Investments
+Investment-to-Deposit Ratio
+Total Assets
+Net Income
+Earnings Per Share
+No. of Branches	
+1
+0.974**
+0.991**
+0.945**
+0.971**
+0.498
+0.986**
+0.660
+-0.099
+No. of Employees	
+0.974**
+1
+0.974**
+0.982**
+0.949**
+0.463
+0.966**
+0.572
+-0.247
+Total Deposits	
+0.991**
+0.974**
+1
+0.936**
+0.986**
+0.530
+0.997**
+0.653
+-0.101
+Paid-up Capital	
+0.945**
+0.982**
+0.936**
+1
+0.883**
+0.305
+0.916**
+0.598
+-0.232
+Total Investments	
+0.971**
+0.949**
+0.986**
+0.883**
+1
+0.657
+0.995**
+0.580
+-0.134
+Investment-to-Deposit Ratio	
+0.498
+0.463
+0.530
+0.305
+0.657
+1
+0.578
+0.100
+-0.133
+Total Assets	
+0.986**
+0.966**
+0.997**
+0.916**
+0.995**
+0.578
+1
+0.617
+-0.124
+Net Income	
+0.660
+0.572
+0.653
+0.598
+0.580
+0.100
+0.617
+1
+0.636
+EPS	
+-0.099
+-0.247
+-0.101
+-0.232
+-0.134
+-0.133
+-0.124
+0.636
+1
+Note:** Correlation is significant at the 0.01 level (2-tailed)
+
+7.2.2. From the Correlation Matrix for Islami Bank Bangladesh Ltd. (IBBL), we Observed the Following:
+IBBL’s number of branches (NBR) has a strong correlation with NEM, TDEP, PCAP, TINV and TASS, a low correlation with INVDEP, CLINV and NINC, and a negative correlation with EPS.
+IBBL’s number of employees (NEM) has a strong correlation with NBR, TDEP, PCAP, TINV, CLINV and TASS, a low correlation with INVDEP and NINC, and a negative correlation with EPS.
+IBBL’s total deposits (TDEP) has a strong correlation with NBR, NEM, PCAP, TINV and TASS, a low correlation with INVDEP, CLINV and NINC, and a negative correlation with EPS.
+IBBL’s paid-up capital (PCAP) has a strong correlation with NBR, NEM, TDEP, TINV, CLINV and TASS, and a negative correlation with INVDEP, NINC and EPS.
+IBBL’s total investments (TINV) has a strong correlation with NBR, NEM, TDEP, PCAP and TASS, a low correlation with INVDEP, CLINV and NINC, and a negative correlation with EPS.
+IBBL’s investment-to-deposit ratio (INVDEP) has a strong correlation with CLINV and TASS, a low correlation with NBR, NEM, TDEP, TINV and NINC, and a negative correlation with PCAP and EPS.
+IBBL’s classified investments (CLINV) has a strong correlation with NEM, PCAP, INVDEP and NINC, a moderate correlation with TDEP and TINV, a low correlation with NBR and TASS, and a negative correlation with NINC and EPS.
+IBBL’s total assets (TASS) has a strong correlation with NBR, NEM, TDEP, PCAP and TINV, a low correlation with INVDEP, CLINV and NINC, and a negative correlation with EPS.
+IBBL’s net income (NINC) has a strong correlation with PCAP, INVDEP and TASS, a low correlation with NBR, NEM, TDEP and TINV, and a negative correlation with CLINV and EPS.
+IBBL’s earnings per share (EPS) has a low correlation with NINC, and a negative correlation with NBR, NEM, TDEP, PCAP, TINV, INVDEP, CLINV and TASS.
+Table 25 presents the correlation matrix for Islami Bank Bangladesh Ltd., Table 26 presents the correlation matrix for Shahjalal Bank Ltd., and Table 27 presents the correlation matrix for Social Islami Bank Ltd.
+
+Table 25. Correlation matrix for Islami Bank Bangladesh Ltd.
+Pearson Correlation	Particulars	
+No. of Branches
+No. of Employees
+Total Deposits
+Paid-up Capital
+Total Investments
+Investment-to-Deposit Ratio
+Classified Investments as a % of Total Investments
+Total Assets
+Net Income
+Earnings Per Share
+No. of Branches	
+1
+0.915**
+0.995**
+0.788*
+0.991**
+0.364
+0.336
+0.998**
+0.160
+-0.930**
+No. of Employees	
+0.915**
+1
+0.941**
+0.923**
+0.956**
+0.035
+0.642
+0.928**
+0.012
+-0.861**
+Total Deposits	
+0.995**
+0.941**
+1
+0.832*
+0.998**
+0.293
+0.418
+0.998**
+0.092
+-0.927**
+Paid-up Capital	
+0.788*
+0.923**
+0.832*
+1
+0.843**
+-0.277
+0.743*
+0.799*
+-0.263
+-0.842**
+Total Investments	
+0.991**
+0.956**
+0.998**
+0.843**
+1
+0.273
+0.444
+0.996**
+0.082
+-0.921**
+Investment-to-Deposit Ratio	
+0.364
+0.035
+0.293
+-0.277
+0.273
+1
+-0.611
+0.345
+0.588
+-0.178
+Classified Investments as a % of Total Investments	
+0.336
+0.642
+0.418
+0.743*
+0.444
+-0.611
+1
+0.373
+-0.319
+-0.298
+Total Assets	
+0.998**
+0.928**
+0.998**
+0.799*
+0.996**
+0.345
+0.373
+1
+0.131
+-0.924**
+Net Income	
+0.160
+0.012
+0.092
+-0.263
+0.082
+0.588
+-0.319
+0.131
+1
+0.046
+EPS	
+-0.930**
+-0.861**
+-0.927**
+-0.842**
+-0.921**
+-0.178
+-0.298
+-0.924**
+0.046
+1
+Note:
+* Correlation is significant at the 0.05 level (2-tailed).
+** Correlation is significant at the 0.01 level (2-tailed).
+
+
+Table 26. Correlation matrix for Shahjalal Bank.
+Pearson Correlation	Particulars	
+No. of Branches
+No. of Employees
+Total Deposits
+Paid-up Capital
+Total Investments
+Investment-to-Deposit Ratio
+Classified Investments as a % of Total Investments
+Total Assets
+Net Income
+Earnings Per Share
+No. of Branches	
+1
+0.928**
+0.839**
+0.719*
+0.858**
+-0.036
+0.505
+0.855**
+0.017
+-0.418
+No. of Employees	
+0.928**
+1
+0.652
+0.639
+0.651
+-0.277
+0.510
+0.666
+-0.155
+-0.546
+Total Deposits	
+0.839**
+0.652
+1
+0.908**
+0.987**
+0.013
+0.655
+0.997**
+-0.001
+-0.430
+Paid-up Capital	
+0.719*
+0.639
+0.908**
+1
+0.837**
+-0.382
+0.870**
+0.887**
+-0.202
+-0.641
+Total Investments	
+0.858**
+0.651
+0.987**
+0.837**
+1
+0.150
+0.535
+0.995**
+0.062
+-0.355
+Investment-to-Deposit Ratio	
+-0.036
+-0.277
+0.013
+-0.382
+0.150
+1
+-0.683
+0.058
+0.363
+0.537
+Classified Investments as a % of Total Investments	
+0.505
+0.510
+0.655
+0.870**
+0.535
+-0.683
+1
+0.612
+-0.308
+-0.698
+Total Assets	
+0.855**
+0.666
+0.997**
+0.887**
+0.995**
+0.058
+0.612
+1
+0.003
+-0.425
+Net Income	
+0.017
+-0.155
+-0.001
+-0.202
+0.062
+0.363
+-0.308
+0.003
+1
+0.813*
+EPS	
+-0.418
+-0.546
+-0.430
+-0.641
+-0.355
+0.537
+-0.698
+-0.425
+0.813*
+1
+Note:
+* Correlation is significant at the 0.05 level (2-tailed).
+** Correlation is significant at the 0.01 level (2-tailed).
+
+7.2.3. From the Correlation Matrix for Shahjalal Bank Ltd., we Observed the Following:
+Shahjalal Bank’s number of branches (NBR) has a strong correlation with NEM, TDEP, PCAP, TINV, CLINV and TASS, a low correlation with NINC, and a negative correlation with INVDEP and EPS.
+Shahjalal Bank’s number of employees (NEM) has a strong correlation with NBR, TDEP, PCAP, TINV, CLINV and TASS, and a negative correlation with INVDEP, NINC and EPS.
+Shahjalal Bank’s total deposits (TDEP) has a strong correlation with NBR, NEM, PCAP, TINV, TASS and CLINV, a low correlation with INVDEP, and a negative correlation with NINC and EPS.
+Shahjalal Bank’s paid-up capital (PCAP) has a strong correlation with NBR, NEM, TDEP, TINV, CLINV and TASS, and a negative correlation with INVDEP, NINC and EPS.
+ Shahjalal Bank’s total investments (TINV) has a strong correlation with NBR, NEM, TDEP, PCAP and TASS, a low correlation with INVDEP, CLINV and NINC, and a negative correlation with EPS.
+ Shahjalal Bank’s investment-to-deposit ratio (INVDEP) has a strong correlation with EPS, a low correlation with TDEP, TINV and NINC, and a negative correlation with NBR, NEM, CLINV and PCAP.
+Shahjalal Bank’s classified investments (CLINV) has a strong correlation with NEM, PCAP, TDEP and TINV, a low correlation with NBR and TASS, and a negative correlation with INVDEP, NINC and EPS.
+ Shahjalal Bank’s total assets (TASS) has a strong correlation with NBR, NEM, TDEP, PCAP, TINV and CLINV, a low correlation with INVDEP and NINC, and a negative correlation with EPS.
+ Shahjalal Bank’s net income (NINC) has a strong correlation with EPS, a low correlation with NBR, TINV, INVDEP and TASS, and a negative correlation with NEM, TDEP, PCAP and CLINV.
+ Shahjalal Bank’s earnings per share (EPS) has a strong correlation with INVDEP and NINC, and a negative correlation with NBR, NEM, TDEP, PCAP, CLINV, TINV and TASS.
+7.2.4. From the Correlation Matrix for Social Islami Bank Ltd., we Observed the Following:
+Social Islami Bank’s number of branches (NBR) has a strong correlation with NEM, TDEP, PCAP, TINV and INVDEP, a low correlation with TASS and NINC, and negative correlation with CLINV and EPS.
+Social Islami Bank’s number of employees (NEM) has a strong correlation with NBR, TDEP, PCAP, TINV and INVDEP, a low correlation with TASS, NINC and EPS, and a negative correlation with CLINV.
+Social Islami Bank’s total deposits (TDEP) has a strong correlation with NBR, NEM, PCAP, TINV and INVDEP, a low correlation with TASS, NINC and EPS, and a negative correlation with CLINV.
+Social Islami Bank’s paid-up capital (PCAP) has a strong correlation with NBR, NEM, TDEP, TINV and INVDEP, a low correlation with TASS, NINC and EPS, and a negative correlation with CLINV.
+Social Islami Bank’s total investment (TINV) has a strong correlation with NBR, NEM, TDEP, PCAP and INVDEP, a low correlation with TASS, NINC and EPS, and a negative correlation with CLINV.
+Social Islami Bank’s investment-to-deposit ratio (INVDEP) has a strong correlation with NBR, NEM, TDEP, TINV and PCAP, a low correlation with NINC and EPS, and a negative correlation with CLINV and TASS.
+Social Islami Bank’s classified investments (CLINV) has a negative correlation with NEM, NBR, PCAP, TDEP, TINV, INVDEP, TASS, NINC and EPS.
+Social Islami Bank’s total assets (TASS) has a low correlation with NBR, NEM, TDEP, PCAP, INVDEP, NINC and EPS, and a negative correlation with TINV and CLINV.
+Social Islami Bank’s net income (NINC) has a strong correlation with INVDEP and EPS, a low correlation with NBR, NEM, TDEP, PCAP, TINV and TASS, and a negative correlation with CLINV.
+Social Islami Bank’s earnings per share (EPS) has a strong correlation with NINC, a low correlation with NBR, NEM, TDEP, PCAP, TINV, TASS and INVDEP, and a negative correlation with CLINV.
+Table 27. Correlation matrix for Social Islami Bank Ltd.
+Pearson Correlation	Particulars	
+No. of Branches
+No. of Employees
+Total Deposits
+Paid-up Capital
+Total Investments
+Investment-to-Deposit Ratio
+Classified Investments as a % of Total Investments
+Total Assets
+Net Income
+EPS
+No. of Branches	
+1
+0.997**
+0.994**
+0.947**
+0.997**
+0.977**
+-0.722*
+0.004
+0.380
+0.053
+No. of Employees	
+0.997**
+1
+0.993**
+0.944**
+0.993**
+0.981**
+-0.740*
+0.032
+0.424
+0.096
+Total Deposits	
+0.994**
+0.993**
+1
+0.914**
+0.999**
+0.967**
+-0.749*
+0.004
+0.396
+0.072
+Paid-up Capital	
+0.947**
+0.944**
+0.914**
+1
+0.923**
+0.952**
+-0.616
+0.105
+0.355
+0.038
+Total Investments	
+0.997**
+0.993**
+0.999**
+0.923**
+1
+0.970**
+-0.743*
+-0.002
+0.385
+0.062
+Investment-to-Deposit Ratio	
+0.977**
+0.981**
+0.967**
+0.952**
+0.970**
+1
+-0.792*
+0.081
+0.520
+0.205
+Classified Investments as a % of Total Investments	
+-0.722*
+-0.740*
+-0.749*
+-0.616
+-0.743*
+-0.792*
+1
+-0.0409
+-0.753*
+-0.561
+Total Assets	
+0.004
+0.032
+0.004
+0.105
+-0.002
+0.081
+-0.409
+1
+0.326
+0.345
+Net Income	
+0.380
+0.424
+0.396
+0.355
+0.385
+0.520
+-0.753*
+0.326
+1
+0.938**
+EPS	
+0.053
+0.096
+0.072
+0.038
+0.062
+0.205
+-0.561
+0.345
+0.938**
+1
+Note:
+* Correlation is significant at the 0.05 level (2-tailed).
+** Correlation is significant at the 0.01 level (2-tailed).
+
+8. CONCLUSION
+The journey of Islamic banks in Bangladesh started in 1983. They have displayed uniqueness by following Islamic principles in their methods of accepting deposits and investing funds. The Islamic banks selected for this study have set an exceptional example by showing a positive and steady performance over the last decade. We have assessed the performance of the selected banks through their number of branches, number of employees, paid-up capital, total deposits, investments, investment-to-deposit ratio, classified investments as a percentage of total investments, total assets, net income, earnings per share, and dividends. To evaluate the performance of the selected banks, data were analyzed through various statistical measures, such as growth percentage, trend equations, and the square of the correlation coefficient. Fifty trend equations and R-squared were tested for ten different activities of the selected banks. Among them are the trend value of branches, employees, capital, deposits, investments, investment recovery, assets, net income, EPS and dividends, which are positive in the cases of all the selected banks. The square of the correlation coefficient (R2) of the number of branches, number of employees, paid-up capital, total deposits, investments, total assets, net income and earnings per share are more than 0.8, which indicates a goodness of fit of most of the trend equations. Islamic banks in Bangladesh are in the growth stage, and they have great potential. During the last decade, their growth of branches, employees, capital, deposits, investments, assets, net income and EPS indicate the same. Our analysis demonstrates the positive trends in performance with different activities undertaken by the selected banks. This study proves that the industry has scope to grow in the future, which will support the economic development of Bangladesh.
+

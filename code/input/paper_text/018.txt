@@ -1,0 +1,488 @@
+Cousins from overseas: How the existing workforce adapts to a massive forced return migration shock
+
+Abstract
+The 1975 eruption of Civil Wars in Portuguese-speaking Africa sparked the return of half a million retornados to Portugal. We use census data from 1960 and 1981 to study the impacts of this massive influx of workers on the existing workforce. We observe gendered effects in natives’ labour market outcomes: male and female natives leave dependent employment. We find robust evidence of females moving to inactivity, and suggestive evidence that males move into self-employment. The effects are driven by the repatriates who are Portuguese-born. The identification strategy exploits the repatriates’ municipality of birth and a large-scale resettlement program relying on hotel capacity.
+
+1. Introduction
+More citizens than ever live outside their origin countries. International migrants were estimated to be nearly 272 million globally in 2019, 51 million more than in 2010 (World Migration Report, 2010). Large extreme weather phenomena and wars are bound to create massive dislocations of populations, which may include return migrants (Becker and Ferrara, 2019, Verme and Schuettler, 2021). Despite the importance of return migration, there is little evidence on its impacts, possibly due to the lack or poor quality of data and the strong selection of those who decide to move (Wahba, 2015, Dustmann and Görlach, 2016, Adda et al., 2022, Bucheli and Fontenla, 2022).
+In this paper, we use rich individual-level census data to analyse the labour market impacts of a massive wave of return migration to Portugal, following the civil wars in the former colonies of Angola, Cape Verde, Guinea-Bissau, Mozambique, and São Tomé and Príncipe, that erupted after the Portuguese democratic transition. In 1976, The New York Times reported that “the absorption of this mass of colonial refugees is one of the main difficulties facing Western Europe’s poorest country”.1 Two years later, Der Spiegel states that the hundreds of thousands of refugees had been integrated faster than expected, describing how local employers were more prone to employ repatriates than natives because of their more conservative attitudes, making them less likely to be in labour unions.2
+The case of these so-called Portuguese retornados is particularly interesting for several reasons. First, the inflow was large and concentrated, with close to half a million people arriving in Portugal within less than three years (1974–1976), increasing the workforce by about 3.6% on average, and up to more than 15% in some municipalities. Second, most repatriates were born in Portugal, i.e., these return migrants are close substitutes for the native population. This is opposed to other contexts where incumbents and immigrants are imperfect substitutes due to different language ability or religious preferences (Manacorda et al., 2012, Abramitzky et al., 2021, Ciancio and García-Jimeno, 2022). Moreover, there was a considerable investment in public policies aimed at easing the integration of the retornados (Carrington and De Lima, 1996). Third, the timing of the inflow was largely unpredictable and hence provides a plausibly exogenous source of variation. Fourth, a large majority of the settlers were forced to return to Portugal, independently of the country in which they were living, of social class, education, and other characteristics. Fifth, the repatriates were considerably more educated than natives (Pires et al., 2020), in contrast with the usual case studied in the migration literature (Edo, 2019).
+The main contribution of our paper is the identification of the impact of a massive return migration wave of mostly non-colony born individuals, relying on the end of the Portuguese Colonial War as a natural experiment. Moreover, we use rich census data to disentangle the outcomes for native workers, at the granular geographical scale of more than 300 municipalities, which also allows us to distinguish the impact of Portuguese-born and colony-born repatriates, an important innovation with regards to the previous literature. We propose an instrumental variable (IV) approach to mitigate potential endogeneity concerns in the location of repatriates, by building municipal shift-share instruments based on birth places of the repatriates (Card, 2009, Goldsmith-Pinkham et al., 2020). The approach leverages three key factors: most repatriates were born in Portugal, the exogenous push factor occurred simultaneously across five different colonies, and network effects are assumed to be stronger among individuals who departed from the same colony. Moreover, we exploit the settlement program that relied on hotel capacity to build an additional instrumental variable that allows us to disentangle the impacts of Portuguese-born and colony-born repatriates, to shed light on the degree of substitutability (or complementarity) between each type of migrants and the natives.
+We identify gender-specific effects of forced return migration on native workers. For both male and female natives, we observe a strong decrease in employment and specially in dependent employment. While female natives move mainly to inactivity, males seem to compensate by becoming self-employed. We find the negative labour market impact of the repatriates to be driven entirely by the repatriates who had been born in Portugal. This suggests that the negativity of our baseline results may be attributed to the fact that the repatriates are closer substitutes to the native population than is the case in most migration movements. Our analysis is robust to changing the geographical unit of observation and to various sample restrictions. In addition, we augment the baseline specification with several controls for pre-shock levels and/or trends in local economic attractiveness, migration towards former colonies and foreign countries, municipal employment, population growth, and changes in demographic composition.
+We discuss possible mechanisms, with regression results showing how sector-district wage data is correlated with the return migration shock. The evidence suggests that the retornados’ impact is compatible with the following combined mechanisms: (i) repatriates selecting into better paying jobs, (ii) wages in these jobs did not increase as much due to an increase in supply, (iii) a decline in the gender wage gap, driven by a decline in male wages, and, (iv) a segmented labour market, with significantly lower wages for women than for men.
+There are two previous studies on the labour market effects of the Portuguese repatriates (Carrington and De Lima, 1996, Mäkelä, 2017). Contrary to these contributions, we are able to distinguish native from retornados’ outcomes, the impact of Portuguese-born from African-born retornados, and study gender-specific effects. We also analyse a more comprehensive set of labour market outcomes, including self-employment, at the more disaggregated municipal level, rather than districts.3 Carrington and De Lima (1996), using a descriptive analysis, provide ambiguous results: a time-series comparison with Spain and France indicates very modest effects of the shock, while a comparison between districts within Portugal yields a relative decrease in wage growth in areas with a higher influx of repatriates. More recently, Mäkelä (2017) employs a synthetic control method using other countries or more/ less affected districts as donors and finds that, in 1977, average annual wages per worker were about 8% lower compared to the synthetic counterfactual, with a larger negative effect of −25% in 1970 and −55% in 1985, respectively. Both papers use agricultural and construction wages. Our wage regressions augment these results by considering a broader set of sectors. In a more recent contribution, Dimitrova (2024) shows that the influx of (native) returnees led to fertility increases in treated municipalities. Her main explanation is that native women disproportionally left the labour force in more affected municipalities, a result that is consistent with our findings.
+We further contribute to the literature on return migration. The paper closest to our analysis is Edo (2020), who also documents the labour market effects due to the end of colonial ties. He finds that the repatriation of French citizens prompted by the end of the Algerian war led to a short-run decrease in native wages. Importantly, the Portuguese shock presents significant differences: while the French Algerian were ethnic whites, the majority was not born in France, contrary to the Portuguese ones. This allows us to rely on the retornados’ birthplace in the identification strategy, in contrast with the classical Bartik instrument used in Edo (2020) relying on previous migration patterns. Furthermore, the French repatriation increased the workforce by about 1.6%, on average, less than half of the relative shock of the retornados.
+Other papers study return migration during the Age of Mass Migration (1850–1913), when 30 million people migrated from Europe to the US and one in three returned (Bandiera et al., 2013). In this context, Abramitzky et al. (2014) and Abramitzky et al. (2019) document negative selection of temporary migrants who eventually return to Europe. Our paper is also related to the literature on migration that exploits natural experiments driving increases in the number of immigrants (Card, 1990, Hunt, 1992, Friedberg, 2001, Borjas, 2017, Clemens and Hunt, 2019, Peri and Yasenov, 2019, Sarvimäki et al., 2022), and negative supply shocks on host (East et al., 2023, Lee et al., 2022, Clemens et al., 2018, Abramitzky et al., 2022) and origin countries (Testa, 2021).4
+Finally, our paper speaks to the literature on the evolution of the role of females in labour markets (Goldin, 2006). The magnitude of the gendered asymmetries suggests that Portugal was still at the evolutionary phase in the end of the 1970s, in the sense that women were mostly secondary earners who perceived their labour market participation as a job, as opposed to a career. Our finding are also compatible with Cardoso and Morin (2023), who show that the relative scarcity of males explains female labour force participation in Portugal.
+Our findings are specially suited to anticipate the consequences of modern population displacements linked to political instability, authoritarian regimes, and wars, which are bound to be followed by sizeable (return) migration similar to the Portuguese retornados. The main policy implication of this study is the importance of designing public policies aimed at mitigating the negative labour market impacts not only on those who arrive (Brell et al., 2020), but also on native workers, considering occupational downgrading and the disproportionate burden of adjustment absorbed by women. These effects are more likely to arise when immigrants are close substitutes to the incumbents.
+The remainder of this paper is organized as follows. Section 2 provides historical background on the Portuguese Colonial War and the repatriation to Portugal. Section 3 describes the data used, presents descriptive statistics, and information on the spatial distribution of the retornados. Section 4 introduces the empirical strategy, before Section 5 presents and discusses the results. Section 6 shows various robustness checks and Section 7 investigates whether these effects are driven by Portuguese-born or colony-born repatriates. Section 8 concludes.
+2. Historical background
+2.1. A brief overview of the Portuguese Colonial War
+During the 1960s and early 1970s, unrest caused by independence movements in Portugal’s colonies led the authoritarian Portuguese regime to increase the resources spent on colonial administration. In 1973, military expenditures made up close to 50% of government expenditures (Carrington and De Lima, 1996). These costs, coupled with a rising number of dead and injured in the Colonial War, and an increasing anti-colonization sentiment, eventually culminated in the April 1974 military coup, which put an end to the authoritarian regime in Portugal. Subsequently, the military withdrew its troops from the colonies and surrendered to the local independence movements.
+While initially it was expected that the white settler populations would be able to remain in Africa, day-to-day life turned progressively more violent, with looting, attacks, expropriations, and imprisonment carried out by members of the liberation factions (Peralta, 2019). The anticipation of civil war caused by divisions among the African nationalists and meddling of foreign powers in Angola and Mozambique led hundreds of thousands of ethnic Portuguese to flee to Portugal as repatriates (Young and Hall, 1997). Most of them returned through a large airlift organized by Portugal with the assistance of several countries in 1975–76.
+2.2. Repatriation to Portugal
+The inflow of repatriates to Portugal was large and sudden, due to the unexpected timing of the military coup and subsequent independence of the colonies. According to the 1981 census, close to half a million retornados arrived in Portugal between 1974 and 1976, making it the largest migration exodus resulting from decolonization, in relative terms, given that the native population accounted for about nine million people (Peralta, 2019). Virtually all these individuals were ethnic Portuguese, as the nationality law of 1975 established that only those who could prove a European lineage up to their grandfathers could apply for a Portuguese identity card. Figure A2, in the Appendix, displays the male and female population growth, with respect to 1970.
+Given that many of the repatriates arrived with few resources, the Portuguese government initiated a large-scale settlement program to assist them in their arrival, carried out by the Instituto de Apoio ao Retorno de Nacionais (IARN). This support included employing repatriates as public servants and giving cheap credit to small businesses (Peralta, 2019, Kalter, 2022).5 The government rented available tourism lodging facilities (sometimes even luxury hotels), in which some repatriates passed their first years in Portugal (Peralta, 2021).6 The settlement program amounted to roughly 5% of Portuguese GNP over the 1974–76 period (Carrington and De Lima, 1996). As early as 1981, the IARN was dissolved, and the repatriates’ program was handed over to the social security system (Peralta, 2019).
+The integration of the retornados is often remembered as a success that “may even be considered miraculous” (Peralta, 2019, 6). It co-existed with increases in the minimum wage, the nationalization of many industries, and other policies implemented by the post-revolutionary left-wing governments (Amaral et al., 2022). However, the arrival of the repatriates was not without challenges (Kalter, 2022). The government changed seven times between 1974 and 1975. This political turmoil was coupled with a severe economic recession that culminated in a 1978 intervention by the International Monetary Fund. All of this contributed to repatriates being received with hostility, perceived by the native population as colonialists, foreigners, or even invaders (Peralta, 2019). According to Lubkemann (2002), the media at the time contributed to the negative stereotyping of the “internal strangers”, as he called them.7
+3. Data and descriptive statistics
+This paper combines data from Portuguese population census, former colonies’ statistical yearbooks, tourism statistical yearbooks, firms’ statistical yearbooks, all available from Statistics Portugal. Moreover, we retrieve data on emigration to non-African countries between 1955 and 1975 from Valente Rosa and Chitas (2000).
+3.1. Data on repatriates
+Data on the repatriates was retrieved by the sociologist Rui Pena Pires from the Portuguese census of 1981. He defines a repatriate as someone who lived in Portugal in 1981 and in an African Portuguese-speaking country in December 1973. The data set contains individual-level data on 471,427 retornados, including demographic information such as gender and age, place of birth, place of residency in 1979 and 1981, as well as educational and employment information.
+Table 1 shows that 94.8% of repatriates in our sample came from Angola or Mozambique, the two largest colonies.8
+In our main specifications, we consider 307,034 repatriates, obtained as follows. First, there are 339,868 repatriates between 20 and 69 years old in 1981, which corresponds to individuals of working age (between 15 and 64) when arriving in Portugal. Second, we exclude individuals who migrated to Portugal after 1979, i.e, we restrict the analysis to those who returned in response to an exogenous push-factor. Third, we exclude those (32,834 repatriates) who change municipality between 1979 and 1981, which allows us to abstract from economic-driven internal migration. The results are robust to including those who changed municipality in this period, and to alternative age ranges, as shown in Section 6.
+In Section 7, we distinguish between Portuguese-born and colony-born repatriates. We provide descriptive statistics of these two groups in Table A2 in the Appendix and their geographical distribution in Figure A4. Colony-born repatriates are younger, more educated, and slightly more likely to be female.
+3.2. Data on Portuguese natives
+We use the 1960 census data as the pre-shock period, and the 1981 one as the post-shock period. Recall that the shock takes place in 1974–76 and therefore the 1981 census is the first census after the inflow and it takes place after a six-year adjustment period.
+In our preferred specifications, we do not use the data from the administrative survey of the population that replaced the 1970 census, as it collected limited labour market information and is based on a non-random survey of 20% of the population, that some authors believe to be politically driven (Pires, 2003). We rely on this information only for robustness purposes, in Section 6. We also exploit the 1950 census to test for pre-trends.
+The censuses contain municipality-level data on demographics and employment for the 303 municipalities.9 In the 1981 census, we have individual level data for retornados, but not for natives. Therefore, we define the native population in each municipality by subtracting the number of repatriates from the total population. We compute native population outcomes likewise: the number of unemployed natives, for instance, is obtained by subtracting the number of unemployed repatriates from the total unemployed population, per municipality. Note that Portugal was a very closed country and in-migration was residual in these decades (around 30,000 individuals in the mid seventies, according to Baganha et al., 2009).
+We focus the analysis on the impact of the retornados on Labour Force Participation (LFP), Unemployment Rate, and the Employment Share. The census also provides data on different types of employment, including the number of employees and entrepreneurs. Entrepreneurs are further divided into employers (those who have employees) and self-employed individuals. We investigate these outcomes separately for male natives and female natives.10
+3.3. Comparison of repatriates and natives
+Approximately 77.8% of repatriates were born in Portugal (Pires et al., 2020).
+In 1981, repatriates above 15 account for 5.1% of the population above 15, with 4.4% for females, and 5.9% for males.11 Overall, the inflow of retornados not only changed the size, but also the composition of the Portuguese labour force. As shown in Table 1, repatriates were more educated, and more likely to be male, employees or employers. Compared with natives, repatriates were more likely to be of working age, as shown in Figure A5 in the Appendix.
+Table 2 shows descriptive statistics for changes in native labour market outcomes between 1960 and 1981, natives’ and repatriates’ outcomes in 1981, and the difference between them, for both males and females. Labour force participation, as well as the shares of employment, employee, entrepreneur, employer and self-employed, are all computed as shares of the working age population. The unemployment rate is calculated as the share of the labour force. The outcomes exhibit an increasing degree of granularity as one moves from the top to the bottom of the Table. The labour force encompasses all those who are unemployed and employed. Those employed encompass employees (i.e., in dependent employment) and entrepreneurs. Entrepreneurs, in turn, include self-employed individuals, with no employees, which we consider low-quality entrepreneurship, and employers, i.e., high-quality entrepreneurs.
+Table 1. Comparison repatriates and natives .
+
+Empty Cell	Natives	Repatriates	Repatriates
+Empty Cell	(Above 15)	(Baseline)	(Above 15)
+Empty Cell	N	%	N	%	N	%
+Gender						
+Male	3,189,679	46.7%	167,490	54.6%	188,096	53.8%
+Female	3,634,546	53.3%	139,544	45.5%	161,461	46.2%
+Total	6,824,225	100.0%	307,034	100.0%	349,557	100.0%
+Education						
+None	2,612,630	38.3%	38,730	12.6%	44,423	12.7%
+Primary	3,341,173	49.0%	179,9276	58.6%	203,933	58.3%
+Secondary	657,780	9.6%	62,414	20.3%	74,756	21.4%
+Higher	212,642	3.1%	25,963	8.5%	26,445	7.6%
+Total	6,824,225	100.0%	307,034	100.0%	349,557	100.0%
+Profession						
+Employee	2,837,804	76.9%	167,455	81.1%	174,403	81.4%
+Self-employed	604,716	16.4%	25,346	12.3%	25,656	12.0%
+Employer	119,936	3.2%	10,040	4.9%	10,138	4.7%
+Stay-home parent	98,526	2.7%	1,639	0.8%	1,953	0.9%
+Cooperative	16,577	0.4%	527	0.3%	550	0.3%
+Other	13,530	0.4%	1,403	0.7%	1,454	0.7%
+Total	3,691,089	100.0%	206,410	100.0%	214,154	100.0%
+Unemployed/Inactive	3,166,212		100,624	100.0%	135,403	
+Residence in 1973						
+Angola			189,057	61.6%	215,528	61.7%
+Mozambique			102,010	33.2%	116,803	33.4%
+Other			15,967	5.2%	17,2261	4.9%
+Total			307,034	100.0%	349,557	100.0%
+Notes: Natives include all non-repatriates above the age of 15. Baseline statistics for repatriates exclude those repatriates who migrated to Portugal after 1979 and those who changed municipalities between 1979 and 1981. Repatriates is comprised of all repatriates aged between 20 and 69 years old in 1981. For comparison, statistics for repatriates above 15 are displayed. The total number of natives is calculated as the sum of all educational groups. The number of unemployed/inactive natives and repatriates is calculated as the difference between the total repatriates or natives in the sample and those with a profession specified. Shares may not add up to 100% due to rounding. Source: census of 1981, Statistics Portugal, computations by the authors.
+The LFP of male natives decreased between 1960 and 1981, while female native LFP increased. We observe an increase in the male native unemployment rate, and a large drop in the male employment share. The share of employers decreases, while that of self-employed individuals increase. For female natives, the positive changes in all the outcomes indicate an increasing integration of women in the labour market.
+Table 2. Descriptive statistics.
+
+
+Notes: Standard deviations in parentheses. 
+ refer to the change in each outcome between 1960 and 1981. 
+ refers to the mean level in 1981 across the 303 municipalities. LFP stands for labour force participation. The column Difference shows the mean difference between levels of natives and repatriates in 1981. The stars indicate significance of an unpaired t-test of the differences. All indicators expect for the unemployment rate are calculated as shares over the total population of working age. We compute the unemployment rate as the share of the labour force that is unemployed. Source: census of 1981, computations by the authors. 
+ 
+, 
+ 
+, 
+ 
+.
+In 1981, the LFP of both native and repatriate men is significantly higher than that of women. Compared to natives, male and female retornados are more likely to be unemployed. Female repatriates exhibit a higher unemployment rate and a higher employment share than native women, that is, they are more likely to either be employed or unemployed, and less likely to be stay-home parents. For male repatriates, the LFP is lower than for natives; they are more likely to be unemployed and less likely to be employed.
+3.4. Spatial distribution of repatriates
+The average shock of 3.6% of the working-age natives in 1981 entails considerable spatial variation between municipalities, as shown in Fig. 1. While there is no major clustering across municipalities, the highest density is in the North East of the country and around Lisbon.
+As discussed above, the Portuguese government rented hotels and other touristic lodging facilities in order to accommodate the retornados upon arrival (Kalter, 2022). We retrieved data from Statistics Portugal on the pre-shock (1973) hospitality sector, and use it to build an instrumental variable. More specifically, we collected data on the capacity to host by municipality, i.e. the sum of the number of people that all the facilities (hotels, camping sites, and others) could accommodate. In 1973, the capacity amounts to 208 places in the hospitality industry, on average, per municipality, varying from 0 to 15,034.
+
+Download: Download high-res image (561KB)
+Download: Download full-size image
+Fig. 1. Repatriate settlement across municipalities in 1981.
+
+Census of 1981, Statistics Portugal, own construction.
+4. Methodology
+4.1. Empirical strategy and identification challenge
+Our identification strategy is based on the differential municipal concentration of the repatriates (Dustmann et al., 2016). We investigate the effect of the overall immigration shock on labour market outcomes, using the following specification12:
+(1)
+where 
+ stands for municipality, 
+ for NUTS 2 region, and 
+ denotes the change in the outcome 
+ from 1960 (the pre-shock period) to 1981 (the post-shock period) in each region.13 We investigate labour force participation, the unemployment rate, overall employment, and employment as an employee or entrepreneur. Outcome variables are first-differenced to account for omitted time-invariant characteristics of the municipalities. The treatment variable, 
+, is the ratio of working-age repatriates to working-age natives in 1981, in municipality 
+ from NUTS 2 
+, and thus 
+ is our coefficient of interest.14 The initial period vector of covariates, 
+, comprises the shares of unemployed, inactive, young, highly educated, entrepreneurs, and workers in manufacturing jobs, per capita emigration (i.e., individuals who moved to foreign countries, excluding Portuguese colonies), and internal migration (i.e., residents born in another municipality), in order to control for the productive structure of the municipality. We further include dummies for the seven NUTS 2 regions (
+), hence our identification is based on within-NUTS 2 variation. Standard errors are clustered at the municipality level.
+The aim of this analysis is to compare the economic outcomes of certain regions after return immigration with the counterfactual outcome that would have been observed had repatriation not taken place (Dustmann et al., 2005). The extent to which repatriates could actively base their location decision on economic considerations was limited by the unexpected timing of the end of the Portuguese Colonial War. Note that we are already controlling for unobservable time invariant characteristics (through first-differencing and NUTS 2 fixed effects), and for an extensive set of observables in the pre-shock period. However, if endogenous sorting does occur, or if natives move in response to the inflow of repatriates, OLS estimates may be biased. If immigration increased unemployment in certain areas, leading natives to move to areas with lower migrant density, the impact of immigration would be dispersed through the national economy, thus biasing OLS coefficients towards zero. We tackle these concerns with an instrumental variable strategy. In Section 6, we show that our results are robust to several exercises, including the use of an alternative instrument.
+4.2. Exploiting variation in repatriates’ birthplaces: Shift-share instruments
+To address the potential endogeneity in the location of repatriates, we propose a shift-share instrument exploiting the fact that we have access to detailed individual level census data for the repatriates. A shift-share instrument is a weighted average of some shock, with weights reflecting heterogeneous shock exposure (Bartik, 1991). In other words, the spatial distribution of a certain shock (i.e. the shift) is instrumented by predicting regional shock exposure from some regional, exogenous characteristic (i.e. the share). We first present our IV and we then discuss it in light of the recent contributions on the validity of shift-share instruments (Goldsmith-Pinkham et al., 2020, Borusyak et al., 2022, Jaeger et al., 2018, Clemens and Hunt, 2019, Adao et al., 2019).
+We take advantage of three facts. First, 77.8% of the repatriates were born in Portugal, as shown in Table A2 in the Appendix. Second, many returned to their home region. In 1981, on average, about 40% of Portuguese-born repatriates lived in their birth municipality. Third, the shock impacted five different countries simultaneously, which was are collapsed into three regions by the census authority. Moreover, as can be seen in Table A3 in the Appendix, repatriates from these origins are, on average, similar in several characteristics, such as the level of education, average age, birthplace, religion, and marital status.15
+We build the shift-share IV by decomposing the retornados across the three African countries of origin. A common country of origin is a plausible predictor of settling in the same place upon return to Portugal, i.e., network effects are arguably stronger among individuals who departed from the same colony. Indeed, many retornados flew back together with part of their families, friends, and coworkers.16 Our instrument therefore captures two important determinants of return migration location (conditional on the vector of controls and the regional fixed effects). On one hand, the attractiveness of the birth municipality, on the other hand, the network effects driven by common country of residence in Africa.
+We compute the imputed number of repatriates as follows:
+(2)
+where 
+ stands for one of three origin groups (Angola, Mozambique, and other colonies), and 
+ stands for one of the 303 municipalities, while 
+ is the corresponding NUTS 2 regions. Note that our empirical strategy departs from Edo (2020), who uses past settlements as shares and assumes network effects by educational level. We test for an alternative IV relying on this type of network effects in Section 6.1.
+As natives could also have moved in response to the shock, which can lead to bias in estimates (Clemens and Hunt, 2019), we follow Edo (2020) and predict the number of pre-existing natives in 1981, in each region, according to:
+(3)
+where 
+ again stands for education group and 
+ stands for municipality, and 
+ for the corresponding NUTS 2 region. In Section 6.3, we show that results are robust to using natives measured in 1960 (pre-shock) as the denominator. We also show that our results are robust to the specification correction of Kronmal (1993).
+Finally, we compute the instrument as follows:
+(4)
+The first stage estimation is therefore given by:
+(5)
+ɛ
+And the second stage is
+(6)
+Baseline standard errors are clustered per municipality, consistently with the OLS estimates. For robustness, we show results with standard errors clustered per NUTS 3 in the appendix. In addition, we report standard errors accounting for the shift-share correlation structure, following Adao et al. (2019), and correct for (potential) correlated shocks that might generate a spurious correlation across municipalities (that need not be geographically proximate, yet feature similar characteristics) in Section 6.17 We also provide sharpened two-stage q-values to adjust for multiple hypothesis testing as outlined by Anderson (2008).
+4.3. Validity of the instrument
+We now discuss the validity of our IV strategy. By exploiting a natural experiment, our IV is arguably more exogenous than the shift-share IVs which use the national increase in immigrants as shifts.18 Nevertheless, we acknowledge that our analysis covers a twenty-one year period. For that reason, we carefully address challenges related to the validity of our instrument in three different moments: the baseline, 1960, the pre-shock period until 1974, and the final period, 1981.19
+Starting with the baseline period, 1960, the main concern is that repatriates might have left poorer areas. To ensure that we measure the impact of the shock conditional on the initial conditions of the municipalities, we control for a rich set of pre-shock regional characteristics. Moreover, we provide a placebo test, using changes between 1950 and 1960 as outcome variables.20 Note, also, that the repatriates were a socially diverse population, which included affluent settler families with affinities to colonial power (Peralta, 2019), mitigating concerns of negative selection in the region of departure.
+Next, several economic changes, including migration to Africa and elsewhere, might have differentially affected regions within Portugal after 1960 and before the return of African migrants in 1974. This could introduce a systematic relationship between the places of birth and labour market changes between 1960 and 1981, biasing our results.21 We account for this possibility by introducing several controls both in levels and pre-shock growth rates between 1960 and 1970 in Section 6. Unless otherwise stated, these controls are retrieved from the 1970 administrative survey, which covers a non-random 20% sample of the population.
+We show that our results remain robust if we control in turn for four additional variables. The first one is the ratio of the resident over present population per municipality in 1970, which captures population mobility due to military drafting in the Colonial Wars, internal migration for work-related reasons, illegal international migration, or other temporary motives.22 The second variable, available in Valente Rosa and Chitas (2000), controls for the per capita external emigration during the two decades ranging from 1955 to 1974 (rather than only the 1960 level), as emigration to Africa was contemporaneous with the migration to other destinations. The third variable is a measure of market potential population accessibility (i.e., a weighted average of the population, with weights measured as the inverse of 1971 road-based distances), while the fourth is the road distance to the nearest active train station in 1971. The source of these last two variables is Afonso et al. (2024) and they are included to further control for pre-shock levels in the economic attractiveness of these municipalities.
+We also sequentially include three pre-shock trends as controls, measured between 1960 and 1970. The first is the change in (district level) employment shares to consider the evolution of local labour market conditions. The second is the percent change in population at the municipal level. The third includes the change in the share of the population younger than 15 or older than 65 years old, at the municipal level, to account for changes in working age population.
+The rich set of controls is important to ensure the validity of our shift-share instrument. Indeed, as argued by Goldsmith-Pinkham et al. (2020), since our strategy relies on the differential exposure of municipalities to the return migration shock, it yields unbiased estimates if the share of repatriates of a given African origin, who were born in each municipality is exogenous to changes in labour market outcomes between 1960 and 1981, after controlling for a rich set of pre-shock characteristics and regional dummies.23
+Contemporaneously with our shock, the Revolution and the democratization process brought policies such as the nationalization of the banking industry, the introduction of a minimum wage, and an increase in public employment through the integration of civil servants from the former colonies.24 Although all these policies were decided by the central government and implemented uniformly across the country, we show that our results remain robust if we remove certain regions that are more likely to be affected by some of these shocks from the sample in Section 6.
+The returning 163,000 soldiers from the Colonial War (de Sousa, 2021) are unlikely to asymmetrically affect regions within Portugal, as drafting was spread across the country, and the options for opting out were severely limited (Card and Cardoso, 2012). Note also that the war had a relatively low death toll of 8290 soldiers (Cardoso and Morin, 2023), hence differential death rates are improbable to cause a major impact. In any case, including the ratio between present and resident population in 1970, shown in Section 6, does not change our conclusions. Trade with the former colonies is likewise unlikely to play an important role because of the nature of the products that were traded with the colonies and the respective market structure. In 1973, African colonial trade accounted for 14.6% of Portuguese exports, and 9.6% of Portuguese imports (Ferreira, 1994). One third of the imports were mineral products, such as oil, and precious metals, such as diamonds. The firms in charge of colonial trade in these natural resources were controlled by the state and mostly located in Lisbon (Amaral et al., 2022), i.e., it is implausible that entrepreneurs were setting up firms to trade with their municipalities of birth.25
+5. Results and discussion
+We investigate the effect of the repatriate supply shock on the male and the female labour markets separately, considering that the characteristics of female and male natives shown in Table 2 differ substantially and that female labour supply is more elastic to shocks.
+5.1. Main results
+Table 3, Table 4 present the estimated effects of the supply shock induced by the repatriates on the change in labour force participation, unemployment rate, employment, and entrepreneurship, for male and female natives, respectively. Specification (1) and (2) are OLS regressions of Eq. (1), without and with pre-shock controls. Column (3) reports results from a 2SLS regression using our instrument. The first-stage coefficient of the instrument is large in magnitude, and the first-stage F-statistic is above 10 (Stock et al., 2002), indicating that the instrument is a relevant predictors of repatriate density, and the IV estimates are unlikely to be subject to weak instrument bias.
+Table 3. Labour market effects of repatriates on male natives - baseline .
+
+Outcomes for male natives	OLS	IV
+Empty Cell	(1)	(2)	(3)
+ LFP	−0.053	−0.079	−0.536
+Empty Cell	(0.110)	(0.112)	(0.285)
+ Unemployment rate	−0.069
+0.014	0.047
+Empty Cell	(0.040)	(0.035)	(0.069)
+ Employment share	0.015	−0.101	−0.577
+Empty Cell	(0.114)	(0.119)	(0.298)
+ Share Employee	−0.595
+−1.036
+−1.906
+Empty Cell	(0.227)	(0.162)	(0.386)
+ Share Entrepreneur	−0.030	0.237	0.693
+Empty Cell	(0.174)	(0.151)	(0.335)
+ Share Employer	−0.188
+−0.129
+−0.031
+Empty Cell	(0.060)	(0.061)	(0.129)
+ Share Self-employed	0.159	0.366
+0.724
+Empty Cell	(0.173)	(0.164)	(0.351)
+Controls	NO	YES	YES
+Instrument	–	–	IV2
+First-stage coefficient	–	–	0.349
+First-stage F-statistic	–	–	43.421
+Observations	303	303	303
+Notes: Robust standard errors in parentheses. The independent variable is the sample of repatriates over the native population above 15. All outcomes refer to changes between 1960 and 1981. LFP, Employment share, Share Employee, Share Entrepreneurship, Share Employer and Share Self-employed are calculated as shares over the native working age population. The unemployment rate refers to the share of unemployed over the native labour force. All regression contain dummies for NUTS 2 regions. Controls contain the following parameters in 1960: unemployed, entrepreneurs, and those working in the manufacturing sector as share of working age population, inactive and population below 15 as share of total population, those with higher education as share of those above 15, and per capita emigration and per capita immigration from other municipalities in Portugal. 
+ 
+, 
+ 
+, 
+ 
+.
+Table 4. Labour market effects of repatriates on female natives - baseline.
+
+Outcomes for female natives	OLS	IV
+Empty Cell	(1)	(2)	(3)
+ LFP	−0.231	−0.373
+−1.652
+Empty Cell	(0.222)	(0.205)	(0.461)
+ Unemployment rate	−0.724
+−0.114	0.443
+Empty Cell	(0.198)	(0.161)	(0.276)
+ Employment share	0.068	−0.269	−1.611
+Empty Cell	(0.227)	(0.204)	(0.451)
+ Share Employee	−0.252	−0.431
+−1.557
+Empty Cell	(0.165)	(0.149)	(0.355)
+ Share Entrepreneur	0.100	−0.046	−0.172
+Empty Cell	(0.158)	(0.167)	(0.354)
+ Share Employer	−0.009	−0.014
+−0.026
+Empty Cell	(0.010)	(0.008)	(0.019)
+ Share Self-employed	0.110	−0.032	−0.146
+Empty Cell	(0.159)	(0.166)	(0.352)
+Controls	NO	YES	YES
+Instrument	–	–	IV2
+First-stage coefficient	–	–	0.349
+First-stage F-statistic	–	–	43.421
+Observations	303	303	303
+Notes: See notes in Table 3 
+ 
+, 
+ 
+, 
+ 
+.
+Our results are as follows. Males decrease their participation in the labour force. A 1 pp increase in the share of repatriates will lead to roughly a 0.5 pp decline natives’ labour force participation. At the same time, the unemployment rate seems to be unaffected by the arrival of the repatriates, while the employment share decreases significantly. A 1 pp increase in the share of repatriates corresponds to a decrease in the employment share of about 0.6 pp. On average, the supply shock accounts for a 3.6 pp change in the share of repatriates. Hence, in the average municipality, the decrease in the employment share caused by the shock amounts to roughly 2.2 pp.26 This correspond to an average reduction of 2%, compared to the pre-shock level of 96% in 1960.
+When looking at more granular outcomes, we observe large re-allocation effects in the labour market following the return migration shock. We document a significant drop in dependent employment, i.e., as employees. A 1 p.p. increase in the share of repatriates corresponds to a 1.9 p.p. decrease in the share of natives employed as employees. However, males partially compensate for the loss in dependent employment by moving to entrepreneurship. This explains the only moderate displacement of natives from overall employment. Upon the arrival of the repatriates, a large share of male natives is forced to or decides to leave their position as employees. However, most of the displaced male natives avoid leaving the labour force by becoming what we call low quality entrepreneurs (i.e., entrepreneurs without employees as opposed to employers). Hence, for male natives, we observe a large re-allocation and some displacements out of the labour force.
+We now turn to the outcomes for female natives. Similarly to males, we observe a decrease in labour force participation, no change in unemployment and a decrease in total and dependent employment. Contrary to males, females do not circumvent the shock by becoming (low-quality) entrepreneurs. Notice that we cannot rule out that females are working in informal family-based businesses instead (Verme and Schuettler, 2021). We observe no impact on self-employment or overall entrepreneurship. Most females seem to move to inactivity, as reflected in the large, negative effect on female LFP. A 1 p.p. increase in the share of repatriates corresponds to a 1.6 p.p. decrease in female labour force participation. These gender-specific differences are consistent with the findings of Edo (2020) for the French repatriation.
+It is important to highlight that, between 1960 and 1981, the labour force participation of women increased substantially by 21.3%, as shown in Table 2. The negative effect implies that in municipalities with more repatriates, female labour market outcomes improved by less than they would have improved in the absence of the repatriates.
+When compared to the IV results, the OLS estimates (the comparable ones with controls, in column (2)) are biased towards zero, for both females and males. This indicates that retornados seem to settle in regions with better a priori labour market prospects and economic fundamentals, suggesting positive selection. The IVs mitigate this endogeneity, and show that the (negative) impact on the labour market prospects of natives was actually stronger than suggested by OLS estimates.
+5.2. Discussion
+We start by acknowledging that our baseline results suggest sizeable adjustments following the arrival of the repatriates, larger than most effects found in the migration literature. This may be due to the fact that the repatriates are close substitutes to the native population, especially in terms of language and culture, and these results are consistent with the large effects on (un)employment in the short-run found by Mäkelä (2017). We explore this further in Section 7, where we divide the repatriates according to their birthplace.
+We now discuss possible mechanisms of adjustment by exploring price effects. We collect wage data at the district-sector of activity level in the last year before the Revolution (1973) and in 1980 from the official Firms’ Statistical Yearbook (Estatísticas das Sociedades, INE). We provide two related pieces of evidence, namely, on the sorting of repatriates and on the wage impact of the shock.
+We begin by showing that repatriates sort into well paid jobs, as measured at the sector-district level in 1973, by estimating the equation:
+where 
+ stands for the district, 
+ for the 21 sectors in the data, 
+ is the wage in 1973 and 
+ is a vector of controls including a dummy for services and the 1973 percentage of female jobs, and 
+ is the error term. The wage 
+ is computed by dividing the wage bill by the total number of workers. 
+ is the number of repatriates in each sector*industry cell divided by the native population in that sector*industry cell in 1981.27 We drop observations with wage changes between 1973 and 1980 above the 95th percentile. The results are displayed in row (1), columns (1)–(3) of Table 5. The district-level fixed effects ensure that we are capturing the effect by comparing sectorial impacts within the same district, and is therefore not driven by differential regional dynamics. The positive sorting of migrants is unusual in the migration literature (Lee et al., 2022), and is consistent with the higher educational level and common language of the repatriates, suggesting that they did not encounter the same hurdles that other types of migrants may face. As Kalter (2021) summarized, the main narratives of this period are those of “traumatic loss, successful integration”.
+Next, we investigate if the repatriates’ supply shock is associated with downward pressure on the wage growth between 1973 and 1980, measured at the sector-district level. We estimate the following regression:
+with 
+ being the percent change in the wage between 1980 and 1973. The remaining variables are as above. The results are displayed in row (2), columns (1)–(3) of Table 5 and show that a larger inflow of repatriates is associated with a lower nominal wage increase for the same period in more affected sectors within a district. This indicates that the demand side of the market could not, at least in the short run, fully absorb the supply shock.
+Table 5. Levels and changes in wages associated with influx of repatriates at sector*district level .
+
+(1)	(2)	(3)
+(1) Wages in 1973	0.073
+0.067
+0.067
+(0.023)	(0.023)	(0.024)
+(2) Percentage Change in Wages, 1973 to 1980	−0.162
+−0.148
+−0.146
+(0.069)	(0.074)	(0.075)
+Observations	237	237	235
+Notes: Standard errors clustered at sector level in parenthesis. The outcomes variables in the first row are wages in 1973. The outcome variable in the second row is the percentage change in wages between 1973 and 1981 per sector*district observation. The independent variable is the share of repatriates as measured in 1981 over the share of natives working in each sector*district cell in 1981. Regressions contain district fixed effects. Column (1) contains no further controls. Column (2) controls for a dummy services, which is equal to one if the sector belongs to services. Column (3) controls for services, and for the share of employees who were female in 1970. Our sample is not balanced given that some sectors are not equally relevant in all districts. The sectors included in our analysis are: Agriculture and hunting, paper and paper products industry, non-metallic mineral products industry except crude petroleum and coal derivatives, basic metallurgical industries, wholesale trade, retail trade, beverage industries, textile industries, wood and cork industry except furniture industry, manufacture of metal products except machinery and transport equipment, construction of non-electrical machinery, construction of electrical machines, devices, utensils, and other electrical material, construction of transport equipment, transport, storage, and communications, recreational services, furniture industry, rubber industry, real estate operations, industry of crude petroleum and coal derivatives, banks and other financial institutions, insurance. 
+ 
+, 
+ 
+, 
+ 
+.
+We now turn to the discussion of the gender-specific effects. While unfortunately we do not have gendered wage data, it is reasonable to assume that the wage decrease is driven by male wages; as of 1960, 69.8% of working age males worked as employees, compared to 12.7% of females. Since male and female populations were approximately the same, there were more than five times as many male employees vis-à-vis female employees. We also know, from de Carvalho (1980), that the gender wage gap was 64% in 1974, and 75% in 1978, a sharp change in just four years, which is compatible with a decrease in male wages. If employers had a preference for male employees, and hired women because they were relatively cheaper, the decrease in the gender wage gap may have led to female layoffs. Indeed, Cardoso and Morin (2023) show that the relative scarcity of men in the Portuguese economy resulting from military drafting and emigration in the 1960s and early 1970s led to a demand-driven sharp increase in female LFP, followed by a slowdown in the 1980s, coinciding with the arrival of the repatriates.
+6. Validity and robustness
+6.1. Alternative instrumental variable specification
+As discussed in Section 4.2, we construct an alternative instrumental variable following Edo (2020), who relies on network effects by education group. We decompose the native and repatriate population into four educational groups: (1) no education, (2) primary, (3) secondary, and (4) higher education.28 We then predict the number of repatriates according to (2), where 
+ refers to one of four education groups rather than the origin colony. Results for this alternative instrument can be found in Table A5 and A6 next to results for our preferred IV in the Appendix. Although both IVs will estimate the effect of a different complier group, and, in the absence of homogeneous treatment effects, will yield different estimates, the direction and general magnitude of our results remain unchanged.
+6.2. Controlling for pre-shock levels and trends
+As discussed in Section 4.3, municipalities could still be experiencing different trajectories in their labour markets due to possible confounding economic shocks, both before or after the repatriates’ return. If these shocks affected regions differently, our baseline results may be biased. We start by dealing with these concerns by showing that our results remain robust to the inclusion of a plethora of controls, both in levels or accounting for pre-shock trends between 1960 and 1970.
+We present the results in Tables 6 for males and 7 for females. Columns (1)–(4) control for levels. Column (1) shows that when we control for the ratio between present (in the moment of the survey) and resident (i.e., registered as living in the municipality) population in 1970 the results are very similar to baseline. In column (2), we change the emigration control from the share of emigrants in 1960 to the more encompassing measure of emigration that considers the full period between 1955 and 1974 and the share of individuals who moved to foreign countries (excluding Portuguese colonies). In columns (3) and (4), we add proxies of economic activity. Note that for these last three controls the number of observations is lower, as data are only available for the subsample of mainland Portugal. In Columns (5)–(7) of Table 6, Table 7, we control for changes in the pre-shock period.
+The main results on female and male dependent employment are robust in these alternative specifications. The negative impact on female labour force participation is also robust to the additional controls. At the same time, the entrepreneurship result for males does not survive all the robustness tests, albeit we still estimate a positive impact when we include changes in employment share between 1960 and 1970, in column (5).
+Table 6. Labour market effects of repatriates on male natives - robustness.
+
+Outcomes for male natives	IV - based on regional network effect
+Empty Cell	(1)	(2)	(3)	(4)	(5)	(6)	(7)
+LFP	−0.528
+−0.990
+−0.761
+−0.704
+−0.504
+−0.347	−0.299
+Empty Cell	(0.281)	(0.362)	(0.316)	(0.282)	(0.282)	(0.241)	(0.244)
+ Unemployment rate	0.046	0.030	0.030	0.011	−0.050	0.017	0.047
+Empty Cell	(0.068)	(0.075)	(0.074)	(0.072)	(0.074)	(0.064)	(0.066)
+ Employment share	−0.568
+−1.010
+−0.710
+−0.714
+−0.539
+−0.365	−0.348
+Empty Cell	( 0.294)	( 0.374)	( 0.327)	( 0.296)	( 0.296)	( 0.253)	( 0.257)
+ Share Employee	−1.904
+−1.618
+−1.394
+−1.551***	−1.870***	−1.372
+−1.896***
+Empty Cell	(0.385)	(0.377)	(0.370)	(0.357)	(0.389)	(0.295)	(0.358)
+ Share Entrepreneur	0.701
+−0.013	0.052	0.201	0.672**	0.375	0.915
+Empty Cell	(0.333)	(0.326)	(0.325)	(0.316)	(0.338)	(0.291)	(0.341)
+ Share Employer	−0.029	−0.130	−0.102	−0.037	−0.005	−0.050	−0.044
+Empty Cell	(0.129)	(0.147)	(0.144)	(0.132)	(0.127)	(0.119)	(0.122)
+ Share Self-employed	0.731
+0.117	0.153	0.238	0.677
+0.426	0.958
+Empty Cell	(0.350)	(0.353)	(0.349)	(0.338)	(0.354)	(0.308)	(0.349)
+Controls	YES	YES	YES	YES	YES	YES	YES
+First-stage coefficient	0.349	0.389	0.348	0.362	0.350	0.385	0.370
+First-stage F-statistic	43.431	44.603	42.872	48.147	39.431	52.110	49.382
+Observations	303	273	273	273	303	303	303
+Notes: Robust standard error in parentheses. For a description of outcomes, controls and instruments see Table 3. Columns (1)–(4) control for level in 1970. Columns (5)–(8) control for changes in the pre-shock period. In column (1), we control for the ratio of the resident over present population per municipality in 1970. (2) controls for per capita emigration between 1955 and 1974 rather than emigration in 1960. (3) controls for market potential of each municipality in 1970. (4) adds controls for distance to railroad stations. (5) controls for changes in employment share between 1960 and 1970 at the district level. (6) controls for changes in population between 1960 and 1970 at the municipality level. (7) adds controls for changes in the share of the population younger than 15 and older than 65 between 1960 and 1970 at the municipality level. 
+ 
+, 
+ 
+, 
+ 
+.
+Table 7. Labour market effects of repatriates on female natives - robustness.
+
+Outcomes for female natives	IV - based on regional network effect
+Empty Cell	(1)	(2)	(3)	(4)	(5)	(6)	(7)
+LFP	−1.637
+−1.474
+−1.260
+−1.456
+−1.621
+−1.404
+−1.402
+Empty Cell	(0.457)	(0.544)	(0.494)	(0.500)	(0.462)	(0.422)	(0.416)
+ Unemployment rate	0.436	0.211	0.211	0.303	0.224	0.336	0.461
+Empty Cell	(0.274)	(0.324)	(0.309)	(0.292)	(0.310)	(0.250)	(0.269)
+ Employment share	−1.596
+−1.414
+−1.144
+−1.393
+−1.568
+−1.364
+−1.342
+Empty Cell	( 0.447)	( 0.546)	( 0.484)	( 0.490)	( 0.452)	( 0.414)	( 0.405)
+ Share Employee	−1.553
+−1.507
+−1.277
+−1.425***	−1.595***	−1.327***	−1.275
+Empty Cell	(0.354)	(0.346)	(0.320)	(0.329)	(0.358)	(0.312)	(0.302)
+ Share Entrepreneur	−0.162	−0.009	0.005	−0.081	−0.099	−0.164	−0.197
+Empty Cell	(0.352)	(0.464)	(0.428)	(0.410)	(0.354)	(0.324)	(0.331)
+ Share Employer	−0.026	−0.044
+−0.025	−0.027	−0.026	−0.025	−0.017
+Empty Cell	(0.019)	(0.023)	(0.021)	(0.021)	(0.019)	(0.018)	(0.019)
+ Share Self-employed	−0.136	0.034	0.030	−0.054	−0.073	−0.139	−0.181
+Empty Cell	(0.351)	(0.462)	(0.425)	(0.408)	(0.353)	(0.322)	(0.328)
+Controls	YES	YES	YES	YES	YES	YES	YES
+First-stage coefficient	0.349	0.389	0.348	0.362	0.350	0.385	0.370
+First-stage F-statistic	43.431	44.603	42.872	48.147	39.431	52.110	49.382
+Observations	303	273	273	273	303	303	303
+Notes: See notes in Table 6. 
+ 
+, 
+ 
+, 
+ 
+.
+6.3. Regional characteristics, repatriate mobility, and gender specific shocks
+We present further robustness checks in Tables A7 and A8 in the Appendix. In column (1), we replace the instrumental variable according to Kronmal (1993). In column (2) and (3), we exclude regions from the sample, while, in (4), (5), and (6), we change the regional fixed effects. Column (7) includes the subsample of repatriates who changed municipalities before 1981. Finally, column (8) uses a pre-shock denominator, and (9) considers gender-specific shocks.
+Despite the fact that the denominators of the shift-share instrument and the endogenous variable (actual repatriate settlements) are only partially coincident in our setting, we employ the Kronmal specification, shown in column (1) in Table A7 and Table A8 in the Appendix to rule out that it drives the correlation between the instrument and the outcome (Clemens and Hunt, 2019). The Kronmal (1993) correction consists in instrumenting the log of repatriates with the log of the predicted repatriates based on places of birth, including the log of the native population in 1981 as a control. The results are in line with the main specification.
+Next, we deal with the possibility that results are driven by differential regional impacts of potential confounding factors. On top of including dummy variables for NUTS 2 regions in our baseline specification, the use of (shift-share) IVs should further reduce the concern for bias. We nevertheless demonstrate that the results are robust to excluding regions that could be more prone to such factors.
+As explained by Carrington and De Lima (1996), Lisbon and Setúbal were the centre of the most dramatic political and economic conflicts following the democratization of Portugal, with communist-led unions promulgating compulsory unionization in these areas. At the same time, there was a large drop in tourism in the Algarve after 1975. Moreover, as described by Pires de Almeida (2016), the Alentejo region was subject to a profound agrarian reform following the military coup in Portugal, which altered many aspects of the region’s political, economic, and social reality. Specification (2) in Table A7 and Table A8 shows that the results are robust to excluding Lisbon, Setúbal, and Algarve, while column (3) excludes Alentejo.
+Specifications (4) and (5) in Tables A7 and A8 in the Appendix confirm that the results are robust to including a less demanding set of regional fixed effects, or removing them altogether, while specification (6) exploits a more saturated test with 22 district fixed effects rather than NUTS 2 fixed effects.29 Moreover, we show that our results remain consistent if we systematically remove all municipalities of each Nuts 3 in turn in Figures A7 for employees, and A8 for entrepreneurship in the Appendix.
+In specification (7), we include the repatriates who changed municipality between 1979 and 1981. This partially mitigates concerns related to local labour market dynamics. For further robustness results based on changing the sample, Table A9 and Table A10 in the Appendix show that the findings hold if we exclude students, change the age range of repatriates (15 to 64, and 25 to 59), exclude all inactive repatriates, and include only Portuguese-born repatriates.
+Our baseline results use the 1981 (post-shock) labour force to measure the size of the supply shock (Borjas, 2003, Borjas and Monras, 2017). Alternatively, column (8) uses the preexisting ratio of working-age repatriates to working-age natives in 1960 instead of the instrumented 1981 values as denominator (Card and Peri, 2016, Dustmann et al., 2017). The results are slightly more negative than baseline and suggest that the estimated effects are not driven by a potential spurious negative correlation between the dependent variable and the main variable of interest.
+Finally, specification (9) takes into account that men and women may be imperfect substitutes in production (Edo and Toubal, 2017) We replace the ratio of repatriates 
+ by a gender-specific repatriate share (i.e., we compute 
+ in the sample of males when estimating its impact on the employment of native men, and compute 
+ in the sample of females when estimating its impact on the employment of native women). According to the results, the impacts of the gender-specific shocks are smaller in magnitude, suggesting that the market segmentation across gender is not perfect. If segmentation were perfect, the full effect on the incumbent workers of each gender would be fully explained by the same gender incomers.
+6.4. Falsification test and correlation of the error term
+Next, we provide a falsification test, replacing the baseline outcomes for the same variables, but measured from 1950 to 1960, in the spirit of the pre-trends tests suggested by Goldsmith-Pinkham et al. (2020). Due to data limitations in the 1950 census, we only report results for two outcome variables, namely the employment share and the share of employees. Tables A11 and A12 in the Appendix show that the municipal distribution of the repatriates in 1981 is not systematically related with past differences in labour market outcomes. These results provide further evidence that our baseline findings are unlikely to be driven by unobservable differences in the municipalities and are indeed capturing the impact of the repatriate shock.
+Moreover, Table A13 in the Appendix reports two alternative specifications of the standard errors: clustered by NUTS 3 (presented between parentheses), and specified according to Adao et al. (2019), i.e., taking into account potential autocorrelation structure across municipalities (presented between squared brackets). As can be seen, the results are unchanged. Lastly, Table A14 presents results for males and females with standard errors adjusted for multiple hypothesis testing, following Anderson (2008).
+6.5. Regional aggregation
+We now deal with the concern that municipalities might be too small to correspond to local labour markets.30 We present results at the NUTS 3 level in Tables A15 and A16 in the Appendix. This aggregation is more likely to accommodate the fact that retornados in neighbouring municipalities may also affect natives’ labour market opportunities. Moreover, the number of repatriates in the NUTS 3 regression is larger, as we exclude all repatriates who moved NUTS 3 (rather than municipalities, as in the baseline results) from the sample. Reassuringly, although less precisely estimated, the results are qualitatively similar to those in baseline.
+7. Portuguese-born vs. colony-born effects
+The Portuguese-born repatriates are arguably closer substitutes to the native population, compared to (second-generation) African-born, age-wise, education-wise and, especially, in terms of language and culture. If our results are indeed driven by strong substitutability, we expect an amplified labour market impact from the first group.
+To test this possibility, we need another source of exogenous variation in the settlement of (both groups of) retornados. We exploit an important feature of the returnees settlement, namely, the fact that the government had to rent existing hotels (including luxury ones), camping sites, and holiday rentals to accommodate migrants in short notice. Naturally, it seems likely that the option to stay in hotels would have been accepted more easily by the repatriates who did not have strong ties to family or friends in Portugal, i.e., the colony-born repatriates.
+We retrieve data on the hospitality sector capacity, i.e., the number of people that can be accommodated in hotels and similar properties, per municipality, in 1973 (before the revolution). The variable 
+ is then normalized by dividing by the number of natives. As such, our first stage regression is capturing an intent-to-treat, given that we are not measuring where the repatriates were hosted, but where there was enough capacity, in relative terms, to welcome them. This reinforces the exogeneity of the excluded instrument.31
+Our first stage regression for the ratio of the number of repatriates in each municipality to its native population is presented below. As discussed, in this approach we provide estimates for the effects of repatriates born in Portugal (
+) and those born in the former colonies (
+):
+(7)
+where 
+ is our shift-share IV and 
+ is the vector of controls defined before.
+We then estimate the following 2SLS second stage equation:
+where 
+ are the outcome variables presented before and 
+ and 
+ are the fitted values from the first stage regressions (7).
+As mentioned in Section 2, the process of repatriation was chaotic. The State did not correctly anticipate the issue of the repatriate’s accommodation (Pires, 2003). The IARN’s final report (Relatório de atividades do IARN) explicitly recognized that: “There was, at the outset, a basic mistake: assuming that each retornado would have a family and a home waiting for them”. (p. 32). This is comforting evidence that the allocation of return migrants to these hotels and related facilities, conditional on a rich vector of socio-economic characteristics and regional fixed effects, was quasi-random (George, 2023 chapter 5).
+One further point worth mentioning is that revolutions can have a negative direct impact on local labour markets through reductions in touristic flows. In this context, however, these effects were short-lived: while the number of foreign tourists decreased substantially in the first years of the Carnation Revolution (the number in 1975 was 48% of the number of tourists in 1973), the sector recovered fast, and established a new record in 1979 with more than 5 million foreign tourists (Cunha, 1997, Amaral et al., 2022).
+We now show the results of the alternative 2SLS specification adding the pre-treatment location of hotels and other lodging facilities (normalized by natives), according to Eq. (7). The results are presented in Table 8, Table 9 for males and females, respectively.
+The first stage regression for the Portuguese-born retornados shows that the only IV that is statistically significant is the shift-share. However, for the colony-born repatriates, both IVs have statistical power, which renders credibility to this alternative specification, given that these individuals are less likely to rely on relatives’ networks for resettlement. Importantly, the F-statistics for the two first-stage regressions are above 10 (Stock et al., 2002).
+Table 8. Labour market effects of repatriates on male natives - 2SLS .
+
+Outcomes for male natives	OLS	2SLS
+Empty Cell	(1)	(2)	(3)	(4)
+ LFP	−0.189	0.569	−0.756
+3.080
+Empty Cell	(0.140)	(0.581)	(0.354)	(2.311)
+ Unemployment rate	0.071	−0.322
+0.046	0.068
+Empty Cell	(0.055)	(0.163)	(0.079)	(0.442)
+ Employment share	−0.261
+0.839	−0.792
+2.945
+Empty Cell	(0.150)	(0.598)	(0.369)	(2.406)
+ Share Employee	−1.271
+0.347	−2.357
+5.513
+Empty Cell	(0.217)	(0.879)	(0.450)	(3.378)
+ Share Entrepreneur	0.395
+−0.694	0.986
+−4.122
+Empty Cell	(0.211)	(0.737)	(0.385)	(2.505)
+ Share Employer	−0.143
+−0.050	−0.123	1.472
+Empty Cell	(0.084)	(0.379)	(0.174)	(1.328)
+ Share Self-employed	0.538
+−0.644	1.109
+−5.595
+Empty Cell	(0.228)	(0.860)	(0.425)	(3.211)
+Controls	YES	YES
+Instrument	–	Hotels & IV
+First-stage coefficient IV	–	0.332
+0.023
+First-stage coefficient Hotel IV	–	0.063	0.084
+First-stage F-statistic	–	56.503	13.241
+Observations	303	303
+Notes: Robust standard errors in parentheses. The independent variable is the sample of repatriates over the native population above 15. All outcomes refer to changes between 1960 and 1981. LFP, Employment share, Share Employee, Share Entrepreneurship, Share Employer and Share Self-employed are calculated as shares over the native working age population. The unemployment rate refers to the share of unemployed over the native labour force. All regression contain dummies for NUTS 2 regions. Controls contain the following parameters in 1960: unemployed and entrepreneurs as share of working age population, inactive and population below 15 as share of total population, those with higher education as share of those above 15 and per capita emigration in 1960. Column (1) and (2) show the results from the same OLS regression, regressing each outcome against the share of Portuguese-born and Colony-born repatriates, respectively. Column (3) and (4) show results of the same 2SLS estimation using our instrument and the hotel instrument for two subgroups of repatriates: in column (3), the results for Portuguese born repatriates are shown. Column (4) shows the results for foreign born repatriates. 
+ 
+, 
+ 
+, 
+ 
+.
+Table 9. Labour market effects of repatriates on female natives - two IVs .
+
+Empty Cell	OLS	2SLS
+Outcomes for female natives	(1)	(2)	(3)	(4)
+ LFP	−0.694
+1.516	−2.127
+6.162
+Empty Cell	(0.275)	(1.161)	(0.569)	(3.656)
+ Unemployment rate	0.352
+−2.857
+0.508	−0.615
+Empty Cell	(0.203)	(0.787)	(0.319)	(1.899)
+ Employment share	−0.699
+2.260
+−1.977
+4.398
+Empty Cell	(0.268)	(1.107)	(0.550)	(3.621)
+ Share Employee	−0.744
+1.411	−2.025
+6.127
+Empty Cell	(0.186)	(1.027)	(0.448)	(3.007)
+ Share Entrepreneur	−0.050	−0.020	−0.029	−2.525
+Empty Cell	(0.258)	(0.692)	(0.409)	(2.053)
+ Share Employer	−0.025
+0.051	−0.057
+0.483
+Empty Cell	(0.011)	(0.049)	(0.026)	(0.179)
+ Share Self-employed	−0.025	−0.071	0.028	−3.007
+Empty Cell	(0.258)	(0.696)	(0.409)	(2.100)
+Controls	YES	YES
+Instrument	–	Hotels & IV
+First-stage coefficient IV	–	0.332
+0.023
+First-stage coefficient Hotel IV	–	0.063	0.084
+First-stage F-statistic	–	56.503	13.241
+Observations	303	303
+Notes: See notes in Table 8 
+ 
+, 
+ 
+, 
+ 
+.
+The results highlight that baseline estimates are driven by the Portuguese-born retornados, while the impacts of the Colony-born are mostly indistinguishable from zero. This shows that the downgrading effect of migration is borne by natives when return migrants are close substitutes, namely, born in the same country.32
+Besides closer substitutability, other mechanisms may also be important for these results. The Portuguese-born have stronger connections with the locals, as suggested by the lack of significance of the hospitality sector IV for them. This may give an upper-hand to the Portuguese-born, vis-à-vis the colony-born ones, in the job market. In addition, the colony-born repatriates are even more educated, on average, which makes them complementary to the native workforce.
+8. Conclusion
+This paper uses detailed census data to investigate the impact of a sharp return migration shock on labour force participation, unemployment, dependent employment, and entrepreneurship, for both male and female natives. We exploit the end of the Portuguese Colonial War and subsequent repatriation of close to half a million ethnic Portuguese. We rely on shift-share instruments that use the fact that around 80% of the repatriates were born in Portugal, many of them returned to their municipality of birth, and assuming that network effects are stronger amongst individuals who departed from the same colony. We also propose an instrument based on the hospitality sector capacity in each municipality, exploiting a resettlement scheme, to disentangle the impact of Portuguese-born and colony-born repatriates.
+We find robust evidence of adjustment in the labour market following the arrival of the retornados, with a negative impact on paid employment for both males and females. Females bear a high cost, with lower labour force participation. Moreover, females do not circumvent the shock by moving to self-employment, a mitigating factor that we find in some specifications for males. Our extensive set of robustness checks shows that our results resist sample restrictions and additional controls; in particular, the signs of the effects remain unchanged for all the outcomes. However, they also exhibit dispersion in the point estimates of the average treatment effects.
+The bulk of the effects seem to be driven by Portuguese-born repatriates. This suggests that there are cultural traits beyond language and religion that matter for the degree of substitutability amongst workers. Finally, we show that the effects are compatible with (i) sorting of repatriates into higher-wage sectors, (ii) wages in these jobs did not increase as much due to an increase in supply, (iii) a decline in the gender wage gap, driven by a decline in male wages, and, (iv) a segmented labour market by gender.
+Our analysis is particularly suited to anticipate the consequences of (forced) massive return migration waves that follow contemporaneous population displacements linked to political instability, authoritarian regimes, and wars. It highlights the importance of implementing policies to mitigate the negative labour market impacts, including the occupational downgrading, on native workers, especially when the returnees were born in the origin country and are highly educated.

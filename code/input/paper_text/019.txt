@@ -1,0 +1,373 @@
+ACCOUNTING CONSERVATISM IN THE PERSPECTIVE OF POSITIVE ACCOUNTING THEORY: A STUDY OF ISLAMIC BANKING IN INDONESIA
+
+ABSTRACT
+
+Conservative accounting in Islamic banking is a crucial issue. This research aims to analyze the influence of executive compensation, the debt covenant, political cost, the composition of the commissioner board, the audit committee, and operating cash flow on the principle of accounting conservatism practiced in Islamic banking in Indonesia. Using data for 13 Islamic banks from 2014 to 2018 and employing panel regression, this study revealed that debt covenant, political cost, and operating cash flow significantly influence accounting conservatism. This result reconfirms the Positive Accounting Theory and Free Cash Flow Theory. However, the other three factors, i.e., executive compensation, the composition of the board of commissioners, and the audit committee were found to have no impact on accounting conservatism. From the findings, the study recommends that policy makers should improve the practice of good corporate governance in Islamic banking, thus the issue of conservative accounting methods could be minimized.
+
+Keywords:Accounting conservatism , Islamic bank, Executive compensation , Debt covenant , Political cost.
+
+ARTICLE HISTORY: Received:9 March 2022, Revised:25 April 2022, Accepted:12 May 2022, Published:27 May 2022
+
+JEL Classification:G21; G32; M41.
+
+Contribution/Originality: This study contributes to the existing literature on accounting conservatism by providing new insight on the Positive Accounting Theory and its relationship with Islamic banking. The originality of this study is the use of Islamic banking in Indonesia as the research focus, which has never been done by other researchers.
+
+1. INTRODUCTION
+The rise in the opening of Sharia units or even the establishment of subsidiary Sharia banks by conventional overseas banks (Ardiansyah, Qizam, & Setyono, 2013) indicates that Islamic banks have transformed from being merely alternative banks to becoming banks that play an important role in the world’s economy. The high rise of Sharia services from conventional overseas banks in Indonesia became possible due to law No. 21 of 2008 on Sharia banking, which implies a change in the direction of the establishment of Islamic banks toward social purposes in addition to business purposes. As a consequence, the existence of Islamic accounting is crucial to ensuring that social interests are preserved as business interests. Islamic accounting has been responsible for restoring the function and role of accounting, not only as a medium of information and reporting, but also as management accountability for stakeholders (Kamla, Gallhofer, & Haslam, 2006). This responsibility is in line with the purpose of accounting at its birth when Pacioli (1994) initiated the double-entry system with the aim that traders were able to record and report all their business transactions (Al-Najjar & Ahmed, 2001) to be fair to fellow human beings and thus to God. However, this role has been eroded by a number of parties’ acts of distorting accounting for their personal interests at the expense of other parties, which has led to the loss of public trust in accounting reports. Agency theory postulates that a company is "a nexus of contracts" and conflict between managers and shareholders occurs when there is a tendency for a manager to “allocate the firm’s resources for his own consumption” (Jensen & Meckling, 1976). Both owners and management frequently take advantage of asymmetric information in order to serve their own interests by immolating other parties either through adverse selection behavior or moral hazard behavior (Bradshaw, Richardson, & Sloan, 2006). However, Sharia business is based on a holistic transaction paradigm that involves micro and macro dimensions. The basic principle of the Sharia paradigm in the micro dimension is that people believe in Allah. Thus, ethics, morals, piety, goodness, worship, responsibility, and blessings are the basis for achieving economic goals. In the macro dimension, Sharia businesses must always uphold deliberation and cooperation, conduct halal business, comply with prohibitions in business, pay alms (zakah), and serve public interests and trust. Nevertheless, there are still a lot of Sharia businesses that operate with conventional paradigms and often use asymmetric information for their opportunistic advantages (Ardiansyah, 2014).
+
+Theoretically and empirically, the benefits of conservative accounting are still controversial. Feltham & Ohlson (1996); Basu (1997); and Penman & Zhang (2002) have delineated that earnings generated from conservative accounting are less relevant because they are of low quality. In contrast, some researchers proved that accounting conservatism continues to be practiced. Givoly & Hayn (2000) showed an inclination toward conservatism in the United States. In addition, Ahmed, Billings, Stanford, & Morton (2000) stated that conservatism has a role in minimizing conflict between managers and investors in terms of corporate dividend regulation. Meanwhile, Chen & Cheng (2002) showed empirically that debt covenant and ownership equity influence the selection of conservative accounting methods. Given the ongoing debates on the benefits of accounting conservatism and its economic consequences, as well as the inconsistent findings of previous studies, research on the effects of accounting conservatism in Sharia banking is crucial. Therefore, this research aims to analyze the impact of the choice of conservative accounting policy in Islamic banking in Indonesia. The accounting policy is selected by management based on three positive accounting theory hypotheses, namely executive compensation, debt covenant and political cost, and accounting policies for the implementation of good corporate governance (GCG). The issue of choosing a conservative accounting method in Islamic banking can be seen as crucial to analyzing whether the opportunistic behavior of managers also occurs in Islamic business.
+
+This research is different from previous studies in several ways. First, previous studies have focused on the issue of accounting conservatism in banking and how the choice of conservative accounting methods is related to earnings management, while this research tries to analyze whether three aspects of positive accounting theory determine the choice of conservative accounting methods. First, when Islamic banks implement a bonus program for its executives, do managers choose a liberal accounting policy? To avoid losses or costs arising from the non-fulfillment of the covenant debt that must be borne by Islamic banks as a requirement for credit agreements, do managers tend to apply liberal accounting? Do companies apply conservative accounting when faced with political pressure? Second, according to the positive accounting theory, are accounting policies chosen to minimize contract costs to achieve efficient corporate governance? (Bradshaw et al., 2006). Third, this study also focuses on whether the efficient implementation of GCG, reflected by the existence of an independent commissioner and audit committee, can reduce opportunistic behavior in managers through conservative accounting, and whether managers choose liberal accounting when the company's cash flow is expected to be positive. The study focuses on the case of Indonesia since there is no previous research that discusses the issue of accounting conservatism in an Indonesian Islamic bank.
+
+2. LITERATURE REVIEW
+2.1. Accounting Conservatism
+There is still controversy surrounding the benefits of conservatism in accounting. The concept of conservatism still plays an important role in financial accounting (Hellman, 2008) because it implies a test of the prudential concept in the recognition and measurement of both income and assets. The claims that the success of management applying conservative accounting may be more easily verified (Kwon, Yin, & Han, 2006). In contrast, some scholars argue that the profits that are presented conservatively lack quality so the practice of conservatism is irrelevant and less useful, and companies “have found it difficult to incorporate it fully in normative accounting theory” (Hellman, 2008).
+
+There is no generally accepted understanding of conservatism, except for the formal meaning in SFAC No. 2, which states that “conservatism is a prudent reaction in the face of uncertainty to try to ensure that the uncertainties and risks inherent in the business situation are sufficiently considered” (Lara & Mora, 2004). This understanding reflects a pessimistic attitude, which implies that the probability of recognizing bad news is greater than the probability of acknowledging good news (Basu, 1997; Givoly & Hayn, 2000).
+
+The absence of a generally accepted understanding of conservatism causes conservatism to be defined and measured differently according to the context of the discussion in textbooks and empirical studies. Conservatism is a rule that applies to the selection of an alternative that has the least effect on the owner's equity when there are uncertainties regarding two or more reporting alternatives. Conservatism, thus, is an effort to anticipate potential losses that may occur when legal verification has not been carried out, while the opposite applies to potential profits (Watts, 2003a). Suwardjono (2005) defines conservatism as an attitude or school of thought that takes the worst action or decision when faced with uncertainty. Another meaning of being conservative is being careful in taking risks by being willing to sacrifice something to reduce or eliminate the risk. This concept has implications for the presentation of financial reporting, which in general accounting will hasten the recognition of potential costs or losses but delay the recognition of potential future gains or revenues, even though the potential is large.
+
+Another definition of accounting conservatism can also be found in Beaver (1991), who defines accounting conservatism as an attempt to select generally accepted accounting methods that (a) delay the recognition of income, (b) accelerate the recognition of expenses, (c) decrease asset valuation, and (d) increase debt valuation. The result of this definition is a persistently understated reporting of net asset values. Meanwhile, Tuanakotta (1984) states that "at best, conservatism is a very bad method of treating the existence of uncertainty in making judgments and in determining the size of profits, and in the worst-case conservatism causes complete distortion of the accounting data". Accounting data reported conservatively are difficult to interpret correctly, even by well-informed readers. Conservatism is not in accordance with the qualitative characteristics of relevant accounting information and is against the principle of consistency, so the resulting financial statements are less conducive to "reducing comparability" due to the application of non-uniform standards.
+
+Tuanakotta (1984) considers the importance of conservatism and argues that:
+
+“First, a pessimistic attitude is considered necessary to counteract the overly optimistic attitude of managers and investors. An entrepreneur tends to be optimistic about his company, so to reduce his optimism, it is assumed that he will apply conservative accounting principles in financial reporting. Second, overstatement in asset valuation is more dangerous than understatement. Here, there is an assumption that the consequences of a loss or bankruptcy are more serious than the consequences arising from a gain; and third, conservatism is based on the assumption that accountants obtain more information than can be conveyed to shareholders and creditors. In addition, accountants are faced with two risk options. On the one hand, there is a risk that what is reported will not be true, while on the other hand, there is a risk that what is not reported will turn out to be true. This is the same as the two types of risk in statistics, namely alpha and beta. Alpha risk occurs when an unacceptable hypothesis is accepted, while beta risk is associated with rejection of a hypothesis that can actually be accepted.”
+
+From the results of research on the existence of managers' efforts to apply conservative accounting policies in presenting financial reports, Basu (1997) defines conservatism as an accounting practice that reduces earnings and reduces net asset assessment when there is bad news but does not increase profits or net asset value when there is good news. Meanwhile, Feltham & Ohlson (1996) stated that “characterization of accounting conservatism or biased accounting is an expectation that reported net assets will be less than market value in the long run”. Penman & Zhang (2002) presume accounting conservatism as a “biased application of historical cost”, which makes the book value of assets relatively low. Penman shows that accounting conservatism does not only concern the choice of accounting methods but also relates to the estimates used in determining accrual accounting.
+
+The benefits of accounting conservatism have been doubted by some researchers. Basu (1997) considers an accounting system that produces conservative financial reports to be biased. Feltham & Ohlson (1996), Basu (1997), and Penman & Zhang (2002) estimate that the earnings quality generated from low conservative accounting is less relevant. Accounting conservatism will also result in lower profit calculations when a company increases its investment, and when corporate investment increases, accounting conservatism will lead to lower earnings reporting. Also, the unrecorded goodwill generated by conservative accounting allows managers more flexibility in reporting future earnings.
+
+2.2. Hypothesis Development
+Watts (2001) and Watts (2003a) explain that conservatism is implemented to overcome moral hazard problems in contract compensation caused by four factors – information asymmetry, limited work period, pay-off asymmetry, and limited liability. Due to these four moral hazards, shareholders attempt to avoid overpayment of compensation to management. Shareholders tend to require that managers implement conservative accounting with regard to minimizing the value of net assets and profits; thus, the distribution of wealth to management is lower (Pan, 2017). Conservative earnings provide more punctual payment of compensation and delay compensation incentives for managers regarding future cash flows that cannot be verified in the current period, as per some bonus programs where managers generate profit based on compensation after retirement (Lim, Kausar, Lee, & Walker, 2014).
+
+Based on the bonus plan hypothesis, previous studies have tried to prove managers' efforts with bonus contracts based on accounting numbers resulting from the choice of accounting methods that increase profits. Healy (1985) found that 90% of 1,000 big US companies implemented executive compensation based on accounting in 1980. The results found by Healy (1985) showed that the bonus plan hypothesis was only relevant for mid accounting earnings, namely earnings between the minimum threshold (bogey or lower limit of performance) and the upper limit (cap). Outside that category, instead of increasing profits, managers tended to decrease them. Gaver, Gaver, & Austin (1995) found that managers in the low earnings category did increase income, whereas the mid category did not. The results of the research carried out by Chen & Lee (1995), which investigated the link between executive compensation and accounting profit, showed that executive compensation implementation affects management decisions in choosing the accounting method.
+
+Lassoued, Attia, & Sassi (2018a), who examined earnings management in Islamic and conventional banks in the banking sector of developing countries, showed that Islamic banking practices earnings management less compared to conventional banks. Zainuldin & Lui (2020) examined earnings management practices in Sharia and conventional banks in the markets of developing countries by looking at the role of ethics in reducing agency problems and the effect of ownership structures on earnings management. The results of this research proved that earnings management practice more often occurs in Sharia banks than conventional banks through abnormal loan loss provision and small income reporting.
+
+This is ample evidence that an executive compensation plan is an agency’s contract between investors and managers who try to connect the interests of investors and managers based on the manager's compensation or one or more measures of a manager's business with regard to running the company. Based on the findings discussed here, the first hypothesis has been formulated as follows:
+
+H1: Executive compensation has a negative effect on accounting conservatism.
+
+The debt covenant hypothesis, which is one of the positive accounting theory hypotheses, is the basis of why managers have incentives to choose accounting methods that increase the company's return on assets when facing debt contracts (Watts & Zimmerman, 1986). This is done by a company in order to reduce the cost of debt covenant renegotiation when practicing such debt contracts. The decision to implement liberal accounting is more likely to be made by managers when the company’s financial position is nearing covenant violation. The problems of contracting between managers and creditors arise due to asymmetric information, limited years of service, asymmetric payoff, and limited liability (Watts, 2003a). Given these four contractual issues, managers and shareholders are more likely to adopt liberal accounting, while creditors prefer managers to implement conservative accounting.
+
+Chen & Lee (1995) proved that lenders tend to provide lower waivers, while debtors face a higher risk in terms of bankruptcy, a higher financial leverage ratio, greater debt value, and the absence of debt guarantees. Beneish & Press (1993) stated that debt covenant violations have consequences for debtors in the form of renegotiation costs, refinancing costs, and restructuring costs that must be borne. Lassoued, Attia, & Sassi (2018b) stated, that to meet the level of leverage required by creditors, managers can implement liberal accounting.
+
+Research by Ahmed et al. (2000) showed the benefits of accounting conservatism in reducing conflicts between bondholders and shareholders in terms of dividend policy and in reducing debt costs. This study concluded that companies that face a bondholder–shareholder conflict and have a strong position in terms of dividend policy tend to choose conservative accounting methods. The finding was also supported by Farag, Mallin, & Ow-Yong (2018a), who support the signaling theory and stated that the level of financial difficulties has a positive effect on the application of conservative accounting.
+
+Salem, Usman, & Ezeani (2021) examined the impact of audit quality on earnings management through loan loss provisions among conventional and Islamic banks operating in MENA countries and found that firms receive more bank loans after the stimulus package, which is less significant for firms with conservative accounting. Lim et al. (2014) analyzed the effect of accounting conservatism on the determination of bank loan prices before and after the financial crisis and found that there is a relationship between the implementation of accounting conservatism and credit lending. The adoption of conservative accounting policies by lenders affects the level of prudence in the banks providing loans. Farook, Hassan, & Clinch (2014) examined whether there are differences in the behavior of bank loan provisioning between Sharia banks and conventional banks in terms of the level of earnings distribution management. Sharia banks were shown to consistently record lower loan losses than conventional banks, and there is a negative relationship between earnings distribution management and provision debt loss. Farag, Mallin, & Ow-Yong (2018b) showed a unique agency relationship where the greater the unrestricted contract size, the greater the agency costs. Based on this theory and previous research, the second hypothesis was formulated as follows:
+
+H2: Debt covenant has a negative impact on accounting conservatism.
+
+The theory of agency predicts conflict between company and government, which represents society’s interests. Through the subsidy policy, taxation, employment, environmental sustainability, and so on, the government is able to transfer a company's assets to the community, which is known as a political cost.  Positive accounting theory states that managers have an incentive to reduce corporate profits to avoid potential political costs arising. Managers do this to minimize the wealth transfer from the company to other parties and to maximize the wealth enjoyed by the company. Political costs include all costs that must be borne by a company due to government policies, such as antitrust policies, subsidies, taxes, tariffs on public goods and services, labor demands, and so on (Watts & Zimmerman, 1979).
+
+Some previous research has observed the existence of the political cost phenomenon. Al-Najjar & Ahmed (2001) found that managers of companies with higher growth are motivated to minimize returns. A high level of profitability, which is an indicator of the rapid growth rate of a company, could be interpreted by regulators and other parties as being too high and result in an increase in societal opposition to that company. It raises the suspicion of monopolistic practices within the company, which will lead to such companies needing to deal with regulators (Cahan, 1992). In addition to the growth of profitability, some researchers describe company size as a variable that could influence the political cost. The hypothesis regarding company size is an assumption that large companies are politically more sensitive to tax regulations, subsidies, government monopolies, and public services compared to small companies (Watts & Zimmerman, 1979).
+
+Cahan (1992), Han & Wang (1998), Key (1997), and Jones (1991) all used company size and growth as proxies for political costs. Companies that have greater profitability, which shows the company's growth, are more attractive to regulators (the government), and thus the likelihood of being regulated or monopolized increases (Cahan, 1992). Greater profits also could be used as evidence against companies for antitrust actions (Han & Wang, 1998), deregulation (Key, 1997), and prudential imports (Jones, 1991). Ball & Foster (1982) only found a weak relationship between company size and political cost.
+
+Different findings were observed by Bowen, Noreen, & Lacey (1981) and Liberty & Zimmerman (1986). Bowen et al. (1981) found a positive correlation between the size of a company and its choice of accounting methods. There is a tendency to increase reported earnings, especially for companies in industries that are not sensitive to political policies. However, Liberty & Zimmerman (1986) failed to prove that company managers involved in contract negotiations with trade unions decrease profits during negotiation periods.
+
+From the explanation of the theory and empirical evidence from previous studies, the third hypothesis was formulated as follows:
+
+H3: Political cost has a negative impact on the level of accounting conservatism.
+
+As a representative of shareholders, the commissioner wants an early warning about the possibility of a company being mismanaged. To ensure an early warning, commissioners tend to demand the adoption of conservative accounting. Through conservative accounting, losses are immediately recognized by the commissioner and addressed before they become substantial losses. An early warning can also allow the commissioner to replace the management if necessary (Watts, 2003c).
+
+The composition of the board of commissioners is the proportion of independent commissioners of the total number of board commissioners. GCGI (Good Corporate Governance Index) states the need for compatibility between the complexity of a company and the number of board commissioners to obtain effective corporate decision-making. An adequate number of independent commissioners strengthens the ability of the board to oversee the protection of the interests of stakeholders.
+
+The number of independent commissioners influences the implementation of accounting conservatism. Research by Lara, Osma, & Penalva (2016) demonstrated that accounting conservatism is influenced by the strength or weakness of the board of commissioners. Companies that have a strong board of commissioners require the company to have a higher level of conservatism than companies that have a weak board of commissioners. The level of conservatism required by the board of commissioners is intended to reduce the possibility of authority abuse by directors and managers.
+
+Wardhani (2008) examined the relationship between the characteristics of boards as one of the mechanisms of corporate governance with the application of conservative accounting. By using accruals and market values as accounting conservatism measurements, this research showed that the level of accounting conservatism through market size is influenced by the proportion of independent directors. Thus, given the aforementioned findings, hypothesis four was formulated as follows:
+
+H4: The composition of the board of commissioners has a positive impact on the level of accounting conservatism.
+
+The existence of an audit committee is crucial to ensure that the board of commissioners implements good corporate governance. The duties and responsibilities of the audit committee in a company include reviewing company reports and making projections based on these reports, examining the company's compliance with laws and regulations, supervising the performance of internal audits, and maintaining the confidentiality of company documents (Cullinan, Wang, Wang, & Zhang, 2012). Therefore, the accounting reports of a company are strongly influenced by the implementation of the supervisory function of the audit committee.
+
+Veres, Darmadji, & Sutanto (2013) examined the relationship between the GCG mechanism and public accountant quality with accounting conservatism in the banking sector industry. This research failed to provide evidence of a correlation between GCG and the quality of the public accountant office with accounting conservatism. Similarly, Wardhani (2008) observed that the level of accounting conservatism and accruals are influenced by the existence of an audit committee or institutional ownership. Azad, Azmat, & Hayat (2019) found that the audit committee has a positive effect on tax aggressiveness. However, a study by Lassoued et al. (2018a) on Sharia commercial banks from 2013 to 2015 showed that the effectiveness of the audit committee has a negative effect on earnings management, or that the effectiveness of the audit committee increases the presentation of conservative financial statements. Farag et al. (2018a) empirically tested the impact of a dual board structure on the financial performance of Islamic banks and showed a unique agency relationship in which a greater number of Sharia advisors (DPS) would decline agency cost and then increase accounting conservatism. Given these findings, hypothesis five was formulated as follows:
+
+H5: An audit committee has a positive impact on the level of accounting conservatism.
+
+Free cash flow is cash that is truly available to be distributed to investors and creditors after the company has invested its assets into fixed assets, new products, and working capital (Chung, Firth, & Kim, 2005). One way for managers to maintain company performance, from the perspective of the investors, is by increasing free cash flow.
+
+However, agency problems arise with free cash flow, especially if it is high. Distributing cash flow to shareholders causes the resources under the manager's control to decrease. On the other hand, managers have an incentive to grow the company because the growth of the company is followed by an increase in the manager’s compensation. Incentives, however, are difficult for managers to achieve if the cash flow is distributed to shareholders.
+
+Operating cash flow shows the availability of internal funds for a company's operational costs, paying off obligations, paying dividends, and investment, thus, it can be used to measure the performance of the company. For companies that implement conservative accounting, operating cash flow will provide a greater future cash flow than companies that implement aggressive accounting. Therefore, the implementation of conservative accounting is attractive to investors (Martani & Dini, 2010). Given these observations, this research formulated the sixth hypothesis as follows:
+
+H6: Operating cash flow has a positive impact on the level of accounting conservatism.
+
+3. RESEARCH METHODS
+The population of this study comprises all Sharia commercial banks that were registered with the Financial Services Authority (FSA) from 2014 to 2018. Using purposive sampling, the sample of this research includes 13 Islamic banks in Indonesia with a total of 65 financial reports across five years.
+
+This research uses six independent variables: executive compensation, debt covenant, political cost, the composition of the board of commissioners, audit committee, and operating cash flow. Accounting conservatism is used as the dependent variable. The variables are outlined in greater detail below.
+
+Executive compensation (EC) is a bonus received by a manager from a company based on one or more measures of the manager's achievements regarding his or her management of the company. In this research, the proxy of executive compensation is that used by Conyon (2006) and Achmad, Subekti, & Atmini (2007), which is the ratio of the amount of compensation and other welfare benefits received by directors and commissioners to total equity.
+
+Debt covenant (DC) is the company’s financial condition that is required by creditors in a debt contract agreement. This research uses the leverage of the previous year as a debt covenant proxy. Lev & Ohlson (1982) found evidence that leverage is the right proxy for identifying the debt covenant effect.
+
+Political cost (PC) is a cost that is borne by companies as a result of political actions, such as the issuance of a policy by the government or the transfer of wealth from a company to another party through government policies, such as antitrust, regulations, government subsidies, taxes, tariffs, labor demands, and so on (Watts & Zimmerman, 1979). This study uses company size as a proxy for political costs.
+
+The composition of independent commissioners (IC) is measured by the percentage of independent commissioners on the board committee (Liu, 2019) and is displayed in the following formula:
+
+An audit committee (AC) is a part of a company that functions as a management supervisor and an internal supervisory unit in order to maintain independence in the creation of the company's financial reports. This research uses the number of audit committees to describe the audit committee's variables.
+
+Operating cash flow (OCF) is cash flow that is obtained from the company's operational activities. In this research, operating cash flow is calculated by subtracting depreciation, changes in current assets and current debt outside of cash, and current debt from net income.
+Accounting conservatism (CSV) is defined as a tendency to decrease assets, increase debt, recognize income more slowly, and recognize costs more quickly. This research uses an accounting conservatism index developed by Givoly & Hayn (2000), which is based on earnings/accrual measures. Thus, the more negative the accrual values, the more conservative the profit is classified and vice versa. The formula used to determine the value of accounting conservatism is as follows:
+
+Where:
+
+CSVit = Accounting conservatism.
+Nit = Net income after the extraordinary item plus depreciation and amortization.
+OCFit = Cash flow of operational activities.
+
+This study uses a descriptive analysis as well as a regression analysis to analyze the research data. A descriptive analysis is used to describe the characteristics of the samples that were netted in the research, whereas a panel regression analysis is used for hypothesis testing. All analyses in this research were processed through the Statistical Package for the Social Sciences (SPSS) program version 21.0.
+
+4. RESULTS
+4.1. Descriptive Statistic
+ The research data processed was derived from the Islamic banks’ financial reports, which were already audited and registered with the Financial Services Authority, for the period from 2014 to 2018. This research uses a combination of cross-sectional data and time-series data (pool data/panel data) for 13 companies over five years to obtain 65 pieces of observational data. However, six items were outliers, thus only 59 went through statistical processing. The results of the descriptive statistical analysis are displayed in Table 1.
+
+Table 1. Descriptive statistics.
+Variable	
+Obs.
+Mean
+Std. Dev.
+Min.
+Max.
+CSV*	
+65
+0.221
+1.918
+-9.218
+7.708
+EC	
+65
+0.015
+0.020
+0.000
+0.094
+DC	
+65
+0.169
+0.303
+-0.275
+0.798
+PC*	
+65
+20.619
+22.667
+0.300
+87.940
+IC	
+65
+0.538
+0.213
+0.000
+1.000
+AC	
+65
+4.015
+1.281
+2.000
+7.000
+OCF**	
+65
+0.052
+0.171
+-0.396
+0.750
+Note:
+* Transformed by dividing by 1 trillion.
+** Transformed by dividing by 10 trillion and then transformed to  
+
+Information:
+CSV=             Accounting conservatism.
+EC=                Executive compensation, which is measured by the amount of compensation and other benefits that are received by directors and commissioners divided by the total equity.
+DC=               Debt covenant, which is proxied by the debt-to-equity ratio (DER).
+PC=                Political cost, which is proxied by total assets.
+IC =                Independent commissioners.
+AC=               Audit committee.
+OCF=             Operating cash flow.
+
+4.2. Analysis and Empirical Results
+A multiple linear regression analysis was used to test the strength of the influence of the independent variable on the results of the regression analysis. The results are displayed in Table 2.
+
+Table 2. Pairwise correlation.
+Variable	
+CSV
+EC
+DC
+PC
+IC
+AC
+OCF
+CSV	
+1.000
+EC	
+-0.019
+1.000
+0.881
+DC	
+0.062
+-0.285
+1.000
+0.625
+0.021
+PC	
+0.059
+-0.154
+0.086
+1.000
+0.639
+0.221
+0.497
+IC	
+0.046
+0.206
+0.169
+0.098
+1.000
+0.719
+0.099
+0.179
+0.438
+AC	
+0.053
+-0.011
+0.294
+0.476
+0.041
+1.000
+0.673
+0.933
+0.017
+0.000
+0.747
+OCF	
+0.478
+0.011
+-0.077
+0.481
+-0.019
+0.340
+1.000
+0.000
+0.931
+0.543
+0.000
+0.883
+0.006
+Hypothesis testing consists of two stages: 1) testing the whole model (F-test), and 2) partial testing (T-test). The F-test was used to test the whole model by looking at the significance of F. Based on the results displayed in Table 3, the F value is 2.39 (0.01), which is smaller than the significance level of 5% (0.001 < 0.05). Thus, it can be stated that the model, which has already formed the independent variables, significantly influences the independent variable. From Table 3, it can be seen that the value of adjusted R-squared is 0.532, which means 53.2% of accounting conservatism (CSV) can be explained by the five independent variables of this research.
+
+Table 3. Regression results.
+Variable	
+CE
+FE
+RE
+EC	
+-3.369
+1.923
+-3.369
+(-0.288)
+(-0.109)
+(-0.288)
+DC	
+0.867
+11.098**
+0.867
+(-1.075)
+(2.513)
+(1.075)
+PC	
+-0.019
+-0.132**
+-0.019
+(-1.562)
+(-2.196)
+(-1.562)
+IC	
+0.605
+1.316
+0.605
+(0.568)
+(0.559)
+(0.568)
+AC	
+0.150
+-0.230
+-0.150
+(-0.736)
+(-0.646)
+(-0.736)
+OCF	
+7.065***
+10.289***
+7.065***
+(4.860)
+(6.487)
+(4860)
+CSV	
+0.416
+0.725
+0.412
+(0.454)
+(0.311)
+(0.454)
+Observations	
+65
+65
+65
+F-Test	
+2.39***
+R-Squared	
+0.295
+0.532
+R-Squared	
+0.532
+0.384
+Notes: T-statistics are in (); no robust standard error.
+** p < 0.05, *** p < 0.01.
+
+Table 3 also shows that three variables (debt covenant, political cost, and operating cash flow) are significantly influential, while the other three variables are not significant. The result for the debt covenant variable, as can be seen in Table 3, is 11.098 (< 0.05). This is lower than the significance level of 0.05, which means that the debt covenant has a positive effect on accounting conservatism. The sig. t-value for the political cost variable is -0.132 with a significance level of lower than 0.05, meaning that this variable does influence accounting conservatism. The sig. t-value for the independent commissioner variable is 0.561, which is greater than the significance level of 0.05 and means that it does not affect accounting conservatism. The results for the audit committee variable means that it does not affect accounting conservatism. Finally, the sig. t-value for the operating cash flow variable is 10.289, which is smaller than the significance level of 0.01 and means that it does affect accounting conservatism.
+
+5. DISCUSSION
+The results of this research show that executive compensation has no effect on accounting conservatism. The results have been unsuccessful in supporting the positive accounting theory, especially the bonus plan hypothesis. The results of this research also fail to confirm the statement that conservative accounting policy choices could be used as a tool to suppress the opportunistic behavior of agents/managers in exaggerating profits and net asset values. These results are in line with Hosseini, Chalestori, Hi, & Ebrahimi (2016) and Zmijewski & Hagerman (1981), who failed to show a relationship between accounting-based compensation and the choice of accounting policies applied. The findings of this research, however, differ from the results of Healy (1985), Gaver et al. (1995), Chen & Lee (1995), and Heflin, Kwon, & Wild (2002), who found that managers increase profits in firms where executive compensation is based on accounting earnings. The results obtained by Chen & Lee (1995) indicate that earnings management occurs in companies where manager bonuses are based on accounting earnings but does not occur in companies that implement compensation based on stock options. Heflin et al. (2002) observed that company size, risk, and annual earnings variance influenced earnings management trends, while debt and ROE were not proven to affect earnings management.
+
+Debt covenant was shown to have a positive effect on accounting conservatism. This shows support for the theory of efficient contracting, which states that the implementation of accounting conservatism could streamline contractual relationships between companies and creditors (Watts, 2003b). Accounting conservatism is able to reduce managers' moral hazard behavior due to the use of asymmetric information, limited years of service, asymmetric payoff, and limited liability. The results of this research contradict the results of Heflin et al. (2002) and Chen & Cheng (2002), who all failed to show an influence of leverage on the implementation of conservative accounting policies. Heflin et al. (2002) failed to show an effect of leverage on earnings management (accounting is not conservative), and Chen & Cheng (2002) failed to show an effect of leverage on the implementation of conservative accounting policies. Unproven leverage affects accounting conservatism because opportunistic behavior cannot be seen for a long time. Chen & Cheng (2002) used an 11-year period, while Widya (2005) used eight year-period. Another reason is that managers' attempts to change accounting policies when dealing with debt contracts only happens in companies that are facing financial problems. These studies used a sample of both problematic and non-problematic companies.
+
+The results of this research support the study by Ahmed et al. (2000), which showed that accounting conservatism is useful for reducing conflicts regarding dividend policies between bondholders and shareholders and for reducing debt costs. The results of this research also differ from the findings of Bao & Bao (2004), who tested the effect of debt ratio on earnings management and observed that it has a negative effect on earnings management. Further differences in results can be seen in the studies of Fogelson (1978) and Dichev & Skinner (2002). Fogelson (1978) stated that to meet the level of leverage required by creditors, managers can implement non-conservative accounting. Dichev & Skinner (2002) found that managers tend to choose liberal accounting policies to prevent companies from failing to meet debt covenant violation requirements.
+
+The results of this research are also supported by the empirical research by Sweeney (1994) and Jones & Sharma (2001). Sweeney (1994) showed that debt covenant violators used accruals to increase profits in the previous year. The research of Jones & Sharma (2001) found that leverage has a positive effect on earnings management. Lim et al. (2014) also found different results by showing that there is a link between the application of accounting conservatism and credit lending, in which the adoption of a conservative accountancy policy by lenders influences the level of caution of banks in lending.
+
+This research has shown that company size influences the implementation of conservative accounting; thus, the third hypothesis, which states that political cost affects the level of accounting conservatism, is accepted. These results also succeed in confirming the positive accounting theory that postulates managers who want to reduce potential political costs by decreasing earnings by implementing conservative accounting to report the earnings are relatively low and permanent (Watts & Zimmerman, 1979). Managers' efforts are based on a desire to minimize the transfer of wealth from the company to other parties or to maximize the wealth that the company can enjoy. If a company is of a large size with relatively permanent high profits, the government will impose higher taxes and demand better public service from that company. These are increased political costs that must be borne by the company.
+
+This research has also succeeded in confirming the influence of political costs on the choice of conservative accounting policies when linked to taxation obligations. This indicates that Islamic banks might implement conservative accounting in order to reduce taxation costs. In addition, the existence of government control over the implementation of regulations on corporate social responsibility (CSR) might be because companies reduce political costs through the selection of conservative accounting policies. The demand for employee safety guarantees, the fulfillment of workers' social rights, and an increase in the company's concern for the social and economic development of the surrounding community and its environment also trigger the company to reduce political costs by implementing conservative accounting.
+
+The results of this research are in accordance with those of Jones (1991), Cahan (1992), Han & Wang (1998), Key (1997) and Penman & Zhang (2002). All these studies showed that there are efforts made by managers to reduce profits and net assets when the company is facing political pressure. Cahan (1992) stated that companies with large profits that show company growth seem to attract the attention of regulators (government), and hence, reporting high profits would increase the likelihood of being regulated or burdened monopolistically. High profits can also be used as evidence against companies in antitrust actions (Han & Wang, 1998), deregulation (Key, 1997), and import protection (Jones, 1991). Nevertheless, Ball & Foster (1982) found a weak relationship between company size and political cost.
+
+Kjærland, Kosberg, & Misje (2021) described the use of accruals to reduce earnings during the period of investigation of monopolistic practices and illegal price alliances, especially for manufacturing companies in the United States. Managers of companies in the US that are being threatened with fines for monopolistic practices and illegal price alliances manipulate information of their corporate earnings to reduce mulcts or to provide evidence that there is no abnormal monopoly profit. The research results of Penman & Zhang (2002) showed that conservative accounting interacts with growth. Companies prefer to use conservative accounting to reduce earnings if there is growth in net assets, thus the accounting rates of return will be lower than if there is no growth.
+
+The results of this study differ from Liberty & Zimmerman (1986), who tested the political cost hypothesis related to labor contract negotiations, that is, whether managers chose accounting procedures that lower profits during labor contracting compared to other periods of time. No supporting evidence was found of company managers being involved in labor contract negotiations with labor unions decreasing profits during the negotiation period. Likewise, the results of García Lara, García Osma, & Penalva (2020) failed to prove the influence of political costs on conservatism or discretionary accruals. This research also contradicts the findings of Bowen et al. (1981), who found that there is a positive correlation between company size and the choice of accounting methods, with a tendency to increase reported earnings, especially for companies in industries not sensitive to influence by political parties. In accordance with the political cost hypothesis, companies apply conservative accounting to reduce political costs as the political process is usually related to accounting information.
+
+The data obtained and tested shows that the number of independent commissioners has no effect on accounting conservatism. Additionally, this result indicates that the number of independent commissioners on the company board does not affect the presentation of conservative financial reports. Thus, the hypothesis that states that the number of independent directors on the board influences the level of accounting conservatism is not accepted. This research is unsuccessful in supporting the theory that the composition of the board of commissioners is important to keeping the interests of stakeholders protected. A sufficient number of independent commissioners strengthens the function of commissioners in overseeing the company. The composition of the board of commissioners that is not balanced with the number of directors will experience resistance in making important company decisions.
+
+The results of this research support the findings of Amran & Manaf (2014), in which a positive relationship between an independent board of directors and accounting conservatism was not found. The effectiveness of the role of the Independent Executive Director is still questionable because the rules regarding the existence of a new executive director board are followed only by composition, not by its role in overseeing corporate governance. The significance of this variable is possible because, in the case of Sharia banks in Indonesia, most of the ownership is still held by conventional banks, which are the parent companies. Thus, strategic policies are still very likely to be influenced by the commissioners of the parent company.
+
+The results of this research differ from García Lara, Osma, & Penalva (2007), who proved that accounting conservatism is influenced by the strength or weakness of commissioners. The results of this study also differ from the study of Wardhani (2008), who showed that the level of accounting conservatism through market size is influenced by the proportion of independent commissioners.
+
+The data obtained and tested shows that the audit committee has no effect on accounting conservatism. These results indicate that the number of audit committee members in a company does not affect the presentation of conservative financial reports. Thus, the hypothesis that states that the audit committee influences the level of accounting conservatism is not accepted.
+
+The results of this research failed to confirm the theory that the existence of an audit committee is needed to assist the commissioners in ensuring the implementation of good corporate governance (Harymawan, Agustia, Nasih, Inayati, & Nowland, 2020).  This research indirectly in line with study conducted by Zou, Awusu-Ansah, and Maggina (2018) which found that there is no association between audit committee members and firm performance.
+
+The results of this research are not in line with the results of Wardhani (2008), which showed that the level of accounting conservatism with accrual size is influenced by the existence of an audit committee and institutional ownership. The results of this research also differ from the study by Albring, Robinson, & Robinson (2014), who found that the audit committee had a positive effect on tax aggressiveness, and the study by Zalata, Tauringana, & Tingbani (2018), who found that the effectiveness of the audit committee had a negative effect on earnings management, or that companies presented more conservative financial reports.
+
+The results of this research show that operating cash flow influences the implementation of conservative accounting, thus the hypothesis which states that operating cash flow affects the level of accounting conservatism can be accepted. This research successfully confirmed the free cash flow theory, which states that free cash flow is excess cash flow needed to fund all projects that have a positive net present value (NPV) (Jensen, 1986)
+
+Agency problems arise with the existence of free cash flow, especially when the free cash flow is high. Distributing cash flow to shareholders causes the resources under the manager's control to decrease. The managers, however, are incentivized to grow the company through manager compensation. This incentive is difficult to obtain by managers if the cash flow is distributed to shareholders. Therefore, in companies that have positive cash flow, there is a tendency for managers to implement conservative accounting.
+
+The results of this research are in line with the results of Zhao (2020), who stated that in companies that implement conservative accounting, operating cash flow will make future cash flow greater than in companies that implement aggressive accounting. Thus, the implementation of conservative accounting is attractive to investors.
+
+6. CONCLUSION
+This research aimed to answer the question of whether conservative accounting methods, which are defined as opportunistic behavior by managers, have been practiced by Islamic banks. Islamic banks that operate based on Sharia principles theoretically should not implement accounting conservatism. However, this research reconfirms the positive accounting theories that the choice of conservative accounting policy based on the opportunistic behavior of managers is also practiced in Islamic banking. The results of this research indicate that managers made efforts to avoid political costs, especially in large-scale Islamic banking. The theoretical results of this research successfully demonstrated the political processes which occur in Islamic banking in Indonesia. There is the possibility for Islamic banks to implement conservative accounting to reduce tax costs, avoid corporate social responsibility (CSR), demand employee safety guarantees, fulfill workers' social rights, and fulfill corporate concern for the social and economic development of social and environmental issues. This research succeeded in confirming the theory of free cash flow, where increasing the cash flow is used to maintain company performance from the perspective of investors. Managers have an incentive to maintain company growth to increase their benefit, which will be difficult to achieve if cash flows are distributed to shareholders. Therefore, in companies that have positive cash flow, there is a tendency for the managers to implement conservative accounting. The study also provides an interesting finding that debt covenant has a significant impact on the practice of accounting conservatism. 
+
+The findings of this research show that there is no correlation between manager compensation programs based on accounting performance and the tendency of managers to increase corporate profits by choosing less conservative (liberal) accounting policies. This condition possibly occurs because the majority of the shareholders of Islamic banks in Indonesia is their conventional parent bank, so they do not have independence in determining the board of commissioners. This study failed to prove that the moral hazard behavior of managers occurs to reduce agency costs when dealing with debt covenants. Agency problems related to debt covenants do not occur in Islamic banking because regulations require Islamic banks to have low debt ratios.
+
+With the insignificance of the composition of the commissioner board and audit committee in influencing accounting conservatism, our findings demonstrate that the effectiveness of the role of the independent commissioner in Islamic banks is questionable because the rules regarding the existence of the new executive director board are followed only by the composition of the board, not by its role in overseeing corporate governance. Likewise, the results of this study failed to confirm the theory that the existence of an audit committee is needed to assist the board of commissioners in ensuring the implementation of good corporate governance.
+

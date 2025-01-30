@@ -1,0 +1,603 @@
+Revealing inequality aversion from tax policy and the role of non-discrimination
+
+Abstract
+Governments have increasing access to individual information, but they exploit little of it when setting taxes. This paper shows how to reveal inequality aversion from observed tax policy choices of such governments. First, I map governments' priorities into concerns for vertical and horizontal equity. While vertical equity underlies inequality aversion, horizontal equity introduces a restriction against tax discrimination. This restriction affects the measurement of inequality aversion. Second, I apply the model to a hypothetical gender tax using Norwegian tax return data. The main result is that inequality aversion is overestimated when horizontal equity is ignored.
+
+1 INTRODUCTION
+Which equity concerns support actual tax policies? Standard welfare criteria—such as utilitarianism—suggest that optimal policies emerge as a balance between efficiency (it is an improvement that someone becomes better off) and inequality aversion (taking an equal amount from someone better off and giving it to someone worse off is an improvement).
+
+What is less commonly acknowledged is that standard welfare criteria imply that it is optimal to exploit all relevant information about individuals in setting taxes. For example, since females on average earn less than males, a utilitarian policymaker would, all else equal, set lower taxes for females than males earning the same income (an instance of tagging). Yet in actual tax policy, there are much fewer cases of differential taxation across characteristics than utilitarianism would recommend.1
+
+In this paper, I develop a theory that accounts for the equal treatment of different characteristics observed in actual tax systems. I use the theory to derive implications for the level of inequality aversion that is necessary to rationalize current tax systems. To do so, I build on classic work in taxation (Musgrave 1959), and distinguish between vertical equity, the priority on reducing differences across income levels, and horizontal equity, the priority on equal treatment of individuals with similar incomes.
+
+This theory has important implications. My first result is that by accounting for horizontal equity, implied social preferences are less averse to inequality. In other words, the government has access to lower cost redistribution than we assume when we neglect the possibility to tag. Since the true cost of redistribution that is available to the government is lower, for a given a tax policy the implied benefit of redistribution (the inequality aversion) must be lower as well. Inequality aversion is a key parameter in many optimal policy contexts, such as in minimum wage setting and environmental policy. If preferences that are less averse to inequality more accurately reflect social preferences, then this could warrant a lower concern for inequality reduction when evaluating other policies too.
+
+My second result is that recognizing the government's choice to respect horizontal equity can significantly affect inferred inequality aversion. In an application to gender-based taxation, I estimate the relevant parameters using Norwegian register data. I find that the level of inequality aversion is overestimated by 8.3% when one ignores that the government has access to, but chooses not to use, lower-cost redistribution by tagging. This means that an 8.3% lower average willingness to reduce inequality between the rich and poor can rationalize tax policy when horizontal equity is accounted for.
+
+The form of discrimination considered here is to condition taxes on characteristics that are immutable to tax policy, such as gender, height and age.2 There is a long-standing literature on optimal tagging, beginning with Akerlof (1978).3 However, actual tax systems display a limited use of tagging based on immutable characteristics.4 At the same time, it is a well-established empirical fact (see also results for Norway in this paper) that income distributions and tax responses differ across characteristics, providing vertical equity and efficiency rationales for conditioning taxes on these characteristics. Since governments appear reluctant to exploit information on most characteristics in actual tax policy, one explanation is that society holds a counteracting equity rationale for not exploiting information on certain characteristics. Hence I introduce a concern for horizontal equity.5
+
+This paper offers a simple interpretation of horizontal equity to rationalize actual tax policy. Horizontal equity here means that tax policy is not allowed to exploit information on certain characteristics (non-discrimination). This definition differs from traditional interpretations of horizontal equity as non-rearrangement of the relative position between the pre-tax and the post-tax distribution (King 1983; Jenkins 1988; Auerbach and Hassett 2002), and is inspired by the Atkinson (1980) view that horizontal equity is fundamentally about protecting against discrimination.6
+
+To measure the relative priority on vertical and horizontal equity, I build on the inverse optimal tax problem. Following Bourguignon and Spadaro (2012), the framework exploits actual tax systems to reveal the marginal welfare weights, the priority on increasing consumption at an income level, that make the current tax system optimal. Contributions to this literature include Bargain et al. (2014) for the USA and certain European countries, Spadaro et al. (2015) for major European countries, Lockwood and Weinzierl (2016) for the USA over time, Bastani and Lundberg (2017) for Sweden, Jacobs et al. (2017) for political parties in the Netherlands, and Hendren (2020), who relates the inverse optimum approach to cost–benefit criteria.7 A typical implicit assumption in these contributions is that marginal welfare weights are informative about society's level of inequality aversion. Making less specific assumptions about the welfare criterion, Saez and Stantcheva (2016) show that the social value of one more unit of consumption to an income group can be interpreted as a generalized social marginal welfare weight on that group. Then these weights can reflect a multitude of equity principles, including horizontal equity.8 However, the link between horizontal equity and the inverse optimal tax problem has not been studied yet, and this is the first paper to do so.
+
+I develop the inverse optimum framework to measure the separate contributions of vertical and horizontal equity concerns in supporting actual tax policy. In order to decompose the marginal welfare weights that support the actual tax system as an optimum, one requires estimates of marginal welfare weights both when tagging is used and when it is not used.9 Since the actual tax system respects horizontal equity, the standard inverse optimal tax approach reveals the marginal welfare weights in the case when tagging is not used. The sufficient statistics required for this exercise are standard: elasticities of taxable income, income distribution parameters, and actual tax rates.
+
+To estimate marginal welfare weights in the counterfactual tax system, without the horizontal equity restriction, I develop an optimal tax algorithm. The idea is to exploit the marginal welfare weights that support actual tax policy to find the optimal tax system when tagging is used. Since tagging is used in a counterfactual tax system, it requires a model of government behaviour outside the actual tax system. When exploiting characteristics in setting taxes, the government sets separate tax schedules for each characteristic, and transfers between them. The marginal welfare weights that support this counterfactual tax system as an optimum must rationalize both the characteristic-specific income taxes and the between-characteristic transfers. My algorithm accounts for the fact that tagging enables less distortive redistribution, which implies a different marginal value of inequality reduction. Together, the estimates of marginal welfare weights when tagging is used and when it is not used permit estimation of the size of the bias to inequality aversion when horizontal equity is ignored.
+
+In an empirical application, I estimate the effect of horizontal equity across gender in Norway when the government has access to information about gender-specific income distributions and taxable income elasticities. First, since females on average earn less than males, redistribution between high and low income levels can be achieved at a lower cost by imposing lump sum transfers from males to females. Second, since females adapt their pre-tax incomes to tax changes more than males do, distortions from income taxation can be reduced by lowering marginal income taxes on high-earning females while increasing them on high-earning males. In conclusion, as gender is observable to the government, correlates with income and elasticities of taxable income, and is a controversial characteristic on which to base taxes, it serves as a policy-relevant example of the consequences of non-discrimination in optimal taxation.
+
+The paper contributes to two main strands of the literature. First, it contributes to optimal taxation in the Mirrlees (1971) tradition, and in particular the growing literature on normative principles in taxation (Mankiw and Weinzierl 2010; Weinzierl 2014, 2018; Saez and Stantcheva 2016; Lockwood and Weinzierl 2016; Fleurbaey and Maniquet 2018; Berg and Piacquadio 2020). This is done by introducing horizontal equity as a government-chosen constraint against tagging, solving the optimal tax problem with tagging in the local optimum framework (Saez 2001), and deriving the implications for revealed preferences using the inverse optimum approach. Second, it contributes to the broad literature on revealed social preferences, which has been achieved through surveys (Kuziemko et al. 2015; Stantcheva 2020), experiments (Cappelen et al. 2007; Bruhin et al. 2019), and, as in this paper, from observed policy (Bourguignon and Spadaro 2012; Groom and Maddison 2019). The contribution to this literature is to derive social preferences that reflect equity considerations from a policy with multiple aspects (progressivity and limited use of information).
+
+The paper proceeds as follows. Section 2 presents a simple two-productivity-type model to display the underlying logic of the main results. Section 3 develops the general model for the equity principles, before deriving the decomposition of marginal welfare weights into vertical and horizontal equity concerns. Section 4 introduces the continuous optimal taxation model and the inverse optimum tax problem. Section 5 presents the empirical application, where I provide estimates on heterogeneity in tax responses and apply the findings to the tax model. Section 6 concludes.
+
+2 A TWO-TYPE ILLUSTRATION OF VERTICAL AND HORIZONTAL EQUITY
+2.1 Description
+To illustrate the role of vertical and horizontal equity, I present a simple two-productivity-type model. The general model is presented in Section 3.
+
+Individuals have productivity types 
+, with corresponding wage rates 
+ such that 
+, and 
+ is the low type while 
+ is the high type. Each individual is also assigned the observable characteristic gender 
+, which I assume is fixed. Let the proportion of each gender within each type 
+ be denoted by 
+, such that 
+. For simplicity, I assume that the proportions of each gender are equal, and that all males are low types, 
+, whereas for women, 
+. Type- and gender-specific variables are denoted by 
+, and averages across gender for a given type are given by 
+. I also assume a homogeneous quasi-linear utility function for each productivity type and characteristic, 
+, which depends on consumption 
+ and labour supply 
+. Individuals face the following optimization problem subject to their budget constraint:
+(1)
+where 
+ is the type- and characteristic-specific pre-tax income, and 
+ is their tax payment, such that each individual obtains the type- and characteristic-specific utility 
+.
+The government maximizes welfare 
+:
+  
+ 
+(2)
+where 
+ is an equal concave transformations of utilities. This assumes that the government respects anonymity in that it evaluates the same utility for different types and genders equally. The marginal welfare weight—that is, the value that the government attaches to increasing consumption for type 
+ with gender 
+—is 
+. Differences in 
+ across wage types are denoted by 
+, and the ‘steepness’ of the marginal welfare weight schedule is measured by the absolute value of the average difference in marginal welfare weights between high and low types, .
+Vertical equity is the priority on reducing consumption differences. Inequality aversion is an aggregation of vertical equity (which is further developed in Section 3.3). Tagging is to exploit information on gender when setting taxes. Horizontal equity introduces a constraint on policy such that a gender tag is not permissible.
+
+2.2 Optimal tax in the two-productivity-type model
+The optimal tax model extends the classical Mirrlees two-type model, such as the one presented in Stiglitz (1982). The key features are the self-selection constraints for each type, such that the allocation is incentive-compatible (the utility of each type must be weakly higher in the bundle intended for each type than the bundle intended for the other type).10 Since the social welfare function is concave, only mimicking by the high type can emerge (Stiglitz 1982).
+
+The government maximizes 
+ taking individuals' choices as given and such that it raises non-negative revenue
+  
+ 
+(3)
+In the first-best situation, the government has information on 
+ (or gender is a perfect predictor of 
+). Since the government can distinguish types perfectly, it can impose the first-best allocation, and with equal quasi-linear preferences and a concave criterion, we obtain that utilities and marginal welfare weights are equal across individuals.
+
+In the second-best situation, the government cannot infer productivity perfectly and must impose income-based taxation that may differ based on gender.
+
+2.2.1 Second-best 1: no tagging
+The government respects horizontal equity such that it does not exploit information on gender in the design of the tax system. This restricts the government to the standard Mirrlees (1971) case, where there is no distinction across gender (so 
+ is dropped from the notation). The self-selection constraint on the government's optimization problem is standard:
+ 
+ 
+(4)
+The proportions of low types and high types are 
+ and 
+, respectively. Following Stiglitz (1982), the Lagrangian 
+ is given by
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The solution is derived from the problem's first-order conditions, and in this case (
+) the solution implies that
+ 
+(5)
+which means that high types are assigned lower marginal welfare weights than low types.
+2.2.2 Second-best 2: tagging
+Consider now the case where the government exploits tagging (Akerlof 1978), but gender is an imperfect predictor of productivity. Since the government exploits information on gender, it sets separate tax systems for each gender, and incentive compatibility constraints are
+ 
+ 
+(6)
+Gender-specific Lagrangians are
+and
+ 
+ 
+ 
+ 
+The solution in this case (
+), taking account of proportions of males and females, is
+(7)
+which does not depend on 
+ as there are no high-skilled males. It also means that high types are assigned lower marginal welfare weights than low types.
+Crucially, 
+. This is because in this case with tagging, self-selection is binding for only half of the population, such that the consumption for (low-type) males can be increased more without risking mimicking by high types. Since the tax system without tagging is still available, the absolute value of constraints in the tagging tax system (equation (7)) must be lower than in the case with no tagging (equation (5)).
+
+2.2.3 Implications for inferring equity
+The priority on vertical equity (
+) can be inferred when vertical equity is the only priority the government trades off against efficiency
+(8)
+The minimum priority on horizontal equity (
+) to rationalize no tagging is inferred from the difference between exploiting gender information and not doing so, which is measured by
+(9)
+Hence marginal welfare weights can be decomposed as
+(10)
+The result is that vertical equity cannot be inferred directly by considering the steepness of the welfare weight schedule in a system where information on gender is not exploited. Because the government has access to gender information but chooses not to exploit it, horizontal equity is also a priority in that system. Hence if horizontal equity is not accounted for, then one overestimates the extent to which observed costs of redistribution can be attributed to the priority for reducing inequality (vertical equity).
+2.3 Illustration
+Figure 1 illustrates the point. Denote by 
+ an allocation such that 
+, 
+. The social welfare function specified in equation (2) implies social indifference curves that rank different allocations, but does not account for a horizontal equity concern. The cases above are associated with different consumption possibility frontiers, reflecting different costs of redistribution away from the ‘laissez-faire’ (
+, 
+). If the government places no value on vertical equity, then it chooses the laissez-faire (allocation B) independently of its information set. In the first-best, a government that values only vertical equity chooses allocation A. When the problem is second-best and the government exploits tagging, it chooses allocation C, while when the government values both vertical and horizontal equity, it chooses allocation D.
+
+Details are in the caption following the image
+FIGURE 1
+Open in figure viewer
+PowerPoint
+The effects of vertical and horizontal equity concerns.
+Hence vertical equity induces the move from allocation B to allocation C, while horizontal equity induces the move from allocation C to allocation D. We observe that the average consumption difference across types and the steepness of the social indifference curve (reflecting the steepness of the marginal welfare weights) are lower at the allocation when there is tagging, meaning that horizontal equity increases inequality across types and the steepness of the indifference curve at the resulting allocation. The presence of the horizontal equity constraint increases redistributive costs, which lowers redistribution and increases the cost that the government is willing to incur to reduce inequality. As the government deliberately detracts from using additional information, the cost of redistribution increases. This is reflected by a steeper tangent for the social indifference curve, which is synonymous with a steeper marginal welfare weight schedule across the income distribution.
+
+The takeaway is that the steepness of the marginal welfare weight schedule may not only reflect a vertical equity concern, but also reflect a concern for horizontal equity. Hence one cannot infer vertical equity directly from the steepness of the marginal welfare weight schedule in the observed allocation.
+
+3 A GENERAL MODEL OF VERTICAL AND HORIZONTAL EQUITY
+3.1 Description
+This subsection and the next generalize the results from the previous section to multiple characteristics with various proportions over a continuous income distribution, heterogeneous preferences and a more general social welfare function. This prepares the ground for a quantitative application to inverse optimal taxation for an actual tax system.
+
+3.1.1 Individuals
+There is a continuum of individuals 
+, with mass normalized to 1. Each individual is characterized by a wage rate 
+, and a utility function 
+, which is weakly concave in consumption, 
+, and strictly convex in labour supply, 
+, with 
+ and 
+. Individuals maximize utility subject to the budget constraint 
+, where 
+ is pre-tax income and is distributed according to 
+, and 
+ is the tax payment of individual 
+.11 What tax payments can be a function of is explained below.
+
+Each individual is also characterized by a tag that represents different characteristics, 
+. A tag is informative if there are income distribution differences across characteristics. Denote by 
+ the proportion of each characteristic in the population, with 
+. Within each characteristic, income is distributed according to 
+. Denote by 
+ the average of any variable 
+ across characteristics at income level 
+, with
+ 
+ 
+Denote the average of variables 
+ and 
+ over the total distribution 
+, and the characteristic-specific distributions 
+, by
+respectively.
+3.1.2 Government
+The government sets taxes 
+ as a (for now unspecified) function of information about individuals in order to raise revenue 
+. In the absence of a horizontal equity concern (which is introduced below), it maximizes welfare, which is the integral of individual-specific concave transformations 
+ of individuals' utilities:
+(11)
+In the following, the government can set taxes based on 
+, 
+ and/or 
+, depending on the information requirement. As long as 
+, which I assume from now on, the government's objective can be rewritten in terms of the characteristic-specific income distributions, as any heterogeneity within a characteristic-specific income level does not have any impact on welfare judgements and policy choice. Subsequently, the subscript 
+ is dropped for readability. Since the social welfare function is additively separable in individual welfare, social welfare can be written as the average welfare across characteristics:
+ 
+(12)
+Characteristic-specific marginal welfare weights are defined by
+ 
+(13)
+and are the government's valuation of increased consumption, at each income level for each characteristic. These are normalized such that 
+. A government that exploits all information takes account of the different characteristic-specific redistribution to set taxes; the average marginal welfare weights across unconditional income for this government is given by 
+. When a government does not account for differences across characteristics, it sets taxes across the unconditional income distribution and is associated with marginal welfare weights 
+.
+The next assumption is that marginal welfare weights are equal across characteristics for a given utility level, such that the government respects a form of anonymity (at the same utility, individuals of different characteristics are given the same weight). This assumes that the only reason the government may use information on characteristics is to redistribute more efficiently, and not because it favours one of the groups. If marginal welfare weights are (weakly) falling in utility, then the government is characterized as redistributive.12
+
+Sorting means that the ordering of incomes (before tax) is the same as the order of consumption levels (after tax) over the income distribution, which emerges if there is a monotonically increasing relation between 
+ and 
+, 
+. In the following, I assume sorting within the income distributions exploited by the government to set taxes, such that if the government exploits the characteristic-specific income distributions, then sorting is assumed within each of these distributions. In addition, I assume that within the income distributions exploited by the government to set taxes, individuals with higher income have (weakly) higher utility.
+
+Next, I discuss the relationship between marginal welfare weights and preferences of the government for what information to exploit. Instead of explicitly solving the optimal tax problem (which is presented in Section 4), the analysis rely on features of the first- and second-best optimal policy problems.
+
+3.2 Whether or not to tag
+Both 
+ and 
+ are unobservable to the government, while it observes 
+ and 
+. The government chooses whether or not to exploit information on characteristics.
+
+3.2.1 No tagging
+Information on 
+ is not exploited since the government chooses not to use it. This is the case where the government does not act simply according to equation (12), but also constrains itself to no tagging. Taxes must therefore be set only according to individuals' pre-tax income 
+. If the government is redistributive, then the information problem introduces a cost of redistribution. The cost emerges from individuals' responses to income taxes. A redistributive government that lacks information about 
+, and chooses not to exploit information about 
+, places (weakly) higher marginal welfare weights on lower incomes, 
+. This follows directly from the definition of a redistributive government and the fact that utility is sorted over the income distribution.
+
+3.2.2 Tagging
+Taxes are now allowed to be characteristic-specific, 
+, which entails that taxes and consumption may differ for individuals at the same income level.13
+
+
+Proposition 1.For a given economy, a redistributive government that exploits an informative tag chooses a different optimal allocation compared to the government that does not exploit the tag. Given sorting, the government that exploits the tag is associated with a flatter marginal welfare weight schedule over income on average, 
+.
+
+
+Proof.Initially, the government does not impose tagging, such that marginal welfare weights are given by 
+. Assume without loss of generality that there are two groups, 
+ and 
+, such that 
+. The government chooses to impose tagging by increasing consumption for 
+ by 
+, such that 
+, and reducing consumption for 
+ by 
+, such that 
+. All other individuals are unaffected. The government imposes the transfer whenever
+
+Since the government is redistributive, marginal welfare weights are lower for higher utility levels. This means that when tagging is implemented, inequality in utility has gone down, and marginal redistribution becomes less valuable. Hence the difference in marginal welfare weights becomes smaller between groups 
+ and 
+. Due to the sorting property, group 
+ has lower income than group 
+, and the marginal welfare weight schedule becomes flatter over income 
+.
+However, it cannot be guaranteed that the marginal welfare weight schedule shifts in a specific way everywhere when the government introduces tagging, when there is within-group income variation, only that it becomes flatter on average. For example, consider the case of females and males. If all the high-income earners are male, while the middle-income earners are mostly females, then the government may use gender-specific taxation to increase taxes on high-income earners while decreasing them on middle-income earners. Then the marginal welfare weight on the high-income earners increases, since they receive lower consumption, while the weight on middle-income earners decreases, which increases the steepness of the marginal welfare weight schedule from low-income to middle-income earners. Still, since the redistributive government chose to introduce the lump sum transfer between the groups, it must increase welfare and reduce inequality, such that the average steepness of its marginal welfare weight schedule goes down.
+
+Next, I use these cases to derive the relation between vertical and horizontal equity.
+
+3.3 Equity principles
+3.3.1 Vertical equity
+Vertical equity is society's priority on reducing inequality across consumption levels. The vertical equity principle may be provided with further foundation from various theories of justice, such as prioritarianism (Parfit 1991) and egalitarianism (Temkin 1993). Here, one should think of it as the resulting priority on reducing inequality, irrespective of its moral foundation.
+
+Consider again the government that maximizes welfare and exploits all information, and label their welfare by
+ 
+where 
+. The extent of the redistributive motive for this government can be measured by how much priority it places on increasing consumption for high versus low income levels. Define the weight from vertical equity at income level 
+ averaged over characteristics by 
+. If 
+, then income level 
+ is given extra priority due to the vertical equity concern. Vertical equity represents the government's priority with tagging. It follows that 
+.
+As long as 
+, the vertical equity concern means that the government accepts a higher cost of giving an extra dollar to low-income individuals relative to high-income individuals on the margin. For example, 
+ means that the vertical equity concern imposes that the government accepts a 50% larger cost on increased consumption at income level 
+ compared to distributing the transfer equally to everyone. The government is more redistributive, the higher the average marginal cost of vertical equity for a given level of redistribution, as it is willing to pay a higher price in terms of total consumption to redistribute from the rich to the poor.
+
+Importantly, a (weakly) decreasing vertical equity schedule alone cannot characterize the government without tagging. As the government that does not tag could have reduced inequality at the same efficiency cost by exploiting more information, it cannot be represented by a standard inequality-averse government. I turn to horizontal equity to characterize this government.
+
+3.3.2 Horizontal equity
+Horizontal equity reflects an aversion to treating individuals in the same circumstances unequally. Inspired by Atkinson (1980), I account for horizontal equity by introducing a constraint that prohibits tagging based on certain characteristics. Such a constraint violates Pareto efficiency (Kaplow 1989). Alternative representations of horizontal equity are possible; see Feldstein (1976) for a tax-reform-based measure, Auerbach and Hassett (2002) for a horizontal inequality index that respects Pareto efficiency, and Saez and Stantcheva (2016) for a representation based on marginal welfare weights that allows only Pareto-improving tagging. Non-utilitarian welfare criteria, such as those based on equal sacrifice (Weinzierl 2014; Berg and Piacquadio 2020), may be less redistributive and thereby imply that tagging would produce fewer efficiency gains and smaller between-characteristic transfers. However, less inequality aversion is in itself insufficient to rationalize the non-use of a tag (as long as the criterion is Paretian, the tax is distortive and tagging can reduce inequality), as tagging relaxes self-selection constraints also for such criteria.
+
+Introducing horizontal equity as a constraint is not restrictive when revealing government preferences from an observed policy where tagging is not used. In fact, the inverse optimum exercise would be equivalent to an aversion to horizontal inequity that is traded off against other objectives as long as the aversion is strong enough to rationalize no use of the gender tag. This is because when the tag is not exploited, one can infer only the minimum priority on horizontal equity, and one cannot infer whether or not the priority is absolute. In other words, if there are no Pareto improvements to be made by violating the horizontal equity constraint, then one cannot tell whether or not the government would be willing to violate Pareto efficiency. If the government does violate Pareto efficiency for the sake of horizontal equity, then a constraint rationalizes a feature of actual tax policy that other representations could not. This would suggest that a non-consequentialist social welfare function is necessary to rationalize policy.
+
+The constraint introduced is
+(14)
+at each income level 
+. This imposes that all individuals at the same income level face the same tax. If it binds, then the horizontal equity constraint makes reaching the government's other objectives more costly. Define 
+ as the Lagrange multiplier associated with the constraint at each income level in the government's maximization problem; it measures the shadow price of horizontal equity at each income level. The next proposition states the relationship between social preferences of redistributive governments that have information on 
+, and may exploit or not exploit the information depending on whether they have a concern for horizontal equity.
+
+Proposition 2.The shadow cost of horizontal equity 
+ represents the difference in marginal welfare weights between not exploiting information on 
+ and exploiting the information, 
+. The shape of the cost of horizontal equity, 
+, is negative on average for a redistributive government that does not exploit information on 
+.
+
+
+Proof.With horizontal equity as a constraint, the government maximizes welfare subject to 
+ at each 
+. These constraints are added to construct a new social welfare function labelled
+
+ 
+where 
+ is the integral of the constraint for each characteristic. Remember that 
+. Consider how this government values a marginal increase in 
+ at income level 
+:
+ 
+By averaging this over characteristics, one considers the welfare increase from increased consumption at income level 
+ across all characteristics:
+ 
+ 
+The optimum according to 
+ is the same as when information is not available (maximize integrals of welfare for each individual using only income taxation). At such an optimum, marginal welfare weights over income are equivalent to when information on 
+ is not exploited, 
+, such that
+Hence 
+ is the change in the cost of redistribution at income 
+ imposed by the horizontal equity concern.
+To determine the shape of the horizontal equity concern, consider 
+. By Proposition 1, 
+ on average, and since 
+ on average, 
+ on average.
+
+When the horizontal equity concern limits a redistributive government from exploiting information, the concern imposes costs in terms of achieved vertical equity.
+
+
+Proposition 3.For a government concerned with efficiency, vertical equity and horizontal equity, marginal welfare weights at each income level can be decomposed into
+
+If horizontal equity is not accounted for, and the information that remains unused is informative of 
+, then total willingness to pay for vertical equity is overestimated.
+
+Proof.The decomposition follows from 
+ and 
+. Together with 
+ on average from Proposition 2, this implies that if horizontal equity is not accounted for, then the average 
+, a measure of willingness to pay for inequality reduction, will be overestimated.
+
+3.3.3 Inequality aversion
+While vertical equity establishes the local priority on inequality reduction, inequality aversion is the measure for the total priority on reducing inequality. Inequality aversion can be defined in multiple ways. One possible measure is the average value of the steepness of the marginal welfare weights over consumption in the case when tagging is exploited:
+(15)
+This measure directly aggregates the vertical equity measures. The simple inequality measure when tagging is not used and horizontal equity is ignored, 
+, is biased. One bias measure 
+ to 
+ from not accounting for horizontal equity is
+Ignoring horizontal equity implies a positive bias 
+ in the measurement of inequality aversion 
+. By Proposition 2, 
+, such that 
+. Hence the level of inequality aversion is overestimated when horizontal equity is ignored.
+
+It follows that marginal welfare weights derived from actual tax policy reflect both vertical and horizontal equity. Typically, 
+ is interpreted both as the cost of redistribution (fiscal externality), as in Hendren (2020), and as the willingness to pay for reduced inequality, as in Bourguignon and Spadaro (2012). Proposition 3 establishes that horizontal equity drives a wedge between the cost measure and the willingness to pay interpretation. This is because the horizontal equity constraint increases the cost of redistribution, which is reflected in marginal welfare weights. Hence part of the value of marginal welfare weights reflects horizontal rather than vertical equity.
+
+To illustrate the bias to inequality aversion from ignoring horizontal equity, assume quasi-linear utility 
+ and that the social welfare function (
+) exhibits constant relative inequality aversion in equivalent income 
+ such that 
+, where 
+ is some fixed level of labour supply. Then
+ 
+where 
+ is the inequality aversion parameter. The inequality aversion parameter is given by
+ 
+(16)
+The inequality aversion measure depends on the optimal allocation. When tagging is not used, inequality aversion is measured in a different optimum than when tagging is used. This means that each optimum also reflects the priority on horizontal equity. Interestingly, for a fixed level of inequality aversion, a government that respects horizontal equity reduces inequality by less than a government that does not respect horizontal equity, as it faces higher costs of inequality reduction. The government that respects horizontal equity is thereby trading off both some inequality reduction and total income in order to respect the horizontal equity constraint.
+4 INVERSE OPTIMAL TAXATION WITH AND WITHOUT TAGGING
+4.1 Optimal tax model
+This section provides the theory to quantify the importance of horizontal equity for inequality aversion. To do this, I require estimates of marginal welfare weights in the cases when tagging is used and not used, 
+ and 
+, respectively. I adopt the tax perturbation approach to optimal taxation (Saez 2001), and extend it to a setting with tagging. The model is the same as in Section 3, but I further specify the optimal taxation problem here.
+
+For simplicity, assume everyone works (excluding extensive margin responses), quasi-linear utility (no income effects) and no exogenous revenue requirement, 
+. The behavioural response to taxes may differ across characteristics, but for simplicity, I assume that it is constant within each characteristic, 
+ for all 
+. The government has preferences as described in the previous section, and faces the budget requirement
+ 
+(17)
+and the structure of the tax system is
+(18)
+where 
+ is the non-linear tax for each characteristic, separated into lump sum transfers 
+ and income-dependent taxes 
+. It appears that the government has 
+ instruments, 
+ and 
+ for each 
+, but these are related through 
+, such that the government has 
+ independent instruments.
+As in Mankiw and Weinzierl (2010), the problem can be separated, which means that one can solve for the optimal within-characteristic tax rates for a given transfer, then solve for the optimal between-characteristic transfer. Consider a small perturbation of one characteristic's tax schedule, keeping the other schedule (and the transfer) constant. The perturbation is an increase in the tax rate 
+ by 
+ at the income level 
+ for the characteristic 
+, which has the revenue effect
+ 
+(19)
+where 
+ is the change in revenue. It depends on how many individuals pay the new tax, 
+, and how individuals respond to the tax, 
+. This tax change has a welfare effect that is a combination of the welfare gain for everyone from increased revenue, and the welfare loss of lower consumption for those with income above 
+. In the (local) optimum, the welfare change must be zero:
+ 
+(20)
+Combining equations (19) and (20) (Saez (2001) without income effects), the within-characteristic optimal tax rate is
+ 
+ 
+ 
+(21)
+where 
+ is the characteristic-specific local hazard rate, and 
+ 
+ is the characteristic-specific average marginal welfare weight above income level 
+.
+Following the inverse optimum approach (Bourguignon and Spadaro 2012), one can infer marginal welfare weights at each income level, 
+, from the actual tax schedule. The inverse problem is to find the marginal welfare weights 
+ for which the current tax system is a solution to the optimal tax problem. This is achieved by solving equation (21) for 
+. The marginal welfare weights from the inverse optimal problem are given by
+ 
+ 
+ 
+(22)
+Assuming (for simplicity) that 
+ can be approximated by a piecewise linear tax system (Bastani and Lundberg 2017), the marginal welfare weights from the inverse optimal problem are given by
+ 
+(23)
+where 
+ is the characteristic-specific elasticity of the income distribution (Hendren 2020).14 It measures how the characteristic-specific income distribution changes with income.
+4.2 Marginal welfare weights when tagging is not used
+Now, the government also respects horizontal equity. Hence there is no tagging, 
+, and inverse optimum marginal welfare weights are given by
+ 
+(24)
+where 
+, 
+, 
+ and 
+ are defined over the joint income distribution. Differences in the composition of characteristics across the distribution may create variation in the behavioural response 
+ over the joint income distribution (Jacquet and Lehmann 2020). For example, if females and males respond differently to tax changes, then the varying composition of females and males over the income distribution implies heterogeneous responses over the joint income distribution.
+4.3 Marginal welfare weights when tagging is used
+I provide a new method to reveal marginal welfare weights for the counterfactual tax system. The point is that marginal welfare weights reflect the allocation in question. If a specific relation between the allocation and weights can be inferred from the shape of inverse optimum marginal welfare weights for actual tax policy, then one can arrive at a new set of weights for the allocation when tagging is used.
+
+A government that exploits tagging can set lump sum transfers between characteristics. These transfers must be accounted for to obtain an estimate of 
+. The idea is that we can learn about the counterfactual tax system when tagging is used from the inferred priorities of the actual tax system. Then the difference between tax systems with and without tagging determines the contribution of vertical and horizontal equity in supporting the actual tax schedule. While the standard inverse optimum approach relies on local marginal welfare weights, the trick here is to exploit the broader shape of the marginal welfare weight schedule. However, my method requires assuming a specific utility function.
+
+
+Proposition 4.Ceteris paribus (fixed allocations and marginal welfare weight schedules for income levels that do not receive transfers), a redistributive government's new marginal welfare weight schedule with a transfer 
+ to income level 
+ can be obtained from the original marginal welfare weight schedule by the relation15
+
+where 
+ is the income of the average individual with the same pre-transfer utility as the average individual at income 
+ post-transfer.
+
+Proof.The income level 
+ is such that 
+. Without loss of generality, assume three individuals, 
+, 
+ and 
+, with 
+ and 
+. Initially, there is no difference in the relation between consumption and income across individuals. Now 
+ receives a transfer 
+, such that 
+ obtains the same utility as 
+. The after-transfer marginal welfare weight is denoted by 
+. By separability, the transfer leaves the relative marginal welfare weight of 
+ and 
+ unchanged.
+
+The condition relates the current marginal welfare weights over income to new marginal welfare weights with transfers. It exploits that individuals are weighted equally given their utility, such that the weight attached to an individual who receives a transfer is the same as for an individual who receives the same consumption by earning higher income. The relation relies on the local stability of marginal welfare weights, which will not hold for non-marginal policy changes, such as the introduction of tagging. The algorithm that I present next addresses this issue by accounting for the effect of allocation changes.
+
+4.3.1 Between-characteristics transfers
+Between-characteristics transfers are lump sum, such that they are the same for all income levels for each characteristic. The characteristic-specific marginal income tax 
+ affects within-characteristic income distributions through behavioural responses. As I have assumed no income effects, transfers do not directly affect the pre-tax income distribution, but they still affect the marginal welfare weights over the income distribution by changing consumption levels across characteristics. To measure the effect of tagging on the marginal welfare weight schedule, exploiting current marginal welfare weights, assume that there are no transfers that differ across characteristics prior to tagging.16
+
+Now, the optimal between-characteristic transfer 
+ is found when a change in the transfer keeps welfare unchanged, where 
+ is defined as the transfer from characteristic 
+ to characteristic 
+:
+(25)
+This implies setting transfers such that the average marginal welfare weights on individuals of each characteristic are equal, because if not, then the government could increase total (weighted) welfare by changing transfers such that 
+ for all 
+. An updating of marginal welfare weights is necessary to satisfy the requirement that the transfer from tagging should equalize average marginal welfare weights, since if the transfer did not affect marginal welfare weights, then the condition could never be satisfied.
+Since transfers only increase or reduce individuals' consumption, there is no direct effect on the income distributions 
+. The initial estimate is obtained by Proposition 4, 
+. Depending on the transfer, average consumption among individuals of one characteristic increases, while that for individuals of the other characteristic decreases. Marginal welfare weights are still equal across characteristics given the same consumption level, while they now differ for the same income level. The algorithm that solves the optimal tagging problem is as follows.
+Transfers 
+ are set by
+which depends on 
+. This determines 
+, which implies a new 
+.
+Tax rates 
+ are set by
+ 
+ 
+ 
+which depends on marginal welfare weights 
+. A tax change 
+ induces a behavioural response 
+, which implies a new 
+.
+Repeat steps 1 and 2 by replacing weights and income distributions until marginal welfare weights rationalize both 
+ and 
+.
+Calculate the resulting joint marginal welfare weights 
+ as averages of the characteristic-specific marginal welfare weights.
+The process can be seen as
+The endogenous variables are 
+, with 
+ and 
+, where 
+ denotes the number in the cycle of the algorithm. The behavioural response to the tax change creates the endogeneity, such that if there was no behavioural response to the new tax rates, then the algorithm would be redundant. The algorithm may not converge if the effect on marginal welfare weights from the transfer is too large or if the behavioural response to taxes is too large. It turns out to converge in the application presented next.
+5 APPLICATION: HYPOTHETICAL GENDER TAG IN NORWAY
+5.1 Description of application
+The application is a hypothetical introduction of a gender tag in the Norwegian tax system. The application relies on empirical estimates of three forms of sufficient statistics: income distribution parameters, actual tax rates, and the elasticity of taxable income.17
+
+5.2 Norwegian income data and tax system
+My analysis focuses on the labour income tax for wage earners. I use Norwegian income register data for the period 2001 to 2010. The main analysis is for wage earners in the year 2010. I exclude individuals who are under 25 and above 62 years old, who do not have wage earnings as their primary income source, and those with earnings below twice the government basic amount (NOK 75,641 in 2010, or 
+ USD 12,500) for all years 2001–10. The resulting balanced panel consists of about 800,000 individuals. Main variables include wage income, gender, age, county of residence, educational level and educational field. See Online Appendix Table A1 for summary statistics for 2010.
+
+The labour income tax system in Norway is progressive and reaches top statutory tax rates of 47.8% in 2010. Details on the tax system and how marginal tax rates are estimated are presented in the Online Appendix.
+
+5.3 Elasticity of taxable income
+The optimal tax rate depends on how individuals respond to tax changes. After Feldstein (1995), the response is typically summarized by the elasticity of taxable income (ETI). The ETI is the percentage change in taxable income when the net-of-tax rate changes by 1%:
+ 
+ 
+(26)
+In my setup, 
+ is labour income for individuals who primarily obtain income from labour. There is a large literature estimating ETIs, and estimates differ widely across countries (see the survey by Saez et al. 2012). Most comparable to the setting here, Kleven and Schultz (2014) estimate ETIs in Denmark and obtain a response for wage earnings around 0.05, which is similar to what Thoresen and Vattø (2015) find for Norway, exploiting the same tax reform as here. The difference is that I account for heterogeneity in tax responses by gender.
+
+The tax reform that is exploited for variation in tax rates is depicted in Figure 2. Statutory marginal tax rates where reduced for many income groups, but the size of the reduction varies across groups, which is used to identify the elasticity. See the Online Appendix for further details on the estimation. The resulting estimates are shown in Table 1. Although these estimates are small compared to US estimates, the main point here is that females respond about twice as much to the reform than males.
+
+Details are in the caption following the image
+FIGURE 2
+Open in figure viewer
+PowerPoint
+The 2006 tax reform.
+Notes: Marginal tax rates on total wage earnings (ordinary 
+ personal income) in 2004 and 2007.
+
+TABLE 1. ETI estimates.
+All	Males	Females
+ETI	0.081	0.054	0.101
+SE	0.002	0.003	0.004
+4,723,512	2,710,870	2,012,870
+Notes: ETI estimates, average and separated by gender for wage earners. The estimation is a first-difference equation where the tax rate change is instrumented by the reform-induced tax rate change. Other controls are described in Online Appendix Section A.3.
+5.4 Income distributions
+The next main determinant of marginal welfare weights is the shape of the income distribution. Figure 3(a) presents the kernel estimate of the joint income distribution, while Figure 3(b) shows the estimates for the female and male income distributions. Figure A1(b) in the Online Appendix displays the estimate of the elasticity of the income distributions. Further details on the estimation are presented in the Online Appendix.
+
+Details are in the caption following the image
+FIGURE 3
+Open in figure viewer
+PowerPoint
+Norwegian wage income distributions, 2010.
+5.5 The effect of horizontal equity on inequality aversion
+Introducing gender-based taxation reduces inequality by imposing a lump a sum transfer from males to females, and by increasing marginal tax rates for males while reducing them for females. Figure A2(a) in the Online Appendix presents optimal taxes by gender. Optimal gender-specific transfer from males to females is about NOK 70,000 (
+ USD 10,000). With tagging, males also face higher marginal tax rates than females, mainly due to the large (relative) difference in taxable income elasticities. Figure A2(b) shows the effect of the gender-based lump sum transfer on inequality.
+
+Using these statistics, Figure 4 presents estimates of marginal welfare weights when tagging is used averaged over characteristics at each income level, 
+, and when tagging is not used, 
+. In line with Proposition 2, tagging decreases the average steepness of the marginal welfare weight schedule. The relaxation of the horizontal equity constraint implies less redistributive pressure, as redistribution has become cheaper, therefore more of it is implemented. The figure shows that a gender tag can have a visible effect on the marginal welfare weight schedule. The steepness of the inverse optimum marginal welfare weights from the actual tax system reflects both the contribution from the vertical equity concern and horizontal equity. By increasing the steepness, horizontal equity contributes in the same direction as vertical equity, which implies that if horizontal equity is ignored, then the contribution from vertical equity is overestimated.
+
+Details are in the caption following the image
+FIGURE 4
+Open in figure viewer
+PowerPoint
+Marginal welfare weights when tagging is used and not used.
+Notes: Inverse optimum marginal welfare weights without tagging, 
+, and when tagging is used, 
+, over the income distribution for wage earners in 2010.
+
+The total difference in steepness between 
+ and 
+, 
+, is 8.3% of the average steepness in the actual tax system. Hence if inequality aversion is measured by the average steepness, then it is overestimated by 8.3% by ignoring the horizontal equity concern. If there are more tags that the government could have exploited, such as age, then the effect could be larger, as redistributive costs could have been further reduced. Compared to the case when horizontal equity is not accounted for, less inequality averse preferences are required to rationalize current tax policy. This means that a lower concern for inequality reduction may be warranted in other policies with redistributive consequences, such as environmental or monetary policy. The policy implication is therefore that to be consistent with the social preferences for reducing inequality in tax policy, less inequality reduction is required in other policy domains. Since inequality aversion is measured here by the distortions that the government is willing to accept for a redistributive tax system, the efficiency loss from not being able to tag based on gender also amounts to 8.3% of the total distortions imposed by the tax system.
+
+Next, I compare the relative marginal welfare weight at specific income levels. This is similar to Okun's leaky bucket (Okun 1975), in that inequality aversion is measured by the extent of leakage that society is willing to accept. In the actual tax system, society is indifferent between taking $100 from an individual with income at the 80th percentile, and taking $75 from an individual with income at the 20th percentile. In the tax system when tagging is used, society is indifferent between taking $100 from an individual with income at the 80th percentile, and taking $81 from an individual with income at the 20th percentile. Hence the priority on vertical equity implies a weight of the 20th relative to the 80th percentile of 1.24, while including the horizontal equity priority increases it to 1.33. The higher relative weight on income at the 20th percentile thereby partly reflects that the government is not allowing tagging.
+
+While the analysis shows that horizontal equity matters for how to infer inequality aversion, effects may vary across time and governments. For governments that do not have access to tags, for example because of a low tax capacity, horizontal equity concerns may not be relevant. This illustrates that the redistributive means at the government's disposal matter for how to evaluate their inequality aversion. As more information becomes available to governments, some of them may exploit more of it than others. If inequality aversion is compared using costs of redistribution, then this ignores that the inferred cost of redistribution may be a result of horizontal equity concerns.
+
+6 CONCLUSION
+Governments do not exploit all the relevant available information when setting taxes. This cannot be explained by standard criteria, which focus exclusively on vertical equity (and efficiency). By combining vertical equity with horizontal equity, I show that one can rationalize both the high cost that the government is willing to incur to redistribute and the restriction on the form of information used in setting taxes. To measure the importance of accounting for horizontal equity, I decompose inverse optimum marginal welfare weights into the contributions from each form of equity. From the decomposition, I demonstrate that accounting for horizontal equity affects the inferred priority on vertical equity and inequality aversion.
+
+The point of distinguishing between vertical and horizontal equity is first to reveal equity principles that are consistent with observed tax policy. This allows policymakers and voters to evaluate for themselves whether they find these equity principles appealing. The second point is to estimate and correct the bias in the measurement of vertical equity. Since horizontal equity increases the cost of redistribution, directly using standard inverse optimum marginal welfare weights would lead to an overestimation of the role of vertical equity in supporting the current tax system. As a consequence, I find in the empirical application to gender neutral taxation in Norway that inequality aversion is overestimated by 8.3% when horizontal equity across gender is ignored. The estimate ignores the potential use of other tags, and relies on estimates of elasticities, income distribution and taxes, such that the exact size of the overestimation is also uncertain, but the analysis shows that it can be significant.
+
+More generally, the results show that the instruments that governments choose to employ to reduce inequality matter for the interpretation of their inequality aversion. Imagine a country that chooses to exploit more information in setting taxes. The extra information is used to reduce inequality while also reducing the cost of redistribution. Measuring inequality aversion directly from inverse optimum marginal welfare weights would suggest that the country has become less inequality averse, as it accepts a lower cost of redistribution than it did before. This paper has shown that this conclusion is misleading, and how to adjust inequality aversion measures for constraints that governments impose on themselves. This means that accounting for the trade-off between inequality reduction and non-discrimination is key when evaluating redistributive tax policy.
+
+ACKNOWLEDGMENTS
+I have received helpful comments from Rolf Aaberge, Geir Asheim, Giacomo Brusco, Michael Devereux, Naomi Feldman, Daniel Gottlieb, Emanuel Hansen, Morten Håvarstein, Shafik Hebous, Martin Holm, Etienne Lehmann, Egor Malkov, Andreas Myhre, Frikk Nesje, Andreas Peichl, Paolo G. Piacquadio, Marius Ring, Emmanuel Saez, Kjetil Storesletten, Magnus E. Stubhaug, Thor O. Thoresen, Gaute Torsvik, Andrea Weber, Matthew Weinzierl, two anonymous referees, and audiences at LAGV, CESifo, ESEWM, IIPF, NTA, Frischsenteret, IRLE, NMBU, Norges Bank, NTNU, OsloMet, Oxford University CBT, Statistics Norway, UC Berkeley, Uppsala University, University of Amsterdam, University of Bergen and University of Oslo.
+
+This project has received funding from the European Research Council under the ERC Starting Grant VALURED (grant agreement no. 804104) and from the Research Council of Norway through Oslo Fiscal Studies.

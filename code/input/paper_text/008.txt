@@ -1,0 +1,695 @@
+Global Firms in Large Devaluations
+
+Abstract
+I investigate the consequences of firms’ joint import and export decisions in the context of large devaluations. I provide empirical evidence that large devaluations are characterized by an increase in the aggregate share of imported inputs in total input spending and by reallocation of resources toward import-intensive firms, contrary to what standard quantitative trade models predict. These facts are explained by the expansion of exporters, which are intense importers. I develop a model where firms globally decide their import and export strategies and discipline it to match salient features of the Mexican micro data. After a devaluation, the model reproduces the pattern of low aggregate substitution and firm reallocation observed in the data. Compared with a benchmark without global firms, the model predicts higher growth of total exports and imports and a smaller reduction in the trade deficit.
+
+I. Introduction
+Understanding the effects of devaluations is a central question in international economics. In particular, the magnitude of the substitution between domestic and foreign goods has far-reaching implications for the response of trade flows, prices, and expenditure switching (Burstein and Gopinath 2014). At the same time, a growing body of work shows the important role played by firm-level decisions in shaping trade (Bernard et al. 2007), with a recent emphasis on importing (Gopinath and Neiman 2014; Antràs, Fort, and Tintelnot 2017). This article focuses on a robust regularity of the firm-level data: the overlap between firms’ importing and exporting activities (Amiti, Itskhoki, and Konings 2014). Using data and theory, I show that this overlap is key to understand the pattern of reallocation and aggregate substitution after large devaluations.
+
+The starting point of the analysis is the novel empirical finding that large devaluations are characterized by low aggregate substitution between domestic and imported inputs. Figure I depicts the behavior of the aggregate imported input share, defined as the ratio of spending on imported inputs to total input spending, in a window of 12 years around large devaluations. The graph shows the average experience of a sample of seven recent episodes including Argentina 2002, Brazil 1999, and the East Asian events of 1997–98. The figure reveals a striking pattern: the imported input share increases on impact and remains elevated while the real exchange rate is persistently depreciated for about a decade. Relying on a broader sample of 43 devaluations between 1970 and 2011, I show that this finding is not driven by time trends or shocks commonly associated with devaluations such as financial crises or recessions. An increase in import intensity in a context of elevated relative foreign prices is consistent with an elasticity of substitution between domestic and foreign varieties that is lower than unitary, contrary to the values featured in standard quantitative trade models (Costinot and Rodríguez-Clare 2014). A central task of this study is to explore the causes and implications of this fact.
+
+Aggregate Imported Input Share after Large Devaluations
+Figure IAggregate Imported Input Share after Large Devaluations
+The blue (red; color version available online) line (with crosses) is the rate of growth in the aggregate imported input share (real exchange rate) relative to the year before the devaluation (labeled −1). The year of the devaluation is labeled 0. The lines are averages of the experiences of Argentina in 2002, Brazil 1999, Indonesia 1998, Korea 1998, Malaysia 1998, Russia 1998, and Thailand 1997. The growth rates are computed at the episode level and then averaged across all episodes. The dashed lines give standard errors. Sources. OECD, WIOD, IFS.
+
+Open in new tabDownload slide
+What explains this pattern of rising import shares during devaluations? Micro data for Mexico in 1995 and Indonesia in 1998 reveal that these devaluations are characterized by reallocation of economic activity toward ex ante import-intensive firms. As intense importers increase their market share, the economy-wide import intensity rises. In turn, these patterns are explained by firms’ exporting activities. Intense exporters, which tend to be intense importers, strongly expand after the devaluations. The overlap between firm importing and exporting is not exclusive to the Mexican and Indonesian data but has been documented in a variety of settings (Bernard et al. 2007; Kasahara and Lapham 2013). However, standard quantitative firm-level models of input trade do not account for the correlation between importing and exporting and therefore predict a contraction of intense importers and a reduction in the aggregate import intensity after a devaluation (Gopinath and Neiman 2014; Halpern, Koren, and Szeidl 2015; Blaum, Lelarge, and Peters 2018).
+
+To account for these findings, I propose a theory that incorporates firms’ participation in international markets as both importers and exporters. The model extends a standard firm-level framework of input trade by allowing firms to sell abroad. As in the importing models, sourcing foreign inputs reduces production costs via love-of-variety and quality channels and is subject to fixed costs. As a result, larger firms import from more countries and are more import intensive. By increasing scale, exporting increases the returns to importing. These scale effects induce a positive association between import and export intensities. Furthermore, because of their interdependence, shocks to any one margin of international activity have repercussions for the other.
+
+A devaluation brings about two effects. First, as the price of foreign inputs rises, there is a relative increase in production costs of import-intensive firms. At the same time, the devaluation effectively increases foreign demand, making it more profitable to export to more countries. This scale effect is stronger for ex ante export-intensive firms because of their low fixed cost of exporting. I demonstrate that firms’ responses to the devaluation are fully determined by their initial import and export shares and that higher initial export orientation is associated with higher revenue growth. To the extent that importers are also exporters, this effect pushes them to expand. Whether this force is strong enough to generate the reallocation observed in the data depends on the pattern of initial import and export orientations across firms and on model parameters.
+
+To quantitatively evaluate the model, I consider the Mexican devaluation of 1995. Specifically, I calibrate the model to salient features of the predevaluation distribution of firm-level import shares, export shares, and market shares. To match the rich heterogeneity seen in the data, I allow for differences in efficiency and the per country fixed costs of importing and exporting across firms. The model requires that these firm-specific fixed costs be positively correlated to generate the strong positive association between import and export intensities seen in the data. This correlation in firms’ ability to export and import plays an important role in magnifying the expansion of efficient exporters after a devaluation.
+
+I simulate a counterfactual devaluation that features reductions in the price of domestic inputs and wages along the lines of Mexico after 1995.1 The model predicts an increase in the aggregate imported input share and, at the same time, widespread reductions in firm-level import shares. The rise in the overall import intensity is therefore not explained by within-firm effects. Instead, it is explained by compositional effects: firm size and import intensity become more correlated as ex ante intense importers gain market share. Quantitatively, this pattern of firm reallocation reduces the Armington elasticity from a value of 2.4 in firms’ technology to 0.1 in the aggregate. In addition, this reallocation is linked to firms’ export behavior. Initially intense exporters, which tend to be intense importers, feature strong growth in their market shares following the devaluation. All of these patterns are consistent with the macro evidence of Figure I and with the micro evidence observed in the Mexican devaluation.
+
+To quantify the role of global firms, I consider two special cases of the model. The first is a model of importing in the spirit of Halpern, Koren, and Szeidl (2015) and Blaum, Lelarge, and Peters (2018), which abstracts from exporting. The second model allows for importing and exporting but not both activities simultaneously. After a devaluation along the lines of Mexico in 1995, these models predict sharp reductions in the aggregate imported input share, with Armington elasticities in the range of 3–4. In turn, this higher aggregate substitution is explained by a stark pattern of reallocation by which firms with low import intensity expand while intense importers contract. Joint importing-exporting is therefore crucial to match the reallocation and aggregate substitutability observed after devaluations.
+
+Firms’ global behavior also has implications for the response of aggregate trade flows and expenditure switching to devaluations. Compared to the model without global firms, the baseline model features a stronger response of aggregate exports. This pattern arises because ex ante export-intensive firms feature greater growth in their import intensity. The cost reductions associated with this higher import intensity work to amplify the response of efficient exporters. The adjustment of aggregate imports of inputs is starkly different across models. Because of the increase in size and import intensity of global firms, the baseline model predicts an increase in total imports, while the model without global firms predicts a sharp contraction. Because of this large difference, which more than offsets the gap in export growth, the devaluation attains a smaller reduction in the trade deficit in the model with global firms. Put differently, larger changes in relative prices are required to attain a given deficit reduction. Taken together, these findings establish an important role played by firms’ global participation in international markets in shaping the aggregate adjustment to devaluations.
+
+The article is related to several strands of the literature. First, the study is related to quantitative models with firm-level heterogeneity in import behavior (Halpern, Koren, and Szeidl 2015; Gopinath and Neiman 2014; Blaum, Lelarge, and Peters 2018; Ramanarayanan 2020). Though different in their focus, these frameworks predict a decrease in the aggregate import share when the cost of foreign inputs increases, a pattern that is at odds with the evidence of Figure I.2 Two features are instrumental in generating this high aggregate substitution. First, these quantitative models feature elasticities of substitution between domestic and foreign inputs in firms’ technology in the range of 2–4.3 Second, they predict sharp contractions of intense importers. My evidence with micro-level data from the Mexican and Indonesian devaluations is consistent with high firm-level substitution as the within-firm changes in import shares contribute to reducing the aggregate import share. In contrast, I document an expansion of intense importers, which has a large positive effect on the aggregate import intensity. I show that a quantitative framework with joint importing-exporting can come to terms with these patterns.
+
+Second, this article relates to a literature that highlights the interactions between importing and exporting. Amiti, Itskhoki, and Konings (2014) show that import-intensive exporters feature lower exchange rate passthrough into their export prices because of offsetting exchange rate effects on marginal costs. Building on their mechanism, I focus on the reallocation of resources between firms at home following large devaluations and the implications for aggregate trade flows. A number of recent papers develop frameworks of joint importing-exporting where more productive firms feature higher import and export intensities (Bernard et al. 2018; Kasahara and Lapham 2013; Antràs, Fort, and Tintelnot 2017; Fieler, Eslava, and Xu 2018). My theory relies on these scale effects to account for the expansion of intense importers documented in the Mexican and Indonesian devaluations. Using cross-country firm-level data, Alfaro et al. (2023) provide evidence consistent with the mechanisms in my article. In particular, they find positive effects of real depreciations on exporters’ sales and productivity and opposite effects for importers.
+
+Third, the study is related to a small but growing literature that studies the implications of global value chains for the effects of devaluations (Ahmed, Appendino, and Ruta 2017; de Soyres et al. 2021). These contributions find that higher shares of foreign value added in exports are associated with lower exchange rate export elasticities. While these papers work at the sector level, I focus on firm-level reallocation and find that the correlation between importing and exporting can magnify the response of aggregate exports to the exchange rate.
+
+Fourth, this work is related to a literature that studies large devaluations. Burstein, Eichenbaum, and Rebelo (2005) show that the real exchange rate is persistently depreciated after large nominal devaluations. Cravino and Levchenko (2017) study the distributional effect of the Mexican 1995 devaluation. Alessandria, Pratap, and Yue (2015) document the gradual expansion of exports after large devaluations. This study is also connected to a broader literature on the effects of real depreciations on export growth and development (Rodrik 2008; Freund and Pierola 2012).
+
+The article is organized as follows. Section II contains the empirical evidence while Sections III and IV develop the model and quantitative exercise, respectively. Section V concludes.
+
+II. Empirical Evidence
+I begin by presenting empirical evidence on the pattern of aggregate substitution and firm-level reallocation in episodes of large devaluations. I rely on aggregate data for a sample of 43 large devaluations between 1970 and 2011 as well as on detailed micro data for Mexico in 1995 and Indonesia in 1998. Before turning to the empirical findings, I describe the data sources and how large devaluations are identified.
+
+II.A. Sample of Devaluations
+1. Data Sources
+I rely on the World Input Output Database (WIOD 2021), the Organisation for Economic Co-operation and Development input-output tables 2015 edition (OECD 2017), and Johnson and Noguera (2017) (JN) to compute intermediate and final spending by domestic and foreign origin. Note that input-output tables provide data on input expenditures, not prices and quantities separately. The WIOD and the OECD jointly provide information for 61 countries over 1995–2011. Whenever both sources are available, I give priority to the WIOD. JN provides information for 42 countries over 1970–2009. Combining these sources results in an unbalanced panel of 61 countries over 1970–2011 for which input-output tables are available.
+
+I supplement this data set with nominal exchange rates, a measure of the real effective exchange rate, price indices, and real GDP taken from the International Financial Statistics (IFS) database (International Monetary Fund 2024). Banking and sovereign debt crises are identified from Laeven and Valencia (2012). Information on effectively applied tariffs at the product level is taken from the UNCTAD TRAINS database (United Nations Conference on Trade and Development 2024).4
+
+Establishment-level data for Mexico are taken from the Encuesta Industrial Anual (EIA) (Instituto Nacional de Estadística, Geografía e Informática 2003). The EIA is a survey of manufacturing establishments, excluding maquiladora plants, which covers roughly 85% of the value of output in each six-digit industry for 1993–2003. Indonesian establishment-level data is obtained from the Manufacturing Survey of Large and Medium-sized firms (Badan Pusat Statistik 2024), which is an annual census of all manufacturing firms in Indonesia with at least 20 employees for 1991–2000. Both data sets provide information on expenditure on domestic and foreign material inputs. The data cleaning procedure is described in Online Appendix A.D.
+
+2. Sample of Large Devaluations
+Following Frankel and Rose (1996), I start by identifying episodes of annual nominal exchange rate depreciation relative to the U.S. dollar of at least 20%. To deal with high inflation, I require that the rate of depreciation exceed the previous year’s by at least 10 percentage points. To focus on increases in the relative price of foreign goods, I restrict the sample to events with a real exchange rate depreciation. To do so, I consider the bilateral real exchange rate (RER) with the United States defined as:
+
+ 
+ 
+ 
+(1)
+where NERc is the nominal exchange rate between country c and the United States expressed in U.S. dollars per unit of country-c currency, and Pc is a price index for country c. I use the consumer price index (CPI), which offers the widest coverage across countries and thus yields the most consistent RER measure. With this definition, a real depreciation corresponds to decrease in RER.
+
+This procedure results in a sample of 43 large devaluations, displayed in Table I. Additional details on the construction of the sample are contained in Online Appendix A.B. Sensitivity analysis with respect to the value of the cutoffs, the RER measure, and other features is provided in Online Appendix B.B.
+
+
+Table IOpen in new tabSample of Large Devaluations
+Country	Event years	Country	Event years
+Argentina	1975, 1981, 2002	Korea	1980, 1998
+Australia	1985	Malaysia	1998
+Brazil	1983, 1999	Mexico	1977, 1982, 1986, 1995
+Cambodia	1998	Philippines	1998
+Chile	1974, 1982	Poland	1978, 1987, 2009
+China	1990, 1994	Romania	1992
+Denmark	1981	Russia	1998, 2009
+Finland	1993	South Africa	1984
+Iceland	2008	Spain	1981
+India	1991	Sweden	1993
+Indonesia	1979, 1983, 1998	Thailand	1997
+Israel	1975, 1984	Turkey	1980, 1994, 2001
+Italy	1981, 1993		
+Notes. The table lists the episodes of large devaluations used throughout the paper. See Online Appendix A.B for details on how the sample is constructed. Sources. WIOD, OECD, JN, IFS.
+
+II.B. Aggregate Imported Input Intensity during Large Devaluations
+With this sample, I study the pattern of economy-wide substitution between foreign and domestic inputs during large devaluations. I focus on the aggregate imported input share, denoted by SI and defined as 
+ 
+⁠, where MI, MD are total spending on foreign and domestic inputs, respectively.
+
+Figure II depicts the behavior of SI and the RER in a window of 12 years around a large devaluation.5 The lines depict the cumulative growth rate of each variable relative to the year before the devaluation, labeled −1. The figure shows the average experience over the 43 episodes in the sample. The figure displays a striking pattern: in the eight years after the devaluation, while the RER is persistently depreciated, SI is higher than in the predevaluation period. More precisely, SI increases by about 20% after three years and remains 15% above its predevaluation level after eight years. On the other hand, the RER drops by about 25% on impact and recovers very slowly, remaining more than 15% below its predevaluation level by the end of the postdevaluation period.
+
+Aggregate Imported Input Share after Large Devaluations (Full Sample)
+Figure IIAggregate Imported Input Share after Large Devaluations (Full Sample)
+The blue (red) line (with crosses) is the rate of growth in the aggregate imported input share (real exchange rate) relative to the year before the devaluation (labeled −1). The year of the devaluation is labeled 0. The growth rates are computed at the episode level and then averaged across all episodes in the sample. The measure of the real exchange rate is defined in equation (1). The dashed lines give standard errors. Sources. WIOD, OECD, JN, IFS.
+
+Open in new tabDownload slide
+This pattern of elevated import shares during times of depressed RER indicates low substitutability between domestic and imported inputs. Indeed, an index of relative import quantities given by RQ ≡ 
+ 
+ × RER tends to fall after devaluations but proportionally by less than the RER (left panel of Figure III).6 This again shows that relative import quantities adjust weakly to the change in relative prices. To measure this substitutability more accurately, I regress the growth in relative aggregate import spending 
+ 
+ on the growth of the RER across episodes and time periods (Table II). A specification with episode and period fixed effects yields a point estimate of 0.35 that is statistically significant at the 1% level and a 95% confidence interval of [0.17, 0.52]. These estimates imply that a 1% devaluation is associated with a 0.35% increase in relative aggregate import spending or, equivalently, with a 0.65% decrease in relative import quantities. In other words, the aggregate Armington elasticity is 0.65 and lies confidently below unity.
+
+Relative Import Quantity and Aggregate Substitution
+Figure IIIRelative Import Quantity and Aggregate Substitution
+In the left panel, the solid blue line is the rate of growth in the index of relative import quantity, RQ, between a given year and the year before the devaluation (labeled −1). The red line with crosses depicts the rate of growth in the measure of the real exchange rate defined in equation (1). The values depicted in the figure correspond to averages over the growth rates of each episode in the sample. The dashed lines give standard errors. The right panel depicts point estimates and 95% confidence intervals for εAGG,t from the following regression: 
+ 
+ where Δ denotes the change between year t and year −1. 
+ denotes an indicator variable for period t. αi, αt denote episode and period fixed effects, respectively. Sources. WIOD, OECD, JN, IFS.
+
+Open in new tabDownload slide
+ 
+
+Table IIOpen in new tabElasticity of Relative Aggregate Import Spending
+Dep. var. Δlog(MIi,t/MDi,t)	(1)	(2)	(3)
+−Δlog(RERi,t)	0.47***	0.53***	0.35***
+(0.09)	(0.07)	(0.09)
+Episode fixed effects	No	Yes	Yes
+Period fixed effects	No	No	Yes
+95% confidence interval	[0.31, 0.64]	[0.39, 0.68]	[0.17, 0.52]
+Observations	445	445	445
+R2	0.13	0.59	0.62
+Notes. The table contains the results of estimating the following specification: 
+ 
+ = −εAGG × Δlog (RERi,t) + αi + αt + μi,t, where Δ denotes a change between period t and period −1 (the year before the devaluation). αi, αt denote episode and period fixed effects, respectively. Robust standard errors are in parentheses with ***, ** and * denoting significance at the 1%, 5%, and 10% levels, respectively. Sources. WIOD, OECD, JN, and IFS.
+
+These estimates of the aggregate Armington elasticity are lower than the values featured in quantitative trade models, which exceed unity (Costinot and Rodríguez-Clare 2014). Estimates of the trade elasticity based on variation in tariffs or prices typically range between 4 and 10 (Eaton and Kortum 2002; Anderson and van Wincoop 2004; Simonovska and Waugh 2014). Structural approaches also deliver high elasticities (Feenstra 1994; Broda and Weinstein 2006; Imbs and Méjean 2015; Soderbery 2015).7 One possible explanation for the discrepancy between these estimates and my findings lies in the frequency of the variation considered. Approaches based on high-frequency time series variation often yield low estimates of the Armington elasticity (Heathcote and Perri 2002; Ruhl 2008; Hillberry and Hummels 2013). However, the devaluations studied above feature changes in relative prices that on average are large and persist for more than eight years. Another explanation relies on the slow adjustment of quantities in the first one to two years after a devaluation found in the J-curve literature (Magee 1973; Meade 1988; Backus, Kehoe, and Kydland 1994). However, the estimates of Table II are not driven by the shorter horizons. Allowing for horizon-specific coefficients yields estimates of the elasticity of relative import spending to the RER that are well above zero at five- to eight-year horizons (right panel of Figure III).
+
+I provide a number of robustness and additional empirical analyses in Online Appendix A.C. I show that the pattern of low substitution documented here is not explained by confounding factors commonly associated with devaluations. Banking crises, sovereign debt defaults, or deep recessions often occur in tandem with currency crises (Kaminsky and Reinhart 1999; Reinhart and Rogoff 2011). Some devaluations coincided with trade liberalizations, particularly in the 1990s. With the expansion of outsourcing, imported input shares have steadily increased in the last decades (Feenstra and Hanson 1996). Relying on a panel of 61 countries in 1970–2011, I provide evidence showing that the increase in the imported input share observed after large devaluations is not explained by any of these alternative factors. I also show that this pattern of large devaluations holds for yearly changes in the real exchange rate. In particular, using the local projection methods in Jordà (2005), I document horizon-specific elasticities of the imported input share with respect to the RER in the range reported for large devaluations. Finally, I find similar patterns within two-digit sectors, suggesting that sectoral reallocation does not explain the aggregate findings of Figure II.
+
+To sum up, large devaluations are characterized by low aggregate substitution over the medium term which is not explained by other shocks commonly associated with devaluations. What explains this finding? Using firm-level data, the next section shows that the answer to this question lies in the pattern of reallocation of economic activity across firms.
+
+II.C. The Expansion of Import-Intensive Firms
+The aggregate elasticity of substitution is determined by firm-level decisions. The substitution of expenditure at the firm level is naturally important. In addition, when firms’ responses are heterogeneous, the pattern of changes in the sizes of firms with different import intensities also matters. I turn to characterizing the role of these within-firm and between-firm adjustments in shaping the aggregate elasticity of substitution after devaluations.
+
+I focus on the episodes of Mexico in 1995 and Indonesia in 1998 for which rich micro data are available.8 I rely on surveys of the manufacturing sector that report expenditure on domestic and imported materials at the firm level. I use this information to compute two firm-level objects: the import share and the market share, denoted by s and m, respectively. In particular, the import share is computed as 
+ 
+⁠, where mDi and mIi denote expenditure on domestic and imported inputs, respectively, of firm i. The market share is the firm’s share in total industry materials, computed as mi = 
+ 
+⁠. I decompose the growth rate in the aggregate imported input share into the following terms:
+
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2)
+where ΔSI ≡ SI2 − SI1 and t = 1, 2 denote the periods before and after the devaluation, respectively. CI, NI, and OI denote the sets of continuing importers, new importers, and firms that stop importing, respectively.9 The term labeled Within captures the contribution of the changes in import intensities, holding firm size constant. Changes in the relative sizes of firms with different import intensities, captured by the Between component, can increase or decrease the aggregate import share. I apply this decomposition over different time horizons keeping the predevaluation year fixed at 1994 for Mexico and 1997 for Indonesia.
+
+Two features of the results stand out (Table III). First, over sufficiently long horizons, the within-firm changes in import shares tend to reduce the growth in the aggregate import share, as captured by the negative Within term. This suggests that a low elasticity of substitution in firms’ production technologies is likely not the explanation for the findings of the previous section. Second, firm reallocation has a positive and large effect on the growth of the aggregate import share. In particular, initially import-intensive firms tend to expand after the devaluation, and this pattern significantly increases the aggregate import share, as captured by the sign and magnitude of the Between component.10 This expansion of import-intensive firms can be visualized in a binscatter plot of the growth in market share versus the predevaluation import share (Figure IV).
+
+The Expansion of Import-Intensive Firms after Mexican and Indonesian Devaluations
+Figure IVThe Expansion of Import-Intensive Firms after Mexican and Indonesian Devaluations
+The figure depicts binscatter plots of the growth in market share and the predevaluation import share associated with the devaluations in Mexico in 1995 and Indonesia in 1998. The growth in market share is defined as 
+ 
+× 100. The predevaluation period is 1994 for Mexico and 1997 for Indonesia. The postdevaluation period is any of the years in 1995–1999 for Mexico and 1998–2000 for Indonesia. For each graph, the data are grouped into equal-sized bins according to the initial import share. The figure plots the within-bin averages of the growth in market share and the initial import share. Only firms that are importers in the initial period are included. The data used are residuals after taking year-two-digit-sector fixed effects. Sources. Instituto Nacional de Estadística, Geografía e Informática (2003), Encuesta Industrial Anual (Mexico) and Badan Pusat Statistik (2024), Statistik Industri (Indonesia).
+
+Open in new tabDownload slide
+
+Table IIIOpen in new tabAccounting for the Increase in the Aggregate Imported Input Share
+Year	Within	Between	Covariance	Net entry	All
+Panel A: Mexico
+ 1995	2.82	7.38	0.49	−1.09	9.60
+ 1996	0.65	4.66	0.85	5.89	12.05
+ 1997	−1.54	12.34	2.61	6.95	20.36
+ 1998	−2.21	8.44	4.12	7.15	17.50
+ 1999	−2.93	9.10	4.14	7.91	18.22
+Panel B: Indonesia
+ 1998	−2.09	2.04	2.01	−0.65	1.31
+ 1999	−2.74	−0.01	1.71	5.37	4.34
+ 2000	−1.99	8.99	1.25	3.82	12.06
+Notes. The table contains the decomposition of the growth in the aggregate import share given in equation (2) for the devaluations of Mexico in 1995 (Panel A) and Indonesia in 1998 (Panel B). Each row performs the decomposition over a different time horizon, keeping the predevaluation year fixed (at 1994 for Mexico and 1997 for Indonesia). The column “All” reports the total growth in the aggregate import share. All values are in percentage points. Sources. Instituto Nacional de Estadística, Geografía e Informática (2003), Encuesta Industrial Anual (Mexico) and Badan Pusat Statistik (2024), Statistik Industri (Indonesia).
+
+This pattern of reallocation is puzzling from the point of view of existing firm-level models of input trade (Gopinath and Neiman 2014; Halpern, Koren, and Szeidl 2015; Blaum, Lelarge, and Peters 2018). In these frameworks, a rise in the cost of imported inputs increases production costs relatively more for import-intensive firms. As a result, intense importers contract and the aggregate import share falls. However, these models abstract from the overlap between firms’ importing and exporting activities, which can affect the pattern of reallocation if the devaluation improves firms’ competitiveness to sell in world markets. I turn to exploring whether this additional margin of international activity can account for the empirical findings of the last two sections.
+
+II.D. The Importing-Exporting Nexus
+A salient feature of the international trade data is that importers tend to be exporters (Bernard et al. 2007; Kasahara and Lapham 2013; Amiti, Itskhoki, and Konings 2014; Albornoz and Lembergman 2023). The Mexican and Indonesian manufacturing sectors are no exception: import and export intensities are positively associated in the cross section of firms (see Online Appendix A.A). At the same time, a devaluation affects importers and exporters differently. While it increases costs for the former, it expands foreign demand for the latter. Using macro and micro data, I provide evidence linking the patterns of low aggregate substitution and firm reallocation previously documented to firms’ joint import-export behavior.
+
+I start by going back to the sample of devaluations of Section II.B and focusing on the economy-wide export and import intensities. I define the aggregate export share as the fraction of total sales accounted for by foreign sales, that is, 
+ 
+ where RX, RD denote foreign and domestic sales, respectively. On average across episodes, this measure of export intensity strongly increases after devaluations: it grows by about 50% and it is persistently elevated for eight years (Figure V, Panel A). If this pattern of rising export intensity is related to the rising import intensity documented above, we expect to observe a positive relation between these two responses across episodes. To evaluate this hypothesis, I compute episode-level growth rates as the average of the horizon-level growth rates in the postdevaluation window. Indeed, across episodes, the growth in the aggregate export share is strongly positively correlated with the growth in the aggregate imported input share (the coefficient of correlation is 0.81; Figure V, Panel B).11
+
+The Exporting-Importing Nexus with Aggregate Data
+Figure VThe Exporting-Importing Nexus with Aggregate Data
+In the left panel, the blue line is the rate of growth in the aggregate export share between a given year and the year before the devaluation (labeled −1). The year of the devaluation is labeled 0. The red line with crosses depicts the rate of growth in the real exchange rate. The dashed lines give standard errors. The right panel contains a scatter plot of the growth in the aggregate export share and the growth in the aggregate imported input share across devaluation episodes. The episode of Turkey in 2001, with export share growth of 240% and import share growth of 106%, is omitted for readability. The episodes are labeled with the first two letters of the three-letter country code and the last two digits of the year of the devaluation. Sources. WIOD, OECD, JN, IFS.
+
+Open in new tabDownload slide
+I evaluate the importing-exporting mechanism more directly by relying on the micro data of the Mexican and Indonesian devaluations. I start by measuring the contribution of exporters to the growth in the aggregate imported input share with the following decomposition:
+
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+(3)
+where E2 and NE2 are the sets of exporters and nonexporters, respectively, in the period after the devaluation. I1 denotes the set of active firms in period 1, and X contains the firms that exit the sample. For both Mexico and Indonesia, in almost all time horizons, exporters account for more than the totality of the aggregate import share growth (Table IV, first two columns). In other words, the contribution of nonexporters tends to reduce the aggregate import share.
+
+
+Table IVOpen in new tabAccounting for the Role of Exporters
+Import share growth	Between + Covariance	Net entry
+Year	Total	Exporters	Total	Exporters	Total	Exporters
+Panel A: Mexico				
+ 1995	9.60	11.27	7.87	8.33	−1.09	0.45
+ 1996	12.05	15.13	5.51	5.74	5.89	8.45
+ 1997	20.36	24.71	14.95	16.09	6.95	10.04
+ 1998	17.50	20.58	12.56	13.14	7.15	10.07
+ 1999	18.22	22.19	13.24	14.53	7.91	11.08
+Panel B: Indonesia				
+ 1998	1.31	5.43	4.05	3.86	−0.65	1.01
+ 1999	4.34	9.32	1.70	2.99	5.37	6.91
+ 2000	12.06	7.97	10.24	0.82	3.82	6.39
+Notes. The table contains the contribution of exporters to the growth in the aggregate import share and various of its components, observed after the devaluations of Mexico in 1995 (Panel A) and Indonesia in 1998 (Panel B). The first two columns report the contribution of exporters to the growth in the aggregate import share according to equation (3). The third and fourth columns report the contribution of exporters to the sum of the Between and Covariance components as outlined in equation (4). The last two columns provide a similar decomposition of the Net Entry component. Each row performs the corresponding decomposition over a different time horizon keeping the predevaluation year fixed (at 1994 for Mexico and 1997 for Indonesia). All values are in percentage points. Sources. Instituto Nacional de Estadística, Geografía e Informática (2003), Encuesta Industrial Anual (Mexico) and Badan Pusat Statistik (2024), Statistik Industri (Indonesia).
+
+Can the importing-exporting nexus also account for the expansion of intense importers and its large effect on the growth of the import share? To answer this question, I go back to the decomposition used in Section II.C and focus on the contribution of firm reallocation, as captured by the sum of the Between and the Covariance terms. I compute the part of this total contribution of firm reallocation that is accounted for by exporters as follows:
+
+ 
+ 
+ 
+ 
+ 		
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(4)
+where as before CI denotes the set of continuing importers. In almost all time horizons, exporters tend to account for more than the totality of the reallocation terms (Table IV, third and fourth columns). In other words, the expansion of ex ante import-intensive firms tends to be fully accounted by their exporting activity.12
+
+Taken together, the findings of this section suggest that the firm-level importing-exporting nexus plays an important role in shaping the patterns of reallocation and aggregate substitution after large devaluations. Now I turn to building a quantitative model that can come to terms with the facts presented so far.
+
+III. A Theory of Global Firms
+To rationalize the expansion of importers and the increase in the aggregate import share observed after devaluations, this section puts together a model that accounts for firms’ global participation in international markets as importers and exporters. The model augments a standard firm-level theory of importing (Gopinath and Neiman 2014; Halpern, Koren, and Szeidl 2015; Blaum, Lelarge, and Peters 2018) by allowing firms to sell in foreign markets. As is standard in the importing models, sourcing foreign inputs reduces production costs via love-of-variety and quality channels, and there are per country fixed costs. Larger firms source their inputs from more countries and attain a higher import intensity. By expanding scale, exporting increases the returns to importing. As a result, the model features scale effects by which larger firms are both more import and export intensive.
+
+I start by describing the model environment in Section III.A and then turn to characterizing the solution to the firm’s problem in Section III.B. Before closing the model in general equilibrium in Section III.D, I provide analytical results that underscore the role of the firm-level importing-exporting nexus in shaping the response to a devaluation (Section III.C). Section IV contains a quantitative application of the model to the Mexican devaluation of 1995.
+
+III.A. Environment
+Firms live in a small open economy (Home) and produce varieties of a manufacturing good. There is a continuum of foreign countries that serve two roles: they offer differentiated input varieties, and they demand goods produced at Home. A representative consumer is endowed with L units of labor and T units of tradables. The consumer demands the locally produced manufacturing goods, an imported manufacturing good, and a non-tradable good. The locally produced manufacturing goods are used for final consumption and as inputs. There is fixed set of firms.13 All prices are in units of the imported manufacturing good, which acts as a numeraire.
+
+1. Preferences
+The consumer in Home values manufacturing goods and a non-tradable good according to the following CES preferences:
+
+ 
+ 
+ 
+ 
+ 
+(5)
+where CN is non-tradable consumption and 
+ is a manufacturing bundle given by
+
+ 
+ 
+ 
+ 
+ 
+(6)
+Here 
+ is an imported manufacturing good, and CM is a bundle of locally produced differentiated varieties given by
+
+ 
+ 
+ 
+ 
+(7)
+where Ω is a fixed set of varieties of unit measure.
+
+2. Technology
+Each variety i is produced by a local manufacturing firm combining labor and domestic and foreign materials according to:
+
+ 
+ 
+(8)
+where φi is firm efficiency, lp is labor used for production, and x is a bundle of material inputs. In turn, materials are produced according to the following CES aggregator:
+
+ 
+ 
+ 
+ 
+ 
+(9)
+where qD and zD are the quality and quantity of a bundle of domestic inputs and xI is a bundle of foreign inputs given by:
+
+ 
+ 
+ 
+ 
+(10)
+Here qc and zc are the quality and quantity of the input from country c and Σ denotes the set of countries from which the firm imports, which I refer to as the sourcing strategy. I assume that foreign input quality is distributed Pareto across countries with scale parameter qmin > 0 and shape parameter ξ, where ξ > min {1, κ − 1}. The price of foreign inputs is constant across countries so that all variation in price-adjusted qualities is driven by country quality.
+
+I further assume a structure of roundabout production by which firms use the output of all other domestic firms as inputs in production. In particular, the domestic variety zD is produced with an aggregator identical to consumer utility given in equation (7). This functional-form assumption simplifies the aggregation of domestic demand. Finally, the non-tradable good is produced with labor according to a linear technology with productivity given by AN.
+
+3. International Trade
+Importing and exporting are subject to per country fixed costs. In particular, firm i has to pay a fixed cost fi to import from each country in its sourcing set. In addition, by paying a fixed cost fXi, firm i can sell in country j where demand for its variety is given by:
+
+ 
+ 
+(11)
+Here pij is the price of variety i in market j, and bj is a parameter capturing the size of market j. I assume that bj is distributed Pareto across countries with scale parameter  
+ 
+ and shape θ > 1. Exporting also entails an iceberg cost τ > 1. The assumption of firm-specific fixed costs (fi, fXi) plays an important role in the quantitative exercise in generating variation in import and export intensities as seen in the data. Finally, there are fixed costs associated with the overall international strategy of the firm. These are given by FM, FX, and FXM ≥ max {FM, FX} for an importer only, an exporter only, and an importer-exporter (henceforth, a global firm), respectively.14 All fixed costs are in units of labor.
+
+4. Market Structure
+There is monopolistic competition in domestic output markets. Firms are price takers in foreign input markets: they can buy any quantity zc of the input from country c at given price p*. Likewise, firms are price takers in the domestic labor market and can hire any amount of labor lp at wage w.
+
+III.B. Firm Problem
+The problem of the firm consists of import and export participation decisions, as well as prices and quantities in all relevant markets. In this framework, all of these decisions are interdependent and cannot be studied separately. I start by characterizing the unit cost, prices, and the extensive margin of exporting given the sourcing strategy and the international status. I then characterize the choice of the sourcing strategy and the international status and discuss comparative statics results.
+
+1. Unit Cost
+Given the sourcing strategy Σ, the firm technology has constant returns to scale. Standard calculations imply that the unit cost is:
+
+ 
+ 
+ 
+ 
+(12)
+where Q is the price index of the material bundle x given by:
+
+ 
+ 
+ 
+ 
+(13)
+Here pD and A(Σ) are the price indices of the domestic and foreign input bundles, respectively. Standard calculations imply that:
+
+ 
+ 
+ 
+ 
+Because the price of foreign inputs is assumed to be constant across countries, there is a strict ranking of sourcing countries by quality qc. The firm therefore imports from all countries with quality above a cutoff 
+⁠. This greatly simplifies the firm’s problem by reducing the sourcing strategy from a set to a scalar.15 This property, together with the assumption that qc is Pareto distributed, implies that the price index of the foreign bundle takes a convenient power form:
+
+ 
+ 
+ 
+ 
+(14)
+where 
+ 
+is the mass of countries in the sourcing set, and z and η are auxiliary parameters determined by (p*, qmin, ξ, κ). Because η > 0, it follows that the unit cost decreases with the mass of countries sourced, n.16 Intuitively, sourcing from a larger mass of countries depresses the price index of foreign varieties A due to love-of-variety and quality effects, in turn reducing the price index of materials Q and the unit cost.
+
+In what follows, it is convenient to characterize the firm’s sourcing strategy in terms of the share of material spending allocated to domestic inputs, denoted by sD and given by 
+ 
+⁠. Standard CES calculations imply:
+
+ 
+ 
+ 
+ 
+ 
+ 
+(15)
+It follows that the unit cost can be expressed as
+
+ 
+ 
+ 
+ 
+ 
+(16)
+In this way, the domestic input share, raised to an appropriate power, captures the extent to which the firm’s costs are reduced by input trade (Blaum, Lelarge, and Peters 2018). Because it can be observed in the data, expressing the firm’s problem in terms of the domestic input share is useful for the calibration of the model in Section IV. This completes the characterization of all input sourcing decisions given the extensive margin of importing. I turn to the price and quantity decisions in Home as well as abroad.
+
+2. Pricing and Export Strategy
+The CES structure of consumer preferences and the domestic input aggregator imply the following domestic revenue function:
+
+ 
+ 
+(17)
+where pi is the price of variety i in the domestic market, 
+ 
+ is the ideal price index associated with the manufacturing bundle aggregator, and S is total domestic spending, given by the sum of consumer and intermediate spending at Home.
+
+Given the iso-elastic demands, firms charge a constant markup over marginal cost, setting 
+ 
+ in the domestic market and pij = (1 + τ)pi in any foreign market. Exporting to market j is optimal if the variable profits exceed the corresponding fixed cost:
+
+ 
+ 
+(18)
+The optimal strategy is therefore to export to destinations with high enough demand for Home goods, that is, where bj > b*(ui). Expression (18) makes clear that the exporting and importing decisions are interconnected. By lowering the unit cost, a higher import intensity increases variable profits and makes it more attractive for the firm to export to any destination.
+
+Integrating over the countries in the optimal export strategy yields an expression for total profits from exporting net of fixed costs:
+
+ 
+ 
+ 
+ 
+(19)
+Export revenue is proportional to these profits: RXi = θσπXi. It follows that θ, the dispersion in foreign demand, controls the elasticity of exports to relative prices through the extensive margin of exporting. This completes the characterization of optimal firm behavior conditional on the international status and the sourcing strategy.
+
+3. Sourcing Strategy and International Status
+I characterize the optimal sourcing strategy, sDi, conditional on the firm’s international status. After some manipulations, the profits of a global firm can be expressed as
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(20)
+where κD, κX, and κf are constants that depend on parameters and the general equilibrium objects S, P, and w, and sD, min  is the domestic input share when n = 1. This expression shows that importing more intensively increases domestic and foreign profits (the first two terms) at the expense of increasing the bill of country-level importing fixed costs (third term). I provide the definitions of κD, κX, and κf and characterize the solution to this problem in Online Appendix A.F. In particular, I establish that the optimal domestic input share, 
+ is weakly decreasing in efficiency φi and weakly increasing in the fixed costs of importing fi and exporting fXi. That is, an efficient exporter (i.e., a low fXi firm) features a high import intensity. The intuition behind this complementarity is simple. The returns to lowering production costs by importing more intensively are higher when foreign sales are large.
+
+The remaining international strategies can be studied as special cases of equation (20). The profits of being an importer only, ΠMi, are given by equation (20) when fXi → ∞ and FXM is replaced by FM. The profits of an exporter only, ΠXi, are given by equation (20) with sDi = 1 and FX instead of FXM. The profits of being a purely domestic firm, ΠDi, are given by equation (20) when fXi → ∞, sDi = 1, and FXM is omitted. The firm selects the international status that yields the highest profits and obtains Πi = max {ΠDi, ΠMi, ΠXi, ΠXMi}. For what follows, note that the firm’s behavior can be summarized by its domestic input and export shares sDi and sXi, respectively, where 
+ 
+⁠.
+
+This completes the characterization of optimal firm behavior. Before turning to the determination of the equilibrium, the next section provides analytical results of the partial equilibrium effects of a devaluation.
+
+III.C. Devaluation
+Can the theory of global firms developed so far come to terms with the expansion of import-intensive firms and the increase in the aggregate import share observed after devaluations? To shed light on this question, I study the response of global firms to a reduction in the price of domestic inputs, pD, which I refer to as a devaluation. Specifically, I show that the firm-level and aggregate responses are shaped by the heterogeneity in firms’ initial import and export orientations. For tractability, I study exogenous changes in pD holding other equilibrium variables constant. In the general equilibrium quantitative analysis of Section IV, a devaluation also features reductions in total domestic spending and the wage.
+
+A devaluation brings about two effects. First, holding the extensive margin constant, there is a standard substitution effect, which makes the firm tilt input expenditure toward the domestic variety. Second, there is an increase in sales in all markets because unit costs measured in tradables fall. This scale effect provides incentives to import from and export to more countries, which increases import intensity. The overall effect of the devaluation depends on the balance between these forces. If the scale effect dominates, the firm becomes more import intensive and gains market share.17 It turns out that the relative strength of the scale and substitution effects can be traced back to the firm’s initial domestic input and export sales shares. The following proposition formalizes this statement.
+
+ 
+Proposition 1.
+Assume that η(ε − 1) < 1 and that the firms’ international status is fixed. Let 
+ and ϵR,i denote the elasticities of the domestic input share and firm revenue, respectively, with respect to 
+ for firm i. Then these elasticities depend on firm characteristics only via the initial domestic input share sDi and the initial export share sXi, that is:
+ 
+ 
+(21)
+where Θ depends on equilibrium objects and parameters. Furthermore, the effect of the initial export intensity is:
+ 
+ 
+ 
+ 
+(22)
+Proof. See Online Appendix A.F.
+
+The proposition first establishes that the initial domestic input and export shares summarize all relevant firm-level information to study the effects of a devaluation. Any differences in adjustments across firms can be linked to initial differences in sDi or sXi. The second part of the proposition characterizes how the initial export orientation shapes the firm-level responses. Note that 
+ corresponds to a reduction in the domestic input share and ϵR,i > 0 to an expansion in revenue following a devaluation. Holding the initial domestic input share constant, intense exporters feature lower domestic share growth and higher market share growth (expression (22)). Intuitively, a higher export share is associated with a lower per country fixed cost of exporting and, consequently, a stronger scale effect as exporters adjust the number of destinations.18
+
+This discussion has implications for the substitutability between domestic and foreign inputs at the aggregate level. To see this, write the elasticity of the aggregate domestic input share with respect to 
+⁠, denoted by χ, as:
+
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+(23)
+where ωi is firm i’s share in total revenue and 
+ is a revenue share weighted average of the ϵR,i’s. Together with Proposition 1, this expression makes clear that χ depends on the entire distribution of initial domestic input shares, export shares, and market shares. Furthermore, ex ante exporting increases the revenue elasticities ϵR,i; if import and export shares are positively correlated, this can lead to a reallocation of market shares toward import-intensive firms that reduces χ.19 Ultimately, whether this effect is strong enough to make the aggregate imported input share rise after a devaluation (χ < 0) depends on the firm heterogeneity and on model parameters and general equilibrium variables. A quantitative exercise is conducted in Section IV.
+
+Firms’ input sourcing decisions are also instrumental in understanding the response of aggregate trade flows to a devaluation. The following proposition illustrates the effect of joint importing-exporting on the elasticity of aggregate exports holding constant firms’ export status as well as general equilibrium variables.
+
+ 
+Proposition 2.
+Holding the set of exporters fixed, the elasticity of aggregate exports with respect to 
+⁠, denoted by ΞX, is given by:
+ 
+ 
+ 
+ 
+(24)
+where E is the set of exporters.
+
+In the absence of global firms, the elasticities 
+ for all exporters and the aggregate export elasticity equals θ(σ − 1)γ. This term captures the direct effect of a change in pD holding import behavior constant. With global firms, there is an additional term stemming from adjustments to the import sourcing strategies which, as discussed previously, can move in any direction. When the scale effect is sufficiently strong so that 
+⁠, the firm increases its import intensity and the resulting unit-cost reduction implies a larger response of exports. In addition, when intense exporters feature lower domestic share growth, the response of total exports is further magnified. In Section IV, I show that a quantitative version of the model displays exactly this pattern.
+
+Proof. See Online Appendix A.F.
+
+By a similar logic, the presence of global firms can magnify or reduce the elasticity of aggregate imports to a devaluation. Depending on how global firms adjust their import intensity and scale, they can increase or decrease their demand for imports. The expression for the elasticity of aggregate imports as a function of firm behavior is more convoluted than in the case of exports—I relegate a formal treatment to the Online Appendix and come back to this issue in the quantitative analysis. Before turning to this analysis, I close the model in general equilibrium.
+
+III.D. Equilibrium
+The previous analysis focused on reductions in the price of domestic inputs. Devaluations are often also characterized by reductions in wages and aggregate spending. To jointly capture these effects, I impose equilibrium in the labor market. More specifically, I consider an equilibrium where firms maximize profits, the consumer maximizes utility, trade is balanced, and the labor and goods markets clear. An equilibrium is summarized by the triplet (S, P, w), where S is the level of domestic spending, P is the price index of the locally produced manufacturing bundle, and w is the wage. Note that the price of the domestic input bundle is given by pD = P due to the symmetry between the domestic input aggregator and consumer utility. I turn to characterizing how these equilibrium variables are determined.
+
+Consumer expenditure on the locally produced manufacturing goods is:
+
+ 
+ 
+(25)
+where 
+ is a CES expenditure share associated with consumer preferences and Π are aggregate profits. Domestic spending satisfies:
+
+ 
+ 
+(26)
+where SX denotes expenditure on locally produced manufacturing inputs by local firms. The labor market clearing condition is:
+
+ 
+ 
+(27)
+where lpi, lFi are the labor used for production and fixed costs, respectively, by firm i, and LN is the labor used in the non-tradable sector. Given the linear technology and perfectly competitive market structure, the price of the non-tradable good is pN = 
+ 
+⁠, where AN is labor productivity. The equilibrium triplet (S, P, w) is determined by equations (25), (26), and (27). By Walras’s law, these equations imply that trade is balanced:
+
+ 
+ 
+(28)
+where RX is aggregate exports and M is aggregate imported inputs.
+
+I adopt a two-step approach to find an equilibrium. First, I solve for the levels of (S, P, w) that satisfy the equilibrium conditions (25)–(27) given firm behavior. I provide conditions to obtain (S, P, w) from data on domestic input and export sales shares (sDi, sXi) for all firms (Online Appendix A.F). Second, the equilibrium triplet (S, P, w) needs to generate the firm-level data (sDi, sXi) through the firm’s problem outlined above.
+
+IV. Quantitative Exercise
+The previous analysis showed that the connection between importing and exporting has implications for the firm-level and aggregate adjustments to a devaluation. In particular, exporting can induce importers to gain market share. Whether this pattern arises in equilibrium and is strong enough to increase the aggregate import intensity depends on the initial firm heterogeneity and the structure of the model. To evaluate the model of global firms, I consider in this section a quantitative application to the Mexican devaluation of 1995.
+
+First I calibrate the model to salient moments of the predevaluation distribution of import and export orientations in the Mexican manufacturing sector. Then I study the implications of a counterfactual devaluation that is induced by a reduction in transfers. To assess the role of global firms, I consider alternative parametrizations of the model that do not allow for correlation between importing and exporting.
+
+IV.A. Calibration
+1. Parameterization and Moments
+To generate rich variation in firm characteristics, I allow for three dimensions of firm heterogeneity: efficiency φi and the per country fixed costs of importing fi and exporting fXi. Intuitively, φi controls firm size, while fi and fXi control the firm-level import and export shares, respectively. The distribution of (φi, fi, fXi) is parametrized as a joint log-normal with means 
+⁠; variances 
+⁠, and 
+⁠; and correlations 
+⁠, and 
+⁠. These parameters, as well as the global status parameters FM, FX, and FXM, are chosen to match the following moments of the Mexican manufacturing sector in 1994: (i) the aggregate import and export shares; (ii) the standard deviations of log materials, import shares, and export shares; (iii) the pairwise correlations between log materials, import shares, and export shares; and (iv) the fractions of importers, exporters, and importer-exporters. Mean efficiency is normalized to unity so that 
+ 
+⁠.
+
+The weight of the imported manufacturing good in preferences, ϱ, and the predevaluation level of transfers, T, are chosen to match the final-good import share and the expenditure share in non-tradables in Mexico in 1994.20 The dispersion in foreign demand, θ, is chosen to match the growth in total manufacturing exports observed between 1994 and the average of 1995–1999. Section IV.B explains how the devaluation is generated.
+
+A number of parameters are taken from the literature. I set the elasticity of substitution between tradables and non-tradables to ϑ = 0.4 from Burstein, Eichenbaum, and Rebelo (2007) and the elasticity of substitution between domestic and imported final goods to ζ = 4 from Simonovska and Waugh (2014). Following Blaum, Lelarge, and Peters (2018), I set the demand elasticity to σ = 3.83, the output elasticity of materials to γ = 0.61, the elasticity of substitution between domestic and foreign inputs to ε = 2.38, and the sensitivity of the foreign price index to the mass of countries sourced to η = 0.38.21
+
+2. Solution Algorithm
+The model is solved and calibrated with a three-step approach. A key feature of the strategy is to calibrate the distribution of firm heterogeneity without computing the general equilibrium variables. I start by appropriately rescaling the fixed costs (fi, fXi) and Fj for j ∈ {M, X, XM} to eliminate (S, P, w) from the firm’s problem. The first step consists of calibrating the distribution of firm efficiency and rescaled fixed costs to match moments (i)–(iv), for a given guess of θ. Because of the rescaling, this step does not require knowledge of the general equilibrium variables nor (ϱ, T). In a second step, I obtain (S, P, w) and (ϱ, T) using market clearing conditions (25)–(27), the final-good import share, and the non-tradable expenditure share, as well as the data (sDi, sXi) and the rescaled fixed costs from the previous step. The third step consists of calibrating θ, which affects all moments. A detailed description of the calibration and solution algorithm is found in Online Appendix A.G.
+
+3. Calibration Results and Model Fit
+Table V contains the results of the calibration. The model is able to closely match the targeted moments. Note that the model’s scale effects induce a positive correlation between import and export intensities through firm size. The calibrated model further requires a positive correlation between the fixed costs of importing and exporting to match the correlation between import and export shares observed in the data, given the other moments. This positive association in firms’ ability to export and import plays a role in magnifying the response of global firms to devaluations.
+
+
+Table VOpen in new tabCalibrated Parameters and Targeted Moments
+Parameter		Value	Moment	Model	Data
+Average importing fixed cost	μf	−0.52	Aggregate import share	0.36	0.36
+Average exporting fixed cost	
+−3.28	Aggregate export share	0.16	0.16
+Fixed cost importer only	FM	0.01	Fraction importers	0.44	0.44
+Fixed cost exporter only	FX	0.02	Fraction exporters	0.26	0.25
+Fixed cost importer-exporter	FXM	0.02	Fraction global	0.18	0.18
+Dispersion in efficiency	σφ	0.61	Dispersion in materials	1.71	1.71
+Dispersion in importing fixed costs	σf	3.11	Dispersion in imp. shares	0.27	0.27
+Dispersion in exporting fixed costs	 
+69.76	Dispersion in exp. shares	0.18	0.18
+Corr. efficiency-importing fixed cost	 ρφf	0.87	Corr. materials-imp. shares	0.27	0.27
+Corr. efficiency-exporting fixed cost	
+0.49	Corr. materials-exp. shares	0.15	0.15
+Corr. importing-exporting fixed costs	
+0.20	Corr. imp.-exp. shares	0.18	0.19
+Weight of imported manuf. good in prefs.	 ϱ	0.16	Final good import share	0.11	0.11
+Transfers	T	0.02	Non-tradable share	0.39	0.39
+Dispersion in foreign demand	 θ	1.03	Growth in total exports (%)	81.82	81.36
+Notes. The entry for the average exporting fixed cost reports (1 − θ)log (fX). The parameters correspond to the rescaled fixed costs. Firm materials are computed in logs. Dispersion refers to the standard deviation. The set of importers includes importers only and global firms; the set of exporters includes exporters only and global firms. Exports are measured in units of foreign goods. The moments in the data are computed for Mexico in 1994. Exports are measured in U.S. dollars. The final good import share is the fraction of private final consumption in goods coming from a foreign origin. The non-tradable share is the economy-wide level expenditure share in non-tradables in 1995, which is the first year for which the OECD data are available (see Online Appendix A.G.4). Sources. Instituto Nacional de Estadística, Geografía e Informática (2003), Encuesta Industrial Anual (Mexico), INEGI, OECD, WIOD.
+
+Tables VI and VII present nontargeted moments. The model can replicate well the marginal distributions of log sales shares, import shares, and export shares (Table VI), as well as the positive association between these variables seen in the data (Table VII).
+
+
+Table VIOpen in new tabUnconditional Distributions of Sales, Import, and Export Shares: Model versus Data
+Percentiles	
+10th	25th	50th	75th	90th	95th
+Log sales shares						
+ Data	−12.04	−11.17	−10.16	−9.10	−8.05	−7.42
+ Model	−12.62	−11.36	−10.26	−9.22	−8.25	−7.64
+Import shares, importers						
+ Data	3.29	10.58	29.70	58.53	83.11	92.54
+ Model	4.25	8.88	26.71	60.95	86.6	94.05
+Export shares, exporters						
+ Data	0.53	2.39	9.54	33.81	72.36	92.53
+ Model	2.2	6.14	18.13	44.12	71.42	82.7
+Notes. Sales are divided by total sales. The percentiles of the import (export) share distribution are computed over the sample of importers (exporters). All data moments are calculated for the Mexican manufacturing sector in 1994. Source. Instituto Nacional de Estadística, Geografía e Informática (2003), Encuesta Industrial Anual (Mexico).
+
+
+Table VIIOpen in new tabConditional Distributions: Model versus Data
+1	2	3	4 (largest)
+Quartiles of sales
+Import share				
+ Data	7.91	15.28	19.80	26.58
+ Model	2.39	19.27	20.91	21.99
+Export share				
+ Data	3.36	5.29	7.20	8.75
+ Model	0.91	9.53	9.76	8.2
+Quartiles of import shares
+Export share, exporters				
+ Data	19.65	17.89	22.53	27.51
+ Model	20.14	29.43	36.62	32.93
+Notes. In the first two panels, firms are grouped into quartiles of total sales (including domestic and export revenue). For each quartile, the table depicts the average import share (first panel) and the average export share (second panel). The last panel focuses on importer-exporters and groups firms into quartiles of import shares. For each quartile, the table depicts the average export share. All data moments are calculated for the Mexican manufacturing sector in 1994. Source. Instituto Nacional de Estadística, Geografía e Informática (2003), Encuesta Industrial Anual (Mexico).
+
+IV.B. A Counterfactual Devaluation
+Armed with the calibrated model, I study the effects of a reduction in transfers that induces a fall in the wage and the prices of domestically produced goods. The reduction in transfers T is calibrated to generate a fall in the wage of 20%, which is in line with the Mexican devaluation of 1995. The overall consumer price index, which captures the real exchange rate, falls by 15% and the price of the domestic input bundle falls by 13%.22 In what follows, I report the effect of this devaluation on the pattern of firm-level and aggregate substitution predicted by the calibrated model of global firms (the baseline).
+
+1. Baseline Model
+The model predicts an increase in the aggregate imported input share of about 2.5 percentage points as a result of the devaluation (Table VIII), which corresponds to a growth rate of 7%. The implied aggregate Armington elasticity is 0.12, which is in the lower range of the estimates of Section II.23 At the same time, the model predicts a reduction in the average import share of 4 percentage points and reductions in most percentiles of the distribution of import shares. The increase in the aggregate import share is therefore not explained by a widespread increase in firm-level import shares. Instead, it is explained by compositional effects, which are captured by an increase in the correlation between firm size and import shares. These findings are broadly consistent with what was observed in the Mexican experience. The data is reported as a guideline while acknowledging that various shocks other than a devaluation affected the Mexican economy in 1995.24
+
+
+Table VIIIOpen in new tabCounterfactual Devaluation: Changes in Distribution of Import Shares
+Percentiles			Corr. w/
+Import shares, final − initial	10th	25th	50th	75th	95th	Mean	Aggregate	sales
+Baseline model	−1.92	−2.05	−5.97	−7.51	−1.56	−3.99	2.50	0.03
+Data	−0.30	−0.30	−0.42	−0.08	−0.79	−0.45	5.58	0.06
+Model of importing	−1.42	−1.58	−3.35	−5.16	−1.64	−2.89	−6.24	−0.03
+No global firms model	−0.03	−1.01	−1.36	−2.47	−1.21	−1.44	−9.01	−0.01
+Notes. The Data row reports differences in the moments between the average of 1995–1999 and 1994 in the Mexican manufacturing sector. The percentiles of the distribution of import shares, as well as the average, are computed over the population of importers. The correlation between firm sales and import shares is computed on the sample of importers. All entries are in percentage points. Source. Instituto Nacional de Estadística, Geografía e Informática (2003), Encuesta Industrial Anual (Mexico).
+
+The pattern of reallocation of economic activity is key in order to understand these findings. The model predicts an expansion of ex ante export-intensive firms which is supported by the data (Figure VI). Intuitively, these firms feature low fixed costs of exporting and therefore strongly adjust the number of destinations after the devaluation. Because of the overlap between importing and exporting, this force pushes importers to grow. At the same time, importers experience a relative increase in their production costs. For firms with a sufficiently high ex ante import share, the exporting effect dominates and generates a positive association between import intensity and market share growth (Figure VII, left). In the Mexican data, this positive relation holds more broadly across all degrees of initial import intensity (Figure VII, right).25
+
+The Growth of Exporters: Baseline Model versus Data
+Figure VIThe Growth of Exporters: Baseline Model versus Data
+The figure depicts binscatter plots of the growth in market shares and the predevaluation export share associated with the devaluation generated in the baseline model (left) and the experience of Mexico in 1995 (right). For each figure, the data are grouped into equal-sized bins according to the predevaluation export share. The figure plots the within-bin average of the predevaluation export share and market share growth across bins. Only firms with strictly positive predevaluation export share are included. For the data, the initial period is 1994 and the final period is any of the years in 1995–1999. The data used are residuals after taking year and two-digit sector fixed effects. Source. Instituto Nacional de Estadística, Geografía e Informática (2003), Encuesta Industrial Anual (Mexico).
+
+Open in new tabDownload slide
+The Growth of Importers: Baseline Model versus Data
+Figure VIIThe Growth of Importers: Baseline Model versus Data
+The figure depicts binscatter plots of the growth in market share and the predevaluation import share associated with the devaluation generated in the baseline model and the experience of Mexico in 1995. For each figure, the data are grouped into equal-sized bins according to the predevaluation import share. The figure plots the within-bin average of the predevaluation import share and market share growth across bins. Only firms with strictly positive predevaluation import share are included. For the data, the initial period is 1994 and the final period is any of the years in 1995–1999. The data used are residuals after taking year and two-digit sector fixed effects. Source: Instituto Nacional de Estadística, Geografía e Informática (2003), Encuesta Industrial Anual (Mexico).
+
+Open in new tabDownload slide
+Can this firm-level reallocation account for the increase in the aggregate import share? To answer this question, I go back to the decompositions of Section II that measure the contribution of within and between-firm changes. The Baily, Hulten, and Campbell (1992) decomposition on the model-generated data yields a Within component that is negative, of about −3.5 percentage points (Table IX). In contrast, the Between component is positive and large, of about 9.5 percentage points, explaining more than the totality of the growth in the aggregate import share. In turn, the Between component is fully accounted for by exporters. More specifically, computing the Between component over the set of postdevaluation exporters yields a value of about 17.5 percentage points. To sum up, the expansion of ex ante intense importers plays a crucial role in generating the increase in the aggregate import share, and this reallocation is accounted for by exporting, as observed in the data.26
+
+
+Table IXOpen in new tabBaily, Hulten, and Campbell (1992) Decomposition
+Between
+Within	Total	Exporters
+Baseline model	−3.52	9.48	17.4
+Data	−2.93	9.10	10.70
+Model of importing	−3.57	−13.85	—
+No global firms model	−2.8	−22.22	0
+Notes. The Baily, Hulten, and Campbell (1992) decomposition is outlined in Section II.C. The decomposition in the Mexican manufacturing data uses 1994 as initial year and 1999 as final year. Source. Instituto Nacional de Estadística, Geografía e Informática (2003), Encuesta Industrial Anual (Mexico).
+
+Taken together, the findings of this section indicate that the model with global firms can come to terms with the key empirical patterns of large devaluations documented in Section II. I next turn to measuring more accurately the contribution of global firms in explaining these patterns.
+
+2. Models without Global Firms
+What is the role of global firms in explaining the behavior of the aggregate import intensity and the pattern of reallocation following a devaluation? I consider two special cases of the baseline model: a model of importing in the spirit of Gopinath and Neiman (2014), Halpern, Koren, and Szeidl (2015), or Blaum, Lelarge, and Peters (2018), and a model without global firms. This latter model allows for exporting or importing but not both simultaneously.
+
+The model of importing corresponds to the case where the costs of exporting are prohibitively large, that is, FX → +∞, FXM → +∞, fXi → +∞ for all firms. Following Blaum, Lelarge, and Peters (2018), the remaining parameters are calibrated to (i) the aggregate import share, (ii) the standard deviations of log materials and import shares, (iii) their correlation, and (iv) the fraction of importers. The model without global firms (NGF) corresponds to the case where FXM → +∞ and is calibrated to the same moments as the baseline except for the fraction of global firms and the correlation between import and export shares (see Online Appendix A.A for the calibration results).27 As in the baseline model, a devaluation is induced by a reduction in transfers T that generates a fall in the wage of 20%.
+
+Both models predict a sharp reduction in the aggregate imported input share following the devaluation, of about 6 percentage points in the model of importing and 9 percentage points in the NGF model (Table VIII). The associated aggregate Armington elasticities in each model are about 3 and 3.9, respectively. These findings are intimately related to the pattern of reallocation after the devaluation. The models predict a strong contraction of ex ante import-intensive firms (Figure VIII). Intuitively, in the absence of the exporting scale effects, this reallocation is driven by the increase in relative production costs of import-intensive firms. Quantitatively, this pattern significantly reduces the aggregate import share. In the NGF model, the decomposition of Baily, Hulten, and Campbell (1992) yields a large and negative Between component, of about −22 percentage points (Table IX).28 These patterns are in stark contrast with the predictions of the baseline model and with the Mexican data.
+
+The Growth of Importers: Benchmark Models versus Data
+Figure VIIIThe Growth of Importers: Benchmark Models versus Data
+The figure depicts binscatter plots of the growth in market share and the predevaluation import share associated with the devaluations generated in the model of importing and the model without global firms (left) and the experience of Mexico in 1995 (right). For each figure, the data are grouped into equal-sized bins according to the predevaluation import share. The figure plots the within-bin averages of the ex ante import share and the market share growth across bins. Only firms with positive predevaluation import share are included. For the data, the initial period is 1994 and the final period is any of the years in 1995–1999. The data used are residuals after taking year and two-digit sector fixed effects. Source. Instituto Nacional de Estadística, Geografía e Informática (2003), Encuesta Industrial Anual (Mexico).
+
+Open in new tabDownload slide
+We have seen that global firms are instrumental for the model’s ability to come to terms with the aggregate substitutability and firm reallocation observed in the data. In the next section, I assess the extent to which matching these patterns is consequential for the behavior of aggregate trade flows and net exports following devaluations.
+
+3. Implications for Aggregate Trade Flows and Trade Balance
+In the model with global firms, the response of export flows to a devaluation depends on how exporters adjust their sourcing strategies (see Section III.C). Reductions in the domestic input expenditure shares induce a larger response of exports because of the associated cost reductions. In addition, if ex ante export-intensive firms display lower growth in domestic input intensity, the response of aggregate exports is magnified. Indeed, the baseline model with global firms displays exactly such a pattern (Figure IX). Intuitively, efficient exporters which are also efficient importers adjust their extensive margin of importing more strongly. In contrast, exporters in the NGF model feature zero growth in their domestic input shares by construction. As a result, this model predicts lower growth in aggregate exports than the baseline (64% versus 82%, see Table X).
+
+Domestic Share Growth by Export Intensity: Baseline and No Global Firms Models
+Figure IXDomestic Share Growth by Export Intensity: Baseline and No Global Firms Models
+The figure depicts binscatter plots of the growth rate in the domestic input share and the predevaluation export share associated with the devaluations generated in the baseline model and in the model without global firms. The data are grouped into equal-sized bins according to the predevaluation export share. The figure plots the within-bin average of the predevaluation export share and the domestic input share growth across bins. Only firms with strictly positive predevaluation export share are included.
+
+Open in new tabDownload slide
+
+Table XOpen in new tabTrade Flows and Expenditure Switching
+Change in moments	Baseline	No global firms	Data
+Growth in total exports (%)	81.82	64.28	81.36
+Growth in total imports (%)	2.24	−25.55	27.96
+Change in trade balance/sales	13.68	14.68	8.34
+Notes. In the models, total exports and imports are measured in tradables. Total imports exclude final good imports. The last row contains the difference in the trade balance as a percentage of total sales. The Data column contains data for the Mexican manufacturing sector. In the data, the changes and growth rates are computed between the average of 1995–1999 and 1994. Source. Instituto Nacional de Estadística, Geografía e Informática (2003), Encuesta Industrial Anual (Mexico).
+
+The adjustment of total imports of inputs is starkly different across models. In particular, import growth is substantially higher in the baseline than in the NGF model. This happens because global firms expand their size and import intensity and, as a result, demand greater quantities of imported inputs. In fact, this effect is strong enough to make total imports of inputs increase by 2.25% in the baseline. In contrast, the NGF model predicts a sharp contraction in total imports of about −25%.
+
+These patterns for total imports and exports have implications for the trade balance. Because of the strong growth in imports, which more than offsets the higher growth of exports, the baseline model predicts a lower reduction in the trade deficit for the same devaluation. Quantitatively, in the baseline, the change in the trade balance as a percentage of total sales is about 1 percentage point lower than in the NGF model. This pattern is not specific to the size of the Mexican devaluation. Reductions in the wage in the range of 15%–40% consistently generate smaller changes in the normalized trade balance in the model with global firms (Figure X). This difference can be significant: a reduction of 40% in the wage attains a reduction in the trade deficit that is 8 percentage points lower in the baseline. These findings suggest that accounting for the firm-level overlap between importing and exporting can have important implications for the aggregate external adjustment to changes in international prices.
+
+Expenditure Switching: Broader Range of Devaluations
+Figure XExpenditure Switching: Broader Range of Devaluations
+The figure reports the change in the ratio of the trade balance to total sales (y-axis) and the percent reduction in the wage (x-axis) for a series of devaluations in the baseline and no global firms models. In each model, a given wage reduction is induced by an appropriate reduction in transfers. Imports of final goods are not included to compute the trade balance.
+
+Open in new tabDownload slide
+V. Conclusion
+This article documents two novel empirical facts. Large devaluations are characterized by an increase in the overall imported input intensity of the economy and by reallocation of economic activity toward import-intensive firms. The first fact is established in a sample of 43 large devaluations in the 1970–2011 period, which are characterized by persistent changes in the relative price of foreign goods. The second fact is documented using micro data for the devaluations of Mexico in 1995 and Indonesia in 1998. This data further reveal that the expansion of intense importers is accounted for by their exporting activities.
+
+These facts are at odds with recent quantitative models of input trade that do not account for the correlation between importing and exporting. These models predict a sharp contraction of the aggregate expenditure share on imported inputs, fueled by a contraction of import-intensive firms. Taking into account firms’ global participation in international markets is key to reconcile theory and data. The article presents a theory where importing and exporting are complementary and larger firms engage in both activities more intensively. In a quantitative application to the Mexican devaluation of 1995, the model can come to terms with the increase in import intensity and the reallocation toward intense importers seen in the data. Furthermore, it is shown that matching these facts has important implications for the patterns of aggregate trade flows and expenditure switching after devaluations.
+

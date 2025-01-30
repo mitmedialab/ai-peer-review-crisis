@@ -1,0 +1,750 @@
+Abstract
+The study investigates the impact of remittances on the real exchange rate of West African Monetary Zone (WAMZ)
+member countries by using annual data from six countries from 1960 to 2022. The WAMZ member countries are
+Ghana, The Gambia, Nigeria, Guinea, Liberia and Sierra Leone. Remittances are important sources of foreign capital
+for developing countries including WAMZ. The study is unique because it examines three periods namely: PreWAMZ (1960-2000), During WAMZ (2001-2022) and the entire period (1960-2022); captures and compares how
+the increase in receipt of migrant remittances have affected the real exchange rate for the different periods given the
+huge increase in remittances in the last two decades; use updated data for longer period; shows how the different
+explanatory variables changes in the three periods examined. Multicollinearity tests, results reveal no
+multicollinearity among the variables.
+Keywords: Remittance; Real exchange rate; Panel data; West African Monetary Zone.
+INTRODUCTION
+Remittances from migrants pose an important source of income for households in many
+developing countries. The value is rising and its role in promoting better living conditions
+and economic performance are very important and visible. Acosta et al., (2006) posit that
+migrant remittances are driven by increased international migration, technological
+advancement and financial competitiveness and these result in the fall in the cost of
+transmitting funds from one part of the world to another part. Migrant remittance is
+ranked second most important source of external funding for developing countries after
+foreign direct investment (Mallick & Mahallick, 2005; World Bank, 2014; Zouhaier, 2019).
+Capital inflows have shown to be very important in the economies of developing
+countries, especially in the form of private capital inflow which is composed of foreign 
+Collins K Anosike
+The Impact of Remittances on Exchange Rates in West African Monetary Zone (WAMZ)
+6  
+direct investment, employee remittance, and portfolio investment. The countries have
+witnessed a massive rise in these flows in the recent decades and the composition and
+magnitude have witnessed a significant change. Remittances remain one of the major
+components of capital flows. The continents of North Africa, South Asia and Middle East
+have witnessed a constant increase in the level of remittances in recent years. According
+to the World Bank, Nigeria accounted for the highest remittances flow into Sub-Saharan
+Africa in 2022. Remittance flow into the Sub-Saharan Africa was $ 53 billion, with Nigeria
+having 38% ($ 20.1 billion), next is Ghana and Kenya with $ 4.7 and $ 4.1 billion
+respectively (World Bank, 2023). Growth in remittances to Middle East and North Africa
+declined by 3.8% to $ 64 billion in 2022 despite strong growth of 12.2% in 2021. The World
+Bank report asserts that the overall rise in remittances to the Sub-Saharan African region
+have helped several struggling African countries that are grappling with drought, flood,
+and debt servicing issues.
+Further, governments of many developing countries including WAMZ have since
+realized the important role that migrant remittance plays as a source of external finance.
+Remittances emanate from migrants when they send money back home to their families;
+this serves as an important lifeline for the countries and comprise a share of the gross
+domestic product (GDP) for the recipient developing countries.
+Research problem
+In recent decades, developing countries have received a lot of cross-border remittance
+flows. The WAMZ member countries have benefitted from remittances inflow in the form
+of transfers to embassies, churches, non-governmental organization which have received
+billions of dollars. Although remittances have contributed to the WAMZ member
+countries’ economies, these suppositions have not been backed by funding from any
+rigorous macro-econometric study (Adenutsi & Ahortor, 2008). The Central banks have
+not shown leadership by providing adequate monetary policy formulation to attract
+maximum remittances to these countries.
+Further, remittances appear to be a challenge in the understanding of the influence of
+global finance on national policy choices in the developing countries. Remittance is a
+form of capital inflow and has some unusual characteristics such as they are ‘unrequited’
+and hence do not result in claims on assets, debt services obligation or contractual
+obligations (Brown, 2006; Kapur, 2005).
+On the other hand, since purchases of financial or productive assets can be liquidated,
+remittances cannot be withdrawn from a country expose and not lumped together with
+other capital flows that cause household insecurity or income volatility e.g FDI and
+portfolio flows (Ahlquist, 2006; Garrett, 1998; Scheve & Slaughter, 2004). Migrants tend
+to increase remittances they send to their countries when their home countries experience 
+Journal of Applied Economics and Business
+7
+wars, famine or any economic difficulties as these remittances help smooth the income of
+families and protect them from the uncertainty and inconsistencies of the global
+economy. Financial transfers and inflows from migrants can serve as a form of insurance
+for developing countries against exogeneous shocks (Kapur, 2005; Lopez-Cordova &
+Olmedo, 2006; Lucas & Stark, 1985).
+Motivation of study
+The main Objective of this study is to determine the impact of Remittances on the
+exchange rates of WAMZ member countries. There is widespread general belief that
+remittances have contributed to the economy of WAMZ member countries, but this
+assertion has not been backed by many macro-econometric studies. The role played by
+the Central bank in monetary policy formulation to attract maximum cross-border
+remittances to member countries still lacks some perspectives. Remittances have assisted
+receiving countries in poverty and inequality reduction, enhancement of human capital
+and financial development, reduction of labor supply, appreciation of real exchange rate
+and weaken the tradeable sector of receiving countries.
+The research question of this study is to assess the impact of remittances on the currencies
+and exchange rate of the WAMZ countries. Remittances flows are largely influenced by
+migrants who depart their home countries and community in search of greener pastures
+in advanced countries. The continuous increase in migrants to advanced regions also
+comes from WAMZ member countries which have contributed significantly to the
+upward trend within Sub-Saharan Africa and to continuous increase in remittances
+inflows to these countries.
+WAMZ is a monetary union. The presence of WAMZ has influenced the flow of
+remittances has on the exchange rate. The pre WAMZ period (1960-2000), the during the
+WAMZ period (2000-2022) and the entire period (1960-2022) shows how WAMZ has
+exhibited different effects of remittances on the exchange rate. Theories such as altruism,
+self-interest portfolio management e.t.c have motivated remittances flow and driven by
+need to cater for the welfare of relatives back in their home countries and communities.
+Contributions of the study
+The formation of WAMZ in 2000 has shown some significant effects in the exchange rate
+policies of member countries of the WAMZ. Studies reveal that prior to WAMZ
+formation, member countries had divergent real exchange rates. After WAMZ formation,
+a growing convergence in real exchange rate was observed among four countries namely: 
+Collins K Anosike
+The Impact of Remittances on Exchange Rates in West African Monetary Zone (WAMZ)
+8  
+Nigeria, Sierra Leone, the Gambia, and Liberia (Nketiah et al., 2019). The WAMZ member
+countries have three exchange rate policy regimes namely fixed exchange rate regime;
+the intermediate; and the flexible or free-floating regime. The appropriate exchange rate
+regime is a key factor in achieving the proposed single currency (ECO). Given that
+WAMZ has the intention of deepening economic integration in the Economic Community
+of West African States (ECOWAS), the economic cost include the associated nominal
+exchange rate flexibility which serves as a policy instrument and buffer for adjusting
+asymmetric shocks.
+Exchange rate is considered the most important price in an open economy and arguably
+the most important macroeconomic policy domain for governments in developing
+countries (Cooper, 1999). Remittances are important in influencing exchange rate policy
+making in WAMZ member countries, they also influence political institutions, interest
+groups and other aspects of the political economy. Remittances alleviate the political costs
+of lost monetary policy autonomy especially as they react in a countercyclical way to
+economic downturn and then insulate policy makers from economic uncertainty and
+volatility.
+Remittances contribute in a positive way to the implementation of fixed exchange rates
+and have the capacity to act as a surrogate for domestic monetary policy autonomy in the
+WAMZ and other developing countries. Using Robert Mundell’s (1961) optimum
+currency area framework, Singer (2010) posits that migrant remittances have a similar
+function as cross-border government transfers in the way they allow domestic economy
+to adjust to fixed exchange rate.
+FIG. 1. REMITTANCE AS A % OF GDP (1980-2021)
+Source: World Development Indicator
+Remittance contributes significantly to the GDP of many WAMZ countries (Fig. 1). Data
+from World Development Indicator (WDI) show that Liberia received remittances and it
+66.18
+193.98
+195.29
+24.48
+108.32
+45.21
+0.00 50.00 100.00 150.00 200.00 250.00
+Ghana
+The Gambia
+Liberia
+Guinea
+Nigeria
+Sierra Leone
+Remittance as a % of GDP (1980 - 2021)
+Journal of Applied Economics and Business
+9
+contributes the highest to its’ GDP compared to other WAMZ member countries. This
+shows the huge efforts and altruism of their immigrants towards giving back to their
+families back home and their country. The study contributes to existing literature and
+knowledge on how remittances inflows can be controlled or promoted because it makes
+significant contribution to productivity and the economy of WAMZ. Trade is promoted
+and economic activities are sustained with remittance inflows.
+Hypothesis
+Null Hypothesis: H0: Remittances have no significant impact on the Exchange rate in
+WAMZ.
+Alternative Hypothesis: HA: Remittances have significant impact on the Exchange rate in
+WAMZ.
+LITERATURE REVIEW
+Theoretical review
+Several studies capture the effect of remittances on the exchange rate. Hassan and Holmes
+(2013), Lartey et al (2012) and Maklouhf and Mughal (2013) assert that persistent inflows
+of remittances exercise upward pressure on the long run real exchange rate, which then
+results in Dutch disease effects related to a decline in the competitiveness of receipts’
+countries tradeable sectors. Given the interests in Fiscal Policy, Abdih et al (2012a) place
+emphasis on the impact of remittances on government revenues, then estimate for several
+recipient countries, the fiscal implications of the cut back in worldwide remittances in
+2009 emanating from the global financial crisis. Abdih et al (2012b) investigate the
+adverse impact that remittances have on the quality of institutions through two main
+channels namely: the expansion in the revenue base distorts government incentive which
+lowers the cost of appropriating resources for its own purpose; and the supplemental
+income available to households increases their ability to purchase goods and substitutes
+for government services.
+Furthermore, Amuedo-Dorantes and Pozo (2004) examine the impact of workers’
+remittances on real exchange rate using a panel of 13 Latin America and Caribbean
+countries. Using instrumenting for remittances leads to a conclusion that remittances
+appreciate real exchange rate in remittance-receiving countries. Hence, remittances have
+the potential to enforce economic costs on the export sector of receiving countries by
+reducing their ability to compete internationally. They utilize a set of variables that are
+related to remittance -receiving countries as instruments for remittances. Ball et al, (2013) 
+Collins K Anosike
+The Impact of Remittances on Exchange Rates in West African Monetary Zone (WAMZ)
+10  
+utilize a panel consisting of 21 countries and show theoretically and empirically that
+remittances appreciate real exchange rate under both flexible exchange rate regime and
+fixed exchange rate.
+Empirical Review
+Edwards (1989) attempts to explain exchange rate volatility by using a theoretical model
+to capture the long run and short run fluctuations that exist in the exchange rate of
+developing countries. He displayed a dynamic small open economy model to explain the
+effect of nominal and real variables on the real exchange rate. The theoretical model
+posited that equilibrium real exchange rate is determined by real variables which can
+affect the long run equilibrium real exchange rate and the model was tested using 12
+developing countries with data from 1962 to 1985. The results reveal that nominal
+variables affect the real exchange rate only in the short run while in the long run, the real
+exchange rate is affected by only real variables. Ahmed (2009) affirmed the Dutch disease
+hypothesis for Pakistan by estimating a linear regression model using variables namely
+Terms of trade, government spending, degree of openness, workers remittances, Foreign
+direct Investment (FDI) and real exchange rate.
+METHODOLOGY
+Theoretical model
+Mundell (1963) and Fleming (1962) provide a framework for how macroeconomic
+policies are conducted in the presence of capital flows. The Mundell-Fleming model is an
+extension of the IS-LM model in an open economy setting with the hallmark assumption
+of sticky prices (Mark, 2001). Traditionally, the Mundell – Fleming models generally deal
+with fiscal and monetary policy effectiveness in the presence of global capital mobility
+that exist within the regimes of flexible or fixed exchange rate. These models could
+predict the impact of domestic and external shocks and the co-movement of
+macroeconomic variables at home and abroad.
+The modification and incorporation have produced two types of models namely
+(Adenutsi & Ahortor, 2008):
+1) Deterministic Dynamic Mundell-Fleming models, and
+2) Stochastic Dynamic Mundell-Fleming models.
+Empirical model
+To examine the impact of remittance inflows on exchange rate, a model takes cognizance
+of various theories and outcome of previous empirical research such as Gapen & Montiel
+(2008), Quartey (2006), Vargas-Lundius (2004), Rapport & Docquier (2006) were specified.
+The empirical model takes insights from the theoretical model in the choice of variables 
+Journal of Applied Economics and Business
+11
+for the model and shows the relevance of the variables in explaining the theoretical
+framework and relationship. The justification for the variables is backed by economic
+theory on how the variables individually influence the personal remittances and it
+expresses the functional relationship between the dependent variable and these
+independent variables.
+In the light of the above and drawing insights from Nketiah et al., (2019), Loto and Alao
+(2016), and McMahon(1998) models, this model posits that real exchange rate is a
+function of per capital remittances received, per capita income, trade openness, ratio of
+government expenditure to GDP and capita flow.
+ERR = f (PCR, PCI, TOP, GEX, CI)
+Method of analysis
+The nature of the study entails the use of panel data for the period 1960 – 2022. Panel data
+is apt because it can identify parameters in the occurrence of measurement error and have
+robustness to omitted variables and the capture the efficiency of parameter estimates. The
+panel robust least squares (Panel RLS) estimator would be used to estimate the model for
+impact of remittance on exchange rate in WAMZ. The variables would be tested for unit
+root and cointegration test would be performed to determine if there is a long-run
+relationship among variables of the model or not.
+The study captures three periods to enable us to explain the effect of WAMZ. The three
+periods are:
+o Pre-WAMZ period (1960-2000)
+o During WAMZ period (2000-2022)
+o Entire Period (1960-2022).
+Data description
+The data type is secondary data, and it uses a panel data set for the six countries of
+WAMZ. The countries comprise Nigeria, the Gambia, Guinea, Sierra Leone, Ghana and
+Liberia. WAMZ is our focus because it is an important monetary union that is
+instrumental in the promotion of regional integration and development of sub-Saharan
+Africa and provides an institutional framework that policy discussion and
+implementation. The period of study is 1960-2022 based on availability of data.
+Research Question
+How does remittance impact the exchange rate and currencies of the WAMZ countries?
+Collins K Anosike
+The Impact of Remittances on Exchange Rates in West African Monetary Zone (WAMZ)
+12  
+Remittances can propel the growth of new small-scale businesses and then foster
+entrepreneurship by relaxing credit constraint for receiving countries. Remittances can
+mitigate the exchange rate volatility derived from the outflow and export by providing
+an indirect stabilizing effect of exchange rate volatility in times when other kinds of
+capital flows experience fluctuations and then offer regular source of foreign currency
+into the receiving country economy.
+Data from six WAMZ countries from 1960 to 2021 would be used to investigate the impact
+of remittances on real exchange rates and net exports.
+Net exports will require the instruments to address endogeneity of worker’s remittances
+and the instrumental variables are: weighted average per capita GNI, unemployment rate
+and real interest rate of remittance sending countries
+Model
+We use a panel of 6 countries in WAMZ to analyze how workers’ remittances affect real
+exchange rate and net exports. We estimate the relationship and can be written as:
+Εit = β0 + β1Rit + β2Iit + β3OPit + β4Xit + β5CFit + αi + δt + Ɛt
+Where:
+Eit = real exchange rate
+Rit = per capita remittances received by country I at year t
+Iit = Per capita income
+TOPit = Trade Openness = (import + export/GDP)
+Xit = ratio of government expenditure to GDP
+CFit = Capital flow (FDI + foreign aid)
+δt= time fixed effect
+αi = country fixed effect
+Ɛit = Error term
+ε = Error term
+Based on apriori expectations, we expect that:
+β1 > 0, β2 > 0, β3 > 0, β4 </> 0, β5> 0
+The real exchange rate for the country I at time t is defined as
+Εit = eit x Pus/Pit
+Where:
+Journal of Applied Economics and Business
+13
+eit=nominal exchange rate
+Pit = price index
+Pus = US price
+Price index can be the GDP deflator or CPI.
+Estimation techniques
+The OLS regression technique will be used to analyze the data. Stationary tests,
+heteroskedasticity, Augmented Dickey-Fuller unit root tests will be applied.
+Additionally, Fixed effect, cointegration and stability tests will be applied. Descriptive
+statistics and diagnostic testing such as the Multicollinearity and Pearson correlation test
+will be implemented in this study.
+ANALYSIS, INTERPRETATION AND DISCUSSION OF RESULTS
+Real exchange rate descriptive statistics
+TABLE 1. REAL EXCHANGE RATE DESCRIPTIVE STATISTICS
+Sierra Leone Nigeria Liberia Guinea Ghana The Gambia
+Mean 169.0279 147.3131 360.3637 265.9615 358.8717 170.8867
+Median 142.6261 133.1625 356.9780 268.7895 141.7449 201.2114
+Maximum 561.1871 536.9107 414.8943 301.6783 3053.589 269.8880
+Minimum 91.35220 49.77631 304.7840 213.8970 68.18191 72.75780
+Standard
+Deviation
+92.86049 94.80168 40.06086 33.39289 474.2842 57.61883
+Skewness 2.531822 2.327921 0.273207 -0.503789 3.631547 -0.358573
+Kurtosis 9.589486 8.644007 1.693035 1.680806 19.26431 1.838800
+Jarque-Bera 181.2873 140.5206 5.267653 7.233154 832.8608 4.889546
+Probability 0.000000 0.000000 0.071803 0.026875 0.000000 0.086746
+Sum 10648.76 9280.723 22702.91 16755.58 22608.92 10765.86
+Sum Sq Dev 534630.4 557216.3 99502.11 69135.29 13946619 205835.6
+Observations 63 63 63 63 63 63
+Source: Researcher’s computation from WDI data
+The average real exchange rate of Liberia is the highest among the six countries of WAMZ
+for the 63-year period while Nigeria recorded the lowest average real exchange rate
+among the WAMZ countries for the same period (Table 1). Ghana recorded the highest
+maximum value for the real exchange rate while Nigeria recorded the least minimum
+value for the real exchange rate. The kurtosis and skewness statistics measure the
+departure from symmetry and peaked ness of the distribution respectively. The data
+collected show that the positive skewness is quantitatively high, and this justifies the high 
+Collins K Anosike
+The Impact of Remittances on Exchange Rates in West African Monetary Zone (WAMZ)
+14  
+level of the peak value. Additionally, the high real exchange rate for Liberia implies that
+Liberia is losing its competitive edge more and the exports are more expensive while the
+imports are less expensive. The increase in productivity tend to lead to lower production
+costs and lead to a rise in the real exchange rate. On the other hand, Nigeria with the
+lowest real exchange rate implies that it gains some competitive edge, the exports are
+cheaper while the imports are more expensive. Nketiah et al (2019) posit that increase in
+capital flows is a function of stock of assets and liabilities in the economy and increase in
+net foreign assets leads to changes in the real equilibrium exchange rate. Remittance
+affects the real exchange rate through their impact on growth. Even though the impact
+on growth is uncertain from our results, Lopez et al., (2007) assert that remittances lead
+to a significant appreciation in real exchange rate.
+Panel data regression
+The panel data regression involves five explanatory variables and the dependent variable
+of real exchange rate. Regression was done for three periods to enable us to compare the
+impact on the variable during the various changing times. The first period is the preWAMZ period (1960-2000), the second period is during the WAMZ (2001-2022) and the
+third period is the entire period of study (1960-2022).
+RERit = α + β1PCIit + β2PCRit + β3GFCEit + β4CFit + β5TOPit + δt + αi + μt
+Pre-WAMZ period
+TABLE 2. PRE-WAMZ PERIOD
+Variable Coefficient (Standard Error) P-value
+Dependent Variable: Real Exchange rate
+Per capita Income 0.070543
+(0.077099)
+0.3611
+Per capita Remittance received 9.659054
+(3.644316)
+0.0086
+Government Consumption Expenditure -0.823915
+(2.516104)
+0.7436
+Capital Inflow -2.25E-07
+(6.80E-08)
+0.0011
+Trade Openness -0.466055
+(0.292587)
+0.1125
+Constant 302.1122
+R-squared 0.064075
+Adjusted R-squared 0.044577
+RERit = 302.1122 + β10.070543 + β29.659054 + β3-0.823915 + β4-2.25E-07 + β5-0.466055 +
+δt + αi + μt
+Journal of Applied Economics and Business
+15
+In the pre-WAMZ era, the variables per capita remittance and capital inflow were
+statistically significant while the variables per capita income, Gross final consumption
+expenditure and trade openness were not significant (Table 2). This implies that we reject
+the null hypothesis and conclude that Remittances have significant impact on real
+exchange rate for the variables per capita remittance and capital flow while we fail to
+reject the null hypothesis and conclude that remittances have no effect on exchange rate
+for the variables Per capita income, Gross final consumption expenditure and Trade.
+Also, for per capita remittance, one unit increase will result in an increase in the real
+exchange rate by 9.65905 while holding other variables constant. From the result, the
+positive relationship between per capita remittance and real exchange rate is in
+consonance with Economic theory. An increase in remittance causes an appreciation of
+the exchange rate, increase in the capital account and external imbalance. Giving the
+increasing population to explain the per capita remittance, the remittances received will
+lead to appreciation of the real exchange rate. For the capital inflow, the negative
+relationship in the result is not in consonance with economic theory. This means that if
+the capital inflow increases by one unit, then the real exchange rate decreases by 2.25E -
+07 while holding other variables constant. An increase in capital inflow leads to currency
+appreciation, but a decrease in net exports and aggregate demand. Capital inflow
+produces high demand for both tradeable and non-tradeable goods which leads to higher
+relative prices of non- tradeable goods and appreciation of the real exchange rate.
+During WAMZ
+TABLE 3. DURING WAMZ
+Variables Coefficient (Standard Error) P-value
+Dependent Variable: Real Exchange rate
+Per capita Income -0.017728
+(0.016211)
+0.2762
+Per capita remittances received 0.035792
+(0.167035)
+0.8307
+Government Consumption Expenditure 13.00792
+(1.696217)
+0.0000
+Capital Inflow -2.35E-09
+(5.27E -09)
+0.6563
+Trade Openness 0.010748
+(0.107344)
+0.9204
+Constant 43.94366
+R-squared 0.421618
+Adjusted R-squared 0.398666
+Collins K Anosike
+The Impact of Remittances on Exchange Rates in West African Monetary Zone (WAMZ)
+16  
+RERit = 43.94366 + β1-0.017728 + β20.035792 + β313.00792 + β4-2.35E-09 + β50.010748 +
+δt + αi + μt
+The five explanatory variables are per capita income, per capita remittance, Government
+final consumption expenditure, capital inflow and trade openness (Table 3). Among
+these, only the Government final consumption expenditure is statistically significant
+while the remaining four variables are not significant. The Government final
+consumption expenditure is highly statistically significant; hence we reject the null
+hypothesis and conclude that the variable has a significant impact on the real exchange
+rate. Since the variables per capita income, per capita remittance, capital inflow and trade
+openness are not significant, we conclude that they do not have impact on the real
+exchange rate during WAMZ. If the Government consumption expenditure increases by
+one unit, we expect the real exchange rate to increase by 13.00792 while holding other
+variables constant. While Government purchases and expenditure causes the real
+exchange rate to appreciate, increase in consumption in developing countries especially
+WAMZ leads to depreciation of the real exchange rate.
+Entire period
+TABLE 4. ENTIRE PERIOD
+Variable Coefficient (Standard Error) P-value
+Dependent variable: Real
+Exchange rate
+Per Capita Income -0.025783
+(0.037833)
+0.4960
+Per capita remittance received -0.454901
+(0.434583)
+0.2959
+Government consumption
+Expenditure
+1.476916
+(1.866428)
+0.4293
+Capital Flow -1.71E -08
+(1.42E-08)
+0.2285
+Trade Openness 0.143473
+(0.150347)
+0.3406
+Constant 248.7431
+R-Squared 0.057581
+Adjusted R-squared 0.044914
+RERit = 43.94366 + β1-0.036001 + β2-0.621258 + β30.372466 + β4-1.46E-08 + β5-0.131158 +
+δt + αi + μt
+The five independent variables witnessed changes in the three periods of study (Table 4).
+For the per capita income, the coefficient was negative in the entire period, positive in the 
+Journal of Applied Economics and Business
+17
+pre-WAMZ period and negative in the during the WAMZ period. For the per capita
+remittance, the coefficient was negative for the entire period, positive for the pre-WAMZ
+period and positive for the during the WAMZ period. For the Government consumption
+expenditure, the coefficient is positive during the entire period, negative during the preWAMZ period and positive during the WAMZ period. For the Capital flow, the
+coefficient was negative for the entire period, pre-WAMZ and during WAMZ period, but
+statistically significant for only the pre-WAMZ period. For the Trade openness, the
+coefficient was positive in the entire period, negative in the pre-WAMZ period and
+positive in the during the WAMZ period.
+Further, from the regression result for the entire period, none of the five explanatory
+variables were statistically significant, hence we fail to reject the null hypothesis and
+conclude that all of them do not have significant impact on the real exchange rate. For the
+per capita income, if it increases by one unit of the dollar, this leads to a decrease in the
+real exchange rate by 0.0225783 while holding other variables constant. Per capita income
+is a measure of economic growth, and a high real exchange rate stimulates economic
+growth. For the per capita remittance, a one unit increase in the per capita remittance
+received leads to a decrease in the real exchange rate by 0.454901 while holding other
+variables constant. Economic theory posits that an increase in per capita remittances lead
+appreciation of the real exchange rate, increase in capital account and external imbalance.
+For the Gross final consumption expenditure, an increase of one unit is expected to
+increase the real exchange rate by 1.476916 while holding other variables constant.
+Increase in government spending stimulates the aggregate demand and causes some real
+GDP growth and real exchange rate appreciation. The Government expenditure can
+influence the real exchange rate potentially through the resource withdrawal channel and
+the consumption tilting channel.
+The capital flow has a negative relationship with the real exchange rate for the entire
+period. If the capital inflow increases by one unit, then the real exchange rate decreases
+by 1.71E-08 while holding other variables constant. An increase in capital inflow leads to
+real exchange rate appreciation and a reduction in net exports and aggregate demand.
+Capital inflow produces a higher demand for both tradeable and non-tradeable goods
+and then higher relative price for non-tradeable goods. Capital inflow increases the
+domestic resources needed to produce non-tradeable goods needed to meet the increase
+in demand. Also, the trade openness has a positive relationship with the real exchange
+rate and a one unit increase in the trade openness is expected to increase the real exchange
+rate by 0.143473 while holding other variables constant. An increase in the trade openness 
+Collins K Anosike
+The Impact of Remittances on Exchange Rates in West African Monetary Zone (WAMZ)
+18  
+leads to absorption of more real shocks by the currency market which affects nominal
+shocks. In an open economy, fluctuations in the exchange rate leads to expectations of a
+depreciation on the national currency.
+Correlations
+The Pearson correlation test is important because it measures the strength and direction
+of linear relationship between two variables. It is used to evaluate the strength of
+association between data and variables. The variables have positive and negative
+association present among the six variables including real exchange rate.
+TABLE 5. CORRELATIONS
+Real
+Exchange
+rate
+Per capita
+remittance
+Per
+capita
+Income
+Trade
+Openness
+Government
+final
+consumption
+expenditure
+Capital
+Inflow
+Real Exchange
+rate
+Pearson
+Correlation 1 -.183 -.215 .081 .104* -.210**
+Sig (2-tailed) <.001 <.001 .115 .044 <.001
+Per capita
+remittance
+Pearson
+Correlation -.183** 1 .707* .108* -.090 .621**
+Sig (2 -
+tailed) <.001 <.001 .036 .082 <.001
+Per capita
+Income
+Pearson
+Correlation -.215** .707** 1 -.158** -.252** .775*
+Sig (2-tailed) <.001 <.001 .002 <.001 <.001
+Trade
+Openness
+Pearson
+Correlation .081 .108* -.158* 1 .345** -.114*
+Sig (2-tailed) .115 .036 .002 <.001 .026
+Government
+final
+consumption
+expenditure
+Pearson
+Correlation .104* -.090 -.252** .345** 1 -.189**
+Sig (2-tailed) .044 .082 <.001 <.001 <.001
+Capital Inflow Pearson
+Correlation -.210** .621** .775** -.114* -.189** 1
+Sig (2-tailed) <.001 <.001 <.001 .026 <.001
+N 378 378 378 378 378 378
+Real exchange rate has relationship with all the variables (Table 5). Real exchange rate
+has perfect positive relationship with itself, the relationship with per capita remittance is
+considered as negligible correlation, negative and there is insufficient statistical evidence
+that the correlation between two variables is significant. Given that there exists a negative
+correlation between real exchange rate and per capita remittance, it implies that both
+variables move in opposite direction and do not move in tandem. When the real exchange
+rate increases, the per capita remittances decreases and vice versa. Similarly, the real
+exchange rate has a negative relationship with the per capita income, shows negligible 
+Journal of Applied Economics and Business
+19
+correlation and there is insufficient statistical evidence that the correlation between two
+variables is significant. The negative relationship implies that when the real exchange
+rate increases, then the per capita income decreases and vice versa.
+Additionally, the trade openness has a positive relationship with the real exchange rate.
+It has negligible correlation and there is insufficient statistical evidence that correlation
+between two variables is significant. The positive relationship implies that the real
+exchange rate and trade openness move in tandem; if the real exchange rate increases,
+then the trade openness also increases and if it decreases, the trade openness also
+decreases. The real exchange rate has a positive relationship with the Government final
+consumption expenditure. The correlation is negligible and there is insufficient statistical
+evidence that the correlation between the two variables is significant. The positive
+relationship between the real exchange rate and Government final consumption
+expenditure implies that both variables move in tandem with each other and as one
+variable decreases, the other variable also decreases.
+For the capital flow, it has a negative correlation with the real exchange rate. The
+correlation is negligible and there is insufficient statistical evidence that the correlation
+between the two variables is significant. The negative correlation implies a negative
+relation between the capital flow and the real exchange rate, and they do not move in
+tandem. If the capital flow increases, then the real exchange rate decreases and if the real
+exchange rate increases, then the capital flow decreases.
+Overall, the variables have 36 points of correlation with one another, and the correlations
+are either positive or negative. Apart from the perfect correlations present, the highest is
+the correlation between capital inflow and per capita income. The correlation coefficient
+is 0.775 and it suggests that there is a high positive correlation between the capital inflow
+and per capital income for the 63-year period in WAMZ. Both variables move in tandem
+and have a high positive association. In the entire correlation result, there is no
+multicollinearity. This is because the correlation coefficients are less than 0.8.
+Model summary
+TABLE 6. MODEL SUMMARY
+Model R R Square Adjusted R Square Std Error of the Estimate
+1 .240 .058 .045 215.94319096
+From the model (Table 6), it shows that the model does not have good fitness for the
+entire period. The low R square of 0.058 means that only 5.8% of the variations in the real 
+Collins K Anosike
+The Impact of Remittances on Exchange Rates in West African Monetary Zone (WAMZ)
+20  
+exchange rate is explained by per capita income, per capita remittance, Government final
+consumption expenditure, capital inflow and trade openness while the remaining 94.2%
+of the variation is unaccounted for. The standard error of 215.943 is high. The standard
+error is intuitively the standard deviation of a sampling distribution, and it depicts how
+much disparity there is likely to be between the point of estimates obtained from a sample
+relative to the true population of the mean. From the high value, it is obvious that that
+the disparity is quite large.
+ANOVA
+TABLE 7. ANOVA
+Model Sum Squares df Mean Square F Sig
+1 Regression 1059873.262 5 211974.652 4.546 <.001
+Residual 17346903.760 372 46631.462
+Total 18406777.022 377
+Note:
+1. Dependent Variable: Real Exchange rate
+2. Predictors: (Constant), Trade openness, per capita remittance, Government final consumption
+expenditure, capital inflow, Per capita income
+The regression shows that there exists a relationship between real exchange rate and per
+capital remittance, real exchange rate and per capita income, real exchange rate and
+Government final consumption expenditure, real exchange rate and capital inflow, and
+real exchange rate and trade openness. The ANOVA result (Table 7) is important because
+it informs us that there are significant differences between the means of three or more
+groups. Also, the test result is statistically significant, and it implies that at least one
+group’s mean differs from others. The ‘between’ variance is much larger than the ‘within’
+variance and the factor level impacts the mean of the distribution of the variables. The
+test shows that F-test and adjusted R-squared in the model specification provided
+evidence that the explanatory variables are jointly not equal to zero, but not a good fit of
+the model.
+Coefficients
+The coefficients and their values tell us the relationship each value has with the
+dependent variable, the real exchange rate (Table 8). There is a negative relationship
+between the real exchange rate and per capita remittance, capital inflow and per capita
+income. There is a positive relationship between real exchange rate and the Government
+final consumption expenditure and trade openness. From the result, none of the variables
+is statistically significant. This means that none of the variables is a useful predictor of
+the real exchange rate. Also, the VIF statistics is an indicator to inform us of the presence
+of multicollinearity or not. Since (Variance Inflation Factor) VIF of 5-10 signifies 
+Journal of Applied Economics and Business
+21
+multicollinearity, there is NO multicollinearity in the results. This is because all the VIF
+statistics are less than 5.
+TABLE 8. COEFFICIENTS
+Model Unstandardized
+B
+Coefficients Std
+Error
+Standardized
+Coefficient Beta t Sig Statistics
+VIF
+Constant 248.743 29.980 8.297 <.001
+Per capita
+remittance -.455 .435 -.080 -1.047 .296 2.286
+Government
+consumption
+expenditure
+1.477 1.866 .043 .791 .429 1.190
+Capital
+Inflow -1.714E-8 .000 -.097 -1.206 .229 2.573
+Per capita
+Income -.026 .038 -.064 -.681 .496 3.431
+Trade
+Openness .143 .150 .054 .954 .341 1.250
+Note: Dependent Variable: Real Exchange rate
+The no multicollinearity in the results means that the independent variables are not
+highly correlated with each other. This means that each predictor makes some important
+contributions in explaining the outcome. A significant amount of information present in
+one predictor is not contained in other predictors. The statistical significance of
+independent variables is NOT undermined.
+How has the remittances impacted the exchange rate and economy of WAMZ?
+From the results, the correlation coefficient between the predictors and the Variance
+Inflation Factor (VIF) is considered the most used method by statisticians to test
+multicollinearity. The values range between 1.19 and 3.43 leads to the conclusion where
+we fail to reject the null hypothesis of no multicollinearity. There is no multicollinearity,
+hence the statistical inferences are reliable, and the independent variables interact and
+affect each other. The Pearson correlation test did show that there exist relationships
+between real exchange rate and all five independent variables chosen in the model. The
+relationship was either positive or negative. Per capita remittance variable is proxy for
+the remittance, and it shows a negative relationship with the real exchange rate. There is
+negligible correlation, and both variables move in opposite direction. An increase in per
+capita remittance leads to a decrease in the real exchange rate.
+Since the creation of WAMZ in 2000, exchange rate stability has been one of the major
+goals of the monetary union. Many WAMZ and Sub-Saharan African countries have 
+Collins K Anosike
+The Impact of Remittances on Exchange Rates in West African Monetary Zone (WAMZ)
+22  
+exchange rate stability as one of their monetary policy objectives. The creation of WAMZ
+has led to better coordination and more inflow of FDI and remittances from migrants
+who are citizens but live abroad. The remittances and capital inflow has led to the
+appreciation of the real exchange rate in the member countries. Hence, there has been a
+huge increase in remittance to member countries which have served as sources of
+livelihood for many families and an important component of the GDP of these countries.
+The increase in remittances has been driven by having many WAMZ citizens abroad,
+increased interest/request by home governments, altruism from migrants who live and
+work abroad. The increase in remittance, which is a component of inflows into the
+economy has increased consumption in the economy, led to the appreciation of the real
+exchange, increased the domestic economy, but have not achieved exchange rate stability.
+CONCLUSION
+International migrants are assiduous in their host countries and save a portion of their
+income in savings which they remit a part of their savings to their families back home for
+either support or investment. Remittances are expected to help improve the economy of
+remittance-receiving countries, but it is not always true. Remittances have the potential
+of appreciating the real exchange rate of the remittance-receiving countries, hence
+weakening the competitiveness of their economy, and reducing their exports. We
+discover that for all the WAMZ countries, an average of 10% increase in per capita
+remittance will lead to 4.54% reduction (appreciation) in the real exchange rate. The total
+per capita remittance received by WAMZ countries rose from $ 115 million in 1960 to $
+26.5 billion in 2022.
+Moreover, the study examined the impact of remittances on the exchange rate of the
+WAMZ countries. To analyze the impact of remittances, the ordinary least square method
+was chosen. The study used time series data and panel data regression for the five
+explanatory variables that influenced the exchange rate over the 63-year period.
+Correlation, Multicollinearity and ANOVA tests were done, and we found that many of
+the variables possessed negligible correlation. Among the explanatory variables, some
+have a positive relationship with the real exchange rate while others have a negative
+relationship. The correlation result shows that many were negligible correlation except
+for per capita income/capital flow, per-capita remittance/per capita income which
+recorded a high positive correlation, and few others have moderate and low correlation.
+The F test and adjusted R squared in the model specification show evidence that the
+explanatory variables are jointly not equal to zero and does not have goodness of fit for
+the entire period.
+Further, the study analyzed the impact using three periods namely: Pre-WAMZ era
+(1960-2000), during WAMZ era (2001-2022) and the entire period (1960-2022). The 
+Journal of Applied Economics and Business
+23
+regression results of the variables in the three period differ. In the pre-WAMZ period, the
+per capita remittance and capital inflow had significant impact on the real exchange rate.
+In the during the WAMZ era, the Government final consumption expenditure was
+statistically significant and had an impact on the real exchange rate. In the entire period,
+none of the variables were significant. The analysis shows that a long run relationship
+(co-integration) exists among the variables in the entire period. The pre-WAMZ period
+does not show long run relationship while the during the WAMZ period shows long run
+relationship for some of the variables.
+The research further real that in the entire period, the per capita income, per capita
+remittance, and capital inflow result in the appreciation of the real exchange rate in
+WAMZ. The negative relationship with the real exchange rate shows that the variables
+move in the opposite direction with the real exchange rate and such leads to appreciation.
+In the pre-WAMZ period, the government consumption expenditure and capital inflow
+are the variables that propelled the real exchange rate appreciation while in the during
+the WAMZ period, the per capita income and capital inflow caused the appreciation of
+the real exchange rate. The Granger causality tests, the Vector Autoregressive (VAR) and
+the Unit root tests reveal that some variables were significant in their impact on the real
+exchange rate.
+RECOMMENDATIONS
+The analysis reveal important issues and we recommend the following:
+1) Need for more understanding and emphasis on the economic importance of
+remittances in the WAMZ member countries’ economies.
+2) Need to study the consequences of remittance on the export sector because of real
+exchange rate appreciation that emanates from increasing flows of remittances.
+3) The increasing level of remittances has attracted a lot of consideration in WAMZ
+especially in the last two decades, therefore this calls for new opportunities. More
+opportunities for investment expenditure on capital goods which will boost
+income, stimulate production, and increase exports.
+4) Need for governments of WAMZ member countries to create investment vehicles
+such as diaspora bond to encourage the citizens of WAMZ member countries who
+are immigrants working abroad to contribute towards national development.
