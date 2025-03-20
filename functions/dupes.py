@@ -29,7 +29,7 @@ def merge_dupes(dupes, flag_dupes):
     flagged = []
     
     for i in range(len(dupes)):
-        if(dupes_format[i] == dupes_flag_format[i].text and dupes_flag_format[i].flag ):
+        if(dupes_format[i] == dupes_flag_format[i].text and dupes_flag_format[i].flag):
             flagged.append(dupes_format[i])
             
     return flagged
@@ -39,3 +39,9 @@ def get_flagged_duplicates(texts, metadata, client, occur=3, min_len=10):
     flag_dupes = check_flag_from_dupes(dupes, metadata, client)
     # print(len(dupes), len(flag_dupes.dupes))
     return merge_dupes(dupes, flag_dupes)
+
+# is not really dangerous, to be fair ¯\_(ツ)_/¯
+def get_flagged_duplicates_danger(texts, metadata, client, occur=3, min_len=10):
+    dupes = get_duplicates(texts, occur, min_len)
+    flag_dupes = check_flag_from_dupes(dupes, metadata, client)
+    return [ dupe.text for dupe in flag_dupes.dupes if dupe.flag ]

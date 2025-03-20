@@ -8,6 +8,7 @@ def llm(client, text, system_prompt, format):
             "role": "user",
             "content": text
         }],
-        response_format=format
+        response_format=format,
+        max_tokens=2400
     )
     return response.choices[0].message.content
