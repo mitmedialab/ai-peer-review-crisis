@@ -1,5 +1,7 @@
 from pydantic import BaseModel
 
+"|-------------------------[Paper Anonymization]-------------------------|"
+
 class MetadataModel(BaseModel):
     title: str
     authors: str
@@ -99,88 +101,37 @@ TEXT TO ANALYZE:
 ---
 """
 
-# 6. **Document Structure Elements to Examine**:
-#    - Document boundaries (first and last pages especially)
-#    - ALL superscript/asterisk-marked text
-#    - ALL footnotes regardless of content
-#    - Text around any [REDACTED] markers
-#    - Full paragraphs containing ANY identifying details
+"|-------------------------[Paper Evaluation]-------------------------|"
 
+def top5():
+   return """In your capacity as a reviewer for one of the most prestigious and highly selective top-5 economics journals (such as Econometrica, Journal of Political Economy, or The Quarterly Journal of Economics), please determine whether you would recommend this submission for publication using the following 7-point scale: 1 = Definite Reject: Fatal flaws in theory/methodology, insufficient contribution, or serious validity concerns that make the paper unsuitable for the journal, 2 = Reject with Option to Resubmit: Significant issues with theory, methodology, or contribution, but potentially salvageable with major revisions and fresh review, 3 = Major Revision: Substantial changes needed to theory, empirics, or exposition, but the core contribution is promising enough to warrant another round, 4 = Minor Revision: Generally strong paper with few small changes needed in exposition, robustness checks, or literature discussion, 5 = Very Minor Revision: Excellent contribution needing only technical corrections or minor clarifications, 6 = Accept As Is: Exceptional contribution ready for immediate publication"""
 
-# ```json
-# {
-#   "removed": [
-#     "complete text segment 1",
-#     "complete text segment 2",
-#     "complete text segment 3",
-#     "..."
-#   ]
-# }
+def analysis():
+    return """Please evaluate the attached research according to the following criteria.
 
-anonymize_check_prompt = """# Anonymization Verification System
+ORIGINALITY
+"In your capacity as an editorial board/reviewer for this paper, please rate this paper’s originality. Note that papers with high originality typically address questions of broad, foundational importance or propose groundbreaking methodologies. They often set new standards in the field or open new research avenues. 
+ (0 = Completely unoriginal, …, 10 = Completely original)”
 
-## Task
-Verify whether a research paper has been properly anonymized by checking for any remaining identifying information.
+RIGOR
+"In your capacity as an editorial board/reviewer for this paper, please rate this paper’s rigor. Note that papers that are rigorous are those in which the data handling and analysis process is highly transparent, with all steps carefully documented (0 = Not at all rigorous, …, 10 = Extremely rigorous)”
 
-## Approach
-1. Carefully scan the entire document for any identifying information that may have been missed
-2. Pay special attention to common areas where identifying details might remain
-3. Report all instances of remaining identifying information
+SCOPE
+"In your capacity as an editorial board/reviewer for this paper, please rate this paper’s scope. Note that papers that have a narrow scope are those that focus on narrower questions or less generalisable findings, which, while still valuable, may not have the same broad impact (0 = Very narrow scope, …, 10 = Very wide scope)”
 
-## Types of Information to Check For
-1. **Author Information**:
-   - Names or initials of authors
-   - Email addresses or contact information
-   - Personal pronouns in specific contexts (e.g., "our previous work")
-   - Affiliation details (universities, departments, research groups)
+IMPACT
+"In your capacity as an editorial board/reviewer for this paper, please rate this paper’s impact. Note that papers with high impact have clear implications for public policy or major economic debates, making their findings influential beyond academia. (0 = Minimal impact, …, 10 = Maximum impact)”
 
-2. **Publication Details**:
-   - Journal names, volume numbers, issue numbers
-   - DOI, ISSN, ISBN information
-   - Publication dates and years
-   - Page numbers or publication identifiers
-
-3. **Funding Information**:
-   - Grant numbers or project codes
-   - Funding agency names
-   - Financial acknowledgments
-
-4. **Institutional References**:
-   - University names or abbreviations
-   - Research center or laboratory names
-   - Geographical indicators that could identify authors
-
-5. **Acknowledgments**:
-   - Editor names or reviewer acknowledgments
-   - Colleague names or acknowledgments
-   - Conference names where work was presented
-   
-7. **ALL Classification and indexing systems**:
-   - Any discipline-specific classification codes (e.g., JEL, MSC, PACS, ACM)
-   - Subject category labels, indexing terms, and standardized terminology lists
-   - Keywords sections and ALL discipline-specific taxonomies
-   - Any formal classification, categorization, or indexing information
-
-6. **Special Areas to Inspect**:
-   - Check text around [REDACTED] markers for partial redactions
-   - Look for footnotes that might contain identifying information
-   - Examine headers and footers for journal information
-   - Inspect license and copyright statements
-
-## Response Format
-Return a JSON object with two fields:
-1. "is_anonymous": Boolean indicating whether the paper is fully anonymized
-2. "remaining_identifiers": Array of strings containing all found identifying information
-
-```json
-{
-  "is_anonymous": false,
-  "remaining_identifiers": [
-    "Author name found in paragraph 3: 'Dr. Smith'",
-    "University affiliation in footnote: 'University of Example'",
-    "Journal information in header still visible: 'Journal of Science, Vol. 10'"
-  ]
-}
-
-PAPER METADATA: {metadata}
+WRITTEN_BY_AI
+"Please determine whether this paper was written by AI (0 = Definitely human-written, …, 10 = Definitely AI-generated)”
 """
+
+class Top5Model(BaseModel):
+    score: int
+    
+class AnalysisModel(BaseModel):
+    originality: int
+    rigor: int
+    scope: int
+    impact: int
+    written_by_ai: int
