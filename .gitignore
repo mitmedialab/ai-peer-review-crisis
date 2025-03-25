@@ -1,6 +1,7 @@
 .env
 Journals
 output
+output-fake
 dump
 */__pycache__
 .DS_Store
