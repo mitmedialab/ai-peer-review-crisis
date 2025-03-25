@@ -59,7 +59,7 @@ If a particular field cannot be determined from the provided text, respond with 
 def flag(text):
     return """Based on this metadata: f{text}. Check if this excerpt is
 
-1. Non-anonymized (Is the author's name or affiliations directly related to author's institution but not mentioned in a third-party manner)
+1. Non-anonymized (Is the author's name or affiliations directly related to the author's institution but not mentioned in a third-party manner)
 2. Related to journal or publication (title of the paper, journal name, conference name, or publication/download details)
 
 Retain the original order of the list (includes every item) and original text without modification
@@ -85,7 +85,7 @@ Return a JSON object containing only the text segments to remove:
 {{"to_remove": ["exact text string 1", "exact text string 2", ...]}}
 
 ## Important Rules:
-1. Be precise - extract only the exact text to remove, not surrounding content.
+1. Be precise - extract only the exact text to remove, not the surrounding content.
 2. Never modify research content - only identify text for removal.
 3. When in doubt, err on the side of preserving content.
 4. Include formatting/whitespace in your extracted segments exactly as they appear.
