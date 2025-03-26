@@ -126,6 +126,9 @@ WRITTEN_BY_AI
 "Please determine whether this paper was written by AI (0 = Definitely human-written, …, 10 = Definitely AI-generated)”
 """
 
+def relevance(bio=False):
+   return f"""In your capacity as a reviewer for one of the most prestigious and highly selective {"top-5 journals in religion study or art review" if bio else "top-5 economics journals (such as Econometrica, Journal of Political Economy, or The Quarterly Journal of Economics)"}, please determine whether you would see this submission related to the field. Please explain the reason"""
+
 class Top5Model(BaseModel):
     score: int
     
@@ -135,3 +138,7 @@ class AnalysisModel(BaseModel):
     scope: int
     impact: int
     written_by_ai: int
+    
+class RelevanceModel(BaseModel):
+    relevance: bool
+    reason: str
