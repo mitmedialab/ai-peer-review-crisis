@@ -106,7 +106,7 @@ To reproduce the analysis:
 2. Install required dependencies (list of requirements to be added)
 3. Save research papers to the folder `Journals`
 4. Run notebooks in numerical order (1-5)
-
+   - For `generate-openai.ipynb`, modify the variables `model` to change the model being used
    - For 3. and 4., each of the notebook generates a csv file containing the evaluation
      - For 3. use `3. merge.ipynb` to merge 4 csvs together
      - For 4. use `3. merge.ipynb` to merge 4 csvs together, then use `4. reshape` to reshape the format
