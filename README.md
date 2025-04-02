@@ -141,6 +141,7 @@ If you use this code or data in your research, please cite:
 ## Contact
 
 For questions about the code or data, please contact:
-patpat[at]mit.edu
-nick.powdthavee[at]ntu.edu.s
-pub[at]from.pub
+
+- patpat[at]mit.edu
+- nick.powdthavee[at]ntu.edu.sg
+- pub[at]from.pub
